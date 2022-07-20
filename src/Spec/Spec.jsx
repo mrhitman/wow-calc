@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useContext} from "react";
+
+import {WowCalculatorContext} from "../store";
 import groupBy from "lodash/groupBy";
 import times from "lodash/times";
 
@@ -32,13 +34,21 @@ const spec = [
 ];
 
 function Spec() {
+  const context = useContext(WowCalculatorContext);
+
   return (
     <div className="spec">
       {Object.values(groupBy(spec, "row")).map((row) => {
         const grouped = groupBy(row, "col");
         return new times(4, (n) =>
           grouped[n] ? (
-            <div className="skill" key={n}>
+            <div
+              className="skill"
+              key={n}
+              onClick={() => {
+                context.dispatch({action: "ADD_POINT", payload: grouped[n]});
+              }}
+            >
               <img
                 src="https://wow.zamimg.com/images/wow/icons/medium/class_shaman.jpg"
                 alt=""
