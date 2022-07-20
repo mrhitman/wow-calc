@@ -36,9 +36,20 @@ function Spec() {
     <div className="spec">
       {Object.values(groupBy(spec, "row")).map((row) => {
         const grouped = groupBy(row, "col");
-        return new times(4, (n) => (
-          <div className={grouped[n] ? "skill" : "empty"} key={n} />
-        ));
+        return new times(4, (n) =>
+          grouped[n] ? (
+            <div className="skill" key={n}>
+              <img
+                src="https://wow.zamimg.com/images/wow/icons/medium/class_shaman.jpg"
+                alt=""
+                width={36}
+                height={36}
+              />
+            </div>
+          ) : (
+            <div className="empty" />
+          )
+        );
       })}
     </div>
   );

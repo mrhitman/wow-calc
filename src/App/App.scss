@@ -14,11 +14,16 @@
 .skill {
   display: block;
   margin: 5px;
-  background-image: url(./frame.png);
+  background-image: url(../images/icon-meta/medium/default.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 40px;
   height: 40px;
+
+  :hover {
+    background-image: url(../images/icon-meta/medium/gold.png);
+    border: 1px solid white;
+  }
 }
 
 .empty {
