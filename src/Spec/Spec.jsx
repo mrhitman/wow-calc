@@ -26,13 +26,13 @@ const spec = [
   {id: 17, name: "bar", row: 5, col: 2, maxPoints: 2},
   {id: 18, name: "bar", row: 6, col: 1, maxPoints: 5},
   {id: 19, name: "bar", row: 6, col: 2, maxPoints: 5},
-  {id: 19, name: "bar", row: 7, col: 1, maxPoints: 5},
-  {id: 20, name: "bar", row: 7, col: 2, maxPoints: 3},
-  {id: 20, name: "bar", row: 8, col: 1, maxPoints: 5},
-  {id: 21, name: "bar", row: 8, col: 2, maxPoints: 5},
-  {id: 21, name: "bar", row: 9, col: 1, maxPoints: 4},
-  {id: 22, name: "bar", row: 9, col: 2, maxPoints: 5},
-  {id: 23, name: "bar", row: 10, col: 2, maxPoints: 1},
+  {id: 20, name: "bar", row: 7, col: 1, maxPoints: 5},
+  {id: 21, name: "bar", row: 7, col: 2, maxPoints: 3},
+  {id: 22, name: "bar", row: 8, col: 1, maxPoints: 5},
+  {id: 23, name: "bar", row: 8, col: 2, maxPoints: 5},
+  {id: 24, name: "bar", row: 9, col: 1, maxPoints: 4},
+  {id: 25, name: "bar", row: 9, col: 2, maxPoints: 5},
+  {id: 26, name: "bar", row: 10, col: 2, maxPoints: 1},
 ];
 
 function Spec() {

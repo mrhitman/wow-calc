@@ -3,9 +3,10 @@ import {useParams} from "react-router-dom";
 import Spec from "../Spec/Spec";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
+import {getAvailablePoints} from "../store/tools";
 
 function ClassSpecs() {
-  const {dispatch} = useContext(WowCalculatorContext);
+  const {state, dispatch} = useContext(WowCalculatorContext);
   const {className} = useParams();
 
   useEffect(() => {
@@ -13,10 +14,13 @@ function ClassSpecs() {
   }, [className, dispatch]);
 
   return (
-    <div className="tree">
-      <Spec />
-      <Spec />
-      <Spec />
+    <div>
+      <div>{getAvailablePoints(state)}</div>
+      <div className="tree">
+        <Spec />
+        <Spec />
+        <Spec />
+      </div>
     </div>
   );
 }

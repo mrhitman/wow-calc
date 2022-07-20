@@ -18,15 +18,15 @@ export function reducer(state, action) {
 }
 
 export function addPoint(state, payload) {
-  return { ...state, points: [...state.points, payload] };
+  return { ...state, points: { ...state.points, [payload.id]: (state.points[payload.id] ?? 0) + 1 } };
 }
 
 export function removePoint(state, payload) {
-  return { ...state, points: state.points.filter(p => p !== payload) };
+  return { ...state, points: { ...state.points, [payload.id]: Math.max(0, (state.points[payload.id] ?? 0) - 1) } };
 }
 
 export function resetSpec(state) {
-  return { ...state, points: [] };
+  return { ...state, points: {} };
 }
 
 export function selectHero(state, payload) {

@@ -5,7 +5,7 @@ export const WowCalculatorContext = React.createContext();
 function getInitialState() {
   return {
     selectedHero: null,
-    points: [],
+    points: {},
   }
 }
 export function useState() {

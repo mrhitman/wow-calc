@@ -3,20 +3,21 @@ import "./Spec.scss";
 import React, {useContext} from "react";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
+import {canAddPoint} from "../store/tools";
 
 export default function Talant({skill}) {
-  const context = useContext(WowCalculatorContext);
-  const points = context.state.points.filter((p) => p === skill);
+  const {state, dispatch} = useContext(WowCalculatorContext);
+  const points = state.points[skill.id];
 
   return (
     <div
       className="skill"
       onClick={() => {
-        if (points.length === skill.maxPoints) {
+        if (!canAddPoint(state, skill)) {
           return;
         }
 
-        context.dispatch({
+        dispatch({
           type: actions.ADD_POINT,
           payload: skill,
         });
@@ -24,7 +25,7 @@ export default function Talant({skill}) {
       onContextMenu={(e) => {
         e.preventDefault();
 
-        context.dispatch({
+        dispatch({
           type: actions.REMOVE_POINT,
           payload: skill,
         });
@@ -35,7 +36,7 @@ export default function Talant({skill}) {
         alt={skill.name}
       />
       <div className="badge">
-        {points.length}/{skill.maxPoints}
+        {points ?? 0}/{skill.maxPoints}
       </div>
     </div>
   );
