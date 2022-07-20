@@ -1,8 +1,8 @@
 import "./ClassPicker.scss";
 
-import React from "react";
-import {classes} from "../store/classes";
 import {Link} from "react-router-dom";
+import React from "react";
+import {classes} from "../store/data/classes";
 
 function ClassPicker() {
   return (
@@ -10,7 +10,10 @@ function ClassPicker() {
       {classes.map((classInfo) => (
         <Link key={classInfo.id} to={`/${classInfo.name.toLowerCase()}`}>
           <div className="hero-wrapper">
-            <img src={classInfo.icon} alt={classInfo.name} />
+            <img
+              src={require(`../images/classes/${classInfo.icon.slice(6)}.jpeg`)}
+              alt={classInfo.name}
+            />
           </div>
         </Link>
       ))}
