@@ -21,7 +21,7 @@ function App() {
       <Router>
         <ClassPicker />
         <Routes>
-          <Route path="/:className" element={<ClassSpecs />} />
+          <Route path=":className" element={<ClassSpecs />} />
           <Route
             path="/"
             element={<Navigate to={`/${classes[0].name}`} replace />}

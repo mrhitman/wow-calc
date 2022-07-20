@@ -1,18 +1,34 @@
 import { actions } from "./actions";
 
 export function reducer(state, action) {
-  global.console.log(action);
+  global.console.log(action, state);
 
   switch (action.type) {
     case actions.ADD_POINT:
-      return state;
+      return addPoint(state, action.payload);
     case actions.UNSET_POINT:
-      return state;
+      return unsetPoint(state, action.payload);
     case actions.RESET_SPEC:
-      return state;
+      return resetSpec(state);
     case actions.SELECT_HERO:
-      return { ...state, selectedHero: action.payload };
+      return selectHero(state, state.payload);
     default:
       return state;
   }
+}
+
+export function addPoint(state, payload) {
+  return { ...state, points: [...state.points, payload] };
+}
+
+export function unsetPoint(state, payload) {
+  return { ...state, points: state.points.filter(p => p !== payload) };
+}
+
+export function resetSpec(state) {
+  return { ...state, points: [] };
+}
+
+export function selectHero(state, payload) {
+  return { ...resetSpec(state), selectedHero: payload };
 }
