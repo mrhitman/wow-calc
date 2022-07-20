@@ -6,8 +6,8 @@ export function reducer(state, action) {
   switch (action.type) {
     case actions.ADD_POINT:
       return addPoint(state, action.payload);
-    case actions.UNSET_POINT:
-      return unsetPoint(state, action.payload);
+    case actions.REMOVE_POINT:
+      return removePoint(state, action.payload);
     case actions.RESET_SPEC:
       return resetSpec(state);
     case actions.SELECT_HERO:
@@ -21,7 +21,7 @@ export function addPoint(state, payload) {
   return { ...state, points: [...state.points, payload] };
 }
 
-export function unsetPoint(state, payload) {
+export function removePoint(state, payload) {
   return { ...state, points: state.points.filter(p => p !== payload) };
 }
 
