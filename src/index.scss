@@ -1,4 +1,33 @@
 body {
+  position: relative;
   margin: 0;
   background-color: grey;
+  position: relative;
+  background-image: url('../src/images/main-backgraubd.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+
+  &::before{
+    content: '';
+    position: absolute;
+    background-color: #16161C;
+    opacity: 0.3;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.container {
+  max-width: 1214px;
+  margin: 0 auto;
+  padding: 80px 50px;
+}
+
+* {
+  box-sizing: border-box;
 }

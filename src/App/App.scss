@@ -3,30 +3,43 @@
 }
 
 .spec {
-  height: 588;
-  width: 224px;
+  width: 282px;
+  height: 812px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 8px;
+  padding: 35px 15px;
+  margin: 15px;
   background-image: url(../images/specs/41.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .skill {
   display: block;
   margin: 5px;
-  background-image: url(../images/icon-meta/medium/default.png);
+
+  width: 42px;
+  height: 42px;
+  border: 2px solid #4E4E4E;
+  border-radius: 8px;
+
+  // background-image: url(../images/icon-meta/medium/default.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 40px;
-  height: 40px;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
 
   :hover {
-    background-image: url(../images/icon-meta/medium/gold.png);
-    border: 1px solid white;
+    // background-image: url(../images/icon-meta/medium/gold.png);
+    // border: 1px solid white;
   }
 }
 

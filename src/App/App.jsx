@@ -17,18 +17,20 @@ function App() {
   const [state, dispatch] = useState();
 
   return (
-    <WowCalculatorContext.Provider value={{state, dispatch}}>
-      <Router>
-        <ClassPicker />
-        <Routes>
-          <Route path=":className" element={<ClassSpecs />} />
-          <Route
-            path="/"
-            element={<Navigate to={`/${classes[0].name}`} replace />}
-          />
-        </Routes>
-      </Router>
-    </WowCalculatorContext.Provider>
+    <div className="container">
+      <WowCalculatorContext.Provider value={{state, dispatch}}>
+        <Router>
+          <ClassPicker />
+          <Routes>
+            <Route path=":className" element={<ClassSpecs />} />
+            <Route
+              path="/"
+              element={<Navigate to={`/${classes[0].name}`} replace />}
+            />
+          </Routes>
+        </Router>
+      </WowCalculatorContext.Provider>
+    </div>
   );
 }
 
