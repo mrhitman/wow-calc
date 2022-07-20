@@ -2,10 +2,9 @@ import "./ClassPicker.scss";
 
 import React from "react";
 import {classes} from "../store/classes";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function ClassPicker() {
-
   return (
     <div className="heroes">
       {classes.map((classInfo) => (

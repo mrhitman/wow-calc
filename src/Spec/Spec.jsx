@@ -1,11 +1,10 @@
+import React from "react";
 import "./Spec.scss";
-import React, {useContext} from "react";
 
-import {WowCalculatorContext} from "../store";
 import first from "lodash/first";
 import groupBy from "lodash/groupBy";
 import times from "lodash/times";
-import {actions} from "../store/actions";
+import Talant from './Talant';
 
 const spec = [
   {id: 1, name: "foo", row: 0, col: 1, maxPoints: 5},
@@ -35,44 +34,6 @@ const spec = [
   {id: 22, name: "bar", row: 9, col: 2, maxPoints: 5},
   {id: 23, name: "bar", row: 10, col: 2, maxPoints: 1},
 ];
-
-function Talant({skill}) {
-  const context = useContext(WowCalculatorContext);
-  const points = context.state.points.filter((p) => p === skill);
-
-  return (
-    <div
-      className="skill"
-      onClick={() => {
-        if (points.length === skill.maxPoints) {
-          return;
-        }
-
-        context.dispatch({
-          type: actions.ADD_POINT,
-          payload: skill,
-        });
-      }}
-      onContextMenu={(e) => {
-        e.preventDefault();
-
-        context.dispatch({
-          type: actions.REMOVE_POINT,
-          payload: skill,
-        });
-      }}
-    >
-      <img
-        src="https://wow.zamimg.com/images/wow/icons/medium/class_shaman.jpg"
-        alt={skill.name}
-      />
-      <div className="badge">
-        {points.length}/
-        {skill.maxPoints}
-      </div>
-    </div>
-  );
-}
 
 function Spec() {
   return (
