@@ -42,12 +42,10 @@ function Spec() {
               <img
                 src="https://wow.zamimg.com/images/wow/icons/medium/class_shaman.jpg"
                 alt=""
-                width={36}
-                height={36}
               />
             </div>
           ) : (
-            <div className="empty" />
+            <div className="empty" key={n} />
           )
         );
       })}
