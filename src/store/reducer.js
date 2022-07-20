@@ -1,15 +1,17 @@
-export function reducer(state, dispatched) {
+import { actions } from "./actions";
 
-  switch (dispatched.action) {
-    case "ADD_POINT":
-      global.console.log(dispatched);
+export function reducer(state, action) {
+  global.console.log(action);
+
+  switch (action.type) {
+    case actions.ADD_POINT:
       return state;
-    case "UNSET_POINT":
+    case actions.UNSET_POINT:
       return state;
-    case "RESET_SPEC":
+    case actions.RESET_SPEC:
       return state;
-    case "SELECT_HERO":
-      return state;
+    case actions.SELECT_HERO:
+      return { ...state, selectedHero: action.payload };
     default:
       return state;
   }

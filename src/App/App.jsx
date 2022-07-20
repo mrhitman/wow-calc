@@ -1,23 +1,28 @@
 import "./App.scss";
 
-import React, {useReducer} from "react";
+import React from "react";
 
-import Spec from "../Spec/Spec";
-import {WowCalculatorContext} from "../store";
-import {reducer} from "../store/reducer";
+import {useState, WowCalculatorContext} from "../store";
+import ClassSpecs from "../ClassSpecs/ClassSpecs";
+import ClassPicker from "../ClassPicker/ClassPicker";
+import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
 
 function App() {
-  const [state, dispatch] = useReducer(reducer, {
-    selectedHero: null,
-  });
+  const [state, dispatch] = useState();
 
   return (
     <WowCalculatorContext.Provider value={{state, dispatch}}>
-      <div className="tree">
-        <Spec />
-        <Spec />
-        <Spec />
-      </div>
+      <Router>
+        <div>
+          <Link to="/picker">picker</Link>
+          <Link to="/">specs</Link>
+        </div>
+        <ClassPicker />
+        <Routes>
+          <Route path="/picker" element={<ClassPicker />} />
+          <Route path="/:className" element={<ClassSpecs />} />
+        </Routes>
+      </Router>
     </WowCalculatorContext.Provider>
   );
 }

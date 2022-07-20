@@ -3,6 +3,7 @@ import React, {useContext} from "react";
 import {WowCalculatorContext} from "../store";
 import groupBy from "lodash/groupBy";
 import times from "lodash/times";
+import { actions } from "../store/actions";
 
 const spec = [
   {id: 1, name: "foo", row: 0, col: 1},
@@ -46,7 +47,7 @@ function Spec() {
               className="skill"
               key={n}
               onClick={() => {
-                context.dispatch({action: "ADD_POINT", payload: grouped[n]});
+                context.dispatch({type: actions.ADD_POINT, payload: grouped[n]});
               }}
             >
               <img
