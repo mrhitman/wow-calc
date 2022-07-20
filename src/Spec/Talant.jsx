@@ -1,35 +1,18 @@
-import "./Spec.scss";
-
 import React, {useContext} from "react";
+
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
 import {canAddPoint} from "../store/tools";
 
 export default function Talant({skill}) {
-  const {state, dispatch} = useContext(WowCalculatorContext);
-  const points = state.points[skill.id];
+  const context = useContext(WowCalculatorContext);
+  const points = context.state.points[skill.id];
 
   return (
     <div
       className="skill"
-      onClick={() => {
-        if (!canAddPoint(state, skill)) {
-          return;
-        }
-
-        dispatch({
-          type: actions.ADD_POINT,
-          payload: skill,
-        });
-      }}
-      onContextMenu={(e) => {
-        e.preventDefault();
-
-        dispatch({
-          type: actions.REMOVE_POINT,
-          payload: skill,
-        });
-      }}
+      onClick={onTalentLeftClick(context, skill)}
+      onContextMenu={onTalentRightClick(context, skill)}
     >
       <img
         src="https://wow.zamimg.com/images/wow/icons/medium/class_shaman.jpg"
@@ -40,4 +23,28 @@ export default function Talant({skill}) {
       </div>
     </div>
   );
+}
+
+function onTalentLeftClick(context, skill) {
+  return () => {
+    if (!canAddPoint(context.state, skill)) {
+      return;
+    }
+
+    context.dispatch({
+      type: actions.ADD_POINT,
+      payload: skill,
+    });
+  };
+}
+
+function onTalentRightClick(context, skill) {
+  return (e) => {
+    e.preventDefault();
+
+    context.dispatch({
+      type: actions.REMOVE_POINT,
+      payload: skill,
+    });
+  };
 }
