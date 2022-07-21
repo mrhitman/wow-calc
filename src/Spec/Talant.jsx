@@ -19,7 +19,7 @@ export default function Talant({skill}) {
         alt={skill.name}
       />
       <div className="badge">
-        {points ?? 0}/{skill.maxPoints}
+        {points ?? 0}/{skill.ranks.length}
       </div>
     </div>
   );
