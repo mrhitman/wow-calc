@@ -15,8 +15,8 @@ export default function Talant({skill}) {
       onContextMenu={onTalentRightClick(context, skill)}
     >
       <img
-        src="https://wow.zamimg.com/images/wow/icons/medium/class_shaman.jpg"
-        alt={skill.name}
+        src={`https://wow.zamimg.com/images/wow/icons/medium/${skill.icon}.jpg`}
+        alt={skill.icon}
       />
       <div className="badge">
         {points ?? 0}/{skill.ranks.length}

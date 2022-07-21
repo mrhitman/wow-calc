@@ -7,7 +7,6 @@ import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
 import {getSpecPoints} from "../store/tools";
 import groupBy from "lodash/groupBy";
-import map from "lodash/map";
 import {talentsBySpecs} from "../store/data/talents";
 
 function Spec({specId}) {
@@ -27,7 +26,7 @@ function Spec({specId}) {
         </div>
       </div>
       <div className="spec">
-        {map(groupBy(_spec, "row"), (row, key) => (
+        {Object.values(groupBy(_spec, "row")).map((row, key) => (
           <SpecRow key={key} row={row} />
         ))}
       </div>
