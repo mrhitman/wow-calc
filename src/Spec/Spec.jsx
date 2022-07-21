@@ -1,10 +1,9 @@
-import React from "react";
 import "./Spec.scss";
 
-import first from "lodash/first";
+import React from "react";
+import SpecRow from "./SpecRow";
 import groupBy from "lodash/groupBy";
-import times from "lodash/times";
-import Talant from './Talant';
+import map from "lodash/map";
 
 const spec = [
   {id: 1, name: "foo", row: 0, col: 1, maxPoints: 5},
@@ -38,17 +37,9 @@ const spec = [
 function Spec() {
   return (
     <div className="spec">
-      {Object.values(groupBy(spec, "row")).map((row) => {
-        const grouped = groupBy(row, "col");
-
-        return new times(4, (n) =>
-          grouped[n] ? (
-            <Talant key={n} skill={first(grouped[n])} />
-          ) : (
-            <div className="empty" key={n} />
-          )
-        );
-      })}
+      {map(groupBy(spec, "row"), (row, key) => (
+        <SpecRow key={key} row={row} />
+      ))}
     </div>
   );
 }
