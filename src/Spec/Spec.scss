@@ -13,10 +13,13 @@
 }
 
 .spec-icon {
+  border: 2px solid #4E4E4E;
+  border-radius: 8px;
+  margin-right: 8px;
 }
 
 .spec-name {
-  color: white;
+  color: #F6F6F6;
 }
 
 .spec-reset {
@@ -31,7 +34,8 @@
 }
 
 .spec-points {
-  color: white;
+  color: rgba(82, 209, 72, 1);
+  margin-right: 8px;
 }
 
 .badge {
