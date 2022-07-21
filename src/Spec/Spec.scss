@@ -1,7 +1,15 @@
 .spec-wrapper {
+  margin: 15px;
+  background: #27272F;
+  border: 1px solid #4E4E4E;
+  border-radius: 10px;
 }
 
 .spec-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
 }
 
 .spec-icon {
@@ -13,9 +21,13 @@
 
 .spec-reset {
   display: block;
-  border: 1px solid white;
+  background: #B2B2C0;
   width: 30px;
   height: 30px;
+  border-radius: 50%;
+  background-image: url("../images/close.svg");
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .spec-points {

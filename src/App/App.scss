@@ -9,24 +9,18 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 35px 15px;
-  margin: 15px;
-  background-image: url(../images/specs/41.jpg);
+  background-image: url(../images/cards/card-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 .skill {
   display: block;
   margin: 6px;
-
   width: 42px;
   height: 42px;
   border: 2px solid #4e4e4e;
   border-radius: 8px;
-
-  // background-image: url(../images/icon-meta/medium/default.png);
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -48,4 +42,32 @@
   margin: 5px;
   width: 40px;
   height: 40px;
+}
+
+
+// Variable
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
 }

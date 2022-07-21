@@ -16,12 +16,16 @@ function Spec({specId}) {
   return (
     <div className="spec-wrapper">
       <div className="spec-header">
+      <div className="flex items-center">
         <div className="spec-icon">
           <img src="" alt="" />
         </div>
         <div className="spec-name">{specNames[specId]}</div>
+      </div>
+      <div className="flex items-center">
         <div className="spec-points">{getSpecPoints(context.state, spec)}</div>
-        <div className="spec-reset" onClick={onSpecResetClick(context)}>
+          <div className="spec-reset" onClick={onSpecResetClick(context)}>
+        </div>
           <img src="" alt="" />
         </div>
       </div>

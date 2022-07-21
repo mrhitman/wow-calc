@@ -3,27 +3,12 @@
   justify-content: space-between;
 }
 
-.hero-wrapper {
-  position: relative;
-  margin: 10px;
-  width: 64px;
-  height: 64px;
-  border: 2px solid #4E4E4E;
-  border-radius: 8px;
-
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 2;
-  }
-
-  // TODO(Artem) will change hover border
-  &:hover {
+a.active {
+  .hero-wrapper {
+    // TODO(Artem) will change hover border
     border: 3px solid rgba(163, 222, 255, 1);
     background-clip: padding-box;
-  
+
     &:before {
       content: "";
       position: absolute;
@@ -35,6 +20,45 @@
       margin: -3px;
       border-radius: inherit;
       background: linear-gradient(180deg, rgba(0, 148, 255, 0.46) 0%, rgba(38, 116, 172, 0) 39.9%, rgba(0, 148, 255, 0.46) 100%);
+    }
+
+    &::after {
+      opacity: 0;
+    }
+  }
+}
+
+.hero-wrapper {
+  position: relative;
+  margin: 10px;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #4E4E4E;
+  border-radius: 8px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #27272F;
+    opacity: 0.5;
+    z-index: 2;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 0;
     }
   }
 }
