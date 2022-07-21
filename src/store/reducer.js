@@ -11,6 +11,7 @@ export function reducer(state, action) {
     case actions.REMOVE_POINT:
       return removePoint(state, action.payload);
     case actions.RESET_SPEC:
+      // @TODO pass spec id
       return resetSpec(state);
     case actions.SELECT_HERO:
       return selectHero(state, state.payload);

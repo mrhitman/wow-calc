@@ -1,7 +1,11 @@
 import "./Spec.scss";
 
-import React from "react";
+import React, {useContext} from "react";
+
 import SpecRow from "./SpecRow";
+import {WowCalculatorContext} from "../store";
+import {actions} from "../store/actions";
+import {getSpecPoints} from "../store/tools";
 import groupBy from "lodash/groupBy";
 import map from "lodash/map";
 
@@ -35,13 +39,33 @@ const spec = [
 ];
 
 function Spec() {
+  const context = useContext(WowCalculatorContext);
+
   return (
-    <div className="spec">
-      {map(groupBy(spec, "row"), (row, key) => (
-        <SpecRow key={key} row={row} />
-      ))}
+    <div className="spec-wrapper">
+      <div className="spec-header">
+        <div className="spec-icon">
+          <img src="" alt="" />
+        </div>
+        <div className="spec-name">Balance</div>
+        <div className="spec-points">{getSpecPoints(context.state, spec)}</div>
+        <div className="spec-reset" onClick={onSpecResetClick(context)}>
+          <img src="" alt="" />
+        </div>
+      </div>
+      <div className="spec">
+        {map(groupBy(spec, "row"), (row, key) => (
+          <SpecRow key={key} row={row} />
+        ))}
+      </div>
     </div>
   );
+}
+
+function onSpecResetClick(context) {
+  return () => {
+    context.dispatch({type: actions.RESET_SPEC});
+  };
 }
 
 export default Spec;
