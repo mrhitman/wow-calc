@@ -25,7 +25,10 @@ export const specNames = {
   363: "Marksmanship",
   381: "Retribution",
   382: "Holy",
-  383: "Protection"
+  383: "Protection",
+  398: "Blood",
+  399: "Frost",
+  400: "Unholy",
 }
 
 export const talentsBySpecs = {

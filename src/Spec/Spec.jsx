@@ -35,7 +35,7 @@ function Spec({specId}) {
         style={{backgroundImage: `url(specs/${specId}.jpg)`}}
       >
         {Object.values(groupBy(spec, "row")).map((row, key) => (
-          <SpecRow key={key} row={row} />
+          <SpecRow key={key} row={row} spec={spec} />
         ))}
       </div>
     </div>
