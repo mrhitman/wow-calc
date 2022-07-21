@@ -57,6 +57,6 @@ export const classes = [
     id: 12,
     name: 'Death Knight',
     icon: 'class_deathknight',
-    specs: [283, 281, 282]
+    specs: [398, 399, 400]
   },
 ];
