@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, {useContext, useState, useCallback} from "react";
 
 import {Popover} from "react-tiny-popover";
 import TalentPopover from "./TalentPopover";
@@ -8,16 +8,9 @@ import {canAddPoint, getSpecPoints} from "../store/tools";
 import {spells} from "../store/data/spells";
 
 export default function Talent({skill, spec}) {
-  let state = "inactive";
   const context = useContext(WowCalculatorContext);
-  const pointsInSpec = getSpecPoints(context.state, spec);
-
-  if (pointsInSpec >= skill.row * 5) {
-    state = "active";
-  }
 
   const points = context.state.points[skill.id] ?? 0;
-
   const [isTooltipOpen, setTooltipOpen] = useState(false);
   const currentSpell = spells[skill.ranks[Math.max(0, points - 1)]];
   const nextSpell = spells[skill.ranks[points]];
@@ -30,9 +23,20 @@ export default function Talent({skill, spec}) {
     setTooltipOpen(false);
   }
 
-  if (!nextSpell) {
-    state = "done";
-  }
+  const getTalentStatus = useCallback(() => {
+    const pointsInSpec = getSpecPoints(context.state, spec);
+    if (pointsInSpec >= skill.row * 5) {
+      return "active";
+    }
+
+    if (!nextSpell) {
+      return "done";
+    }
+
+    return "inactive";
+  }, [nextSpell, skill.row, spec, context.state]);
+
+  const state = getTalentStatus();
 
   return (
     <Popover
