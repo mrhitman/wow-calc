@@ -14,21 +14,27 @@
   img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 2;
   }
 
   // TODO(Artem) will change hover border
   &:hover {
-    --startDeg: 180deg;
-    border-image-slice: 1;
+    border: 3px solid rgba(163, 222, 255, 1);
+    background-clip: padding-box;
   
-    // border: 3px solid hsl(100 100% 60%);
-    border-image-slice: 1;
-    border-image-source: conic-gradient(
-      from var(--startDeg, 0deg),
-      hsla(202, 100%, 82%, 1), 
-      hsla(202, 100%, 40%, 0.02),
-      hsla(202, 100%, 79%, 1)
-    )
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      margin: -3px;
+      border-radius: inherit;
+      background: linear-gradient(180deg, rgba(0, 148, 255, 0.46) 0%, rgba(38, 116, 172, 0) 39.9%, rgba(0, 148, 255, 0.46) 100%);
+    }
   }
 }
