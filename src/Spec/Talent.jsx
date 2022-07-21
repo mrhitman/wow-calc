@@ -10,21 +10,21 @@ import {spells} from "../store/data/spells";
 export default function Talent({skill}) {
   const context = useContext(WowCalculatorContext);
   const points = context.state.points[skill.id] ?? 0;
-  const [showHint, setShowHint] = useState(false);
+  const [isTooltipOpen, setTooltipOpen] = useState(false);
   const currentSpell = spells[skill.ranks[Math.max(0, points - 1)]];
   const nextSpell = spells[skill.ranks[points]];
 
   function showTooltip() {
-    setShowHint(true);
+    setTooltipOpen(true);
   }
 
   function hideTooltip() {
-    setShowHint(false);
+    setTooltipOpen(false);
   }
 
   return (
     <Popover
-      isOpen={showHint}
+      isOpen={isTooltipOpen}
       positions={["top", "right", "left", "bottom"]}
       align="start"
       content={<TalentPopover current={currentSpell} next={nextSpell} />}
