@@ -16,20 +16,24 @@ function Spec({specId}) {
   return (
     <div className="spec-wrapper">
       <div className="spec-header">
-      <div className="flex items-center">
-        <div className="spec-icon">
+        <div className="flex items-center">
+          <div className="spec-icon">
+            <img src="" alt="" />
+          </div>
+          <div className="spec-name">{specNames[specId]}</div>
+        </div>
+        <div className="flex items-center">
+          <div className="spec-points">
+            {getSpecPoints(context.state, spec)}
+          </div>
+          <div className="spec-reset" onClick={onSpecResetClick(context)}></div>
           <img src="" alt="" />
         </div>
-        <div className="spec-name">{specNames[specId]}</div>
       </div>
-      <div className="flex items-center">
-        <div className="spec-points">{getSpecPoints(context.state, spec)}</div>
-          <div className="spec-reset" onClick={onSpecResetClick(context)}>
-        </div>
-          <img src="" alt="" />
-        </div>
-      </div>
-      <div className="spec">
+      <div
+        className="spec"
+        style={{backgroundImage: `url(specs/${specId}.jpg)`}}
+      >
         {Object.values(groupBy(spec, "row")).map((row, key) => (
           <SpecRow key={key} row={row} />
         ))}
