@@ -2,7 +2,7 @@ import { actions } from "./actions";
 
 export function reducer(state, action) {
   if (process.env.NODE_ENV === 'development') {
-    global.console.log(action, state);
+    global.console.log({ action, state });
   }
 
   switch (action.type) {

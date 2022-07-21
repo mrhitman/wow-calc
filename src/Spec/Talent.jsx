@@ -4,11 +4,14 @@ import {Popover} from "react-tiny-popover";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
 import {canAddPoint} from "../store/tools";
+import {spells} from "../store/data/spells";
 
 export default function Talant({skill}) {
   const context = useContext(WowCalculatorContext);
-  const points = context.state.points[skill.id];
+  const points = context.state.points[skill.id] ?? 0;
   const [showHint, setShowHint] = useState(false);
+  const currentSpell = spells[skill.ranks[Math.max(0, points - 1)]];
+  const nextSpell = spells[skill.ranks[points]];
 
   return (
     <Popover
@@ -25,7 +28,15 @@ export default function Talant({skill}) {
             backgroundColor: "grey",
           }}
         >
-          Hi, it's me
+          <pre>
+            {JSON.stringify(
+              currentSpell === nextSpell
+                ? {nextSpell}
+                : {currentSpell, nextSpell},
+              null,
+              2
+            )}
+          </pre>
         </div>
       }
     >
@@ -41,7 +52,7 @@ export default function Talant({skill}) {
           alt={skill.icon}
         />
         <div className="badge">
-          {points ?? 0}/{skill.ranks.length}
+          {points}/{skill.ranks.length}
         </div>
       </div>
     </Popover>

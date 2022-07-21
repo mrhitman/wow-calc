@@ -12,8 +12,10 @@ function ClassSpecs() {
   const classInfo = findClassByName(name);
 
   useEffect(() => {
-    dispatch({type: actions.SELECT_HERO, dispatch: name});
-  }, [name, dispatch]);
+    if (state.selectedHero !== name) {
+      dispatch({type: actions.SELECT_HERO, dispatch: name});
+    }
+  }, [name, dispatch, state.selectedHero]);
 
   return (
     <div>
