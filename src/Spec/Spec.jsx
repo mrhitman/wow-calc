@@ -1,17 +1,17 @@
 import "./Spec.scss";
 
 import React, {useContext} from "react";
+import {specNames, talentsBySpecs} from "../store/data/talents";
 
 import SpecRow from "./SpecRow";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
 import {getSpecPoints} from "../store/tools";
 import groupBy from "lodash/groupBy";
-import {talentsBySpecs} from "../store/data/talents";
 
 function Spec({specId}) {
   const context = useContext(WowCalculatorContext);
-  const _spec = Object.values(talentsBySpecs[specId]);
+  const spec = Object.values(talentsBySpecs[specId]);
 
   return (
     <div className="spec-wrapper">
@@ -19,14 +19,14 @@ function Spec({specId}) {
         <div className="spec-icon">
           <img src="" alt="" />
         </div>
-        <div className="spec-name">Balance</div>
-        <div className="spec-points">{getSpecPoints(context.state, _spec)}</div>
+        <div className="spec-name">{specNames[specId]}</div>
+        <div className="spec-points">{getSpecPoints(context.state, spec)}</div>
         <div className="spec-reset" onClick={onSpecResetClick(context)}>
           <img src="" alt="" />
         </div>
       </div>
       <div className="spec">
-        {Object.values(groupBy(_spec, "row")).map((row, key) => (
+        {Object.values(groupBy(spec, "row")).map((row, key) => (
           <SpecRow key={key} row={row} />
         ))}
       </div>

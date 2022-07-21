@@ -9,6 +9,7 @@ specifiers:
   react-dom: ^18.2.0
   react-router-dom: ^6.3.0
   react-scripts: 5.0.1
+  react-tiny-popover: ^7.1.0
   sass: ^1.53.0
   web-vitals: ^2.1.4
 
@@ -21,6 +22,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
   react-scripts: 5.0.1_react@18.2.0+sass@1.53.0
+  react-tiny-popover: 7.1.0_biqbaboplfbrettd7655fr4n2y
   sass: 1.53.0
   web-vitals: 2.1.4
 
@@ -8182,6 +8184,16 @@ packages:
       - webpack-cli
       - webpack-hot-middleware
       - webpack-plugin-serve
+    dev: false
+
+  /react-tiny-popover/7.1.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-vlZFs8/uFWwLY+JwXL4Fwjvz+c5rqKUlg5b9UOgc/gJiRdp1lk+FachCdZlDIQwk8UOADMu8YxYp0VV3rXLU9g==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react/18.2.0:
