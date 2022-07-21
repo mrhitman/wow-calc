@@ -3,79 +3,79 @@ export const spells = {
     "name_enus": "Lightwell",
     "icon": "spell_holy_summonlightwell",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Creates a Holy Lightwell.  Friendly players can click the Lightwell to restore 267*3*<!--sp55673:0-->1<!--sp55673--> health over 6 sec.  Attacks done to you equal to 30% of your total health will cancel the effect. Lightwell lasts for 3 min or 10 charges."
   },
   "974": {
     "name_enus": "Earth Shield",
     "icon": "spell_nature_skinofearth",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Protects the target with an earthen shield, reducing casting or channeling time lost when damaged by 30%  and causing attacks to heal the shielded target for <!--sp63279:0-->150<!--sp63279-->.  This effect can only occur once every few seconds.  6 charges.  Lasts 10 min.  Earth Shield can only be placed on one target at a time and only one Elemental Shield can be active on a target at a time."
   },
   "1329": {
     "name_enus": "Mutilate",
     "icon": "ability_rogue_shadowstrikes",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Instantly attacks with both weapons for 100% weapon damage plus an additional 44 with each weapon.  Damage is increased by 20% against Poisoned targets.  Awards 2 combo points."
   },
   "3674": {
     "name_enus": "Black Arrow",
     "icon": "spell_shadow_painspike",
     "rank_enus": "Rank 1",
-    "description": "Your Blood Strikes and Heart Strikes have a 10% chance to launch a free Death Coil at your target."
+    "description": "Fires a Black Arrow at the target, increasing all damage done by you to the target by 6% and dealing RAP*0.1+157*5 Shadow damage over 15 sec. Black Arrow shares a cooldown with Trap spells."
   },
   "5570": {
     "name_enus": "Insect Swarm",
     "icon": "spell_nature_insectswarm",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "The enemy target is swarmed by insects, decreasing their chance to hit by 3% and causing 144 Nature damage over 12 sec."
   },
   "5923": {
     "name_enus": "Holy Power",
     "icon": "spell_holy_power",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical effect chance of your Holy spells by 2%."
+    "description": "Increases the critical effect chance of your Holy spells by 1%."
   },
   "5924": {
     "name_enus": "Holy Power",
     "icon": "spell_holy_power",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical effect chance of your Holy spells by 3%."
+    "description": "Increases the critical effect chance of your Holy spells by 2%."
   },
   "5925": {
     "name_enus": "Holy Power",
     "icon": "spell_holy_power",
     "rank_enus": "Rank 3",
-    "description": "Increases the critical effect chance of your Holy spells by 4%."
+    "description": "Increases the critical effect chance of your Holy spells by 3%."
   },
   "5926": {
     "name_enus": "Holy Power",
     "icon": "spell_holy_power",
     "rank_enus": "Rank 4",
-    "description": "Increases the critical effect chance of your Holy spells by 5%."
+    "description": "Increases the critical effect chance of your Holy spells by 4%."
   },
   "5952": {
     "name_enus": "Throwing Specialization",
     "icon": "ability_rogue_throwingspecialization",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of Throw and Deadly Throw by 4 yards and gives your Deadly Throw a 100% chance to interrupt the target for 3 sec."
+    "description": "Increases the range of Throw and Deadly Throw by 2 yards and gives your Deadly Throw a 50% chance to interrupt the target for 3 sec."
   },
   "9452": {
     "name_enus": "Vindication",
     "icon": "spell_holy_vindication",
     "rank_enus": "Rank 1",
-    "description": "Gives the Paladin's damaging attacks a chance to reduce the target's attack power by 46 for 10 sec."
+    "description": "Gives the Paladin's damaging attacks a chance to reduce the target's attack power by 23 for 10 sec."
   },
   "9453": {
     "name_enus": "Unyielding Faith",
     "icon": "spell_holy_unyieldingfaith",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of all Fear and Disorient effects by 30%."
+    "description": "Reduces the duration of all Fear and Disorient effects by 15%."
   },
   "9799": {
     "name_enus": "Eye for an Eye",
     "icon": "spell_holy_eyeforaneye",
     "rank_enus": "Rank 1",
-    "description": "All criticals against you cause 10% of the damage taken to the attacker as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
+    "description": "All criticals against you cause 5% of the damage taken to the attacker as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
   },
   "10060": {
     "name_enus": "Power Infusion",
@@ -87,97 +87,97 @@ export const spells = {
     "name_enus": "Improved Fireball",
     "icon": "spell_fire_flamebolt",
     "rank_enus": "Rank 1",
-    "description": "Reduces the casting time of your Fireball spell by 0.2 sec."
+    "description": "Reduces the casting time of your Fireball spell by 0.1 sec."
   },
   "11070": {
     "name_enus": "Improved Frostbolt",
     "icon": "spell_frost_frostbolt02",
     "rank_enus": "Rank 1",
-    "description": "Reduces the casting time of your Frostbolt spell by 0.2 sec."
+    "description": "Reduces the casting time of your Frostbolt spell by 0.1 sec."
   },
   "11071": {
     "name_enus": "Frostbite",
     "icon": "spell_frost_frostarmor",
     "rank_enus": "Rank 1",
-    "description": "Gives your Chill effects a 10% chance to freeze the target for 5 sec."
+    "description": "Gives your Chill effects a 5% chance to freeze the target for 5 sec."
   },
   "11078": {
     "name_enus": "Improved Fire Blast",
     "icon": "spell_fire_fireball",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Fire Blast spell by 2 sec."
+    "description": "Reduces the cooldown of your Fire Blast spell by 1 sec."
   },
   "11080": {
     "name_enus": "Improved Fire Blast",
     "icon": "spell_fire_fireball",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Fire Blast spell by 2 sec."
   },
   "11083": {
     "name_enus": "Burning Soul",
     "icon": "spell_fire_fire",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks while casting Fire spells by 70% and reduces the threat caused by your Fire spells by 20%."
+    "description": "Reduces the pushback suffered from damaging attacks while casting Fire spells by 35% and reduces the threat caused by your Fire spells by 10%."
   },
   "11094": {
     "name_enus": "Molten Shields",
     "icon": "spell_fire_firearmor",
     "rank_enus": "Rank 1",
-    "description": "Causes your Fire Ward and Frost Ward spells to have a 30% chance to reflect the warded spell while active. In addition, your Molten Armor has a 100% chance to affect ranged and spell attacks."
+    "description": "Causes your Fire Ward and Frost Ward spells to have a 15% chance to reflect the warded spell while active. In addition, your Molten Armor has a 50% chance to affect ranged and spell attacks."
   },
   "11095": {
     "name_enus": "Improved Scorch",
     "icon": "spell_fire_soulburn",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to critically hit with Scorch, Fireball and Frostfire Bolt by an additional 2% and your damaging Scorch spells have a 66% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5% and lasts 30 sec."
+    "description": "Increases your chance to critically hit with Scorch, Fireball and Frostfire Bolt by an additional 1% and your damaging Scorch spells have a 33% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5% and lasts 30 sec."
   },
   "11100": {
     "name_enus": "Flame Throwing",
     "icon": "spell_fire_flare",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of all Fire spells except Frostfire Bolt by 6 yards."
+    "description": "Increases the range of all Fire spells except Frostfire Bolt by 3 yards."
   },
   "11103": {
     "name_enus": "Impact",
     "icon": "spell_fire_meteorstorm",
     "rank_enus": "Rank 1",
-    "description": "Gives your damaging spells a 7% chance to cause the next Fire Blast you cast to stun the target for 2 sec."
+    "description": "Gives your damaging spells a 4% chance to cause the next Fire Blast you cast to stun the target for 2 sec."
   },
   "11108": {
     "name_enus": "World in Flames",
     "icon": "ability_mage_worldinflames",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Flamestrike, Pyroblast, Blast Wave, Dragon's Breath, Living Bomb, Blizzard and Arcane Explosion spells by 4%."
+    "description": "Increases the critical strike chance of your Flamestrike, Pyroblast, Blast Wave, Dragon's Breath, Living Bomb, Blizzard and Arcane Explosion spells by 2%."
   },
   "11113": {
     "name_enus": "Blast Wave",
     "icon": "spell_holy_excorcism_02",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 154 to 186 Fire damage, knocking them back and dazing them for 6 sec."
   },
   "11115": {
     "name_enus": "Critical Mass",
     "icon": "spell_nature_wispheal",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Fire spells by 4%."
+    "description": "Increases the critical strike chance of your Fire spells by 2%."
   },
   "11119": {
     "name_enus": "Ignite",
     "icon": "spell_fire_incinerate",
     "rank_enus": "Rank 1",
-    "description": "Your critical strikes from Fire damage spells cause the target to burn for an additional 16% of your spell's damage over 4 sec."
+    "description": "Your critical strikes from Fire damage spells cause the target to burn for an additional 8% of your spell's damage over 4 sec."
   },
   "11120": {
     "name_enus": "Ignite",
     "icon": "spell_fire_incinerate",
     "rank_enus": "Rank 2",
-    "description": "Your critical strikes from Fire damage spells cause the target to burn for an additional 24% of your spell's damage over 4 sec."
+    "description": "Your critical strikes from Fire damage spells cause the target to burn for an additional 16% of your spell's damage over 4 sec."
   },
   "11124": {
     "name_enus": "Fire Power",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Fire spells by 4%."
+    "description": "Increases the damage done by your Fire spells by 2%."
   },
   "11129": {
     "name_enus": "Combustion",
@@ -189,139 +189,139 @@ export const spells = {
     "name_enus": "Piercing Ice",
     "icon": "spell_frost_frostbolt",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Frost spells by 4%."
+    "description": "Increases the damage done by your Frost spells by 2%."
   },
   "11160": {
     "name_enus": "Frost Channeling",
     "icon": "spell_frost_stun",
     "rank_enus": "Rank 1",
-    "description": "Increases the duration of your Concussive Shot's daze effect by 2 sec."
+    "description": "Reduces the mana cost of all spells by 4% and reduces the threat caused by your Frost spells by 4%."
   },
   "11170": {
     "name_enus": "Shatter",
     "icon": "spell_frost_frostshock",
     "rank_enus": "Rank 1",
-    "description": "Your Chains of Ice, Howling Blast, Icy Touch and Obliterate generate 5 additional runic power."
+    "description": "Increases the critical strike chance of all your spells against frozen targets by 17%."
   },
   "11175": {
     "name_enus": "Permafrost",
     "icon": "spell_frost_wisp",
     "rank_enus": "Rank 1",
-    "description": "Victims of your Frost Fever disease are Chilled, reducing movement speed by 30% for 10 sec."
+    "description": "Increases the duration of your Chill effects by 1 sec, reduces the target's speed by an additional 4%, and reduces the target's healing received by 7%."
   },
   "11180": {
     "name_enus": "Winter's Chill",
     "icon": "spell_frost_chillingblast",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to critically hit with Frostbolt by an additional 2% and gives your Frost damage spells a 66% chance to apply the Winter's Chill effect, which increases the chance spells will critically hit the target by 1% for 15 sec.  Stacks up to 5 times."
+    "description": "Increases your chance to critically hit with Frostbolt by an additional 1% and gives your Frost damage spells a 33% chance to apply the Winter's Chill effect, which increases the chance spells will critically hit the target by 1% for 15 sec.  Stacks up to 5 times."
   },
   "11185": {
     "name_enus": "Improved Blizzard",
     "icon": "spell_frost_icestorm",
     "rank_enus": "Rank 1",
-    "description": "Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by 40%.  Lasts 1.5 sec."
+    "description": "Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by 25%.  Lasts 1.5 sec."
   },
   "11189": {
     "name_enus": "Frost Warding",
     "icon": "spell_frost_frostward",
     "rank_enus": "Rank 1",
-    "description": "Increases the armor and resistances given by your Frost Armor and Ice Armor spells by 50%.  In addition, gives your Frost Ward and Fire Ward a 30% chance to negate the warded damage spell and restore mana equal to the damage caused."
+    "description": "Increases the armor and resistances given by your Frost Armor and Ice Armor spells by 25%.  In addition, gives your Frost Ward and Fire Ward a 15% chance to negate the warded damage spell and restore mana equal to the damage caused."
   },
   "11190": {
     "name_enus": "Improved Cone of Cold",
     "icon": "spell_frost_glacier",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage dealt by your Cone of Cold spell by 25%."
+    "description": "Increases the damage dealt by your Cone of Cold spell by 15%."
   },
   "11207": {
     "name_enus": "Ice Shards",
     "icon": "spell_frost_iceshard",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike damage bonus of your Frost spells by 66%."
+    "description": "Increases the critical strike damage bonus of your Frost spells by 33%."
   },
   "11210": {
     "name_enus": "Arcane Subtlety",
     "icon": "spell_holy_dispelmagic",
     "rank_enus": "Rank 1",
-    "description": "Reduces the chance your helpful spells and damage over time effects will be dispelled by 30% and reduces the threat caused by your Arcane spells by 40%."
+    "description": "Reduces the chance your helpful spells and damage over time effects will be dispelled by 15% and reduces the threat caused by your Arcane spells by 20%."
   },
   "11213": {
     "name_enus": "Arcane Concentration",
     "icon": "spell_shadow_manaburn",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 4% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+    "description": "Gives you a 2% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
   },
   "11222": {
     "name_enus": "Arcane Focus",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 1",
-    "description": "Increases your armor value from items by 4% and reduces the duration of all movement slowing effects by 12%."
+    "description": "Increases your chance to hit and reduces the mana cost of your Arcane spells by 1%."
   },
   "11232": {
     "name_enus": "Arcane Mind",
     "icon": "spell_shadow_charm",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Intellect by 6%."
+    "description": "Increases your total Intellect by 3%."
   },
   "11237": {
     "name_enus": "Arcane Stability",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage and critical strike chance of your Moonfire spell by 10%."
+    "description": "Reduces the pushback suffered from damaging attacks while casting Arcane Missiles and Arcane Blast by 20%."
   },
   "11242": {
     "name_enus": "Spell Impact",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of all shapeshifting by 20%."
+    "description": "Increases the damage of your Arcane Explosion, Arcane Blast, Blast Wave, Fire Blast, Scorch, Fireball, Ice Lance and Cone of Cold spells by an additional 2%."
   },
   "11247": {
     "name_enus": "Magic Attunement",
     "icon": "spell_nature_abolishmagic",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.2 sec."
+    "description": "Increases the range of your Arcane spells by 3 yards and the effect of your Amplify Magic and Dampen Magic spells by 25%."
   },
   "11252": {
     "name_enus": "Arcane Shielding",
     "icon": "spell_shadow_detectlesserinvisibility",
     "rank_enus": "Rank 1",
-    "description": "Decreases the mana lost per point of damage taken when Mana Shield is active by 33% and increases the resistances granted by Mage Armor by 50%."
+    "description": "Decreases the mana lost per point of damage taken when Mana Shield is active by 17% and increases the resistances granted by Mage Armor by 25%."
   },
   "11255": {
     "name_enus": "Improved Counterspell",
     "icon": "spell_frost_iceshock",
     "rank_enus": "Rank 1",
-    "description": "Your Counterspell also silences the target for 4 sec."
+    "description": "Your Counterspell also silences the target for 2 sec."
   },
   "11366": {
     "name_enus": "Pyroblast",
     "icon": "spell_fire_fireball02",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Hurls an immense fiery boulder that causes 141 to 187 Fire damage and an additional 56 Fire damage over 12 sec."
   },
   "11367": {
     "name_enus": "Critical Mass",
     "icon": "spell_nature_wispheal",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of your Fire spells by 6%."
+    "description": "Increases the critical strike chance of your Fire spells by 4%."
   },
   "11368": {
     "name_enus": "Critical Mass",
     "icon": "spell_nature_wispheal",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your Fire spells by 6%."
   },
   "11426": {
     "name_enus": "Ice Barrier",
     "icon": "spell_ice_lament",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Instantly shields you, absorbing 438 damage.  Lasts 1 min.  While the shield holds, spellcasting will not be delayed by damage."
   },
   "11958": {
     "name_enus": "Cold Snap",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "",
-    "description": "Reduces the Mana cost of your Shots and Stings by 3%."
+    "description": "When activated, this spell finishes the cooldown on all Frost spells you recently cast."
   },
   "12042": {
     "name_enus": "Arcane Power",
@@ -339,307 +339,307 @@ export const spells = {
     "name_enus": "Two-Handed Weapon Specialization",
     "icon": "inv_axe_09",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage you deal with two-handed melee weapons by 4%."
+    "description": "Increases the damage you deal with two-handed melee weapons by 2%."
   },
   "12281": {
     "name_enus": "Sword Specialization",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 2% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
+    "description": "Gives you a 2% chance to get an extra attack on the same target after hitting your target with your Sword.  This effect cannot occur more than once every 6 seconds."
   },
   "12282": {
     "name_enus": "Improved Heroic Strike",
     "icon": "ability_rogue_ambush",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Ambush ability by 50%."
+    "description": "Reduces the cost of your Heroic Strike ability by 1 rage point."
   },
   "12284": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 1",
-    "description": "Your attacks with maces ignore up to 6% of your opponent's armor."
+    "description": "Your attacks with maces ignore up to 3% of your opponent's armor."
   },
   "12285": {
     "name_enus": "Improved Charge",
     "icon": "ability_warrior_charge",
     "rank_enus": "Rank 1",
-    "description": "Increases the amount of rage generated by your Charge ability by 10."
+    "description": "Increases the amount of rage generated by your Charge ability by 5."
   },
   "12286": {
     "name_enus": "Improved Rend",
     "icon": "ability_gouge",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect duration of your Gouge ability by 1 sec."
+    "description": "Increases the bleed damage done by your Rend ability by 10%."
   },
   "12287": {
     "name_enus": "Improved Thunder Clap",
     "icon": "ability_thunderclap",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cost of your Thunder Clap ability by 2 rage points and increases the damage by 20% and the slowing effect by an additional 7%."
+    "description": "Reduces the cost of your Thunder Clap ability by 1 rage point and increases the damage by 10% and the slowing effect by an additional 4%."
   },
   "12289": {
     "name_enus": "Improved Hamstring",
     "icon": "ability_shockwave",
     "rank_enus": "Rank 1",
-    "description": "Gives your Hamstring ability a 10% chance to immobilize the target for 5 sec."
+    "description": "Gives your Hamstring ability a 5% chance to immobilize the target for 5 sec."
   },
   "12290": {
     "name_enus": "Improved Overpower",
     "icon": "inv_sword_05",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Overpower ability by 50%."
+    "description": "Increases the critical strike chance of your Overpower ability by 25%."
   },
   "12292": {
     "name_enus": "Death Wish",
     "icon": "spell_shadow_deathpact",
     "rank_enus": "",
-    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.1 sec and your Soul Fire spell by 0.4 sec."
+    "description": "When activated you become enraged, increasing your physical damage by 20% but increasing all damage taken by 5%.  Lasts 30 sec."
   },
   "12294": {
     "name_enus": "Mortal Strike",
     "icon": "ability_warrior_savageblow",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "A vicious strike that deals weapon damage plus 85 and wounds the target, reducing the effectiveness of any healing by 50% for 10 sec."
   },
   "12295": {
     "name_enus": "Tactical Mastery",
     "icon": "spell_nature_enchantarmor",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "You retain up to an additional 5 of your rage points when you change stances.  Also greatly increases the threat generated by your Bloodthirst and Mortal Strike abilities when you are in Defensive Stance."
   },
   "12296": {
     "name_enus": "Anger Management",
     "icon": "spell_holy_blessingofstamina",
     "rank_enus": "",
-    "description": "Gives you 20% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 20 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 2%."
+    "description": "Generates 1 rage per 3 seconds."
   },
   "12297": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 1",
-    "description": "Increases your Dodge chance by 2%."
+    "description": "Increases your Dodge chance by 1%."
   },
   "12298": {
     "name_enus": "Shield Specialization",
     "icon": "inv_shield_06",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to block attacks with a shield by 2% and has a 40% chance to generate 5 rage when a block, dodge, or parry occurs."
+    "description": "Increases your chance to block attacks with a shield by 1% and has a 20% chance to generate 5 rage when a block, dodge, or parry occurs."
   },
   "12299": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 1",
-    "description": "Increases your armor value from items by 4% and reduces the duration of all movement slowing effects by 12%."
+    "description": "Increases your armor value from items by 2% and reduces the duration of all movement slowing effects by 6%."
   },
   "12300": {
     "name_enus": "Iron Will",
     "icon": "spell_magic_magearmor",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 12%."
+    "description": "Reduces the duration of all Stun and Charm effects used against you by 7%."
   },
   "12301": {
     "name_enus": "Improved Bloodrage",
     "icon": "ability_racial_bloodrage",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of Raptor Strike, Mongoose Bite and Counterattack by 20%."
+    "description": "Increases the rage generated by your Bloodrage ability by 25%."
   },
   "12308": {
     "name_enus": "Puncture",
     "icon": "ability_warrior_sunder",
     "rank_enus": "Rank 1",
-    "description": "Reduces the rage cost of your Sunder Armor and Devastate abilities by 2."
+    "description": "Reduces the rage cost of your Sunder Armor and Devastate abilities by 1."
   },
   "12311": {
     "name_enus": "Gag Order",
     "icon": "ability_warrior_shieldbash",
     "rank_enus": "Rank 1",
-    "description": "Gives your Shield Bash and Heroic Throw abilities a 100% chance to silence the target for 3 sec and increases the damage of your Shield Slam ability by 10%."
+    "description": "Gives your Shield Bash and Heroic Throw abilities a 50% chance to silence the target for 3 sec and increases the damage of your Shield Slam ability by 5%."
   },
   "12312": {
     "name_enus": "Improved Disciplines",
     "icon": "ability_warrior_shieldwall",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Shield Wall, Retaliation and Recklessness abilities by 60 secs."
+    "description": "Reduces the cooldown of your Shield Wall, Retaliation and Recklessness abilities by 30 secs."
   },
   "12313": {
     "name_enus": "Improved Disarm",
     "icon": "ability_warrior_disarm",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Disarm ability by 20 sec and causes the target to take an additional 10% damage while disarmed."
+    "description": "Reduces the cooldown of your Disarm ability by 10 sec and causes the target to take an additional 5% damage while disarmed."
   },
   "12317": {
     "name_enus": "Enrage",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 1",
-    "description": "Your Blood Strikes cause you to deal 2% additional damage with all attacks for the next 20 sec."
+    "description": "Gives you a 30% chance to receive a 2% damage bonus for 12 sec after being the victim of a damaging attack.  This effect does not stack with Wrecking Crew."
   },
   "12318": {
     "name_enus": "Commanding Presence",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 10%."
+    "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 5%."
   },
   "12319": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases your attack speed by 6% for your next 3 swings after dealing a critical strike."
   },
   "12320": {
     "name_enus": "Cruelty",
     "icon": "ability_rogue_eviscerate",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Eviscerate ability by 14%."
+    "description": "Increases your chance to get a critical strike with melee weapons by 1%."
   },
   "12321": {
     "name_enus": "Booming Voice",
     "icon": "spell_nature_purge",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 40%."
+    "description": "Increases the area of effect and duration of your Battle Shout, Demoralizing Shout and Commanding Shout by 25%."
   },
   "12322": {
     "name_enus": "Unbridled Wrath",
     "icon": "spell_nature_stoneclawtotem",
     "rank_enus": "Rank 1",
-    "description": "Grants 160% additional armor contribution from cloth and leather items while in Travel Form or while not shapeshifted, increases the damage reduction granted by your Barkskin spell by 10% and reduces the chance your Barkskin is dispelled by 70%."
+    "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon."
   },
   "12323": {
     "name_enus": "Piercing Howl",
     "icon": "spell_shadow_deathscream",
     "rank_enus": "",
-    "description": "Increases all damage caused by 2%."
+    "description": "Causes all enemies within 10 yards to be Dazed, reducing movement speed by 50% for 6 sec."
   },
   "12324": {
     "name_enus": "Improved Demoralizing Shout",
     "icon": "ability_warrior_warcry",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage dealt with your Backstab, Mutilate, Garrote and Ambush abilities by 20%."
+    "description": "Increases the melee attack power reduction of your Demoralizing Shout by 8%."
   },
   "12328": {
     "name_enus": "Sweeping Strikes",
     "icon": "ability_rogue_slicedice",
     "rank_enus": "",
-    "description": "Increases the duration of your Slice and Dice ability by 25%."
+    "description": "Your next 5 melee attacks strike an additional nearby opponent."
   },
   "12329": {
     "name_enus": "Improved Cleave",
     "icon": "ability_warrior_cleave",
     "rank_enus": "Rank 1",
-    "description": "Increases the bonus damage done by your Cleave ability by 80%."
+    "description": "Increases the bonus damage done by your Cleave ability by 40%."
   },
   "12330": {
     "name_enus": "Improved Slam",
     "icon": "ability_warrior_decisivestrike",
     "rank_enus": "Rank 2",
-    "description": "Your finishing moves have a 12% chance per combo point to restore 25 energy."
+    "description": "Decreases the swing time of your Slam ability by 1 sec."
   },
   "12338": {
     "name_enus": "Improved Fireball",
     "icon": "spell_fire_flamebolt",
     "rank_enus": "Rank 2",
-    "description": "Reduces the casting time of your Fireball spell by 0.3 sec."
+    "description": "Reduces the casting time of your Fireball spell by 0.2 sec."
   },
   "12339": {
     "name_enus": "Improved Fireball",
     "icon": "spell_fire_flamebolt",
     "rank_enus": "Rank 3",
-    "description": "Reduces the casting time of your Fireball spell by 0.4 sec."
+    "description": "Reduces the casting time of your Fireball spell by 0.3 sec."
   },
   "12340": {
     "name_enus": "Improved Fireball",
     "icon": "spell_fire_flamebolt",
     "rank_enus": "Rank 4",
-    "description": "Reduces the casting time of your Fireball spell by 0.5 sec."
+    "description": "Reduces the casting time of your Fireball spell by 0.4 sec."
   },
   "12341": {
     "name_enus": "Improved Fireball",
     "icon": "spell_fire_flamebolt",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the casting time of your Fireball spell by 0.5 sec."
   },
   "12349": {
     "name_enus": "World in Flames",
     "icon": "ability_mage_worldinflames",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of your Flamestrike, Pyroblast, Blast Wave, Dragon's Breath, Living Bomb, Blizzard and Arcane Explosion spells by 6%."
+    "description": "Increases the critical strike chance of your Flamestrike, Pyroblast, Blast Wave, Dragon's Breath, Living Bomb, Blizzard and Arcane Explosion spells by 4%."
   },
   "12350": {
     "name_enus": "World in Flames",
     "icon": "ability_mage_worldinflames",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your Flamestrike, Pyroblast, Blast Wave, Dragon's Breath, Living Bomb, Blizzard and Arcane Explosion spells by 6%."
   },
   "12351": {
     "name_enus": "Burning Soul",
     "icon": "spell_fire_fire",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Fire spells by 70% and reduces the threat caused by your Fire spells by 20%."
   },
   "12353": {
     "name_enus": "Flame Throwing",
     "icon": "spell_fire_flare",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of all Fire spells except Frostfire Bolt by 6 yards."
   },
   "12357": {
     "name_enus": "Impact",
     "icon": "spell_fire_meteorstorm",
     "rank_enus": "Rank 2",
-    "description": "Gives your damaging spells a 10% chance to cause the next Fire Blast you cast to stun the target for 2 sec."
+    "description": "Gives your damaging spells a 7% chance to cause the next Fire Blast you cast to stun the target for 2 sec."
   },
   "12358": {
     "name_enus": "Impact",
     "icon": "spell_fire_meteorstorm",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives your damaging spells a 10% chance to cause the next Fire Blast you cast to stun the target for 2 sec."
   },
   "12378": {
     "name_enus": "Fire Power",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Fire spells by 6%."
+    "description": "Increases the damage done by your Fire spells by 4%."
   },
   "12398": {
     "name_enus": "Fire Power",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Fire spells by 8%."
+    "description": "Increases the damage done by your Fire spells by 6%."
   },
   "12399": {
     "name_enus": "Fire Power",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage done by your Fire spells by 10%."
+    "description": "Increases the damage done by your Fire spells by 8%."
   },
   "12400": {
     "name_enus": "Fire Power",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Fire spells by 10%."
   },
   "12463": {
     "name_enus": "Arcane Stability",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Arcane Missiles and Arcane Blast by 40%."
   },
   "12464": {
     "name_enus": "Arcane Stability",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Arcane Missiles and Arcane Blast by 60%."
   },
   "12467": {
     "name_enus": "Spell Impact",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of all shapeshifting by 30%."
+    "description": "Increases the damage of your Arcane Explosion, Arcane Blast, Blast Wave, Fire Blast, Scorch, Fireball, Ice Lance and Cone of Cold spells by an additional 4%."
   },
   "12469": {
     "name_enus": "Spell Impact",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage of your Arcane Explosion, Arcane Blast, Blast Wave, Fire Blast, Scorch, Fireball, Ice Lance and Cone of Cold spells by an additional 6%."
   },
   "12472": {
     "name_enus": "Icy Veins",
@@ -651,619 +651,618 @@ export const spells = {
     "name_enus": "Improved Frostbolt",
     "icon": "spell_frost_frostbolt02",
     "rank_enus": "Rank 2",
-    "description": "Reduces the casting time of your Frostbolt spell by 0.3 sec."
+    "description": "Reduces the casting time of your Frostbolt spell by 0.2 sec."
   },
   "12487": {
     "name_enus": "Improved Blizzard",
     "icon": "spell_frost_icestorm",
     "rank_enus": "Rank 2",
-    "description": "Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by 50%.  Lasts 1.5 sec."
+    "description": "Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by 40%.  Lasts 1.5 sec."
   },
   "12488": {
     "name_enus": "Improved Blizzard",
     "icon": "spell_frost_icestorm",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by 50%.  Lasts 1.5 sec."
   },
   "12489": {
     "name_enus": "Improved Cone of Cold",
     "icon": "spell_frost_glacier",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage dealt by your Cone of Cold spell by 35%."
+    "description": "Increases the damage dealt by your Cone of Cold spell by 25%."
   },
   "12490": {
     "name_enus": "Improved Cone of Cold",
     "icon": "spell_frost_glacier",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage dealt by your Cone of Cold spell by 35%."
   },
   "12496": {
     "name_enus": "Frostbite",
     "icon": "spell_frost_frostarmor",
     "rank_enus": "Rank 2",
-    "description": "Gives your Chill effects a 15% chance to freeze the target for 5 sec."
+    "description": "Gives your Chill effects a 10% chance to freeze the target for 5 sec."
   },
   "12497": {
     "name_enus": "Frostbite",
     "icon": "spell_frost_frostarmor",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives your Chill effects a 15% chance to freeze the target for 5 sec."
   },
   "12500": {
     "name_enus": "Arcane Mind",
     "icon": "spell_shadow_charm",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Intellect by 9%."
+    "description": "Increases your total Intellect by 6%."
   },
   "12501": {
     "name_enus": "Arcane Mind",
     "icon": "spell_shadow_charm",
     "rank_enus": "Rank 3",
-    "description": "Increases your total Intellect by 12%."
+    "description": "Increases your total Intellect by 9%."
   },
   "12502": {
     "name_enus": "Arcane Mind",
     "icon": "spell_shadow_charm",
     "rank_enus": "Rank 4",
-    "description": "Increases your total Intellect by 15%."
+    "description": "Increases your total Intellect by 12%."
   },
   "12503": {
     "name_enus": "Arcane Mind",
     "icon": "spell_shadow_charm",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your total Intellect by 15%."
   },
   "12518": {
     "name_enus": "Frost Channeling",
     "icon": "spell_frost_stun",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the mana cost of all spells by 7% and reduces the threat caused by your Frost spells by 7%."
   },
   "12519": {
     "name_enus": "Frost Channeling",
     "icon": "spell_frost_stun",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of all spells by 10% and reduces the threat caused by your Frost spells by 10%."
   },
   "12569": {
     "name_enus": "Permafrost",
     "icon": "spell_frost_wisp",
     "rank_enus": "Rank 2",
-    "description": "Victims of your Frost Fever disease are Chilled, reducing movement speed by 50% for 10 sec."
+    "description": "Increases the duration of your Chill effects by 2 secs, reduces the target's speed by an additional 7%, and reduces the target's healing received by 13%."
   },
   "12571": {
     "name_enus": "Permafrost",
     "icon": "spell_frost_wisp",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the duration of your Chill effects by 3 secs, reduces the target's speed by an additional 10%, and reduces the target's healing received by 20%."
   },
   "12574": {
     "name_enus": "Arcane Concentration",
     "icon": "spell_shadow_manaburn",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 6% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+    "description": "Gives you a 4% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
   },
   "12575": {
     "name_enus": "Arcane Concentration",
     "icon": "spell_shadow_manaburn",
     "rank_enus": "Rank 3",
-    "description": "Gives you a 8% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+    "description": "Gives you a 6% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
   },
   "12576": {
     "name_enus": "Arcane Concentration",
     "icon": "spell_shadow_manaburn",
     "rank_enus": "Rank 4",
-    "description": "Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+    "description": "Gives you a 8% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
   },
   "12577": {
     "name_enus": "Arcane Concentration",
     "icon": "spell_shadow_manaburn",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
   },
   "12592": {
     "name_enus": "Arcane Subtlety",
     "icon": "spell_holy_dispelmagic",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the chance your helpful spells and damage over time effects will be dispelled by 30% and reduces the threat caused by your Arcane spells by 40%."
   },
   "12598": {
     "name_enus": "Improved Counterspell",
     "icon": "spell_frost_iceshock",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Counterspell also silences the target for 4 sec."
   },
   "12605": {
     "name_enus": "Arcane Shielding",
     "icon": "spell_shadow_detectlesserinvisibility",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Decreases the mana lost per point of damage taken when Mana Shield is active by 33% and increases the resistances granted by Mage Armor by 50%."
   },
   "12606": {
     "name_enus": "Magic Attunement",
     "icon": "spell_nature_abolishmagic",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.3 sec."
+    "description": "Increases the range of your Arcane spells by 6 yards and the effect of your Amplify Magic and Dampen Magic spells by 50%."
   },
   "12658": {
     "name_enus": "Improved Rend",
     "icon": "ability_gouge",
     "rank_enus": "Rank 2",
-    "description": "Increases the effect duration of your Gouge ability by 1.5 sec."
+    "description": "Increases the bleed damage done by your Rend ability by 20%."
   },
   "12663": {
     "name_enus": "Improved Heroic Strike",
     "icon": "ability_rogue_ambush",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cost of your Heroic Strike ability by 2 rage points."
   },
   "12664": {
     "name_enus": "Improved Heroic Strike",
     "icon": "ability_rogue_ambush",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cost of your Heroic Strike ability by 3 rage points."
   },
   "12665": {
     "name_enus": "Improved Thunder Clap",
     "icon": "ability_thunderclap",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cost of your Thunder Clap ability by 4 rage points and increases the damage by 30% and the slowing effect by an additional 10%."
+    "description": "Reduces the cost of your Thunder Clap ability by 2 rage points and increases the damage by 20% and the slowing effect by an additional 7%."
   },
   "12666": {
     "name_enus": "Improved Thunder Clap",
     "icon": "ability_thunderclap",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cost of your Thunder Clap ability by 4 rage points and increases the damage by 30% and the slowing effect by an additional 10%."
   },
   "12668": {
     "name_enus": "Improved Hamstring",
     "icon": "ability_shockwave",
     "rank_enus": "Rank 2",
-    "description": "Gives your Hamstring ability a 15% chance to immobilize the target for 5 sec."
+    "description": "Gives your Hamstring ability a 10% chance to immobilize the target for 5 sec."
   },
   "12672": {
     "name_enus": "Ice Shards",
     "icon": "spell_frost_iceshard",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike damage bonus of your Frost spells by 100%."
+    "description": "Increases the critical strike damage bonus of your Frost spells by 66%."
   },
   "12676": {
     "name_enus": "Tactical Mastery",
     "icon": "spell_nature_enchantarmor",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "You retain up to an additional 10 of your rage points when you change stances.  Also greatly increases the threat generated by your Bloodthirst and Mortal Strike abilities when you are in Defensive Stance (More effective than Rank 1)."
   },
   "12677": {
     "name_enus": "Tactical Mastery",
     "icon": "spell_nature_enchantarmor",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You retain up to an additional 15 of your rage points when you change stances.  Also greatly increases the threat generated by your Bloodthirst and Mortal Strike abilities when you are in Defensive Stance (More effective than Rank 2)."
   },
   "12697": {
     "name_enus": "Improved Charge",
     "icon": "ability_warrior_charge",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the amount of rage generated by your Charge ability by 10."
   },
   "12700": {
     "name_enus": "Poleaxe Specialization",
     "icon": "inv_axe_06",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to get a critical strike and the critical damage caused with Axes and Polearms by 2%."
+    "description": "Increases your chance to get a critical strike and the critical damage caused with Axes and Polearms by 1%."
   },
   "12701": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 2",
-    "description": "Your attacks with maces ignore up to 9% of your opponent's armor."
+    "description": "Your attacks with maces ignore up to 6% of your opponent's armor."
   },
   "12702": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 3",
-    "description": "Your attacks with maces ignore up to 12% of your opponent's armor."
+    "description": "Your attacks with maces ignore up to 9% of your opponent's armor."
   },
   "12703": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 4",
-    "description": "Your attacks with maces ignore up to 15% of your opponent's armor."
+    "description": "Your attacks with maces ignore up to 12% of your opponent's armor."
   },
   "12704": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your attacks with maces ignore up to 15% of your opponent's armor."
   },
   "12711": {
     "name_enus": "Two-Handed Weapon Specialization",
     "icon": "inv_axe_09",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage you deal with two-handed melee weapons by 6%."
+    "description": "Increases the damage you deal with two-handed melee weapons by 4%."
   },
   "12712": {
     "name_enus": "Two-Handed Weapon Specialization",
     "icon": "inv_axe_09",
-    "rank_enus": "Rank 3",
-    "description": ""
+    "rank_enus": "Rank 3"
   },
   "12724": {
     "name_enus": "Shield Specialization",
     "icon": "inv_shield_06",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to block attacks with a shield by 3% and has a 60% chance to generate 5 rage when a block, dodge, or parry occurs."
+    "description": "Increases your chance to block attacks with a shield by 2% and has a 40% chance to generate 5 rage when a block, dodge, or parry occurs."
   },
   "12725": {
     "name_enus": "Shield Specialization",
     "icon": "inv_shield_06",
     "rank_enus": "Rank 3",
-    "description": "Increases your chance to block attacks with a shield by 4% and has a 80% chance to generate 5 rage when a block, dodge, or parry occurs."
+    "description": "Increases your chance to block attacks with a shield by 3% and has a 60% chance to generate 5 rage when a block, dodge, or parry occurs."
   },
   "12726": {
     "name_enus": "Shield Specialization",
     "icon": "inv_shield_06",
     "rank_enus": "Rank 4",
-    "description": "Increases your chance to block attacks with a shield by 5% and has a 100% chance to generate 5 rage when a block, dodge, or parry occurs."
+    "description": "Increases your chance to block attacks with a shield by 4% and has a 80% chance to generate 5 rage when a block, dodge, or parry occurs."
   },
   "12727": {
     "name_enus": "Shield Specialization",
     "icon": "inv_shield_06",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your chance to block attacks with a shield by 5% and has a 100% chance to generate 5 rage when a block, dodge, or parry occurs."
   },
   "12750": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 2",
-    "description": "Increases your Dodge chance by 3%."
+    "description": "Increases your Dodge chance by 2%."
   },
   "12751": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 3",
-    "description": "Increases your Dodge chance by 4%."
+    "description": "Increases your Dodge chance by 3%."
   },
   "12752": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 4",
-    "description": "Increases your Dodge chance by 5%."
+    "description": "Increases your Dodge chance by 4%."
   },
   "12753": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your Dodge chance by 5%."
   },
   "12761": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 2",
-    "description": "Increases your armor value from items by 6% and reduces the duration of all movement slowing effects by 18%."
+    "description": "Increases your armor value from items by 4% and reduces the duration of all movement slowing effects by 12%."
   },
   "12762": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 3",
-    "description": "Increases your armor value from items by 8% and reduces the duration of all movement slowing effects by 24%."
+    "description": "Increases your armor value from items by 6% and reduces the duration of all movement slowing effects by 18%."
   },
   "12763": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 4",
-    "description": "Increases your armor value from items by 10% and reduces the duration of all movement slowing effects by 30%."
+    "description": "Increases your armor value from items by 8% and reduces the duration of all movement slowing effects by 24%."
   },
   "12764": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your armor value from items by 10% and reduces the duration of all movement slowing effects by 30%."
   },
   "12781": {
     "name_enus": "Poleaxe Specialization",
     "icon": "inv_axe_06",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to get a critical strike and the critical damage caused with Axes and Polearms by 3%."
+    "description": "Increases your chance to get a critical strike and the critical damage caused with Axes and Polearms by 2%."
   },
   "12783": {
     "name_enus": "Poleaxe Specialization",
     "icon": "inv_axe_06",
     "rank_enus": "Rank 3",
-    "description": "Increases your chance to get a critical strike and the critical damage caused with Axes and Polearms by 4%."
+    "description": "Increases your chance to get a critical strike and the critical damage caused with Axes and Polearms by 3%."
   },
   "12784": {
     "name_enus": "Poleaxe Specialization",
     "icon": "inv_axe_06",
     "rank_enus": "Rank 4",
-    "description": "Increases your chance to get a critical strike and the critical damage caused with Axes and Polearms by 5%."
+    "description": "Increases your chance to get a critical strike and the critical damage caused with Axes and Polearms by 4%."
   },
   "12785": {
     "name_enus": "Poleaxe Specialization",
     "icon": "inv_axe_06",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your chance to get a critical strike and the critical damage caused with Axes and Polearms by 5%."
   },
   "12797": {
     "name_enus": "Improved Revenge",
     "icon": "ability_warrior_revenge",
     "rank_enus": "Rank 1",
-    "description": "Increases your Energy regeneration rate by 16%."
+    "description": "Increases damage of your Revenge ability by 30% and causes Revenge to strike an additional target for 50% damage."
   },
   "12799": {
     "name_enus": "Improved Revenge",
     "icon": "ability_warrior_revenge",
     "rank_enus": "Rank 2",
-    "description": "Increases your Energy regeneration rate by 25%."
+    "description": "Increases damage of your Revenge ability by 60% and causes Revenge to strike an additional target."
   },
   "12803": {
     "name_enus": "Improved Disciplines",
     "icon": "ability_warrior_shieldwall",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Shield Wall, Retaliation and Recklessness abilities by 60 secs."
   },
   "12804": {
     "name_enus": "Improved Disarm",
     "icon": "ability_warrior_disarm",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Disarm ability by 20 sec and causes the target to take an additional 10% damage while disarmed."
   },
   "12809": {
     "name_enus": "Concussion Blow",
     "icon": "ability_thunderbolt",
     "rank_enus": "",
-    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 3%."
+    "description": "Stuns the opponent for 5 sec and deals 38/100*AP damage (based on attack power)."
   },
   "12810": {
     "name_enus": "Puncture",
     "icon": "ability_warrior_sunder",
     "rank_enus": "Rank 2",
-    "description": "Reduces the rage cost of your Sunder Armor and Devastate abilities by 3."
+    "description": "Reduces the rage cost of your Sunder Armor and Devastate abilities by 2."
   },
   "12811": {
     "name_enus": "Puncture",
     "icon": "ability_warrior_sunder",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the rage cost of your Sunder Armor and Devastate abilities by 3."
   },
   "12812": {
     "name_enus": "Sword Specialization",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 3% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
+    "description": "Gives you a 4% chance to get an extra attack on the same target after hitting your target with your Sword.  This effect cannot occur more than once every 6 seconds."
   },
   "12813": {
     "name_enus": "Sword Specialization",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 3",
-    "description": "Gives you a 4% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
+    "description": "Gives you a 6% chance to get an extra attack on the same target after hitting your target with your Sword.  This effect cannot occur more than once every 6 seconds."
   },
   "12814": {
     "name_enus": "Sword Specialization",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 4",
-    "description": "Gives you a 5% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
+    "description": "Gives you a 8% chance to get an extra attack on the same target after hitting your target with your Sword.  This effect cannot occur more than once every 6 seconds."
   },
   "12815": {
     "name_enus": "Sword Specialization",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives you a 10% chance to get an extra attack on the same target after hitting your target with your Sword.  This effect cannot occur more than once every 6 seconds."
   },
   "12818": {
     "name_enus": "Improved Bloodrage",
     "icon": "ability_racial_bloodrage",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the rage generated by your Bloodrage ability by 50%."
   },
   "12834": {
     "name_enus": "Deep Wounds",
     "icon": "ability_backstab",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 2% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Your critical strikes cause the opponent to bleed, dealing 16% of your melee weapon's average damage over 6 sec."
   },
   "12835": {
     "name_enus": "Booming Voice",
     "icon": "spell_nature_purge",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 60%."
+    "description": "Increases the area of effect and duration of your Battle Shout, Demoralizing Shout and Commanding Shout by 50%."
   },
   "12839": {
     "name_enus": "Arcane Focus",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 2",
-    "description": "Increases your armor value from items by 6% and reduces the duration of all movement slowing effects by 18%."
+    "description": "Increases your chance to hit and reduces the mana cost of your Arcane spells by 2%."
   },
   "12840": {
     "name_enus": "Arcane Focus",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 3",
-    "description": "Increases your armor value from items by 8% and reduces the duration of all movement slowing effects by 24%."
+    "description": "Increases your chance to hit and reduces the mana cost of your Arcane spells by 3%."
   },
   "12846": {
     "name_enus": "Ignite",
     "icon": "spell_fire_incinerate",
     "rank_enus": "Rank 3",
-    "description": "Your critical strikes from Fire damage spells cause the target to burn for an additional 32% of your spell's damage over 4 sec."
+    "description": "Your critical strikes from Fire damage spells cause the target to burn for an additional 24% of your spell's damage over 4 sec."
   },
   "12847": {
     "name_enus": "Ignite",
     "icon": "spell_fire_incinerate",
     "rank_enus": "Rank 4",
-    "description": "Your critical strikes from Fire damage spells cause the target to burn for an additional 40% of your spell's damage over 4 sec."
+    "description": "Your critical strikes from Fire damage spells cause the target to burn for an additional 32% of your spell's damage over 4 sec."
   },
   "12848": {
     "name_enus": "Ignite",
     "icon": "spell_fire_incinerate",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your critical strikes from Fire damage spells cause the target to burn for an additional 40% of your spell's damage over 4 sec."
   },
   "12849": {
     "name_enus": "Deep Wounds",
     "icon": "ability_backstab",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 3% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Your critical strikes cause the opponent to bleed, dealing 32% of your melee weapon's average damage over 6 sec."
   },
   "12852": {
     "name_enus": "Cruelty",
     "icon": "ability_rogue_eviscerate",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Eviscerate ability by 20%."
+    "description": "Increases your chance to get a critical strike with melee weapons by 2%."
   },
   "12853": {
     "name_enus": "Cruelty",
     "icon": "ability_rogue_eviscerate",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to get a critical strike with melee weapons by 3%."
   },
   "12855": {
     "name_enus": "Cruelty",
     "icon": "ability_rogue_eviscerate",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases your chance to get a critical strike with melee weapons by 4%."
   },
   "12856": {
     "name_enus": "Cruelty",
     "icon": "ability_rogue_eviscerate",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your chance to get a critical strike with melee weapons by 5%."
   },
   "12857": {
     "name_enus": "Commanding Presence",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 15%."
+    "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 10%."
   },
   "12858": {
     "name_enus": "Commanding Presence",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 15%."
   },
   "12860": {
     "name_enus": "Commanding Presence",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 20%."
   },
   "12861": {
     "name_enus": "Commanding Presence",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 25%."
   },
   "12862": {
     "name_enus": "Improved Slam",
     "icon": "ability_warrior_decisivestrike",
     "rank_enus": "Rank 1",
-    "description": "Your finishing moves have a 8% chance per combo point to restore 25 energy."
+    "description": "Decreases the swing time of your Slam ability by 0.5 sec."
   },
   "12867": {
     "name_enus": "Deep Wounds",
     "icon": "ability_backstab",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your critical strikes cause the opponent to bleed, dealing 48% of your melee weapon's average damage over 6 sec."
   },
   "12872": {
     "name_enus": "Improved Scorch",
     "icon": "spell_fire_soulburn",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to critically hit with Scorch, Fireball and Frostfire Bolt by an additional 3% and your damaging Scorch spells have a 100% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5% and lasts 30 sec."
+    "description": "Increases your chance to critically hit with Scorch, Fireball and Frostfire Bolt by an additional 2% and your damaging Scorch spells have a 66% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5% and lasts 30 sec."
   },
   "12873": {
     "name_enus": "Improved Scorch",
     "icon": "spell_fire_soulburn",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to critically hit with Scorch, Fireball and Frostfire Bolt by an additional 3% and your damaging Scorch spells have a 100% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5% and lasts 30 sec."
   },
   "12876": {
     "name_enus": "Improved Demoralizing Shout",
     "icon": "ability_warrior_warcry",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the melee attack power reduction of your Demoralizing Shout by 16%."
   },
   "12877": {
     "name_enus": "Improved Demoralizing Shout",
     "icon": "ability_warrior_warcry",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the melee attack power reduction of your Demoralizing Shout by 24%."
   },
   "12878": {
     "name_enus": "Improved Demoralizing Shout",
     "icon": "ability_warrior_warcry",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the melee attack power reduction of your Demoralizing Shout by 32%."
   },
   "12879": {
     "name_enus": "Improved Demoralizing Shout",
     "icon": "ability_warrior_warcry",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the melee attack power reduction of your Demoralizing Shout by 40%."
   },
   "12950": {
     "name_enus": "Improved Cleave",
     "icon": "ability_warrior_cleave",
     "rank_enus": "Rank 2",
-    "description": "Increases the bonus damage done by your Cleave ability by 120%."
+    "description": "Increases the bonus damage done by your Cleave ability by 80%."
   },
   "12952": {
     "name_enus": "Piercing Ice",
     "icon": "spell_frost_frostbolt",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Frost spells by 6%."
+    "description": "Increases the damage done by your Frost spells by 4%."
   },
   "12953": {
     "name_enus": "Piercing Ice",
     "icon": "spell_frost_frostbolt",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Frost spells by 6%."
   },
   "12958": {
     "name_enus": "Gag Order",
     "icon": "ability_warrior_shieldbash",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Gives your Shield Bash and Heroic Throw abilities a 100% chance to silence the target for 3 sec and increases the damage of your Shield Slam ability by 10%."
   },
   "12959": {
     "name_enus": "Iron Will",
     "icon": "spell_magic_magearmor",
     "rank_enus": "Rank 2",
-    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 18%."
+    "description": "Reduces the duration of all Stun and Charm effects used against you by 14%."
   },
   "12960": {
     "name_enus": "Iron Will",
     "icon": "spell_magic_magearmor",
     "rank_enus": "Rank 3",
-    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 24%."
+    "description": "Reduces the duration of all Stun and Charm effects used against you by 20%."
   },
   "12963": {
     "name_enus": "Improved Overpower",
     "icon": "inv_sword_05",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike chance of your Overpower ability by 50%."
   },
   "12971": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your attack speed by 12% for your next 3 swings after dealing a critical strike."
   },
   "12972": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your attack speed by 18% for your next 3 swings after dealing a critical strike."
   },
   "12973": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases your attack speed by 24% for your next 3 swings after dealing a critical strike."
   },
   "12974": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your attack speed by 30% for your next 3 swings after dealing a critical strike."
   },
   "12975": {
     "name_enus": "Last Stand",
@@ -1275,133 +1274,133 @@ export const spells = {
     "name_enus": "Shatter",
     "icon": "spell_frost_frostshock",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike chance of all your spells against frozen targets by 34%."
   },
   "12983": {
     "name_enus": "Shatter",
     "icon": "spell_frost_frostshock",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of all your spells against frozen targets by 50%."
   },
   "12999": {
     "name_enus": "Unbridled Wrath",
     "icon": "spell_nature_stoneclawtotem",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.  Effect occurs more often than Unbridled Wrath (Rank 1)."
   },
   "13000": {
     "name_enus": "Unbridled Wrath",
     "icon": "spell_nature_stoneclawtotem",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.  Effect occurs more often than Unbridled Wrath (Rank 2)."
   },
   "13001": {
     "name_enus": "Unbridled Wrath",
     "icon": "spell_nature_stoneclawtotem",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.  Effect occurs more often than Unbridled Wrath (Rank 3)."
   },
   "13002": {
     "name_enus": "Unbridled Wrath",
     "icon": "spell_nature_stoneclawtotem",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.  Effect occurs more often than Unbridled Wrath (Rank 4)."
   },
   "13043": {
     "name_enus": "Molten Shields",
     "icon": "spell_fire_firearmor",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Causes your Fire Ward and Frost Ward spells to have a 30% chance to reflect the warded spell while active. In addition, your Molten Armor has a 100% chance to affect ranged and spell attacks."
   },
   "13045": {
     "name_enus": "Enrage",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 2",
-    "description": "Your Blood Strikes cause you to deal 3% additional damage with all attacks for the next 20 sec."
+    "description": "Gives you a 30% chance to receive a 4% damage bonus for 12 sec after being the victim of a damaging attack.  This effect does not stack with Wrecking Crew."
   },
   "13046": {
     "name_enus": "Enrage",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 3",
-    "description": "Your Blood Strikes cause you to deal 4% additional damage with all attacks for the next 20 sec."
+    "description": "Gives you a 30% chance to receive a 6% damage bonus for 12 sec after being the victim of a damaging attack.  This effect does not stack with Wrecking Crew."
   },
   "13047": {
     "name_enus": "Enrage",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 4",
-    "description": "Your Blood Strikes cause you to deal 5% additional damage with all attacks for the next 20 sec."
+    "description": "Gives you a 30% chance to receive a 8% damage bonus for 12 sec after being the victim of a damaging attack.  This effect does not stack with Wrecking Crew."
   },
   "13048": {
     "name_enus": "Enrage",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives you a 30% chance to receive a 10% damage bonus for 12 sec after being the victim of a damaging attack.  This effect does not stack with Wrecking Crew."
   },
   "13705": {
     "name_enus": "Precision",
     "icon": "ability_marksmanship",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with weapon and poison attacks by 2%."
+    "description": "Reduces the mana cost and increases your chance to hit with spells by 1%."
   },
   "13706": {
     "name_enus": "Close Quarters Combat",
     "icon": "inv_weapon_shortblade_05",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to get a critical strike with Daggers and Fist Weapons by 2%."
+    "description": "Increases your chance to get a critical strike with Daggers and Fist Weapons by 1%."
   },
   "13709": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 1",
-    "description": "Your attacks with maces ignore up to 6% of your opponent's armor."
+    "description": "Your attacks with maces ignore up to 3% of your opponent's armor."
   },
   "13712": {
     "name_enus": "Lightning Reflexes",
     "icon": "spell_nature_invisibilty",
     "rank_enus": "Rank 1",
-    "description": "Increases your Agility by 6%."
+    "description": "Increases your Agility by 3%."
   },
   "13713": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Increases your chance to parry by 1%, and reduces the duration of all Disarm effects used against you by 16%.  This does not stack with other Disarm duration reducing effects."
   },
   "13715": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with one-handed melee weapons by 2% and increases the damage done by your offhand weapon by 16%."
+    "description": "Increases the damage done by your offhand weapon by 10%."
   },
   "13732": {
     "name_enus": "Improved Sinister Strike",
     "icon": "spell_shadow_ritualofsacrifice",
     "rank_enus": "Rank 1",
-    "description": "Reduces the Energy cost of your Sinister Strike ability by 5."
+    "description": "Reduces the Energy cost of your Sinister Strike ability by 3."
   },
   "13733": {
     "name_enus": "Puncturing Wounds",
     "icon": "ability_backstab",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 2% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Increases the critical strike chance of your Backstab ability by 10%, and the critical strike chance of your Mutilate ability by 5%."
   },
   "13741": {
     "name_enus": "Improved Gouge",
     "icon": "ability_gouge",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect duration of your Gouge ability by 1 sec."
+    "description": "Increases the effect duration of your Gouge ability by 0.5 sec."
   },
   "13742": {
     "name_enus": "Endurance",
     "icon": "spell_shadow_shadowward",
     "rank_enus": "Rank 1",
-    "description": "Reduces the threat generated by your Shadow spells by 16%, and you receive 10% of your base mana when your Shadow Word: Pain or Vampiric Touch spells are dispelled."
+    "description": "Reduces the cooldown of your Sprint and Evasion abilities by 30 sec and increases your total Stamina by 2%."
   },
   "13743": {
     "name_enus": "Improved Sprint",
     "icon": "ability_rogue_sprint",
     "rank_enus": "Rank 1",
-    "description": "Gives a 100% chance to remove all Movement Impairing effects when you activate your Sprint ability."
+    "description": "Gives a 50% chance to remove all Movement Impairing effects when you activate your Sprint ability."
   },
   "13750": {
     "name_enus": "Adrenaline Rush",
@@ -1413,175 +1412,173 @@ export const spells = {
     "name_enus": "Improved Kick",
     "icon": "ability_kick",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of movement impairing effects by 20%."
+    "description": "Gives your Kick ability a 50% chance to silence the target for 2 sec."
   },
   "13788": {
     "name_enus": "Lightning Reflexes",
     "icon": "spell_nature_invisibilty",
     "rank_enus": "Rank 2",
-    "description": "Increases your Agility by 9%."
+    "description": "Increases your Agility by 6%."
   },
   "13789": {
     "name_enus": "Lightning Reflexes",
     "icon": "spell_nature_invisibilty",
     "rank_enus": "Rank 3",
-    "description": "Increases your Agility by 12%."
+    "description": "Increases your Agility by 9%."
   },
   "13792": {
     "name_enus": "Improved Gouge",
     "icon": "ability_gouge",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effect duration of your Gouge ability by 1.5 sec."
   },
   "13793": {
     "name_enus": "Improved Gouge",
     "icon": "ability_gouge",
     "rank_enus": "Rank 2",
-    "description": "Increases the effect duration of your Gouge ability by 1.5 sec."
+    "description": "Increases the effect duration of your Gouge ability by 1 sec."
   },
   "13800": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 2",
-    "description": "Your attacks with maces ignore up to 9% of your opponent's armor."
+    "description": "Your attacks with maces ignore up to 6% of your opponent's armor."
   },
   "13801": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 3",
-    "description": "Your attacks with maces ignore up to 12% of your opponent's armor."
+    "description": "Your attacks with maces ignore up to 9% of your opponent's armor."
   },
   "13802": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 4",
-    "description": "Your attacks with maces ignore up to 15% of your opponent's armor."
+    "description": "Your attacks with maces ignore up to 12% of your opponent's armor."
   },
   "13803": {
     "name_enus": "Mace Specialization",
     "icon": "inv_mace_01",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your attacks with maces ignore up to 15% of your opponent's armor."
   },
   "13804": {
     "name_enus": "Close Quarters Combat",
     "icon": "inv_weapon_shortblade_05",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to get a critical strike with Daggers and Fist Weapons by 3%."
+    "description": "Increases your chance to get a critical strike with Daggers and Fist Weapons by 2%."
   },
   "13805": {
     "name_enus": "Close Quarters Combat",
     "icon": "inv_weapon_shortblade_05",
     "rank_enus": "Rank 3",
-    "description": "Increases your chance to get a critical strike with Daggers and Fist Weapons by 4%."
+    "description": "Increases your chance to get a critical strike with Daggers and Fist Weapons by 3%."
   },
   "13806": {
     "name_enus": "Close Quarters Combat",
     "icon": "inv_weapon_shortblade_05",
     "rank_enus": "Rank 4",
-    "description": "Increases your chance to get a critical strike with Daggers and Fist Weapons by 5%."
+    "description": "Increases your chance to get a critical strike with Daggers and Fist Weapons by 4%."
   },
   "13807": {
     "name_enus": "Close Quarters Combat",
     "icon": "inv_weapon_shortblade_05",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your chance to get a critical strike with Daggers and Fist Weapons by 5%."
   },
   "13832": {
     "name_enus": "Precision",
     "icon": "ability_marksmanship",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to hit with weapon and poison attacks by 3%."
+    "description": "Reduces the mana cost and increases your chance to hit with spells by 2%."
   },
   "13843": {
     "name_enus": "Precision",
     "icon": "ability_marksmanship",
     "rank_enus": "Rank 3",
-    "description": "Increases your chance to hit with weapon and poison attacks by 4%."
+    "description": "Reduces the mana cost and increases your chance to hit with spells by 3%."
   },
   "13844": {
     "name_enus": "Precision",
     "icon": "ability_marksmanship",
-    "rank_enus": "Rank 4",
-    "description": "Increases your chance to hit with weapon and poison attacks by 5%."
+    "rank_enus": "Rank 4"
   },
   "13845": {
     "name_enus": "Precision",
     "icon": "ability_marksmanship",
-    "rank_enus": "Rank 5",
-    "description": ""
+    "rank_enus": "Rank 5"
   },
   "13848": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to hit with one-handed melee weapons by 3% and increases the damage done by your offhand weapon by 25%."
+    "description": "Increases the damage done by your offhand weapon by 20%."
   },
   "13849": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your offhand weapon by 30%."
   },
   "13851": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the damage done by your offhand weapon by 40%."
   },
   "13852": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your offhand weapon by 50%."
   },
   "13853": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%.  This does not stack with other Disarm duration reducing effects."
   },
   "13854": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%.  This does not stack with other Disarm duration reducing effects."
   },
   "13863": {
     "name_enus": "Improved Sinister Strike",
     "icon": "spell_shadow_ritualofsacrifice",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the Energy cost of your Sinister Strike ability by 5."
   },
   "13865": {
     "name_enus": "Puncturing Wounds",
     "icon": "ability_backstab",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 3% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Increases the critical strike chance of your Backstab ability by 20%, and the critical strike chance of your Mutilate ability by 10%."
   },
   "13866": {
     "name_enus": "Puncturing Wounds",
     "icon": "ability_backstab",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your Backstab ability by 30%, and the critical strike chance of your Mutilate ability by 15%."
   },
   "13867": {
     "name_enus": "Improved Kick",
     "icon": "ability_kick",
     "rank_enus": "Rank 2",
-    "description": "Reduces the duration of movement impairing effects by 30%."
+    "description": "Gives your Kick ability a 100% chance to silence the target for 2 sec."
   },
   "13872": {
     "name_enus": "Endurance",
     "icon": "spell_shadow_shadowward",
     "rank_enus": "Rank 2",
-    "description": "Reduces the threat generated by your Shadow spells by 25%, and you receive 15% of your base mana when your Shadow Word: Pain or Vampiric Touch spells are dispelled."
+    "description": "Reduces the cooldown of your Sprint and Evasion abilities by 60 sec and increases your total Stamina by 4%."
   },
   "13875": {
     "name_enus": "Improved Sprint",
     "icon": "ability_rogue_sprint",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Gives a 100% chance to remove all Movement Impairing effects when you activate your Sprint ability."
   },
   "13877": {
     "name_enus": "Blade Flurry",
@@ -1593,385 +1590,385 @@ export const spells = {
     "name_enus": "Master of Deception",
     "icon": "spell_shadow_charm",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Intellect by 6%."
+    "description": "Reduces the chance enemies have to detect you while in Stealth mode."
   },
   "13960": {
     "name_enus": "Hack and Slash",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 2% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
+    "description": "Gives you a 1% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
   },
   "13961": {
     "name_enus": "Hack and Slash",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 3% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
+    "description": "Gives you a 2% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
   },
   "13962": {
     "name_enus": "Hack and Slash",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 3",
-    "description": "Gives you a 4% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
+    "description": "Gives you a 3% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
   },
   "13963": {
     "name_enus": "Hack and Slash",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 4",
-    "description": "Gives you a 5% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
+    "description": "Gives you a 4% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
   },
   "13964": {
     "name_enus": "Hack and Slash",
     "icon": "inv_sword_27",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives you a 5% chance to get an extra attack on the same target after hitting your target with your Sword or Axe."
   },
   "13970": {
     "name_enus": "Master of Deception",
     "icon": "spell_shadow_charm",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Intellect by 9%."
+    "description": "Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 1)."
   },
   "13971": {
     "name_enus": "Master of Deception",
     "icon": "spell_shadow_charm",
     "rank_enus": "Rank 3",
-    "description": "Increases your total Intellect by 12%."
+    "description": "Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 2)."
   },
   "13975": {
     "name_enus": "Camouflage",
     "icon": "ability_stealth",
     "rank_enus": "Rank 1",
-    "description": "Increases your speed while stealthed by 10% and reduces the cooldown of your Stealth ability by 4 sec."
+    "description": "Increases your speed while stealthed by 5% and reduces the cooldown of your Stealth ability by 2 sec."
   },
   "13976": {
     "name_enus": "Initiative",
     "icon": "spell_shadow_fumble",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 66% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
+    "description": "Gives you a 33% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
   },
   "13979": {
     "name_enus": "Initiative",
     "icon": "spell_shadow_fumble",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 100% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
+    "description": "Gives you a 66% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
   },
   "13980": {
     "name_enus": "Initiative",
     "icon": "spell_shadow_fumble",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives you a 100% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
   },
   "13981": {
     "name_enus": "Elusiveness",
     "icon": "spell_magic_lesserinvisibilty",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to dodge by 2%."
+    "description": "Reduces the cooldown of your Vanish and Blind abilities by 30 sec and your Cloak of Shadows ability by 15 sec."
   },
   "13983": {
     "name_enus": "Setup",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 1",
-    "description": "Increases your Dodge chance by 2%."
+    "description": "Gives you a 33% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.  This cannot happen more than once per second."
   },
   "14057": {
     "name_enus": "Opportunity",
     "icon": "ability_warrior_warcry",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage dealt with your Backstab, Mutilate, Garrote and Ambush abilities by 20%."
+    "description": "Increases the damage dealt with your Backstab, Mutilate, Garrote and Ambush abilities by 10%."
   },
   "14062": {
     "name_enus": "Camouflage",
     "icon": "ability_stealth",
     "rank_enus": "Rank 2",
-    "description": "Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 6 sec."
+    "description": "Increases your speed while stealthed by 10% and reduces the cooldown of your Stealth ability by 4 sec."
   },
   "14063": {
     "name_enus": "Camouflage",
     "icon": "ability_stealth",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 6 sec."
   },
   "14066": {
     "name_enus": "Elusiveness",
     "icon": "spell_magic_lesserinvisibilty",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to dodge by 3%."
+    "description": "Reduces the cooldown of your Vanish and Blind abilities by 60 sec and your Cloak of Shadows ability by 30 sec."
   },
   "14070": {
     "name_enus": "Setup",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 2",
-    "description": "Increases your Dodge chance by 3%."
+    "description": "Gives you a 66% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.  This cannot happen more than once per second."
   },
   "14071": {
     "name_enus": "Setup",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 3",
-    "description": "Increases your Dodge chance by 4%."
+    "description": "Gives you a 100% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.  This cannot happen more than once per second."
   },
   "14072": {
     "name_enus": "Opportunity",
     "icon": "ability_warrior_warcry",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage dealt with your Backstab, Mutilate, Garrote and Ambush abilities by 20%."
   },
   "14076": {
     "name_enus": "Dirty Tricks",
     "icon": "ability_sap",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your Blind and Sap abilities by 5 yards and reduces the energy cost of your Blind and Sap abilities by 50%."
+    "description": "Increases the range of your Blind and Sap abilities by 2 yards and reduces the energy cost of your Blind and Sap abilities by 25%."
   },
   "14079": {
     "name_enus": "Improved Ambush",
     "icon": "ability_rogue_ambush",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Ambush ability by 50%."
+    "description": "Increases the critical strike chance of your Ambush ability by 25%."
   },
   "14080": {
     "name_enus": "Improved Ambush",
     "icon": "ability_rogue_ambush",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike chance of your Ambush ability by 50%."
   },
   "14082": {
     "name_enus": "Dirty Deeds",
     "icon": "spell_shadow_summonsuccubus",
     "rank_enus": "Rank 1",
-    "description": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20.  Additionally, your special abilities cause 20% more damage against targets below 35% health."
+    "description": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10.  Additionally, your special abilities cause 10% more damage against targets below 35% health."
   },
   "14083": {
     "name_enus": "Dirty Deeds",
     "icon": "spell_shadow_summonsuccubus",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20.  Additionally, your special abilities cause 20% more damage against targets below 35% health."
   },
   "14094": {
     "name_enus": "Dirty Tricks",
     "icon": "ability_sap",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of your Blind and Sap abilities by 5 yards and reduces the energy cost of your Blind and Sap abilities by 50%."
   },
   "14113": {
     "name_enus": "Improved Poisons",
     "icon": "ability_poisons",
     "rank_enus": "Rank 1",
-    "description": "Increases the chance to apply Deadly Poison to your target by 8% and the frequency of applying Instant Poison to your target by 20%."
+    "description": "Increases the chance to apply Deadly Poison to your target by 4% and the frequency of applying Instant Poison to your target by 10%."
   },
   "14114": {
     "name_enus": "Improved Poisons",
     "icon": "ability_poisons",
     "rank_enus": "Rank 2",
-    "description": "Increases the chance to apply Deadly Poison to your target by 12% and the frequency of applying Instant Poison to your target by 30%."
+    "description": "Increases the chance to apply Deadly Poison to your target by 8% and the frequency of applying Instant Poison to your target by 20%."
   },
   "14115": {
     "name_enus": "Improved Poisons",
     "icon": "ability_poisons",
     "rank_enus": "Rank 3",
-    "description": "Increases the chance to apply Deadly Poison to your target by 16% and the frequency of applying Instant Poison to your target by 40%."
+    "description": "Increases the chance to apply Deadly Poison to your target by 12% and the frequency of applying Instant Poison to your target by 30%."
   },
   "14116": {
     "name_enus": "Improved Poisons",
     "icon": "ability_poisons",
     "rank_enus": "Rank 4",
-    "description": "Increases the chance to apply Deadly Poison to your target by 20% and the frequency of applying Instant Poison to your target by 50%."
+    "description": "Increases the chance to apply Deadly Poison to your target by 16% and the frequency of applying Instant Poison to your target by 40%."
   },
   "14117": {
     "name_enus": "Improved Poisons",
     "icon": "ability_poisons",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the chance to apply Deadly Poison to your target by 20% and the frequency of applying Instant Poison to your target by 50%."
   },
   "14128": {
     "name_enus": "Lethality",
     "icon": "ability_criticalstrike",
     "rank_enus": "Rank 1",
-    "description": "Your auto attacks have a 20% chance to cause a Blood-Caked Strike, which hits for 25% weapon damage plus 12.5% for each of your diseases on the target."
+    "description": "Increases the critical strike damage bonus of all combo point-generating abilities that do not require stealth by 6%."
   },
   "14132": {
     "name_enus": "Lethality",
     "icon": "ability_criticalstrike",
     "rank_enus": "Rank 2",
-    "description": "Your auto attacks have a 30% chance to cause a Blood-Caked Strike, which hits for 25% weapon damage plus 12.5% for each of your diseases on the target."
+    "description": "Increases the critical strike damage bonus of all combo point-generating abilities that do not require stealth by 12%."
   },
   "14135": {
     "name_enus": "Lethality",
     "icon": "ability_criticalstrike",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of all combo point-generating abilities that do not require stealth by 18%."
   },
   "14136": {
     "name_enus": "Lethality",
     "icon": "ability_criticalstrike",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of all combo point-generating abilities that do not require stealth by 24%."
   },
   "14137": {
     "name_enus": "Lethality",
     "icon": "ability_criticalstrike",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of all combo point-generating abilities that do not require stealth by 30%."
   },
   "14138": {
     "name_enus": "Malice",
     "icon": "ability_racial_bloodrage",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of Raptor Strike, Mongoose Bite and Counterattack by 20%."
+    "description": "Increases your critical strike chance by 1%."
   },
   "14139": {
     "name_enus": "Malice",
     "icon": "ability_racial_bloodrage",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your critical strike chance by 2%."
   },
   "14140": {
     "name_enus": "Malice",
     "icon": "ability_racial_bloodrage",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your critical strike chance by 3%."
   },
   "14141": {
     "name_enus": "Malice",
     "icon": "ability_racial_bloodrage",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases your critical strike chance by 4%."
   },
   "14142": {
     "name_enus": "Malice",
     "icon": "ability_racial_bloodrage",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your critical strike chance by 5%."
   },
   "14144": {
     "name_enus": "Remorseless Attacks",
     "icon": "ability_fiegndead",
     "rank_enus": "Rank 1",
-    "description": "After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Hemorrhage, Backstab, Mutilate, Ambush, or Ghostly Strike.  Lasts 20 sec."
+    "description": "After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Hemorrhage, Backstab, Mutilate, Ambush, or Ghostly Strike.  Lasts 20 sec."
   },
   "14148": {
     "name_enus": "Remorseless Attacks",
     "icon": "ability_fiegndead",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Hemorrhage, Backstab, Mutilate, Ambush, or Ghostly Strike.  Lasts 20 sec."
   },
   "14156": {
     "name_enus": "Ruthlessness",
     "icon": "ability_druid_disembowel",
     "rank_enus": "Rank 1",
-    "description": "Gives your melee finishing moves a 40% chance to add a combo point to your target."
+    "description": "Gives your melee finishing moves a 20% chance to add a combo point to your target."
   },
   "14158": {
     "name_enus": "Murder",
     "icon": "spell_shadow_deathscream",
     "rank_enus": "Rank 1",
-    "description": "Increases all damage caused by 4%."
+    "description": "Increases all damage caused by 2%."
   },
   "14159": {
     "name_enus": "Murder",
     "icon": "spell_shadow_deathscream",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases all damage caused by 4%."
   },
   "14160": {
     "name_enus": "Ruthlessness",
     "icon": "ability_druid_disembowel",
     "rank_enus": "Rank 2",
-    "description": "Gives your melee finishing moves a 60% chance to add a combo point to your target."
+    "description": "Gives your melee finishing moves a 40% chance to add a combo point to your target."
   },
   "14161": {
     "name_enus": "Ruthlessness",
     "icon": "ability_druid_disembowel",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives your melee finishing moves a 60% chance to add a combo point to your target."
   },
   "14162": {
     "name_enus": "Improved Eviscerate",
     "icon": "ability_rogue_eviscerate",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Eviscerate ability by 14%."
+    "description": "Increases the damage done by your Eviscerate ability by 7%."
   },
   "14163": {
     "name_enus": "Improved Eviscerate",
     "icon": "ability_rogue_eviscerate",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Eviscerate ability by 20%."
+    "description": "Increases the damage done by your Eviscerate ability by 14%."
   },
   "14164": {
     "name_enus": "Improved Eviscerate",
     "icon": "ability_rogue_eviscerate",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Eviscerate ability by 20%."
   },
   "14165": {
     "name_enus": "Improved Slice and Dice",
     "icon": "ability_rogue_slicedice",
     "rank_enus": "Rank 1",
-    "description": "Increases the duration of your Slice and Dice ability by 50%."
+    "description": "Increases the duration of your Slice and Dice ability by 25%."
   },
   "14166": {
     "name_enus": "Improved Slice and Dice",
     "icon": "ability_rogue_slicedice",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the duration of your Slice and Dice ability by 50%."
   },
   "14168": {
     "name_enus": "Improved Expose Armor",
     "icon": "ability_warrior_riposte",
     "rank_enus": "Rank 1",
-    "description": "Reduces the energy cost of your Expose Armor ability by 10."
+    "description": "Reduces the energy cost of your Expose Armor ability by 5."
   },
   "14169": {
     "name_enus": "Improved Expose Armor",
     "icon": "ability_warrior_riposte",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the energy cost of your Expose Armor ability by 10."
   },
   "14171": {
     "name_enus": "Serrated Blades",
     "icon": "inv_sword_17",
     "rank_enus": "Rank 1",
-    "description": "Causes your attacks to ignore up to 6% of your target's Armor and increases the damage dealt by your Rupture ability by 20%."
+    "description": "Causes your attacks to ignore up to 3% of your target's Armor and increases the damage dealt by your Rupture ability by 10%."
   },
   "14172": {
     "name_enus": "Serrated Blades",
     "icon": "inv_sword_17",
     "rank_enus": "Rank 2",
-    "description": "Causes your attacks to ignore up to 9% of your target's Armor and increases the damage dealt by your Rupture ability by 30%."
+    "description": "Causes your attacks to ignore up to 6% of your target's Armor and increases the damage dealt by your Rupture ability by 20%."
   },
   "14173": {
     "name_enus": "Serrated Blades",
     "icon": "inv_sword_17",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Causes your attacks to ignore up to 9% of your target's Armor and increases the damage dealt by your Rupture ability by 30%."
   },
   "14174": {
     "name_enus": "Improved Kidney Shot",
     "icon": "ability_rogue_kidneyshot",
     "rank_enus": "Rank 1",
-    "description": "While affected by your Kidney Shot ability, the target receives an additional 6% damage from all sources."
+    "description": "While affected by your Kidney Shot ability, the target receives an additional 3% damage from all sources."
   },
   "14175": {
     "name_enus": "Improved Kidney Shot",
     "icon": "ability_rogue_kidneyshot",
     "rank_enus": "Rank 2",
-    "description": "While affected by your Kidney Shot ability, the target receives an additional 9% damage from all sources."
+    "description": "While affected by your Kidney Shot ability, the target receives an additional 6% damage from all sources."
   },
   "14176": {
     "name_enus": "Improved Kidney Shot",
     "icon": "ability_rogue_kidneyshot",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "While affected by your Kidney Shot ability, the target receives an additional 9% damage from all sources."
   },
   "14177": {
     "name_enus": "Cold Blood",
     "icon": "spell_ice_lament",
     "rank_enus": "",
-    "description": "Instantly shields you, absorbing 438 damage.  Lasts 1 min.  While the shield holds, spellcasting will not be delayed by damage."
+    "description": "When activated, increases the critical strike chance of your next offensive ability by 100%."
   },
   "14179": {
     "name_enus": "Relentless Strikes",
     "icon": "ability_warrior_decisivestrike",
     "rank_enus": "Rank 1",
-    "description": "Your finishing moves have a 8% chance per combo point to restore 25 energy."
+    "description": "Your finishing moves have a 4% chance per combo point to restore 25 energy."
   },
   "14183": {
     "name_enus": "Premeditation",
@@ -1989,37 +1986,37 @@ export const spells = {
     "name_enus": "Seal Fate",
     "icon": "spell_shadow_chilltouch",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your offensive Shadow spells by 20%."
+    "description": "Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point."
   },
   "14190": {
     "name_enus": "Seal Fate",
     "icon": "spell_shadow_chilltouch",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point."
   },
   "14193": {
     "name_enus": "Seal Fate",
     "icon": "spell_shadow_chilltouch",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point."
   },
   "14194": {
     "name_enus": "Seal Fate",
     "icon": "spell_shadow_chilltouch",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Your critical strikes from abilities that add combo points have a 80% chance to add an additional combo point."
   },
   "14195": {
     "name_enus": "Seal Fate",
     "icon": "spell_shadow_chilltouch",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point."
   },
   "14251": {
     "name_enus": "Riposte",
     "icon": "ability_warrior_challange",
     "rank_enus": "",
-    "description": "A strike that becomes active after parrying an opponent's attack.  This attack deals AP*0.2+48 damage and immobilizes the target for 5 sec.  Counterattack cannot be blocked, dodged, or parried."
+    "description": "A strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and slows their melee attack speed by 20% for 30 sec.  Awards 1 combo point."
   },
   "14278": {
     "name_enus": "Ghostly Strike",
@@ -2031,223 +2028,223 @@ export const spells = {
     "name_enus": "Mental Agility",
     "icon": "ability_hibernation",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your instant cast spells by 7%."
+    "description": "Reduces the mana cost of your instant cast spells by 4%."
   },
   "14521": {
     "name_enus": "Meditation",
     "icon": "spell_nature_sleep",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Intellect by 4%."
+    "description": "Allows 17% of your mana regeneration to continue while casting."
   },
   "14522": {
     "name_enus": "Unbreakable Will",
     "icon": "spell_magic_magearmor",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 12%."
+    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 6%."
   },
   "14523": {
     "name_enus": "Silent Resolve",
     "icon": "spell_nature_manaregentotem",
     "rank_enus": "Rank 1",
-    "description": "Reduces the threat generated by your Holy and Discipline spells by 14% and reduces the chance your helpful spells and damage over time effects will be dispelled by 20%."
+    "description": "Reduces the threat generated by your Holy and Discipline spells by 7% and reduces the chance your helpful spells and damage over time effects will be dispelled by 10%."
   },
   "14531": {
     "name_enus": "Martyrdom",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 1",
-    "description": "Your spells and abilities deal 6% more damage to targets infected with Frost Fever.  Also increases your expertise by 2."
+    "description": "Gives you a 50% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike.  The Focused Casting effect reduces the pushback suffered from damaging attacks while casting Priest spells and decreases the duration of Interrupt effects by 10%."
   },
   "14747": {
     "name_enus": "Improved Inner Fire",
     "icon": "spell_holy_innerfire",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect of your Inner Fire spell by 30%, and increases the total number of charges by 8."
+    "description": "Increases the effect of your Inner Fire spell by 15%, and increases the total number of charges by 4."
   },
   "14748": {
     "name_enus": "Improved Power Word: Shield",
     "icon": "spell_holy_powerwordshield",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage absorbed by your Power Word: Shield by 10%."
+    "description": "Increases the damage absorbed by your Power Word: Shield by 5%."
   },
   "14749": {
     "name_enus": "Improved Power Word: Fortitude",
     "icon": "spell_holy_wordfortitude",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect of your Power Word: Fortitude and Prayer of Fortitude spells by 30%, and increases your total Stamina by 4%."
+    "description": "Increases the effect of your Power Word: Fortitude and Prayer of Fortitude spells by 15%, and increases your total Stamina by 2%."
   },
   "14750": {
     "name_enus": "Improved Mana Burn",
     "icon": "spell_shadow_manaburn",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 4% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+    "description": "Reduces the casting time of your Mana Burn spell by 0.5 sec."
   },
   "14751": {
     "name_enus": "Inner Focus",
     "icon": "spell_frost_windwalkon",
     "rank_enus": "",
-    "description": "Allows 17% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 4 rage."
+    "description": "When activated, reduces the mana cost of your next spell by 100% and increases its critical effect chance by 25% if it is capable of a critical effect."
   },
   "14767": {
     "name_enus": "Improved Power Word: Fortitude",
     "icon": "spell_holy_wordfortitude",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the effect of your Power Word: Fortitude and Prayer of Fortitude spells by 30%, and increases your total Stamina by 4%."
   },
   "14768": {
     "name_enus": "Improved Power Word: Shield",
     "icon": "spell_holy_powerwordshield",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage absorbed by your Power Word: Shield by 15%."
+    "description": "Increases the damage absorbed by your Power Word: Shield by 10%."
   },
   "14769": {
     "name_enus": "Improved Power Word: Shield",
     "icon": "spell_holy_powerwordshield",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage absorbed by your Power Word: Shield by 15%."
   },
   "14770": {
     "name_enus": "Improved Inner Fire",
     "icon": "spell_holy_innerfire",
     "rank_enus": "Rank 2",
-    "description": "Increases the effect of your Inner Fire spell by 45%, and increases the total number of charges by 12."
+    "description": "Increases the effect of your Inner Fire spell by 30%, and increases the total number of charges by 8."
   },
   "14771": {
     "name_enus": "Improved Inner Fire",
     "icon": "spell_holy_innerfire",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effect of your Inner Fire spell by 45%, and increases the total number of charges by 12."
   },
   "14772": {
     "name_enus": "Improved Mana Burn",
     "icon": "spell_shadow_manaburn",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 6% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+    "description": "Reduces the casting time of your Mana Burn spell by 1 sec."
   },
   "14774": {
     "name_enus": "Martyrdom",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 2",
-    "description": "Your spells and abilities deal 9% more damage to targets infected with Frost Fever.  Also increases your expertise by 3."
+    "description": "Gives you a 100% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike.  The Focused Casting effect reduces the pushback suffered from damaging attacks while casting Priest spells and decreases the duration of Interrupt effects by 20%."
   },
   "14776": {
     "name_enus": "Meditation",
     "icon": "spell_nature_sleep",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Intellect by 6%."
+    "description": "Allows 33% of your mana regeneration to continue while casting."
   },
   "14777": {
     "name_enus": "Meditation",
     "icon": "spell_nature_sleep",
     "rank_enus": "Rank 3",
-    "description": "Increases your total Intellect by 8%."
+    "description": "Allows 50% of your mana regeneration to continue while casting."
   },
   "14780": {
     "name_enus": "Mental Agility",
     "icon": "ability_hibernation",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of your instant cast spells by 10%."
+    "description": "Reduces the mana cost of your instant cast spells by 7%."
   },
   "14781": {
     "name_enus": "Mental Agility",
     "icon": "ability_hibernation",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of your instant cast spells by 10%."
   },
   "14784": {
     "name_enus": "Silent Resolve",
     "icon": "spell_nature_manaregentotem",
     "rank_enus": "Rank 2",
-    "description": "Reduces the threat generated by your Holy and Discipline spells by 20% and reduces the chance your helpful spells and damage over time effects will be dispelled by 30%."
+    "description": "Reduces the threat generated by your Holy and Discipline spells by 14% and reduces the chance your helpful spells and damage over time effects will be dispelled by 20%."
   },
   "14785": {
     "name_enus": "Silent Resolve",
     "icon": "spell_nature_manaregentotem",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the threat generated by your Holy and Discipline spells by 20% and reduces the chance your helpful spells and damage over time effects will be dispelled by 30%."
   },
   "14788": {
     "name_enus": "Unbreakable Will",
     "icon": "spell_magic_magearmor",
     "rank_enus": "Rank 2",
-    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 18%."
+    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 12%."
   },
   "14789": {
     "name_enus": "Unbreakable Will",
     "icon": "spell_magic_magearmor",
     "rank_enus": "Rank 3",
-    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 24%."
+    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 18%."
   },
   "14790": {
     "name_enus": "Unbreakable Will",
     "icon": "spell_magic_magearmor",
     "rank_enus": "Rank 4",
-    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 30%."
+    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 24%."
   },
   "14791": {
     "name_enus": "Unbreakable Will",
     "icon": "spell_magic_magearmor",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the duration of Stun, Fear, and Silence effects done to you by an additional 30%."
   },
   "14889": {
     "name_enus": "Holy Specialization",
     "icon": "spell_holy_sealofsalvation",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical effect chance of your Holy spells by 2%."
+    "description": "Increases the critical effect chance of your Holy spells by 1%."
   },
   "14892": {
     "name_enus": "Inspiration",
     "icon": "spell_holy_layonhands",
     "rank_enus": "Rank 1",
-    "description": "Grants the target of your Lay on Hands spell 20% reduced physical damage taken for 15 sec.  In addition, the cooldown for your Lay on Hands spell is reduced by 4 min."
+    "description": "Reduces your target's physical damage taken by 3% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, Binding Heal, Penance, Prayer of Mending, Prayer of Healing, or Circle of Healing spell."
   },
   "14898": {
     "name_enus": "Spiritual Healing",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 6%."
+    "description": "Increases the amount healed by your healing spells by 2%."
   },
   "14901": {
     "name_enus": "Spiritual Guidance",
     "icon": "spell_holy_spiritualguidence",
     "rank_enus": "Rank 1",
-    "description": "Increases spell power by 10% of your total Spirit."
+    "description": "Increases spell power by 5% of your total Spirit."
   },
   "14908": {
     "name_enus": "Improved Renew",
     "icon": "spell_holy_renew",
     "rank_enus": "Rank 1",
-    "description": "Increases the amount healed by your Renew spell by 10%."
+    "description": "Increases the amount healed by your Renew spell by 5%."
   },
   "14909": {
     "name_enus": "Searing Light",
     "icon": "spell_holy_searinglightpriest",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage of your Smite, Holy Fire, Holy Nova and Penance spells by 10%."
+    "description": "Increases the damage of your Smite, Holy Fire, Holy Nova and Penance spells by 5%."
   },
   "14910": {
     "name_enus": "Mind Melt",
     "icon": "spell_shadow_skull",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Mind Blast, Mind Flay and Mind Sear spells by 4%, and increases the periodic critical strike chance of your Vampiric Touch, Devouring Plague and Shadow Word: Pain spells by 6%."
+    "description": "Increases the critical strike chance of your Mind Blast, Mind Flay and Mind Sear spells by 2%, and increases the periodic critical strike chance of your Vampiric Touch, Devouring Plague and Shadow Word: Pain spells by 3%."
   },
   "14911": {
     "name_enus": "Healing Prayers",
     "icon": "spell_holy_prayerofhealing02",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Prayer of Healing and Prayer of Mending spell by 20%."
+    "description": "Reduces the mana cost of your Prayer of Healing and Prayer of Mending spell by 10%."
   },
   "14912": {
     "name_enus": "Improved Healing",
     "icon": "spell_holy_heal02",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Lesser Heal, Heal, Greater Heal, Divine Hymn and Penance spells by 10%."
+    "description": "Reduces the mana cost of your Lesser Heal, Heal, Greater Heal, Divine Hymn and Penance spells by 5%."
   },
   "14913": {
     "name_enus": "Healing Focus",
     "icon": "spell_holy_healingfocus",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks  while casting any healing spell by 70%."
+    "description": "Reduces the pushback suffered from damaging attacks  while casting any healing spell by 35%."
   },
   "14983": {
     "name_enus": "Vigor",
@@ -2259,157 +2256,157 @@ export const spells = {
     "name_enus": "Holy Specialization",
     "icon": "spell_holy_sealofsalvation",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical effect chance of your Holy spells by 3%."
+    "description": "Increases the critical effect chance of your Holy spells by 2%."
   },
   "15009": {
     "name_enus": "Holy Specialization",
     "icon": "spell_holy_sealofsalvation",
     "rank_enus": "Rank 3",
-    "description": "Increases the critical effect chance of your Holy spells by 4%."
+    "description": "Increases the critical effect chance of your Holy spells by 3%."
   },
   "15010": {
     "name_enus": "Holy Specialization",
     "icon": "spell_holy_sealofsalvation",
     "rank_enus": "Rank 4",
-    "description": "Increases the critical effect chance of your Holy spells by 5%."
+    "description": "Increases the critical effect chance of your Holy spells by 4%."
   },
   "15011": {
     "name_enus": "Holy Specialization",
     "icon": "spell_holy_sealofsalvation",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the critical effect chance of your Holy spells by 5%."
   },
   "15012": {
     "name_enus": "Healing Focus",
     "icon": "spell_holy_healingfocus",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks  while casting any healing spell by 70%."
   },
   "15013": {
     "name_enus": "Improved Healing",
     "icon": "spell_holy_heal02",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of your Lesser Heal, Heal, Greater Heal, Divine Hymn and Penance spells by 15%."
+    "description": "Reduces the mana cost of your Lesser Heal, Heal, Greater Heal, Divine Hymn and Penance spells by 10%."
   },
   "15014": {
     "name_enus": "Improved Healing",
     "icon": "spell_holy_heal02",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of your Lesser Heal, Heal, Greater Heal, Divine Hymn and Penance spells by 15%."
   },
   "15017": {
     "name_enus": "Searing Light",
     "icon": "spell_holy_searinglightpriest",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage of your Smite, Holy Fire, Holy Nova and Penance spells by 10%."
   },
   "15018": {
     "name_enus": "Healing Prayers",
     "icon": "spell_holy_prayerofhealing02",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the mana cost of your Prayer of Healing and Prayer of Mending spell by 20%."
   },
   "15020": {
     "name_enus": "Improved Renew",
     "icon": "spell_holy_renew",
     "rank_enus": "Rank 2",
-    "description": "Increases the amount healed by your Renew spell by 15%."
+    "description": "Increases the amount healed by your Renew spell by 10%."
   },
   "15028": {
     "name_enus": "Spiritual Guidance",
     "icon": "spell_holy_spiritualguidence",
     "rank_enus": "Rank 2",
-    "description": "Increases spell power by 15% of your total Spirit."
+    "description": "Increases spell power by 10% of your total Spirit."
   },
   "15029": {
     "name_enus": "Spiritual Guidance",
     "icon": "spell_holy_spiritualguidence",
     "rank_enus": "Rank 3",
-    "description": "Increases spell power by 20% of your total Spirit."
+    "description": "Increases spell power by 15% of your total Spirit."
   },
   "15030": {
     "name_enus": "Spiritual Guidance",
     "icon": "spell_holy_spiritualguidence",
     "rank_enus": "Rank 4",
-    "description": "Increases spell power by 25% of your total Spirit."
+    "description": "Increases spell power by 20% of your total Spirit."
   },
   "15031": {
     "name_enus": "Spiritual Guidance",
     "icon": "spell_holy_spiritualguidence",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases spell power by 25% of your total Spirit."
   },
   "15047": {
     "name_enus": "Ice Shards",
     "icon": "spell_frost_iceshard",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Frost spells by 100%."
   },
   "15058": {
     "name_enus": "Arcane Instability",
     "icon": "spell_shadow_teleport",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your spells and your critical strike chance by 2%."
+    "description": "Increases the damage done by your spells and your critical strike chance by 1%."
   },
   "15059": {
     "name_enus": "Arcane Instability",
     "icon": "spell_shadow_teleport",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your spells and your critical strike chance by 3%."
+    "description": "Increases the damage done by your spells and your critical strike chance by 2%."
   },
   "15060": {
     "name_enus": "Arcane Instability",
     "icon": "spell_shadow_teleport",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your spells and your critical strike chance by 3%."
   },
   "15257": {
     "name_enus": "Shadow Weaving",
     "icon": "spell_shadow_blackplague",
     "rank_enus": "Rank 1",
-    "description": "Your Shadow damage spells have a 66% chance to increase the Shadow damage you deal by 2% for 15 sec.  Stacks up to 5 times."
+    "description": "Your Shadow damage spells have a 33% chance to increase the Shadow damage you deal by 2% for 15 sec.  Stacks up to 5 times."
   },
   "15259": {
     "name_enus": "Darkness",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 1",
-    "description": "Your strength is increased by 4% and your Mind Freeze no longer costs runic power."
+    "description": "Increases your Shadow spell damage by 2%."
   },
   "15260": {
     "name_enus": "Shadow Focus",
     "icon": "spell_shadow_burningspirit",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with your spells by 2% and reduces the chance that your damage over time diseases can be cured by 20%."
+    "description": "Increases your chance to hit with your Shadow spells by 1%, and reduces the mana cost of your Shadow spells by 2%."
   },
   "15270": {
     "name_enus": "Spirit Tap",
     "icon": "spell_shadow_requiem",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 66% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor.  For the duration, your mana will regenerate at a 83% rate while casting.  Lasts 15 sec."
+    "description": "Gives you a 33% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor.  For the duration, your mana will regenerate at a 83% rate while casting.  Lasts 15 sec."
   },
   "15272": {
     "name_enus": "Shadow Affinity",
     "icon": "spell_shadow_shadowward",
     "rank_enus": "Rank 2",
-    "description": "Reduces the threat generated by your Shadow spells by 25%, and you receive 15% of your base mana when your Shadow Word: Pain or Vampiric Touch spells are dispelled."
+    "description": "Reduces the threat generated by your Shadow spells by 16%, and you receive 10% of your base mana when your Shadow Word: Pain or Vampiric Touch spells are dispelled."
   },
   "15273": {
     "name_enus": "Improved Mind Blast",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 1",
-    "description": "Your Blood Strikes cause you to deal 2% additional damage with all attacks for the next 20 sec."
+    "description": "Reduces the cooldown of your Mind Blast spell by 0.5 sec., and while in Shadowform your Mind Blast also has a 20% chance to reduce all healing done to the target by 20% for 10 sec."
   },
   "15274": {
     "name_enus": "Veiled Shadows",
     "icon": "spell_magic_lesserinvisibilty",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to dodge by 2%."
+    "description": "Decreases the cooldown of your Fade ability by 3 sec, and reduces the cooldown of your Shadowfiend ability by 1 minute."
   },
   "15275": {
     "name_enus": "Improved Shadow Word: Pain",
     "icon": "spell_shadow_shadowwordpain",
     "rank_enus": "Rank 1",
-    "description": "Increases the duration of Blood Plague and Frost Fever by 6 sec."
+    "description": "Increases the damage of your Shadow Word: Pain spell by 3%."
   },
   "15286": {
     "name_enus": "Vampiric Embrace",
@@ -2421,175 +2418,175 @@ export const spells = {
     "name_enus": "Darkness",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your Shadow spell damage by 4%."
   },
   "15308": {
     "name_enus": "Darkness",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your Shadow spell damage by 6%."
   },
   "15309": {
     "name_enus": "Darkness",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases your Shadow spell damage by 8%."
   },
   "15310": {
     "name_enus": "Darkness",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your Shadow spell damage by 10%."
   },
   "15311": {
     "name_enus": "Veiled Shadows",
     "icon": "spell_magic_lesserinvisibilty",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to dodge by 3%."
+    "description": "Decreases the cooldown of your Fade ability by 6 sec, and reduces the cooldown of your Shadowfiend ability by 2 minutes."
   },
   "15312": {
     "name_enus": "Improved Mind Blast",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 2",
-    "description": "Your Blood Strikes cause you to deal 3% additional damage with all attacks for the next 20 sec."
+    "description": "Reduces the cooldown of your Mind Blast spell by 1 sec., and while in Shadowform your Mind Blast also has a 40% chance to reduce all healing done to the target by 20% for 10 sec."
   },
   "15313": {
     "name_enus": "Improved Mind Blast",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 3",
-    "description": "Your Blood Strikes cause you to deal 4% additional damage with all attacks for the next 20 sec."
+    "description": "Reduces the cooldown of your Mind Blast spell by 1.5 sec., and while in Shadowform your Mind Blast also has a 60% chance to reduce all healing done to the target by 20% for 10 sec."
   },
   "15314": {
     "name_enus": "Improved Mind Blast",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 4",
-    "description": "Your Blood Strikes cause you to deal 5% additional damage with all attacks for the next 20 sec."
+    "description": "Reduces the cooldown of your Mind Blast spell by 2 sec., and while in Shadowform your Mind Blast also has a 80% chance to reduce all healing done to the target by 20% for 10 sec."
   },
   "15316": {
     "name_enus": "Improved Mind Blast",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the cooldown of your Mind Blast spell by 2.5 sec., and while in Shadowform your Mind Blast also has a 100% chance to reduce all healing done to the target by 20% for 10 sec."
   },
   "15317": {
     "name_enus": "Improved Shadow Word: Pain",
     "icon": "spell_shadow_shadowwordpain",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage of your Shadow Word: Pain spell by 6%."
   },
   "15318": {
     "name_enus": "Shadow Affinity",
     "icon": "spell_shadow_shadowward",
     "rank_enus": "Rank 1",
-    "description": "Reduces the threat generated by your Shadow spells by 16%, and you receive 10% of your base mana when your Shadow Word: Pain or Vampiric Touch spells are dispelled."
+    "description": "Reduces the threat generated by your Shadow spells by 8%, and you receive 5% of your base mana when your Shadow Word: Pain or Vampiric Touch spells are dispelled."
   },
   "15320": {
     "name_enus": "Shadow Affinity",
     "icon": "spell_shadow_shadowward",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the threat generated by your Shadow spells by 25%, and you receive 15% of your base mana when your Shadow Word: Pain or Vampiric Touch spells are dispelled."
   },
   "15327": {
     "name_enus": "Shadow Focus",
     "icon": "spell_shadow_burningspirit",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to hit with your spells by 3% and reduces the chance that your damage over time diseases can be cured by 30%."
+    "description": "Increases your chance to hit with your Shadow spells by 2%, and reduces the mana cost of your Shadow spells by 4%."
   },
   "15328": {
     "name_enus": "Shadow Focus",
     "icon": "spell_shadow_burningspirit",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to hit with your Shadow spells by 3%, and reduces the mana cost of your Shadow spells by 6%."
   },
   "15331": {
     "name_enus": "Shadow Weaving",
     "icon": "spell_shadow_blackplague",
     "rank_enus": "Rank 2",
-    "description": "Your Shadow damage spells have a 100% chance to increase the Shadow damage you deal by 2% for 15 sec.  Stacks up to 5 times."
+    "description": "Your Shadow damage spells have a 66% chance to increase the Shadow damage you deal by 2% for 15 sec.  Stacks up to 5 times."
   },
   "15332": {
     "name_enus": "Shadow Weaving",
     "icon": "spell_shadow_blackplague",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Shadow damage spells have a 100% chance to increase the Shadow damage you deal by 2% for 15 sec.  Stacks up to 5 times."
   },
   "15335": {
     "name_enus": "Spirit Tap",
     "icon": "spell_shadow_requiem",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 100% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor.  For the duration, your mana will regenerate at a 83% rate while casting.  Lasts 15 sec."
+    "description": "Gives you a 66% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor.  For the duration, your mana will regenerate at a 83% rate while casting.  Lasts 15 sec."
   },
   "15336": {
     "name_enus": "Spirit Tap",
     "icon": "spell_shadow_requiem",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives you a 100% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor.  For the duration, your mana will regenerate at a 83% rate while casting.  Lasts 15 sec."
   },
   "15337": {
     "name_enus": "Improved Spirit Tap",
     "icon": "spell_shadow_requiem",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 66% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor.  For the duration, your mana will regenerate at a 83% rate while casting.  Lasts 15 sec."
+    "description": "Your Mind Blast and Shadow Word: Death critical strikes have a 100% chance and your Mind Flay critical strikes have a 50% chance to increase your total Spirit by 5%. For the duration, your mana will regenerate at a 17% rate while casting. Lasts 8 sec."
   },
   "15338": {
     "name_enus": "Improved Spirit Tap",
     "icon": "spell_shadow_requiem",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 100% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor.  For the duration, your mana will regenerate at a 83% rate while casting.  Lasts 15 sec."
+    "description": "Your Mind Blast and Shadow Word: Death critical strikes have a 100% chance and your Mind Flay critical strikes have a 50% chance to increase your total Spirit by 10%. For the duration, your mana will regenerate at a 33% rate while casting. Lasts 8 sec."
   },
   "15349": {
     "name_enus": "Spiritual Healing",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 10%."
+    "description": "Increases the amount healed by your healing spells by 4%."
   },
   "15354": {
     "name_enus": "Spiritual Healing",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the amount healed by your healing spells by 6%."
   },
   "15355": {
     "name_enus": "Spiritual Healing",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the amount healed by your healing spells by 8%."
   },
   "15356": {
     "name_enus": "Spiritual Healing",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the amount healed by your healing spells by 10%."
   },
   "15362": {
     "name_enus": "Inspiration",
     "icon": "spell_holy_layonhands",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces your target's physical damage taken by 7% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, Binding Heal, Penance, Prayer of Mending, Prayer of Healing, or Circle of Healing spell."
   },
   "15363": {
     "name_enus": "Inspiration",
     "icon": "spell_holy_layonhands",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces your target's physical damage taken by 10% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, Binding Heal, Penance, Prayer of Mending, Prayer of Healing, or Circle of Healing spell."
   },
   "15392": {
     "name_enus": "Improved Psychic Scream",
     "icon": "spell_shadow_psychicscream",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Psychic Scream spell by 4 sec."
+    "description": "Reduces the cooldown of your Psychic Scream spell by 2 sec."
   },
   "15407": {
     "name_enus": "Mind Flay",
     "icon": "spell_shadow_siphonmana",
     "rank_enus": "Rank 1",
-    "description": "Allows 33% of your mana regeneration to continue while casting."
+    "description": "Assault the target's mind with Shadow energy, causing 45 Shadow damage over 3 sec and slowing their movement speed by 50%."
   },
   "15448": {
     "name_enus": "Improved Psychic Scream",
     "icon": "spell_shadow_psychicscream",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Psychic Scream spell by 4 sec."
   },
   "15473": {
     "name_enus": "Shadowform",
@@ -2607,43 +2604,43 @@ export const spells = {
     "name_enus": "Concussion",
     "icon": "spell_fire_fireball",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Fire Blast spell by 2 sec."
+    "description": "Increases the damage done by your Lightning Bolt, Chain Lightning, Thunderstorm, Lava Burst and Shock spells by 1%."
   },
   "16038": {
     "name_enus": "Call of Flame",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Fire spells by 4%."
+    "description": "Increases the damage done by your Fire Totems and Fire Nova by 5%, and damage done by your Lava Burst spell by 2%."
   },
   "16039": {
     "name_enus": "Convection",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of all shapeshifting by 20%."
+    "description": "Reduces the mana cost of your Shock, Lightning Bolt, Chain Lightning, Lava Burst, and Wind Shear spells by 2%."
   },
   "16040": {
     "name_enus": "Reverberation",
     "icon": "spell_frost_frostward",
     "rank_enus": "Rank 1",
-    "description": "Increases the armor and resistances given by your Frost Armor and Ice Armor spells by 50%.  In addition, gives your Frost Ward and Fire Ward a 30% chance to negate the warded damage spell and restore mana equal to the damage caused."
+    "description": "Reduces the cooldown of your Shock spells and Wind Shear by 0.2 sec."
   },
   "16041": {
     "name_enus": "Call of Thunder",
     "icon": "spell_nature_callstorm",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the critical strike chance of your Lightning Bolt, Chain Lightning and Thunderstorm spells by an additional 5%."
   },
   "16043": {
     "name_enus": "Earth's Grasp",
     "icon": "spell_nature_stoneclawtotem",
     "rank_enus": "Rank 1",
-    "description": "Grants 160% additional armor contribution from cloth and leather items while in Travel Form or while not shapeshifted, increases the damage reduction granted by your Barkskin spell by 10% and reduces the chance your Barkskin is dispelled by 70%."
+    "description": "Increases the health of your Stoneclaw Totem by 25% and the radius of your Earthbind Totem by 10%, and reduces the cooldown of both totems by 15%."
   },
   "16086": {
     "name_enus": "Improved Fire Nova",
     "icon": "spell_fire_sealoffire",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the damage done by your Fire Nova by 10% and reduces the cooldown by 2 sec."
   },
   "16089": {
     "name_enus": "Elemental Fury",
@@ -2655,157 +2652,157 @@ export const spells = {
     "name_enus": "Concussion",
     "icon": "spell_fire_fireball",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage done by your Lightning Bolt, Chain Lightning, Thunderstorm, Lava Burst and Shock spells by 2%."
   },
   "16106": {
     "name_enus": "Concussion",
     "icon": "spell_fire_fireball",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Lightning Bolt, Chain Lightning, Thunderstorm, Lava Burst and Shock spells by 3%."
   },
   "16107": {
     "name_enus": "Concussion",
     "icon": "spell_fire_fireball",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the damage done by your Lightning Bolt, Chain Lightning, Thunderstorm, Lava Burst and Shock spells by 4%."
   },
   "16108": {
     "name_enus": "Concussion",
     "icon": "spell_fire_fireball",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Lightning Bolt, Chain Lightning, Thunderstorm, Lava Burst and Shock spells by 5%."
   },
   "16109": {
     "name_enus": "Convection",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of all shapeshifting by 30%."
+    "description": "Reduces the mana cost of your Shock, Lightning Bolt, Chain Lightning, Lava Burst, and Wind Shear spells by 4%."
   },
   "16110": {
     "name_enus": "Convection",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of your Shock, Lightning Bolt, Chain Lightning, Lava Burst, and Wind Shear spells by 6%."
   },
   "16111": {
     "name_enus": "Convection",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Reduces the mana cost of your Shock, Lightning Bolt, Chain Lightning, Lava Burst, and Wind Shear spells by 8%."
   },
   "16112": {
     "name_enus": "Convection",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the mana cost of your Shock, Lightning Bolt, Chain Lightning, Lava Burst, and Wind Shear spells by 10%."
   },
   "16113": {
     "name_enus": "Reverberation",
     "icon": "spell_frost_frostward",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Shock spells and Wind Shear by 0.4 sec."
   },
   "16114": {
     "name_enus": "Reverberation",
     "icon": "spell_frost_frostward",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cooldown of your Shock spells and Wind Shear by 0.6 sec."
   },
   "16115": {
     "name_enus": "Reverberation",
     "icon": "spell_frost_frostward",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Reduces the cooldown of your Shock and Wind Shear spells by 0.8 sec."
   },
   "16116": {
     "name_enus": "Reverberation",
     "icon": "spell_frost_frostward",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the cooldown of your Shock and Wind Shear spells by 1 sec."
   },
   "16130": {
     "name_enus": "Earth's Grasp",
     "icon": "spell_nature_stoneclawtotem",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the health of your Stoneclaw Totem by 50% and the radius of your Earthbind Totem by 20%, and reduces the cooldown of both totems by 30%."
   },
   "16160": {
     "name_enus": "Call of Flame",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Fire spells by 6%."
+    "description": "Increases the damage done by your Fire Totems and Fire Nova by 10%, and damage done by your Lava Burst spell by 4%."
   },
   "16161": {
     "name_enus": "Call of Flame",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Fire spells by 8%."
+    "description": "Increases the damage done by your Fire Totems and Fire Nova by 15%, and damage done by your Lava Burst spell by 6%."
   },
   "16164": {
     "name_enus": "Elemental Focus",
     "icon": "spell_shadow_manaburn",
     "rank_enus": "",
-    "description": "Gives you a 2% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+    "description": "After landing a non-periodic critical strike with a Fire, Frost, or Nature damage spell, you enter a Clearcasting state.  The Clearcasting state reduces the mana cost of your next 2 damage or healing spells by 40%."
   },
   "16166": {
     "name_enus": "Elemental Mastery",
     "icon": "spell_nature_wispheal",
     "rank_enus": "",
-    "description": "Increases the critical strike chance of your Fire spells by 2%."
+    "description": "When activated, your next Lightning Bolt, Chain Lightning or Lava Burst spell becomes an instant cast spell. In addition, you gain 15% spell haste for 15 sec. Elemental Mastery shares a cooldown with Nature's Swiftness."
   },
   "16173": {
     "name_enus": "Totemic Focus",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 6%."
+    "description": "Reduces the mana cost of your totems by 5%."
   },
   "16176": {
     "name_enus": "Ancestral Healing",
     "icon": "spell_nature_undyingstrength",
     "rank_enus": "Rank 1",
-    "description": "Reduces your target's physical damage taken by 7% for 15 sec after getting a critical effect from one of your healing spells."
+    "description": "Reduces your target's physical damage taken by 3% for 15 sec after getting a critical effect from one of your healing spells."
   },
   "16178": {
     "name_enus": "Purification",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 1",
-    "description": "Reduces the Mana cost of your Shots and Stings by 6%."
+    "description": "Increases the effectiveness of your healing spells by 2%."
   },
   "16179": {
     "name_enus": "Tidal Focus",
     "icon": "spell_frost_manarecharge",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your Icy Touch, Chains of Ice and Howling Blast by 10 yards."
+    "description": "Reduces the mana cost of your healing spells by 1%."
   },
   "16180": {
     "name_enus": "Improved Water Shield",
     "icon": "ability_shaman_watershield",
     "rank_enus": "Rank 1",
-    "description": "You have a 66% chance to instantly gain mana as if you consumed a Water Shield Orb when you gain a critical effect from your Healing Wave or Riptide spells, a 40% chance when you gain a critical effect from your Lesser Healing Wave spell, and a 20% chance when you gain a critical effect from your Chain Heal spell."
+    "description": "You have a 33% chance to instantly gain mana as if you consumed a Water Shield Orb when you gain a critical effect from your Healing Wave or Riptide spells, a 20% chance when you gain a critical effect from your Lesser Healing Wave spell, and a 10% chance when you gain a critical effect from your Chain Heal spell."
   },
   "16181": {
     "name_enus": "Healing Focus",
     "icon": "spell_nature_healingwavelesser",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks while casting any Shaman healing spell by 46%."
+    "description": "Reduces the pushback suffered from damaging attacks  while casting any healing spell by 35%."
   },
   "16182": {
     "name_enus": "Improved Healing Wave",
     "icon": "spell_nature_magicimmunity",
     "rank_enus": "Rank 1",
-    "description": "Reduces the casting time of your Healing Wave spell by 0.2 sec."
+    "description": "Reduces the casting time of your Healing Wave spell by 0.1 sec."
   },
   "16184": {
     "name_enus": "Improved Reincarnation",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 1",
-    "description": "When you are above 75% health, you deal 4% more damage.  In addition, your attacks ignore up to 4% of your opponent's armor at all times."
+    "description": "Reduces the cooldown of your Reincarnation spell by 7 min and increases the amount of health and mana recovered when reincarnating by an additional 10%."
   },
   "16187": {
     "name_enus": "Restorative Totems",
     "icon": "spell_nature_manaregentotem",
     "rank_enus": "Rank 1",
-    "description": "Reduces the threat generated by your Holy and Discipline spells by 14% and reduces the chance your helpful spells and damage over time effects will be dispelled by 20%."
+    "description": "Increases the effect of your Mana Spring Totem by 7%, and increases the amount healed by your Healing Stream Totem by 15%."
   },
   "16188": {
     "name_enus": "Nature's Swiftness",
@@ -2823,655 +2820,650 @@ export const spells = {
     "name_enus": "Tidal Mastery",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 1",
-    "description": "Your spells and abilities deal 6% more damage to targets infected with Frost Fever.  Also increases your expertise by 2."
+    "description": "Increases the critical effect chance of your healing and lightning spells by 1%."
   },
   "16196": {
     "name_enus": "Improved Water Shield",
     "icon": "ability_shaman_watershield",
     "rank_enus": "Rank 2",
-    "description": "You have a 100% chance to instantly gain mana as if you consumed a Water Shield Orb when you gain a critical effect from your Healing Wave or Riptide spells, a 60% chance when you gain a critical effect from your Lesser Healing Wave spell, and a 30% chance when you gain a critical effect from your Chain Heal spell."
+    "description": "You have a 66% chance to instantly gain mana as if you consumed a Water Shield Orb when you gain a critical effect from your Healing Wave or Riptide spells, a 40% chance when you gain a critical effect from your Lesser Healing Wave spell, and a 20% chance when you gain a critical effect from your Chain Heal spell."
   },
   "16198": {
     "name_enus": "Improved Water Shield",
     "icon": "ability_shaman_watershield",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You have a 100% chance to instantly gain mana as if you consumed a Water Shield Orb when you gain a critical effect from your Healing Wave or Riptide spells, a 60% chance when you gain a critical effect from your Lesser Healing Wave spell, and a 30% chance when you gain a critical effect from your Chain Heal spell."
   },
   "16205": {
     "name_enus": "Restorative Totems",
     "icon": "spell_nature_manaregentotem",
     "rank_enus": "Rank 2",
-    "description": "Reduces the threat generated by your Holy and Discipline spells by 20% and reduces the chance your helpful spells and damage over time effects will be dispelled by 30%."
+    "description": "Increases the effect of your Mana Spring Totem by 12%, and increases the amount healed by your Healing Stream Totem by 30%."
   },
   "16206": {
     "name_enus": "Restorative Totems",
     "icon": "spell_nature_manaregentotem",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effect of your Mana Spring Totem by 20%, and increases the amount healed by your Healing Stream Totem by 45%."
   },
   "16209": {
     "name_enus": "Improved Reincarnation",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 2",
-    "description": "When you are above 75% health, you deal 6% more damage.  In addition, your attacks ignore up to 6% of your opponent's armor at all times."
+    "description": "Reduces the cooldown of your Reincarnation spell by 15 min and increases the amount of health and mana recovered when reincarnating by an additional 20%."
   },
   "16210": {
     "name_enus": "Purification",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 2",
-    "description": "Reduces the Mana cost of your Shots and Stings by 9%."
+    "description": "Increases the effectiveness of your healing spells by 4%."
   },
   "16211": {
     "name_enus": "Purification",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 3",
-    "description": "Reduces the Mana cost of your Shots and Stings by 12%."
+    "description": "Increases the effectiveness of your healing spells by 6%."
   },
   "16212": {
     "name_enus": "Purification",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 4",
-    "description": "Reduces the Mana cost of your Shots and Stings by 15%."
+    "description": "Increases the effectiveness of your healing spells by 8%."
   },
   "16213": {
     "name_enus": "Purification",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the effectiveness of your healing spells by 10%."
   },
   "16214": {
     "name_enus": "Tidal Focus",
     "icon": "spell_frost_manarecharge",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the mana cost of your healing spells by 2%."
   },
   "16215": {
     "name_enus": "Tidal Focus",
     "icon": "spell_frost_manarecharge",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of your healing spells by 3%."
   },
   "16216": {
     "name_enus": "Tidal Focus",
     "icon": "spell_frost_manarecharge",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Reduces the mana cost of your healing spells by 4%."
   },
   "16217": {
     "name_enus": "Tidal Focus",
     "icon": "spell_frost_manarecharge",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the mana cost of your healing spells by 5%."
   },
   "16218": {
     "name_enus": "Tidal Mastery",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 2",
-    "description": "Your spells and abilities deal 9% more damage to targets infected with Frost Fever.  Also increases your expertise by 3."
+    "description": "Increases the critical effect chance of your healing and lightning spells by 2%."
   },
   "16219": {
     "name_enus": "Tidal Mastery",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 3",
-    "description": "Your spells and abilities deal 12% more damage to targets infected with Frost Fever.  Also increases your expertise by 4."
+    "description": "Increases the critical effect chance of your healing and lightning spells by 3%."
   },
   "16220": {
     "name_enus": "Tidal Mastery",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 4",
-    "description": "Your spells and abilities deal 15% more damage to targets infected with Frost Fever.  Also increases your expertise by 5."
+    "description": "Increases the critical effect chance of your healing and lightning spells by 4%."
   },
   "16221": {
     "name_enus": "Tidal Mastery",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the critical effect chance of your healing and lightning spells by 5%."
   },
   "16222": {
     "name_enus": "Totemic Focus",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 10%."
+    "description": "Reduces the mana cost of your totems by 10%."
   },
   "16223": {
     "name_enus": "Totemic Focus",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of your totems by 15%."
   },
   "16224": {
     "name_enus": "Totemic Focus",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Reduces the mana cost of your totems by 20%."
   },
   "16225": {
     "name_enus": "Totemic Focus",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the mana cost of your totems by 25%."
   },
   "16226": {
     "name_enus": "Improved Healing Wave",
     "icon": "spell_nature_magicimmunity",
     "rank_enus": "Rank 2",
-    "description": "Reduces the casting time of your Healing Wave spell by 0.3 sec."
+    "description": "Reduces the casting time of your Healing Wave spell by 0.2 sec."
   },
   "16227": {
     "name_enus": "Improved Healing Wave",
     "icon": "spell_nature_magicimmunity",
     "rank_enus": "Rank 3",
-    "description": "Reduces the casting time of your Healing Wave spell by 0.4 sec."
+    "description": "Reduces the casting time of your Healing Wave spell by 0.3 sec."
   },
   "16228": {
     "name_enus": "Improved Healing Wave",
     "icon": "spell_nature_magicimmunity",
     "rank_enus": "Rank 4",
-    "description": "Reduces the casting time of your Healing Wave spell by 0.5 sec."
+    "description": "Reduces the casting time of your Healing Wave spell by 0.4 sec."
   },
   "16229": {
     "name_enus": "Improved Healing Wave",
     "icon": "spell_nature_magicimmunity",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the casting time of your Healing Wave spell by 0.5 sec."
   },
   "16230": {
     "name_enus": "Healing Focus",
     "icon": "spell_nature_healingwavelesser",
     "rank_enus": "Rank 2",
-    "description": "Reduces the pushback suffered from damaging attacks while casting any Shaman healing spell by 70%."
+    "description": "Reduces the pushback suffered from damaging attacks  while casting any healing spell by 70%."
   },
   "16232": {
     "name_enus": "Healing Focus",
     "icon": "spell_nature_healingwavelesser",
-    "rank_enus": "Rank 3",
-    "description": ""
+    "rank_enus": "Rank 3"
   },
   "16235": {
     "name_enus": "Ancestral Healing",
     "icon": "spell_nature_undyingstrength",
     "rank_enus": "Rank 2",
-    "description": "Reduces your target's physical damage taken by 10% for 15 sec after getting a critical effect from one of your healing spells."
+    "description": "Reduces your target's physical damage taken by 7% for 15 sec after getting a critical effect from one of your healing spells."
   },
   "16240": {
     "name_enus": "Ancestral Healing",
     "icon": "spell_nature_undyingstrength",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces your target's physical damage taken by 10% for 15 sec after getting a critical effect from one of your healing spells."
   },
   "16252": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 1",
-    "description": "Increases your armor value from items by 4% and reduces the duration of all movement slowing effects by 12%."
+    "description": "Increases your armor value from items by 2% and reduces the duration of all movement slowing effects by 6%."
   },
   "16254": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 1",
-    "description": "Increases your Dodge chance by 2%."
+    "description": "Increases your Dodge chance by 1%."
   },
   "16255": {
     "name_enus": "Thundering Strikes",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 6%."
+    "description": "Improves your chance to get a critical strike with all spells and attacks by 1%."
   },
   "16256": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases your attack speed by 6% for your next 3 swings after dealing a critical strike."
   },
   "16258": {
     "name_enus": "Guardian Totems",
     "icon": "spell_nature_stoneskintotem",
     "rank_enus": "Rank 1",
-    "description": "Increases the amount of armor increased by your Stoneskin Totem by 20% and reduces the cooldown of your Grounding Totem by 2 sec."
+    "description": "Increases the amount of armor increased by your Stoneskin Totem by 10% and reduces the cooldown of your Grounding Totem by 1 sec."
   },
   "16259": {
     "name_enus": "Enhancing Totems",
     "icon": "spell_nature_earthbindtotem",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the effect of your Strength of Earth and Flametongue Totems by 5%."
   },
   "16261": {
     "name_enus": "Improved Shields",
     "icon": "spell_nature_lightningshield",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the damage done by your Lightning Shield orbs by 5%, increases the amount of mana gained from your Water Shield orbs by 5% and increases the amount of healing done by your Earth Shield orbs by 5%."
   },
   "16262": {
     "name_enus": "Improved Ghost Wolf",
     "icon": "spell_nature_spiritwolf",
     "rank_enus": "Rank 1",
-    "description": "Increases your movement speed by 30% in Cat Form and increases your chance to dodge while in Cat Form, Bear Form and Dire Bear Form by 4%."
+    "description": "Reduces the cast time of your Ghost Wolf spell by 1 sec."
   },
   "16266": {
     "name_enus": "Elemental Weapons",
     "icon": "spell_fire_flametounge",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage caused by your Windfury Weapon effect by 27%  increases the spell damage on your Flametongue Weapon by 20% and increases the bonus healing on your Earthliving Weapon by 20%."
+    "description": "Increases the damage caused by your Windfury Weapon effect by 13%  increases the spell damage on your Flametongue Weapon by 10% and increases the bonus healing on your Earthliving Weapon by 10%."
   },
   "16268": {
     "name_enus": "Spirit Weapons",
     "icon": "ability_parry",
     "rank_enus": "",
-    "description": "Increases your chance to parry by 1%, and reduces the duration of all Disarm effects used against you by 16%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Gives a chance to parry enemy melee attacks and reduces all threat generated by 30%."
   },
   "16271": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 2",
-    "description": "Increases your Dodge chance by 3%."
+    "description": "Increases your Dodge chance by 2%."
   },
   "16272": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 3",
-    "description": "Increases your Dodge chance by 4%."
+    "description": "Increases your Dodge chance by 3%."
   },
   "16281": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your attack speed by 12% for your next 3 swings after dealing a critical strike."
   },
   "16282": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your attack speed by 18% for your next 3 swings after dealing a critical strike."
   },
   "16283": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases your attack speed by 24% for your next 3 swings after dealing a critical strike."
   },
   "16284": {
     "name_enus": "Flurry",
     "icon": "ability_ghoulfrenzy",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your attack speed by 30% for your next 3 swings after dealing a critical strike."
   },
   "16287": {
     "name_enus": "Improved Ghost Wolf",
     "icon": "spell_nature_spiritwolf",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cast time of your Ghost Wolf spell by 2 sec."
   },
   "16290": {
     "name_enus": "Improved Shields",
     "icon": "spell_nature_lightningshield",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage done by your Lightning Shield orbs by 10%, increases the amount of mana gained from your Water Shield orbs by 10% and increases the amount of healing done by your Earth Shield orbs by 10%."
   },
   "16293": {
     "name_enus": "Guardian Totems",
     "icon": "spell_nature_stoneskintotem",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the amount of armor increased by your Stoneskin Totem by 20% and reduces the cooldown of your Grounding Totem by 2 sec."
   },
   "16295": {
     "name_enus": "Enhancing Totems",
     "icon": "spell_nature_earthbindtotem",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the effect of your Strength of Earth and Flametongue Totems by 10%."
   },
   "16302": {
     "name_enus": "Thundering Strikes",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 9%."
+    "description": "Improves your chance to get a critical strike with all spells and attacks by 2%."
   },
   "16303": {
     "name_enus": "Thundering Strikes",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 12%."
+    "description": "Improves your chance to get a critical strike with all spells and attacks by 3%."
   },
   "16304": {
     "name_enus": "Thundering Strikes",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 15%."
+    "description": "Improves your chance to get a critical strike with all spells and attacks by 4%."
   },
   "16305": {
     "name_enus": "Thundering Strikes",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Improves your chance to get a critical strike with all spells and attacks by 5%."
   },
   "16306": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 2",
-    "description": "Increases your armor value from items by 6% and reduces the duration of all movement slowing effects by 18%."
+    "description": "Increases your armor value from items by 4% and reduces the duration of all movement slowing effects by 12%."
   },
   "16307": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 3",
-    "description": "Increases your armor value from items by 8% and reduces the duration of all movement slowing effects by 24%."
+    "description": "Increases your armor value from items by 6% and reduces the duration of all movement slowing effects by 18%."
   },
   "16308": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 4",
-    "description": "Increases your armor value from items by 10% and reduces the duration of all movement slowing effects by 30%."
+    "description": "Increases your armor value from items by 8% and reduces the duration of all movement slowing effects by 24%."
   },
   "16309": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your armor value from items by 10% and reduces the duration of all movement slowing effects by 30%."
   },
   "16462": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Increases your chance to parry by 1%, and reduces the duration of all Disarm effects used against you by 16%.  This does not stack with other Disarm duration reducing effects."
   },
   "16463": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%.  This does not stack with other Disarm duration reducing effects."
   },
   "16464": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%.  This does not stack with other Disarm duration reducing effects."
   },
   "16465": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
-    "rank_enus": "Rank 4",
-    "description": ""
+    "rank_enus": "Rank 4"
   },
   "16466": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
-    "rank_enus": "Rank 5",
-    "description": ""
+    "rank_enus": "Rank 5"
   },
   "16487": {
     "name_enus": "Blood Craze",
     "icon": "spell_shadow_summonimp",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 20%."
+    "description": "Regenerates 2% of your total Health over 6 sec after being the victim of a critical strike."
   },
   "16489": {
     "name_enus": "Blood Craze",
     "icon": "spell_shadow_summonimp",
     "rank_enus": "Rank 2",
-    "description": "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 30%."
+    "description": "Regenerates 4% of your total Health over 6 sec after being the victim of a critical strike."
   },
   "16492": {
     "name_enus": "Blood Craze",
     "icon": "spell_shadow_summonimp",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Regenerates 6% of your total Health over 6 sec after being the victim of a critical strike."
   },
   "16493": {
     "name_enus": "Impale",
     "icon": "ability_searingarrow",
     "rank_enus": "Rank 1",
-    "description": "Increases your critical strike chance with ranged weapons by 2%."
+    "description": "Increases the critical strike damage bonus of your abilities by 10%."
   },
   "16494": {
     "name_enus": "Impale",
     "icon": "ability_searingarrow",
     "rank_enus": "Rank 2",
-    "description": "Increases your critical strike chance with ranged weapons by 3%."
+    "description": "Increases the critical strike damage bonus of your abilities by 20%."
   },
   "16511": {
     "name_enus": "Hemorrhage",
     "icon": "spell_shadow_lifedrain",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "An instant strike that deals 110% weapon damage (160% if a dagger is equipped) and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to <!--sp56807:0-->13<!--sp56807-->.  Lasts 10 charges or 15 sec.  Awards 1 combo point."
   },
   "16513": {
     "name_enus": "Vile Poisons",
     "icon": "ability_rogue_feigndeath",
     "rank_enus": "Rank 1",
-    "description": "Reduces the chance your Feign Death ability and all trap spells will be resisted by 4%, and reduces the cooldown of your Disengage ability by 4 sec."
+    "description": "Increases the damage dealt by your poisons and Envenom ability by 7% and gives your damage over time poisons an additional 10% chance to resist dispel effects."
   },
   "16514": {
     "name_enus": "Vile Poisons",
     "icon": "ability_rogue_feigndeath",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage dealt by your poisons and Envenom ability by 14% and gives your damage over time poisons an additional 20% chance to resist dispel effects."
   },
   "16515": {
     "name_enus": "Vile Poisons",
     "icon": "ability_rogue_feigndeath",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage dealt by your poisons and Envenom ability by 20% and gives your damage over time poisons an additional 30% chance to resist dispel effects."
   },
   "16538": {
     "name_enus": "One-Handed Weapon Specialization",
     "icon": "inv_sword_20",
     "rank_enus": "Rank 1",
-    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 7%."
+    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 4%."
   },
   "16539": {
     "name_enus": "One-Handed Weapon Specialization",
     "icon": "inv_sword_20",
     "rank_enus": "Rank 2",
-    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 10%."
+    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 7%."
   },
   "16540": {
     "name_enus": "One-Handed Weapon Specialization",
     "icon": "inv_sword_20",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 10%."
   },
   "16541": {
     "name_enus": "One-Handed Weapon Specialization",
     "icon": "inv_sword_20",
-    "rank_enus": "Rank 4",
-    "description": ""
+    "rank_enus": "Rank 4"
   },
   "16542": {
     "name_enus": "One-Handed Weapon Specialization",
     "icon": "inv_sword_20",
-    "rank_enus": "Rank 5",
-    "description": ""
+    "rank_enus": "Rank 5"
   },
   "16544": {
     "name_enus": "Improved Fire Nova",
     "icon": "spell_fire_sealoffire",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage done by your Fire Nova by 20% and reduces the cooldown by 4 sec."
   },
   "16578": {
     "name_enus": "Lightning Mastery",
     "icon": "spell_lightning_lightningbolt01",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.2 sec."
+    "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.1 sec."
   },
   "16579": {
     "name_enus": "Lightning Mastery",
     "icon": "spell_lightning_lightningbolt01",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.3 sec."
+    "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.2 sec."
   },
   "16580": {
     "name_enus": "Lightning Mastery",
     "icon": "spell_lightning_lightningbolt01",
     "rank_enus": "Rank 3",
-    "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.4 sec."
+    "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.3 sec."
   },
   "16581": {
     "name_enus": "Lightning Mastery",
     "icon": "spell_lightning_lightningbolt01",
     "rank_enus": "Rank 4",
-    "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.5 sec."
+    "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.4 sec."
   },
   "16582": {
     "name_enus": "Lightning Mastery",
     "icon": "spell_lightning_lightningbolt01",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.5 sec."
   },
   "16757": {
     "name_enus": "Arctic Reach",
     "icon": "spell_shadow_darkritual",
     "rank_enus": "Rank 1",
-    "description": "Increases your Frost and Shadow damage by 4%."
+    "description": "Increases the range of your Frostbolt, Ice Lance, Deep Freeze and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%."
   },
   "16758": {
     "name_enus": "Arctic Reach",
     "icon": "spell_shadow_darkritual",
     "rank_enus": "Rank 2",
-    "description": "Increases your Frost and Shadow damage by 6%."
+    "description": "Increases the range of your Frostbolt, Ice Lance, Deep Freeze and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 20%."
   },
   "16763": {
     "name_enus": "Improved Frostbolt",
     "icon": "spell_frost_frostbolt02",
     "rank_enus": "Rank 3",
-    "description": "Reduces the casting time of your Frostbolt spell by 0.4 sec."
+    "description": "Reduces the casting time of your Frostbolt spell by 0.3 sec."
   },
   "16765": {
     "name_enus": "Improved Frostbolt",
     "icon": "spell_frost_frostbolt02",
     "rank_enus": "Rank 4",
-    "description": "Reduces the casting time of your Frostbolt spell by 0.5 sec."
+    "description": "Reduces the casting time of your Frostbolt spell by 0.4 sec."
   },
   "16766": {
     "name_enus": "Improved Frostbolt",
     "icon": "spell_frost_frostbolt02",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the casting time of your Frostbolt spell by 0.5 sec."
   },
   "16769": {
     "name_enus": "Arcane Stability",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Arcane Missiles and Arcane Blast by 80%."
   },
   "16770": {
     "name_enus": "Arcane Stability",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Arcane Missiles and Arcane Blast by 100%."
   },
   "16814": {
     "name_enus": "Starlight Wrath",
     "icon": "spell_nature_abolishmagic",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.2 sec."
+    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.1 sec."
   },
   "16815": {
     "name_enus": "Starlight Wrath",
     "icon": "spell_nature_abolishmagic",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.3 sec."
+    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.2 sec."
   },
   "16816": {
     "name_enus": "Starlight Wrath",
     "icon": "spell_nature_abolishmagic",
     "rank_enus": "Rank 3",
-    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.4 sec."
+    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.3 sec."
   },
   "16817": {
     "name_enus": "Starlight Wrath",
     "icon": "spell_nature_abolishmagic",
     "rank_enus": "Rank 4",
-    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.5 sec."
+    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.4 sec."
   },
   "16818": {
     "name_enus": "Starlight Wrath",
     "icon": "spell_nature_abolishmagic",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.5 sec."
   },
   "16819": {
     "name_enus": "Nature's Reach",
     "icon": "spell_nature_naturetouchgrow",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your Balance spells and Faerie Fire (Feral) ability by 20%, and reduces the threat generated by your Balance spells by 30%."
+    "description": "Increases the range of your Balance spells and Faerie Fire (Feral) ability by 10%, and reduces the threat generated by your Balance spells by 15%."
   },
   "16820": {
     "name_enus": "Nature's Reach",
     "icon": "spell_nature_naturetouchgrow",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of your Balance spells and Faerie Fire (Feral) ability by 20%, and reduces the threat generated by your Balance spells by 30%."
   },
   "16821": {
     "name_enus": "Improved Moonfire",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage and critical strike chance of your Moonfire spell by 10%."
+    "description": "Increases the damage and critical strike chance of your Moonfire spell by 5%."
   },
   "16822": {
     "name_enus": "Improved Moonfire",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage and critical strike chance of your Moonfire spell by 10%."
   },
   "16833": {
     "name_enus": "Natural Shapeshifter",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of all shapeshifting by 20%."
+    "description": "Reduces the mana cost of all shapeshifting by 10%."
   },
   "16834": {
     "name_enus": "Natural Shapeshifter",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of all shapeshifting by 30%."
+    "description": "Reduces the mana cost of all shapeshifting by 20%."
   },
   "16835": {
     "name_enus": "Natural Shapeshifter",
     "icon": "spell_nature_wispsplode",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of all shapeshifting by 30%."
   },
   "16836": {
     "name_enus": "Brambles",
     "icon": "spell_nature_thorns",
     "rank_enus": "Rank 1",
-    "description": "Damage from your Thorns and Entangling Roots increased by 50% and damage done by your Treants increased by 10%. In addition, damage from your Treants and attacks done to you while you have Barkskin active have a 10% chance to daze the target for 3 sec."
+    "description": "Damage from your Thorns and Entangling Roots increased by 25% and damage done by your Treants increased by 5%. In addition, damage from your Treants and attacks done to you while you have Barkskin active have a 5% chance to daze the target for 3 sec."
   },
   "16839": {
     "name_enus": "Brambles",
     "icon": "spell_nature_thorns",
     "rank_enus": "Rank 2",
-    "description": "Damage from your Thorns and Entangling Roots increased by 75% and damage done by your Treants increased by 15%. In addition, damage from your Treants and attacks done to you while you have Barkskin active have a 15% chance to daze the target for 3 sec."
+    "description": "Damage from your Thorns and Entangling Roots increased by 50% and damage done by your Treants increased by 10%. In addition, damage from your Treants and attacks done to you while you have Barkskin active have a 10% chance to daze the target for 3 sec."
   },
   "16840": {
     "name_enus": "Brambles",
     "icon": "spell_nature_thorns",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Damage from your Thorns and Entangling Roots increased by 75% and damage done by your Treants increased by 15%. In addition, damage from your Treants and attacks done to you while you have Barkskin active have a 15% chance to daze the target for 3 sec."
   },
   "16845": {
     "name_enus": "Moonglow",
     "icon": "spell_nature_sentinal",
     "rank_enus": "Rank 1",
-    "description": "Reduces the Mana cost of your Moonfire, Starfire, Starfall, Wrath, Healing Touch, Nourish, Regrowth and Rejuvenation spells by 6%."
+    "description": "Reduces the Mana cost of your Moonfire, Starfire, Starfall, Wrath, Healing Touch, Nourish, Regrowth and Rejuvenation spells by 3%."
   },
   "16846": {
     "name_enus": "Moonglow",
     "icon": "spell_nature_sentinal",
     "rank_enus": "Rank 2",
-    "description": "Reduces the Mana cost of your Moonfire, Starfire, Starfall, Wrath, Healing Touch, Nourish, Regrowth and Rejuvenation spells by 9%."
+    "description": "Reduces the Mana cost of your Moonfire, Starfire, Starfall, Wrath, Healing Touch, Nourish, Regrowth and Rejuvenation spells by 6%."
   },
   "16847": {
     "name_enus": "Moonglow",
     "icon": "spell_nature_sentinal",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the Mana cost of your Moonfire, Starfire, Starfall, Wrath, Healing Touch, Nourish, Regrowth and Rejuvenation spells by 9%."
   },
   "16850": {
     "name_enus": "Celestial Focus",
     "icon": "spell_arcane_starfire",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks while casting Starfire, Hibernate and Hurricane by 46% and increases your total spell haste by 2%."
+    "description": "Reduces the pushback suffered from damaging attacks while casting Starfire, Hibernate and Hurricane by 23% and increases your total spell haste by 1%."
   },
   "16858": {
     "name_enus": "Feral Aggression",
@@ -3519,199 +3511,199 @@ export const spells = {
     "name_enus": "Moonfury",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 6%."
+    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 3%."
   },
   "16897": {
     "name_enus": "Moonfury",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 10%."
+    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 6%."
   },
   "16899": {
     "name_enus": "Moonfury",
     "icon": "spell_nature_moonglow",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 10%."
   },
   "16909": {
     "name_enus": "Vengeance",
     "icon": "spell_nature_purge",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 40%."
+    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 20%."
   },
   "16910": {
     "name_enus": "Vengeance",
     "icon": "spell_nature_purge",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 60%."
+    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 40%."
   },
   "16911": {
     "name_enus": "Vengeance",
     "icon": "spell_nature_purge",
     "rank_enus": "Rank 3",
-    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 80%."
+    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 60%."
   },
   "16912": {
     "name_enus": "Vengeance",
     "icon": "spell_nature_purge",
     "rank_enus": "Rank 4",
-    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 100%."
+    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 80%."
   },
   "16913": {
     "name_enus": "Vengeance",
     "icon": "spell_nature_purge",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 100%."
   },
   "16923": {
     "name_enus": "Celestial Focus",
     "icon": "spell_arcane_starfire",
     "rank_enus": "Rank 2",
-    "description": "Reduces the pushback suffered from damaging attacks while casting Starfire, Hibernate and Hurricane by 70% and increases your total spell haste by 3%."
+    "description": "Reduces the pushback suffered from damaging attacks while casting Starfire, Hibernate and Hurricane by 46% and increases your total spell haste by 2%."
   },
   "16924": {
     "name_enus": "Celestial Focus",
     "icon": "spell_arcane_starfire",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Starfire, Hibernate and Hurricane by 70% and increases your total spell haste by 3%."
   },
   "16929": {
     "name_enus": "Thick Hide",
     "icon": "inv_misc_pelt_bear_03",
     "rank_enus": "Rank 1",
-    "description": "Increases your Armor contribution from cloth and leather items by 7%."
+    "description": "Increases your Armor contribution from cloth and leather items by 4%."
   },
   "16930": {
     "name_enus": "Thick Hide",
     "icon": "inv_misc_pelt_bear_03",
     "rank_enus": "Rank 2",
-    "description": "Increases your Armor contribution from cloth and leather items by 10%."
+    "description": "Increases your Armor contribution from cloth and leather items by 7%."
   },
   "16931": {
     "name_enus": "Thick Hide",
     "icon": "inv_misc_pelt_bear_03",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your Armor contribution from cloth and leather items by 10%."
   },
   "16934": {
     "name_enus": "Ferocity",
     "icon": "ability_hunter_pet_hyena",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 2 Rage or Energy."
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 1 Rage or Energy."
   },
   "16935": {
     "name_enus": "Ferocity",
     "icon": "ability_hunter_pet_hyena",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 3 Rage or Energy."
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 2 Rage or Energy."
   },
   "16936": {
     "name_enus": "Ferocity",
     "icon": "ability_hunter_pet_hyena",
     "rank_enus": "Rank 3",
-    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 4 Rage or Energy."
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 3 Rage or Energy."
   },
   "16937": {
     "name_enus": "Ferocity",
     "icon": "ability_hunter_pet_hyena",
     "rank_enus": "Rank 4",
-    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 5 Rage or Energy."
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 4 Rage or Energy."
   },
   "16938": {
     "name_enus": "Ferocity",
     "icon": "ability_hunter_pet_hyena",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 5 Rage or Energy."
   },
   "16940": {
     "name_enus": "Brutal Impact",
     "icon": "ability_druid_bash",
     "rank_enus": "Rank 1",
-    "description": "Increases the stun duration of your Bash and Pounce abilities by 1 sec and decreases the cooldown of Bash by 30 sec."
+    "description": "Increases the stun duration of your Bash and Pounce abilities by 0.5 sec and decreases the cooldown of Bash by 15 sec."
   },
   "16941": {
     "name_enus": "Brutal Impact",
     "icon": "ability_druid_bash",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the stun duration of your Bash and Pounce abilities by 1 sec and decreases the cooldown of Bash by 30 sec."
   },
   "16942": {
     "name_enus": "Sharpened Claws",
     "icon": "inv_misc_monsterclaw_04",
     "rank_enus": "Rank 1",
-    "description": "Increases your critical strike chance while in Bear, Dire Bear or Cat Form by 4%."
+    "description": "Increases your critical strike chance while in Bear, Dire Bear or Cat Form by 2%."
   },
   "16943": {
     "name_enus": "Sharpened Claws",
     "icon": "inv_misc_monsterclaw_04",
     "rank_enus": "Rank 2",
-    "description": "Increases your critical strike chance while in Bear, Dire Bear or Cat Form by 6%."
+    "description": "Increases your critical strike chance while in Bear, Dire Bear or Cat Form by 4%."
   },
   "16944": {
     "name_enus": "Sharpened Claws",
     "icon": "inv_misc_monsterclaw_04",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your critical strike chance while in Bear, Dire Bear or Cat Form by 6%."
   },
   "16947": {
     "name_enus": "Feral Instinct",
     "icon": "ability_ambush",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Swipe ability by 20% and reduces the chance enemies have to detect you while Prowling."
+    "description": "Increases the damage done by your Swipe ability by 10% and reduces the chance enemies have to detect you while Prowling."
   },
   "16948": {
     "name_enus": "Feral Instinct",
     "icon": "ability_ambush",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Swipe ability by 30% and reduces the chance enemies have to detect you while Prowling."
+    "description": "Increases the damage done by your Swipe ability by 20% and reduces the chance enemies have to detect you while Prowling."
   },
   "16949": {
     "name_enus": "Feral Instinct",
     "icon": "ability_ambush",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Swipe ability by 30% and reduces the chance enemies have to detect you while Prowling."
   },
   "16966": {
     "name_enus": "Shredding Attacks",
     "icon": "spell_shadow_vampiricaura",
     "rank_enus": "Rank 1",
-    "description": "Reduces the energy cost of your Shred ability by 18 and the rage cost of your Lacerate ability by 2."
+    "description": "Reduces the energy cost of your Shred ability by 9 and the rage cost of your Lacerate ability by 1."
   },
   "16968": {
     "name_enus": "Shredding Attacks",
     "icon": "spell_shadow_vampiricaura",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the energy cost of your Shred ability by 18 and the rage cost of your Lacerate ability by 2."
   },
   "16972": {
     "name_enus": "Predatory Strikes",
     "icon": "ability_hunter_pet_cat",
     "rank_enus": "Rank 1",
-    "description": "Increases your melee attack power in Cat, Bear and Dire Bear Forms by 100% of your level and 14% of any attack power on your equipped weapon.  In addition, your finishing moves have a 13% chance per combo point to make your next Nature spell with a base casting time less than 10 sec. become an instant cast spell."
+    "description": "Increases your melee attack power in Cat, Bear and Dire Bear Forms by 50% of your level and 7% of any attack power on your equipped weapon.  In addition, your finishing moves have a 7% chance per combo point to make your next Nature spell with a base casting time less than 10 sec. become an instant cast spell."
   },
   "16974": {
     "name_enus": "Predatory Strikes",
     "icon": "ability_hunter_pet_cat",
     "rank_enus": "Rank 2",
-    "description": "Increases your melee attack power in Cat, Bear and Dire Bear Forms by 150% of your level and 20% of any attack power on your equipped weapon.  In addition, your finishing moves have a 20% chance per combo point to make your next Nature spell with a base casting time less than 10 sec. become an instant cast spell."
+    "description": "Increases your melee attack power in Cat, Bear and Dire Bear Forms by 100% of your level and 14% of any attack power on your equipped weapon.  In addition, your finishing moves have a 13% chance per combo point to make your next Nature spell with a base casting time less than 10 sec. become an instant cast spell."
   },
   "16975": {
     "name_enus": "Predatory Strikes",
     "icon": "ability_hunter_pet_cat",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your melee attack power in Cat, Bear and Dire Bear Forms by 150% of your level and 20% of any attack power on your equipped weapon.  In addition, your finishing moves have a 20% chance per combo point to make your next Nature spell with a base casting time less than 10 sec. become an instant cast spell."
   },
   "16998": {
     "name_enus": "Savage Fury",
     "icon": "ability_druid_ravage",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage caused by your Claw, Rake, Mangle (Cat), Mangle (Bear), and Maul abilities by 20%."
+    "description": "Increases the damage caused by your Claw, Rake, Mangle (Cat), Mangle (Bear), and Maul abilities by 10%."
   },
   "16999": {
     "name_enus": "Savage Fury",
     "icon": "ability_druid_ravage",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage caused by your Claw, Rake, Mangle (Cat), Mangle (Bear), and Maul abilities by 20%."
   },
   "17002": {
     "name_enus": "Feral Swiftness",
@@ -3723,25 +3715,25 @@ export const spells = {
     "name_enus": "Heart of the Wild",
     "icon": "spell_holy_blessingofagility",
     "rank_enus": "Rank 1",
-    "description": "Increases your Intellect by 8%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 4% and while in Cat Form your attack power is increased by 4%."
+    "description": "Increases your Intellect by 4%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 2% and while in Cat Form your attack power is increased by 2%."
   },
   "17004": {
     "name_enus": "Heart of the Wild",
     "icon": "spell_holy_blessingofagility",
     "rank_enus": "Rank 2",
-    "description": "Increases your Intellect by 12%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 6% and while in Cat Form your attack power is increased by 6%."
+    "description": "Increases your Intellect by 8%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 4% and while in Cat Form your attack power is increased by 4%."
   },
   "17005": {
     "name_enus": "Heart of the Wild",
     "icon": "spell_holy_blessingofagility",
     "rank_enus": "Rank 3",
-    "description": "Increases your Intellect by 16%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 8% and while in Cat Form your attack power is increased by 8%."
+    "description": "Increases your Intellect by 12%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 6% and while in Cat Form your attack power is increased by 6%."
   },
   "17006": {
     "name_enus": "Heart of the Wild",
     "icon": "spell_holy_blessingofagility",
     "rank_enus": "Rank 4",
-    "description": "Increases your Intellect by 20%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 10% and while in Cat Form your attack power is increased by 10%."
+    "description": "Increases your Intellect by 16%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 8% and while in Cat Form your attack power is increased by 8%."
   },
   "17007": {
     "name_enus": "Leader of the Pack",
@@ -3753,163 +3745,163 @@ export const spells = {
     "name_enus": "Improved Mark of the Wild",
     "icon": "spell_nature_regeneration",
     "rank_enus": "Rank 1",
-    "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 40%, and increases all of your total attributes by 2%."
+    "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 20%, and increases all of your total attributes by 1%."
   },
   "17051": {
     "name_enus": "Improved Mark of the Wild",
     "icon": "spell_nature_regeneration",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 40%, and increases all of your total attributes by 2%."
   },
   "17056": {
     "name_enus": "Furor",
     "icon": "spell_holy_blessingofstamina",
     "rank_enus": "Rank 1",
-    "description": "Gives you 40% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 40 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 4%."
+    "description": "Gives you 20% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 20 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 2%."
   },
   "17058": {
     "name_enus": "Furor",
     "icon": "spell_holy_blessingofstamina",
     "rank_enus": "Rank 2",
-    "description": "Gives you 60% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 60 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 6%."
+    "description": "Gives you 40% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 40 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 4%."
   },
   "17059": {
     "name_enus": "Furor",
     "icon": "spell_holy_blessingofstamina",
     "rank_enus": "Rank 3",
-    "description": "Gives you 80% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 80 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 8%."
+    "description": "Gives you 60% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 60 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 6%."
   },
   "17060": {
     "name_enus": "Furor",
     "icon": "spell_holy_blessingofstamina",
     "rank_enus": "Rank 4",
-    "description": "Gives you 100% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 100 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 10%."
+    "description": "Gives you 80% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 80 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 8%."
   },
   "17061": {
     "name_enus": "Furor",
     "icon": "spell_holy_blessingofstamina",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives you 100% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 100 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 10%."
   },
   "17063": {
     "name_enus": "Nature's Focus",
     "icon": "spell_nature_healingwavegreater",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks  while casting Healing Touch, Wrath, Entangling Roots, Cyclone, Nourish, Regrowth and Tranquility by 46%."
+    "description": "Reduces the pushback suffered from damaging attacks  while casting Healing Touch, Wrath, Entangling Roots, Cyclone, Nourish, Regrowth and Tranquility by 23%."
   },
   "17065": {
     "name_enus": "Nature's Focus",
     "icon": "spell_nature_healingwavegreater",
     "rank_enus": "Rank 2",
-    "description": "Reduces the pushback suffered from damaging attacks  while casting Healing Touch, Wrath, Entangling Roots, Cyclone, Nourish, Regrowth and Tranquility by 70%."
+    "description": "Reduces the pushback suffered from damaging attacks  while casting Healing Touch, Wrath, Entangling Roots, Cyclone, Nourish, Regrowth and Tranquility by 46%."
   },
   "17066": {
     "name_enus": "Nature's Focus",
     "icon": "spell_nature_healingwavegreater",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks  while casting Healing Touch, Wrath, Entangling Roots, Cyclone, Nourish, Regrowth and Tranquility by 70%."
   },
   "17069": {
     "name_enus": "Naturalist",
     "icon": "spell_nature_healingtouch",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cast time of your Healing Touch spell by 0.2 sec and increases the damage you deal with physical attacks in all forms by 4%."
+    "description": "Reduces the cast time of your Healing Touch spell by 0.1 sec and increases the damage you deal with physical attacks in all forms by 2%."
   },
   "17070": {
     "name_enus": "Naturalist",
     "icon": "spell_nature_healingtouch",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cast time of your Healing Touch spell by 0.3 sec and increases the damage you deal with physical attacks in all forms by 6%."
+    "description": "Reduces the cast time of your Healing Touch spell by 0.2 sec and increases the damage you deal with physical attacks in all forms by 4%."
   },
   "17071": {
     "name_enus": "Naturalist",
     "icon": "spell_nature_healingtouch",
     "rank_enus": "Rank 3",
-    "description": "Reduces the cast time of your Healing Touch spell by 0.4 sec and increases the damage you deal with physical attacks in all forms by 8%."
+    "description": "Reduces the cast time of your Healing Touch spell by 0.3 sec and increases the damage you deal with physical attacks in all forms by 6%."
   },
   "17072": {
     "name_enus": "Naturalist",
     "icon": "spell_nature_healingtouch",
     "rank_enus": "Rank 4",
-    "description": "Reduces the cast time of your Healing Touch spell by 0.5 sec and increases the damage you deal with physical attacks in all forms by 10%."
+    "description": "Reduces the cast time of your Healing Touch spell by 0.4 sec and increases the damage you deal with physical attacks in all forms by 8%."
   },
   "17073": {
     "name_enus": "Naturalist",
     "icon": "spell_nature_healingtouch",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the cast time of your Healing Touch spell by 0.5 sec and increases the damage you deal with physical attacks in all forms by 10%."
   },
   "17074": {
     "name_enus": "Nature's Bounty",
     "icon": "spell_nature_resistnature",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 10%."
+    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 5%."
   },
   "17075": {
     "name_enus": "Nature's Bounty",
     "icon": "spell_nature_resistnature",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 15%."
+    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 10%."
   },
   "17076": {
     "name_enus": "Nature's Bounty",
     "icon": "spell_nature_resistnature",
     "rank_enus": "Rank 3",
-    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 20%."
+    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 15%."
   },
   "17077": {
     "name_enus": "Nature's Bounty",
     "icon": "spell_nature_resistnature",
     "rank_enus": "Rank 4",
-    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 25%."
+    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 20%."
   },
   "17078": {
     "name_enus": "Nature's Bounty",
     "icon": "spell_nature_resistnature",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 25%."
   },
   "17104": {
     "name_enus": "Gift of Nature",
     "icon": "spell_nature_protectionformnature",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect of all healing spells by 4%."
+    "description": "Increases the effect of all healing spells by 2%."
   },
   "17106": {
     "name_enus": "Intensity",
     "icon": "spell_frost_windwalkon",
     "rank_enus": "Rank 1",
-    "description": "Allows 33% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 7 rage."
+    "description": "Allows 17% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 4 rage."
   },
   "17107": {
     "name_enus": "Intensity",
     "icon": "spell_frost_windwalkon",
     "rank_enus": "Rank 2",
-    "description": "Allows 50% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 10 rage."
+    "description": "Allows 33% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 7 rage."
   },
   "17108": {
     "name_enus": "Intensity",
     "icon": "spell_frost_windwalkon",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Allows 50% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 10 rage."
   },
   "17111": {
     "name_enus": "Improved Rejuvenation",
     "icon": "spell_nature_rejuvenation",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect of your Rejuvenation spell by 10%."
+    "description": "Increases the effect of your Rejuvenation spell by 5%."
   },
   "17112": {
     "name_enus": "Improved Rejuvenation",
     "icon": "spell_nature_rejuvenation",
     "rank_enus": "Rank 2",
-    "description": "Increases the effect of your Rejuvenation spell by 15%."
+    "description": "Increases the effect of your Rejuvenation spell by 10%."
   },
   "17113": {
     "name_enus": "Improved Rejuvenation",
     "icon": "spell_nature_rejuvenation",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effect of your Rejuvenation spell by 15%."
   },
   "17116": {
     "name_enus": "Nature's Swiftness",
@@ -3921,49 +3913,49 @@ export const spells = {
     "name_enus": "Subtlety",
     "icon": "ability_eyeoftheowl",
     "rank_enus": "Rank 1",
-    "description": "Reduces the threat generated by your restoration spells by 20% and reduces the chance your helpful spells, Moonfire, and Insect Swarm will be dispelled by 20%."
+    "description": "Reduces the threat generated by your restoration spells by 10% and reduces the chance your helpful spells, Moonfire, and Insect Swarm will be dispelled by 10%."
   },
   "17119": {
     "name_enus": "Subtlety",
     "icon": "ability_eyeoftheowl",
     "rank_enus": "Rank 2",
-    "description": "Reduces the threat generated by your restoration spells by 30% and reduces the chance your helpful spells, Moonfire, and Insect Swarm will be dispelled by 30%."
+    "description": "Reduces the threat generated by your restoration spells by 20% and reduces the chance your helpful spells, Moonfire, and Insect Swarm will be dispelled by 20%."
   },
   "17120": {
     "name_enus": "Subtlety",
     "icon": "ability_eyeoftheowl",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the threat generated by your restoration spells by 30% and reduces the chance your helpful spells, Moonfire, and Insect Swarm will be dispelled by 30%."
   },
   "17123": {
     "name_enus": "Improved Tranquility",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 1",
-    "description": "Your spells and abilities deal 6% more damage to targets infected with Frost Fever.  Also increases your expertise by 2."
+    "description": "Reduces threat caused by Tranquility by 50%, and reduces the cooldown by 30%."
   },
   "17124": {
     "name_enus": "Improved Tranquility",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 2",
-    "description": "Your spells and abilities deal 9% more damage to targets infected with Frost Fever.  Also increases your expertise by 3."
+    "description": "Reduces threat caused by Tranquility by 100%, and reduces the cooldown by 60%."
   },
   "17191": {
     "name_enus": "Improved Renew",
     "icon": "spell_holy_renew",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the amount healed by your Renew spell by 15%."
   },
   "17322": {
     "name_enus": "Shadow Reach",
     "icon": "spell_shadow_chilltouch",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your offensive Shadow spells by 20%."
+    "description": "Increases the range of your offensive Shadow spells by 10%."
   },
   "17323": {
     "name_enus": "Shadow Reach",
     "icon": "spell_shadow_chilltouch",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of your offensive Shadow spells by 20%."
   },
   "17364": {
     "name_enus": "Stormstrike",
@@ -3975,553 +3967,553 @@ export const spells = {
     "name_enus": "Ancestral Knowledge",
     "icon": "spell_shadow_grimward",
     "rank_enus": "Rank 1",
-    "description": "Increases your Intellect by 4%."
+    "description": "Increases your Intellect by 2%."
   },
   "17486": {
     "name_enus": "Ancestral Knowledge",
     "icon": "spell_shadow_grimward",
     "rank_enus": "Rank 2",
-    "description": "Increases your Intellect by 6%."
+    "description": "Increases your Intellect by 4%."
   },
   "17487": {
     "name_enus": "Ancestral Knowledge",
     "icon": "spell_shadow_grimward",
     "rank_enus": "Rank 3",
-    "description": "Increases your Intellect by 8%."
+    "description": "Increases your Intellect by 6%."
   },
   "17488": {
     "name_enus": "Ancestral Knowledge",
     "icon": "spell_shadow_grimward",
     "rank_enus": "Rank 4",
-    "description": "Increases your Intellect by 10%."
+    "description": "Increases your Intellect by 8%."
   },
   "17489": {
     "name_enus": "Ancestral Knowledge",
     "icon": "spell_shadow_grimward",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your Intellect by 10%."
   },
   "17778": {
     "name_enus": "Cataclysm",
     "icon": "spell_fire_windsofwoe",
     "rank_enus": "Rank 1",
-    "description": "Reduces the Mana cost of your Destruction spells by 7%."
+    "description": "Reduces the Mana cost of your Destruction spells by 4%."
   },
   "17779": {
     "name_enus": "Cataclysm",
     "icon": "spell_fire_windsofwoe",
     "rank_enus": "Rank 2",
-    "description": "Reduces the Mana cost of your Destruction spells by 10%."
+    "description": "Reduces the Mana cost of your Destruction spells by 7%."
   },
   "17780": {
     "name_enus": "Cataclysm",
     "icon": "spell_fire_windsofwoe",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the Mana cost of your Destruction spells by 10%."
   },
   "17783": {
     "name_enus": "Fel Concentration",
     "icon": "spell_shadow_fingerofdeath",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks  while casting Drain Life, Drain Mana, Drain Soul, Unstable Affliction, and Haunt spells by 46%."
+    "description": "Reduces the pushback suffered from damaging attacks  while casting Drain Life, Drain Mana, Drain Soul, Unstable Affliction, and Haunt by 23%."
   },
   "17784": {
     "name_enus": "Fel Concentration",
     "icon": "spell_shadow_fingerofdeath",
     "rank_enus": "Rank 2",
-    "description": "Reduces the pushback suffered from damaging attacks  while casting Drain Life, Drain Mana, Drain Soul,  Unstable Affliction, and Haunt spells by 70%."
+    "description": "Reduces the pushback suffered from damaging attacks  while casting Drain Life, Drain Mana, Drain Soul, Unstable Affliction, and Haunt spells by 46%."
   },
   "17785": {
     "name_enus": "Fel Concentration",
     "icon": "spell_shadow_fingerofdeath",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks  while casting Drain Life, Drain Mana, Drain Soul,  Unstable Affliction, and Haunt spells by 70%."
   },
   "17788": {
     "name_enus": "Bane",
     "icon": "spell_shadow_deathpact",
     "rank_enus": "Rank 1",
-    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.2 sec and your Soul Fire spell by 0.8 sec."
+    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.1 sec and your Soul Fire spell by 0.4 sec."
   },
   "17789": {
     "name_enus": "Bane",
     "icon": "spell_shadow_deathpact",
     "rank_enus": "Rank 2",
-    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.3 sec and your Soul Fire spell by 1.2 sec."
+    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.2 sec and your Soul Fire spell by 0.8 sec."
   },
   "17790": {
     "name_enus": "Bane",
     "icon": "spell_shadow_deathpact",
     "rank_enus": "Rank 3",
-    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.4 sec and your Soul Fire spell by 1.6 sec."
+    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.3 sec and your Soul Fire spell by 1.2 sec."
   },
   "17791": {
     "name_enus": "Bane",
     "icon": "spell_shadow_deathpact",
     "rank_enus": "Rank 4",
-    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.5 sec and your Soul Fire spell by 2 sec."
+    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.4 sec and your Soul Fire spell by 1.6 sec."
   },
   "17792": {
     "name_enus": "Bane",
     "icon": "spell_shadow_deathpact",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the casting time of your Shadow Bolt. Chaos Bolt and Immolate spells by 0.5 sec and your Soul Fire spell by 2 sec."
   },
   "17793": {
     "name_enus": "Improved Shadow Bolt",
     "icon": "spell_shadow_shadowbolt",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Shadow Bolt spell by 4%, and your Shadow Bolt has a 40% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec."
+    "description": "Increases the damage done by your Shadow Bolt spell by 2%, and your Shadow Bolt has a 20% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec."
   },
   "17796": {
     "name_enus": "Improved Shadow Bolt",
     "icon": "spell_shadow_shadowbolt",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Shadow Bolt spell by 6%, and your Shadow Bolt has a 60% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec."
+    "description": "Increases the damage done by your Shadow Bolt spell by 4%, and your Shadow Bolt has a 40% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec."
   },
   "17801": {
     "name_enus": "Improved Shadow Bolt",
     "icon": "spell_shadow_shadowbolt",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Shadow Bolt spell by 8%, and your Shadow Bolt has a 80% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec."
+    "description": "Increases the damage done by your Shadow Bolt spell by 6%, and your Shadow Bolt has a 60% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec."
   },
   "17802": {
     "name_enus": "Improved Shadow Bolt",
     "icon": "spell_shadow_shadowbolt",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage done by your Shadow Bolt spell by 10%, and your Shadow Bolt has a 100% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec."
+    "description": "Increases the damage done by your Shadow Bolt spell by 8%, and your Shadow Bolt has a 80% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec."
   },
   "17803": {
     "name_enus": "Improved Shadow Bolt",
     "icon": "spell_shadow_shadowbolt",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Shadow Bolt spell by 10%, and your Shadow Bolt has a 100% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5%. Effect lasts 30 sec."
   },
   "17804": {
     "name_enus": "Soul Siphon",
     "icon": "spell_shadow_lifedrain02",
     "rank_enus": "Rank 1",
-    "description": "Increases the amount drained by your Drain Life and Drain Soul spells by an additional 6% for each of your Affliction effects on the target, up to a maximum of 18% additional effect."
+    "description": "Increases the amount drained by your Drain Life and Drain Soul spells by an additional 3% for each of your Affliction effects on the target, up to a maximum of 9% additional effect."
   },
   "17805": {
     "name_enus": "Soul Siphon",
     "icon": "spell_shadow_lifedrain02",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the amount drained by your Drain Life and Drain Soul spells by an additional 6% for each of your Affliction effects on the target, up to a maximum of 18% additional effect."
   },
   "17810": {
     "name_enus": "Improved Corruption",
     "icon": "spell_shadow_abominationexplosion",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Corruption by 4%, and increases the critical strike chance of your Seed of Corruption by 2%."
+    "description": "Increases the damage done by your Corruption by 2%, and increases the critical strike chance of your Seed of Corruption by 1%."
   },
   "17811": {
     "name_enus": "Improved Corruption",
     "icon": "spell_shadow_abominationexplosion",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Corruption by 6%, and increases the critical strike chance of your Seed of Corruption by 3%."
+    "description": "Increases the damage done by your Corruption by 4%, and increases the critical strike chance of your Seed of Corruption by 2%."
   },
   "17812": {
     "name_enus": "Improved Corruption",
     "icon": "spell_shadow_abominationexplosion",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Corruption by 8%, and increases the critical strike chance of your Seed of Corruption by 4%."
+    "description": "Increases the damage done by your Corruption by 6%, and increases the critical strike chance of your Seed of Corruption by 3%."
   },
   "17813": {
     "name_enus": "Improved Corruption",
     "icon": "spell_shadow_abominationexplosion",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage done by your Corruption by 10%, and increases the critical strike chance of your Seed of Corruption by 5%."
+    "description": "Increases the damage done by your Corruption by 8%, and increases the critical strike chance of your Seed of Corruption by 4%."
   },
   "17814": {
     "name_enus": "Improved Corruption",
     "icon": "spell_shadow_abominationexplosion",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Corruption by 10%, and increases the critical strike chance of your Seed of Corruption by 5%."
   },
   "17815": {
     "name_enus": "Improved Immolate",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Fire spells by 4%."
+    "description": "Increases the damage done by your Immolate spell by 10%."
   },
   "17833": {
     "name_enus": "Improved Immolate",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Fire spells by 6%."
+    "description": "Increases the damage done by your Immolate spell by 20%."
   },
   "17834": {
     "name_enus": "Improved Immolate",
     "icon": "spell_fire_immolation",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Fire spells by 8%."
+    "description": "Increases the damage done by your Immolate spell by 30%."
   },
   "17877": {
     "name_enus": "Shadowburn",
     "icon": "spell_shadow_scourgebuild",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Instantly blasts the target for 87 to 99 Shadow damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard."
   },
   "17917": {
     "name_enus": "Destructive Reach",
     "icon": "spell_shadow_corpseexplode",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your Destruction spells by 20% and reduces threat caused by Destruction spells by 20%."
+    "description": "Increases the range of your Destruction spells by 10% and reduces threat caused by Destruction spells by 10%."
   },
   "17918": {
     "name_enus": "Destructive Reach",
     "icon": "spell_shadow_corpseexplode",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of your Destruction spells by 20% and reduces threat caused by Destruction spells by 20%."
   },
   "17927": {
     "name_enus": "Improved Searing Pain",
     "icon": "spell_fire_soulburn",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to critically hit with Scorch, Fireball and Frostfire Bolt by an additional 2% and your damaging Scorch spells have a 66% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5% and lasts 30 sec."
+    "description": "Increases the critical strike chance of your Searing Pain spell by 4%."
   },
   "17929": {
     "name_enus": "Improved Searing Pain",
     "icon": "spell_fire_soulburn",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to critically hit with Scorch, Fireball and Frostfire Bolt by an additional 3% and your damaging Scorch spells have a 100% chance to cause your target to be vulnerable to spell damage, increasing spell critical strike chance against that target by 5% and lasts 30 sec."
+    "description": "Increases the critical strike chance of your Searing Pain spell by 7%."
   },
   "17930": {
     "name_enus": "Improved Searing Pain",
     "icon": "spell_fire_soulburn",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your Searing Pain spell by 10%."
   },
   "17954": {
     "name_enus": "Emberstorm",
     "icon": "spell_fire_selfdestruct",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Fire spells by 6% and reduces the cast time of your Incinerate spell by 0.1 sec."
+    "description": "Increases the damage done by your Fire spells by 3% and reduces the cast time of your Incinerate spell by 0.05 sec."
   },
   "17955": {
     "name_enus": "Emberstorm",
     "icon": "spell_fire_selfdestruct",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Fire spells by 9% and reduces the cast time of your Incinerate spell by 0.15 sec."
+    "description": "Increases the damage done by your Fire spells by 6% and reduces the cast time of your Incinerate spell by 0.1 sec."
   },
   "17956": {
     "name_enus": "Emberstorm",
     "icon": "spell_fire_selfdestruct",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Fire spells by 12% and reduces the cast time of your Incinerate spell by 0.2 sec."
+    "description": "Increases the damage done by your Fire spells by 9% and reduces the cast time of your Incinerate spell by 0.15 sec."
   },
   "17957": {
     "name_enus": "Emberstorm",
     "icon": "spell_fire_selfdestruct",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage done by your Fire spells by 15% and reduces the cast time of your Incinerate spell by 0.25 sec."
+    "description": "Increases the damage done by your Fire spells by 12% and reduces the cast time of your Incinerate spell by 0.2 sec."
   },
   "17958": {
     "name_enus": "Emberstorm",
     "icon": "spell_fire_selfdestruct",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Fire spells by 15% and reduces the cast time of your Incinerate spell by 0.25 sec."
   },
   "17959": {
     "name_enus": "Ruin",
     "icon": "spell_shadow_shadowwordpain",
     "rank_enus": "Rank 1",
-    "description": "Increases the duration of Blood Plague and Frost Fever by 6 sec."
+    "description": "Increases the critical strike damage bonus of your Destruction spells and your Imp's Firebolt spell by 20%."
   },
   "17962": {
     "name_enus": "Conflagrate",
     "icon": "spell_fire_fireball",
     "rank_enus": "",
-    "description": "Reduces the cooldown of your Fire Blast spell by 1 sec."
+    "description": "<!--sp56235:0-->Consumes<!--sp56235--> an Immolate or Shadowflame effect on the enemy target to instantly deal damage equal to 60% of your Immolate or Shadowflame, and causes an additional 40% damage over 6 sec."
   },
   "18073": {
     "name_enus": "Pyroclasm",
     "icon": "spell_fire_volcano",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 60%."
+    "description": "When you critically strike with Searing Pain or Conflagrate, your Fire and Shadow spell damage is increased by 4% for 10 sec."
   },
   "18094": {
     "name_enus": "Nightfall",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 1",
-    "description": "Your strength is increased by 4% and your Mind Freeze no longer costs runic power."
+    "description": "Gives your Corruption and Drain Life spells a 2% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%."
   },
   "18095": {
     "name_enus": "Nightfall",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Gives your Corruption and Drain Life spells a 4% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%."
   },
   "18096": {
     "name_enus": "Pyroclasm",
     "icon": "spell_fire_volcano",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 40%."
+    "description": "When you critically strike with Searing Pain or Conflagrate, your Fire and Shadow spell damage is increased by 2% for 10 sec."
   },
   "18119": {
     "name_enus": "Aftermath",
     "icon": "spell_fire_fire",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks while casting Fire spells by 70% and reduces the threat caused by your Fire spells by 20%."
+    "description": "Increases the periodic damage done by your Immolate by 3%, and your Conflagrate has a 50% chance to daze the target for 5 sec."
   },
   "18120": {
     "name_enus": "Aftermath",
     "icon": "spell_fire_fire",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the periodic damage done by your Immolate by 6%, and your Conflagrate has a 100% chance to daze the target for 5 sec."
   },
   "18126": {
     "name_enus": "Demonic Power",
     "icon": "spell_fire_firebolt",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Succubus' Lash of Pain spell by 6 sec. and reduces the casting time of your Imp's Firebolt spell by 0.5 sec."
+    "description": "Reduces the cooldown of your Succubus' Lash of Pain spell by 3 sec. and reduces the casting time of your Imp's Firebolt spell by 0.25 sec."
   },
   "18127": {
     "name_enus": "Demonic Power",
     "icon": "spell_fire_firebolt",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Succubus' Lash of Pain spell by 6 sec. and reduces the casting time of your Imp's Firebolt spell by 0.5 sec."
   },
   "18130": {
     "name_enus": "Devastation",
     "icon": "spell_fire_flameshock",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Fire Blast, Scorch, Arcane Blast and Cone of Cold spells by 4%."
+    "description": "Increases the critical strike chance of your Destruction spells by 5%."
   },
   "18135": {
     "name_enus": "Intensity",
     "icon": "spell_fire_lavaspawn",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks  while casting or channeling any Destruction spell by 70%."
+    "description": "Allows 17% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 4 rage."
   },
   "18136": {
     "name_enus": "Intensity",
     "icon": "spell_fire_lavaspawn",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Allows 33% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 7 rage."
   },
   "18174": {
     "name_enus": "Suppression",
     "icon": "spell_shadow_unsummonbuilding",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases your chance to hit with spells by 1%, and reduces the mana cost of your Affliction spells by 2%."
   },
   "18175": {
     "name_enus": "Suppression",
     "icon": "spell_shadow_unsummonbuilding",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your chance to hit with spells by 2%, and reduces the mana cost of your Affliction spells by 4%."
   },
   "18176": {
     "name_enus": "Suppression",
     "icon": "spell_shadow_unsummonbuilding",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to hit with spells by 3%, and reduces the mana cost of your Affliction spells by 6%."
   },
   "18179": {
     "name_enus": "Improved Curse of Weakness",
     "icon": "spell_shadow_curseofmannoroth",
     "rank_enus": "Rank 1",
-    "description": "Increases the amount of attack power reduced by your Curse of Weakness by 20%."
+    "description": "Increases the amount of attack power reduced by your Curse of Weakness by 10%."
   },
   "18180": {
     "name_enus": "Improved Curse of Weakness",
     "icon": "spell_shadow_curseofmannoroth",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the amount of attack power reduced by your Curse of Weakness by 20%."
   },
   "18182": {
     "name_enus": "Improved Life Tap",
     "icon": "spell_shadow_burningspirit",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with your spells by 2% and reduces the chance that your damage over time diseases can be cured by 20%."
+    "description": "Increases the amount of Mana awarded by your Life Tap spell by 10%."
   },
   "18183": {
     "name_enus": "Improved Life Tap",
     "icon": "spell_shadow_burningspirit",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to hit with your spells by 3% and reduces the chance that your damage over time diseases can be cured by 30%."
+    "description": "Increases the amount of Mana awarded by your Life Tap spell by 20%."
   },
   "18213": {
     "name_enus": "Improved Drain Soul",
     "icon": "spell_shadow_haunting",
     "rank_enus": "Rank 1",
-    "description": "Returns 15% of your maximum mana if the target is killed by you while you drain its soul.  In addition, your Affliction spells generate 20% less threat."
+    "description": "Returns 7% of your maximum mana if the target is killed by you while you drain its soul.  In addition, your Affliction spells generate 10% less threat."
   },
   "18218": {
     "name_enus": "Grim Reach",
     "icon": "spell_shadow_callofbone",
     "rank_enus": "Rank 1",
-    "description": "When your diseases damage an enemy, there is a chance equal to your melee critical strike chance that they will cause 66% additional damage to the target and all enemies within 8 yards.  Ignores any target under the effect of a spell that is cancelled by taking damage."
+    "description": "Increases the range of your Affliction spells by 10%."
   },
   "18219": {
     "name_enus": "Grim Reach",
     "icon": "spell_shadow_callofbone",
     "rank_enus": "Rank 2",
-    "description": "When your diseases damage an enemy, there is a chance equal to your melee critical strike chance that they will cause 100% additional damage to the target and all enemies within 8 yards.  Ignores any target under the effect of a spell that is cancelled by taking damage."
+    "description": "Increases the range of your Affliction spells by 20%."
   },
   "18220": {
     "name_enus": "Dark Pact",
     "icon": "spell_shadow_darkritual",
     "rank_enus": "Rank 1",
-    "description": "Increases your Frost and Shadow damage by 4%."
+    "description": "Drains 305 of your summoned demon's Mana, returning 100% to you."
   },
   "18223": {
     "name_enus": "Curse of Exhaustion",
     "icon": "spell_shadow_grimward",
     "rank_enus": "",
-    "description": "Increases your Intellect by 2%."
+    "description": "Reduces the target's movement speed by 30% for 12 sec.  Only one Curse per Warlock can be active on any one target."
   },
   "18271": {
     "name_enus": "Shadow Mastery",
     "icon": "spell_shadow_shadetruesight",
     "rank_enus": "Rank 1",
-    "description": "Whenever you hit with Blood Strike or Pestilence there is a 66% chance that the Blood Rune becomes a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
+    "description": "Increases the damage dealt or life drained by your Shadow spells and your Felhunter's Shadow Bite ability by 3%."
   },
   "18272": {
     "name_enus": "Shadow Mastery",
     "icon": "spell_shadow_shadetruesight",
     "rank_enus": "Rank 2",
-    "description": "Whenever you hit with Blood Strike or Pestilence there is a 100% chance that the Blood Rune becomes a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
+    "description": "Increases the damage dealt or life drained by your Shadow spells and your Felhunter's Shadow Bite ability by 6%."
   },
   "18273": {
     "name_enus": "Shadow Mastery",
     "icon": "spell_shadow_shadetruesight",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage dealt or life drained by your Shadow spells and your Felhunter's Shadow Bite ability by 9%."
   },
   "18274": {
     "name_enus": "Shadow Mastery",
     "icon": "spell_shadow_shadetruesight",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the damage dealt or life drained by your Shadow spells and your Felhunter's Shadow Bite ability by 12%."
   },
   "18275": {
     "name_enus": "Shadow Mastery",
     "icon": "spell_shadow_shadetruesight",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage dealt or life drained by your Shadow spells and your Felhunter's Shadow Bite ability by 15%."
   },
   "18288": {
     "name_enus": "Amplify Curse",
     "icon": "spell_shadow_contagion",
     "rank_enus": "",
-    "description": "Causes the victims of your Death Coil to be surrounded by a vile swarm of unholy insects, taking 10% of the damage done by the Death Coil over 10 sec, and preventing any diseases on the victim from being dispelled."
+    "description": "Reduces the global cooldown of your Curses by 0.5 sec."
   },
   "18372": {
     "name_enus": "Improved Drain Soul",
     "icon": "spell_shadow_haunting",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Returns 15% of your maximum mana if the target is killed by you while you drain its soul.  In addition, your Affliction spells generate 20% less threat."
   },
   "18427": {
     "name_enus": "Aggression",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 2% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 3%."
   },
   "18428": {
     "name_enus": "Aggression",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 3% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 6%."
   },
   "18429": {
     "name_enus": "Aggression",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 9%."
   },
   "18459": {
     "name_enus": "Incineration",
     "icon": "spell_fire_flameshock",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Fire Blast, Scorch, Arcane Blast and Cone of Cold spells by 4%."
+    "description": "Increases the critical strike chance of your Fire Blast, Scorch, Arcane Blast and Cone of Cold spells by 2%."
   },
   "18460": {
     "name_enus": "Incineration",
     "icon": "spell_fire_flameshock",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of your Fire Blast, Scorch, Arcane Blast and Cone of Cold spells by 6%."
+    "description": "Increases the critical strike chance of your Fire Blast, Scorch, Arcane Blast and Cone of Cold spells by 4%."
   },
   "18462": {
     "name_enus": "Arcane Meditation",
     "icon": "spell_shadow_siphonmana",
     "rank_enus": "Rank 1",
-    "description": "Allows 33% of your mana regeneration to continue while casting."
+    "description": "Allows 17% of your mana regeneration to continue while casting."
   },
   "18463": {
     "name_enus": "Arcane Meditation",
     "icon": "spell_shadow_siphonmana",
     "rank_enus": "Rank 2",
-    "description": "Allows 50% of your mana regeneration to continue while casting."
+    "description": "Allows 33% of your mana regeneration to continue while casting."
   },
   "18464": {
     "name_enus": "Arcane Meditation",
     "icon": "spell_shadow_siphonmana",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Allows 50% of your mana regeneration to continue while casting."
   },
   "18530": {
     "name_enus": "Divine Fury",
     "icon": "spell_holy_sealofwrath",
     "rank_enus": "Rank 1",
-    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.2 sec."
+    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.1 sec."
   },
   "18531": {
     "name_enus": "Divine Fury",
     "icon": "spell_holy_sealofwrath",
     "rank_enus": "Rank 2",
-    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.3 sec."
+    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.2 sec."
   },
   "18533": {
     "name_enus": "Divine Fury",
     "icon": "spell_holy_sealofwrath",
     "rank_enus": "Rank 3",
-    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.4 sec."
+    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.3 sec."
   },
   "18534": {
     "name_enus": "Divine Fury",
     "icon": "spell_holy_sealofwrath",
     "rank_enus": "Rank 4",
-    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.5 sec."
+    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.4 sec."
   },
   "18535": {
     "name_enus": "Divine Fury",
     "icon": "spell_holy_sealofwrath",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.5 sec."
   },
   "18551": {
     "name_enus": "Mental Strength",
     "icon": "spell_nature_enchantarmor",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases your total Intellect by 3%."
   },
   "18552": {
     "name_enus": "Mental Strength",
     "icon": "spell_nature_enchantarmor",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your total Intellect by 6%."
   },
   "18553": {
     "name_enus": "Mental Strength",
     "icon": "spell_nature_enchantarmor",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your total Intellect by 9%."
   },
   "18554": {
     "name_enus": "Mental Strength",
     "icon": "spell_nature_enchantarmor",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases your total Intellect by 12%."
   },
   "18555": {
     "name_enus": "Mental Strength",
     "icon": "spell_nature_enchantarmor",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your total Intellect by 15%."
   },
   "18562": {
     "name_enus": "Swiftmend",
@@ -4533,79 +4525,79 @@ export const spells = {
     "name_enus": "Improved Healthstone",
     "icon": "inv_stone_04",
     "rank_enus": "Rank 1",
-    "description": "Increases the amount of Health restored by your Healthstone by 20%."
+    "description": "Increases the amount of Health restored by your Healthstone by 10%."
   },
   "18693": {
     "name_enus": "Improved Healthstone",
     "icon": "inv_stone_04",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the amount of Health restored by your Healthstone by 20%."
   },
   "18694": {
     "name_enus": "Improved Imp",
     "icon": "spell_shadow_summonimp",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 20%."
+    "description": "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 10%."
   },
   "18695": {
     "name_enus": "Improved Imp",
     "icon": "spell_shadow_summonimp",
     "rank_enus": "Rank 2",
-    "description": "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 30%."
+    "description": "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 20%."
   },
   "18696": {
     "name_enus": "Improved Imp",
     "icon": "spell_shadow_summonimp",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 30%."
   },
   "18697": {
     "name_enus": "Demonic Embrace",
     "icon": "spell_shadow_metamorphosis",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Stamina by 7%."
+    "description": "Increases your total Stamina by 4%."
   },
   "18698": {
     "name_enus": "Demonic Embrace",
     "icon": "spell_shadow_metamorphosis",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Stamina by 10%."
+    "description": "Increases your total Stamina by 7%."
   },
   "18699": {
     "name_enus": "Demonic Embrace",
     "icon": "spell_shadow_metamorphosis",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your total Stamina by 10%."
   },
   "18703": {
     "name_enus": "Improved Health Funnel",
     "icon": "spell_shadow_lifedrain",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the amount of Health transferred by your Health Funnel spell by 10% and reduces the health cost by 10%. In addition, your summoned Demon takes 15% less damage while under the effect of your Health Funnel."
   },
   "18704": {
     "name_enus": "Improved Health Funnel",
     "icon": "spell_shadow_lifedrain",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the amount of Health transferred by your Health Funnel spell by 20% and reduces the health cost by 20%. In addition, your summoned Demon takes 30% less damage while under the effect of your Health Funnel."
   },
   "18705": {
     "name_enus": "Demonic Brutality",
     "icon": "spell_shadow_summonvoidwalker",
     "rank_enus": "Rank 1",
-    "description": "Your Fade ability now has a 100% chance to remove all movement impairing effects when used while in Shadowform, and reduces casting or channeling time lost when damaged by 70% when casting any Shadow spell while in Shadowform."
+    "description": "Increases the effectiveness of your Voidwalker's Torment, Consume Shadows, Sacrifice and Suffering spells by 10%, and increases the attack power bonus on your Felguard's Demonic Frenzy effect by 1%."
   },
   "18706": {
     "name_enus": "Demonic Brutality",
     "icon": "spell_shadow_summonvoidwalker",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the effectiveness of your Voidwalker's Torment, Consume Shadows, Sacrifice and Suffering spells by 20%, and increases the attack power bonus on your Felguard's Demonic Frenzy effect by 2%."
   },
   "18707": {
     "name_enus": "Demonic Brutality",
     "icon": "spell_shadow_summonvoidwalker",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effectiveness of your Voidwalker's Torment, Consume Shadows, Sacrifice and Suffering spells by 30%, and increases the attack power bonus on your Felguard's Demonic Frenzy effect by 3%."
   },
   "18708": {
     "name_enus": "Fel Domination",
@@ -4617,103 +4609,100 @@ export const spells = {
     "name_enus": "Master Summoner",
     "icon": "spell_shadow_impphaseshift",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Reduces the casting time of your Imp, Voidwalker, Succubus, Felhunter and Fel Guard Summoning spells by 2 sec and the Mana cost by 20%."
   },
   "18710": {
     "name_enus": "Master Summoner",
     "icon": "spell_shadow_impphaseshift",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the casting time of your Imp, Voidwalker, Succubus, Felhunter and Fel Guard Summoning spells by 4 sec and the Mana cost by 40%."
   },
   "18731": {
     "name_enus": "Fel Vitality",
     "icon": "spell_holy_magicalsentry",
     "rank_enus": "Rank 1",
-    "description": "Increases the Stamina and Intellect of your Imp, Voidwalker, Succubus, Felhunter and Felguard by 10% and increases your maximum health and mana by 2%."
+    "description": "Increases the Stamina and Intellect of your Imp, Voidwalker, Succubus, Felhunter and Felguard by 5% and increases your maximum health and mana by 1%."
   },
   "18743": {
     "name_enus": "Fel Vitality",
     "icon": "spell_holy_magicalsentry",
     "rank_enus": "Rank 2",
-    "description": "Increases the Stamina and Intellect of your Imp, Voidwalker, Succubus, Felhunter and Felguard by 15% and increases your maximum health and mana by 3%."
+    "description": "Increases the Stamina and Intellect of your Imp, Voidwalker, Succubus, Felhunter and Felguard by 10% and increases your maximum health and mana by 2%."
   },
   "18744": {
     "name_enus": "Fel Vitality",
     "icon": "spell_holy_magicalsentry",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the Stamina and Intellect of your Imp, Voidwalker, Succubus, Felhunter and Felguard by 15% and increases your maximum health and mana by 3%."
   },
   "18754": {
     "name_enus": "Improved Sayaad",
     "icon": "spell_shadow_summonsuccubus",
-    "rank_enus": "Rank 1",
-    "description": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20.  Additionally, your special abilities cause 20% more damage against targets below 35% health."
+    "rank_enus": "Rank 1"
   },
   "18755": {
     "name_enus": "Improved Sayaad",
     "icon": "spell_shadow_summonsuccubus",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "18756": {
     "name_enus": "Improved Sayaad",
     "icon": "spell_shadow_summonsuccubus",
-    "rank_enus": "Rank 3",
-    "description": ""
+    "rank_enus": "Rank 3"
   },
   "18767": {
     "name_enus": "Master Conjuror",
     "icon": "inv_ammo_firetar",
     "rank_enus": "Rank 1",
-    "description": "Increases the combat ratings gained from your conjured Firestone and Spellstone by 300%."
+    "description": "Increases the combat ratings gained from your conjured Firestone and Spellstone by 150%."
   },
   "18768": {
     "name_enus": "Master Conjuror",
     "icon": "inv_ammo_firetar",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the combat ratings gained from your conjured Firestone and Spellstone by 300%."
   },
   "18769": {
     "name_enus": "Unholy Power",
     "icon": "spell_shadow_shadowworddominate",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the damage done by your Voidwalker, Succubus, Felhunter and Felguard's melee attacks and your Imp's Firebolt by 4%."
   },
   "18770": {
     "name_enus": "Unholy Power",
     "icon": "spell_shadow_shadowworddominate",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage done by your Voidwalker, Succubus, Felhunter and Felguard's melee attacks and your Imp's Firebolt by 8%."
   },
   "18771": {
     "name_enus": "Unholy Power",
     "icon": "spell_shadow_shadowworddominate",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Voidwalker, Succubus, Felhunter and Felguard's melee attacks and your Imp's Firebolt by 12%."
   },
   "18772": {
     "name_enus": "Unholy Power",
     "icon": "spell_shadow_shadowworddominate",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the damage done by your Voidwalker, Succubus, Felhunter and Felguard's melee attacks and your Imp's Firebolt by 16%."
   },
   "18773": {
     "name_enus": "Unholy Power",
     "icon": "spell_shadow_shadowworddominate",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Voidwalker, Succubus, Felhunter and Felguard's melee attacks and your Imp's Firebolt by 20%."
   },
   "18827": {
     "name_enus": "Improved Curse of Agony",
     "icon": "spell_shadow_curseofsargeras",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Curse of Agony by 10%."
+    "description": "Increases the damage done by your Curse of Agony by 5%."
   },
   "18829": {
     "name_enus": "Improved Curse of Agony",
     "icon": "spell_shadow_curseofsargeras",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage done by your Curse of Agony by 10%."
   },
   "19028": {
     "name_enus": "Soul Link",
@@ -4725,355 +4714,355 @@ export const spells = {
     "name_enus": "Savage Strikes",
     "icon": "ability_racial_bloodrage",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of Raptor Strike, Mongoose Bite and Counterattack by 20%."
+    "description": "Increases the critical strike chance of Raptor Strike, Mongoose Bite and Counterattack by 10%."
   },
   "19160": {
     "name_enus": "Savage Strikes",
     "icon": "ability_racial_bloodrage",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike chance of Raptor Strike, Mongoose Bite and Counterattack by 20%."
   },
   "19168": {
     "name_enus": "Lightning Reflexes",
     "icon": "spell_nature_invisibilty",
     "rank_enus": "Rank 1",
-    "description": "Increases your Agility by 6%."
+    "description": "Increases your Agility by 3%."
   },
   "19180": {
     "name_enus": "Lightning Reflexes",
     "icon": "spell_nature_invisibilty",
     "rank_enus": "Rank 2",
-    "description": "Increases your Agility by 9%."
+    "description": "Increases your Agility by 6%."
   },
   "19181": {
     "name_enus": "Lightning Reflexes",
     "icon": "spell_nature_invisibilty",
     "rank_enus": "Rank 3",
-    "description": "Increases your Agility by 12%."
+    "description": "Increases your Agility by 9%."
   },
   "19184": {
     "name_enus": "Entrapment",
     "icon": "spell_nature_stranglevines",
     "rank_enus": "Rank 1",
-    "description": "When your Frost Trap or Snake Trap are triggered you entrap all afflicted targets, preventing them from moving for 3 sec."
+    "description": "When your Frost Trap or Snake Trap are triggered you entrap all afflicted targets, preventing them from moving for 2 sec."
   },
   "19236": {
     "name_enus": "Desperate Prayer",
     "icon": "spell_holy_restoration",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Instantly heals the caster for 263 to 325."
   },
   "19255": {
     "name_enus": "Survivalist",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 1",
-    "description": "Your strength is increased by 4% and your Mind Freeze no longer costs runic power."
+    "description": "Increases your Stamina by 2%."
   },
   "19256": {
     "name_enus": "Survivalist",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your Stamina by 4%."
   },
   "19257": {
     "name_enus": "Survivalist",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your Stamina by 6%."
   },
   "19258": {
     "name_enus": "Survivalist",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases your Stamina by 8%."
   },
   "19259": {
     "name_enus": "Survivalist",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your Stamina by 10%."
   },
   "19286": {
     "name_enus": "Survival Tactics",
     "icon": "ability_rogue_feigndeath",
     "rank_enus": "Rank 1",
-    "description": "Reduces the chance your Feign Death ability and all trap spells will be resisted by 4%, and reduces the cooldown of your Disengage ability by 4 sec."
+    "description": "Reduces the chance your Feign Death ability and all trap spells will be resisted by 2%, and reduces the cooldown of your Disengage ability by 2 sec."
   },
   "19287": {
     "name_enus": "Survival Tactics",
     "icon": "ability_rogue_feigndeath",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the chance your Feign Death ability and all trap spells will be resisted by 4%, and reduces the cooldown of your Disengage ability by 4 sec."
   },
   "19290": {
     "name_enus": "Surefooted",
     "icon": "ability_kick",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of movement impairing effects by 20%."
+    "description": "Reduces the duration of movement impairing effects by 10%."
   },
   "19294": {
     "name_enus": "Surefooted",
     "icon": "ability_kick",
     "rank_enus": "Rank 2",
-    "description": "Reduces the duration of movement impairing effects by 30%."
+    "description": "Reduces the duration of movement impairing effects by 20%."
   },
   "19295": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Increases your chance to parry by 1%, and reduces the duration of all Disarm effects used against you by 16%.  This does not stack with other Disarm duration reducing effects."
   },
   "19297": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%.  This does not stack with other Disarm duration reducing effects."
   },
   "19298": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%.  This does not stack with other Disarm duration reducing effects."
   },
   "19306": {
     "name_enus": "Counterattack",
     "icon": "ability_warrior_challange",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "A strike that becomes active after parrying an opponent's attack.  This attack deals AP*0.2+48 damage and immobilizes the target for 5 sec.  Counterattack cannot be blocked, dodged, or parried."
   },
   "19370": {
     "name_enus": "Killer Instinct",
     "icon": "spell_holy_blessingofstamina",
     "rank_enus": "Rank 1",
-    "description": "Gives you 40% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 40 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 4%."
+    "description": "Increases your critical strike chance with all attacks by 1%."
   },
   "19371": {
     "name_enus": "Killer Instinct",
     "icon": "spell_holy_blessingofstamina",
     "rank_enus": "Rank 2",
-    "description": "Gives you 60% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 60 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 6%."
+    "description": "Increases your critical strike chance with all attacks by 2%."
   },
   "19373": {
     "name_enus": "Killer Instinct",
     "icon": "spell_holy_blessingofstamina",
     "rank_enus": "Rank 3",
-    "description": "Gives you 80% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form, and you keep up to 80 of your Energy when you shapeshift into Cat Form, and increases your total Intellect while in Moonkin form by 8%."
+    "description": "Increases your critical strike chance with all attacks by 3%."
   },
   "19376": {
     "name_enus": "Trap Mastery",
     "icon": "ability_ensnare",
     "rank_enus": "Rank 1",
-    "description": "Frost Trap and Freezing Trap - Increases the duration by 20%.<br /><br />Immolation Trap, Explosive Trap and Black Arrow - Increases the periodic damage done by 20%.<br /><br />Snake Trap - Increases the number of snakes summoned by 4."
+    "description": "Frost Trap and Freezing Trap - Increases the duration by 10%.<br /><br />Immolation Trap, Explosive Trap and Black Arrow - Increases the periodic damage done by 10%.<br /><br />Snake Trap - Increases the number of snakes summoned by 2."
   },
   "19386": {
     "name_enus": "Wyvern Sting",
     "icon": "inv_spear_02",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "A stinging shot that puts the target to sleep for 30 sec.  Any damage will cancel the effect.  When the target wakes up, the Sting causes 300 Nature damage over 6 sec.  Only one Sting per Hunter can be active on the target at a time."
   },
   "19387": {
     "name_enus": "Entrapment",
     "icon": "spell_nature_stranglevines",
     "rank_enus": "Rank 2",
-    "description": "When your Frost Trap or Snake Trap are triggered you entrap all afflicted targets, preventing them from moving for 4 sec."
+    "description": "When your Frost Trap or Snake Trap are triggered you entrap all afflicted targets, preventing them from moving for 3 sec."
   },
   "19388": {
     "name_enus": "Entrapment",
     "icon": "spell_nature_stranglevines",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When your Frost Trap or Snake Trap are triggered you entrap all afflicted targets, preventing them from moving for 4 sec."
   },
   "19407": {
     "name_enus": "Improved Concussive Shot",
     "icon": "spell_frost_stun",
     "rank_enus": "Rank 1",
-    "description": "Increases the duration of your Concussive Shot's daze effect by 2 sec."
+    "description": "Increases the duration of your Concussive Shot's daze effect by 1 sec."
   },
   "19412": {
     "name_enus": "Improved Concussive Shot",
     "icon": "spell_frost_stun",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the duration of your Concussive Shot's daze effect by 2 sec."
   },
   "19416": {
     "name_enus": "Efficiency",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 1",
-    "description": "Reduces the Mana cost of your Shots and Stings by 6%."
+    "description": "Reduces the Mana cost of your Shots and Stings by 3%."
   },
   "19417": {
     "name_enus": "Efficiency",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 2",
-    "description": "Reduces the Mana cost of your Shots and Stings by 9%."
+    "description": "Reduces the Mana cost of your Shots and Stings by 6%."
   },
   "19418": {
     "name_enus": "Efficiency",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 3",
-    "description": "Reduces the Mana cost of your Shots and Stings by 12%."
+    "description": "Reduces the Mana cost of your Shots and Stings by 9%."
   },
   "19419": {
     "name_enus": "Efficiency",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 4",
-    "description": "Reduces the Mana cost of your Shots and Stings by 15%."
+    "description": "Reduces the Mana cost of your Shots and Stings by 12%."
   },
   "19420": {
     "name_enus": "Efficiency",
     "icon": "spell_frost_wizardmark",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the Mana cost of your Shots and Stings by 15%."
   },
   "19421": {
     "name_enus": "Improved Hunter's Mark",
     "icon": "ability_hunter_snipershot",
     "rank_enus": "Rank 1",
-    "description": "Increases the bonus attack power granted by your Hunter's Mark ability by 20%, and reduces the mana cost of your Hunter's Mark ability by 66%."
+    "description": "Increases the bonus attack power granted by your Hunter's Mark ability by 10%, and reduces the mana cost of your Hunter's Mark ability by 33%."
   },
   "19422": {
     "name_enus": "Improved Hunter's Mark",
     "icon": "ability_hunter_snipershot",
     "rank_enus": "Rank 2",
-    "description": "Increases the bonus attack power granted by your Hunter's Mark ability by 30%, and reduces the mana cost of your Hunter's Mark ability by 100%."
+    "description": "Increases the bonus attack power granted by your Hunter's Mark ability by 20%, and reduces the mana cost of your Hunter's Mark ability by 66%."
   },
   "19423": {
     "name_enus": "Improved Hunter's Mark",
     "icon": "ability_hunter_snipershot",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the bonus attack power granted by your Hunter's Mark ability by 30%, and reduces the mana cost of your Hunter's Mark ability by 100%."
   },
   "19426": {
     "name_enus": "Lethal Shots",
     "icon": "ability_searingarrow",
     "rank_enus": "Rank 1",
-    "description": "Increases your critical strike chance with ranged weapons by 2%."
+    "description": "Increases your critical strike chance with ranged weapons by 1%."
   },
   "19427": {
     "name_enus": "Lethal Shots",
     "icon": "ability_searingarrow",
     "rank_enus": "Rank 2",
-    "description": "Increases your critical strike chance with ranged weapons by 3%."
+    "description": "Increases your critical strike chance with ranged weapons by 2%."
   },
   "19429": {
     "name_enus": "Lethal Shots",
     "icon": "ability_searingarrow",
     "rank_enus": "Rank 3",
-    "description": "Increases your critical strike chance with ranged weapons by 4%."
+    "description": "Increases your critical strike chance with ranged weapons by 3%."
   },
   "19430": {
     "name_enus": "Lethal Shots",
     "icon": "ability_searingarrow",
     "rank_enus": "Rank 4",
-    "description": "Increases your critical strike chance with ranged weapons by 5%."
+    "description": "Increases your critical strike chance with ranged weapons by 4%."
   },
   "19431": {
     "name_enus": "Lethal Shots",
     "icon": "ability_searingarrow",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your critical strike chance with ranged weapons by 5%."
   },
   "19434": {
     "name_enus": "Aimed Shot",
     "icon": "inv_spear_07",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "An aimed shot that increases ranged damage by 5 and reduces healing done to that target by 50%.  Lasts 10 sec."
   },
   "19454": {
     "name_enus": "Improved Arcane Shot",
     "icon": "ability_impalingbolt",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Arcane Shot by 10%."
+    "description": "Increases the damage done by your Arcane Shot by 5%."
   },
   "19455": {
     "name_enus": "Improved Arcane Shot",
     "icon": "ability_impalingbolt",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Arcane Shot by 15%."
+    "description": "Increases the damage done by your Arcane Shot by 10%."
   },
   "19456": {
     "name_enus": "Improved Arcane Shot",
     "icon": "ability_impalingbolt",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Arcane Shot by 15%."
   },
   "19461": {
     "name_enus": "Barrage",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 1",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 2% for the next 10 sec."
+    "description": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley spells by 4%."
   },
   "19462": {
     "name_enus": "Barrage",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 2",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 3% for the next 10 sec."
+    "description": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley spells by 8%."
   },
   "19464": {
     "name_enus": "Improved Stings",
     "icon": "ability_hunter_quickshot",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 20% and the mana drained by your Viper Sting by 20%.  In addition, reduces the chance your Sting damage over time effects will be dispelled by 20%."
+    "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 10% and the mana drained by your Viper Sting by 10%.  In addition, reduces the chance your Sting damage over time effects will be dispelled by 10%."
   },
   "19465": {
     "name_enus": "Improved Stings",
     "icon": "ability_hunter_quickshot",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 30% and the mana drained by your Viper Sting by 30%.  In addition, reduces the chance your Sting damage over time effects will be dispelled by 30%."
+    "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 20% and the mana drained by your Viper Sting by 20%.  In addition, reduces the chance your Sting damage over time effects will be dispelled by 20%."
   },
   "19466": {
     "name_enus": "Improved Stings",
     "icon": "ability_hunter_quickshot",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 30% and the mana drained by your Viper Sting by 30%.  In addition, reduces the chance your Sting damage over time effects will be dispelled by 30%."
   },
   "19485": {
     "name_enus": "Mortal Shots",
     "icon": "ability_piercedamage",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike damage bonus of your ranged abilities by 12%."
+    "description": "Increases the critical strike damage bonus of your ranged abilities by 6%."
   },
   "19487": {
     "name_enus": "Mortal Shots",
     "icon": "ability_piercedamage",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike damage bonus of your ranged abilities by 18%."
+    "description": "Increases the critical strike damage bonus of your ranged abilities by 12%."
   },
   "19488": {
     "name_enus": "Mortal Shots",
     "icon": "ability_piercedamage",
     "rank_enus": "Rank 3",
-    "description": "Increases the critical strike damage bonus of your ranged abilities by 24%."
+    "description": "Increases the critical strike damage bonus of your ranged abilities by 18%."
   },
   "19489": {
     "name_enus": "Mortal Shots",
     "icon": "ability_piercedamage",
     "rank_enus": "Rank 4",
-    "description": "Increases the critical strike damage bonus of your ranged abilities by 30%."
+    "description": "Increases the critical strike damage bonus of your ranged abilities by 24%."
   },
   "19490": {
     "name_enus": "Mortal Shots",
     "icon": "ability_piercedamage",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your ranged abilities by 30%."
   },
   "19498": {
     "name_enus": "Hawk Eye",
     "icon": "ability_townwatch",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your ranged weapons by 4 yards."
+    "description": "Increases the range of your ranged weapons by 2 yards."
   },
   "19499": {
     "name_enus": "Hawk Eye",
     "icon": "ability_townwatch",
     "rank_enus": "Rank 2",
-    "description": "Increases the range of your ranged weapons by 6 yards."
+    "description": "Increases the range of your ranged weapons by 4 yards."
   },
   "19500": {
     "name_enus": "Hawk Eye",
     "icon": "ability_townwatch",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the range of your ranged weapons by 6 yards."
   },
   "19503": {
     "name_enus": "Scatter Shot",
@@ -5095,91 +5084,91 @@ export const spells = {
     "name_enus": "Ranged Weapon Specialization",
     "icon": "inv_weapon_rifle_06",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage you deal with ranged weapons by 3%."
+    "description": "Increases the damage you deal with ranged weapons by 1%."
   },
   "19508": {
     "name_enus": "Ranged Weapon Specialization",
     "icon": "inv_weapon_rifle_06",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage you deal with ranged weapons by 5%."
+    "description": "Increases the damage you deal with ranged weapons by 3%."
   },
   "19509": {
     "name_enus": "Ranged Weapon Specialization",
     "icon": "inv_weapon_rifle_06",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage you deal with ranged weapons by 5%."
   },
   "19549": {
     "name_enus": "Improved Aspect of the Monkey",
     "icon": "ability_hunter_aspectofthemonkey",
     "rank_enus": "Rank 1",
-    "description": "Increases the Dodge bonus of your Aspect of the Monkey and Aspect of the Dragonhawk by 4%."
+    "description": "Increases the Dodge bonus of your Aspect of the Monkey and Aspect of the Dragonhawk by 2%."
   },
   "19550": {
     "name_enus": "Improved Aspect of the Monkey",
     "icon": "ability_hunter_aspectofthemonkey",
     "rank_enus": "Rank 2",
-    "description": "Increases the Dodge bonus of your Aspect of the Monkey and Aspect of the Dragonhawk by 6%."
+    "description": "Increases the Dodge bonus of your Aspect of the Monkey and Aspect of the Dragonhawk by 4%."
   },
   "19551": {
     "name_enus": "Improved Aspect of the Monkey",
     "icon": "ability_hunter_aspectofthemonkey",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the Dodge bonus of your Aspect of the Monkey and Aspect of the Dragonhawk by 6%."
   },
   "19552": {
     "name_enus": "Improved Aspect of the Hawk",
     "icon": "spell_nature_ravenform",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "While Aspect of the Hawk or Dragonhawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 3% for 12 sec."
   },
   "19553": {
     "name_enus": "Improved Aspect of the Hawk",
     "icon": "spell_nature_ravenform",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "While Aspect of the Hawk or Dragonhawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 6% for 12 sec."
   },
   "19554": {
     "name_enus": "Improved Aspect of the Hawk",
     "icon": "spell_nature_ravenform",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "While Aspect of the Hawk or Dragonhawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 9% for 12 sec."
   },
   "19555": {
     "name_enus": "Improved Aspect of the Hawk",
     "icon": "spell_nature_ravenform",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "While Aspect of the Hawk or Dragonhawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 12% for 12 sec."
   },
   "19556": {
     "name_enus": "Improved Aspect of the Hawk",
     "icon": "spell_nature_ravenform",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "While Aspect of the Hawk or Dragonhawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 15% for 12 sec."
   },
   "19559": {
     "name_enus": "Pathfinding",
     "icon": "ability_mount_jungletiger",
     "rank_enus": "Rank 1",
-    "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 8%, and increases your speed while mounted by 10%. The mounted movement speed increase does not stack with other effects."
+    "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 4%, and increases your speed while mounted by 5%. The mounted movement speed increase does not stack with other effects."
   },
   "19560": {
     "name_enus": "Pathfinding",
     "icon": "ability_mount_jungletiger",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 8%, and increases your speed while mounted by 10%. The mounted movement speed increase does not stack with other effects."
   },
   "19572": {
     "name_enus": "Improved Mend Pet",
     "icon": "ability_hunter_mendpet",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Mend Pet spell by 20% and gives the Mend Pet spell a 50% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick."
+    "description": "Reduces the mana cost of your Mend Pet spell by 10% and gives the Mend Pet spell a 25% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick."
   },
   "19573": {
     "name_enus": "Improved Mend Pet",
     "icon": "ability_hunter_mendpet",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the mana cost of your Mend Pet spell by 20% and gives the Mend Pet spell a 50% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick."
   },
   "19574": {
     "name_enus": "Bestial Wrath",
@@ -5191,7 +5180,7 @@ export const spells = {
     "name_enus": "Improved Revive Pet",
     "icon": "ability_hunter_beastsoothe",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Revive Pet's casting time is reduced by 6 sec, mana cost is reduced by 40%, and increases the health your pet returns with by an additional 30%."
   },
   "19577": {
     "name_enus": "Intimidation",
@@ -5203,223 +5192,220 @@ export const spells = {
     "name_enus": "Spirit Bond",
     "icon": "classic_ability_druid_demoralizingroar",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "While your pet is active, you and your pet will regenerate 1% of total health every 10 sec., and increases healing done to you and your pet by 5%."
   },
   "19583": {
     "name_enus": "Endurance Training",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 1",
-    "description": "When you are above 75% health, you deal 4% more damage.  In addition, your attacks ignore up to 4% of your opponent's armor at all times."
+    "description": "Increases the health of your pet by 2% and your total health by 1%."
   },
   "19584": {
     "name_enus": "Endurance Training",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 2",
-    "description": "When you are above 75% health, you deal 6% more damage.  In addition, your attacks ignore up to 6% of your opponent's armor at all times."
+    "description": "Increases the health of your pet by 4% and your total health by 2%."
   },
   "19585": {
     "name_enus": "Endurance Training",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 3",
-    "description": "When you are above 75% health, you deal 8% more damage.  In addition, your attacks ignore up to 8% of your opponent's armor at all times."
+    "description": "Increases the health of your pet by 6% and your total health by 3%."
   },
   "19586": {
     "name_enus": "Endurance Training",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 4",
-    "description": "When you are above 75% health, you deal 10% more damage.  In addition, your attacks ignore up to 10% of your opponent's armor at all times."
+    "description": "Increases the health of your pet by 8% and your total health by 4%."
   },
   "19587": {
     "name_enus": "Endurance Training",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the health of your pet by 10% and your total health by 5%."
   },
   "19590": {
     "name_enus": "Bestial Discipline",
     "icon": "spell_nature_abolishmagic",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.2 sec."
+    "description": "Increases the Focus regeneration of your pets by 50%."
   },
   "19592": {
     "name_enus": "Bestial Discipline",
     "icon": "spell_nature_abolishmagic",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cast time of your Wrath and Starfire spells by 0.3 sec."
+    "description": "Increases the Focus regeneration of your pets by 100%."
   },
   "19596": {
     "name_enus": "Boar's Speed",
     "icon": "ability_hunter_pet_boar",
-    "rank_enus": "",
-    "description": ""
+    "rank_enus": ""
   },
   "19598": {
     "name_enus": "Ferocity",
     "icon": "inv_misc_monsterclaw_04",
     "rank_enus": "Rank 1",
-    "description": "Increases your critical strike chance while in Bear, Dire Bear or Cat Form by 4%."
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 1 Rage or Energy."
   },
   "19599": {
     "name_enus": "Ferocity",
     "icon": "inv_misc_monsterclaw_04",
     "rank_enus": "Rank 2",
-    "description": "Increases your critical strike chance while in Bear, Dire Bear or Cat Form by 6%."
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 2 Rage or Energy."
   },
   "19600": {
     "name_enus": "Ferocity",
     "icon": "inv_misc_monsterclaw_04",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 3 Rage or Energy."
   },
   "19601": {
     "name_enus": "Ferocity",
     "icon": "inv_misc_monsterclaw_04",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 4 Rage or Energy."
   },
   "19602": {
     "name_enus": "Ferocity",
     "icon": "inv_misc_monsterclaw_04",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the cost of your Maul, Swipe, Claw, Rake and Mangle abilities by 5 Rage or Energy."
   },
   "19609": {
     "name_enus": "Thick Hide",
     "icon": "inv_misc_pelt_bear_03",
     "rank_enus": "Rank 1",
-    "description": "Increases your Armor contribution from cloth and leather items by 7%."
+    "description": "Increases your Armor contribution from cloth and leather items by 4%."
   },
   "19610": {
     "name_enus": "Thick Hide",
     "icon": "inv_misc_pelt_bear_03",
     "rank_enus": "Rank 2",
-    "description": "Increases your Armor contribution from cloth and leather items by 10%."
+    "description": "Increases your Armor contribution from cloth and leather items by 7%."
   },
   "19612": {
     "name_enus": "Thick Hide",
     "icon": "inv_misc_pelt_bear_03",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your Armor contribution from cloth and leather items by 10%."
   },
   "19616": {
     "name_enus": "Unleashed Fury",
     "icon": "ability_bullrush",
     "rank_enus": "Rank 1",
-    "description": "Increases your dodge while in Bear Form or Dire Bear Form by 4%, and you regenerate 2 rage every time you dodge while in Bear Form or Dire Bear Form."
+    "description": "Increases the damage done by your pets by 3%."
   },
   "19617": {
     "name_enus": "Unleashed Fury",
     "icon": "ability_bullrush",
     "rank_enus": "Rank 2",
-    "description": "Increases your dodge while in Bear Form or Dire Bear Form by 6%, and you regenerate 3 rage every time you dodge while in Bear Form or Dire Bear Form."
+    "description": "Increases the damage done by your pets by 6%."
   },
   "19618": {
     "name_enus": "Unleashed Fury",
     "icon": "ability_bullrush",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your pets by 9%."
   },
   "19619": {
     "name_enus": "Unleashed Fury",
     "icon": "ability_bullrush",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the damage done by your pets by 12%."
   },
   "19620": {
     "name_enus": "Unleashed Fury",
     "icon": "ability_bullrush",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your pets by 15%."
   },
   "19621": {
     "name_enus": "Frenzy",
     "icon": "inv_misc_monsterclaw_03",
     "rank_enus": "Rank 1",
-    "description": "Gives your pet a 40% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
+    "description": "Gives your pet a 20% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
   },
   "19622": {
     "name_enus": "Frenzy",
     "icon": "inv_misc_monsterclaw_03",
     "rank_enus": "Rank 2",
-    "description": "Gives your pet a 60% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
+    "description": "Gives your pet a 40% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
   },
   "19623": {
     "name_enus": "Frenzy",
     "icon": "inv_misc_monsterclaw_03",
     "rank_enus": "Rank 3",
-    "description": "Gives your pet a 80% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
+    "description": "Gives your pet a 60% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
   },
   "19624": {
     "name_enus": "Frenzy",
     "icon": "inv_misc_monsterclaw_03",
     "rank_enus": "Rank 4",
-    "description": "Gives your pet a 100% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
+    "description": "Gives your pet a 80% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
   },
   "19625": {
     "name_enus": "Frenzy",
     "icon": "inv_misc_monsterclaw_03",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives your pet a 100% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
   },
   "20042": {
     "name_enus": "Improved Blessing of Might",
     "icon": "spell_holy_fistofjustice",
     "rank_enus": "Rank 1",
-    "description": "Increases the attack power bonus of your Blessing of Might by 25%."
+    "description": "Increases the attack power bonus of your Blessing of Might by 12%."
   },
   "20045": {
     "name_enus": "Improved Blessing of Might",
     "icon": "spell_holy_fistofjustice",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the attack power bonus of your Blessing of Might by 25%."
   },
   "20049": {
     "name_enus": "Vengeance",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 2% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 20%."
   },
   "20056": {
     "name_enus": "Vengeance",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 3% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 40%."
   },
   "20057": {
     "name_enus": "Vengeance",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Starfire, Starfall, Moonfire, and Wrath spells by 60%."
   },
   "20060": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Increases your chance to parry by 1%, and reduces the duration of all Disarm effects used against you by 16%.  This does not stack with other Disarm duration reducing effects."
   },
   "20061": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%.  This does not stack with other Disarm duration reducing effects."
   },
   "20062": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%.  This does not stack with other Disarm duration reducing effects."
   },
   "20063": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
-    "rank_enus": "Rank 4",
-    "description": ""
+    "rank_enus": "Rank 4"
   },
   "20064": {
     "name_enus": "Deflection",
     "icon": "ability_parry",
-    "rank_enus": "Rank 5",
-    "description": ""
+    "rank_enus": "Rank 5"
   },
   "20066": {
     "name_enus": "Repentance",
@@ -5431,295 +5417,294 @@ export const spells = {
     "name_enus": "Anticipation",
     "icon": "spell_magic_lesserinvisibilty",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to dodge by 2%."
+    "description": "Increases your Dodge chance by 1%."
   },
   "20097": {
     "name_enus": "Anticipation",
     "icon": "spell_magic_lesserinvisibilty",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to dodge by 3%."
+    "description": "Increases your Dodge chance by 2%."
   },
   "20098": {
     "name_enus": "Anticipation",
     "icon": "spell_magic_lesserinvisibilty",
     "rank_enus": "Rank 3",
-    "description": "Increases your chance to dodge by 4%."
+    "description": "Increases your Dodge chance by 3%."
   },
   "20099": {
     "name_enus": "Anticipation",
     "icon": "spell_magic_lesserinvisibilty",
     "rank_enus": "Rank 4",
-    "description": "Increases your chance to dodge by 5%."
+    "description": "Increases your Dodge chance by 4%."
   },
   "20100": {
     "name_enus": "Anticipation",
     "icon": "spell_magic_lesserinvisibilty",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your Dodge chance by 5%."
   },
   "20101": {
     "name_enus": "Benediction",
     "icon": "spell_frost_windwalkon",
     "rank_enus": "Rank 1",
-    "description": "Allows 33% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 7 rage."
+    "description": "Reduces the mana cost of all instant cast spells by 2%."
   },
   "20102": {
     "name_enus": "Benediction",
     "icon": "spell_frost_windwalkon",
     "rank_enus": "Rank 2",
-    "description": "Allows 50% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 10 rage."
+    "description": "Reduces the mana cost of all instant cast spells by 4%."
   },
   "20103": {
     "name_enus": "Benediction",
     "icon": "spell_frost_windwalkon",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of all instant cast spells by 6%."
   },
   "20104": {
     "name_enus": "Benediction",
     "icon": "spell_frost_windwalkon",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Reduces the mana cost of all instant cast spells by 8%."
   },
   "20105": {
     "name_enus": "Benediction",
     "icon": "spell_frost_windwalkon",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the mana cost of all instant cast spells by 10%."
   },
   "20111": {
     "name_enus": "Two-Handed Weapon Specialization",
     "icon": "inv_hammer_04",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage you deal with two-handed melee weapons by 4%."
+    "description": "Increases the damage you deal with two-handed melee weapons by 2%."
   },
   "20112": {
     "name_enus": "Two-Handed Weapon Specialization",
     "icon": "inv_hammer_04",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage you deal with two-handed melee weapons by 6%."
+    "description": "Increases the damage you deal with two-handed melee weapons by 4%."
   },
   "20113": {
     "name_enus": "Two-Handed Weapon Specialization",
     "icon": "inv_hammer_04",
-    "rank_enus": "Rank 3",
-    "description": ""
+    "rank_enus": "Rank 3"
   },
   "20117": {
     "name_enus": "Conviction",
     "icon": "spell_holy_retributionaura",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to get a critical strike with all spells and attacks by 2%."
+    "description": "Increases your chance to get a critical strike with all spells and attacks by 1%."
   },
   "20118": {
     "name_enus": "Conviction",
     "icon": "spell_holy_retributionaura",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to get a critical strike with all spells and attacks by 3%."
+    "description": "Increases your chance to get a critical strike with all spells and attacks by 2%."
   },
   "20119": {
     "name_enus": "Conviction",
     "icon": "spell_holy_retributionaura",
     "rank_enus": "Rank 3",
-    "description": "Increases your chance to get a critical strike with all spells and attacks by 4%."
+    "description": "Increases your chance to get a critical strike with all spells and attacks by 3%."
   },
   "20120": {
     "name_enus": "Conviction",
     "icon": "spell_holy_retributionaura",
     "rank_enus": "Rank 4",
-    "description": "Increases your chance to get a critical strike with all spells and attacks by 5%."
+    "description": "Increases your chance to get a critical strike with all spells and attacks by 4%."
   },
   "20121": {
     "name_enus": "Conviction",
     "icon": "spell_holy_retributionaura",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your chance to get a critical strike with all spells and attacks by 5%."
   },
   "20127": {
     "name_enus": "Redoubt",
     "icon": "ability_defend",
     "rank_enus": "Rank 1",
-    "description": "Increases your block value by 20% and damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 20%.  Lasts 10 sec or 5 blocks."
+    "description": "Increases your block value by 10% and damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 10%.  Lasts 10 sec or 5 blocks."
   },
   "20130": {
     "name_enus": "Redoubt",
     "icon": "ability_defend",
     "rank_enus": "Rank 2",
-    "description": "Increases your block value by 30% and damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 30%.  Lasts 10 sec or 5 blocks."
+    "description": "Increases your block value by 20% and damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 20%.  Lasts 10 sec or 5 blocks."
   },
   "20135": {
     "name_enus": "Redoubt",
     "icon": "ability_defend",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your block value by 30% and damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 30%.  Lasts 10 sec or 5 blocks."
   },
   "20138": {
     "name_enus": "Improved Devotion Aura",
     "icon": "spell_holy_devotionaura",
     "rank_enus": "Rank 1",
-    "description": "Increases the armor bonus of your Devotion Aura by 34% and increases the amount healed on any target affected by any of your Auras by 4%."
+    "description": "Increases the armor bonus of your Devotion Aura by 17% and increases the amount healed on any target affected by any of your Auras by 2%."
   },
   "20139": {
     "name_enus": "Improved Devotion Aura",
     "icon": "spell_holy_devotionaura",
     "rank_enus": "Rank 2",
-    "description": "Increases the armor bonus of your Devotion Aura by 50% and increases the amount healed on any target affected by any of your Auras by 6%."
+    "description": "Increases the armor bonus of your Devotion Aura by 34% and increases the amount healed on any target affected by any of your Auras by 4%."
   },
   "20140": {
     "name_enus": "Improved Devotion Aura",
     "icon": "spell_holy_devotionaura",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the armor bonus of your Devotion Aura by 50% and increases the amount healed on any target affected by any of your Auras by 6%."
   },
   "20143": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 1",
-    "description": "Increases your armor value from items by 4% and reduces the duration of all movement slowing effects by 12%."
+    "description": "Increases your armor value from items by 2% and reduces the duration of all movement slowing effects by 6%."
   },
   "20144": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 2",
-    "description": "Increases your armor value from items by 6% and reduces the duration of all movement slowing effects by 18%."
+    "description": "Increases your armor value from items by 4% and reduces the duration of all movement slowing effects by 12%."
   },
   "20145": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 3",
-    "description": "Increases your armor value from items by 8% and reduces the duration of all movement slowing effects by 24%."
+    "description": "Increases your armor value from items by 6% and reduces the duration of all movement slowing effects by 18%."
   },
   "20146": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 4",
-    "description": "Increases your armor value from items by 10% and reduces the duration of all movement slowing effects by 30%."
+    "description": "Increases your armor value from items by 8% and reduces the duration of all movement slowing effects by 24%."
   },
   "20147": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your armor value from items by 10% and reduces the duration of all movement slowing effects by 30%."
   },
   "20174": {
     "name_enus": "Guardian's Favor",
     "icon": "spell_holy_sealofprotection",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Hand of Protection by 2 min and increases the duration of your Hand of Freedom by 4 sec."
+    "description": "Reduces the cooldown of your Hand of Protection by 60 sec and increases the duration of your Hand of Freedom by 2 sec."
   },
   "20175": {
     "name_enus": "Guardian's Favor",
     "icon": "spell_holy_sealofprotection",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Hand of Protection by 2 min and increases the duration of your Hand of Freedom by 4 sec."
   },
   "20177": {
     "name_enus": "Reckoning",
     "icon": "spell_holy_blessingofstrength",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 4% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
+    "description": "Gives you a 2% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
   },
   "20179": {
     "name_enus": "Reckoning",
     "icon": "spell_holy_blessingofstrength",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 6% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
+    "description": "Gives you a 4% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
   },
   "20180": {
     "name_enus": "Reckoning",
     "icon": "spell_holy_blessingofstrength",
     "rank_enus": "Rank 4",
-    "description": "Gives you a 10% chance after blocking or being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
+    "description": "Gives you a 8% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
   },
   "20181": {
     "name_enus": "Reckoning",
     "icon": "spell_holy_blessingofstrength",
     "rank_enus": "Rank 3",
-    "description": "Gives you a 8% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
+    "description": "Gives you a 6% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
   },
   "20182": {
     "name_enus": "Reckoning",
     "icon": "spell_holy_blessingofstrength",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives you a 10% chance after blocking or being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
   },
   "20196": {
     "name_enus": "One-Handed Weapon Specialization",
     "icon": "inv_sword_20",
     "rank_enus": "Rank 1",
-    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 7%."
+    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 4%."
   },
   "20197": {
     "name_enus": "One-Handed Weapon Specialization",
     "icon": "inv_sword_20",
     "rank_enus": "Rank 2",
-    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 10%."
+    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 7%."
   },
   "20198": {
     "name_enus": "One-Handed Weapon Specialization",
     "icon": "inv_sword_20",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 10%."
   },
   "20205": {
     "name_enus": "Spiritual Focus",
     "icon": "spell_arcane_blink",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of Blink by 50% and for 4 sec after casting your chance to be hit by all attacks and spells is reduced by 30%."
+    "description": "Reduces the pushback suffered from damaging attacks while casting Flash of Light and Holy Light by 14%."
   },
   "20206": {
     "name_enus": "Spiritual Focus",
     "icon": "spell_arcane_blink",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Flash of Light and Holy Light by 28%."
   },
   "20207": {
     "name_enus": "Spiritual Focus",
     "icon": "spell_arcane_blink",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Flash of Light and Holy Light by 42%."
   },
   "20208": {
     "name_enus": "Spiritual Focus",
     "icon": "spell_arcane_blink",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Flash of Light and Holy Light by 70%."
   },
   "20209": {
     "name_enus": "Spiritual Focus",
     "icon": "spell_arcane_blink",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Flash of Light and Holy Light by 56%."
   },
   "20210": {
     "name_enus": "Illumination",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 1",
-    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 40% chance to gain mana equal to 30% of the base cost of the spell."
+    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 20% chance to gain mana equal to 30% of the base cost of the spell."
   },
   "20212": {
     "name_enus": "Illumination",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 2",
-    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 60% chance to gain mana equal to 30% of the base cost of the spell."
+    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 40% chance to gain mana equal to 30% of the base cost of the spell."
   },
   "20213": {
     "name_enus": "Illumination",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 3",
-    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 80% chance to gain mana equal to 30% of the base cost of the spell."
+    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 60% chance to gain mana equal to 30% of the base cost of the spell."
   },
   "20214": {
     "name_enus": "Illumination",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 4",
-    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 100% chance to gain mana equal to 30% of the base cost of the spell."
+    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 80% chance to gain mana equal to 30% of the base cost of the spell."
   },
   "20215": {
     "name_enus": "Illumination",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 100% chance to gain mana equal to 30% of the base cost of the spell."
   },
   "20216": {
     "name_enus": "Divine Favor",
@@ -5731,193 +5716,193 @@ export const spells = {
     "name_enus": "Seals of the Pure",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 6%."
+    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 3%."
   },
   "20225": {
     "name_enus": "Seals of the Pure",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 9%."
+    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 6%."
   },
   "20234": {
     "name_enus": "Improved Lay on Hands",
     "icon": "spell_holy_layonhands",
     "rank_enus": "Rank 1",
-    "description": "Grants the target of your Lay on Hands spell 20% reduced physical damage taken for 15 sec.  In addition, the cooldown for your Lay on Hands spell is reduced by 4 min."
+    "description": "Grants the target of your Lay on Hands spell 10% reduced physical damage taken for 15 sec.  In addition, the cooldown for your Lay on Hands spell is reduced by 2 min."
   },
   "20235": {
     "name_enus": "Improved Lay on Hands",
     "icon": "spell_holy_layonhands",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Grants the target of your Lay on Hands spell 20% reduced physical damage taken for 15 sec.  In addition, the cooldown for your Lay on Hands spell is reduced by 4 min."
   },
   "20237": {
     "name_enus": "Healing Light",
     "icon": "spell_holy_holybolt",
     "rank_enus": "Rank 1",
-    "description": "Increases the amount healed by your Holy Light, Flash of Light and the effectiveness of Holy Shock spells by 8%."
+    "description": "Increases the amount healed by your Holy Light, Flash of Light and the effectiveness of Holy Shock spells by 4%."
   },
   "20238": {
     "name_enus": "Healing Light",
     "icon": "spell_holy_holybolt",
     "rank_enus": "Rank 2",
-    "description": "Increases the amount healed by your Holy Light, Flash of Light and the effectiveness of Holy Shock spells by 12%."
+    "description": "Increases the amount healed by your Holy Light, Flash of Light and the effectiveness of Holy Shock spells by 8%."
   },
   "20239": {
     "name_enus": "Healing Light",
     "icon": "spell_holy_holybolt",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the amount healed by your Holy Light, Flash of Light and the effectiveness of Holy Shock spells by 12%."
   },
   "20243": {
     "name_enus": "Devastate",
     "icon": "inv_sword_11",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Sunder the target's armor causing the Sunder Armor effect.  In addition, causes 120% of weapon damage plus 58 for each application of Sunder Armor on the target.  The Sunder Armor effect can stack up to 5 times."
   },
   "20244": {
     "name_enus": "Improved Blessing of Wisdom",
     "icon": "spell_holy_sealofwisdom",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect of your Blessing of Wisdom spell by 20%."
+    "description": "Increases the effect of your Blessing of Wisdom spell by 10%."
   },
   "20245": {
     "name_enus": "Improved Blessing of Wisdom",
     "icon": "spell_holy_sealofwisdom",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the effect of your Blessing of Wisdom spell by 20%."
   },
   "20254": {
     "name_enus": "Improved Concentration Aura",
     "icon": "spell_holy_mindsooth",
     "rank_enus": "Rank 1",
-    "description": "Increases the effect of your Concentration Aura by an additional 10% and while any Aura is active reduces the duration of any Silence or Interrupt effect used against an affected group member by 20%.  The duration reduction does not stack with any other effects."
+    "description": "Increases the effect of your Concentration Aura by an additional 5% and while any Aura is active reduces the duration of any Silence or Interrupt effect used against an affected group member by 10%.  The duration reduction does not stack with any other effects."
   },
   "20255": {
     "name_enus": "Improved Concentration Aura",
     "icon": "spell_holy_mindsooth",
     "rank_enus": "Rank 2",
-    "description": "Increases the effect of your Concentration Aura by an additional 15% and while any Aura is active reduces the duration of any Silence or Interrupt effect used against an affected group member by 30%.  The duration reduction does not stack with any other effects."
+    "description": "Increases the effect of your Concentration Aura by an additional 10% and while any Aura is active reduces the duration of any Silence or Interrupt effect used against an affected group member by 20%.  The duration reduction does not stack with any other effects."
   },
   "20256": {
     "name_enus": "Improved Concentration Aura",
     "icon": "spell_holy_mindsooth",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effect of your Concentration Aura by an additional 15% and while any Aura is active reduces the duration of any Silence or Interrupt effect used against an affected group member by 30%.  The duration reduction does not stack with any other effects."
   },
   "20257": {
     "name_enus": "Divine Intellect",
     "icon": "spell_nature_sleep",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Intellect by 4%."
+    "description": "Increases your total Intellect by 2%."
   },
   "20258": {
     "name_enus": "Divine Intellect",
     "icon": "spell_nature_sleep",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Intellect by 6%."
+    "description": "Increases your total Intellect by 4%."
   },
   "20259": {
     "name_enus": "Divine Intellect",
     "icon": "spell_nature_sleep",
     "rank_enus": "Rank 3",
-    "description": "Increases your total Intellect by 8%."
+    "description": "Increases your total Intellect by 6%."
   },
   "20260": {
     "name_enus": "Divine Intellect",
     "icon": "spell_nature_sleep",
     "rank_enus": "Rank 4",
-    "description": "Increases your total Intellect by 10%."
+    "description": "Increases your total Intellect by 8%."
   },
   "20261": {
     "name_enus": "Divine Intellect",
     "icon": "spell_nature_sleep",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your total Intellect by 10%."
   },
   "20262": {
     "name_enus": "Divine Strength",
     "icon": "ability_golemthunderclap",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Strength by 6%."
+    "description": "Increases your total Strength by 3%."
   },
   "20263": {
     "name_enus": "Divine Strength",
     "icon": "ability_golemthunderclap",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Strength by 9%."
+    "description": "Increases your total Strength by 6%."
   },
   "20264": {
     "name_enus": "Divine Strength",
     "icon": "ability_golemthunderclap",
     "rank_enus": "Rank 3",
-    "description": "Increases your total Strength by 12%."
+    "description": "Increases your total Strength by 9%."
   },
   "20265": {
     "name_enus": "Divine Strength",
     "icon": "ability_golemthunderclap",
     "rank_enus": "Rank 4",
-    "description": "Increases your total Strength by 15%."
+    "description": "Increases your total Strength by 12%."
   },
   "20266": {
     "name_enus": "Divine Strength",
     "icon": "ability_golemthunderclap",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your total Strength by 15%."
   },
   "20330": {
     "name_enus": "Seals of the Pure",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 12%."
+    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 9%."
   },
   "20331": {
     "name_enus": "Seals of the Pure",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 15%."
+    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 12%."
   },
   "20332": {
     "name_enus": "Seals of the Pure",
     "icon": "ability_thunderbolt",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Seal of Righteousness, Seal of Vengeance and Seal of Corruption and their Judgement effects by 15%."
   },
   "20335": {
     "name_enus": "Heart of the Crusader",
     "icon": "spell_holy_holysmite",
     "rank_enus": "Rank 1",
-    "description": "In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional 2%."
+    "description": "In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional 1%."
   },
   "20336": {
     "name_enus": "Heart of the Crusader",
     "icon": "spell_holy_holysmite",
     "rank_enus": "Rank 2",
-    "description": "In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional 3%."
+    "description": "In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional 2%."
   },
   "20337": {
     "name_enus": "Heart of the Crusader",
     "icon": "spell_holy_holysmite",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional 3%."
   },
   "20359": {
     "name_enus": "Sanctified Light",
     "icon": "spell_holy_healingaura",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical effect chance of your Holy Light and Holy Shock spells by 4%."
+    "description": "Increases the critical effect chance of your Holy Light and Holy Shock spells by 2%."
   },
   "20360": {
     "name_enus": "Sanctified Light",
     "icon": "spell_holy_healingaura",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical effect chance of your Holy Light and Holy Shock spells by 6%."
+    "description": "Increases the critical effect chance of your Holy Light and Holy Shock spells by 4%."
   },
   "20361": {
     "name_enus": "Sanctified Light",
     "icon": "spell_holy_healingaura",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical effect chance of your Holy Light and Holy Shock spells by 6%."
   },
   "20375": {
     "name_enus": "Seal of Command",
@@ -5929,79 +5914,79 @@ export const spells = {
     "name_enus": "Improved Righteous Fury",
     "icon": "spell_holy_sealoffury",
     "rank_enus": "Rank 1",
-    "description": "While Righteous Fury is active, all damage taken is reduced by 4%."
+    "description": "While Righteous Fury is active, all damage taken is reduced by 2%."
   },
   "20469": {
     "name_enus": "Improved Righteous Fury",
     "icon": "spell_holy_sealoffury",
     "rank_enus": "Rank 2",
-    "description": "While Righteous Fury is active, all damage taken is reduced by 6%."
+    "description": "While Righteous Fury is active, all damage taken is reduced by 4%."
   },
   "20470": {
     "name_enus": "Improved Righteous Fury",
     "icon": "spell_holy_sealoffury",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "While Righteous Fury is active, all damage taken is reduced by 6%."
   },
   "20473": {
     "name_enus": "Holy Shock",
     "icon": "spell_holy_searinglight",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Blasts the target with Holy energy, causing 314 to 340 Holy damage to an enemy, or 481 to 519 healing to an ally."
   },
   "20487": {
     "name_enus": "Improved Hammer of Justice",
     "icon": "spell_holy_sealofmight",
     "rank_enus": "Rank 1",
-    "description": "Decreases the cooldown of your Hammer of Justice spell by 20 sec."
+    "description": "Decreases the cooldown of your Hammer of Justice spell by 10 sec."
   },
   "20488": {
     "name_enus": "Improved Hammer of Justice",
     "icon": "spell_holy_sealofmight",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Decreases the cooldown of your Hammer of Justice spell by 20 sec."
   },
   "20496": {
     "name_enus": "Improved Cleave",
     "icon": "ability_warrior_cleave",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the bonus damage done by your Cleave ability by 120%."
   },
   "20500": {
     "name_enus": "Improved Berserker Rage",
     "icon": "spell_nature_ancestralguardian",
     "rank_enus": "Rank 1",
-    "description": "The Berserker Rage ability will generate 20 rage when used."
+    "description": "The Berserker Rage ability will generate 10 rage when used."
   },
   "20501": {
     "name_enus": "Improved Berserker Rage",
     "icon": "spell_nature_ancestralguardian",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "The Berserker Rage ability will generate 20 rage when used."
   },
   "20502": {
     "name_enus": "Improved Execute",
     "icon": "inv_sword_48",
     "rank_enus": "Rank 1",
-    "description": "Reduces the rage cost of your Execute ability by 5."
+    "description": "Reduces the rage cost of your Execute ability by 2."
   },
   "20503": {
     "name_enus": "Improved Execute",
     "icon": "inv_sword_48",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the rage cost of your Execute ability by 5."
   },
   "20504": {
     "name_enus": "Weapon Mastery",
     "icon": "ability_warrior_weaponmastery",
     "rank_enus": "Rank 1",
-    "description": "Reduces the chance for your attacks to be dodged by 2% and reduces the duration of all Disarm effects used against you by 50%.  This does not stack with other Disarm duration reducing effects."
+    "description": "Increases the damage you deal with all weapons by 4%."
   },
   "20505": {
     "name_enus": "Weapon Mastery",
     "icon": "ability_warrior_weaponmastery",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage you deal with all weapons by 7%."
   },
   "20711": {
     "name_enus": "Spirit of Redemption",
@@ -6013,7 +5998,7 @@ export const spells = {
     "name_enus": "Spirit Bond",
     "icon": "classic_ability_druid_demoralizingroar",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "While your pet is active, you and your pet will regenerate 2% of total health every 10 sec., and increases healing done to you and your pet by 10%."
   },
   "20911": {
     "name_enus": "Blessing of Sanctuary",
@@ -6025,49 +6010,48 @@ export const spells = {
     "name_enus": "Holy Shield",
     "icon": "classic_spell_holy_blessingofprotection",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases chance to block by 30% for 10 sec and deals 79 Holy damage for each attack blocked while active.  Each block expends a charge.  8 charges."
   },
   "23145": {
     "name_enus": "Dive",
     "icon": "spell_shadow_burningspirit",
-    "rank_enus": "",
-    "description": "Increases your chance to hit with your spells by 1% and reduces the chance that your damage over time diseases can be cured by 10%."
+    "rank_enus": ""
   },
   "23584": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with one-handed melee weapons by 2% and increases the damage done by your offhand weapon by 16%."
+    "description": "Increases the damage done by your offhand weapon by 10%."
   },
   "23585": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to hit with one-handed melee weapons by 3% and increases the damage done by your offhand weapon by 25%."
+    "description": "Increases the damage done by your offhand weapon by 20%."
   },
   "23586": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your offhand weapon by 30%."
   },
   "23587": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the damage done by your offhand weapon by 40%."
   },
   "23588": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your offhand weapon by 50%."
   },
   "23695": {
     "name_enus": "Improved Hamstring",
     "icon": "ability_shockwave",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives your Hamstring ability a 15% chance to immobilize the target for 5 sec."
   },
   "23785": {
     "name_enus": "Master Demonologist",
@@ -6103,7 +6087,7 @@ export const spells = {
     "name_enus": "Bloodthirst",
     "icon": "spell_nature_bloodlust",
     "rank_enus": "",
-    "description": "Increases your Attack Power by 33% of your Intellect."
+    "description": "Instantly attack the target causing AP*50/100 damage.  In addition, the next 3 successful melee attacks will restore 1% of max health.  This effect lasts 8 sec.  Damage is based on your attack power."
   },
   "23989": {
     "name_enus": "Readiness",
@@ -6115,31 +6099,31 @@ export const spells = {
     "name_enus": "Surefooted",
     "icon": "ability_kick",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the duration of movement impairing effects by 30%."
   },
   "24296": {
     "name_enus": "Lightning Reflexes",
     "icon": "spell_nature_invisibilty",
     "rank_enus": "Rank 4",
-    "description": "Increases your Agility by 15%."
+    "description": "Increases your Agility by 12%."
   },
   "24297": {
     "name_enus": "Lightning Reflexes",
     "icon": "spell_nature_invisibilty",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your Agility by 15%."
   },
   "24443": {
     "name_enus": "Improved Revive Pet",
     "icon": "ability_hunter_beastsoothe",
     "rank_enus": "Rank 1",
-    "description": "Revive Pet's casting time is reduced by 6 sec, mana cost is reduced by 40%, and increases the health your pet returns with by an additional 30%."
+    "description": "Revive Pet's casting time is reduced by 3 sec, mana cost is reduced by 20%, and increases the health your pet returns with by an additional 15%."
   },
   "24691": {
     "name_enus": "Barrage",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 3",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 4% for the next 10 sec."
+    "description": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley spells by 12%."
   },
   "24858": {
     "name_enus": "Moonkin Form",
@@ -6157,457 +6141,457 @@ export const spells = {
     "name_enus": "Heart of the Wild",
     "icon": "spell_holy_blessingofagility",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your Intellect by 20%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 10% and while in Cat Form your attack power is increased by 10%."
   },
   "24943": {
     "name_enus": "Gift of Nature",
     "icon": "spell_nature_protectionformnature",
     "rank_enus": "Rank 2",
-    "description": "Increases the effect of all healing spells by 6%."
+    "description": "Increases the effect of all healing spells by 4%."
   },
   "24944": {
     "name_enus": "Gift of Nature",
     "icon": "spell_nature_protectionformnature",
     "rank_enus": "Rank 3",
-    "description": "Increases the effect of all healing spells by 8%."
+    "description": "Increases the effect of all healing spells by 6%."
   },
   "24945": {
     "name_enus": "Gift of Nature",
     "icon": "spell_nature_protectionformnature",
     "rank_enus": "Rank 4",
-    "description": "Increases the effect of all healing spells by 10%."
+    "description": "Increases the effect of all healing spells by 8%."
   },
   "24946": {
     "name_enus": "Gift of Nature",
     "icon": "spell_nature_protectionformnature",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the effect of all healing spells by 10%."
   },
   "24968": {
     "name_enus": "Tranquil Spirit",
     "icon": "spell_holy_elunesgrace",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Healing Touch, Nourish and Tranquility spells by 4%."
+    "description": "Reduces the mana cost of your Healing Touch, Nourish and Tranquility spells by 2%."
   },
   "24969": {
     "name_enus": "Tranquil Spirit",
     "icon": "spell_holy_elunesgrace",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of your Healing Touch, Nourish and Tranquility spells by 6%."
+    "description": "Reduces the mana cost of your Healing Touch, Nourish and Tranquility spells by 4%."
   },
   "24970": {
     "name_enus": "Tranquil Spirit",
     "icon": "spell_holy_elunesgrace",
     "rank_enus": "Rank 3",
-    "description": "Reduces the mana cost of your Healing Touch, Nourish and Tranquility spells by 8%."
+    "description": "Reduces the mana cost of your Healing Touch, Nourish and Tranquility spells by 6%."
   },
   "24971": {
     "name_enus": "Tranquil Spirit",
     "icon": "spell_holy_elunesgrace",
     "rank_enus": "Rank 4",
-    "description": "Reduces the mana cost of your Healing Touch, Nourish and Tranquility spells by 10%."
+    "description": "Reduces the mana cost of your Healing Touch, Nourish and Tranquility spells by 8%."
   },
   "24972": {
     "name_enus": "Tranquil Spirit",
     "icon": "spell_holy_elunesgrace",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the mana cost of your Healing Touch, Nourish and Tranquility spells by 10%."
   },
   "25829": {
     "name_enus": "Holy Power",
     "icon": "spell_holy_power",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the critical effect chance of your Holy spells by 5%."
   },
   "25836": {
     "name_enus": "Unyielding Faith",
     "icon": "spell_holy_unyieldingfaith",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the duration of all Fear and Disorient effects by 30%."
   },
   "25956": {
     "name_enus": "Improved Judgements",
     "icon": "spell_holy_righteousfury",
     "rank_enus": "Rank 1",
-    "description": "Decreases the cooldown of your Judgement spells by 2 sec."
+    "description": "Decreases the cooldown of your Judgement spells by 1 sec."
   },
   "25957": {
     "name_enus": "Improved Judgements",
     "icon": "spell_holy_righteousfury",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Decreases the cooldown of your Judgement spells by 2 sec."
   },
   "25988": {
     "name_enus": "Eye for an Eye",
     "icon": "spell_holy_eyeforaneye",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "All criticals against you cause 10% of the damage taken to the attacker as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
   },
   "26016": {
     "name_enus": "Vindication",
     "icon": "spell_holy_vindication",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Gives the Paladin's damaging attacks a chance to reduce the target's attack power by 46 for 10 sec."
   },
   "26022": {
     "name_enus": "Pursuit of Justice",
     "icon": "spell_holy_persuitofjustice",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of all Disarm effects by 50% and increases movement and mounted movement speed by 15%.  This does not stack with other movement speed increasing effects."
+    "description": "Reduces the duration of all Disarm effects by 25% and increases movement and mounted movement speed by 8%.  This does not stack with other movement speed increasing effects."
   },
   "26023": {
     "name_enus": "Pursuit of Justice",
     "icon": "spell_holy_persuitofjustice",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the duration of all Disarm effects by 50% and increases movement and mounted movement speed by 15%.  This does not stack with other movement speed increasing effects."
   },
   "27789": {
     "name_enus": "Holy Reach",
     "icon": "spell_holy_purify",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing, Holy Nova, Divine Hymn and Circle of Healing spells by 20%."
+    "description": "Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing, Holy Nova, Divine Hymn and Circle of Healing spells by 10%."
   },
   "27790": {
     "name_enus": "Holy Reach",
     "icon": "spell_holy_purify",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing, Holy Nova, Divine Hymn and Circle of Healing spells by 20%."
   },
   "27811": {
     "name_enus": "Blessed Recovery",
     "icon": "spell_holy_blessedrecovery",
     "rank_enus": "Rank 1",
-    "description": "After being struck by a melee or ranged critical hit, Blessed Recovery heals you for 10% of the damage taken over 6 sec.  Additional critical hits taken during the effect increase the healing received."
+    "description": "After being struck by a melee or ranged critical hit, Blessed Recovery heals you for 5% of the damage taken over 6 sec.  Additional critical hits taken during the effect increase the healing received."
   },
   "27815": {
     "name_enus": "Blessed Recovery",
     "icon": "spell_holy_blessedrecovery",
     "rank_enus": "Rank 2",
-    "description": "After being struck by a melee or ranged critical hit, Blessed Recovery heals you for 15% of the damage taken over 6 sec.  Additional critical hits taken during the effect increase the healing received."
+    "description": "After being struck by a melee or ranged critical hit, Blessed Recovery heals you for 10% of the damage taken over 6 sec.  Additional critical hits taken during the effect increase the healing received."
   },
   "27816": {
     "name_enus": "Blessed Recovery",
     "icon": "spell_holy_blessedrecovery",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "After being struck by a melee or ranged critical hit, Blessed Recovery heals you for 15% of the damage taken over 6 sec.  Additional critical hits taken during the effect increase the healing received."
   },
   "27839": {
     "name_enus": "Improved Vampiric Embrace",
     "icon": "spell_shadow_improvedvampiricembrace",
     "rank_enus": "Rank 1",
-    "description": "Increases the healing received from Vampiric Embrace by 67%."
+    "description": "Increases the healing received from Vampiric Embrace by 33%."
   },
   "27840": {
     "name_enus": "Improved Vampiric Embrace",
     "icon": "spell_shadow_improvedvampiricembrace",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the healing received from Vampiric Embrace by 67%."
   },
   "27900": {
     "name_enus": "Spell Warding",
     "icon": "spell_holy_spellwarding",
     "rank_enus": "Rank 1",
-    "description": "Reduces all spell damage taken by 4%."
+    "description": "Reduces all spell damage taken by 2%."
   },
   "27901": {
     "name_enus": "Spell Warding",
     "icon": "spell_holy_spellwarding",
     "rank_enus": "Rank 2",
-    "description": "Reduces all spell damage taken by 6%."
+    "description": "Reduces all spell damage taken by 4%."
   },
   "27902": {
     "name_enus": "Spell Warding",
     "icon": "spell_holy_spellwarding",
     "rank_enus": "Rank 3",
-    "description": "Reduces all spell damage taken by 8%."
+    "description": "Reduces all spell damage taken by 6%."
   },
   "27903": {
     "name_enus": "Spell Warding",
     "icon": "spell_holy_spellwarding",
     "rank_enus": "Rank 4",
-    "description": "Reduces all spell damage taken by 10%."
+    "description": "Reduces all spell damage taken by 8%."
   },
   "27904": {
     "name_enus": "Spell Warding",
     "icon": "spell_holy_spellwarding",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces all spell damage taken by 10%."
   },
   "28332": {
     "name_enus": "Frost Warding",
     "icon": "spell_frost_frostward",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the armor and resistances given by your Frost Armor and Ice Armor spells by 50%.  In addition, gives your Frost Ward and Fire Ward a 30% chance to negate the warded damage spell and restore mana equal to the damage caused."
   },
   "28574": {
     "name_enus": "Arcane Fortitude",
     "icon": "spell_arcane_arcaneresilience",
     "rank_enus": "Rank 1",
-    "description": "Increases your armor by an amount equal to 100% of your Intellect."
+    "description": "Increases your armor by an amount equal to 50% of your Intellect."
   },
   "28592": {
     "name_enus": "Winter's Chill",
     "icon": "spell_frost_chillingblast",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to critically hit with Frostbolt by an additional 3% and gives your Frost damage spells a 100% chance to apply the Winter's Chill effect, which increases the chance spells will critically hit the target by 1% for 15 sec.  Stacks up to 5 times."
+    "description": "Increases your chance to critically hit with Frostbolt by an additional 2% and gives your Frost damage spells a 66% chance to apply the Winter's Chill effect, which increases the chance spells will critically hit the target by 1% for 15 sec.  Stacks up to 5 times."
   },
   "28593": {
     "name_enus": "Winter's Chill",
     "icon": "spell_frost_chillingblast",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to critically hit with Frostbolt by an additional 3% and gives your Frost damage spells a 100% chance to apply the Winter's Chill effect, which increases the chance spells will critically hit the target by 1% for 15 sec.  Stacks up to 5 times."
   },
   "28996": {
     "name_enus": "Elemental Warding",
     "icon": "spell_nature_spiritarmor",
     "rank_enus": "Rank 1",
-    "description": "Reduces all damage taken by 4%."
+    "description": "Reduces all damage taken by 2%."
   },
   "28997": {
     "name_enus": "Elemental Warding",
     "icon": "spell_nature_spiritarmor",
     "rank_enus": "Rank 2",
-    "description": "Reduces all damage taken by 6%."
+    "description": "Reduces all damage taken by 4%."
   },
   "28998": {
     "name_enus": "Elemental Warding",
     "icon": "spell_nature_spiritarmor",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces all damage taken by 6%."
   },
   "28999": {
     "name_enus": "Elemental Reach",
     "icon": "spell_nature_stormreach",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 6 yards, increases the radius of your Thunderstorm spell by 20%, and increases the range of your Flame Shock by 15 yards."
+    "description": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 3 yards, increases the radius of your Thunderstorm spell by 10%, and increases the range of your Flame Shock by 7 yards."
   },
   "29000": {
     "name_enus": "Elemental Reach",
     "icon": "spell_nature_stormreach",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 6 yards, increases the radius of your Thunderstorm spell by 20%, and increases the range of your Flame Shock by 15 yards."
   },
   "29062": {
     "name_enus": "Eye of the Storm",
     "icon": "spell_shadow_soulleech_2",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, Lava Burst and Hex spells by 23%."
   },
   "29064": {
     "name_enus": "Eye of the Storm",
     "icon": "spell_shadow_soulleech_2",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, Lava Burst and Hex spells by 46%."
   },
   "29065": {
     "name_enus": "Eye of the Storm",
     "icon": "spell_shadow_soulleech_2",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, Lava Burst and Hex spells by 70%."
   },
   "29074": {
     "name_enus": "Master of Elements",
     "icon": "spell_fire_masterofelements",
     "rank_enus": "Rank 1",
-    "description": "Your spell criticals will refund 20% of their base mana cost."
+    "description": "Your spell criticals will refund 10% of their base mana cost."
   },
   "29075": {
     "name_enus": "Master of Elements",
     "icon": "spell_fire_masterofelements",
     "rank_enus": "Rank 2",
-    "description": "Your spell criticals will refund 30% of their base mana cost."
+    "description": "Your spell criticals will refund 20% of their base mana cost."
   },
   "29076": {
     "name_enus": "Master of Elements",
     "icon": "spell_fire_masterofelements",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your spell criticals will refund 30% of their base mana cost."
   },
   "29079": {
     "name_enus": "Elemental Weapons",
     "icon": "spell_fire_flametounge",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage caused by your Windfury Weapon effect by 40%  increases the spell damage on your Flametongue Weapon by 30% and increases the bonus healing on your Earthliving Weapon by 30%."
+    "description": "Increases the damage caused by your Windfury Weapon effect by 27%  increases the spell damage on your Flametongue Weapon by 20% and increases the bonus healing on your Earthliving Weapon by 20%."
   },
   "29080": {
     "name_enus": "Elemental Weapons",
     "icon": "spell_fire_flametounge",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage caused by your Windfury Weapon effect by 40%  increases the spell damage on your Flametongue Weapon by 30% and increases the bonus healing on your Earthliving Weapon by 30%."
   },
   "29082": {
     "name_enus": "Weapon Mastery",
     "icon": "ability_hunter_swiftstrike",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage you deal with all weapons by 7%."
+    "description": "Increases the damage you deal with all weapons by 4%."
   },
   "29084": {
     "name_enus": "Weapon Mastery",
     "icon": "ability_hunter_swiftstrike",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage you deal with all weapons by 10%."
+    "description": "Increases the damage you deal with all weapons by 7%."
   },
   "29086": {
     "name_enus": "Weapon Mastery",
     "icon": "ability_hunter_swiftstrike",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage you deal with all weapons by 10%."
   },
   "29140": {
     "name_enus": "Vitality",
     "icon": "inv_helmet_21",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Strength by 4%, Stamina by 6% and your Expertise by 4."
+    "description": "Increases your Energy regeneration rate by 8%."
   },
   "29143": {
     "name_enus": "Vitality",
     "icon": "inv_helmet_21",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Strength by 6%, Stamina by 9% and your Expertise by 6."
+    "description": "Increases your Energy regeneration rate by 16%."
   },
   "29144": {
     "name_enus": "Vitality",
     "icon": "inv_helmet_21",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your Energy regeneration rate by 25%."
   },
   "29179": {
     "name_enus": "Elemental Devastation",
     "icon": "classic_spell_fire_elementaldevastation",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by 6% for 10 sec."
   },
   "29180": {
     "name_enus": "Elemental Devastation",
     "icon": "classic_spell_fire_elementaldevastation",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by 9% for 10 sec."
   },
   "29187": {
     "name_enus": "Healing Grace",
     "icon": "spell_nature_healingtouch",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cast time of your Healing Touch spell by 0.2 sec and increases the damage you deal with physical attacks in all forms by 4%."
+    "description": "Reduces the threat generated by your healing spells by 5% and reduces the chance your helpful spells and damage over time effects will be dispelled by 10%."
   },
   "29189": {
     "name_enus": "Healing Grace",
     "icon": "spell_nature_healingtouch",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cast time of your Healing Touch spell by 0.3 sec and increases the damage you deal with physical attacks in all forms by 6%."
+    "description": "Reduces the threat generated by your healing spells by 10% and reduces the chance your helpful spells and damage over time effects will be dispelled by 20%."
   },
   "29191": {
     "name_enus": "Healing Grace",
     "icon": "spell_nature_healingtouch",
     "rank_enus": "Rank 3",
-    "description": "Reduces the cast time of your Healing Touch spell by 0.4 sec and increases the damage you deal with physical attacks in all forms by 8%."
+    "description": "Reduces the threat generated by your healing spells by 15% and reduces the chance your helpful spells and damage over time effects will be dispelled by 30%."
   },
   "29192": {
     "name_enus": "Improved Windfury Totem",
     "icon": "spell_nature_windfury",
     "rank_enus": "Rank 1",
-    "description": "Increases the melee haste granted by your Windfury totem by 4%."
+    "description": "Increases the melee haste granted by your Windfury totem by 2%."
   },
   "29193": {
     "name_enus": "Improved Windfury Totem",
     "icon": "spell_nature_windfury",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the melee haste granted by your Windfury totem by 4%."
   },
   "29202": {
     "name_enus": "Healing Way",
     "icon": "classic_spell_nature_healingway",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the amount healed by your Healing Wave spell by 25%."
   },
   "29205": {
     "name_enus": "Healing Way",
     "icon": "classic_spell_nature_healingway",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the amount healed by your Healing Wave spell by 16%."
   },
   "29206": {
     "name_enus": "Healing Way",
     "icon": "classic_spell_nature_healingway",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the amount healed by your Healing Wave spell by 8%."
   },
   "29438": {
     "name_enus": "Precision",
     "icon": "spell_ice_magicdamage",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost and increases your chance to hit with spells by 2%."
+    "description": "Reduces the mana cost and increases your chance to hit with spells by 1%."
   },
   "29439": {
     "name_enus": "Precision",
     "icon": "spell_ice_magicdamage",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost and increases your chance to hit with spells by 3%."
+    "description": "Reduces the mana cost and increases your chance to hit with spells by 2%."
   },
   "29440": {
     "name_enus": "Precision",
     "icon": "spell_ice_magicdamage",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost and increases your chance to hit with spells by 3%."
   },
   "29441": {
     "name_enus": "Magic Absorption",
     "icon": "spell_nature_astralrecalgroup",
     "rank_enus": "Rank 1",
-    "description": "Increases all resistances by 1 per level and causes all spells you fully resist to restore 2% of your total mana.  1 sec cooldown."
+    "description": "Increases all resistances by .5 per level and causes all spells you fully resist to restore 1% of your total mana.  1 sec cooldown."
   },
   "29444": {
     "name_enus": "Magic Absorption",
     "icon": "spell_nature_astralrecalgroup",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases all resistances by 1 per level and causes all spells you fully resist to restore 2% of your total mana.  1 sec cooldown."
   },
   "29447": {
     "name_enus": "Torment the Weak",
     "icon": "ability_mage_tormentoftheweak",
     "rank_enus": "Rank 1",
-    "description": "Your Frostbolt, Fireball, Frostfire Bolt, Pyroblast, Arcane Missiles, Arcane Blast, and Arcane Barrage abilities deal 8% more damage to snared or slowed targets."
+    "description": "Your Frostbolt, Fireball, Frostfire Bolt, Pyroblast, Arcane Missiles, Arcane Blast, and Arcane Barrage abilities deal 4% more damage to snared or slowed targets."
   },
   "29590": {
     "name_enus": "Precision",
     "icon": "ability_marksmanship",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with weapon and poison attacks by 2%."
+    "description": "Reduces the mana cost and increases your chance to hit with spells by 1%."
   },
   "29591": {
     "name_enus": "Precision",
     "icon": "ability_marksmanship",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to hit with weapon and poison attacks by 3%."
+    "description": "Reduces the mana cost and increases your chance to hit with spells by 2%."
   },
   "29592": {
     "name_enus": "Precision",
     "icon": "ability_marksmanship",
     "rank_enus": "Rank 3",
-    "description": "Increases your chance to hit with weapon and poison attacks by 4%."
+    "description": "Reduces the mana cost and increases your chance to hit with spells by 3%."
   },
   "29593": {
     "name_enus": "Improved Defensive Stance",
     "icon": "ability_warrior_defensivestance",
     "rank_enus": "Rank 1",
-    "description": "While in Defensive Stance all spell damage is reduced by 6% and when you Block, Parry or Dodge an attack you have a 100% chance to become Enraged, increasing Physical damage caused by 10% for 12 sec."
+    "description": "While in Defensive Stance all spell damage is reduced by 3% and when you Block, Parry or Dodge an attack you have a 50% chance to become Enraged, increasing Physical damage caused by 5% for 12 sec."
   },
   "29594": {
     "name_enus": "Improved Defensive Stance",
     "icon": "ability_warrior_defensivestance",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "While in Defensive Stance all spell damage is reduced by 6% and when you Block, Parry or Dodge an attack you have a 100% chance to become Enraged, increasing Physical damage caused by 10% for 12 sec."
   },
   "29598": {
     "name_enus": "Shield Mastery",
     "icon": "ability_warrior_shieldmastery",
     "rank_enus": "Rank 1",
-    "description": "Increases your block value by 30% and reduces the cooldown of your Shield Block ability by 20 sec."
+    "description": "Increases your block value by 15% and reduces the cooldown of your Shield Block ability by 10 sec."
   },
   "29599": {
     "name_enus": "Shield Mastery",
     "icon": "ability_warrior_shieldmastery",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your block value by 30% and reduces the cooldown of your Shield Block ability by 20 sec."
   },
   "29623": {
     "name_enus": "Endless Rage",
@@ -6619,79 +6603,79 @@ export const spells = {
     "name_enus": "Improved Whirlwind",
     "icon": "ability_whirlwind",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage of your Whirlwind ability by 20%."
+    "description": "Increases the damage of your Whirlwind ability by 10%."
   },
   "29723": {
     "name_enus": "Sudden Death",
     "icon": "ability_warrior_improveddisciplines",
     "rank_enus": "Rank 1",
-    "description": "Your melee hits have a 6% chance of allowing the use of Execute regardless of the target's health state.  In addition, you keep at least 7 rage after using Execute."
+    "description": "Your melee hits have a 3% chance of allowing the use of Execute regardless of the target's health state.  In addition, you keep at least 3 rage after using Execute."
   },
   "29724": {
     "name_enus": "Sudden Death",
     "icon": "ability_warrior_improveddisciplines",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your melee hits have a 9% chance of allowing the use of Execute regardless of the target's health state.  In addition, you keep at least 10 rage after using Execute."
   },
   "29725": {
     "name_enus": "Sudden Death",
     "icon": "ability_warrior_improveddisciplines",
     "rank_enus": "Rank 2",
-    "description": "Your melee hits have a 9% chance of allowing the use of Execute regardless of the target's health state.  In addition, you keep at least 10 rage after using Execute."
+    "description": "Your melee hits have a 6% chance of allowing the use of Execute regardless of the target's health state.  In addition, you keep at least 7 rage after using Execute."
   },
   "29759": {
     "name_enus": "Improved Berserker Stance",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 2% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Increases Strength by 4% and reduces threat caused by 2% while in Berserker Stance."
   },
   "29760": {
     "name_enus": "Improved Berserker Stance",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 3% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Increases Strength by 8% and reduces threat caused by 4% while in Berserker Stance."
   },
   "29761": {
     "name_enus": "Improved Berserker Stance",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases Strength by 12% and reduces threat caused by 6% while in Berserker Stance."
   },
   "29762": {
     "name_enus": "Improved Berserker Stance",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases Strength by 16% and reduces threat caused by 8% while in Berserker Stance."
   },
   "29763": {
     "name_enus": "Improved Berserker Stance",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases Strength by 20% and reduces threat caused by 10% while in Berserker Stance."
   },
   "29776": {
     "name_enus": "Improved Whirlwind",
     "icon": "ability_whirlwind",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage of your Whirlwind ability by 20%."
   },
   "29787": {
     "name_enus": "Focused Rage",
     "icon": "ability_warrior_focusedrage",
     "rank_enus": "Rank 1",
-    "description": "Reduces the rage cost of your offensive abilities by 2."
+    "description": "Reduces the rage cost of your offensive abilities by 1."
   },
   "29790": {
     "name_enus": "Focused Rage",
     "icon": "ability_warrior_focusedrage",
     "rank_enus": "Rank 2",
-    "description": "Reduces the rage cost of your offensive abilities by 3."
+    "description": "Reduces the rage cost of your offensive abilities by 2."
   },
   "29792": {
     "name_enus": "Focused Rage",
     "icon": "ability_warrior_focusedrage",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the rage cost of your offensive abilities by 3."
   },
   "29801": {
     "name_enus": "Rampage",
@@ -6703,103 +6687,103 @@ export const spells = {
     "name_enus": "Second Wind",
     "icon": "ability_hunter_harass",
     "rank_enus": "Rank 1",
-    "description": "Whenever you are struck by a Stun or Immobilize effect you will generate 20 rage and 10% of your total health over 10 sec."
+    "description": "Whenever you are struck by a Stun or Immobilize effect you will generate 10 rage and 5% of your total health over 10 sec."
   },
   "29836": {
     "name_enus": "Blood Frenzy",
     "icon": "ability_warrior_bloodfrenzy",
     "rank_enus": "Rank 1",
-    "description": "Increases your melee attack speed by 10%.  In addition your Rend and Deep Wounds abilities also increase all physical damage caused to that target by 4%."
+    "description": "Increases your melee attack speed by 5%.  In addition your Rend and Deep Wounds abilities also increase all physical damage caused to that target by 2%."
   },
   "29838": {
     "name_enus": "Second Wind",
     "icon": "ability_hunter_harass",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Whenever you are struck by a Stun or Immobilize effect you will generate 20 rage and 10% of your total health over 10 sec."
   },
   "29859": {
     "name_enus": "Blood Frenzy",
     "icon": "ability_warrior_bloodfrenzy",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your melee attack speed by 10%.  In addition your Rend and Deep Wounds abilities also increase all physical damage caused to that target by 4%."
   },
   "29888": {
     "name_enus": "Improved Intercept",
     "icon": "ability_rogue_sprint",
     "rank_enus": "Rank 1",
-    "description": "Gives a 100% chance to remove all Movement Impairing effects when you activate your Sprint ability."
+    "description": "Reduces the cooldown of your Intercept ability by 5 sec."
   },
   "29889": {
     "name_enus": "Improved Intercept",
     "icon": "ability_rogue_sprint",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Intercept ability by 10 sec."
   },
   "30054": {
     "name_enus": "Improved Howl of Terror",
     "icon": "spell_shadow_deathscream",
     "rank_enus": "Rank 1",
-    "description": "Increases all damage caused by 4%."
+    "description": "Reduces the casting time of your Howl of Terror spell by 0.8 sec."
   },
   "30057": {
     "name_enus": "Improved Howl of Terror",
     "icon": "spell_shadow_deathscream",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the casting time of your Howl of Terror spell by 1.5 sec."
   },
   "30060": {
     "name_enus": "Contagion",
     "icon": "spell_shadow_painfulafflictions",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage of Curse of Agony, Corruption and Seed of Corruption by 2% and reduces the chance your helpful Affliction spells and damage over time effects  will be dispelled by an additional 12%."
+    "description": "Increases the damage of Curse of Agony, Corruption and Seed of Corruption by 1% and reduces the chance your helpful Affliction spells and damage over time effects will be dispelled by an additional 6%."
   },
   "30061": {
     "name_enus": "Contagion",
     "icon": "spell_shadow_painfulafflictions",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage of Curse of Agony, Corruption and Seed of Corruption by 3% and reduces the chance your helpful Affliction spells and damage over time effects  will be dispelled by an additional 18%."
+    "description": "Increases the damage of Curse of Agony, Corruption and Seed of Corruption by 2% and reduces the chance your helpful Affliction spells and damage over time effects  will be dispelled by an additional 12%."
   },
   "30062": {
     "name_enus": "Contagion",
     "icon": "spell_shadow_painfulafflictions",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage of Curse of Agony, Corruption and Seed of Corruption by 4% and reduces the chance your helpful Affliction spells and damage over time effects  will be dispelled by an additional 24%."
+    "description": "Increases the damage of Curse of Agony, Corruption and Seed of Corruption by 3% and reduces the chance your helpful Affliction spells and damage over time effects  will be dispelled by an additional 18%."
   },
   "30063": {
     "name_enus": "Contagion",
     "icon": "spell_shadow_painfulafflictions",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage of Curse of Agony, Corruption and Seed of Corruption by 5% and reduces the chance your helpful Affliction spells and damage over time effects  will be dispelled by an additional 30%."
+    "description": "Increases the damage of Curse of Agony, Corruption and Seed of Corruption by 4% and reduces the chance your helpful Affliction spells and damage over time effects  will be dispelled by an additional 24%."
   },
   "30064": {
     "name_enus": "Contagion",
     "icon": "spell_shadow_painfulafflictions",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage of Curse of Agony, Corruption and Seed of Corruption by 5% and reduces the chance your helpful Affliction spells and damage over time effects  will be dispelled by an additional 30%."
   },
   "30108": {
     "name_enus": "Unstable Affliction",
     "icon": "spell_shadow_unstableaffliction_3",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Shadow energy slowly destroys the target, causing 550 damage over 15 sec.  In addition, if the Unstable Affliction is dispelled it will cause 990 damage to the dispeller and silence them for 5 sec. Only one Unstable Affliction or Immolate per Warlock can be active on any one target."
   },
   "30143": {
     "name_enus": "Demonic Aegis",
     "icon": "spell_shadow_ragingscream",
     "rank_enus": "Rank 1",
-    "description": "Increases the effectiveness of your Demon Armor and Fel Armor spells by 20%."
+    "description": "Increases the effectiveness of your Demon Armor and Fel Armor spells by 10%."
   },
   "30144": {
     "name_enus": "Demonic Aegis",
     "icon": "spell_shadow_ragingscream",
     "rank_enus": "Rank 2",
-    "description": "Increases the effectiveness of your Demon Armor and Fel Armor spells by 30%."
+    "description": "Increases the effectiveness of your Demon Armor and Fel Armor spells by 20%."
   },
   "30145": {
     "name_enus": "Demonic Aegis",
     "icon": "spell_shadow_ragingscream",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effectiveness of your Demon Armor and Fel Armor spells by 30%."
   },
   "30146": {
     "name_enus": "Summon Felguard",
@@ -6811,253 +6795,253 @@ export const spells = {
     "name_enus": "Elemental Devastation",
     "icon": "classic_spell_fire_elementaldevastation",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by 3% for 10 sec."
   },
   "30242": {
     "name_enus": "Demonic Tactics",
     "icon": "spell_shadow_demonictactics",
     "rank_enus": "Rank 1",
-    "description": "Increases melee and spell critical strike chance for you and your summoned demon by 4%."
+    "description": "Increases melee and spell critical strike chance for you and your summoned demon by 2%."
   },
   "30245": {
     "name_enus": "Demonic Tactics",
     "icon": "spell_shadow_demonictactics",
     "rank_enus": "Rank 2",
-    "description": "Increases melee and spell critical strike chance for you and your summoned demon by 6%."
+    "description": "Increases melee and spell critical strike chance for you and your summoned demon by 4%."
   },
   "30246": {
     "name_enus": "Demonic Tactics",
     "icon": "spell_shadow_demonictactics",
     "rank_enus": "Rank 3",
-    "description": "Increases melee and spell critical strike chance for you and your summoned demon by 8%."
+    "description": "Increases melee and spell critical strike chance for you and your summoned demon by 6%."
   },
   "30247": {
     "name_enus": "Demonic Tactics",
     "icon": "spell_shadow_demonictactics",
     "rank_enus": "Rank 4",
-    "description": "Increases melee and spell critical strike chance for you and your summoned demon by 10%."
+    "description": "Increases melee and spell critical strike chance for you and your summoned demon by 8%."
   },
   "30248": {
     "name_enus": "Demonic Tactics",
     "icon": "spell_shadow_demonictactics",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases melee and spell critical strike chance for you and your summoned demon by 10%."
   },
   "30283": {
     "name_enus": "Shadowfury",
     "icon": "spell_shadow_shadowfury",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Shadowfury is unleashed, causing 343 to 407 Shadow damage and stunning all enemies within 8 yds for 3 sec."
   },
   "30288": {
     "name_enus": "Shadow and Flame",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 1",
-    "description": "The attack power bonus of your spells is increased by 8%."
+    "description": "Your Shadow Bolt, Shadowburn, Chaos Bolt and Incinerate spells gain an additional 4% of your bonus spell damage effects."
   },
   "30289": {
     "name_enus": "Shadow and Flame",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 2",
-    "description": "The attack power bonus of your spells is increased by 12%."
+    "description": "Your Shadow Bolt, Shadowburn, Chaos Bolt and Incinerate spells gain an additional 8% of your bonus spell damage effects."
   },
   "30290": {
     "name_enus": "Shadow and Flame",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 3",
-    "description": "The attack power bonus of your spells is increased by 16%."
+    "description": "Your Shadow Bolt, Shadowburn, Chaos Bolt and Incinerate spells gain an additional 12% of your bonus spell damage effects."
   },
   "30291": {
     "name_enus": "Shadow and Flame",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 4",
-    "description": "Your spells receive an additional 20% benefit from your attack power."
+    "description": "Your Shadow Bolt, Shadowburn, Chaos Bolt and Incinerate spells gain an additional 16% of your bonus spell damage effects."
   },
   "30292": {
     "name_enus": "Shadow and Flame",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your Shadow Bolt, Shadowburn, Chaos Bolt and Incinerate spells gain an additional 20% of your bonus spell damage effects."
   },
   "30293": {
     "name_enus": "Soul Leech",
     "icon": "spell_shadow_soulleech_3",
     "rank_enus": "Rank 1",
-    "description": "Gives your Shadow Bolt, Shadowburn, Chaos Bolt, Soul Fire, Incinerate, Searing Pain and Conflagrate spells a 20% chance to return health equal to 20% of the damage caused."
+    "description": "Gives your Shadow Bolt, Shadowburn, Chaos Bolt, Soul Fire, Incinerate, Searing Pain and Conflagrate spells a 10% chance to return health equal to 20% of the damage caused."
   },
   "30295": {
     "name_enus": "Soul Leech",
     "icon": "spell_shadow_soulleech_3",
     "rank_enus": "Rank 2",
-    "description": "Gives your Shadow Bolt, Shadowburn, Chaos Bolt, Soul Fire, Incinerate, Searing Pain and Conflagrate spells a 30% chance to return health equal to 20% of the damage caused."
+    "description": "Gives your Shadow Bolt, Shadowburn, Chaos Bolt, Soul Fire, Incinerate, Searing Pain and Conflagrate spells a 20% chance to return health equal to 20% of the damage caused."
   },
   "30296": {
     "name_enus": "Soul Leech",
     "icon": "spell_shadow_soulleech_3",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives your Shadow Bolt, Shadowburn, Chaos Bolt, Soul Fire, Incinerate, Searing Pain and Conflagrate spells a 30% chance to return health equal to 20% of the damage caused."
   },
   "30299": {
     "name_enus": "Nether Protection",
     "icon": "spell_shadow_netherprotection",
     "rank_enus": "Rank 1",
-    "description": "After being hit with a spell, you have a 20% chance to gain Nether Protection, reducing all damage by that spell school by 30% for 8 sec."
+    "description": "After being hit with a spell, you have a 10% chance to gain Nether Protection, reducing all damage by that spell school by 30% for 8 sec."
   },
   "30301": {
     "name_enus": "Nether Protection",
     "icon": "spell_shadow_netherprotection",
     "rank_enus": "Rank 2",
-    "description": "After being hit with a spell, you have a 30% chance to gain Nether Protection, reducing all damage by that spell school by 30% for 8 sec."
+    "description": "After being hit with a spell, you have a 20% chance to gain Nether Protection, reducing all damage by that spell school by 30% for 8 sec."
   },
   "30302": {
     "name_enus": "Nether Protection",
     "icon": "spell_shadow_netherprotection",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "After being hit with a spell, you have a 30% chance to gain Nether Protection, reducing all damage by that spell school by 30% for 8 sec."
   },
   "30319": {
     "name_enus": "Demonic Resilience",
     "icon": "spell_shadow_demonicfortitude",
     "rank_enus": "Rank 1",
-    "description": "Reduces the chance you'll be critically hit by melee and spells by 2% and reduces all damage your summoned demon takes by 10%."
+    "description": "Reduces the chance you'll be critically hit by melee and spells by 1% and reduces all damage your summoned demon takes by 5%."
   },
   "30320": {
     "name_enus": "Demonic Resilience",
     "icon": "spell_shadow_demonicfortitude",
     "rank_enus": "Rank 2",
-    "description": "Reduces the chance you'll be critically hit by melee and spells by 3% and reduces all damage your summoned demon takes by 15%."
+    "description": "Reduces the chance you'll be critically hit by melee and spells by 2% and reduces all damage your summoned demon takes by 10%."
   },
   "30321": {
     "name_enus": "Demonic Resilience",
     "icon": "spell_shadow_demonicfortitude",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the chance you'll be critically hit by melee and spells by 3% and reduces all damage your summoned demon takes by 15%."
   },
   "30326": {
     "name_enus": "Mana Feed",
     "icon": "spell_shadow_manafeed",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "When you gain mana from Drain Mana or Life Tap spells, your summoned demon gains 100% of the mana you gain."
   },
   "30664": {
     "name_enus": "Unrelenting Storm",
     "icon": "spell_nature_unrelentingstorm",
     "rank_enus": "Rank 1",
-    "description": "Regenerate mana equal to 8% of your Intellect every 5 sec, even while casting."
+    "description": "Regenerate mana equal to 4% of your Intellect every 5 sec, even while casting."
   },
   "30665": {
     "name_enus": "Unrelenting Storm",
     "icon": "spell_nature_unrelentingstorm",
     "rank_enus": "Rank 2",
-    "description": "Regenerate mana equal to 12% of your Intellect every 5 sec, even while casting."
+    "description": "Regenerate mana equal to 8% of your Intellect every 5 sec, even while casting."
   },
   "30666": {
     "name_enus": "Unrelenting Storm",
     "icon": "spell_nature_unrelentingstorm",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Regenerate mana equal to 12% of your Intellect every 5 sec, even while casting."
   },
   "30672": {
     "name_enus": "Elemental Precision",
     "icon": "spell_nature_elementalprecision_1",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with Fire, Frost and Nature spells by 2% and reduces the threat caused by Fire, Frost and Nature spells by 20%."
+    "description": "Increases your chance to hit with Fire, Frost and Nature spells by 1% and reduces the threat caused by Fire, Frost and Nature spells by 10%."
   },
   "30673": {
     "name_enus": "Elemental Precision",
     "icon": "spell_nature_elementalprecision_1",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to hit with Fire, Frost and Nature spells by 3% and reduces the threat caused by Fire, Frost and Nature spells by 30%."
+    "description": "Increases your chance to hit with Fire, Frost and Nature spells by 2% and reduces the threat caused by Fire, Frost and Nature spells by 20%."
   },
   "30674": {
     "name_enus": "Elemental Precision",
     "icon": "spell_nature_elementalprecision_1",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to hit with Fire, Frost and Nature spells by 3% and reduces the threat caused by Fire, Frost and Nature spells by 30%."
   },
   "30675": {
     "name_enus": "Lightning Overload",
     "icon": "spell_nature_lightningoverload",
     "rank_enus": "Rank 1",
-    "description": "Gives your Lightning Bolt and Chain Lightning spells a 22% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+    "description": "Gives your Lightning Bolt and Chain Lightning spells a 11% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
   },
   "30678": {
     "name_enus": "Lightning Overload",
     "icon": "spell_nature_lightningoverload",
     "rank_enus": "Rank 2",
-    "description": "Gives your Lightning Bolt and Chain Lightning spells a 33% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+    "description": "Gives your Lightning Bolt and Chain Lightning spells a 22% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
   },
   "30679": {
     "name_enus": "Lightning Overload",
     "icon": "spell_nature_lightningoverload",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives your Lightning Bolt and Chain Lightning spells a 33% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
   },
   "30706": {
     "name_enus": "Totem of Wrath",
     "icon": "spell_fire_totemofwrath",
     "rank_enus": "Rank 1",
-    "description": "When Interrupted or Silenced you have a 100% chance to become immune to the next Interrupt or Silence mechanic.  Lasts 20 sec."
+    "description": "Summons a Totem of Wrath with 5 health at the feet of the caster.  The totem increases spell power by 100 for all party and raid members, and increases the critical strike chance of all attacks by 3% against all enemies within 40 yards.  Lasts 5 min."
   },
   "30798": {
     "name_enus": "Dual Wield",
     "icon": "ability_dualwield",
     "rank_enus": "",
-    "description": "Increases your chance to hit with one-handed melee weapons by 1% and increases the damage done by your offhand weapon by 8%."
+    "description": "Allows one-hand and off-hand weapons to be equipped in the off-hand."
   },
   "30802": {
     "name_enus": "Unleashed Rage",
     "icon": "spell_nature_unleashedrage",
     "rank_enus": "Rank 1",
-    "description": "Increases your expertise by 6, and increases all party and raid members' attack power by 7% while within 100 yards of the Shaman."
+    "description": "Increases your expertise by 3, and increases all party and raid members' attack power by 4% while within 100 yards of the Shaman."
   },
   "30808": {
     "name_enus": "Unleashed Rage",
     "icon": "spell_nature_unleashedrage",
     "rank_enus": "Rank 2",
-    "description": "Increases your expertise by 9, and increases all party and raid members' attack power by 10% while within 100 yards of the Shaman."
+    "description": "Increases your expertise by 6, and increases all party and raid members' attack power by 7% while within 100 yards of the Shaman."
   },
   "30809": {
     "name_enus": "Unleashed Rage",
     "icon": "spell_nature_unleashedrage",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your expertise by 9, and increases all party and raid members' attack power by 10% while within 100 yards of the Shaman."
   },
   "30812": {
     "name_enus": "Mental Quickness",
     "icon": "spell_nature_mentalquickness",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your instant cast Shaman spells by 4% and increases your spell power by an amount equal to 20% of your attack power."
+    "description": "Reduces the mana cost of your instant cast Shaman spells by 2% and increases your spell power by an amount equal to 10% of your attack power."
   },
   "30813": {
     "name_enus": "Mental Quickness",
     "icon": "spell_nature_mentalquickness",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of your instant cast Shaman spells by 6% and increases your spell power by an amount equal to 30% of your attack power."
+    "description": "Reduces the mana cost of your instant cast Shaman spells by 4% and increases your spell power by an amount equal to 20% of your attack power."
   },
   "30814": {
     "name_enus": "Mental Quickness",
     "icon": "spell_nature_mentalquickness",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of your instant cast Shaman spells by 6% and increases your spell power by an amount equal to 30% of your attack power."
   },
   "30816": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwieldspecialization",
     "rank_enus": "Rank 1",
-    "description": "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 60% chance to also deal damage with your offhand weapon."
+    "description": "Increases the damage done by your offhand weapon by 10%."
   },
   "30818": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwieldspecialization",
     "rank_enus": "Rank 2",
-    "description": "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 100% chance to also deal damage with your offhand weapon."
+    "description": "Increases the damage done by your offhand weapon by 20%."
   },
   "30819": {
     "name_enus": "Dual Wield Specialization",
     "icon": "ability_dualwieldspecialization",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your offhand weapon by 30%."
   },
   "30823": {
     "name_enus": "Shamanistic Rage",
@@ -7069,421 +7053,421 @@ export const spells = {
     "name_enus": "Focused Mind",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 10%."
+    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 5%."
   },
   "30865": {
     "name_enus": "Focused Mind",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 15%."
+    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 10%."
   },
   "30866": {
     "name_enus": "Focused Mind",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 15%."
   },
   "30867": {
     "name_enus": "Nature's Blessing",
     "icon": "spell_nature_natureblessing",
     "rank_enus": "Rank 1",
-    "description": "Increases your healing by an amount equal to 10% of your Intellect."
+    "description": "Increases your healing by an amount equal to 5% of your Intellect."
   },
   "30868": {
     "name_enus": "Nature's Blessing",
     "icon": "spell_nature_natureblessing",
     "rank_enus": "Rank 2",
-    "description": "Increases your healing by an amount equal to 15% of your Intellect."
+    "description": "Increases your healing by an amount equal to 10% of your Intellect."
   },
   "30869": {
     "name_enus": "Nature's Blessing",
     "icon": "spell_nature_natureblessing",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your healing by an amount equal to 15% of your Intellect."
   },
   "30872": {
     "name_enus": "Improved Chain Heal",
     "icon": "spell_nature_healingwavegreater",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks  while casting Healing Touch, Wrath, Entangling Roots, Cyclone, Nourish, Regrowth and Tranquility by 46%."
+    "description": "Increases the amount healed by your Chain Heal spell by 10%."
   },
   "30873": {
     "name_enus": "Improved Chain Heal",
     "icon": "spell_nature_healingwavegreater",
     "rank_enus": "Rank 2",
-    "description": "Reduces the pushback suffered from damaging attacks  while casting Healing Touch, Wrath, Entangling Roots, Cyclone, Nourish, Regrowth and Tranquility by 70%."
+    "description": "Increases the amount healed by your Chain Heal spell by 20%."
   },
   "30881": {
     "name_enus": "Nature's Guardian",
     "icon": "spell_nature_natureguardian",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Whenever a damaging attack brings you below 30% health, your maximum health is increased by 3% for 10 sec and your threat level towards the attacker is reduced.  30 second cooldown."
   },
   "30883": {
     "name_enus": "Nature's Guardian",
     "icon": "spell_nature_natureguardian",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Whenever a damaging attack brings you below 30% health, your maximum health is increased by 6% for 10 sec and your threat level towards the attacker is reduced.  30 second cooldown."
   },
   "30884": {
     "name_enus": "Nature's Guardian",
     "icon": "spell_nature_natureguardian",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Whenever a damaging attack brings you below 30% health, your maximum health is increased by 9% for 10 sec and your threat level towards the attacker is reduced.  30 second cooldown."
   },
   "30885": {
     "name_enus": "Nature's Guardian",
     "icon": "spell_nature_natureguardian",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Whenever a damaging attack brings you below 30% health, your maximum health is increased by 12% for 10 sec and your threat level towards the attacker is reduced.  30 second cooldown."
   },
   "30886": {
     "name_enus": "Nature's Guardian",
     "icon": "spell_nature_natureguardian",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Whenever a damaging attack brings you below 30% health, your maximum health is increased by 15% for 10 sec and your threat level towards the attacker is reduced.  30 second cooldown."
   },
   "30892": {
     "name_enus": "Sleight of Hand",
     "icon": "ability_rogue_feint",
     "rank_enus": "Rank 1",
-    "description": "Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
+    "description": "Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%."
   },
   "30893": {
     "name_enus": "Sleight of Hand",
     "icon": "ability_rogue_feint",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
   },
   "30894": {
     "name_enus": "Heightened Senses",
     "icon": "ability_ambush",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Swipe ability by 20% and reduces the chance enemies have to detect you while Prowling."
+    "description": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%."
   },
   "30895": {
     "name_enus": "Heightened Senses",
     "icon": "ability_ambush",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Swipe ability by 30% and reduces the chance enemies have to detect you while Prowling."
+    "description": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
   },
   "30902": {
     "name_enus": "Deadliness",
     "icon": "inv_weapon_crossbow_11",
     "rank_enus": "Rank 1",
-    "description": "Increases your attack power by 4%."
+    "description": "Increases your attack power by 2%."
   },
   "30903": {
     "name_enus": "Deadliness",
     "icon": "inv_weapon_crossbow_11",
     "rank_enus": "Rank 2",
-    "description": "Increases your attack power by 6%."
+    "description": "Increases your attack power by 4%."
   },
   "30904": {
     "name_enus": "Deadliness",
     "icon": "inv_weapon_crossbow_11",
     "rank_enus": "Rank 3",
-    "description": "Increases your attack power by 8%."
+    "description": "Increases your attack power by 6%."
   },
   "30905": {
     "name_enus": "Deadliness",
     "icon": "inv_weapon_crossbow_11",
     "rank_enus": "Rank 4",
-    "description": "Increases your attack power by 10%."
+    "description": "Increases your attack power by 8%."
   },
   "30906": {
     "name_enus": "Deadliness",
     "icon": "inv_weapon_crossbow_11",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your attack power by 10%."
   },
   "30919": {
     "name_enus": "Weapon Expertise",
     "icon": "spell_holy_blessingofstrength",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 4% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
+    "description": "Increases your expertise by 5."
   },
   "30920": {
     "name_enus": "Weapon Expertise",
     "icon": "spell_holy_blessingofstrength",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 6% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."
+    "description": "Increases your expertise by 10."
   },
   "31122": {
     "name_enus": "Vitality",
     "icon": "ability_warrior_revenge",
     "rank_enus": "Rank 1",
-    "description": "Increases your Energy regeneration rate by 16%."
+    "description": "Increases your Energy regeneration rate by 8%."
   },
   "31123": {
     "name_enus": "Vitality",
     "icon": "ability_warrior_revenge",
     "rank_enus": "Rank 2",
-    "description": "Increases your Energy regeneration rate by 25%."
+    "description": "Increases your Energy regeneration rate by 16%."
   },
   "31124": {
     "name_enus": "Blade Twisting",
     "icon": "ability_rogue_bladetwisting",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage dealt by Sinister Strike and Backstab by 10%, and your damaging melee attacks have a 10% chance to Daze the target for 8 sec."
+    "description": "Increases the damage dealt by Sinister Strike and Backstab by 5%, and your damaging melee attacks have a 10% chance to Daze the target for 4 sec."
   },
   "31126": {
     "name_enus": "Blade Twisting",
     "icon": "ability_rogue_bladetwisting",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage dealt by Sinister Strike and Backstab by 10%, and your damaging melee attacks have a 10% chance to Daze the target for 8 sec."
   },
   "31130": {
     "name_enus": "Nerves of Steel",
     "icon": "ability_rogue_nervesofsteel",
     "rank_enus": "Rank 1",
-    "description": "Reduces damage taken while affected by Stun and Fear effects by 30%."
+    "description": "Reduces damage taken while affected by Stun and Fear effects by 15%."
   },
   "31131": {
     "name_enus": "Nerves of Steel",
     "icon": "ability_rogue_nervesofsteel",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces damage taken while affected by Stun and Fear effects by 30%."
   },
   "31208": {
     "name_enus": "Fleet Footed",
     "icon": "ability_rogue_fleetfooted",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of all movement impairing effects by 30% and increases your movement speed by 15%.  This does not stack with other movement speed increasing effects."
+    "description": "Reduces the duration of all movement impairing effects by 15% and increases your movement speed by 8%.  This does not stack with other movement speed increasing effects."
   },
   "31209": {
     "name_enus": "Fleet Footed",
     "icon": "ability_rogue_fleetfooted",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the duration of all movement impairing effects by 30% and increases your movement speed by 15%.  This does not stack with other movement speed increasing effects."
   },
   "31211": {
     "name_enus": "Enveloping Shadows",
     "icon": "ability_rogue_envelopingshadows",
     "rank_enus": "Rank 1",
-    "description": "Reduces the damage taken by area of effect attacks by 20%."
+    "description": "Reduces the damage taken by area of effect attacks by 10%."
   },
   "31212": {
     "name_enus": "Enveloping Shadows",
     "icon": "ability_rogue_envelopingshadows",
     "rank_enus": "Rank 2",
-    "description": "Reduces the damage taken by area of effect attacks by 30%."
+    "description": "Reduces the damage taken by area of effect attacks by 20%."
   },
   "31213": {
     "name_enus": "Enveloping Shadows",
     "icon": "ability_rogue_envelopingshadows",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the damage taken by area of effect attacks by 30%."
   },
   "31216": {
     "name_enus": "Sinister Calling",
     "icon": "ability_rogue_sinistercalling",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Agility by 6% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 4%."
+    "description": "Increases your total Agility by 3% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 2%."
   },
   "31217": {
     "name_enus": "Sinister Calling",
     "icon": "ability_rogue_sinistercalling",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Agility by 9% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 6%."
+    "description": "Increases your total Agility by 6% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 4%."
   },
   "31218": {
     "name_enus": "Sinister Calling",
     "icon": "ability_rogue_sinistercalling",
     "rank_enus": "Rank 3",
-    "description": "Increases your total Agility by 12% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 8%."
+    "description": "Increases your total Agility by 9% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 6%."
   },
   "31219": {
     "name_enus": "Sinister Calling",
     "icon": "ability_rogue_sinistercalling",
     "rank_enus": "Rank 4",
-    "description": "Increases your total Agility by 15% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 10%."
+    "description": "Increases your total Agility by 12% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 8%."
   },
   "31220": {
     "name_enus": "Sinister Calling",
     "icon": "ability_rogue_sinistercalling",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your total Agility by 15% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 10%."
   },
   "31221": {
     "name_enus": "Master of Subtlety",
     "icon": "ability_rogue_masterofsubtlety",
     "rank_enus": "Rank 1",
-    "description": "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 7% damage."
+    "description": "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 4% damage."
   },
   "31222": {
     "name_enus": "Master of Subtlety",
     "icon": "ability_rogue_masterofsubtlety",
     "rank_enus": "Rank 2",
-    "description": "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 10% damage."
+    "description": "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 7% damage."
   },
   "31223": {
     "name_enus": "Master of Subtlety",
     "icon": "ability_rogue_masterofsubtlety",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 10% damage."
   },
   "31226": {
     "name_enus": "Master Poisoner",
     "icon": "ability_creature_poison_06",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical hit chance of all attacks made against any target you have poisoned by 2%, reduces the duration of all Poison effects applied to you by 34%, and gives Envenom a 66% chance not to consume Deadly Poison."
+    "description": "Increases the critical hit chance of all attacks made against any target you have poisoned by 1%, reduces the duration of all Poison effects applied to you by 17%, and gives Envenom a 33% chance not to consume Deadly Poison."
   },
   "31227": {
     "name_enus": "Master Poisoner",
     "icon": "ability_creature_poison_06",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical hit chance of all attacks made against any target you have poisoned by 3%, reduces the duration of all Poison effects applied to you by 50%, and gives Envenom a 100% chance not to consume Deadly Poison."
+    "description": "Increases the critical hit chance of all attacks made against any target you have poisoned by 2%, reduces the duration of all Poison effects applied to you by 34%, and gives Envenom a 66% chance not to consume Deadly Poison."
   },
   "31228": {
     "name_enus": "Cheat Death",
     "icon": "ability_rogue_cheatdeath",
     "rank_enus": "Rank 1",
-    "description": "You have a 66% chance that an attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by up to 90% for 3 sec (modified by resilience).  This effect cannot occur more than once per minute."
+    "description": "You have a 33% chance that an attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by up to 90% for 3 sec (modified by resilience).  This effect cannot occur more than once per minute."
   },
   "31229": {
     "name_enus": "Cheat Death",
     "icon": "ability_rogue_cheatdeath",
     "rank_enus": "Rank 2",
-    "description": "You have a 100% chance that an attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by up to 90% for 3 sec (modified by resilience).  This effect cannot occur more than once per minute."
+    "description": "You have a 66% chance that an attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by up to 90% for 3 sec (modified by resilience).  This effect cannot occur more than once per minute."
   },
   "31230": {
     "name_enus": "Cheat Death",
     "icon": "ability_rogue_cheatdeath",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You have a 100% chance that an attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by up to 90% for 3 sec (modified by resilience).  This effect cannot occur more than once per minute."
   },
   "31234": {
     "name_enus": "Find Weakness",
     "icon": "ability_rogue_findweakness",
     "rank_enus": "Rank 1",
-    "description": "Your ranged criticals have a 66% chance to grant you Expose Weakness. Expose Weakness increases your attack power by 25% of your Agility for 7 sec."
+    "description": "Offensive ability damage increased by 2%."
   },
   "31235": {
     "name_enus": "Find Weakness",
     "icon": "ability_rogue_findweakness",
     "rank_enus": "Rank 2",
-    "description": "Your ranged criticals have a 100% chance to grant you Expose Weakness. Expose Weakness increases your attack power by 25% of your Agility for 7 sec."
+    "description": "Offensive ability damage increased by 4%."
   },
   "31236": {
     "name_enus": "Find Weakness",
     "icon": "ability_rogue_findweakness",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Offensive ability damage increased by 6%."
   },
   "31244": {
     "name_enus": "Quick Recovery",
     "icon": "ability_rogue_quickrecovery",
     "rank_enus": "Rank 1",
-    "description": "All healing effects on you are increased by 20%.  In addition, your finishing moves refund 80% of their Energy cost when they fail to hit."
+    "description": "All healing effects on you are increased by 10%.  In addition, your finishing moves refund 40% of their Energy cost when they fail to hit."
   },
   "31245": {
     "name_enus": "Quick Recovery",
     "icon": "ability_rogue_quickrecovery",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "All healing effects on you are increased by 20%.  In addition, your finishing moves refund 80% of their Energy cost when they fail to hit."
   },
   "31380": {
     "name_enus": "Deadened Nerves",
     "icon": "ability_rogue_deadenednerves",
     "rank_enus": "Rank 1",
-    "description": "Reduces all damage taken by 4%."
+    "description": "Reduces all damage taken by 2%."
   },
   "31382": {
     "name_enus": "Deadened Nerves",
     "icon": "ability_rogue_deadenednerves",
     "rank_enus": "Rank 2",
-    "description": "Reduces all damage taken by 6%."
+    "description": "Reduces all damage taken by 4%."
   },
   "31383": {
     "name_enus": "Deadened Nerves",
     "icon": "ability_rogue_deadenednerves",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces all damage taken by 6%."
   },
   "31569": {
     "name_enus": "Improved Blink",
     "icon": "spell_arcane_blink",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of Blink by 50% and for 4 sec after casting your chance to be hit by all attacks and spells is reduced by 30%."
+    "description": "Reduces the mana cost of Blink by 25% and for 4 sec after casting your chance to be hit by all attacks and spells is reduced by 15%."
   },
   "31570": {
     "name_enus": "Improved Blink",
     "icon": "spell_arcane_blink",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the mana cost of Blink by 50% and for 4 sec after casting your chance to be hit by all attacks and spells is reduced by 30%."
   },
   "31571": {
     "name_enus": "Arcane Potency",
     "icon": "spell_arcane_arcanepotency",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your next damaging spell by 30% after gaining Clearcasting or Presence of Mind."
+    "description": "Increases the critical strike chance of your next damaging spell by 15% after gaining Clearcasting or Presence of Mind."
   },
   "31572": {
     "name_enus": "Arcane Potency",
     "icon": "spell_arcane_arcanepotency",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike chance of your next damaging spell by 30% after gaining Clearcasting or Presence of Mind."
   },
   "31574": {
     "name_enus": "Prismatic Cloak",
     "icon": "spell_arcane_prismaticcloak",
     "rank_enus": "Rank 1",
-    "description": "Reduces all damage taken by 4% and reduces the fade time of your Invisibility spell by 2 sec."
+    "description": "Reduces all damage taken by 2% and reduces the fade time of your Invisibility spell by 1 sec."
   },
   "31575": {
     "name_enus": "Prismatic Cloak",
     "icon": "spell_arcane_prismaticcloak",
     "rank_enus": "Rank 2",
-    "description": "Reduces all damage taken by 6% and reduces the fade time of your Invisibility spell by 3 sec."
+    "description": "Reduces all damage taken by 4% and reduces the fade time of your Invisibility spell by 2 sec."
   },
   "31579": {
     "name_enus": "Arcane Empowerment",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage and critical strike chance of your Moonfire spell by 10%."
+    "description": "Increases the damage of your Arcane Missiles spell by an amount equal to 15% of your spell power and the damage of your Arcane Blast by 3% of your spell power.  In addition, increases the damage of all party and raid members within 100 yds by 1%."
   },
   "31582": {
     "name_enus": "Arcane Empowerment",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage of your Arcane Missiles spell by an amount equal to 30% of your spell power and the damage of your Arcane Blast by 6% of your spell power.  In addition, increases the damage of all party and raid members within 100 yds by 2%."
   },
   "31583": {
     "name_enus": "Arcane Empowerment",
     "icon": "spell_nature_starfall",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage of your Arcane Missiles spell by an amount equal to 45% of your spell power and the damage of your Arcane Blast by 9% of your spell power.  In addition, increases the damage of all party and raid members within 100 yds by 3%."
   },
   "31584": {
     "name_enus": "Mind Mastery",
     "icon": "spell_arcane_mindmastery",
     "rank_enus": "Rank 1",
-    "description": "Increases spell power by 6% of your total Intellect."
+    "description": "Increases spell power by 3% of your total Intellect."
   },
   "31585": {
     "name_enus": "Mind Mastery",
     "icon": "spell_arcane_mindmastery",
     "rank_enus": "Rank 2",
-    "description": "Increases spell power by 9% of your total Intellect."
+    "description": "Increases spell power by 6% of your total Intellect."
   },
   "31586": {
     "name_enus": "Mind Mastery",
     "icon": "spell_arcane_mindmastery",
     "rank_enus": "Rank 3",
-    "description": "Increases spell power by 12% of your total Intellect."
+    "description": "Increases spell power by 9% of your total Intellect."
   },
   "31587": {
     "name_enus": "Mind Mastery",
     "icon": "spell_arcane_mindmastery",
     "rank_enus": "Rank 4",
-    "description": "Increases spell power by 15% of your total Intellect."
+    "description": "Increases spell power by 12% of your total Intellect."
   },
   "31588": {
     "name_enus": "Mind Mastery",
     "icon": "spell_arcane_mindmastery",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases spell power by 15% of your total Intellect."
   },
   "31589": {
     "name_enus": "Slow",
@@ -7495,139 +7479,139 @@ export const spells = {
     "name_enus": "Playing with Fire",
     "icon": "spell_fire_playingwithfire",
     "rank_enus": "Rank 1",
-    "description": "Increases all spell damage caused by 2% and all spell damage taken by 2%."
+    "description": "Increases all spell damage caused by 1% and all spell damage taken by 1%."
   },
   "31639": {
     "name_enus": "Playing with Fire",
     "icon": "spell_fire_playingwithfire",
     "rank_enus": "Rank 2",
-    "description": "Increases all spell damage caused by 3% and all spell damage taken by 3%."
+    "description": "Increases all spell damage caused by 2% and all spell damage taken by 2%."
   },
   "31640": {
     "name_enus": "Playing with Fire",
     "icon": "spell_fire_playingwithfire",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases all spell damage caused by 3% and all spell damage taken by 3%."
   },
   "31641": {
     "name_enus": "Blazing Speed",
     "icon": "spell_fire_burningspeed",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 10% chance when hit by a melee or ranged attack to increase your movement speed by 50% and dispel all movement impairing effects.  This effect lasts 8 sec."
+    "description": "Gives you a 5% chance when hit by a melee or ranged attack to increase your movement speed by 50% and dispel all movement impairing effects.  This effect lasts 8 sec."
   },
   "31642": {
     "name_enus": "Blazing Speed",
     "icon": "spell_fire_burningspeed",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Gives you a 10% chance when hit by a melee or ranged attack to increase your movement speed by 50% and dispel all movement impairing effects.  This effect lasts 8 sec."
   },
   "31656": {
     "name_enus": "Empowered Fire",
     "icon": "spell_fire_flamebolt",
     "rank_enus": "Rank 1",
-    "description": "Reduces the casting time of your Fireball spell by 0.2 sec."
+    "description": "Increases the damage of your Fireball, Frostfire Bolt and Pyroblast spells by an amount equal to 5% of your spell power.  In addition, each time your Ignite talent causes damage, you have a 33% chance to regain 2% of your base mana."
   },
   "31657": {
     "name_enus": "Empowered Fire",
     "icon": "spell_fire_flamebolt",
     "rank_enus": "Rank 2",
-    "description": "Reduces the casting time of your Fireball spell by 0.3 sec."
+    "description": "Increases the damage of your Fireball, Frostfire Bolt and Pyroblast spells by an amount equal to 10% of your spell power.  In addition, each time your Ignite talent causes damage, you have a 67% chance to regain 2% of your base mana."
   },
   "31658": {
     "name_enus": "Empowered Fire",
     "icon": "spell_fire_flamebolt",
     "rank_enus": "Rank 3",
-    "description": "Reduces the casting time of your Fireball spell by 0.4 sec."
+    "description": "Increases the damage of your Fireball, Frostfire Bolt and Pyroblast spells by an amount equal to 15% of your spell power.  In addition, each time your Ignite talent causes damage, you have a 100% chance to regain 2% of your base mana."
   },
   "31661": {
     "name_enus": "Dragon's Breath",
     "icon": "inv_misc_head_dragon_01",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Targets in a cone in front of the caster take 370 to 430 Fire damage and are Disoriented for 5 sec.  Any direct damaging attack will revive targets.  Turns off your attack when used."
   },
   "31667": {
     "name_enus": "Frozen Core",
     "icon": "spell_frost_frozencore",
     "rank_enus": "Rank 1",
-    "description": "Reduces the damage taken from all spells by 4%."
+    "description": "Reduces the damage taken from all spells by 2%."
   },
   "31668": {
     "name_enus": "Frozen Core",
     "icon": "spell_frost_frozencore",
     "rank_enus": "Rank 2",
-    "description": "Reduces the damage taken from all spells by 6%."
+    "description": "Reduces the damage taken from all spells by 4%."
   },
   "31669": {
     "name_enus": "Frozen Core",
     "icon": "spell_frost_frozencore",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the damage taken from all spells by 6%."
   },
   "31670": {
     "name_enus": "Ice Floes",
     "icon": "spell_frost_icefloes",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Frost Nova, Cone of Cold, Ice Block and Icy Veins spells by 14%."
+    "description": "Reduces the cooldown of your Frost Nova, Cone of Cold, Ice Block and Icy Veins spells by 7%."
   },
   "31672": {
     "name_enus": "Ice Floes",
     "icon": "spell_frost_icefloes",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cooldown of your Frost Nova, Cone of Cold, Ice Block and Icy Veins spells by 20%."
+    "description": "Reduces the cooldown of your Frost Nova, Cone of Cold, Ice Block and Icy Veins spells by 14%."
   },
   "31674": {
     "name_enus": "Arctic Winds",
     "icon": "spell_frost_arcticwinds",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases all Frost damage you cause by 1% and reduces the chance melee and ranged attacks will hit you by 1%."
   },
   "31675": {
     "name_enus": "Arctic Winds",
     "icon": "spell_frost_arcticwinds",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases all Frost damage you cause by 2% and reduces the chance melee and ranged attacks will hit you by 2%."
   },
   "31676": {
     "name_enus": "Arctic Winds",
     "icon": "spell_frost_arcticwinds",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases all Frost damage you cause by 3% and reduces the chance melee and ranged attacks will hit you by 3%."
   },
   "31677": {
     "name_enus": "Arctic Winds",
     "icon": "spell_frost_arcticwinds",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases all Frost damage you cause by 4% and reduces the chance melee and ranged attacks will hit you by 4%."
   },
   "31678": {
     "name_enus": "Arctic Winds",
     "icon": "spell_frost_arcticwinds",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases all Frost damage you cause by 5% and reduces the chance melee and ranged attacks will hit you by 5%."
   },
   "31679": {
     "name_enus": "Molten Fury",
     "icon": "spell_fire_moltenblood",
     "rank_enus": "Rank 1",
-    "description": "Increases damage of all spells against targets with less than 35% health by 12%."
+    "description": "Increases damage of all spells against targets with less than 35% health by 6%."
   },
   "31680": {
     "name_enus": "Molten Fury",
     "icon": "spell_fire_moltenblood",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases damage of all spells against targets with less than 35% health by 12%."
   },
   "31682": {
     "name_enus": "Empowered Frostbolt",
     "icon": "spell_frost_frostbolt02",
     "rank_enus": "Rank 1",
-    "description": "Reduces the casting time of your Frostbolt spell by 0.2 sec."
+    "description": "Increases the damage of your Frostbolt spell by an amount equal to 5% of your spell power and reduces the cast time by 0.1 sec."
   },
   "31683": {
     "name_enus": "Empowered Frostbolt",
     "icon": "spell_frost_frostbolt02",
     "rank_enus": "Rank 2",
-    "description": "Reduces the casting time of your Frostbolt spell by 0.3 sec."
+    "description": "Increases the damage of your Frostbolt spell by an amount equal to 10% of your spell power and reduces the cast time by 0.2 sec."
   },
   "31687": {
     "name_enus": "Summon Water Elemental",
@@ -7639,7 +7623,7 @@ export const spells = {
     "name_enus": "Spiritual Attunement",
     "icon": "spell_holy_revivechampion",
     "rank_enus": "Rank 1",
-    "description": "A passive ability that gives the Paladin mana when healed by other friendly targets' spells.  The amount of mana gained is equal to 10% of the amount healed."
+    "description": "A passive ability that gives the Paladin mana when healed by other friendly targets' spells.  The amount of mana gained is equal to 5% of the amount healed."
   },
   "31821": {
     "name_enus": "Aura Mastery",
@@ -7651,91 +7635,91 @@ export const spells = {
     "name_enus": "Pure of Heart",
     "icon": "spell_holy_pureofheart",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of Curse, Disease and Poison effects by 30%."
+    "description": "Reduces the duration of Curse, Disease and Poison effects by 15%."
   },
   "31823": {
     "name_enus": "Pure of Heart",
     "icon": "spell_holy_pureofheart",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the duration of Curse, Disease and Poison effects by 30%."
   },
   "31825": {
     "name_enus": "Purifying Power",
     "icon": "spell_holy_purifyingpower",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Cleanse, Purify and Consecration spells by 10% and reduces the cooldown of your Exorcism and Holy Wrath spells by 33%."
+    "description": "Reduces the mana cost of your Cleanse, Purify and Consecration spells by 5% and reduces the cooldown of your Exorcism and Holy Wrath spells by 17%."
   },
   "31826": {
     "name_enus": "Purifying Power",
     "icon": "spell_holy_purifyingpower",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the mana cost of your Cleanse, Purify and Consecration spells by 10% and reduces the cooldown of your Exorcism and Holy Wrath spells by 33%."
   },
   "31828": {
     "name_enus": "Blessed Life",
     "icon": "spell_holy_blessedlife",
     "rank_enus": "Rank 1",
-    "description": "All attacks against you have a 7% chance to cause half damage."
+    "description": "All attacks against you have a 4% chance to cause half damage."
   },
   "31829": {
     "name_enus": "Blessed Life",
     "icon": "spell_holy_blessedlife",
     "rank_enus": "Rank 2",
-    "description": "All attacks against you have a 10% chance to cause half damage."
+    "description": "All attacks against you have a 7% chance to cause half damage."
   },
   "31830": {
     "name_enus": "Blessed Life",
     "icon": "spell_holy_blessedlife",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "All attacks against you have a 10% chance to cause half damage."
   },
   "31833": {
     "name_enus": "Light's Grace",
     "icon": "spell_holy_lightsgrace",
     "rank_enus": "Rank 1",
-    "description": "Gives your Holy Light spell a 66% chance to reduce the cast time of your next Holy Light spell by 0.5 sec.  This effect lasts 15 sec."
+    "description": "Gives your Holy Light spell a 33% chance to reduce the cast time of your next Holy Light spell by 0.5 sec.  This effect lasts 15 sec."
   },
   "31835": {
     "name_enus": "Light's Grace",
     "icon": "spell_holy_lightsgrace",
     "rank_enus": "Rank 2",
-    "description": "Gives your Holy Light spell a 100% chance to reduce the cast time of your next Holy Light spell by 0.5 sec.  This effect lasts 15 sec."
+    "description": "Gives your Holy Light spell a 66% chance to reduce the cast time of your next Holy Light spell by 0.5 sec.  This effect lasts 15 sec."
   },
   "31836": {
     "name_enus": "Light's Grace",
     "icon": "spell_holy_lightsgrace",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives your Holy Light spell a 100% chance to reduce the cast time of your next Holy Light spell by 0.5 sec.  This effect lasts 15 sec."
   },
   "31837": {
     "name_enus": "Holy Guidance",
     "icon": "spell_holy_holyguidance",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell power by 8% of your total Intellect."
+    "description": "Increases your spell power by 4% of your total Intellect."
   },
   "31838": {
     "name_enus": "Holy Guidance",
     "icon": "spell_holy_holyguidance",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell power by 12% of your total Intellect."
+    "description": "Increases your spell power by 8% of your total Intellect."
   },
   "31839": {
     "name_enus": "Holy Guidance",
     "icon": "spell_holy_holyguidance",
     "rank_enus": "Rank 3",
-    "description": "Increases your spell power by 16% of your total Intellect."
+    "description": "Increases your spell power by 12% of your total Intellect."
   },
   "31840": {
     "name_enus": "Holy Guidance",
     "icon": "spell_holy_holyguidance",
     "rank_enus": "Rank 4",
-    "description": "Increases your spell power by 20% of your total Intellect."
+    "description": "Increases your spell power by 16% of your total Intellect."
   },
   "31841": {
     "name_enus": "Holy Guidance",
     "icon": "spell_holy_holyguidance",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your spell power by 20% of your total Intellect."
   },
   "31842": {
     "name_enus": "Divine Illumination",
@@ -7747,211 +7731,211 @@ export const spells = {
     "name_enus": "Stoicism",
     "icon": "spell_holy_stoicism",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of all Stun effects by an additional 20% and reduces the chance your helpful spells and damage over time effects will be dispelled by an additional 20%."
+    "description": "Reduces the duration of all Stun effects by an additional 10% and reduces the chance your helpful spells and damage over time effects will be dispelled by an additional 10%."
   },
   "31845": {
     "name_enus": "Stoicism",
     "icon": "spell_holy_stoicism",
     "rank_enus": "Rank 2",
-    "description": "Reduces the duration of all Stun effects by an additional 30% and reduces the chance your helpful spells and damage over time effects will be dispelled by an additional 30%."
+    "description": "Reduces the duration of all Stun effects by an additional 20% and reduces the chance your helpful spells and damage over time effects will be dispelled by an additional 20%."
   },
   "31848": {
     "name_enus": "Sacred Duty",
     "icon": "spell_holy_divineintervention",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Stamina by 4%, reduces the cooldown of your Divine Shield and Divine Protection spells by 60 sec."
+    "description": "Increases your total Stamina by 2%, reduces the cooldown of your Divine Shield and Divine Protection spells by 30 sec."
   },
   "31849": {
     "name_enus": "Sacred Duty",
     "icon": "spell_holy_divineintervention",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your total Stamina by 4%, reduces the cooldown of your Divine Shield and Divine Protection spells by 60 sec."
   },
   "31850": {
     "name_enus": "Ardent Defender",
     "icon": "spell_holy_ardentdefender",
     "rank_enus": "Rank 1",
-    "description": "Damage that takes you below 35% health is reduced by 13%.  In addition, attacks which would otherwise kill you cause you to be healed by up to 20% of your maximum health (amount healed based on defense).  This healing effect cannot occur more often than once every 2 min."
+    "description": "Damage that takes you below 35% health is reduced by 7%.  In addition, attacks which would otherwise kill you cause you to be healed by up to 10% of your maximum health (amount healed based on defense).  This healing effect cannot occur more often than once every 2 min."
   },
   "31851": {
     "name_enus": "Ardent Defender",
     "icon": "spell_holy_ardentdefender",
     "rank_enus": "Rank 2",
-    "description": "Damage that takes you below 35% health is reduced by 20%.  In addition, attacks which would otherwise kill you cause you to be healed by up to 30% of your maximum health (amount healed based on defense).  This healing effect cannot occur more often than once every 2 min."
+    "description": "Damage that takes you below 35% health is reduced by 13%.  In addition, attacks which would otherwise kill you cause you to be healed by up to 20% of your maximum health (amount healed based on defense).  This healing effect cannot occur more often than once every 2 min."
   },
   "31852": {
     "name_enus": "Ardent Defender",
     "icon": "spell_holy_ardentdefender",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Damage that takes you below 35% health is reduced by 20%.  In addition, attacks which would otherwise kill you cause you to be healed by up to 30% of your maximum health (amount healed based on defense).  This healing effect cannot occur more often than once every 2 min."
   },
   "31858": {
     "name_enus": "Combat Expertise",
     "icon": "spell_holy_weaponmastery",
     "rank_enus": "Rank 1",
-    "description": "Increases your expertise by 4, total Stamina and chance to critically hit by 4%."
+    "description": "Increases your expertise by 2, total Stamina and chance to critically hit by 2%."
   },
   "31859": {
     "name_enus": "Combat Expertise",
     "icon": "spell_holy_weaponmastery",
     "rank_enus": "Rank 2",
-    "description": "Increases your expertise by 6, total Stamina and chance to critically hit by 6%."
+    "description": "Increases your expertise by 4, total Stamina and chance to critically hit by 4%."
   },
   "31860": {
     "name_enus": "Combat Expertise",
     "icon": "spell_holy_weaponmastery",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your expertise by 6, total Stamina and chance to critically hit by 6%."
   },
   "31866": {
     "name_enus": "Crusade",
     "icon": "spell_holy_crusade",
     "rank_enus": "Rank 1",
-    "description": "Increases all damage caused by 2% and all damage caused against Humanoids, Demons, Undead and Elementals by an additional 2%."
+    "description": "Increases all damage caused by 1% and all damage caused against Humanoids, Demons, Undead and Elementals by an additional 1%."
   },
   "31867": {
     "name_enus": "Crusade",
     "icon": "spell_holy_crusade",
     "rank_enus": "Rank 2",
-    "description": "Increases all damage caused by 3% and all damage caused against Humanoids, Demons, Undead and Elementals by an additional 3%."
+    "description": "Increases all damage caused by 2% and all damage caused against Humanoids, Demons, Undead and Elementals by an additional 2%."
   },
   "31868": {
     "name_enus": "Crusade",
     "icon": "spell_holy_crusade",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases all damage caused by 3% and all damage caused against Humanoids, Demons, Undead and Elementals by an additional 3%."
   },
   "31869": {
     "name_enus": "Sanctified Retribution",
     "icon": "spell_holy_mindvision",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the damage caused by Retribution Aura by 50% and all damage caused by friendly targets affected by any of your Auras is increased by 3%."
   },
   "31871": {
     "name_enus": "Divine Purpose",
     "icon": "spell_holy_divinepurpose",
     "rank_enus": "Rank 1",
-    "description": "Reduces your chance to be hit by spells and ranged attacks by 4% and gives your Hand of Freedom spell a 100% chance to remove any Stun effects on the target."
+    "description": "Reduces your chance to be hit by spells and ranged attacks by 2% and gives your Hand of Freedom spell a 50% chance to remove any Stun effects on the target."
   },
   "31872": {
     "name_enus": "Divine Purpose",
     "icon": "spell_holy_divinepurpose",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces your chance to be hit by spells and ranged attacks by 4% and gives your Hand of Freedom spell a 100% chance to remove any Stun effects on the target."
   },
   "31876": {
     "name_enus": "Judgements of the Wise",
     "icon": "ability_paladin_judgementofthewise",
     "rank_enus": "Rank 1",
-    "description": "Your damaging Judgement spells have a 66% chance to grant the Replenishment effect to up to 10 party or raid members mana regeneration equal to 1% of their maximum mana per 5 sec for 15 sec, and to immediately grant you 25% of your base mana."
+    "description": "Your damaging Judgement spells have a 33% chance to grant the Replenishment effect to up to 10 party or raid members mana regeneration equal to 1% of their maximum mana per 5 sec for 15 sec, and to immediately grant you 25% of your base mana."
   },
   "31877": {
     "name_enus": "Judgements of the Wise",
     "icon": "ability_paladin_judgementofthewise",
     "rank_enus": "Rank 2",
-    "description": "Your damaging Judgement spells have a 100% chance to grant the Replenishment effect to up to 10 party or raid members mana regeneration equal to 1% of their maximum mana per 5 sec for 15 sec, and to immediately grant you 25% of your base mana."
+    "description": "Your damaging Judgement spells have a 66% chance to grant the Replenishment effect to up to 10 party or raid members mana regeneration equal to 1% of their maximum mana per 5 sec for 15 sec, and to immediately grant you 25% of your base mana."
   },
   "31878": {
     "name_enus": "Judgements of the Wise",
     "icon": "ability_paladin_judgementofthewise",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your damaging Judgement spells have a 100% chance to grant the Replenishment effect to up to 10 party or raid members mana regeneration equal to 1% of their maximum mana per 5 sec for 15 sec, and to immediately grant you 25% of your base mana."
   },
   "31879": {
     "name_enus": "Fanaticism",
     "icon": "spell_holy_fanaticism",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 12% and reduces threat caused by all actions by 20% except when under the effects of Righteous Fury."
+    "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 6% and reduces threat caused by all actions by 10% except when under the effects of Righteous Fury."
   },
   "31880": {
     "name_enus": "Fanaticism",
     "icon": "spell_holy_fanaticism",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 18% and reduces threat caused by all actions by 30% except when under the effects of Righteous Fury."
+    "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 12% and reduces threat caused by all actions by 20% except when under the effects of Righteous Fury."
   },
   "31881": {
     "name_enus": "Fanaticism",
     "icon": "spell_holy_fanaticism",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 18% and reduces threat caused by all actions by 30% except when under the effects of Righteous Fury."
   },
   "31935": {
     "name_enus": "Avenger's Shield",
     "icon": "spell_holy_avengersshield",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Hurls a holy shield at the enemy, dealing 440+0.07*HolP+0.07*AP to 536+0.07*HolP+0.07*AP Holy damage, Dazing them and then jumping to additional nearby enemies.  Affects 3 total targets.  Lasts 10 sec."
   },
   "32043": {
     "name_enus": "Sanctity of Battle",
     "icon": "spell_holy_holysmite",
     "rank_enus": "Rank 1",
-    "description": "In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional 2%."
+    "description": "Increases your chance to critically hit with all spells and attacks by 1% and increases the damage caused by Exorcism and Crusader Strike by 5%."
   },
   "32381": {
     "name_enus": "Empowered Corruption",
     "icon": "spell_shadow_abominationexplosion",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Corruption by 4%, and increases the critical strike chance of your Seed of Corruption by 2%."
+    "description": "Increases the damage of your Corruption spell by an amount equal to 12% of your spell power."
   },
   "32382": {
     "name_enus": "Empowered Corruption",
     "icon": "spell_shadow_abominationexplosion",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Corruption by 6%, and increases the critical strike chance of your Seed of Corruption by 3%."
+    "description": "Increases the damage of your Corruption spell by an amount equal to 24% of your spell power."
   },
   "32383": {
     "name_enus": "Empowered Corruption",
     "icon": "spell_shadow_abominationexplosion",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Corruption by 8%, and increases the critical strike chance of your Seed of Corruption by 4%."
+    "description": "Increases the damage of your Corruption spell by an amount equal to 36% of your spell power."
   },
   "32385": {
     "name_enus": "Shadow Embrace",
     "icon": "spell_shadow_shadowembrace",
     "rank_enus": "Rank 1",
-    "description": "Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all shadow periodic damage dealt to the target by you by 2%, and reduces all periodic healing done to the target by 4%. Lasts for 12 sec. Stacks up to 3 times."
+    "description": "Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all shadow periodic damage dealt to the target by you by 1%, and reduces all periodic healing done to the target by 2%. Lasts for 12 sec. Stacks up to 3  times."
   },
   "32387": {
     "name_enus": "Shadow Embrace",
     "icon": "spell_shadow_shadowembrace",
     "rank_enus": "Rank 2",
-    "description": "Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all shadow periodic damage dealt to the target by you by 3%, and reduces all periodic healing done to the target by 6%. Lasts for 12 sec. Stacks up to 3 times."
+    "description": "Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all shadow periodic damage dealt to the target by you by 2%, and reduces all periodic healing done to the target by 4%. Lasts for 12 sec. Stacks up to 3 times."
   },
   "32392": {
     "name_enus": "Shadow Embrace",
     "icon": "spell_shadow_shadowembrace",
     "rank_enus": "Rank 3",
-    "description": "Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all shadow periodic damage dealt to the target by you by 4%, and reduces all periodic healing done to the target by 8%. Lasts for 12 sec. Stacks up to 3 times."
+    "description": "Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all shadow periodic damage dealt to the target by you by 3%, and reduces all periodic healing done to the target by 6%. Lasts for 12 sec. Stacks up to 3 times."
   },
   "32393": {
     "name_enus": "Shadow Embrace",
     "icon": "spell_shadow_shadowembrace",
     "rank_enus": "Rank 4",
-    "description": "Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all shadow periodic damage dealt to the target by you by 5%, and reduces all periodic healing done to the target by 10%. Lasts for 12 sec. Stacks up to 3 times."
+    "description": "Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all shadow periodic damage dealt to the target by you by 4%, and reduces all periodic healing done to the target by 8%. Lasts for 12 sec. Stacks up to 3 times."
   },
   "32394": {
     "name_enus": "Shadow Embrace",
     "icon": "spell_shadow_shadowembrace",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your Shadow Bolt and Haunt spells apply the Shadow Embrace effect, increasing all shadow periodic damage dealt to the target by you by 5%, and reduces all periodic healing done to the target by 10%. Lasts for 12 sec. Stacks up to 3 times."
   },
   "32477": {
     "name_enus": "Malediction",
     "icon": "spell_shadow_curseofachimonde",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell damage by 2%, and increases the periodic critical strike chance of your Corruption and Unstable Affliction spells by 6%."
+    "description": "Increases your spell damage by 1%, and increases the periodic critical strike chance of your Corruption and Unstable Affliction spells by 3%."
   },
   "32483": {
     "name_enus": "Malediction",
     "icon": "spell_shadow_curseofachimonde",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell damage by 3%, and increases the periodic critical strike chance of your Corruption and Unstable Affliction spells by 9%."
+    "description": "Increases your spell damage by 2%, and increases the periodic critical strike chance of your Corruption and Unstable Affliction spells by 6%."
   },
   "32484": {
     "name_enus": "Malediction",
     "icon": "spell_shadow_curseofachimonde",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your spell damage by 3%, and increases the periodic critical strike chance of your Corruption and Unstable Affliction spells by 9%."
   },
   "32601": {
     "name_enus": "Surprise Attacks",
@@ -7963,121 +7947,121 @@ export const spells = {
     "name_enus": "Blessed Resilience",
     "icon": "spell_holy_blessedresillience",
     "rank_enus": "Rank 1",
-    "description": "Increases the effectiveness of your healing spells by 2%, and critical hits made against you have a 40% chance to prevent you from being critically hit again for 6 sec."
+    "description": "Increases the effectiveness of your healing spells by 1%, and critical hits made against you have a 20% chance to prevent you from being critically hit again for 6 sec."
   },
   "33145": {
     "name_enus": "Blessed Resilience",
     "icon": "spell_holy_blessedresillience",
     "rank_enus": "Rank 2",
-    "description": "Increases the effectiveness of your healing spells by 3%, and critical hits made against you have a 60% chance to prevent you from being critically hit again for 6 sec."
+    "description": "Increases the effectiveness of your healing spells by 2%, and critical hits made against you have a 40% chance to prevent you from being critically hit again for 6 sec."
   },
   "33146": {
     "name_enus": "Blessed Resilience",
     "icon": "spell_holy_blessedresillience",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effectiveness of your healing spells by 3%, and critical hits made against you have a 60% chance to prevent you from being critically hit again for 6 sec."
   },
   "33150": {
     "name_enus": "Surge of Light",
     "icon": "spell_holy_surgeoflight",
     "rank_enus": "Rank 1",
-    "description": "Your spell criticals have a 50% chance to cause your next Smite or Flash Heal spell to be instant cast, cost no mana but be incapable of a critical hit.  This effect lasts 10 sec."
+    "description": "Your spell criticals have a 25% chance to cause your next Smite or Flash Heal spell to be instant cast, cost no mana but be incapable of a critical hit.  This effect lasts 10 sec."
   },
   "33154": {
     "name_enus": "Surge of Light",
     "icon": "spell_holy_surgeoflight",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your spell criticals have a 50% chance to cause your next Smite or Flash Heal spell to be instant cast, cost no mana but be incapable of a critical hit.  This effect lasts 10 sec."
   },
   "33158": {
     "name_enus": "Empowered Healing",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 1",
-    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 40% chance to gain mana equal to 30% of the base cost of the spell."
+    "description": "Your Greater Heal spell gains an additional 8% and your Flash Heal and Binding Heal gain an additional 4% of your bonus healing effects."
   },
   "33159": {
     "name_enus": "Empowered Healing",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 2",
-    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 60% chance to gain mana equal to 30% of the base cost of the spell."
+    "description": "Your Greater Heal spell gains an additional 16% and your Flash Heal and Binding Heal gain an additional 8% of your bonus healing effects."
   },
   "33160": {
     "name_enus": "Empowered Healing",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 3",
-    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 80% chance to gain mana equal to 30% of the base cost of the spell."
+    "description": "Your Greater Heal spell gains an additional 24% and your Flash Heal and Binding Heal gain an additional 12% of your bonus healing effects."
   },
   "33161": {
     "name_enus": "Empowered Healing",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 4",
-    "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell you have a 100% chance to gain mana equal to 30% of the base cost of the spell."
+    "description": "Your Greater Heal spell gains an additional 32% and your Flash Heal and Binding Heal gain an additional 16% of your bonus healing effects."
   },
   "33162": {
     "name_enus": "Empowered Healing",
     "icon": "spell_holy_greaterheal",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your Greater Heal spell gains an additional 40% and your Flash Heal and Binding Heal gain an additional 20% of your bonus healing effects."
   },
   "33167": {
     "name_enus": "Absolution",
     "icon": "spell_holy_absolution",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Dispel Magic, Cure Disease, Abolish Disease and Mass Dispel spells by 10%."
+    "description": "Reduces the mana cost of your Dispel Magic, Cure Disease, Abolish Disease and Mass Dispel spells by 5%."
   },
   "33171": {
     "name_enus": "Absolution",
     "icon": "spell_holy_absolution",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of your Dispel Magic, Cure Disease, Abolish Disease and Mass Dispel spells by 15%."
+    "description": "Reduces the mana cost of your Dispel Magic, Cure Disease, Abolish Disease and Mass Dispel spells by 10%."
   },
   "33172": {
     "name_enus": "Absolution",
     "icon": "spell_holy_absolution",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of your Dispel Magic, Cure Disease, Abolish Disease and Mass Dispel spells by 15%."
   },
   "33186": {
     "name_enus": "Focused Power",
     "icon": "spell_shadow_focusedpower",
     "rank_enus": "Rank 1",
-    "description": "Increases damage and healing done by your spells by 4%. In addition, your Mass Dispel cast time is reduced by 1 sec."
+    "description": "Increases damage and healing done by your spells by 2%. In addition, your Mass Dispel cast time is reduced by 0.5 sec."
   },
   "33190": {
     "name_enus": "Focused Power",
     "icon": "spell_shadow_focusedpower",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases damage and healing done by your spells by 4%. In addition, your Mass Dispel cast time is reduced by 1 sec."
   },
   "33191": {
     "name_enus": "Misery",
     "icon": "spell_shadow_misery",
     "rank_enus": "Rank 1",
-    "description": "Your Shadow Word: Pain, Mind Flay and Vampiric Touch spells also increase the chance for harmful spells to hit by 2% lasting 24 sec, and increases the benefit from spell power gained by your Mind Blast, Mind Flay and Mind Sear spells by 10%."
+    "description": "Your Shadow Word: Pain, Mind Flay and Vampiric Touch spells also increase the chance for harmful spells to hit by 1% lasting 24 sec, and increases the benefit from spell power gained by your Mind Blast, Mind Flay and Mind Sear spells by 5%."
   },
   "33192": {
     "name_enus": "Misery",
     "icon": "spell_shadow_misery",
     "rank_enus": "Rank 2",
-    "description": "Your Shadow Word: Pain, Mind Flay and Vampiric Touch spells also increase the chance for harmful spells to hit by 3% lasting 24 sec, and increases the benefit from spell power gained by your Mind Blast, Mind Flay and Mind Sear spells by 15%."
+    "description": "Your Shadow Word: Pain, Mind Flay and Vampiric Touch spells also increase the chance for harmful spells to hit by 2% lasting 24 sec, and increases the benefit from spell power gained by your Mind Blast, Mind Flay and Mind Sear spells by 10%."
   },
   "33193": {
     "name_enus": "Misery",
     "icon": "spell_shadow_misery",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Shadow Word: Pain, Mind Flay and Vampiric Touch spells also increase the chance for harmful spells to hit by 3% lasting 24 sec, and increases the benefit from spell power gained by your Mind Blast, Mind Flay and Mind Sear spells by 15%."
   },
   "33201": {
     "name_enus": "Reflective Shield",
     "icon": "spell_holy_powerwordshield",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage absorbed by your Power Word: Shield by 10%."
+    "description": "Causes 22% of the damage you absorb with Power Word: Shield to reflect back at the attacker.  This damage causes no threat."
   },
   "33202": {
     "name_enus": "Reflective Shield",
     "icon": "spell_holy_powerwordshield",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage absorbed by your Power Word: Shield by 15%."
+    "description": "Causes 45% of the damage you absorb with Power Word: Shield to reflect back at the attacker.  This damage causes no threat."
   },
   "33206": {
     "name_enus": "Pain Suppression",
@@ -8089,151 +8073,151 @@ export const spells = {
     "name_enus": "Focused Mind",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 10%."
+    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 5%."
   },
   "33214": {
     "name_enus": "Focused Mind",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 15%."
+    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 10%."
   },
   "33215": {
     "name_enus": "Focused Mind",
     "icon": "spell_nature_focusedmind",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of your Mind Blast, Mind Control, Mind Flay and Mind Sear spells by 15%."
   },
   "33221": {
     "name_enus": "Shadow Power",
     "icon": "spell_shadow_shadowpower",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike damage bonus of your Mind Blast, Mind Flay, and Shadow Word: Death spells by 40%."
+    "description": "Increases the critical strike damage bonus of your Mind Blast, Mind Flay, and Shadow Word: Death spells by 20%."
   },
   "33222": {
     "name_enus": "Shadow Power",
     "icon": "spell_shadow_shadowpower",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike damage bonus of your Mind Blast, Mind Flay, and Shadow Word: Death spells by 60%."
+    "description": "Increases the critical strike damage bonus of your Mind Blast, Mind Flay, and Shadow Word: Death spells by 40%."
   },
   "33223": {
     "name_enus": "Shadow Power",
     "icon": "spell_shadow_shadowpower",
     "rank_enus": "Rank 3",
-    "description": "Increases the critical strike damage bonus of your Mind Blast, Mind Flay, and Shadow Word: Death spells by 80%."
+    "description": "Increases the critical strike damage bonus of your Mind Blast, Mind Flay, and Shadow Word: Death spells by 60%."
   },
   "33224": {
     "name_enus": "Shadow Power",
     "icon": "spell_shadow_shadowpower",
     "rank_enus": "Rank 4",
-    "description": "Increases the critical strike damage bonus of your Mind Blast, Mind Flay, and Shadow Word: Death spells by 100%."
+    "description": "Increases the critical strike damage bonus of your Mind Blast, Mind Flay, and Shadow Word: Death spells by 80%."
   },
   "33225": {
     "name_enus": "Shadow Power",
     "icon": "spell_shadow_shadowpower",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Mind Blast, Mind Flay, and Shadow Word: Death spells by 100%."
   },
   "33371": {
     "name_enus": "Mind Melt",
     "icon": "spell_shadow_skull",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike chance of your Mind Blast, Mind Flay and Mind Sear spells by 4%, and increases the periodic critical strike chance of your Vampiric Touch, Devouring Plague and Shadow Word: Pain spells by 6%."
   },
   "33589": {
     "name_enus": "Lunar Guidance",
     "icon": "ability_druid_lunarguidance",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell power by 8% of your total Intellect."
+    "description": "Increases your spell power by 4% of your total Intellect."
   },
   "33590": {
     "name_enus": "Lunar Guidance",
     "icon": "ability_druid_lunarguidance",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell power by 12% of your total Intellect."
+    "description": "Increases your spell power by 8% of your total Intellect."
   },
   "33591": {
     "name_enus": "Lunar Guidance",
     "icon": "ability_druid_lunarguidance",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your spell power by 12% of your total Intellect."
   },
   "33592": {
     "name_enus": "Balance of Power",
     "icon": "ability_druid_balanceofpower",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with all spells by 4% and reduces your damage taken from all spells by 6%."
+    "description": "Increases your chance to hit with all spells by 2% and reduces your damage taken from all spells by 3%."
   },
   "33596": {
     "name_enus": "Balance of Power",
     "icon": "ability_druid_balanceofpower",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your chance to hit with all spells by 4% and reduces your damage taken from all spells by 6%."
   },
   "33597": {
     "name_enus": "Dreamstate",
     "icon": "ability_druid_dreamstate",
     "rank_enus": "Rank 1",
-    "description": "Regenerate mana equal to 7% of your Intellect every 5 sec, even while casting."
+    "description": "Regenerate mana equal to 4% of your Intellect every 5 sec, even while casting."
   },
   "33599": {
     "name_enus": "Dreamstate",
     "icon": "ability_druid_dreamstate",
     "rank_enus": "Rank 2",
-    "description": "Regenerate mana equal to 10% of your Intellect every 5 sec, even while casting."
+    "description": "Regenerate mana equal to 7% of your Intellect every 5 sec, even while casting."
   },
   "33600": {
     "name_enus": "Improved Faerie Fire",
     "icon": "spell_nature_faeriefire",
     "rank_enus": "Rank 1",
-    "description": "Your Faerie Fire spell also increases the chance the target will be hit by spell attacks by 2%, and increases the critical strike chance of your damage spells by 2% on targets afflicted by Faerie Fire."
+    "description": "Your Faerie Fire spell also increases the chance the target will be hit by spell attacks by 1%, and increases the critical strike chance of your damage spells by 1% on targets afflicted by Faerie Fire."
   },
   "33601": {
     "name_enus": "Improved Faerie Fire",
     "icon": "spell_nature_faeriefire",
     "rank_enus": "Rank 2",
-    "description": "Your Faerie Fire spell also increases the chance the target will be hit by spell attacks by 3%, and increases the critical strike chance of your damage spells by 3% on targets afflicted by Faerie Fire."
+    "description": "Your Faerie Fire spell also increases the chance the target will be hit by spell attacks by 2%, and increases the critical strike chance of your damage spells by 2% on targets afflicted by Faerie Fire."
   },
   "33602": {
     "name_enus": "Improved Faerie Fire",
     "icon": "spell_nature_faeriefire",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Faerie Fire spell also increases the chance the target will be hit by spell attacks by 3%, and increases the critical strike chance of your damage spells by 3% on targets afflicted by Faerie Fire."
   },
   "33603": {
     "name_enus": "Wrath of Cenarius",
     "icon": "ability_druid_twilightswrath",
     "rank_enus": "Rank 1",
-    "description": "Your Starfire spell gains an additional 8% and your Wrath gains an additional 4% of your bonus damage effects."
+    "description": "Your Starfire spell gains an additional 4% and your Wrath gains an additional 2% of your bonus damage effects."
   },
   "33604": {
     "name_enus": "Wrath of Cenarius",
     "icon": "ability_druid_twilightswrath",
     "rank_enus": "Rank 2",
-    "description": "Your Starfire spell gains an additional 12% and your Wrath gains an additional 6% of your bonus damage effects."
+    "description": "Your Starfire spell gains an additional 8% and your Wrath gains an additional 4% of your bonus damage effects."
   },
   "33605": {
     "name_enus": "Wrath of Cenarius",
     "icon": "ability_druid_twilightswrath",
     "rank_enus": "Rank 3",
-    "description": "Your Starfire spell gains an additional 16% and your Wrath gains an additional 8% of your bonus damage effects."
+    "description": "Your Starfire spell gains an additional 12% and your Wrath gains an additional 6% of your bonus damage effects."
   },
   "33606": {
     "name_enus": "Wrath of Cenarius",
     "icon": "ability_druid_twilightswrath",
     "rank_enus": "Rank 4",
-    "description": "Your Starfire spell gains an additional 20% and your Wrath gains an additional 10% of your bonus damage effects."
+    "description": "Your Starfire spell gains an additional 16% and your Wrath gains an additional 8% of your bonus damage effects."
   },
   "33607": {
     "name_enus": "Wrath of Cenarius",
     "icon": "ability_druid_twilightswrath",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your Starfire spell gains an additional 20% and your Wrath gains an additional 10% of your bonus damage effects."
   },
   "33776": {
     "name_enus": "Spiritual Attunement",
     "icon": "spell_holy_revivechampion",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "A passive ability that gives the Paladin mana when healed by other friendly targets' spells.  The amount of mana gained is equal to 10% of the amount healed."
   },
   "33831": {
     "name_enus": "Force of Nature",
@@ -8245,325 +8229,325 @@ export const spells = {
     "name_enus": "Primal Tenacity",
     "icon": "ability_druid_primaltenacity",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of fear effects by 20%, reduces all damage taken while stunned by 20% while in Cat Form."
+    "description": "Reduces the duration of fear effects by 10%, reduces all damage taken while stunned by 10% while in Cat Form."
   },
   "33852": {
     "name_enus": "Primal Tenacity",
     "icon": "ability_druid_primaltenacity",
     "rank_enus": "Rank 2",
-    "description": "Reduces the duration of fear effects by 30%, reduces all damage taken while stunned by 30% while in Cat Form."
+    "description": "Reduces the duration of fear effects by 20%, reduces all damage taken while stunned by 20% while in Cat Form."
   },
   "33853": {
     "name_enus": "Survival of the Fittest",
     "icon": "ability_druid_enrage",
     "rank_enus": "Rank 1",
-    "description": "Increases all attributes by 4%, reduces the chance you'll be critically hit by melee attacks by 4%, and increases your armor contribution from cloth and leather items in Bear Form and Dire Bear Form by 22%."
+    "description": "Increases all attributes by 2%, reduces the chance you'll be critically hit by melee attacks by 2%, and increases your armor contribution from cloth and leather items in Bear Form and Dire Bear Form by 11%."
   },
   "33855": {
     "name_enus": "Survival of the Fittest",
     "icon": "ability_druid_enrage",
     "rank_enus": "Rank 2",
-    "description": "Increases all attributes by 6%, reduces the chance you'll be critically hit by melee attacks by 6%, and increases your armor contribution from cloth and leather items in Bear Form and Dire Bear Form by 33%."
+    "description": "Increases all attributes by 4%, reduces the chance you'll be critically hit by melee attacks by 4%, and increases your armor contribution from cloth and leather items in Bear Form and Dire Bear Form by 22%."
   },
   "33856": {
     "name_enus": "Survival of the Fittest",
     "icon": "ability_druid_enrage",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases all attributes by 6%, reduces the chance you'll be critically hit by melee attacks by 6%, and increases your armor contribution from cloth and leather items in Bear Form and Dire Bear Form by 33%."
   },
   "33859": {
     "name_enus": "Predatory Instincts",
     "icon": "ability_druid_predatoryinstincts",
     "rank_enus": "Rank 1",
-    "description": "While in Cat Form increases your damage from melee critical strikes by 7% and reduces the damage taken from area of effect attacks by 20%."
+    "description": "While in Cat Form increases your damage from melee critical strikes by 3% and reduces the damage taken from area of effect attacks by 10%."
   },
   "33866": {
     "name_enus": "Predatory Instincts",
     "icon": "ability_druid_predatoryinstincts",
     "rank_enus": "Rank 2",
-    "description": "While in Cat Form increases your damage from melee critical strikes by 10% and reduces the damage taken from area of effect attacks by 30%."
+    "description": "While in Cat Form increases your damage from melee critical strikes by 7% and reduces the damage taken from area of effect attacks by 20%."
   },
   "33867": {
     "name_enus": "Predatory Instincts",
     "icon": "ability_druid_predatoryinstincts",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "While in Cat Form increases your damage from melee critical strikes by 10% and reduces the damage taken from area of effect attacks by 30%."
   },
   "33872": {
     "name_enus": "Nurturing Instinct",
     "icon": "ability_druid_healinginstincts",
     "rank_enus": "Rank 1",
-    "description": "Increases your healing spells by up to 70% of your Agility, and increases healing done to you by 20% while in Cat form."
+    "description": "Increases your healing spells by up to 35% of your Agility, and increases healing done to you by 10% while in Cat form."
   },
   "33873": {
     "name_enus": "Nurturing Instinct",
     "icon": "ability_druid_healinginstincts",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your healing spells by up to 70% of your Agility, and increases healing done to you by 20% while in Cat form."
   },
   "33879": {
     "name_enus": "Empowered Touch",
     "icon": "ability_druid_empoweredtouch",
     "rank_enus": "Rank 1",
-    "description": "Your Healing Touch spell gains an additional 40% and your Nourish spell gains an additional 20% of your bonus healing effects."
+    "description": "Your Healing Touch spell gains an additional 20% and your Nourish spell gains an additional 10% of your bonus healing effects."
   },
   "33880": {
     "name_enus": "Empowered Touch",
     "icon": "ability_druid_empoweredtouch",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Healing Touch spell gains an additional 40% and your Nourish spell gains an additional 20% of your bonus healing effects."
   },
   "33881": {
     "name_enus": "Natural Perfection",
     "icon": "ability_druid_naturalperfection",
     "rank_enus": "Rank 1",
-    "description": "Your critical strike chance with all spells is increased by 2% and critical strikes against you give you the Natural Perfection effect reducing all damage taken by 3%.  Stacks up to 3 times.  Lasts 8 sec."
+    "description": "Your critical strike chance with all spells is increased by 1% and critical strikes against you give you the Natural Perfection effect reducing all damage taken by 2%.  Stacks up to 3 times.  Lasts 8 sec."
   },
   "33882": {
     "name_enus": "Natural Perfection",
     "icon": "ability_druid_naturalperfection",
     "rank_enus": "Rank 2",
-    "description": "Your critical strike chance with all spells is increased by 3% and critical strikes against you give you the Natural Perfection effect reducing all damage taken by 4%.  Stacks up to 3 times.  Lasts 8 sec."
+    "description": "Your critical strike chance with all spells is increased by 2% and critical strikes against you give you the Natural Perfection effect reducing all damage taken by 3%.  Stacks up to 3 times.  Lasts 8 sec."
   },
   "33883": {
     "name_enus": "Natural Perfection",
     "icon": "ability_druid_naturalperfection",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your critical strike chance with all spells is increased by 3% and critical strikes against you give you the Natural Perfection effect reducing all damage taken by 4%.  Stacks up to 3 times.  Lasts 8 sec."
   },
   "33886": {
     "name_enus": "Empowered Rejuvenation",
     "icon": "ability_druid_empoweredrejuvination",
     "rank_enus": "Rank 1",
-    "description": "The bonus healing effects of your healing over time spells is increased by 8%."
+    "description": "The bonus healing effects of your healing over time spells is increased by 4%."
   },
   "33887": {
     "name_enus": "Empowered Rejuvenation",
     "icon": "ability_druid_empoweredrejuvination",
     "rank_enus": "Rank 2",
-    "description": "The bonus healing effects of your healing over time spells is increased by 12%."
+    "description": "The bonus healing effects of your healing over time spells is increased by 8%."
   },
   "33888": {
     "name_enus": "Empowered Rejuvenation",
     "icon": "ability_druid_empoweredrejuvination",
     "rank_enus": "Rank 3",
-    "description": "The bonus healing effects of your healing over time spells is increased by 16%."
+    "description": "The bonus healing effects of your healing over time spells is increased by 12%."
   },
   "33889": {
     "name_enus": "Empowered Rejuvenation",
     "icon": "ability_druid_empoweredrejuvination",
     "rank_enus": "Rank 4",
-    "description": "The bonus healing effects of your healing over time spells is increased by 20%."
+    "description": "The bonus healing effects of your healing over time spells is increased by 16%."
   },
   "33890": {
     "name_enus": "Empowered Rejuvenation",
     "icon": "ability_druid_empoweredrejuvination",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "The bonus healing effects of your healing over time spells is increased by 20%."
   },
   "33917": {
     "name_enus": "Mangle",
     "icon": "ability_druid_mangle2",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Mangle the target, inflicting damage and causing the target to take additional damage from bleed effects for 1 min.  This ability can be used in Cat Form or Dire Bear Form."
   },
   "33956": {
     "name_enus": "Dreamstate",
     "icon": "ability_druid_dreamstate",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Regenerate mana equal to 10% of your Intellect every 5 sec, even while casting."
   },
   "33957": {
     "name_enus": "Primal Tenacity",
     "icon": "ability_druid_primaltenacity",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the duration of fear effects by 30%, reduces all damage taken while stunned by 30% while in Cat Form."
   },
   "34151": {
     "name_enus": "Living Spirit",
     "icon": "spell_nature_giftofthewaterspirit",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Spirit by 10%."
+    "description": "Increases your total Spirit by 5%."
   },
   "34152": {
     "name_enus": "Living Spirit",
     "icon": "spell_nature_giftofthewaterspirit",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Spirit by 15%."
+    "description": "Increases your total Spirit by 10%."
   },
   "34153": {
     "name_enus": "Living Spirit",
     "icon": "spell_nature_giftofthewaterspirit",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your total Spirit by 15%."
   },
   "34293": {
     "name_enus": "Pyromaniac",
     "icon": "spell_fire_burnout",
     "rank_enus": "Rank 1",
-    "description": "Increases chance to critically hit by 2% and allows 33% of your mana regeneration to continue while casting."
+    "description": "Increases chance to critically hit by 1% and allows 17% of your mana regeneration to continue while casting."
   },
   "34295": {
     "name_enus": "Pyromaniac",
     "icon": "spell_fire_burnout",
     "rank_enus": "Rank 2",
-    "description": "Increases chance to critically hit by 3% and allows 50% of your mana regeneration to continue while casting."
+    "description": "Increases chance to critically hit by 2% and allows 33% of your mana regeneration to continue while casting."
   },
   "34296": {
     "name_enus": "Pyromaniac",
     "icon": "spell_fire_burnout",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases chance to critically hit by 3% and allows 50% of your mana regeneration to continue while casting."
   },
   "34297": {
     "name_enus": "Improved Leader of the Pack",
     "icon": "spell_nature_unyeildingstamina",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Your Leader of the Pack ability also causes affected targets to heal themselves for 2% of their total health when they critically hit with a melee or ranged attack.  The healing effect cannot occur more than once every 6 sec.  In addition, you gain 4% of your maximum mana when you benefit from this heal."
   },
   "34300": {
     "name_enus": "Improved Leader of the Pack",
     "icon": "spell_nature_unyeildingstamina",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Leader of the Pack ability also causes affected targets to heal themselves for 4% of their total health when they critically hit with a melee or ranged attack.  The healing effect cannot occur more than once every 6 sec.  In addition, you gain 8% of your maximum mana when you benefit from this heal."
   },
   "34453": {
     "name_enus": "Animal Handler",
     "icon": "ability_hunter_animalhandler",
     "rank_enus": "Rank 1",
-    "description": "Increases your pet's attack power by 10%, and increases the duration of your Master's Call effect by 6 sec."
+    "description": "Increases your pet's attack power by 5%, and increases the duration of your Master's Call effect by 3 sec."
   },
   "34454": {
     "name_enus": "Animal Handler",
     "icon": "ability_hunter_animalhandler",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your pet's attack power by 10%, and increases the duration of your Master's Call effect by 6 sec."
   },
   "34455": {
     "name_enus": "Ferocious Inspiration",
     "icon": "ability_hunter_ferociousinspiration",
     "rank_enus": "Rank 1",
-    "description": "All party and raid members have all damage increased by 2% within 100 yards of your pet. In addition, increases the damage dealt by Arcane Shot and Steady Shot by 6%."
+    "description": "All party and raid members have all damage increased by 1% within 100 yards of your pet. In addition, increases the damage dealt by Arcane Shot and Steady Shot by 3%."
   },
   "34459": {
     "name_enus": "Ferocious Inspiration",
     "icon": "ability_hunter_ferociousinspiration",
     "rank_enus": "Rank 2",
-    "description": "All party and raid members have all damage increased by 3% within 100 yards of your pet. In addition, increases the damage dealt by Arcane Shot and Steady Shot by 9%."
+    "description": "All party and raid members have all damage increased by 2% within 100 yards of your pet. In addition, increases the damage dealt by Arcane Shot and Steady Shot by 6%."
   },
   "34460": {
     "name_enus": "Ferocious Inspiration",
     "icon": "ability_hunter_ferociousinspiration",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "All party and raid members have all damage increased by 3% within 100 yards of your pet. In addition, increases the damage dealt by Arcane Shot and Steady Shot by 9%."
   },
   "34462": {
     "name_enus": "Catlike Reflexes",
     "icon": "ability_hunter_catlikereflexes",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to dodge by 2% and your pet's chance to dodge by an additional 6%. In addition, reduces the cooldown of your Kill Command ability by 20 sec."
+    "description": "Increases your chance to dodge by 1% and your pet's chance to dodge by an additional 3%. In addition, reduces the cooldown of your Kill Command ability by 10 sec."
   },
   "34464": {
     "name_enus": "Catlike Reflexes",
     "icon": "ability_hunter_catlikereflexes",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to dodge by 3% and your pet's chance to dodge by an additional 9%. In addition, reduces the cooldown of your Kill Command ability by 30 sec."
+    "description": "Increases your chance to dodge by 2% and your pet's chance to dodge by an additional 6%. In addition, reduces the cooldown of your Kill Command ability by 20 sec."
   },
   "34465": {
     "name_enus": "Catlike Reflexes",
     "icon": "ability_hunter_catlikereflexes",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to dodge by 3% and your pet's chance to dodge by an additional 9%. In addition, reduces the cooldown of your Kill Command ability by 30 sec."
   },
   "34466": {
     "name_enus": "Serpent's Swiftness",
     "icon": "ability_hunter_serpentswiftness",
     "rank_enus": "Rank 1",
-    "description": "Increases ranged combat attack speed by 8% and your pet's melee attack speed by 8%."
+    "description": "Increases ranged combat attack speed by 4% and your pet's melee attack speed by 4%."
   },
   "34467": {
     "name_enus": "Serpent's Swiftness",
     "icon": "ability_hunter_serpentswiftness",
     "rank_enus": "Rank 2",
-    "description": "Increases ranged combat attack speed by 12% and your pet's melee attack speed by 12%."
+    "description": "Increases ranged combat attack speed by 8% and your pet's melee attack speed by 8%."
   },
   "34468": {
     "name_enus": "Serpent's Swiftness",
     "icon": "ability_hunter_serpentswiftness",
     "rank_enus": "Rank 3",
-    "description": "Increases ranged combat attack speed by 16% and your pet's melee attack speed by 16%."
+    "description": "Increases ranged combat attack speed by 12% and your pet's melee attack speed by 12%."
   },
   "34469": {
     "name_enus": "Serpent's Swiftness",
     "icon": "ability_hunter_serpentswiftness",
     "rank_enus": "Rank 4",
-    "description": "Increases ranged combat attack speed by 20% and your pet's melee attack speed by 20%."
+    "description": "Increases ranged combat attack speed by 16% and your pet's melee attack speed by 16%."
   },
   "34470": {
     "name_enus": "Serpent's Swiftness",
     "icon": "ability_hunter_serpentswiftness",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases ranged combat attack speed by 20% and your pet's melee attack speed by 20%."
   },
   "34475": {
     "name_enus": "Combat Experience",
     "icon": "ability_hunter_combatexperience",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Agility and Intellect by 4%."
+    "description": "Increases your total Agility and Intellect by 2%."
   },
   "34476": {
     "name_enus": "Combat Experience",
     "icon": "ability_hunter_combatexperience",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your total Agility and Intellect by 4%."
   },
   "34482": {
     "name_enus": "Careful Aim",
     "icon": "ability_hunter_zenarchery",
     "rank_enus": "Rank 1",
-    "description": "Increases your ranged attack power by an amount equal to 66% of your total Intellect."
+    "description": "Increases your ranged attack power by an amount equal to 33% of your total Intellect."
   },
   "34483": {
     "name_enus": "Careful Aim",
     "icon": "ability_hunter_zenarchery",
     "rank_enus": "Rank 2",
-    "description": "Increases your ranged attack power by an amount equal to 100% of your total Intellect."
+    "description": "Increases your ranged attack power by an amount equal to 66% of your total Intellect."
   },
   "34484": {
     "name_enus": "Careful Aim",
     "icon": "ability_hunter_zenarchery",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your ranged attack power by an amount equal to 100% of your total Intellect."
   },
   "34485": {
     "name_enus": "Master Marksman",
     "icon": "ability_hunter_mastermarksman",
     "rank_enus": "Rank 1",
-    "description": "Increases your critical strike chance by 2%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by 10%."
+    "description": "Increases your critical strike chance by 1%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by 5%."
   },
   "34486": {
     "name_enus": "Master Marksman",
     "icon": "ability_hunter_mastermarksman",
     "rank_enus": "Rank 2",
-    "description": "Increases your critical strike chance by 3%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by 15%."
+    "description": "Increases your critical strike chance by 2%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by 10%."
   },
   "34487": {
     "name_enus": "Master Marksman",
     "icon": "ability_hunter_mastermarksman",
     "rank_enus": "Rank 3",
-    "description": "Increases your critical strike chance by 4%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by 20%."
+    "description": "Increases your critical strike chance by 3%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by 15%."
   },
   "34488": {
     "name_enus": "Master Marksman",
     "icon": "ability_hunter_mastermarksman",
     "rank_enus": "Rank 4",
-    "description": "Increases your critical strike chance by 5%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by 25%."
+    "description": "Increases your critical strike chance by 4%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by 20%."
   },
   "34489": {
     "name_enus": "Master Marksman",
     "icon": "ability_hunter_mastermarksman",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your critical strike chance by 5%, and reduces the Mana cost of your Steady Shot, Aimed Shot, and Chimera Shot by 25%."
   },
   "34490": {
     "name_enus": "Silencing Shot",
@@ -8575,85 +8559,84 @@ export const spells = {
     "name_enus": "Resourcefulness",
     "icon": "ability_hunter_resourcefulness",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of all traps, melee abilities and Black Arrow by 40% and reduces the cooldown of all traps and Black Arrow by 4 sec."
+    "description": "Reduces the mana cost of all traps, melee abilities and Black Arrow by 20% and reduces the cooldown of all traps and Black Arrow by 2 sec."
   },
   "34492": {
     "name_enus": "Resourcefulness",
     "icon": "ability_hunter_resourcefulness",
     "rank_enus": "Rank 2",
-    "description": "Reduces the mana cost of all traps, melee abilities and Black Arrow by 60% and reduces the cooldown of all traps and Black Arrow by 6 sec."
+    "description": "Reduces the mana cost of all traps, melee abilities and Black Arrow by 40% and reduces the cooldown of all traps and Black Arrow by 4 sec."
   },
   "34493": {
     "name_enus": "Resourcefulness",
     "icon": "ability_hunter_resourcefulness",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the mana cost of all traps, melee abilities and Black Arrow by 60% and reduces the cooldown of all traps and Black Arrow by 6 sec."
   },
   "34494": {
     "name_enus": "Survival Instincts",
     "icon": "ability_hunter_survivalinstincts",
     "rank_enus": "Rank 1",
-    "description": "Reduces all damage taken by 4% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 4%."
+    "description": "When activated, this ability temporarily grants you 30% of your maximum health for 20 sec while in Bear Form, Cat Form, or Dire Bear Form.  After the effect expires, the health is lost."
   },
   "34496": {
     "name_enus": "Survival Instincts",
     "icon": "ability_hunter_survivalinstincts",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "34497": {
     "name_enus": "Thrill of the Hunt",
     "icon": "ability_hunter_thrillofthehunt",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 66% chance to regain 40% of the mana cost of any shot when it critically hits."
+    "description": "Gives you a 33% chance to regain 40% of the mana cost of any shot when it critically hits."
   },
   "34498": {
     "name_enus": "Thrill of the Hunt",
     "icon": "ability_hunter_thrillofthehunt",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 100% chance to regain 40% of the mana cost of any shot when it critically hits."
+    "description": "Gives you a 66% chance to regain 40% of the mana cost of any shot when it critically hits."
   },
   "34499": {
     "name_enus": "Thrill of the Hunt",
     "icon": "ability_hunter_thrillofthehunt",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives you a 100% chance to regain 40% of the mana cost of any shot when it critically hits."
   },
   "34500": {
     "name_enus": "Expose Weakness",
     "icon": "ability_rogue_findweakness",
     "rank_enus": "Rank 1",
-    "description": "Your ranged criticals have a 66% chance to grant you Expose Weakness. Expose Weakness increases your attack power by 25% of your Agility for 7 sec."
+    "description": "Your ranged criticals have a 33% chance to grant you Expose Weakness. Expose Weakness increases your attack power by 25% of your Agility for 7 sec."
   },
   "34502": {
     "name_enus": "Expose Weakness",
     "icon": "ability_rogue_findweakness",
     "rank_enus": "Rank 2",
-    "description": "Your ranged criticals have a 100% chance to grant you Expose Weakness. Expose Weakness increases your attack power by 25% of your Agility for 7 sec."
+    "description": "Your ranged criticals have a 66% chance to grant you Expose Weakness. Expose Weakness increases your attack power by 25% of your Agility for 7 sec."
   },
   "34503": {
     "name_enus": "Expose Weakness",
     "icon": "ability_rogue_findweakness",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your ranged criticals have a 100% chance to grant you Expose Weakness. Expose Weakness increases your attack power by 25% of your Agility for 7 sec."
   },
   "34506": {
     "name_enus": "Master Tactician",
     "icon": "ability_hunter_mastertactitian",
     "rank_enus": "Rank 1",
-    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 4% for 8 sec."
+    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 2% for 8 sec."
   },
   "34507": {
     "name_enus": "Master Tactician",
     "icon": "ability_hunter_mastertactitian",
     "rank_enus": "Rank 2",
-    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 6% for 8 sec."
+    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 4% for 8 sec."
   },
   "34508": {
     "name_enus": "Master Tactician",
     "icon": "ability_hunter_mastertactitian",
     "rank_enus": "Rank 3",
-    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 8% for 8 sec."
+    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 6% for 8 sec."
   },
   "34692": {
     "name_enus": "The Beast Within",
@@ -8669,157 +8652,157 @@ export const spells = {
     "name_enus": "Holy Concentration",
     "icon": "spell_holy_fanaticism",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 12% and reduces threat caused by all actions by 20% except when under the effects of Righteous Fury."
+    "description": "Your mana regeneration from spirit is increased by 16% for 8 sec after you critically heal with Flash Heal, Greater Heal, Binding Heal or Empowered Renew."
   },
   "34838": {
     "name_enus": "Master Tactician",
     "icon": "ability_hunter_mastertactitian",
     "rank_enus": "Rank 4",
-    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 10% for 8 sec."
+    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 8% for 8 sec."
   },
   "34839": {
     "name_enus": "Master Tactician",
     "icon": "ability_hunter_mastertactitian",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your successful ranged attacks have a 10% chance to increase your critical strike chance with all attacks by 10% for 8 sec."
   },
   "34859": {
     "name_enus": "Holy Concentration",
     "icon": "spell_holy_fanaticism",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 18% and reduces threat caused by all actions by 30% except when under the effects of Righteous Fury."
+    "description": "Your mana regeneration from spirit is increased by 32% for 8 sec after you critically heal with Flash Heal, Greater Heal, Binding Heal or Empowered Renew."
   },
   "34860": {
     "name_enus": "Holy Concentration",
     "icon": "spell_holy_fanaticism",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your mana regeneration from spirit is increased by 50% for 8 sec after you critically heal with Flash Heal, Greater Heal, Binding Heal or Empowered Renew."
   },
   "34861": {
     "name_enus": "Circle of Healing",
     "icon": "spell_holy_circleofrenewal",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Heals up to <!--sp55675:0-->5<!--sp55675--> friendly party or raid members within 15 yards of the target for 343 to 379."
   },
   "34908": {
     "name_enus": "Enlightenment",
     "icon": "spell_arcane_mindmastery",
     "rank_enus": "Rank 1",
-    "description": "Increases spell power by 6% of your total Intellect."
+    "description": "Increases your total Spirit by 2% and increases your spell haste by 2%."
   },
   "34909": {
     "name_enus": "Enlightenment",
     "icon": "spell_arcane_mindmastery",
     "rank_enus": "Rank 2",
-    "description": "Increases spell power by 9% of your total Intellect."
+    "description": "Increases your total Spirit by 4% and increases your spell haste by 4%."
   },
   "34910": {
     "name_enus": "Enlightenment",
     "icon": "spell_arcane_mindmastery",
     "rank_enus": "Rank 3",
-    "description": "Increases spell power by 12% of your total Intellect."
+    "description": "Increases your total Spirit by 6% and increases your spell haste by 6%."
   },
   "34914": {
     "name_enus": "Vampiric Touch",
     "icon": "spell_holy_stoicism",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of all Stun effects by an additional 20% and reduces the chance your helpful spells and damage over time effects will be dispelled by an additional 20%."
+    "description": "Causes 450 Shadow damage over 15 sec to your target and causes up to 10 party or raid members to gain 1% of their maximum mana per 5 sec when you deal damage from Mind Blast. In addition, if the Vampiric Touch is dispelled it will cause 720 damage to the afflicted target."
   },
   "34935": {
     "name_enus": "Backlash",
     "icon": "spell_fire_playingwithfire",
     "rank_enus": "Rank 1",
-    "description": "Increases all spell damage caused by 2% and all spell damage taken by 2%."
+    "description": "Increases your critical strike chance with spells by an additional 1% and gives you a 8% chance when hit by a physical attack to reduce the cast time of your next Shadow Bolt or Incinerate spell by 100%.  This effect lasts 8 sec and will not occur more than once every 8 seconds."
   },
   "34938": {
     "name_enus": "Backlash",
     "icon": "spell_fire_playingwithfire",
     "rank_enus": "Rank 2",
-    "description": "Increases all spell damage caused by 3% and all spell damage taken by 3%."
+    "description": "Increases your critical strike chance with spells by an additional 2% and gives you a 16% chance when hit by a physical attack to reduce the cast time of your next Shadow Bolt or Incinerate spell by 100%.  This effect lasts 8 sec and will not occur more than once every 8 seconds."
   },
   "34939": {
     "name_enus": "Backlash",
     "icon": "spell_fire_playingwithfire",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your critical strike chance with spells by an additional 3% and gives you a 25% chance when hit by a physical attack to reduce the cast time of your next Shadow Bolt or Incinerate spell by 100%.  This effect lasts 8 sec and will not occur more than once every 8 seconds."
   },
   "34948": {
     "name_enus": "Rapid Killing",
     "icon": "ability_hunter_rapidkilling",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Reduces the cooldown of your Rapid Fire ability by 1 min.  In addition, after killing an opponent that yields experience or honor, your next Aimed Shot, Arcane Shot or Chimera Shot causes 10% additional damage.  Lasts 20 sec."
   },
   "34949": {
     "name_enus": "Rapid Killing",
     "icon": "ability_hunter_rapidkilling",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Rapid Fire ability by 2 min.  In addition, after killing an opponent that yields experience or honor, your next Aimed Shot, Arcane Shot or Chimera Shot causes 20% additional damage.  Lasts 20 sec."
   },
   "34950": {
     "name_enus": "Go for the Throat",
     "icon": "ability_hunter_goforthethroat",
     "rank_enus": "Rank 1",
-    "description": "Your ranged critical hits cause your pet to generate 50 Focus."
+    "description": "Your ranged critical hits cause your pet to generate 25 Focus."
   },
   "34954": {
     "name_enus": "Go for the Throat",
     "icon": "ability_hunter_goforthethroat",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your ranged critical hits cause your pet to generate 50 Focus."
   },
   "35029": {
     "name_enus": "Focused Fire",
     "icon": "ability_hunter_silenthunter",
     "rank_enus": "Rank 1",
-    "description": "All damage caused by you is increased by 2% while your pet is active and the critical strike chance of your pet's special abilities is increased by 20% while Kill Command is active."
+    "description": "All damage caused by you is increased by 1% while your pet is active and the critical strike chance of your pet's special abilities is increased by 10% while Kill Command is active."
   },
   "35030": {
     "name_enus": "Focused Fire",
     "icon": "ability_hunter_silenthunter",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "All damage caused by you is increased by 2% while your pet is active and the critical strike chance of your pet's special abilities is increased by 20% while Kill Command is active."
   },
   "35100": {
     "name_enus": "Concussive Barrage",
     "icon": "spell_arcane_starfire",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks while casting Starfire, Hibernate and Hurricane by 46% and increases your total spell haste by 2%."
+    "description": "Your successful Chimera Shot and Multi-Shot attacks have a 50% chance to Daze the target for 4 sec."
   },
   "35102": {
     "name_enus": "Concussive Barrage",
     "icon": "spell_arcane_starfire",
     "rank_enus": "Rank 2",
-    "description": "Reduces the pushback suffered from damaging attacks while casting Starfire, Hibernate and Hurricane by 70% and increases your total spell haste by 3%."
+    "description": "Your successful Chimera Shot and Multi-Shot attacks have a 100% chance to Daze the target for 4 sec."
   },
   "35104": {
     "name_enus": "Improved Barrage",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 1",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 2% for the next 10 sec."
+    "description": "Increases the critical strike chance of your Multi-Shot and Aimed Shot abilities by 4% and reduces the pushback suffered from damaging attacks while channeling Volley by 33%."
   },
   "35110": {
     "name_enus": "Improved Barrage",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 2",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 3% for the next 10 sec."
+    "description": "Increases the critical strike chance of your Multi-Shot and Aimed Shot abilities by 8% and reduces the pushback suffered from damaging attacks while channeling Volley by 66%."
   },
   "35111": {
     "name_enus": "Improved Barrage",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 3",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 4% for the next 10 sec."
+    "description": "Increases the critical strike chance of your Multi-Shot and Aimed Shot abilities by 12% and reduces the pushback suffered from damaging attacks while channeling Volley by 100%."
   },
   "35363": {
     "name_enus": "Nature's Majesty",
     "icon": "inv_staff_01",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Wrath, Starfire, Starfall, Nourish and Healing Touch spells by 4%."
+    "description": "Increases the critical strike chance of your Wrath, Starfire, Starfall, Nourish and Healing Touch spells by 2%."
   },
   "35364": {
     "name_enus": "Nature's Majesty",
     "icon": "inv_staff_01",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Wrath, Starfire, Starfall, Nourish and Healing Touch spells by 4%."
+    "description": "Increases the critical strike chance of your Wrath, Starfire, Starfall, Nourish and Healing Touch spells by 2%."
   },
   "35395": {
     "name_enus": "Crusader Strike",
@@ -8831,91 +8814,91 @@ export const spells = {
     "name_enus": "Sanctity of Battle",
     "icon": "spell_holy_holysmite",
     "rank_enus": "Rank 2",
-    "description": "In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional 3%."
+    "description": "Increases your chance to critically hit with all spells and attacks by 2% and increases the damage caused by Exorcism and Crusader Strike by 10%."
   },
   "35397": {
     "name_enus": "Sanctity of Battle",
     "icon": "spell_holy_holysmite",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to critically hit with all spells and attacks by 3% and increases the damage caused by Exorcism and Crusader Strike by 15%."
   },
   "35446": {
     "name_enus": "Improved Mortal Strike",
     "icon": "ability_warrior_savageblow",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the damage caused by your Mortal Strike ability by 3% and reduces the cooldown by 0.33 to 0.333 sec."
   },
   "35448": {
     "name_enus": "Improved Mortal Strike",
     "icon": "ability_warrior_savageblow",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage caused by your Mortal Strike ability by 6% and reduces the cooldown by 0.67 to 0.666 sec."
   },
   "35449": {
     "name_enus": "Improved Mortal Strike",
     "icon": "ability_warrior_savageblow",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage caused by your Mortal Strike ability by 10% and reduces the cooldown by 1 sec."
   },
   "35541": {
     "name_enus": "Combat Potency",
     "icon": "inv_weapon_shortblade_38",
     "rank_enus": "Rank 1",
-    "description": "Gives your successful off-hand melee attacks a 20% chance to generate 6 Energy."
+    "description": "Gives your successful off-hand melee attacks a 20% chance to generate 3 Energy."
   },
   "35550": {
     "name_enus": "Combat Potency",
     "icon": "inv_weapon_shortblade_38",
     "rank_enus": "Rank 2",
-    "description": "Gives your successful off-hand melee attacks a 20% chance to generate 9 Energy."
+    "description": "Gives your successful off-hand melee attacks a 20% chance to generate 6 Energy."
   },
   "35551": {
     "name_enus": "Combat Potency",
     "icon": "inv_weapon_shortblade_38",
     "rank_enus": "Rank 3",
-    "description": "Gives your successful off-hand melee attacks a 20% chance to generate 12 Energy."
+    "description": "Gives your successful off-hand melee attacks a 20% chance to generate 9 Energy."
   },
   "35552": {
     "name_enus": "Combat Potency",
     "icon": "inv_weapon_shortblade_38",
     "rank_enus": "Rank 4",
-    "description": "Gives your successful off-hand melee attacks a 20% chance to generate 15 Energy."
+    "description": "Gives your successful off-hand melee attacks a 20% chance to generate 12 Energy."
   },
   "35553": {
     "name_enus": "Combat Potency",
     "icon": "inv_weapon_shortblade_38",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives your successful off-hand melee attacks a 20% chance to generate 15 Energy."
   },
   "35578": {
     "name_enus": "Spell Power",
     "icon": "spell_arcane_arcanetorrent",
     "rank_enus": "Rank 1",
-    "description": "Increases critical strike damage bonus of all spells by 50%."
+    "description": "Increases critical strike damage bonus of all spells by 25%."
   },
   "35581": {
     "name_enus": "Spell Power",
     "icon": "spell_arcane_arcanetorrent",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases critical strike damage bonus of all spells by 50%."
   },
   "35691": {
     "name_enus": "Demonic Knowledge",
     "icon": "spell_shadow_improvedvampiricembrace",
     "rank_enus": "Rank 1",
-    "description": "Increases the healing received from Vampiric Embrace by 67%."
+    "description": "Increases your spell damage by an amount equal to 4% of the total of your active demon's Stamina plus Intellect."
   },
   "35692": {
     "name_enus": "Demonic Knowledge",
     "icon": "spell_shadow_improvedvampiricembrace",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your spell damage by an amount equal to 8% of the total of your active demon's Stamina plus Intellect."
   },
   "35693": {
     "name_enus": "Demonic Knowledge",
     "icon": "spell_shadow_improvedvampiricembrace",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your spell damage by an amount equal to 12% of the total of your active demon's Stamina plus Intellect."
   },
   "36554": {
     "name_enus": "Shadowstep",
@@ -8927,13 +8910,13 @@ export const spells = {
     "name_enus": "Primal Fury",
     "icon": "ability_racial_cannibalize",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 100% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points  have a 100% chance to add an additional combo point."
+    "description": "Gives you a 50% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points  have a 50% chance to add an additional combo point."
   },
   "37117": {
     "name_enus": "Primal Fury",
     "icon": "ability_racial_cannibalize",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Gives you a 100% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points  have a 100% chance to add an additional combo point."
   },
   "43338": {
     "name_enus": "Shamanistic Focus",
@@ -8945,223 +8928,223 @@ export const spells = {
     "name_enus": "Arcane Flows",
     "icon": "ability_mage_potentspirit",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Presence of Mind, Arcane Power and Invisibility spells by 30% and the cooldown of your Evocation spell by 2 min."
+    "description": "Reduces the cooldown of your Presence of Mind, Arcane Power and Invisibility spells by 15% and the cooldown of your Evocation spell by 1 min."
   },
   "44379": {
     "name_enus": "Arcane Flows",
     "icon": "ability_mage_potentspirit",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Presence of Mind, Arcane Power and Invisibility spells by 30% and the cooldown of your Evocation spell by 2 min."
   },
   "44394": {
     "name_enus": "Incanter's Absorption",
     "icon": "ability_mage_incantersabsorbtion",
     "rank_enus": "Rank 1",
-    "description": "When your Mana Shield, Frost Ward, Fire Ward, or Ice Barrier absorbs damage your spell damage is increased by 10% of the amount absorbed for 10 sec."
+    "description": "When your Mana Shield, Frost Ward, Fire Ward, or Ice Barrier absorbs damage your spell damage is increased by 5% of the amount absorbed for 10 sec."
   },
   "44395": {
     "name_enus": "Incanter's Absorption",
     "icon": "ability_mage_incantersabsorbtion",
     "rank_enus": "Rank 2",
-    "description": "When your Mana Shield, Frost Ward, Fire Ward, or Ice Barrier absorbs damage your spell damage is increased by 15% of the amount absorbed for 10 sec."
+    "description": "When your Mana Shield, Frost Ward, Fire Ward, or Ice Barrier absorbs damage your spell damage is increased by 10% of the amount absorbed for 10 sec."
   },
   "44396": {
     "name_enus": "Incanter's Absorption",
     "icon": "ability_mage_incantersabsorbtion",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When your Mana Shield, Frost Ward, Fire Ward, or Ice Barrier absorbs damage your spell damage is increased by 15% of the amount absorbed for 10 sec."
   },
   "44397": {
     "name_enus": "Student of the Mind",
     "icon": "ability_mage_studentofthemind",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Spirit by 7%."
+    "description": "Increases your total Spirit by 4%."
   },
   "44398": {
     "name_enus": "Student of the Mind",
     "icon": "ability_mage_studentofthemind",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Spirit by 10%."
+    "description": "Increases your total Spirit by 7%."
   },
   "44399": {
     "name_enus": "Student of the Mind",
     "icon": "ability_mage_studentofthemind",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your total Spirit by 10%."
   },
   "44400": {
     "name_enus": "Netherwind Presence",
     "icon": "ability_mage_netherwindpresence",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell haste by 4%."
+    "description": "Increases your spell haste by 2%."
   },
   "44402": {
     "name_enus": "Netherwind Presence",
     "icon": "ability_mage_netherwindpresence",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell haste by 6%."
+    "description": "Increases your spell haste by 4%."
   },
   "44403": {
     "name_enus": "Netherwind Presence",
     "icon": "ability_mage_netherwindpresence",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your spell haste by 6%."
   },
   "44404": {
     "name_enus": "Missile Barrage",
     "icon": "ability_mage_missilebarrage",
     "rank_enus": "Rank 1",
-    "description": "Gives your Arcane Blast a 16% chance, and your Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a 8% chance to reduce the channeled duration of the next Arcane Missiles spell by 2.5 secs, reduce the mana cost by 100%, and missiles will fire every .5 secs."
+    "description": "Gives your Arcane Blast a 8% chance, and your Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a 4% chance to reduce the channeled duration of the next Arcane Missiles spell by 2.5 secs, reduce the mana cost by 100%, and missiles will fire every .5 secs."
   },
   "44425": {
     "name_enus": "Arcane Barrage",
     "icon": "ability_mage_arcanebarrage",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Launches several missiles at the enemy target, causing 386 to 470 Arcane damage."
   },
   "44442": {
     "name_enus": "Firestarter",
     "icon": "ability_mage_firestarter",
     "rank_enus": "Rank 1",
-    "description": "Your damaging Blast Wave and Dragon's Breath spells have a 100% chance to make your next Flamestrike spell instant cast and cost no mana.  Lasts 10 sec."
+    "description": "Your damaging Blast Wave and Dragon's Breath spells have a 50% chance to make your next Flamestrike spell instant cast and cost no mana.  Lasts 10 sec."
   },
   "44443": {
     "name_enus": "Firestarter",
     "icon": "ability_mage_firestarter",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your damaging Blast Wave and Dragon's Breath spells have a 100% chance to make your next Flamestrike spell instant cast and cost no mana.  Lasts 10 sec."
   },
   "44445": {
     "name_enus": "Hot Streak",
     "icon": "ability_mage_hotstreak",
     "rank_enus": "Rank 1",
-    "description": "Any time you score 2 non-periodic spell criticals in a row using Fireball, Fire Blast, Scorch, Living Bomb, or Frostfire Bolt, you have a 66% chance the next Pyroblast spell cast within 10 sec will be instant cast."
+    "description": "Any time you score 2 non-periodic spell criticals in a row using Fireball, Fire Blast, Scorch, Living Bomb, or Frostfire Bolt, you have a 33% chance the next Pyroblast spell cast within 10 sec will be instant cast."
   },
   "44446": {
     "name_enus": "Hot Streak",
     "icon": "ability_mage_hotstreak",
     "rank_enus": "Rank 2",
-    "description": "Any time you score 2 non-periodic spell criticals in a row using Fireball, Fire Blast, Scorch, Living Bomb, or Frostfire Bolt, you have a 100% chance the next Pyroblast spell cast within 10 sec will be instant cast."
+    "description": "Any time you score 2 non-periodic spell criticals in a row using Fireball, Fire Blast, Scorch, Living Bomb, or Frostfire Bolt, you have a 66% chance the next Pyroblast spell cast within 10 sec will be instant cast."
   },
   "44448": {
     "name_enus": "Hot Streak",
     "icon": "ability_mage_hotstreak",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Any time you score 2 non-periodic spell criticals in a row using Fireball, Fire Blast, Scorch, Living Bomb, or Frostfire Bolt, you have a 100% chance the next Pyroblast spell cast within 10 sec will be instant cast."
   },
   "44449": {
     "name_enus": "Burnout",
     "icon": "ability_mage_burnout",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell critical damage bonus with all spells by 20% but your non-periodic spell criticals cost an additional 2% of the spell's cost."
+    "description": "Increases your spell critical damage bonus with all spells by 10% but your non-periodic spell criticals cost an additional 1% of the spell's cost."
   },
   "44457": {
     "name_enus": "Living Bomb",
     "icon": "ability_mage_livingbomb",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "The target becomes a Living Bomb, taking 612 Fire damage over 12 sec.  After 12 sec or when the spell is dispelled, the target explodes dealing 306 Fire damage to all enemies within 10 yards."
   },
   "44469": {
     "name_enus": "Burnout",
     "icon": "ability_mage_burnout",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell critical damage bonus with all spells by 30% but your non-periodic spell criticals cost an additional 3% of the spell's cost."
+    "description": "Increases your spell critical damage bonus with all spells by 20% but your non-periodic spell criticals cost an additional 2% of the spell's cost."
   },
   "44470": {
     "name_enus": "Burnout",
     "icon": "ability_mage_burnout",
     "rank_enus": "Rank 3",
-    "description": "Increases your spell critical damage bonus with all spells by 40% but your non-periodic spell criticals cost an additional 4% of the spell's cost."
+    "description": "Increases your spell critical damage bonus with all spells by 30% but your non-periodic spell criticals cost an additional 3% of the spell's cost."
   },
   "44471": {
     "name_enus": "Burnout",
     "icon": "ability_mage_burnout",
     "rank_enus": "Rank 4",
-    "description": "Increases your spell critical damage bonus with all spells by 50% but your non-periodic spell criticals cost an additional 5% of the spell's cost."
+    "description": "Increases your spell critical damage bonus with all spells by 40% but your non-periodic spell criticals cost an additional 4% of the spell's cost."
   },
   "44472": {
     "name_enus": "Burnout",
     "icon": "ability_mage_burnout",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your spell critical damage bonus with all spells by 50% but your non-periodic spell criticals cost an additional 5% of the spell's cost."
   },
   "44543": {
     "name_enus": "Fingers of Frost",
     "icon": "ability_mage_wintersgrasp",
     "rank_enus": "Rank 1",
-    "description": "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 2 spells cast as if the target were Frozen.  Lasts 15 sec."
+    "description": "Gives your Chill effects a 7% chance to grant you the Fingers of Frost effect, which treats your next 2 spells cast as if the target were Frozen.  Lasts 15 sec."
   },
   "44545": {
     "name_enus": "Fingers of Frost",
     "icon": "ability_mage_wintersgrasp",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 2 spells cast as if the target were Frozen.  Lasts 15 sec."
   },
   "44546": {
     "name_enus": "Brain Freeze",
     "icon": "ability_mage_brainfreeze",
     "rank_enus": "Rank 1",
-    "description": "Your Frost damage spells with chilling effects have a 10% chance to cause your next Fireball or Frostfire Bolt spell to be instant cast and cost no mana."
+    "description": "Your Frost damage spells with chilling effects have a 5% chance to cause your next Fireball or Frostfire Bolt spell to be instant cast and cost no mana."
   },
   "44548": {
     "name_enus": "Brain Freeze",
     "icon": "ability_mage_brainfreeze",
     "rank_enus": "Rank 2",
-    "description": "Your Frost damage spells with chilling effects have a 15% chance to cause your next Fireball or Frostfire Bolt spell to be instant cast and cost no mana."
+    "description": "Your Frost damage spells with chilling effects have a 10% chance to cause your next Fireball or Frostfire Bolt spell to be instant cast and cost no mana."
   },
   "44549": {
     "name_enus": "Brain Freeze",
     "icon": "ability_mage_brainfreeze",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Frost damage spells with chilling effects have a 15% chance to cause your next Fireball or Frostfire Bolt spell to be instant cast and cost no mana."
   },
   "44557": {
     "name_enus": "Enduring Winter",
     "icon": "spell_frost_summonwaterelemental_2",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the duration of your Summon Water Elemental spell by 5 sec and your Frostbolt spell has a 33% chance to grant up to 10 party or raid members mana regeneration equal to 1% of their maximum mana per 5 sec for 15 sec.  This effect cannot occur more often than once every 6 sec."
   },
   "44560": {
     "name_enus": "Enduring Winter",
     "icon": "spell_frost_summonwaterelemental_2",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the duration of your Summon Water Elemental spell by 10 sec and your Frostbolt spell has a 66% chance to grant up to 10 party or raid members mana regeneration equal to 1% of their maximum mana per 5 sec for 15 sec.  This effect cannot occur more often than once every 6 sec."
   },
   "44561": {
     "name_enus": "Enduring Winter",
     "icon": "spell_frost_summonwaterelemental_2",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the duration of your Summon Water Elemental spell by 15 sec and your Frostbolt spell has a 100% chance to grant up to 10 party or raid members mana regeneration equal to 1% of their maximum mana per 5 sec for 15 sec.  This effect cannot occur more often than once every 6 sec."
   },
   "44566": {
     "name_enus": "Chilled to the Bone",
     "icon": "ability_mage_chilledtothebone",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by 2% and reduces the movement speed of all chilled targets by an additional 4%."
+    "description": "Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by 1% and reduces the movement speed of all chilled targets by an additional 2%."
   },
   "44567": {
     "name_enus": "Chilled to the Bone",
     "icon": "ability_mage_chilledtothebone",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by 3% and reduces the movement speed of all chilled targets by an additional 6%."
+    "description": "Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by 2% and reduces the movement speed of all chilled targets by an additional 4%."
   },
   "44568": {
     "name_enus": "Chilled to the Bone",
     "icon": "ability_mage_chilledtothebone",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by 4% and reduces the movement speed of all chilled targets by an additional 8%."
+    "description": "Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by 3% and reduces the movement speed of all chilled targets by an additional 6%."
   },
   "44570": {
     "name_enus": "Chilled to the Bone",
     "icon": "ability_mage_chilledtothebone",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by 5% and reduces the movement speed of all chilled targets by an additional 10%."
+    "description": "Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by 4% and reduces the movement speed of all chilled targets by an additional 8%."
   },
   "44571": {
     "name_enus": "Chilled to the Bone",
     "icon": "ability_mage_chilledtothebone",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage caused by your Frostbolt, Frostfire Bolt and Ice Lance spells by 5% and reduces the movement speed of all chilled targets by an additional 10%."
   },
   "44572": {
     "name_enus": "Deep Freeze",
@@ -9173,115 +9156,115 @@ export const spells = {
     "name_enus": "Shattered Barrier",
     "icon": "ability_mage_shattershield",
     "rank_enus": "Rank 1",
-    "description": "Gives your Ice Barrier spell a 100% chance to freeze all enemies within 10 yds for 8 sec when it is destroyed."
+    "description": "Gives your Ice Barrier spell a 50% chance to freeze all enemies within 10 yds for 8 sec when it is destroyed."
   },
   "45234": {
     "name_enus": "Focused Will",
     "icon": "spell_arcane_focusedpower",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell critical effect chance by 2%, and after taking a critical hit you gain the Focused Will effect, reducing all damage taken by 3% and increasing healing effects on you by 4%.  Stacks up to 3 times.  Lasts 8 sec."
+    "description": "Increases your spell critical effect chance by 1%, and after taking a critical hit you gain the Focused Will effect, reducing all damage taken by 2% and increasing healing effects on you by 3%.  Stacks up to 3 times.  Lasts 8 sec."
   },
   "45243": {
     "name_enus": "Focused Will",
     "icon": "spell_arcane_focusedpower",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell critical effect chance by 3%, and after taking a critical hit you gain the Focused Will effect, reducing all damage taken by 4% and increasing healing effects on you by 5%.  Stacks up to 3 times.  Lasts 8 sec."
+    "description": "Increases your spell critical effect chance by 2%, and after taking a critical hit you gain the Focused Will effect, reducing all damage taken by 3% and increasing healing effects on you by 4%.  Stacks up to 3 times.  Lasts 8 sec."
   },
   "45244": {
     "name_enus": "Focused Will",
     "icon": "spell_arcane_focusedpower",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your spell critical effect chance by 3%, and after taking a critical hit you gain the Focused Will effect, reducing all damage taken by 4% and increasing healing effects on you by 5%.  Stacks up to 3 times.  Lasts 8 sec."
   },
   "46854": {
     "name_enus": "Trauma",
     "icon": "ability_warrior_bloodnova",
     "rank_enus": "Rank 1",
-    "description": "Your melee critical strikes increase the effectiveness of Bleed effects on the target by 30% for 1 min."
+    "description": "Your melee critical strikes increase the effectiveness of Bleed effects on the target by 15% for 1 min."
   },
   "46855": {
     "name_enus": "Trauma",
     "icon": "ability_warrior_bloodnova",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your melee critical strikes increase the effectiveness of Bleed effects on the target by 30% for 1 min."
   },
   "46859": {
     "name_enus": "Unrelenting Assault",
     "icon": "ability_warrior_unrelentingassault",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Overpower and Revenge abilities by 4 secs and increases the damage done by both abilities by 20%.  In addition, if you strike a player with Overpower while they are casting, their magical damage and healing will be reduced by 50% for 6 sec."
+    "description": "Reduces the cooldown of your Overpower and Revenge abilities by 2 secs and increases the damage done by both abilities by 10%.  In addition, if you strike a player with Overpower while they are casting, their magical damage and healing will be reduced by 25% for 6 sec."
   },
   "46860": {
     "name_enus": "Unrelenting Assault",
     "icon": "ability_warrior_unrelentingassault",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Overpower and Revenge abilities by 4 secs and increases the damage done by both abilities by 20%.  In addition, if you strike a player with Overpower while they are casting, their magical damage and healing will be reduced by 50% for 6 sec."
   },
   "46865": {
     "name_enus": "Strength of Arms",
     "icon": "ability_warrior_offensivestance",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Strength and Stamina by 4% and your Expertise by 4."
+    "description": "Increases your total Strength and Stamina by 2% and your Expertise by 2."
   },
   "46866": {
     "name_enus": "Strength of Arms",
     "icon": "ability_warrior_offensivestance",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your total Strength and Stamina by 4% and your Expertise by 4."
   },
   "46867": {
     "name_enus": "Wrecking Crew",
     "icon": "ability_warrior_trauma",
     "rank_enus": "Rank 1",
-    "description": "Your melee critical hits Enrage you, increasing all damage caused by 4% for 12 sec.  This effect does not stack with Enrage."
+    "description": "Your melee critical hits Enrage you, increasing all damage caused by 2% for 12 sec.  This effect does not stack with Enrage."
   },
   "46908": {
     "name_enus": "Intensify Rage",
     "icon": "ability_warrior_endlessrage",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Reduces the cooldown of your Bloodrage, Berserker Rage, Recklessness and Death Wish abilities by 11%."
   },
   "46909": {
     "name_enus": "Intensify Rage",
     "icon": "ability_warrior_endlessrage",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Bloodrage, Berserker Rage, Recklessness and Death Wish abilities by 22%."
   },
   "46910": {
     "name_enus": "Furious Attacks",
     "icon": "ability_warrior_furiousresolve",
     "rank_enus": "Rank 1",
-    "description": "Your normal melee attacks have a chance to reduce all healing done to the target by 25% for 10 sec.  This can stack up to 2 times.  This occurs more often than Furious Attacks (Rank 1)."
+    "description": "Your normal melee attacks have a chance to reduce all healing done to the target by 25% for 10 sec.  This can stack up to 2 times."
   },
   "46911": {
     "name_enus": "Furious Attacks",
     "icon": "ability_warrior_furiousresolve",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your normal melee attacks have a chance to reduce all healing done to the target by 25% for 10 sec.  This can stack up to 2 times.  This occurs more often than Furious Attacks (Rank 1)."
   },
   "46913": {
     "name_enus": "Bloodsurge",
     "icon": "ability_warrior_bloodsurge",
     "rank_enus": "Rank 1",
-    "description": "Your Heroic Strike, Bloodthirst, and Whirlwind hits have a 13% chance of making your next Slam instant for 5 sec."
+    "description": "Your Heroic Strike, Bloodthirst, and Whirlwind hits have a 7% chance of making your next Slam instant for 5 sec."
   },
   "46914": {
     "name_enus": "Bloodsurge",
     "icon": "ability_warrior_bloodsurge",
     "rank_enus": "Rank 2",
-    "description": "Your Heroic Strike, Bloodthirst, and Whirlwind hits have a 20% chance of making your next Slam instant for 5 sec."
+    "description": "Your Heroic Strike, Bloodthirst, and Whirlwind hits have a 13% chance of making your next Slam instant for 5 sec."
   },
   "46915": {
     "name_enus": "Bloodsurge",
     "icon": "ability_warrior_bloodsurge",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Heroic Strike, Bloodthirst, and Whirlwind hits have a 20% chance of making your next Slam instant for 5 sec."
   },
   "46917": {
     "name_enus": "Titan's Grip",
     "icon": "ability_warrior_titansgrip",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Allows you to equip two-handed axes, maces and swords in one hand.  While you have a two-handed weapon equipped in one hand, your physical damage done is reduced by 10%."
   },
   "46924": {
     "name_enus": "Bladestorm",
@@ -9293,31 +9276,31 @@ export const spells = {
     "name_enus": "Safeguard",
     "icon": "ability_warrior_safeguard",
     "rank_enus": "Rank 1",
-    "description": "Reduces damage taken by the target of your Intervene ability by 30% for 6 sec."
+    "description": "Reduces damage taken by the target of your Intervene ability by 15% for 6 sec."
   },
   "46949": {
     "name_enus": "Safeguard",
     "icon": "ability_warrior_safeguard",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces damage taken by the target of your Intervene ability by 30% for 6 sec."
   },
   "46951": {
     "name_enus": "Sword and Board",
     "icon": "ability_warrior_swordandboard",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Devastate ability by 10% and when your Devastate or Revenge ability deals damage it has a 20% chance of refreshing the cooldown of your Shield Slam ability and reducing its cost by 100% for 5 sec."
+    "description": "Increases the critical strike chance of your Devastate ability by 5% and when your Devastate or Revenge ability deals damage it has a 10% chance of refreshing the cooldown of your Shield Slam ability and reducing its cost by 100% for 5 sec."
   },
   "46952": {
     "name_enus": "Sword and Board",
     "icon": "ability_warrior_swordandboard",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of your Devastate ability by 15% and when your Devastate or Revenge ability deals damage it has a 30% chance of refreshing the cooldown of your Shield Slam ability and reducing its cost by 100% for 5 sec."
+    "description": "Increases the critical strike chance of your Devastate ability by 10% and when your Devastate or Revenge ability deals damage it has a 20% chance of refreshing the cooldown of your Shield Slam ability and reducing its cost by 100% for 5 sec."
   },
   "46953": {
     "name_enus": "Sword and Board",
     "icon": "ability_warrior_swordandboard",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your Devastate ability by 15% and when your Devastate or Revenge ability deals damage it has a 30% chance of refreshing the cooldown of your Shield Slam ability and reducing its cost by 100% for 5 sec."
   },
   "46968": {
     "name_enus": "Shockwave",
@@ -9335,19 +9318,19 @@ export const spells = {
     "name_enus": "Eradication",
     "icon": "ability_warlock_eradication",
     "rank_enus": "Rank 1",
-    "description": "When you deal damage with Corruption, you have 6% chance to increase your spell casting speed by 12% for 10 sec."
+    "description": "When you deal damage with Corruption, you have 6% chance to increase your spell casting speed by 6% for 10 sec."
   },
   "47196": {
     "name_enus": "Eradication",
     "icon": "ability_warlock_eradication",
     "rank_enus": "Rank 2",
-    "description": "When you deal damage with Corruption, you have 6% chance to increase your spell casting speed by 20% for 10 sec."
+    "description": "When you deal damage with Corruption, you have 6% chance to increase your spell casting speed by 12% for 10 sec."
   },
   "47197": {
     "name_enus": "Eradication",
     "icon": "ability_warlock_eradication",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When you deal damage with Corruption, you have 6% chance to increase your spell casting speed by 20% for 10 sec."
   },
   "47198": {
     "name_enus": "Death's Embrace",
@@ -9401,307 +9384,307 @@ export const spells = {
     "name_enus": "Empowered Imp",
     "icon": "ability_warlock_empoweredimp",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Imp by 20%, and all critical hits done by your Imp have a 66% chance to increase your spell critical hit chance for your next spell by 100%. This effect lasts 8 sec."
+    "description": "Increases the damage done by your Imp by 10%, and all critical hits done by your Imp have a 33% chance to increase your spell critical hit chance for your next spell by 100%. This effect lasts 8 sec."
   },
   "47221": {
     "name_enus": "Empowered Imp",
     "icon": "ability_warlock_empoweredimp",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Imp by 30%, and all critical hits done by your Imp have a 100% chance to increase your spell critical hit chance for your next spell by 100%. This effect lasts 8 sec."
+    "description": "Increases the damage done by your Imp by 20%, and all critical hits done by your Imp have a 66% chance to increase your spell critical hit chance for your next spell by 100%. This effect lasts 8 sec."
   },
   "47223": {
     "name_enus": "Empowered Imp",
     "icon": "ability_warlock_empoweredimp",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Imp by 30%, and all critical hits done by your Imp have a 100% chance to increase your spell critical hit chance for your next spell by 100%. This effect lasts 8 sec."
   },
   "47230": {
     "name_enus": "Fel Synergy",
     "icon": "spell_shadow_felmending",
     "rank_enus": "Rank 1",
-    "description": "You have a 100% chance to heal your pet for 15% of the amount of spell damage done by you."
+    "description": "You have a 50% chance to heal your pet for 15% of the amount of spell damage done by you."
   },
   "47231": {
     "name_enus": "Fel Synergy",
     "icon": "spell_shadow_felmending",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "You have a 100% chance to heal your pet for 15% of the amount of spell damage done by you."
   },
   "47236": {
     "name_enus": "Demonic Pact",
     "icon": "spell_shadow_demonicpact",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell damage by 4%, and your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 4% of your Spell Damage for 45 sec. This effect has a 20 sec cooldown. Does not work on Enslaved demons."
+    "description": "Increases your spell damage by 2%, and your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 2% of your Spell Damage for 45 sec. This effect has a 20 sec cooldown. Does not work on Enslaved demons."
   },
   "47237": {
     "name_enus": "Demonic Pact",
     "icon": "spell_shadow_demonicpact",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell damage by 6%, and your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 6% of your Spell Damage for 45 sec. This effect has a 20 sec cooldown. Does not work on Enslaved demons."
+    "description": "Increases your spell damage by 4%, and your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 4% of your Spell Damage for 45 sec. This effect has a 20 sec cooldown. Does not work on Enslaved demons."
   },
   "47238": {
     "name_enus": "Demonic Pact",
     "icon": "spell_shadow_demonicpact",
     "rank_enus": "Rank 3",
-    "description": "Increases your spell damage by 8%, and your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 8% of your Spell Damage for 45 sec. This effect has a 20 sec cooldown. Does not work on Enslaved demons."
+    "description": "Increases your spell damage by 6%, and your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 6% of your Spell Damage for 45 sec. This effect has a 20 sec cooldown. Does not work on Enslaved demons."
   },
   "47239": {
     "name_enus": "Demonic Pact",
     "icon": "spell_shadow_demonicpact",
     "rank_enus": "Rank 4",
-    "description": "Increases your spell damage by 10%, and your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 10% of your Spell Damage for 45 sec. This effect has a 20 sec cooldown. Does not work on Enslaved demons."
+    "description": "Increases your spell damage by 8%, and your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 8% of your Spell Damage for 45 sec. This effect has a 20 sec cooldown. Does not work on Enslaved demons."
   },
   "47240": {
     "name_enus": "Demonic Pact",
     "icon": "spell_shadow_demonicpact",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your spell damage by 10%, and your pet's criticals apply the Demonic Pact effect to your party or raid members. Demonic Pact increases spell power by 10% of your Spell Damage for 45 sec. This effect has a 20 sec cooldown. Does not work on Enslaved demons."
   },
   "47245": {
     "name_enus": "Molten Core",
     "icon": "ability_warlock_moltencore",
     "rank_enus": "Rank 1",
-    "description": "Increases the duration of your Immolate by 6 sec, and you have a 8% chance to gain the Molten Core effect when your Corruption deals damage. The Molten Core effect empowers your next 3 Incinerate or Soul Fire spells cast within 15 sec.<br /><br />Incinerate - Increases damage done by 12% and reduces cast time by 20%.<br /><br />Soul Fire - Increases damage done by 12% and increases critical strike chance by 10%."
+    "description": "Increases the duration of your Immolate by 3 sec, and you have a 4% chance to gain the Molten Core effect when your Corruption deals damage. The Molten Core effect empowers your next 3 Incinerate or Soul Fire spells cast within 15 sec.<br /><br />Incinerate - Increases damage done by 6% and reduces cast time by 10%.<br /><br />Soul Fire - Increases damage done by 6% and increases critical strike chance by 5%."
   },
   "47246": {
     "name_enus": "Molten Core",
     "icon": "ability_warlock_moltencore",
     "rank_enus": "Rank 2",
-    "description": "Increases the duration of your Immolate by 9 sec, and you have a 12% chance to gain the Molten Core effect when your Corruption deals damage. The Molten Core effect empowers your next 3 Incinerate or Soul Fire spells cast within 15 sec.<br /><br />Incinerate - Increases damage done by 18% and reduces cast time by 30%.<br /><br />Soul Fire - Increases damage done by 18% and increases critical strike chance by 15%."
+    "description": "Increases the duration of your Immolate by 6 sec, and you have a 8% chance to gain the Molten Core effect when your Corruption deals damage. The Molten Core effect empowers your next 3 Incinerate or Soul Fire spells cast within 15 sec.<br /><br />Incinerate - Increases damage done by 12% and reduces cast time by 20%.<br /><br />Soul Fire - Increases damage done by 12% and increases critical strike chance by 10%."
   },
   "47247": {
     "name_enus": "Molten Core",
     "icon": "ability_warlock_moltencore",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the duration of your Immolate by 9 sec, and you have a 12% chance to gain the Molten Core effect when your Corruption deals damage. The Molten Core effect empowers your next 3 Incinerate or Soul Fire spells cast within 15 sec.<br /><br />Incinerate - Increases damage done by 18% and reduces cast time by 30%.<br /><br />Soul Fire - Increases damage done by 18% and increases critical strike chance by 15%."
   },
   "47258": {
     "name_enus": "Backdraft",
     "icon": "ability_warlock_backdraft",
     "rank_enus": "Rank 1",
-    "description": "When you cast Conflagrate, the cast time and global cooldown of your next three Destruction spells is reduced by 20%. Lasts 15 sec."
+    "description": "When you cast Conflagrate, the cast time and global cooldown of your next three Destruction spells is reduced by 10%. Lasts 15 sec."
   },
   "47259": {
     "name_enus": "Backdraft",
     "icon": "ability_warlock_backdraft",
     "rank_enus": "Rank 2",
-    "description": "When you cast Conflagrate, the cast time and global cooldown of your next three Destruction spells is reduced by 30%. Lasts 15 sec."
+    "description": "When you cast Conflagrate, the cast time and global cooldown of your next three Destruction spells is reduced by 20%. Lasts 15 sec."
   },
   "47260": {
     "name_enus": "Backdraft",
     "icon": "ability_warlock_backdraft",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When you cast Conflagrate, the cast time and global cooldown of your next three Destruction spells is reduced by 30%. Lasts 15 sec."
   },
   "47266": {
     "name_enus": "Fire and Brimstone",
     "icon": "ability_warlock_fireandbrimstone",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 4%, and the critical strike chance of your Conflagrate spell is increased by 10%."
+    "description": "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 2%, and the critical strike chance of your Conflagrate spell is increased by 5%."
   },
   "47267": {
     "name_enus": "Fire and Brimstone",
     "icon": "ability_warlock_fireandbrimstone",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 6%, and the critical strike chance of your Conflagrate spell is increased by 15%."
+    "description": "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 4%, and the critical strike chance of your Conflagrate spell is increased by 10%."
   },
   "47268": {
     "name_enus": "Fire and Brimstone",
     "icon": "ability_warlock_fireandbrimstone",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 8%, and the critical strike chance of your Conflagrate spell is increased by 20%."
+    "description": "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 6%, and the critical strike chance of your Conflagrate spell is increased by 15%."
   },
   "47269": {
     "name_enus": "Fire and Brimstone",
     "icon": "ability_warlock_fireandbrimstone",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 10%, and the critical strike chance of your Conflagrate spell is increased by 25%."
+    "description": "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 8%, and the critical strike chance of your Conflagrate spell is increased by 20%."
   },
   "47270": {
     "name_enus": "Fire and Brimstone",
     "icon": "ability_warlock_fireandbrimstone",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 10%, and the critical strike chance of your Conflagrate spell is increased by 25%."
   },
   "47294": {
     "name_enus": "Critical Block",
     "icon": "ability_warrior_criticalblock",
     "rank_enus": "Rank 1",
-    "description": "Your successful blocks have a 40% chance to block double the normal amount and increases your chance to critically hit with your Shield Slam ability by an additional 10%."
+    "description": "Your successful blocks have a 20% chance to block double the normal amount and increases your chance to critically hit with your Shield Slam ability by an additional 5%."
   },
   "47295": {
     "name_enus": "Critical Block",
     "icon": "ability_warrior_criticalblock",
     "rank_enus": "Rank 2",
-    "description": "Your successful blocks have a 60% chance to block double the normal amount and increases your chance to critically hit with your Shield Slam ability by an additional 15%."
+    "description": "Your successful blocks have a 40% chance to block double the normal amount and increases your chance to critically hit with your Shield Slam ability by an additional 10%."
   },
   "47296": {
     "name_enus": "Critical Block",
     "icon": "ability_warrior_criticalblock",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your successful blocks have a 60% chance to block double the normal amount and increases your chance to critically hit with your Shield Slam ability by an additional 15%."
   },
   "47507": {
     "name_enus": "Aspiration",
     "icon": "spell_holy_aspiration",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Inner Focus, Power Infusion, Pain Suppression and Penance spells by 20%."
+    "description": "Reduces the cooldown of your Inner Focus, Power Infusion, Pain Suppression and Penance spells by 10%."
   },
   "47508": {
     "name_enus": "Aspiration",
     "icon": "spell_holy_aspiration",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Inner Focus, Power Infusion, Pain Suppression and Penance spells by 20%."
   },
   "47509": {
     "name_enus": "Divine Aegis",
     "icon": "spell_holy_devineaegis",
     "rank_enus": "Rank 1",
-    "description": "Critical heals create a protective shield on the target, absorbing 20% of the amount healed. Lasts 12 sec."
+    "description": "Critical heals create a protective shield on the target, absorbing 10% of the amount healed. Lasts 12 sec."
   },
   "47511": {
     "name_enus": "Divine Aegis",
     "icon": "spell_holy_devineaegis",
     "rank_enus": "Rank 2",
-    "description": "Critical heals create a protective shield on the target, absorbing 30% of the amount healed. Lasts 12 sec."
+    "description": "Critical heals create a protective shield on the target, absorbing 20% of the amount healed. Lasts 12 sec."
   },
   "47515": {
     "name_enus": "Divine Aegis",
     "icon": "spell_holy_devineaegis",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Critical heals create a protective shield on the target, absorbing 30% of the amount healed. Lasts 12 sec."
   },
   "47516": {
     "name_enus": "Grace",
     "icon": "spell_holy_hopeandgrace",
     "rank_enus": "Rank 1",
-    "description": "Your Flash Heal, Greater Heal, and Penance spells have a 100% chance to bless the target with Grace, increasing all healing received from the Priest by 3%. This effect will stack up to 3 times. Effect lasts 15 sec. Grace can only be active on one target at a time."
+    "description": "Your Flash Heal, Greater Heal, and Penance spells have a 50% chance to bless the target with Grace, increasing all healing received from the Priest by 3%. This effect will stack up to 3 times. Effect lasts 15 sec. Grace can only be active on one target at a time."
   },
   "47517": {
     "name_enus": "Grace",
     "icon": "spell_holy_hopeandgrace",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Flash Heal, Greater Heal, and Penance spells have a 100% chance to bless the target with Grace, increasing all healing received from the Priest by 3%. This effect will stack up to 3 times. Effect lasts 15 sec. Grace can only be active on one target at a time."
   },
   "47535": {
     "name_enus": "Rapture",
     "icon": "spell_holy_rapture",
     "rank_enus": "Rank 1",
-    "description": "When your Power Word: Shield is completely absorbed or dispelled you are instantly energized with 2% of your total mana, and you have a 66% chance to energize your shielded target with 2% total mana, 8 rage, 16 energy or 32 runic power. This effect can only occur once every 12 sec."
+    "description": "When your Power Word: Shield is completely absorbed or dispelled you are instantly energized with 1.5% of your total mana, and you have a 33% chance to energize your shielded target with 2% total mana, 8 rage, 16 energy or 32 runic power. This effect can only occur once every 12 sec."
   },
   "47536": {
     "name_enus": "Rapture",
     "icon": "spell_holy_rapture",
     "rank_enus": "Rank 2",
-    "description": "When your Power Word: Shield is completely absorbed or dispelled you are instantly energized with 2.5% of your total mana, and you have a 100% chance to energize your shielded target with 2% total mana, 8 rage, 16 energy or 32 runic power. This effect can only occur once every 12 sec."
+    "description": "When your Power Word: Shield is completely absorbed or dispelled you are instantly energized with 2% of your total mana, and you have a 66% chance to energize your shielded target with 2% total mana, 8 rage, 16 energy or 32 runic power. This effect can only occur once every 12 sec."
   },
   "47537": {
     "name_enus": "Rapture",
     "icon": "spell_holy_rapture",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When your Power Word: Shield is completely absorbed or dispelled you are instantly energized with 2.5% of your total mana, and you have a 100% chance to energize your shielded target with 2% total mana, 8 rage, 16 energy or 32 runic power. This effect can only occur once every 12 sec."
   },
   "47540": {
     "name_enus": "Penance",
     "icon": "spell_holy_penance",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Launches a volley of holy light at the target, causing 240 Holy damage to an enemy, or 670 to 756 healing to an ally instantly and every 1 sec for 2 sec."
   },
   "47558": {
     "name_enus": "Test of Faith",
     "icon": "spell_holy_testoffaith",
     "rank_enus": "Rank 1",
-    "description": "Increases healing by 8% on friendly targets at or below 50% health."
+    "description": "Increases healing by 4% on friendly targets at or below 50% health."
   },
   "47559": {
     "name_enus": "Test of Faith",
     "icon": "spell_holy_testoffaith",
     "rank_enus": "Rank 2",
-    "description": "Increases healing by 12% on friendly targets at or below 50% health."
+    "description": "Increases healing by 8% on friendly targets at or below 50% health."
   },
   "47560": {
     "name_enus": "Test of Faith",
     "icon": "spell_holy_testoffaith",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases healing by 12% on friendly targets at or below 50% health."
   },
   "47562": {
     "name_enus": "Divine Providence",
     "icon": "spell_holy_divineprovidence",
     "rank_enus": "Rank 1",
-    "description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by 4%, and reduces the cooldown of your Prayer of Mending by 12%."
+    "description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by 2%, and reduces the cooldown of your Prayer of Mending by 6%."
   },
   "47564": {
     "name_enus": "Divine Providence",
     "icon": "spell_holy_divineprovidence",
     "rank_enus": "Rank 2",
-    "description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by 6%, and reduces the cooldown of your Prayer of Mending by 18%."
+    "description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by 4%, and reduces the cooldown of your Prayer of Mending by 12%."
   },
   "47565": {
     "name_enus": "Divine Providence",
     "icon": "spell_holy_divineprovidence",
     "rank_enus": "Rank 3",
-    "description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by 8%, and reduces the cooldown of your Prayer of Mending by 24%."
+    "description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by 6%, and reduces the cooldown of your Prayer of Mending by 18%."
   },
   "47566": {
     "name_enus": "Divine Providence",
     "icon": "spell_holy_divineprovidence",
     "rank_enus": "Rank 4",
-    "description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by 10%, and reduces the cooldown of your Prayer of Mending by 30%."
+    "description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by 8%, and reduces the cooldown of your Prayer of Mending by 24%."
   },
   "47567": {
     "name_enus": "Divine Providence",
     "icon": "spell_holy_divineprovidence",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the amount healed by Circle of Healing, Binding Heal, Holy Nova, Prayer of Healing, Divine Hymn and Prayer of Mending by 10%, and reduces the cooldown of your Prayer of Mending by 30%."
   },
   "47569": {
     "name_enus": "Improved Shadowform",
     "icon": "spell_shadow_summonvoidwalker",
     "rank_enus": "Rank 1",
-    "description": "Your Fade ability now has a 100% chance to remove all movement impairing effects when used while in Shadowform, and reduces casting or channeling time lost when damaged by 70% when casting any Shadow spell while in Shadowform."
+    "description": "Your Fade ability now has a 50% chance to remove all movement impairing effects when used while in Shadowform, and reduces casting or channeling time lost when damaged by 35% when casting any Shadow spell while in Shadowform."
   },
   "47570": {
     "name_enus": "Improved Shadowform",
     "icon": "spell_shadow_summonvoidwalker",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Fade ability now has a 100% chance to remove all movement impairing effects when used while in Shadowform, and reduces casting or channeling time lost when damaged by 70% when casting any Shadow spell while in Shadowform."
   },
   "47573": {
     "name_enus": "Twisted Faith",
     "icon": "spell_shadow_mindtwisting",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell power by 8% of your total Spirit, and your damage done by your Mind Flay and Mind Blast is increased by 4% if your target is afflicted by your Shadow Word: Pain."
+    "description": "Increases your spell power by 4% of your total Spirit, and your damage done by your Mind Flay and Mind Blast is increased by 2% if your target is afflicted by your Shadow Word: Pain."
   },
   "47577": {
     "name_enus": "Twisted Faith",
     "icon": "spell_shadow_mindtwisting",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell power by 12% of your total Spirit, and your damage done by your Mind Flay and Mind Blast is increased by 6% if your target is afflicted by your Shadow Word: Pain."
+    "description": "Increases your spell power by 8% of your total Spirit, and your damage done by your Mind Flay and Mind Blast is increased by 4% if your target is afflicted by your Shadow Word: Pain."
   },
   "47578": {
     "name_enus": "Twisted Faith",
     "icon": "spell_shadow_mindtwisting",
     "rank_enus": "Rank 3",
-    "description": "Increases your spell power by 16% of your total Spirit, and your damage done by your Mind Flay and Mind Blast is increased by 8% if your target is afflicted by your Shadow Word: Pain."
+    "description": "Increases your spell power by 12% of your total Spirit, and your damage done by your Mind Flay and Mind Blast is increased by 6% if your target is afflicted by your Shadow Word: Pain."
   },
   "47580": {
     "name_enus": "Pain and Suffering",
     "icon": "spell_shadow_painandsuffering",
     "rank_enus": "Rank 1",
-    "description": "Your Mind Flay has a 66% chance to refresh the duration of your Shadow Word: Pain on the target, and reduces the damage you take from your own Shadow Word: Death by 20%."
+    "description": "Your Mind Flay has a 33% chance to refresh the duration of your Shadow Word: Pain on the target, and reduces the damage you take from your own Shadow Word: Death by 10%."
   },
   "47581": {
     "name_enus": "Pain and Suffering",
     "icon": "spell_shadow_painandsuffering",
     "rank_enus": "Rank 2",
-    "description": "Your Mind Flay has a 100% chance to refresh the duration of your Shadow Word: Pain on the target, and reduces the damage you take from your own Shadow Word: Death by 30%."
+    "description": "Your Mind Flay has a 66% chance to refresh the duration of your Shadow Word: Pain on the target, and reduces the damage you take from your own Shadow Word: Death by 20%."
   },
   "47582": {
     "name_enus": "Pain and Suffering",
     "icon": "spell_shadow_painandsuffering",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Mind Flay has a 100% chance to refresh the duration of your Shadow Word: Pain on the target, and reduces the damage you take from your own Shadow Word: Death by 30%."
   },
   "47585": {
     "name_enus": "Dispersion",
@@ -9713,19 +9696,19 @@ export const spells = {
     "name_enus": "Twin Disciplines",
     "icon": "spell_holy_sealofvengeance",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage and healing done by your instant spells by 2%."
+    "description": "Increases the damage and healing done by your instant spells by 1%."
   },
   "47587": {
     "name_enus": "Twin Disciplines",
     "icon": "spell_holy_sealofvengeance",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage and healing done by your instant spells by 3%."
+    "description": "Increases the damage and healing done by your instant spells by 2%."
   },
   "47588": {
     "name_enus": "Twin Disciplines",
     "icon": "spell_holy_sealofvengeance",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage and healing done by your instant spells by 4%."
+    "description": "Increases the damage and healing done by your instant spells by 3%."
   },
   "47788": {
     "name_enus": "Guardian Spirit",
@@ -9737,55 +9720,55 @@ export const spells = {
     "name_enus": "Haunt",
     "icon": "ability_warlock_haunt",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "You send a ghostly soul into the target, dealing 405 to 473 Shadow damage and increasing all damage done by your Shadow damage-over-time effects on the target by 20% for 12 sec. When the Haunt spell ends or is dispelled, the soul returns to you, healing you for 100% of the damage it did to the target."
   },
   "48384": {
     "name_enus": "Improved Moonkin Form",
     "icon": "ability_druid_improvedmoonkinform",
     "rank_enus": "Rank 1",
-    "description": "Your Moonkin Aura also causes affected targets to gain 2% haste and you to gain 20% of your spirit as additional spell damage."
+    "description": "Your Moonkin Aura also causes affected targets to gain 1% haste and you to gain 10% of your spirit as additional spell damage."
   },
   "48389": {
     "name_enus": "Owlkin Frenzy",
     "icon": "ability_druid_owlkinfrenzy",
     "rank_enus": "Rank 1",
-    "description": "Attacks done to you while in Moonkin form have a 10% chance to cause you to go into a Frenzy, increasing your damage by 10%, cause you to be immune to pushback while casting Balance spells and restore 2% base mana every 2 sec. Lasts 10 sec."
+    "description": "Attacks done to you while in Moonkin form have a 5% chance to cause you to go into a Frenzy, increasing your damage by 10%, cause you to be immune to pushback while casting Balance spells and restore 2% base mana every 2 sec. Lasts 10 sec."
   },
   "48392": {
     "name_enus": "Owlkin Frenzy",
     "icon": "ability_druid_owlkinfrenzy",
     "rank_enus": "Rank 2",
-    "description": "Attacks done to you while in Moonkin form have a 15% chance to cause you to go into a Frenzy, increasing your damage by 10%, cause you to be immune to pushback while casting Balance spells and restore 2% base mana every 2 sec. Lasts 10 sec."
+    "description": "Attacks done to you while in Moonkin form have a 10% chance to cause you to go into a Frenzy, increasing your damage by 10%, cause you to be immune to pushback while casting Balance spells and restore 2% base mana every 2 sec. Lasts 10 sec."
   },
   "48393": {
     "name_enus": "Owlkin Frenzy",
     "icon": "ability_druid_owlkinfrenzy",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Attacks done to you while in Moonkin form have a 15% chance to cause you to go into a Frenzy, increasing your damage by 10%, cause you to be immune to pushback while casting Balance spells and restore 2% base mana every 2 sec. Lasts 10 sec."
   },
   "48395": {
     "name_enus": "Improved Moonkin Form",
     "icon": "ability_druid_improvedmoonkinform",
     "rank_enus": "Rank 2",
-    "description": "Your Moonkin Aura also causes affected targets to gain 3% haste and you to gain 30% of your spirit as additional spell damage."
+    "description": "Your Moonkin Aura also causes affected targets to gain 2% haste and you to gain 20% of your spirit as additional spell damage."
   },
   "48396": {
     "name_enus": "Improved Moonkin Form",
     "icon": "ability_druid_improvedmoonkinform",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Moonkin Aura also causes affected targets to gain 3% haste and you to gain 30% of your spirit as additional spell damage."
   },
   "48409": {
     "name_enus": "Primal Precision",
     "icon": "ability_druid_primalprecision",
     "rank_enus": "Rank 1",
-    "description": "Increases your expertise by 10, and you are refunded 80% of the energy cost of a finishing move if it fails to land."
+    "description": "Increases your expertise by 5, and you are refunded 40% of the energy cost of a finishing move if it fails to land."
   },
   "48410": {
     "name_enus": "Primal Precision",
     "icon": "ability_druid_primalprecision",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your expertise by 10, and you are refunded 80% of the energy cost of a finishing move if it fails to land."
   },
   "48411": {
     "name_enus": "Master Shapeshifter",
@@ -9803,223 +9786,223 @@ export const spells = {
     "name_enus": "Rend and Tear",
     "icon": "ability_druid_primalagression",
     "rank_enus": "Rank 1",
-    "description": "Increases damage done by your Maul and Shred attacks on bleeding targets by 8%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 10%."
+    "description": "Increases damage done by your Maul and Shred attacks on bleeding targets by 4%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 5%."
   },
   "48433": {
     "name_enus": "Rend and Tear",
     "icon": "ability_druid_primalagression",
     "rank_enus": "Rank 2",
-    "description": "Increases damage done by your Maul and Shred attacks on bleeding targets by 12%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 15%."
+    "description": "Increases damage done by your Maul and Shred attacks on bleeding targets by 8%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 10%."
   },
   "48434": {
     "name_enus": "Rend and Tear",
     "icon": "ability_druid_primalagression",
     "rank_enus": "Rank 3",
-    "description": "Increases damage done by your Maul and Shred attacks on bleeding targets by 16%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 20%."
+    "description": "Increases damage done by your Maul and Shred attacks on bleeding targets by 12%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 15%."
   },
   "48438": {
     "name_enus": "Wild Growth",
     "icon": "ability_druid_flourish",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Heals up to 5 friendly party or raid members within 15 yards of the target for 686 over 7 sec. The amount healed is applied quickly at first, and slows down as the Wild Growth reaches its full duration."
   },
   "48483": {
     "name_enus": "Infected Wounds",
     "icon": "ability_druid_infectedwound",
     "rank_enus": "Rank 1",
-    "description": "Your Shred, Maul, and Mangle attacks cause an Infected Wound in the target. The Infected Wound reduces the movement speed of the target by 34% and the attack speed by 14%. Lasts 12 sec."
+    "description": "Your Shred, Maul, and Mangle attacks cause an Infected Wound in the target. The Infected Wound reduces the movement speed of the target by 16% and the attack speed by 6%. Lasts 12 sec."
   },
   "48484": {
     "name_enus": "Infected Wounds",
     "icon": "ability_druid_infectedwound",
     "rank_enus": "Rank 2",
-    "description": "Your Shred, Maul, and Mangle attacks cause an Infected Wound in the target. The Infected Wound reduces the movement speed of the target by 50% and the attack speed by 20%. Lasts 12 sec."
+    "description": "Your Shred, Maul, and Mangle attacks cause an Infected Wound in the target. The Infected Wound reduces the movement speed of the target by 34% and the attack speed by 14%. Lasts 12 sec."
   },
   "48485": {
     "name_enus": "Infected Wounds",
     "icon": "ability_druid_infectedwound",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Shred, Maul, and Mangle attacks cause an Infected Wound in the target. The Infected Wound reduces the movement speed of the target by 50% and the attack speed by 20%. Lasts 12 sec."
   },
   "48488": {
     "name_enus": "Gale Winds",
     "icon": "ability_druid_galewinds",
     "rank_enus": "Rank 1",
-    "description": "Increases damage done by your Hurricane and Typhoon spells by 30%, and increases the range of your Cyclone spell by 4 yards."
+    "description": "Increases damage done by your Hurricane and Typhoon spells by 15%, and increases the range of your Cyclone spell by 2 yards."
   },
   "48489": {
     "name_enus": "Improved Mangle",
     "icon": "ability_druid_mangle2",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Mangle (Bear) ability by 1 sec., and reduces the energy cost of your Mangle (Cat) ability by 4."
   },
   "48491": {
     "name_enus": "Improved Mangle",
     "icon": "ability_druid_mangle2",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cooldown of your Mangle (Bear) ability by 1.5 sec., and reduces the energy cost of your Mangle (Cat) ability by 6."
   },
   "48492": {
     "name_enus": "King of the Jungle",
     "icon": "ability_druid_kingofthejungle",
     "rank_enus": "Rank 1",
-    "description": "While using your Enrage ability in Bear Form or Dire Bear Form, your damage is increased by 10%, and your Tiger's Fury ability also instantly restores 40 energy.  In addition, the mana cost of Bear Form, Cat Form, and Dire Bear Form is reduced by 40%."
+    "description": "While using your Enrage ability in Bear Form or Dire Bear Form, your damage is increased by 5%, and your Tiger's Fury ability also instantly restores 20 energy.  In addition, the mana cost of Bear Form, Cat Form, and Dire Bear Form is reduced by 20%."
   },
   "48494": {
     "name_enus": "King of the Jungle",
     "icon": "ability_druid_kingofthejungle",
     "rank_enus": "Rank 2",
-    "description": "While using your Enrage ability in Bear Form or Dire Bear Form, your damage is increased by 15%, and your Tiger's Fury ability also instantly restores 60 energy.  In addition, the mana cost of Bear Form, Cat Form, and Dire Bear Form is reduced by 60%."
+    "description": "While using your Enrage ability in Bear Form or Dire Bear Form, your damage is increased by 10%, and your Tiger's Fury ability also instantly restores 40 energy.  In addition, the mana cost of Bear Form, Cat Form, and Dire Bear Form is reduced by 40%."
   },
   "48495": {
     "name_enus": "King of the Jungle",
     "icon": "ability_druid_kingofthejungle",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "While using your Enrage ability in Bear Form or Dire Bear Form, your damage is increased by 15%, and your Tiger's Fury ability also instantly restores 60 energy.  In addition, the mana cost of Bear Form, Cat Form, and Dire Bear Form is reduced by 60%."
   },
   "48496": {
     "name_enus": "Living Seed",
     "icon": "ability_druid_giftoftheearthmother",
     "rank_enus": "Rank 1",
-    "description": "When you critically heal your target with Swiftmend, Regrowth, Nourish or Healing Touch spell you have a 66% chance to plant a Living Seed on the target for 30% of the amount healed. The Living Seed will bloom when the target is next attacked. Lasts 15 sec."
+    "description": "When you critically heal your target with Swiftmend, Regrowth, Nourish or Healing Touch spell you have a 33% chance to plant a Living Seed on the target for 30% of the amount healed. The Living Seed will bloom when the target is next attacked. Lasts 15 sec."
   },
   "48499": {
     "name_enus": "Living Seed",
     "icon": "ability_druid_giftoftheearthmother",
     "rank_enus": "Rank 2",
-    "description": "When you critically heal your target with Swiftmend, Regrowth, Nourish or Healing Touch spell you have a 100% chance to plant a Living Seed on the target for 30% of the amount healed. The Living Seed will bloom when the target is next attacked. Lasts 15 sec."
+    "description": "When you critically heal your target with Swiftmend, Regrowth, Nourish or Healing Touch spell you have a 66% chance to plant a Living Seed on the target for 30% of the amount healed. The Living Seed will bloom when the target is next attacked. Lasts 15 sec."
   },
   "48500": {
     "name_enus": "Living Seed",
     "icon": "ability_druid_giftoftheearthmother",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When you critically heal your target with Swiftmend, Regrowth, Nourish or Healing Touch spell you have a 100% chance to plant a Living Seed on the target for 30% of the amount healed. The Living Seed will bloom when the target is next attacked. Lasts 15 sec."
   },
   "48505": {
     "name_enus": "Starfall",
     "icon": "ability_druid_starfall",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "You summon a flurry of stars from the sky on all targets within 30 yards of the caster, each dealing 145 to 167 Arcane damage. Also causes 26 Arcane damage to all other enemies within 5 yards of the enemy target. Maximum 20 stars. Lasts 10 sec.  Shapeshifting into an animal form or mounting cancels the effect. Any effect which causes you to lose control of your character will suppress the starfall effect."
   },
   "48506": {
     "name_enus": "Earth and Moon",
     "icon": "ability_druid_earthandsky",
     "rank_enus": "Rank 1",
-    "description": "Your Wrath and Starfire spells have a 100% chance to  apply the Earth and Moon effect, which increases spell damage taken by 9% for 12 sec.  Also increases your spell damage by 4%."
+    "description": "Your Wrath and Starfire spells have a 100% chance to apply the Earth and Moon effect, which increases spell damage taken by 4% for 12 sec.  Also increases your spell damage by 2%."
   },
   "48510": {
     "name_enus": "Earth and Moon",
     "icon": "ability_druid_earthandsky",
     "rank_enus": "Rank 2",
-    "description": "Your Wrath and Starfire spells have a 100% chance to apply the Earth and Moon effect, which increases spell damage taken by 13% for 12 sec.  Also increases your spell damage by 6%."
+    "description": "Your Wrath and Starfire spells have a 100% chance to  apply the Earth and Moon effect, which increases spell damage taken by 9% for 12 sec.  Also increases your spell damage by 4%."
   },
   "48511": {
     "name_enus": "Earth and Moon",
     "icon": "ability_druid_earthandsky",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Wrath and Starfire spells have a 100% chance to apply the Earth and Moon effect, which increases spell damage taken by 13% for 12 sec.  Also increases your spell damage by 6%."
   },
   "48514": {
     "name_enus": "Gale Winds",
     "icon": "ability_druid_galewinds",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases damage done by your Hurricane and Typhoon spells by 30%, and increases the range of your Cyclone spell by 4 yards."
   },
   "48516": {
     "name_enus": "Eclipse",
     "icon": "ability_druid_eclipse",
     "rank_enus": "Rank 1",
-    "description": "When you critically hit with Starfire, you have a 66% chance of increasing damage done by Wrath by 40%. When you critically hit with Wrath, you have a 40% chance of increasing your critical strike chance with Starfire by 40%. Each effect lasts 15 sec and each has a separate 30 sec cooldown.  Both effects cannot occur simultaneously."
+    "description": "When you critically hit with Starfire, you have a 33% chance of increasing damage done by Wrath by 40%. When you critically hit with Wrath, you have a 20% chance of increasing your critical strike chance with Starfire by 40%. Each effect lasts 15 sec and each has a separate 30 sec cooldown.  Both effects cannot occur simultaneously."
   },
   "48521": {
     "name_enus": "Eclipse",
     "icon": "ability_druid_eclipse",
     "rank_enus": "Rank 2",
-    "description": "When you critically hit with Starfire, you have a 100% chance of increasing damage done by Wrath by 40%. When you critically hit with Wrath, you have a 60% chance of increasing your critical strike chance with Starfire by 40%. Each effect lasts 15 sec and each has a separate 30 sec cooldown.  Both effects cannot occur simultaneously."
+    "description": "When you critically hit with Starfire, you have a 66% chance of increasing damage done by Wrath by 40%. When you critically hit with Wrath, you have a 40% chance of increasing your critical strike chance with Starfire by 40%. Each effect lasts 15 sec and each has a separate 30 sec cooldown.  Both effects cannot occur simultaneously."
   },
   "48525": {
     "name_enus": "Eclipse",
     "icon": "ability_druid_eclipse",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When you critically hit with Starfire, you have a 100% chance of increasing damage done by Wrath by 40%. When you critically hit with Wrath, you have a 60% chance of increasing your critical strike chance with Starfire by 40%. Each effect lasts 15 sec and each has a separate 30 sec cooldown.  Both effects cannot occur simultaneously."
   },
   "48532": {
     "name_enus": "Improved Mangle",
     "icon": "ability_druid_mangle2",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Reduces the cooldown of your Mangle (Bear) ability by 0.5 sec., and reduces the energy cost of your Mangle (Cat) ability by 2."
   },
   "48535": {
     "name_enus": "Improved Tree of Life",
     "icon": "ability_druid_improvedtreeform",
     "rank_enus": "Rank 1",
-    "description": "Increases your armor contribution from items while in Tree of Life Form by 133%, and increases your healing spell power by 10% of your spirit while in Tree of Life Form."
+    "description": "Increases your armor contribution from items while in Tree of Life Form by 67%, and increases your healing spell power by 5% of your spirit while in Tree of Life Form."
   },
   "48536": {
     "name_enus": "Improved Tree of Life",
     "icon": "ability_druid_improvedtreeform",
     "rank_enus": "Rank 2",
-    "description": "Increases your armor contribution from items while in Tree of Life Form by 200%, and increases your healing spell power by 15% of your spirit while in Tree of Life Form."
+    "description": "Increases your armor contribution from items while in Tree of Life Form by 133%, and increases your healing spell power by 10% of your spirit while in Tree of Life Form."
   },
   "48537": {
     "name_enus": "Improved Tree of Life",
     "icon": "ability_druid_improvedtreeform",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your armor contribution from items while in Tree of Life Form by 200%, and increases your healing spell power by 15% of your spirit while in Tree of Life Form."
   },
   "48539": {
     "name_enus": "Revitalize",
     "icon": "ability_druid_replenish",
     "rank_enus": "Rank 1",
-    "description": "Your Rejuvenation and Wild Growth spells have a 10% chance to restore 8 Energy, 4 Rage, 1% Mana or 16 Runic Power per tick."
+    "description": "Your Rejuvenation and Wild Growth spells have a 5% chance to restore 8 Energy, 4 Rage, 1% Mana or 16 Runic Power per tick."
   },
   "48544": {
     "name_enus": "Revitalize",
     "icon": "ability_druid_replenish",
     "rank_enus": "Rank 2",
-    "description": "Your Rejuvenation and Wild Growth spells have a 15% chance to restore 8 Energy, 4 Rage, 1% Mana or 16 Runic Power per tick."
+    "description": "Your Rejuvenation and Wild Growth spells have a 10% chance to restore 8 Energy, 4 Rage, 1% Mana or 16 Runic Power per tick."
   },
   "48545": {
     "name_enus": "Revitalize",
     "icon": "ability_druid_replenish",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Rejuvenation and Wild Growth spells have a 15% chance to restore 8 Energy, 4 Rage, 1% Mana or 16 Runic Power per tick."
   },
   "48962": {
     "name_enus": "Virulence",
     "icon": "spell_shadow_burningspirit",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with your spells by 2% and reduces the chance that your damage over time diseases can be cured by 20%."
+    "description": "Increases your chance to hit with your spells by 1% and reduces the chance that your damage over time diseases can be cured by 10%."
   },
   "48963": {
     "name_enus": "Morbidity",
     "icon": "spell_shadow_deathanddecay",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage and healing of Death Coil by 10% and reduces the cooldown on Death and Decay by 10 sec."
+    "description": "Increases the damage and healing of Death Coil by 5% and reduces the cooldown on Death and Decay by 5 sec."
   },
   "48965": {
     "name_enus": "Ravenous Dead",
     "icon": "spell_deathknight_gnaw_ghoul",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Strength by 2% and the contribution your Ghouls get from your Strength and Stamina by 40%."
+    "description": "Increases your total Strength by 1% and the contribution your Ghouls get from your Strength and Stamina by 20%."
   },
   "48977": {
     "name_enus": "Bloody Strikes",
     "icon": "spell_deathknight_deathstrike",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage of Blood Strike by 10% and Heart Strike by 30%, and increases the damage of Blood Boil by 20%."
+    "description": "Increases the damage of Blood Strike by 5% and Heart Strike by 15%, and increases the damage of Blood Boil by 10%."
   },
   "48978": {
     "name_enus": "Bladed Armor",
     "icon": "inv_shoulder_36",
     "rank_enus": "Rank 1",
-    "description": "Increases your attack power by 2 for every 180 armor value you have."
+    "description": "Increases your attack power by 1 for every 180 armor value you have."
   },
   "48979": {
     "name_enus": "Butchery",
     "icon": "inv_axe_68",
     "rank_enus": "Rank 1",
-    "description": "Whenever you kill an enemy that grants experience or honor, you generate up to 20 runic power.  In addition, you generate 2 runic power per 5 sec while in combat."
+    "description": "Whenever you kill an enemy that grants experience or honor, you generate up to 10 runic power.  In addition, you generate 1 runic power per 5 sec while in combat."
   },
   "48982": {
     "name_enus": "Rune Tap",
@@ -10031,31 +10014,31 @@ export const spells = {
     "name_enus": "Improved Rune Tap",
     "icon": "spell_deathknight_runetap",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the health provided by Rune Tap by 33% and lowers its cooldown by 10 sec."
   },
   "48987": {
     "name_enus": "Dark Conviction",
     "icon": "spell_deathknight_darkconviction",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to critically hit with weapons, spells and abilities by 2%."
+    "description": "Increases your chance to critically hit with weapons, spells and abilities by 1%."
   },
   "48988": {
     "name_enus": "Bloody Vengeance",
     "icon": "ability_backstab",
     "rank_enus": "Rank 1",
-    "description": "Gives you a 2% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Gives you a 1% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
   },
   "48997": {
     "name_enus": "Subversion",
     "icon": "spell_deathknight_subversion",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of Blood Strike, Scourge Strike, Heart Strike and Obliterate by 6%, and reduces threat generated while in Blood or Unholy Presence by 16%."
+    "description": "Increases the critical strike chance of Blood Strike, Scourge Strike, Heart Strike and Obliterate by 3%, and reduces threat generated while in Blood or Unholy Presence by 8%."
   },
   "49004": {
     "name_enus": "Scent of Blood",
     "icon": "ability_rogue_bloodyeye",
     "rank_enus": "Rank 1",
-    "description": "You have a 15% chance after dodging, parrying or taking  direct damage to gain the Scent of Blood effect, causing your next 2 melee hits to generate 10 runic power."
+    "description": "You have a 15% chance after dodging, parrying or taking  direct damage to gain the Scent of Blood effect, causing your next melee hit to generate 10 runic power."
   },
   "49005": {
     "name_enus": "Mark of Blood",
@@ -10067,49 +10050,48 @@ export const spells = {
     "name_enus": "Veteran of the Third War",
     "icon": "spell_misc_warsongfocus",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Strength by 4%, your Stamina by 2%, and your expertise by 4."
+    "description": "Increases your total Strength by 2%, your Stamina by 1%, and your expertise by 2."
   },
   "49013": {
     "name_enus": "Outbreak",
     "icon": "spell_shadow_plaguecloud",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage of Plague Strike by 20% and Scourge Strike by 13%."
+    "description": "Increases the damage of Plague Strike by 10% and Scourge Strike by 7%."
   },
   "49015": {
     "name_enus": "Vendetta",
     "icon": "spell_deathknight_vendetta",
     "rank_enus": "Rank 1",
-    "description": "Heals you for up to 4% of your maximum health whenever you kill a target that yields experience or honor."
+    "description": "Heals you for up to 2% of your maximum health whenever you kill a target that yields experience or honor."
   },
   "49016": {
     "name_enus": "Unholy Frenzy",
     "icon": "spell_deathknight_bladedarmor",
-    "rank_enus": "",
-    "description": "Induces a friendly unit into a killing frenzy for 30 sec.  The target is Enraged, which increases their physical damage by 20%, but causes them to lose health equal to 1% of their maximum health every second."
+    "rank_enus": ""
   },
   "49018": {
     "name_enus": "Sudden Doom",
     "icon": "spell_shadow_painspike",
     "rank_enus": "Rank 1",
-    "description": "Your Blood Strikes and Heart Strikes have a 10% chance to launch a free Death Coil at your target."
+    "description": "Your Blood Strikes and Heart Strikes have a 5% chance to launch a free Death Coil at your target."
   },
   "49023": {
     "name_enus": "Might of Mograine",
     "icon": "spell_deathknight_classicon",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike damage bonus of your Blood Boil, Blood Strike, Death Strike, and Heart Strike abilities by 30%."
+    "description": "Increases the critical strike damage bonus of your Blood Boil, Blood Strike, Death Strike, and Heart Strike abilities by 15%."
   },
   "49024": {
     "name_enus": "Merciless Combat",
     "icon": "inv_sword_112",
     "rank_enus": "Rank 1",
-    "description": "Your Icy Touch, Howling Blast, Obliterate and Frost Strike do an additional 12% damage when striking targets with less than 35% health."
+    "description": "Your Icy Touch, Howling Blast, Obliterate and Frost Strike do an additional 6% damage when striking targets with less than 35% health."
   },
   "49027": {
     "name_enus": "Bloodworms",
     "icon": "spell_shadow_soulleech",
     "rank_enus": "Rank 1",
-    "description": "Your weapon hits have a 6% chance to cause the target to spawn 2-4 Bloodworms.  Bloodworms attack your enemies, healing you as they do damage for 20 sec or until killed."
+    "description": "Your weapon hits have a 3% chance to cause the target to spawn 2-4 Bloodworms.  Bloodworms attack your enemies, healing you as they do damage for 20 sec or until killed."
   },
   "49028": {
     "name_enus": "Dancing Rune Weapon",
@@ -10121,13 +10103,13 @@ export const spells = {
     "name_enus": "Crypt Fever",
     "icon": "spell_nature_nullifydisease",
     "rank_enus": "Rank 1",
-    "description": "Your diseases also cause Crypt Fever, which increases disease damage taken by the target by 20%."
+    "description": "Your diseases also cause Crypt Fever, which increases disease damage taken by the target by 10%."
   },
   "49036": {
     "name_enus": "Epidemic",
     "icon": "spell_shadow_shadowwordpain",
     "rank_enus": "Rank 1",
-    "description": "Increases the duration of Blood Plague and Frost Fever by 6 sec."
+    "description": "Increases the duration of Blood Plague and Frost Fever by 3 sec."
   },
   "49039": {
     "name_enus": "Lichborne",
@@ -10139,85 +10121,85 @@ export const spells = {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 1",
-    "description": "Increases your armor value from items by 4% and reduces the duration of all movement slowing effects by 12%."
+    "description": "Increases your armor value from items by 2% and reduces the duration of all movement slowing effects by 6%."
   },
   "49137": {
     "name_enus": "Endless Winter",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 1",
-    "description": "Your strength is increased by 4% and your Mind Freeze no longer costs runic power."
+    "description": "Your strength is increased by 2% and the cost of your Mind Freeze is reduced to 10 runic power."
   },
   "49140": {
     "name_enus": "Black Ice",
     "icon": "spell_shadow_darkritual",
     "rank_enus": "Rank 1",
-    "description": "Increases your Frost and Shadow damage by 4%."
+    "description": "Increases your Frost and Shadow damage by 2%."
   },
   "49143": {
     "name_enus": "Frost Strike",
     "icon": "spell_deathknight_empowerruneblade2",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Instantly strike the enemy, causing 55% weapon damage plus 48 as Frost damage."
   },
   "49145": {
     "name_enus": "Spell Deflection",
     "icon": "spell_deathknight_spelldeflection",
     "rank_enus": "Rank 1",
-    "description": "You have a chance equal to your Parry chance of taking 30% less damage from a direct damage spell."
+    "description": "You have a chance equal to your Parry chance of taking 15% less damage from a direct damage spell."
   },
   "49146": {
     "name_enus": "On a Pale Horse",
     "icon": "spell_deathknight_summondeathcharger",
     "rank_enus": "Rank 1",
-    "description": "You become as hard to stop as death itself.  The duration of all Stun and Fear effects used against you is reduced by 20%, and your mounted speed is increased by 20%.  This does not stack with other movement speed increasing effects."
+    "description": "You become as hard to stop as death itself.  The duration of all Stun and Fear effects used against you is reduced by 10%, and your mounted speed is increased by 10%.  This does not stack with other movement speed increasing effects."
   },
   "49149": {
     "name_enus": "Chill of the Grave",
     "icon": "spell_frost_frostshock",
     "rank_enus": "Rank 1",
-    "description": "Your Chains of Ice, Howling Blast, Icy Touch and Obliterate generate 5 additional runic power."
+    "description": "Your Chains of Ice, Howling Blast, Icy Touch and Obliterate generate 2.5 additional runic power."
   },
   "49158": {
     "name_enus": "Corpse Explosion",
     "icon": "ability_creature_disease_02",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Cause a corpse to explode for 166 Shadow damage to all enemies within 10 yards.  Will use a nearby corpse if the target is not a corpse.  Does not affect mechanical or elemental corpses."
   },
   "49175": {
     "name_enus": "Improved Icy Touch",
     "icon": "spell_deathknight_icetouch",
     "rank_enus": "Rank 1",
-    "description": "Your Icy Touch does an additional 10% damage and your Frost Fever reduces melee and ranged attack speed by an additional 4%."
+    "description": "Your Icy Touch does an additional 5% damage and your Frost Fever reduces melee and ranged attack speed by an additional 2%."
   },
   "49182": {
     "name_enus": "Blade Barrier",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 1",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 2% for the next 10 sec."
+    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 1% for the next 10 sec."
   },
   "49184": {
     "name_enus": "Howling Blast",
     "icon": "spell_frost_arcticwinds",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Blast the target with a frigid wind dealing 198 to 214 Frost damage to all enemies within 10 yards."
   },
   "49186": {
     "name_enus": "Frigid Dreadplate",
     "icon": "inv_chest_mail_04",
     "rank_enus": "Rank 1",
-    "description": "Reduces the chance melee attacks will hit you by 2%."
+    "description": "Reduces the chance melee attacks will hit you by 1%."
   },
   "49188": {
     "name_enus": "Rime",
     "icon": "spell_frost_freezingbreath",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Icy Touch and Obliterate by 10% and casting Obliterate has a 10% chance to reset the cooldown on Howling Blast and cause your next Howling Blast to consume no runes."
+    "description": "Increases the critical strike chance of your Icy Touch and Obliterate by 5% and casting Obliterate has a 5% chance to reset the cooldown on Howling Blast and cause your next Howling Blast to consume no runes."
   },
   "49189": {
     "name_enus": "Will of the Necropolis",
     "icon": "ability_creature_cursed_02",
     "rank_enus": "Rank 1",
-    "description": "Damage that would take you below 35% health or taken while you are at 35% health is reduced by 10%."
+    "description": "Damage that would take you below 35% health or taken while you are at 35% health is reduced by 5%."
   },
   "49194": {
     "name_enus": "Unholy Blight",
@@ -10229,19 +10211,19 @@ export const spells = {
     "name_enus": "Acclimation",
     "icon": "classic_spell_fire_elementaldevastation",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "When you are hit by a spell, you have a 10% chance to boost your resistance to that type of magic for 18 sec.  Stacks up to 3 times."
   },
   "49202": {
     "name_enus": "Tundra Stalker",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 1",
-    "description": "Your spells and abilities deal 6% more damage to targets infected with Frost Fever.  Also increases your expertise by 2."
+    "description": "Your spells and abilities deal 3% more damage to targets infected with Frost Fever.  Also increases your expertise by 1."
   },
   "49203": {
     "name_enus": "Hungering Cold",
     "icon": "inv_staff_15",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Purges the earth around the Death Knight of all heat.  Enemies within 10 yards are trapped in ice, preventing them from performing any action for 10 sec and infecting them with Frost Fever.  Enemies are considered Frozen, but any damage other than diseases will break the ice."
   },
   "49206": {
     "name_enus": "Summon Gargoyle",
@@ -10253,25 +10235,25 @@ export const spells = {
     "name_enus": "Reaping",
     "icon": "spell_shadow_shadetruesight",
     "rank_enus": "Rank 1",
-    "description": "Whenever you hit with Blood Strike or Pestilence there is a 66% chance that the Blood Rune becomes a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
+    "description": "Whenever you hit with Blood Strike or Pestilence there is a 33% chance that the Blood Rune becomes a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
   },
   "49217": {
     "name_enus": "Wandering Plague",
     "icon": "spell_shadow_callofbone",
     "rank_enus": "Rank 1",
-    "description": "When your diseases damage an enemy, there is a chance equal to your melee critical strike chance that they will cause 66% additional damage to the target and all enemies within 8 yards.  Ignores any target under the effect of a spell that is cancelled by taking damage."
+    "description": "When your diseases damage an enemy, there is a chance equal to your melee critical strike chance that they will cause 33% additional damage to the target and all enemies within 8 yards.  Ignores any target under the effect of a spell that is cancelled by taking damage."
   },
   "49219": {
     "name_enus": "Blood-Caked Blade",
     "icon": "ability_criticalstrike",
     "rank_enus": "Rank 1",
-    "description": "Your auto attacks have a 20% chance to cause a Blood-Caked Strike, which hits for 25% weapon damage plus 12.5% for each of your diseases on the target."
+    "description": "Your auto attacks have a 10% chance to cause a Blood-Caked Strike, which hits for 25% weapon damage plus 12.5% for each of your diseases on the target."
   },
   "49220": {
     "name_enus": "Impurity",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 1",
-    "description": "The attack power bonus of your spells is increased by 8%."
+    "description": "The attack power bonus of your spells is increased by 4%."
   },
   "49222": {
     "name_enus": "Bone Shield",
@@ -10283,67 +10265,67 @@ export const spells = {
     "name_enus": "Dirge",
     "icon": "spell_shadow_shadesofdarkness",
     "rank_enus": "Rank 1",
-    "description": "Your Death Strike, Plague Strike and Scourge Strike generate 5 additional runic power."
+    "description": "Your Death Strike, Plague Strike and Scourge Strike generate 2.5 additional runic power."
   },
   "49224": {
     "name_enus": "Magic Suppression",
     "icon": "spell_shadow_antimagicshell",
     "rank_enus": "Rank 1",
-    "description": "You take 4% less damage from all magic.  In addition, your Anti-Magic Shell absorbs an additional 16% of spell damage."
+    "description": "You take 2% less damage from all magic.  In addition, your Anti-Magic Shell absorbs an additional 8% of spell damage."
   },
   "49226": {
     "name_enus": "Nerves of Cold Steel",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 1",
-    "description": "Increases your chance to hit with one-handed melee weapons by 2% and increases the damage done by your offhand weapon by 16%."
+    "description": "Increases your chance to hit with one-handed melee weapons by 1% and increases the damage done by your offhand weapon by 8%."
   },
   "49377": {
     "name_enus": "Feral Charge",
     "icon": "ability_hunter_pet_bear",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Teaches Feral Charge (Bear) and Feral Charge (Cat).<br /><br />Feral Charge (Bear) - Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec. This ability can be used in Bear Form and Dire Bear Form. 15 second cooldown.<br /><br />Feral Charge (Cat) - Causes you to leap behind an enemy, dazing them for 3 sec. 30 second cooldown."
   },
   "49390": {
     "name_enus": "Bladed Armor",
     "icon": "inv_shoulder_36",
     "rank_enus": "Rank 2",
-    "description": "Increases your attack power by 3 for every 180 armor value you have."
+    "description": "Increases your attack power by 2 for every 180 armor value you have."
   },
   "49391": {
     "name_enus": "Bladed Armor",
     "icon": "inv_shoulder_36",
     "rank_enus": "Rank 3",
-    "description": "Increases your attack power by 4 for every 180 armor value you have."
+    "description": "Increases your attack power by 3 for every 180 armor value you have."
   },
   "49392": {
     "name_enus": "Bladed Armor",
     "icon": "inv_shoulder_36",
     "rank_enus": "Rank 4",
-    "description": "Increases your attack power by 5 for every 180 armor value you have."
+    "description": "Increases your attack power by 4 for every 180 armor value you have."
   },
   "49393": {
     "name_enus": "Bladed Armor",
     "icon": "inv_shoulder_36",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your attack power by 5 for every 180 armor value you have."
   },
   "49394": {
     "name_enus": "Bloody Strikes",
     "icon": "spell_deathknight_deathstrike",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage of Blood Strike by 15% and Heart Strike by 45%, and increases the damage of Blood Boil by 30%."
+    "description": "Increases the damage of Blood Strike by 10% and Heart Strike by 30%, and increases the damage of Blood Boil by 20%."
   },
   "49395": {
     "name_enus": "Bloody Strikes",
     "icon": "spell_deathknight_deathstrike",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage of Blood Strike by 15% and Heart Strike by 45%, and increases the damage of Blood Boil by 30%."
   },
   "49455": {
     "name_enus": "Runic Power Mastery",
     "icon": "spell_arcane_arcane01",
     "rank_enus": "Rank 1",
-    "description": "Increases your maximum Runic Power by 30."
+    "description": "Increases your maximum Runic Power by 15."
   },
   "49467": {
     "name_enus": "Death Rune Mastery",
@@ -10355,355 +10337,355 @@ export const spells = {
     "name_enus": "Glacier Rot",
     "icon": "spell_nature_removedisease",
     "rank_enus": "Rank 1",
-    "description": "Diseased enemies take 13% more damage from your Icy Touch, Howling Blast and Frost Strike."
+    "description": "Diseased enemies take 7% more damage from your Icy Touch, Howling Blast and Frost Strike."
   },
   "49477": {
     "name_enus": "Dark Conviction",
     "icon": "spell_deathknight_darkconviction",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to critically hit with weapons, spells and abilities by 3%."
+    "description": "Increases your chance to critically hit with weapons, spells and abilities by 2%."
   },
   "49478": {
     "name_enus": "Dark Conviction",
     "icon": "spell_deathknight_darkconviction",
     "rank_enus": "Rank 3",
-    "description": "Increases your chance to critically hit with weapons, spells and abilities by 4%."
+    "description": "Increases your chance to critically hit with weapons, spells and abilities by 3%."
   },
   "49479": {
     "name_enus": "Dark Conviction",
     "icon": "spell_deathknight_darkconviction",
     "rank_enus": "Rank 4",
-    "description": "Increases your chance to critically hit with weapons, spells and abilities by 5%."
+    "description": "Increases your chance to critically hit with weapons, spells and abilities by 4%."
   },
   "49480": {
     "name_enus": "Dark Conviction",
     "icon": "spell_deathknight_darkconviction",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your chance to critically hit with weapons, spells and abilities by 5%."
   },
   "49483": {
     "name_enus": "Butchery",
     "icon": "inv_axe_68",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Whenever you kill an enemy that grants experience or honor, you generate up to 20 runic power.  In addition, you generate 2 runic power per 5 sec while in combat."
   },
   "49488": {
     "name_enus": "Improved Rune Tap",
     "icon": "spell_deathknight_runetap",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the health provided by Rune Tap by 66% and lowers its cooldown by 20 sec."
   },
   "49489": {
     "name_enus": "Improved Rune Tap",
     "icon": "spell_deathknight_runetap",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the health provided by Rune Tap by 100% and lowers its cooldown by 30 sec."
   },
   "49490": {
     "name_enus": "Subversion",
     "icon": "spell_deathknight_subversion",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of Blood Strike, Scourge Strike, Heart Strike and Obliterate by 9%, and reduces threat generated while in Blood or Unholy Presence by 25%."
+    "description": "Increases the critical strike chance of Blood Strike, Scourge Strike, Heart Strike and Obliterate by 6%, and reduces threat generated while in Blood or Unholy Presence by 16%."
   },
   "49491": {
     "name_enus": "Subversion",
     "icon": "spell_deathknight_subversion",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of Blood Strike, Scourge Strike, Heart Strike and Obliterate by 9%, and reduces threat generated while in Blood or Unholy Presence by 25%."
   },
   "49495": {
     "name_enus": "Spell Deflection",
     "icon": "spell_deathknight_spelldeflection",
     "rank_enus": "Rank 2",
-    "description": "You have a chance equal to your Parry chance of taking 45% less damage from a direct damage spell."
+    "description": "You have a chance equal to your Parry chance of taking 30% less damage from a direct damage spell."
   },
   "49497": {
     "name_enus": "Spell Deflection",
     "icon": "spell_deathknight_spelldeflection",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You have a chance equal to your Parry chance of taking 45% less damage from a direct damage spell."
   },
   "49500": {
     "name_enus": "Blade Barrier",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 2",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 3% for the next 10 sec."
+    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 2% for the next 10 sec."
   },
   "49501": {
     "name_enus": "Blade Barrier",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 3",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 4% for the next 10 sec."
+    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 3% for the next 10 sec."
   },
   "49503": {
     "name_enus": "Bloody Vengeance",
     "icon": "ability_backstab",
     "rank_enus": "Rank 2",
-    "description": "Gives you a 3% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
+    "description": "Gives you a 2% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
   },
   "49504": {
     "name_enus": "Bloody Vengeance",
     "icon": "ability_backstab",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Gives you a 3% bonus to physical damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell, or ability.  This effect stacks up to 3 times."
   },
   "49508": {
     "name_enus": "Scent of Blood",
     "icon": "ability_rogue_bloodyeye",
     "rank_enus": "Rank 2",
-    "description": "You have a 15% chance after dodging, parrying or taking  direct damage to gain the Scent of Blood effect, causing your next 3 melee hits to generate 10 runic power."
+    "description": "You have a 15% chance after dodging, parrying or taking  direct damage to gain the Scent of Blood effect, causing your next 2 melee hits to generate 10 runic power."
   },
   "49509": {
     "name_enus": "Scent of Blood",
     "icon": "ability_rogue_bloodyeye",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You have a 15% chance after dodging, parrying or taking  direct damage to gain the Scent of Blood effect, causing your next 3 melee hits to generate 10 runic power."
   },
   "49526": {
     "name_enus": "Veteran of the Third War",
     "icon": "spell_misc_warsongfocus",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Strength by 6%, your Stamina by 3%, and your expertise by 6."
+    "description": "Increases your total Strength by 4%, your Stamina by 2%, and your expertise by 4."
   },
   "49529": {
     "name_enus": "Sudden Doom",
     "icon": "spell_shadow_painspike",
     "rank_enus": "Rank 2",
-    "description": "Your Blood Strikes and Heart Strikes have a 15% chance to launch a free Death Coil at your target."
+    "description": "Your Blood Strikes and Heart Strikes have a 10% chance to launch a free Death Coil at your target."
   },
   "49530": {
     "name_enus": "Sudden Doom",
     "icon": "spell_shadow_painspike",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Blood Strikes and Heart Strikes have a 15% chance to launch a free Death Coil at your target."
   },
   "49533": {
     "name_enus": "Might of Mograine",
     "icon": "spell_deathknight_classicon",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike damage bonus of your Blood Boil, Blood Strike, Death Strike, and Heart Strike abilities by 45%."
+    "description": "Increases the critical strike damage bonus of your Blood Boil, Blood Strike, Death Strike, and Heart Strike abilities by 30%."
   },
   "49534": {
     "name_enus": "Might of Mograine",
     "icon": "spell_deathknight_classicon",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Blood Boil, Blood Strike, Death Strike, and Heart Strike abilities by 45%."
   },
   "49538": {
     "name_enus": "Merciless Combat",
     "icon": "inv_sword_112",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Icy Touch, Howling Blast, Obliterate and Frost Strike do an additional 12% damage when striking targets with less than 35% health."
   },
   "49542": {
     "name_enus": "Bloodworms",
     "icon": "spell_shadow_soulleech",
     "rank_enus": "Rank 2",
-    "description": "Your weapon hits have a 9% chance to cause the target to spawn 2-4 Bloodworms.  Bloodworms attack your enemies, healing you as they do damage for 20 sec or until killed."
+    "description": "Your weapon hits have a 6% chance to cause the target to spawn 2-4 Bloodworms.  Bloodworms attack your enemies, healing you as they do damage for 20 sec or until killed."
   },
   "49543": {
     "name_enus": "Bloodworms",
     "icon": "spell_shadow_soulleech",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your weapon hits have a 9% chance to cause the target to spawn 2-4 Bloodworms.  Bloodworms attack your enemies, healing you as they do damage for 20 sec or until killed."
   },
   "49562": {
     "name_enus": "Epidemic",
     "icon": "spell_shadow_shadowwordpain",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the duration of Blood Plague and Frost Fever by 6 sec."
   },
   "49564": {
     "name_enus": "Morbidity",
     "icon": "spell_shadow_deathanddecay",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage and healing of Death Coil by 15% and reduces the cooldown on Death and Decay by 15 sec."
+    "description": "Increases the damage and healing of Death Coil by 10% and reduces the cooldown on Death and Decay by 10 sec."
   },
   "49565": {
     "name_enus": "Morbidity",
     "icon": "spell_shadow_deathanddecay",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage and healing of Death Coil by 15% and reduces the cooldown on Death and Decay by 15 sec."
   },
   "49567": {
     "name_enus": "Virulence",
     "icon": "spell_shadow_burningspirit",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to hit with your spells by 3% and reduces the chance that your damage over time diseases can be cured by 30%."
+    "description": "Increases your chance to hit with your spells by 2% and reduces the chance that your damage over time diseases can be cured by 20%."
   },
   "49568": {
     "name_enus": "Virulence",
     "icon": "spell_shadow_burningspirit",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to hit with your spells by 3% and reduces the chance that your damage over time diseases can be cured by 30%."
   },
   "49571": {
     "name_enus": "Ravenous Dead",
     "icon": "spell_deathknight_gnaw_ghoul",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Strength by 3% and the contribution your Ghouls get from your Strength and Stamina by 60%"
+    "description": "Increases your total Strength by 2% and the contribution your Ghouls get from your Strength and Stamina by 40%."
   },
   "49572": {
     "name_enus": "Ravenous Dead",
     "icon": "spell_deathknight_gnaw_ghoul",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your total Strength by 3% and the contribution your Ghouls get from your Strength and Stamina by 60%"
   },
   "49588": {
     "name_enus": "Unholy Command",
     "icon": "spell_deathknight_strangulate",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Death Grip ability by 10 sec."
+    "description": "Reduces the cooldown of your Death Grip ability by 5 sec."
   },
   "49589": {
     "name_enus": "Unholy Command",
     "icon": "spell_deathknight_strangulate",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Death Grip ability by 10 sec."
   },
   "49599": {
     "name_enus": "Dirge",
     "icon": "spell_shadow_shadesofdarkness",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Death Strike, Plague Strike and Scourge Strike generate 5 additional runic power."
   },
   "49610": {
     "name_enus": "Magic Suppression",
     "icon": "spell_shadow_antimagicshell",
     "rank_enus": "Rank 2",
-    "description": "You take 6% less damage from all magic.  In addition, your Anti-Magic Shell absorbs an additional 25% of spell damage."
+    "description": "You take 4% less damage from all magic.  In addition, your Anti-Magic Shell absorbs an additional 16% of spell damage."
   },
   "49611": {
     "name_enus": "Magic Suppression",
     "icon": "spell_shadow_antimagicshell",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You take 6% less damage from all magic.  In addition, your Anti-Magic Shell absorbs an additional 25% of spell damage."
   },
   "49627": {
     "name_enus": "Blood-Caked Blade",
     "icon": "ability_criticalstrike",
     "rank_enus": "Rank 2",
-    "description": "Your auto attacks have a 30% chance to cause a Blood-Caked Strike, which hits for 25% weapon damage plus 12.5% for each of your diseases on the target."
+    "description": "Your auto attacks have a 20% chance to cause a Blood-Caked Strike, which hits for 25% weapon damage plus 12.5% for each of your diseases on the target."
   },
   "49628": {
     "name_enus": "Blood-Caked Blade",
     "icon": "ability_criticalstrike",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your auto attacks have a 30% chance to cause a Blood-Caked Strike, which hits for 25% weapon damage plus 12.5% for each of your diseases on the target."
   },
   "49631": {
     "name_enus": "Crypt Fever",
     "icon": "spell_nature_nullifydisease",
     "rank_enus": "Rank 2",
-    "description": "Your diseases also cause Crypt Fever, which increases disease damage taken by the target by 30%."
+    "description": "Your diseases also cause Crypt Fever, which increases disease damage taken by the target by 20%."
   },
   "49632": {
     "name_enus": "Crypt Fever",
     "icon": "spell_nature_nullifydisease",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your diseases also cause Crypt Fever, which increases disease damage taken by the target by 30%."
   },
   "49633": {
     "name_enus": "Impurity",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 2",
-    "description": "The attack power bonus of your spells is increased by 12%."
+    "description": "The attack power bonus of your spells is increased by 8%."
   },
   "49635": {
     "name_enus": "Impurity",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 3",
-    "description": "The attack power bonus of your spells is increased by 16%."
+    "description": "The attack power bonus of your spells is increased by 12%."
   },
   "49636": {
     "name_enus": "Impurity",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 4",
-    "description": "Your spells receive an additional 20% benefit from your attack power."
+    "description": "The attack power bonus of your spells is increased by 16%."
   },
   "49638": {
     "name_enus": "Impurity",
     "icon": "spell_shadow_shadowandflame",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your spells receive an additional 20% benefit from your attack power."
   },
   "49654": {
     "name_enus": "Wandering Plague",
     "icon": "spell_shadow_callofbone",
     "rank_enus": "Rank 2",
-    "description": "When your diseases damage an enemy, there is a chance equal to your melee critical strike chance that they will cause 100% additional damage to the target and all enemies within 8 yards.  Ignores any target under the effect of a spell that is cancelled by taking damage."
+    "description": "When your diseases damage an enemy, there is a chance equal to your melee critical strike chance that they will cause 66% additional damage to the target and all enemies within 8 yards.  Ignores any target under the effect of a spell that is cancelled by taking damage."
   },
   "49655": {
     "name_enus": "Wandering Plague",
     "icon": "spell_shadow_callofbone",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When your diseases damage an enemy, there is a chance equal to your melee critical strike chance that they will cause 100% additional damage to the target and all enemies within 8 yards.  Ignores any target under the effect of a spell that is cancelled by taking damage."
   },
   "49657": {
     "name_enus": "Endless Winter",
     "icon": "spell_shadow_twilight",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your strength is increased by 4% and your Mind Freeze no longer costs runic power."
   },
   "49661": {
     "name_enus": "Black Ice",
     "icon": "spell_shadow_darkritual",
     "rank_enus": "Rank 2",
-    "description": "Increases your Frost and Shadow damage by 6%."
+    "description": "Increases your Frost and Shadow damage by 4%."
   },
   "49662": {
     "name_enus": "Black Ice",
     "icon": "spell_shadow_darkritual",
     "rank_enus": "Rank 3",
-    "description": "Increases your Frost and Shadow damage by 8%."
+    "description": "Increases your Frost and Shadow damage by 6%."
   },
   "49663": {
     "name_enus": "Black Ice",
     "icon": "spell_shadow_darkritual",
     "rank_enus": "Rank 4",
-    "description": "Increases your Frost and Shadow damage by 10%."
+    "description": "Increases your Frost and Shadow damage by 8%."
   },
   "49664": {
     "name_enus": "Black Ice",
     "icon": "spell_shadow_darkritual",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your Frost and Shadow damage by 10%."
   },
   "49786": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 2",
-    "description": "Increases your armor value from items by 6% and reduces the duration of all movement slowing effects by 18%."
+    "description": "Increases your armor value from items by 4% and reduces the duration of all movement slowing effects by 12%."
   },
   "49787": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 3",
-    "description": "Increases your armor value from items by 8% and reduces the duration of all movement slowing effects by 24%."
+    "description": "Increases your armor value from items by 6% and reduces the duration of all movement slowing effects by 18%."
   },
   "49788": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 4",
-    "description": "Increases your armor value from items by 10% and reduces the duration of all movement slowing effects by 30%."
+    "description": "Increases your armor value from items by 8% and reduces the duration of all movement slowing effects by 24%."
   },
   "49789": {
     "name_enus": "Toughness",
     "icon": "spell_holy_devotion",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your armor value from items by 10% and reduces the duration of all movement slowing effects by 30%."
   },
   "49790": {
     "name_enus": "Glacier Rot",
     "icon": "spell_nature_removedisease",
     "rank_enus": "Rank 2",
-    "description": "Diseased enemies take 20% more damage from your Icy Touch, Howling Blast and Frost Strike."
+    "description": "Diseased enemies take 13% more damage from your Icy Touch, Howling Blast and Frost Strike."
   },
   "49791": {
     "name_enus": "Glacier Rot",
     "icon": "spell_nature_removedisease",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Diseased enemies take 20% more damage from your Icy Touch, Howling Blast and Frost Strike."
   },
   "49796": {
     "name_enus": "Deathchill",
@@ -10715,169 +10697,169 @@ export const spells = {
     "name_enus": "Veteran of the Third War",
     "icon": "spell_misc_warsongfocus",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your total Strength by 6%, your Stamina by 3%, and your expertise by 6."
   },
   "50031": {
     "name_enus": "Improved Icy Touch",
     "icon": "spell_deathknight_icetouch",
     "rank_enus": "Rank 2",
-    "description": "Your Icy Touch does an additional 15% damage and your Frost Fever reduces melee and ranged attack speed by an additional 6%."
+    "description": "Your Icy Touch does an additional 10% damage and your Frost Fever reduces melee and ranged attack speed by an additional 4%."
   },
   "50033": {
     "name_enus": "Death Rune Mastery",
     "icon": "inv_sword_62",
     "rank_enus": "Rank 2",
-    "description": "Whenever you hit with Death Strike or Obliterate there is a 100% chance that the Frost and Unholy Runes will become Death Runes when they activate.  Death Runes count as a Blood, Frost or Unholy Rune."
+    "description": "Whenever you hit with Death Strike or Obliterate there is a 66% chance that the Frost and Unholy Runes will become Death Runes when they activate.  Death Runes count as a Blood, Frost or Unholy Rune."
   },
   "50034": {
     "name_enus": "Death Rune Mastery",
     "icon": "inv_sword_62",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Whenever you hit with Death Strike or Obliterate there is a 100% chance that the Frost and Unholy Runes will become Death Runes when they activate.  Death Runes count as a Blood, Frost or Unholy Rune."
   },
   "50040": {
     "name_enus": "Chilblains",
     "icon": "spell_frost_wisp",
     "rank_enus": "Rank 1",
-    "description": "Victims of your Frost Fever disease are Chilled, reducing movement speed by 30% for 10 sec."
+    "description": "Victims of your Frost Fever disease are Chilled, reducing movement speed by 15% for 10 sec."
   },
   "50041": {
     "name_enus": "Chilblains",
     "icon": "spell_frost_wisp",
     "rank_enus": "Rank 2",
-    "description": "Victims of your Frost Fever disease are Chilled, reducing movement speed by 50% for 10 sec."
+    "description": "Victims of your Frost Fever disease are Chilled, reducing movement speed by 30% for 10 sec."
   },
   "50043": {
     "name_enus": "Chilblains",
     "icon": "spell_frost_wisp",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Victims of your Frost Fever disease are Chilled, reducing movement speed by 50% for 10 sec."
   },
   "50115": {
     "name_enus": "Chill of the Grave",
     "icon": "spell_frost_frostshock",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Chains of Ice, Howling Blast, Icy Touch and Obliterate generate 5 additional runic power."
   },
   "50117": {
     "name_enus": "Rage of Rivendare",
     "icon": "inv_weapon_halberd14",
     "rank_enus": "Rank 1",
-    "description": "Your spells and abilities deal 4% more damage to targets infected with Blood Plague.  Also increases your expertise by 2."
+    "description": "Your spells and abilities deal 2% more damage to targets infected with Blood Plague.  Also increases your expertise by 1."
   },
   "50118": {
     "name_enus": "Rage of Rivendare",
     "icon": "inv_weapon_halberd14",
     "rank_enus": "Rank 2",
-    "description": "Your spells and abilities deal 6% more damage to targets infected with Blood Plague.  Also increases your expertise by 3."
+    "description": "Your spells and abilities deal 4% more damage to targets infected with Blood Plague.  Also increases your expertise by 2."
   },
   "50119": {
     "name_enus": "Rage of Rivendare",
     "icon": "inv_weapon_halberd14",
     "rank_enus": "Rank 3",
-    "description": "Your spells and abilities deal 8% more damage to targets infected with Blood Plague.  Also increases your expertise by 4."
+    "description": "Your spells and abilities deal 6% more damage to targets infected with Blood Plague.  Also increases your expertise by 3."
   },
   "50120": {
     "name_enus": "Rage of Rivendare",
     "icon": "inv_weapon_halberd14",
     "rank_enus": "Rank 4",
-    "description": "Your spells and abilities deal 10% more damage to targets infected with Blood Plague.  Also increases your expertise by 5."
+    "description": "Your spells and abilities deal 8% more damage to targets infected with Blood Plague.  Also increases your expertise by 4."
   },
   "50121": {
     "name_enus": "Rage of Rivendare",
     "icon": "inv_weapon_halberd14",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your spells and abilities deal 10% more damage to targets infected with Blood Plague.  Also increases your expertise by 5."
   },
   "50127": {
     "name_enus": "Tundra Stalker",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 2",
-    "description": "Your spells and abilities deal 9% more damage to targets infected with Frost Fever.  Also increases your expertise by 3."
+    "description": "Your spells and abilities deal 6% more damage to targets infected with Frost Fever.  Also increases your expertise by 2."
   },
   "50128": {
     "name_enus": "Tundra Stalker",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 3",
-    "description": "Your spells and abilities deal 12% more damage to targets infected with Frost Fever.  Also increases your expertise by 4."
+    "description": "Your spells and abilities deal 9% more damage to targets infected with Frost Fever.  Also increases your expertise by 3."
   },
   "50129": {
     "name_enus": "Tundra Stalker",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 4",
-    "description": "Your spells and abilities deal 15% more damage to targets infected with Frost Fever.  Also increases your expertise by 5."
+    "description": "Your spells and abilities deal 12% more damage to targets infected with Frost Fever.  Also increases your expertise by 4."
   },
   "50130": {
     "name_enus": "Tundra Stalker",
     "icon": "spell_nature_tranquility",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your spells and abilities deal 15% more damage to targets infected with Frost Fever.  Also increases your expertise by 5."
   },
   "50137": {
     "name_enus": "Nerves of Cold Steel",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 2",
-    "description": "Increases your chance to hit with one-handed melee weapons by 3% and increases the damage done by your offhand weapon by 25%."
+    "description": "Increases your chance to hit with one-handed melee weapons by 2% and increases the damage done by your offhand weapon by 16%."
   },
   "50138": {
     "name_enus": "Nerves of Cold Steel",
     "icon": "ability_dualwield",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your chance to hit with one-handed melee weapons by 3% and increases the damage done by your offhand weapon by 25%."
   },
   "50147": {
     "name_enus": "Runic Power Mastery",
     "icon": "spell_arcane_arcane01",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your maximum Runic Power by 30."
   },
   "50149": {
     "name_enus": "Will of the Necropolis",
     "icon": "ability_creature_cursed_02",
     "rank_enus": "Rank 2",
-    "description": "Damage that would take you below 35% health or taken while you are at 35% health is reduced by 15%."
+    "description": "Damage that would take you below 35% health or taken while you are at 35% health is reduced by 10%."
   },
   "50150": {
     "name_enus": "Will of the Necropolis",
     "icon": "ability_creature_cursed_02",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Damage that would take you below 35% health or taken while you are at 35% health is reduced by 15%."
   },
   "50151": {
     "name_enus": "Acclimation",
     "icon": "classic_spell_fire_elementaldevastation",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "When you are hit by a spell, you have a 20% chance to boost your resistance to that type of magic for 18 sec.  Stacks up to 3 times."
   },
   "50152": {
     "name_enus": "Acclimation",
     "icon": "classic_spell_fire_elementaldevastation",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When you are hit by a spell, you have a 30% chance to boost your resistance to that type of magic for 18 sec.  Stacks up to 3 times."
   },
   "50154": {
     "name_enus": "Vendetta",
     "icon": "spell_deathknight_vendetta",
     "rank_enus": "Rank 2",
-    "description": "Heals you for up to 6% of your maximum health whenever you kill a target that yields experience or honor."
+    "description": "Heals you for up to 4% of your maximum health whenever you kill a target that yields experience or honor."
   },
   "50187": {
     "name_enus": "Guile of Gorefiend",
     "icon": "inv-sword_53",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike damage bonus of your Blood Strike, Frost Strike, Howling Blast and Obliterate abilities by 30%, and increases the duration of your Icebound Fortitude by 4 secs."
+    "description": "Increases the critical strike damage bonus of your Blood Strike, Frost Strike, Howling Blast and Obliterate abilities by 15%, and increases the duration of your Icebound Fortitude by 2 secs."
   },
   "50190": {
     "name_enus": "Guile of Gorefiend",
     "icon": "inv-sword_53",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike damage bonus of your Blood Strike, Frost Strike, Howling Blast and Obliterate abilities by 45%, and increases the duration of your Icebound Fortitude by 6 secs."
+    "description": "Increases the critical strike damage bonus of your Blood Strike, Frost Strike, Howling Blast and Obliterate abilities by 30%, and increases the duration of your Icebound Fortitude by 4 secs."
   },
   "50191": {
     "name_enus": "Guile of Gorefiend",
     "icon": "inv-sword_53",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Blood Strike, Frost Strike, Howling Blast and Obliterate abilities by 45%, and increases the duration of your Icebound Fortitude by 6 secs."
   },
   "50334": {
     "name_enus": "Berserk",
@@ -10889,61 +10871,61 @@ export const spells = {
     "name_enus": "Improved Blood Presence",
     "icon": "spell_deathknight_bloodpresence",
     "rank_enus": "Rank 1",
-    "description": "While in Frost Presence or Unholy Presence, you retain 4% healing from Blood Presence, and healing done to you is increased by 10% in Blood Presence."
+    "description": "While in Frost Presence or Unholy Presence, you retain 2% healing from Blood Presence, and healing done to you is increased by 5% in Blood Presence."
   },
   "50371": {
     "name_enus": "Improved Blood Presence",
     "icon": "spell_deathknight_bloodpresence",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "While in Frost Presence or Unholy Presence, you retain 4% healing from Blood Presence, and healing done to you is increased by 10% in Blood Presence."
   },
   "50384": {
     "name_enus": "Improved Frost Presence",
     "icon": "spell_deathknight_frostpresence",
     "rank_enus": "Rank 1",
-    "description": "While in Blood Presence or Unholy Presence, you retain 8% stamina from Frost Presence, and damage done to you is decreased by an additional 2% in Frost Presence."
+    "description": "While in Blood Presence or Unholy Presence, you retain 4% stamina from Frost Presence, and damage done to you is decreased by an additional 1% in Frost Presence."
   },
   "50385": {
     "name_enus": "Improved Frost Presence",
     "icon": "spell_deathknight_frostpresence",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "While in Blood Presence or Unholy Presence, you retain 8% stamina from Frost Presence, and damage done to you is decreased by an additional 2% in Frost Presence."
   },
   "50391": {
     "name_enus": "Improved Unholy Presence",
     "icon": "spell_deathknight_unholypresence",
     "rank_enus": "Rank 1",
-    "description": "While in Blood Presence or Frost Presence, you retain 15% increased movement speed from Unholy Presence, and your runes finish their cooldowns 10% faster in Unholy Presence."
+    "description": "While in Blood Presence or Frost Presence, you retain 8% increased movement speed from Unholy Presence, and your runes finish their cooldowns 5% faster in Unholy Presence."
   },
   "50392": {
     "name_enus": "Improved Unholy Presence",
     "icon": "spell_deathknight_unholypresence",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "While in Blood Presence or Frost Presence, you retain 15% increased movement speed from Unholy Presence, and your runes finish their cooldowns 10% faster in Unholy Presence."
   },
   "50516": {
     "name_enus": "Typhoon",
     "icon": "ability_druid_typhoon",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "You summon a violent Typhoon that does 400 Nature damage when in contact with hostile targets, knocking them back and dazing them for 6 sec."
   },
   "50685": {
     "name_enus": "Incite",
     "icon": "ability_warrior_incite",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Heroic Strike, Thunder Clap and Cleave abilities by 10%."
+    "description": "Increases the critical strike chance of your Heroic Strike, Thunder Clap and Cleave abilities by 5%."
   },
   "50686": {
     "name_enus": "Incite",
     "icon": "ability_warrior_incite",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of your Heroic Strike, Thunder Clap and Cleave abilities by 15%."
+    "description": "Increases the critical strike chance of your Heroic Strike, Thunder Clap and Cleave abilities by 10%."
   },
   "50687": {
     "name_enus": "Incite",
     "icon": "ability_warrior_incite",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your Heroic Strike, Thunder Clap and Cleave abilities by 15%."
   },
   "50720": {
     "name_enus": "Vigilance",
@@ -10955,163 +10937,163 @@ export const spells = {
     "name_enus": "Chaos Bolt",
     "icon": "ability_warlock_chaosbolt",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Sends a bolt of chaotic fire at the enemy, dealing 837 to 1061 Fire damage. Chaos Bolt cannot be resisted, and pierces through all absorption effects."
   },
   "50880": {
     "name_enus": "Icy Talons",
     "icon": "spell_deathknight_icytalons",
     "rank_enus": "Rank 1",
-    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 8% for the next 20 sec."
+    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 4% for the next 20 sec."
   },
   "50884": {
     "name_enus": "Icy Talons",
     "icon": "spell_deathknight_icytalons",
     "rank_enus": "Rank 2",
-    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 12% for the next 20 sec."
+    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 8% for the next 20 sec."
   },
   "50885": {
     "name_enus": "Icy Talons",
     "icon": "spell_deathknight_icytalons",
     "rank_enus": "Rank 3",
-    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 16% for the next 20 sec."
+    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 12% for the next 20 sec."
   },
   "50886": {
     "name_enus": "Icy Talons",
     "icon": "spell_deathknight_icytalons",
     "rank_enus": "Rank 4",
-    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 20% for the next 20 sec."
+    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 16% for the next 20 sec."
   },
   "50887": {
     "name_enus": "Icy Talons",
     "icon": "spell_deathknight_icytalons",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 20% for the next 20 sec."
   },
   "51052": {
     "name_enus": "Anti-Magic Zone",
     "icon": "spell_deathknight_antimagiczone",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Places a large, stationary Anti-Magic Zone that reduces spell damage done to party or raid members inside it by 75%.  The Anti-Magic Zone lasts for 10 sec or until it absorbs 10000+2*AP spell damage."
   },
   "51099": {
     "name_enus": "Ebon Plaguebringer",
     "icon": "ability_creature_cursed_03",
     "rank_enus": "Rank 1",
-    "description": "Your Crypt Fever morphs into Ebon Plague, which increases magic damage taken by 9% in addition to increasing disease damage taken.  Improves your critical strike chance with weapons and spells by 2% at all times."
+    "description": "Your Crypt Fever morphs into Ebon Plague, which increases magic damage taken by 4% in addition to increasing disease damage taken.  Improves your critical strike chance with weapons and spells by 1% at all times."
   },
   "51108": {
     "name_enus": "Frigid Dreadplate",
     "icon": "inv_chest_mail_04",
     "rank_enus": "Rank 2",
-    "description": "Reduces the chance melee attacks will hit you by 3%."
+    "description": "Reduces the chance melee attacks will hit you by 2%."
   },
   "51109": {
     "name_enus": "Frigid Dreadplate",
     "icon": "inv_chest_mail_04",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the chance melee attacks will hit you by 3%."
   },
   "51123": {
     "name_enus": "Killing Machine",
     "icon": "inv_sword_122",
     "rank_enus": "Rank 1",
-    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike.  Effect occurs more often than Killing Machine (Rank 1)."
+    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike."
   },
   "51127": {
     "name_enus": "Killing Machine",
     "icon": "inv_sword_122",
     "rank_enus": "Rank 2",
-    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike.  Effect occurs more often than Killing Machine (Rank 2)."
+    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike.  Effect occurs more often than Killing Machine (Rank 1)."
   },
   "51128": {
     "name_enus": "Killing Machine",
     "icon": "inv_sword_122",
     "rank_enus": "Rank 3",
-    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike.  Effect occurs more often than Killing Machine (Rank 3)."
+    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike.  Effect occurs more often than Killing Machine (Rank 2)."
   },
   "51129": {
     "name_enus": "Killing Machine",
     "icon": "inv_sword_122",
     "rank_enus": "Rank 4",
-    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike.  Effect occurs more often than Killing Machine (Rank 4)."
+    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike.  Effect occurs more often than Killing Machine (Rank 3)."
   },
   "51130": {
     "name_enus": "Killing Machine",
     "icon": "inv_sword_122",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your melee attacks have a chance to make your next Icy Touch, Howling Blast or Frost Strike a critical strike.  Effect occurs more often than Killing Machine (Rank 4)."
   },
   "51160": {
     "name_enus": "Ebon Plaguebringer",
     "icon": "ability_creature_cursed_03",
     "rank_enus": "Rank 2",
-    "description": "Your Crypt Fever morphs into Ebon Plague, which increases magic damage taken by 13% in addition to increasing disease damage taken.  Improves your critical strike chance with weapons and spells by 3% at all times."
+    "description": "Your Crypt Fever morphs into Ebon Plague, which increases magic damage taken by 9% in addition to increasing disease damage taken.  Improves your critical strike chance with weapons and spells by 2% at all times."
   },
   "51161": {
     "name_enus": "Ebon Plaguebringer",
     "icon": "ability_creature_cursed_03",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Crypt Fever morphs into Ebon Plague, which increases magic damage taken by 13% in addition to increasing disease damage taken.  Improves your critical strike chance with weapons and spells by 3% at all times."
   },
   "51166": {
     "name_enus": "Twisted Faith",
     "icon": "spell_shadow_mindtwisting",
     "rank_enus": "Rank 4",
-    "description": "Increases your spell power by 20% of your total Spirit, and your damage done by your Mind Flay and Mind Blast is increased by 10% if your target is afflicted by your Shadow Word: Pain."
+    "description": "Increases your spell power by 16% of your total Spirit, and your damage done by your Mind Flay and Mind Blast is increased by 8% if your target is afflicted by your Shadow Word: Pain."
   },
   "51167": {
     "name_enus": "Twisted Faith",
     "icon": "spell_shadow_mindtwisting",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your spell power by 20% of your total Spirit, and your damage done by your Mind Flay and Mind Blast is increased by 10% if your target is afflicted by your Shadow Word: Pain."
   },
   "51179": {
     "name_enus": "Gift of the Earthmother",
     "icon": "ability_druid_manatree",
     "rank_enus": "Rank 1",
-    "description": "Increases your total spell haste by 4% and reduces the base cooldown of your Lifebloom spell by 4%."
+    "description": "Increases your total spell haste by 2% and reduces the base cooldown of your Lifebloom spell by 2%."
   },
   "51180": {
     "name_enus": "Gift of the Earthmother",
     "icon": "ability_druid_manatree",
     "rank_enus": "Rank 2",
-    "description": "Increases your total spell haste by 6% and reduces the base cooldown of your Lifebloom spell by 6%."
+    "description": "Increases your total spell haste by 4% and reduces the base cooldown of your Lifebloom spell by 4%."
   },
   "51181": {
     "name_enus": "Gift of the Earthmother",
     "icon": "ability_druid_manatree",
     "rank_enus": "Rank 3",
-    "description": "Increases your total spell haste by 8% and reduces the base cooldown of your Lifebloom spell by 8%."
+    "description": "Increases your total spell haste by 6% and reduces the base cooldown of your Lifebloom spell by 6%."
   },
   "51182": {
     "name_enus": "Gift of the Earthmother",
     "icon": "ability_druid_manatree",
     "rank_enus": "Rank 4",
-    "description": "Increases your total spell haste by 10% and reduces the base cooldown of your Lifebloom spell by 10%."
+    "description": "Increases your total spell haste by 8% and reduces the base cooldown of your Lifebloom spell by 8%."
   },
   "51183": {
     "name_enus": "Gift of the Earthmother",
     "icon": "ability_druid_manatree",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your total spell haste by 10% and reduces the base cooldown of your Lifebloom spell by 10%."
   },
   "51267": {
     "name_enus": "On a Pale Horse",
     "icon": "spell_deathknight_summondeathcharger",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "You become as hard to stop as death itself.  The duration of all Stun and Fear effects used against you is reduced by 20%, and your mounted speed is increased by 20%.  This does not stack with other movement speed increasing effects."
   },
   "51268": {
     "name_enus": "Rend and Tear",
     "icon": "ability_druid_primalagression",
     "rank_enus": "Rank 4",
-    "description": "Increases damage done by your Maul and Shred attacks on bleeding targets by 20%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 25%."
+    "description": "Increases damage done by your Maul and Shred attacks on bleeding targets by 16%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 20%."
   },
   "51269": {
     "name_enus": "Rend and Tear",
     "icon": "ability_druid_primalagression",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases damage done by your Maul and Shred attacks on bleeding targets by 20%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 25%."
   },
   "51271": {
     "name_enus": "Unbreakable Armor",
@@ -11123,199 +11105,199 @@ export const spells = {
     "name_enus": "Improved Icy Touch",
     "icon": "spell_deathknight_icetouch",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Icy Touch does an additional 15% damage and your Frost Fever reduces melee and ranged attack speed by an additional 6%."
   },
   "51459": {
     "name_enus": "Necrosis",
     "icon": "inv_weapon_shortblade_60",
     "rank_enus": "Rank 1",
-    "description": "Your auto attacks deal an additional 8% Shadow damage."
+    "description": "Your auto attacks deal an additional 4% Shadow damage."
   },
   "51462": {
     "name_enus": "Necrosis",
     "icon": "inv_weapon_shortblade_60",
     "rank_enus": "Rank 2",
-    "description": "Your auto attacks deal an additional 12% Shadow damage."
+    "description": "Your auto attacks deal an additional 8% Shadow damage."
   },
   "51463": {
     "name_enus": "Necrosis",
     "icon": "inv_weapon_shortblade_60",
     "rank_enus": "Rank 3",
-    "description": "Your auto attacks deal an additional 16% Shadow damage."
+    "description": "Your auto attacks deal an additional 12% Shadow damage."
   },
   "51464": {
     "name_enus": "Necrosis",
     "icon": "inv_weapon_shortblade_60",
     "rank_enus": "Rank 4",
-    "description": "Your auto attacks deal an additional 20% Shadow damage."
+    "description": "Your auto attacks deal an additional 16% Shadow damage."
   },
   "51465": {
     "name_enus": "Necrosis",
     "icon": "inv_weapon_shortblade_60",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your auto attacks deal an additional 20% Shadow damage."
   },
   "51466": {
     "name_enus": "Elemental Oath",
     "icon": "spell_shaman_elementaloath",
     "rank_enus": "Rank 1",
-    "description": "While Clearcasting from Elemental Focus is active, you deal 10% more spell damage. In addition, party and raid members within 100 yards receive a 5% bonus to their spell critical strike chance."
+    "description": "While Clearcasting from Elemental Focus is active, you deal 5% more spell damage. In addition, party and raid members within 100 yards receive a 3% bonus to their spell critical strike chance."
   },
   "51468": {
     "name_enus": "Annihilation",
     "icon": "inv_weapon_hand_18",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your melee special abilities by 2%.  In addition, there is a 66% chance that your Obliterate will do its damage without consuming diseases."
+    "description": "Increases the critical strike chance of your melee special abilities by 1%.  In addition, there is a 33% chance that your Obliterate will do its damage without consuming diseases."
   },
   "51470": {
     "name_enus": "Elemental Oath",
     "icon": "spell_shaman_elementaloath",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "While Clearcasting from Elemental Focus is active, you deal 10% more spell damage. In addition, party and raid members within 100 yards receive a 5% bonus to their spell critical strike chance."
   },
   "51472": {
     "name_enus": "Annihilation",
     "icon": "inv_weapon_hand_18",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of your melee special abilities by 3%.  In addition, there is a 100% chance that your Obliterate will do its damage without consuming diseases."
+    "description": "Increases the critical strike chance of your melee special abilities by 2%.  In addition, there is a 66% chance that your Obliterate will do its damage without consuming diseases."
   },
   "51473": {
     "name_enus": "Annihilation",
     "icon": "inv_weapon_hand_18",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your melee special abilities by 3%.  In addition, there is a 100% chance that your Obliterate will do its damage without consuming diseases."
   },
   "51474": {
     "name_enus": "Astral Shift",
     "icon": "spell_shaman_astralshift",
     "rank_enus": "Rank 1",
-    "description": "When stunned, feared or silenced you  shift into the Astral Plane reducing all damage taken by 20% for the duration of the stun, fear or silence effect."
+    "description": "When stunned, feared or silenced you  shift into the Astral Plane reducing all damage taken by 10% for the duration of the stun, fear or silence effect."
   },
   "51478": {
     "name_enus": "Astral Shift",
     "icon": "spell_shaman_astralshift",
     "rank_enus": "Rank 2",
-    "description": "When stunned, feared or silenced you shift into the Astral Plane reducing all damage taken by 30% for the duration of the stun, fear or silence effect."
+    "description": "When stunned, feared or silenced you  shift into the Astral Plane reducing all damage taken by 20% for the duration of the stun, fear or silence effect."
   },
   "51479": {
     "name_enus": "Astral Shift",
     "icon": "spell_shaman_astralshift",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When stunned, feared or silenced you shift into the Astral Plane reducing all damage taken by 30% for the duration of the stun, fear or silence effect."
   },
   "51480": {
     "name_enus": "Lava Flows",
     "icon": "spell_shaman_lavaflow",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike damage bonus of your Lava Burst spell by an additional 12%, and when your Flame Shock is dispelled your spell casting speed is increased by 20% for 6 sec."
+    "description": "Increases the critical strike damage bonus of your Lava Burst spell by an additional 6%, and when your Flame Shock is dispelled your spell casting speed is increased by 10% for 6 sec."
   },
   "51481": {
     "name_enus": "Lava Flows",
     "icon": "spell_shaman_lavaflow",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike damage bonus of your Lava Burst spell by an additional 24%, and when your Flame Shock is dispelled your spell casting speed is increased by 30% for 6 sec."
+    "description": "Increases the critical strike damage bonus of your Lava Burst spell by an additional 12%, and when your Flame Shock is dispelled your spell casting speed is increased by 20% for 6 sec."
   },
   "51482": {
     "name_enus": "Lava Flows",
     "icon": "spell_shaman_lavaflow",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Lava Burst spell by an additional 24%, and when your Flame Shock is dispelled your spell casting speed is increased by 30% for 6 sec."
   },
   "51483": {
     "name_enus": "Storm, Earth and Fire",
     "icon": "spell_shaman_stormearthfire",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Chain Lightning spell by 1.5 sec, your Earthbind Totem also has a 66% chance to root targets for 5 sec when cast and the periodic damage done by your Flame Shock is increased by 40%."
+    "description": "Reduces the cooldown of your Chain Lightning spell by .75 sec, your Earthbind Totem also has a 33% chance to root targets for 5 sec when cast and the periodic damage done by your Flame Shock is increased by 20%."
   },
   "51485": {
     "name_enus": "Storm, Earth and Fire",
     "icon": "spell_shaman_stormearthfire",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cooldown of your Chain Lightning spell by 2.5 sec, your Earthbind Totem also has a 100% chance to root targets for 5 sec when cast and the periodic damage done by your Flame Shock is increased by 60%."
+    "description": "Reduces the cooldown of your Chain Lightning spell by 1.5 sec, your Earthbind Totem also has a 66% chance to root targets for 5 sec when cast and the periodic damage done by your Flame Shock is increased by 40%."
   },
   "51486": {
     "name_enus": "Storm, Earth and Fire",
     "icon": "spell_shaman_stormearthfire",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cooldown of your Chain Lightning spell by 2.5 sec, your Earthbind Totem also has a 100% chance to root targets for 5 sec when cast and the periodic damage done by your Flame Shock is increased by 60%."
   },
   "51490": {
     "name_enus": "Thunderstorm",
     "icon": "spell_shaman_thunderstorm",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "You call down a bolt of lightning, energizing you and damaging nearby enemies within 10 yards. Restores 8% mana to you and deals 551 to 629 Nature damage to all nearby enemies, knocking them back 20 yards. This spell is usable while stunned."
   },
   "51521": {
     "name_enus": "Improved Stormstrike",
     "icon": "spell_shaman_improvedstormstrike",
     "rank_enus": "Rank 1",
-    "description": "When you Stormstrike, you have a 100% chance to immediately grant you 20% of your base mana."
+    "description": "When you Stormstrike, you have a 50% chance to immediately grant you 20% of your base mana."
   },
   "51522": {
     "name_enus": "Improved Stormstrike",
     "icon": "spell_shaman_improvedstormstrike",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "When you Stormstrike, you have a 100% chance to immediately grant you 20% of your base mana."
   },
   "51523": {
     "name_enus": "Earthen Power",
     "icon": "spell_nature_earthelemental_totem",
     "rank_enus": "Rank 1",
-    "description": "Your Earthbind Totem's pulses have a 100% chance to also remove all snare effects from you and nearby friendly targets, and your Earth Shock reduces enemy attack speed by an additional 10%."
+    "description": "Your Earthbind Totem's pulses have a 50% chance to also remove all snare effects from you and nearby friendly targets, and your Earth Shock reduces enemy attack speed by an additional 5%."
   },
   "51524": {
     "name_enus": "Earthen Power",
     "icon": "spell_nature_earthelemental_totem",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Earthbind Totem's pulses have a 100% chance to also remove all snare effects from you and nearby friendly targets, and your Earth Shock reduces enemy attack speed by an additional 10%."
   },
   "51525": {
     "name_enus": "Static Shock",
     "icon": "spell_shaman_staticshock",
     "rank_enus": "Rank 1",
-    "description": "You have a 4% chance to hit your target with a Lightning Shield orb charge when you deal damage with melee attacks and abilities, and your Lightning Shield gains 4 additional charges."
+    "description": "You have a 2% chance to hit your target with a Lightning Shield orb charge when you deal damage with melee attacks and abilities, and your Lightning Shield gains 2 additional charges."
   },
   "51526": {
     "name_enus": "Static Shock",
     "icon": "spell_shaman_staticshock",
     "rank_enus": "Rank 2",
-    "description": "You have a 6% chance to hit your target with a Lightning Shield orb charge when you deal damage with melee attacks and abilities, and your Lightning Shield gains 6 additional charges."
+    "description": "You have a 4% chance to hit your target with a Lightning Shield orb charge when you deal damage with melee attacks and abilities, and your Lightning Shield gains 4 additional charges."
   },
   "51527": {
     "name_enus": "Static Shock",
     "icon": "spell_shaman_staticshock",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You have a 6% chance to hit your target with a Lightning Shield orb charge when you deal damage with melee attacks and abilities, and your Lightning Shield gains 6 additional charges."
   },
   "51528": {
     "name_enus": "Maelstrom Weapon",
     "icon": "spell_shaman_maelstromweapon",
     "rank_enus": "Rank 1",
-    "description": "When you deal damage with a melee weapon, you have a chance (higher than rank 1) to reduce the cast time of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, Healing Wave, Chain Heal, or Hex spell by 20%. Stacks up to 5 times. Lasts 30 sec."
+    "description": "When you deal damage with a melee weapon, you have a chance to reduce the cast time of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, Healing Wave, Chain Heal, or Hex spell by 20%. Stacks up to 5 times. Lasts 30 sec."
   },
   "51529": {
     "name_enus": "Maelstrom Weapon",
     "icon": "spell_shaman_maelstromweapon",
     "rank_enus": "Rank 2",
-    "description": "When you deal damage with a melee weapon, you have a chance (higher than rank 2) to reduce the cast time of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, Healing Wave, Chain Heal, or Hex spell by 20%. Stacks up to 5 times. Lasts 30 sec."
+    "description": "When you deal damage with a melee weapon, you have a chance (higher than rank 1) to reduce the cast time of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, Healing Wave, Chain Heal, or Hex spell by 20%. Stacks up to 5 times. Lasts 30 sec."
   },
   "51530": {
     "name_enus": "Maelstrom Weapon",
     "icon": "spell_shaman_maelstromweapon",
     "rank_enus": "Rank 3",
-    "description": "When you deal damage with a melee weapon, you have a chance (higher than rank 3) to reduce the cast time of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, Healing Wave, Chain Heal, or Hex spell by 20%. Stacks up to 5 times. Lasts 30 sec."
+    "description": "When you deal damage with a melee weapon, you have a chance (higher than rank 2) to reduce the cast time of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, Healing Wave, Chain Heal, or Hex spell by 20%. Stacks up to 5 times. Lasts 30 sec."
   },
   "51531": {
     "name_enus": "Maelstrom Weapon",
     "icon": "spell_shaman_maelstromweapon",
     "rank_enus": "Rank 4",
-    "description": "When you deal damage with a melee weapon, you have a chance (higher than rank 4) to reduce the cast time of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, Healing Wave, Chain Heal, or Hex spell by 20%. Stacks up to 5 times. Lasts 30 sec."
+    "description": "When you deal damage with a melee weapon, you have a chance (higher than rank 3) to reduce the cast time of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, Healing Wave, Chain Heal, or Hex spell by 20%. Stacks up to 5 times. Lasts 30 sec."
   },
   "51532": {
     "name_enus": "Maelstrom Weapon",
     "icon": "spell_shaman_maelstromweapon",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "When you deal damage with a melee weapon, you have a chance (higher than rank 4) to reduce the cast time of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, Healing Wave, Chain Heal, or Hex spell by 20%. Stacks up to 5 times. Lasts 30 sec."
   },
   "51533": {
     "name_enus": "Feral Spirit",
@@ -11327,133 +11309,133 @@ export const spells = {
     "name_enus": "Blessing of the Eternals",
     "icon": "spell_shaman_blessingofeternals",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical effect chance of your spells by 4%, and increases the chance to apply the Earthliving heal over time effect on the target by 80% when they are at or under 35% total health."
+    "description": "Increases the critical effect chance of your spells by 2%, and increases the chance to apply the Earthliving heal over time effect on the target by 40% when they are at or under 35% total health."
   },
   "51555": {
     "name_enus": "Blessing of the Eternals",
     "icon": "spell_shaman_blessingofeternals",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical effect chance of your spells by 4%, and increases the chance to apply the Earthliving heal over time effect on the target by 80% when they are at or under 35% total health."
   },
   "51556": {
     "name_enus": "Ancestral Awakening",
     "icon": "spell_shaman_ancestralawakening",
     "rank_enus": "Rank 1",
-    "description": "When you critically heal with your Healing Wave, Lesser Healing Wave or Riptide you summon an Ancestral spirit to aid you, instantly healing the lowest percentage health friendly party or raid target within 40 yards for 20% of the amount healed."
+    "description": "When you critically heal with your Healing Wave, Lesser Healing Wave or Riptide you summon an Ancestral spirit to aid you, instantly healing the lowest percentage health friendly party or raid target within 40 yards for 10% of the amount healed."
   },
   "51557": {
     "name_enus": "Ancestral Awakening",
     "icon": "spell_shaman_ancestralawakening",
     "rank_enus": "Rank 2",
-    "description": "When you critically heal with your Healing Wave, Lesser Healing Wave or Riptide you summon an Ancestral spirit to aid you, instantly healing the lowest percentage health friendly party or raid target within 40 yards for 30% of the amount healed."
+    "description": "When you critically heal with your Healing Wave, Lesser Healing Wave or Riptide you summon an Ancestral spirit to aid you, instantly healing the lowest percentage health friendly party or raid target within 40 yards for 20% of the amount healed."
   },
   "51558": {
     "name_enus": "Ancestral Awakening",
     "icon": "spell_shaman_ancestralawakening",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When you critically heal with your Healing Wave, Lesser Healing Wave or Riptide you summon an Ancestral spirit to aid you, instantly healing the lowest percentage health friendly party or raid target within 40 yards for 30% of the amount healed."
   },
   "51560": {
     "name_enus": "Improved Earth Shield",
     "icon": "spell_nature_skinofearth",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the amount of charges for your Earth Shield by 1, and increases the healing done by your Earth Shield by 5%."
   },
   "51561": {
     "name_enus": "Improved Earth Shield",
     "icon": "spell_nature_skinofearth",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the amount of charges for your Earth Shield by 2, and increases the healing done by your Earth Shield by 10%."
   },
   "51562": {
     "name_enus": "Tidal Waves",
     "icon": "spell_shaman_tidalwaves",
     "rank_enus": "Rank 1",
-    "description": "When you cast Chain Heal or Riptide, you have a 40% chance to lower the cast time of your Healing Wave spell by 30% and increase the critical effect chance of your Lesser Healing Wave spell by 25%, until two such spells have been cast. In addition, your Healing Wave gains an additional 8% of your bonus healing effects and your Lesser Healing Wave gains an additional 4% of your bonus healing effects."
+    "description": "When you cast Chain Heal or Riptide, you have a 20% chance to lower the cast time of your Healing Wave spell by 30% and increase the critical effect chance of your Lesser Healing Wave spell by 25%, until two such spells have been cast. In addition, your Healing Wave gains an additional 4% of your bonus healing effects and your Lesser Healing Wave gains an additional 2% of your bonus healing effects."
   },
   "51563": {
     "name_enus": "Tidal Waves",
     "icon": "spell_shaman_tidalwaves",
     "rank_enus": "Rank 2",
-    "description": "When you cast Chain Heal or Riptide, you have a 60% chance to lower the cast time of your Healing Wave spell by 30% and increase the critical effect chance of your Lesser Healing Wave spell by 25%, until two such spells have been cast. In addition, your Healing Wave gains an additional 12% of your bonus healing effects and your Lesser Healing Wave gains an additional 6% of your bonus healing effects."
+    "description": "When you cast Chain Heal or Riptide, you have a 40% chance to lower the cast time of your Healing Wave spell by 30% and increase the critical effect chance of your Lesser Healing Wave spell by 25%, until two such spells have been cast. In addition, your Healing Wave gains an additional 8% of your bonus healing effects and your Lesser Healing Wave gains an additional 4% of your bonus healing effects."
   },
   "51564": {
     "name_enus": "Tidal Waves",
     "icon": "spell_shaman_tidalwaves",
     "rank_enus": "Rank 3",
-    "description": "When you cast Chain Heal or Riptide, you have a 80% chance to lower the cast time of your Healing Wave spell by 30% and increase the critical effect chance of your Lesser Healing Wave spell by 25%, until two such spells have been cast. In addition, your Healing Wave gains an additional 16% of your bonus healing effects and your Lesser Healing Wave gains an additional 8% of your bonus healing effects."
+    "description": "When you cast Chain Heal or Riptide, you have a 60% chance to lower the cast time of your Healing Wave spell by 30% and increase the critical effect chance of your Lesser Healing Wave spell by 25%, until two such spells have been cast. In addition, your Healing Wave gains an additional 12% of your bonus healing effects and your Lesser Healing Wave gains an additional 6% of your bonus healing effects."
   },
   "51565": {
     "name_enus": "Tidal Waves",
     "icon": "spell_shaman_tidalwaves",
     "rank_enus": "Rank 4",
-    "description": "When you cast Chain Heal or Riptide, you have a 100% chance to lower the cast time of your Healing Wave spell by 30% and increase the critical effect chance of your Lesser Healing Wave spell by 25%, until two such spells have been cast. In addition, your Healing Wave gains an additional 20% of your bonus healing effects and your Lesser Healing Wave gains an additional 10% of your bonus healing effects."
+    "description": "When you cast Chain Heal or Riptide, you have a 80% chance to lower the cast time of your Healing Wave spell by 30% and increase the critical effect chance of your Lesser Healing Wave spell by 25%, until two such spells have been cast. In addition, your Healing Wave gains an additional 16% of your bonus healing effects and your Lesser Healing Wave gains an additional 8% of your bonus healing effects."
   },
   "51566": {
     "name_enus": "Tidal Waves",
     "icon": "spell_shaman_tidalwaves",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "When you cast Chain Heal or Riptide, you have a 100% chance to lower the cast time of your Healing Wave spell by 30% and increase the critical effect chance of your Lesser Healing Wave spell by 25%, until two such spells have been cast. In addition, your Healing Wave gains an additional 20% of your bonus healing effects and your Lesser Healing Wave gains an additional 10% of your bonus healing effects."
   },
   "51625": {
     "name_enus": "Deadly Brew",
     "icon": "ability_rogue_deadlybrew",
     "rank_enus": "Rank 1",
-    "description": "When you apply Instant, Wound or Mind-Numbing poison to a target, you have a 100% chance to apply Crippling poison."
+    "description": "When you apply Instant, Wound or Mind-Numbing poison to a target, you have a 50% chance to apply Crippling poison."
   },
   "51626": {
     "name_enus": "Deadly Brew",
     "icon": "ability_rogue_deadlybrew",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "When you apply Instant, Wound or Mind-Numbing poison to a target, you have a 100% chance to apply Crippling poison."
   },
   "51627": {
     "name_enus": "Turn the Tables",
     "icon": "ability_rogue_turnthetables",
     "rank_enus": "Rank 1",
-    "description": "Whenever anyone in your party or raid blocks, dodges, or parries an attack your chance to critically hit with all combo moves is increased by 4% for 8 sec."
+    "description": "Whenever anyone in your party or raid blocks, dodges, or parries an attack your chance to critically hit with all combo moves is increased by 2% for 8 sec."
   },
   "51628": {
     "name_enus": "Turn the Tables",
     "icon": "ability_rogue_turnthetables",
     "rank_enus": "Rank 2",
-    "description": "Whenever anyone in your party or raid blocks, dodges, or parries an attack your chance to critically hit with all combo moves is increased by 6% for 8 sec."
+    "description": "Whenever anyone in your party or raid blocks, dodges, or parries an attack your chance to critically hit with all combo moves is increased by 4% for 8 sec."
   },
   "51629": {
     "name_enus": "Turn the Tables",
     "icon": "ability_rogue_turnthetables",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Whenever anyone in your party or raid blocks, dodges, or parries an attack your chance to critically hit with all combo moves is increased by 6% for 8 sec."
   },
   "51632": {
     "name_enus": "Blood Spatter",
     "icon": "ability_rogue_bloodsplatter",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage caused by your Garrote and Rupture abilities by 30%."
+    "description": "Increases the damage caused by your Garrote and Rupture abilities by 15%."
   },
   "51633": {
     "name_enus": "Blood Spatter",
     "icon": "ability_rogue_bloodsplatter",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage caused by your Garrote and Rupture abilities by 30%."
   },
   "51634": {
     "name_enus": "Focused Attacks",
     "icon": "ability_rogue_focusedattacks",
     "rank_enus": "Rank 1",
-    "description": "Your melee critical strikes have a 66% chance to give you 2 energy."
+    "description": "Your melee critical strikes have a 33% chance to give you 2 energy."
   },
   "51635": {
     "name_enus": "Focused Attacks",
     "icon": "ability_rogue_focusedattacks",
     "rank_enus": "Rank 2",
-    "description": "Your melee critical strikes have a 100% chance to give you 2 energy."
+    "description": "Your melee critical strikes have a 66% chance to give you 2 energy."
   },
   "51636": {
     "name_enus": "Focused Attacks",
     "icon": "ability_rogue_focusedattacks",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your melee critical strikes have a 100% chance to give you 2 energy."
   },
   "51662": {
     "name_enus": "Hunger For Blood",
@@ -11465,85 +11447,85 @@ export const spells = {
     "name_enus": "Cut to the Chase",
     "icon": "ability_rogue_cuttothechase",
     "rank_enus": "Rank 1",
-    "description": "Your Eviscerate and Envenom abilities have a 40% chance to refresh your Slice and Dice duration to its 5 combo point maximum."
+    "description": "Your Eviscerate and Envenom abilities have a 20% chance to refresh your Slice and Dice duration to its 5 combo point maximum."
   },
   "51665": {
     "name_enus": "Cut to the Chase",
     "icon": "ability_rogue_cuttothechase",
     "rank_enus": "Rank 2",
-    "description": "Your Eviscerate and Envenom abilities have a 60% chance to refresh your Slice and Dice duration to its 5 combo point maximum."
+    "description": "Your Eviscerate and Envenom abilities have a 40% chance to refresh your Slice and Dice duration to its 5 combo point maximum."
   },
   "51667": {
     "name_enus": "Cut to the Chase",
     "icon": "ability_rogue_cuttothechase",
     "rank_enus": "Rank 3",
-    "description": "Your Eviscerate and Envenom abilities have a 80% chance to refresh your Slice and Dice duration to its 5 combo point maximum."
+    "description": "Your Eviscerate and Envenom abilities have a 60% chance to refresh your Slice and Dice duration to its 5 combo point maximum."
   },
   "51668": {
     "name_enus": "Cut to the Chase",
     "icon": "ability_rogue_cuttothechase",
     "rank_enus": "Rank 4",
-    "description": "Your Eviscerate and Envenom abilities have a 100% chance to refresh your Slice and Dice duration to its 5 combo point maximum."
+    "description": "Your Eviscerate and Envenom abilities have a 80% chance to refresh your Slice and Dice duration to its 5 combo point maximum."
   },
   "51669": {
     "name_enus": "Cut to the Chase",
     "icon": "ability_rogue_cuttothechase",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your Eviscerate and Envenom abilities have a 100% chance to refresh your Slice and Dice duration to its 5 combo point maximum."
   },
   "51672": {
     "name_enus": "Unfair Advantage",
     "icon": "ability_rogue_unfairadvantage",
     "rank_enus": "Rank 1",
-    "description": "Whenever you dodge an attack you gain an Unfair Advantage, striking back for 100% of your main hand weapon's damage.  This cannot occur more than once per second."
+    "description": "Whenever you dodge an attack you gain an Unfair Advantage, striking back for 50% of your main hand weapon's damage.  This cannot occur more than once per second."
   },
   "51674": {
     "name_enus": "Unfair Advantage",
     "icon": "ability_rogue_unfairadvantage",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Whenever you dodge an attack you gain an Unfair Advantage, striking back for 100% of your main hand weapon's damage.  This cannot occur more than once per second."
   },
   "51679": {
     "name_enus": "Throwing Specialization",
     "icon": "ability_rogue_throwingspecialization",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of Throw and Deadly Throw by 4 yards and gives your Deadly Throw a 100% chance to interrupt the target for 3 sec."
   },
   "51682": {
     "name_enus": "Savage Combat",
     "icon": "ability_creature_disease_03",
     "rank_enus": "Rank 1",
-    "description": "Increases your total attack power by 4% and all physical damage caused to enemies you have poisoned is increased by 4%."
+    "description": "Increases your total attack power by 2% and all physical damage caused to enemies you have poisoned is increased by 2%."
   },
   "51685": {
     "name_enus": "Prey on the Weak",
     "icon": "ability_rogue_preyontheweak",
     "rank_enus": "Rank 1",
-    "description": "Your critical strike damage is increased by 8% when the target has less health than you (as a percentage of total health)."
+    "description": "Your critical strike damage is increased by 4% when the target has less health than you (as a percentage of total health)."
   },
   "51686": {
     "name_enus": "Prey on the Weak",
     "icon": "ability_rogue_preyontheweak",
     "rank_enus": "Rank 2",
-    "description": "Your critical strike damage is increased by 12% when the target has less health than you (as a percentage of total health)."
+    "description": "Your critical strike damage is increased by 8% when the target has less health than you (as a percentage of total health)."
   },
   "51687": {
     "name_enus": "Prey on the Weak",
     "icon": "ability_rogue_preyontheweak",
     "rank_enus": "Rank 3",
-    "description": "Your critical strike damage is increased by 16% when the target has less health than you (as a percentage of total health)."
+    "description": "Your critical strike damage is increased by 12% when the target has less health than you (as a percentage of total health)."
   },
   "51688": {
     "name_enus": "Prey on the Weak",
     "icon": "ability_rogue_preyontheweak",
     "rank_enus": "Rank 4",
-    "description": "Your critical strike damage is increased by 20% when the target has less health than you (as a percentage of total health)."
+    "description": "Your critical strike damage is increased by 16% when the target has less health than you (as a percentage of total health)."
   },
   "51689": {
     "name_enus": "Prey on the Weak",
     "icon": "ability_rogue_preyontheweak",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your critical strike damage is increased by 20% when the target has less health than you (as a percentage of total health)."
   },
   "51690": {
     "name_enus": "Killing Spree",
@@ -11555,61 +11537,61 @@ export const spells = {
     "name_enus": "Waylay",
     "icon": "ability_rogue_waylay",
     "rank_enus": "Rank 1",
-    "description": "Your Ambush and Backstab hits have a 100% chance to unbalance a target, increasing the time between their melee and ranged attacks by 20%, and reducing movement speed by 50% for 8 sec."
+    "description": "Your Ambush and Backstab hits have a 50% chance to unbalance a target, increasing the time between their melee and ranged attacks by 20%, and reducing movement speed by 50% for 8 sec."
   },
   "51696": {
     "name_enus": "Waylay",
     "icon": "ability_rogue_waylay",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Ambush and Backstab hits have a 100% chance to unbalance a target, increasing the time between their melee and ranged attacks by 20%, and reducing movement speed by 50% for 8 sec."
   },
   "51698": {
     "name_enus": "Honor Among Thieves",
     "icon": "ability_rogue_honoramongstthieves",
     "rank_enus": "Rank 1",
-    "description": "When anyone in your group critically hits with a damage or healing spell or ability, you have a 66% chance to gain a combo point on your current target.  This effect cannot occur more than once every second."
+    "description": "When anyone in your group critically hits with a damage or healing spell or ability, you have a 33% chance to gain a combo point on your current target.  This effect cannot occur more than once every second."
   },
   "51700": {
     "name_enus": "Honor Among Thieves",
     "icon": "ability_rogue_honoramongstthieves",
     "rank_enus": "Rank 2",
-    "description": "When anyone in your group critically hits with a damage or healing spell or ability, you have a 100% chance to gain a combo point on your current target.  This effect cannot occur more than once every second."
+    "description": "When anyone in your group critically hits with a damage or healing spell or ability, you have a 66% chance to gain a combo point on your current target.  This effect cannot occur more than once every second."
   },
   "51701": {
     "name_enus": "Honor Among Thieves",
     "icon": "ability_rogue_honoramongstthieves",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When anyone in your group critically hits with a damage or healing spell or ability, you have a 100% chance to gain a combo point on your current target.  This effect cannot occur more than once every second."
   },
   "51708": {
     "name_enus": "Slaughter from the Shadows",
     "icon": "ability_rogue_slaughterfromtheshadows",
     "rank_enus": "Rank 1",
-    "description": "Reduces the energy cost of your Backstab and Ambush abilities by 8 and the energy cost of your Hemorrhage by 2, and increases all damage done by 2%."
+    "description": "Reduces the energy cost of your Backstab and Ambush abilities by 4 and the energy cost of your Hemorrhage by 1, and increases all damage done by 1%."
   },
   "51709": {
     "name_enus": "Slaughter from the Shadows",
     "icon": "ability_rogue_slaughterfromtheshadows",
     "rank_enus": "Rank 2",
-    "description": "Reduces the energy cost of your Backstab and Ambush abilities by 12 and the energy cost of your Hemorrhage by 3, and increases all damage done by 3%."
+    "description": "Reduces the energy cost of your Backstab and Ambush abilities by 8 and the energy cost of your Hemorrhage by 2, and increases all damage done by 2%."
   },
   "51710": {
     "name_enus": "Slaughter from the Shadows",
     "icon": "ability_rogue_slaughterfromtheshadows",
     "rank_enus": "Rank 3",
-    "description": "Reduces the energy cost of your Backstab and Ambush abilities by 16 and the energy cost of your Hemorrhage by 4, and increases all damage done by 4%."
+    "description": "Reduces the energy cost of your Backstab and Ambush abilities by 12 and the energy cost of your Hemorrhage by 3, and increases all damage done by 3%."
   },
   "51711": {
     "name_enus": "Slaughter from the Shadows",
     "icon": "ability_rogue_slaughterfromtheshadows",
     "rank_enus": "Rank 4",
-    "description": "Reduces the energy cost of your Backstab and Ambush abilities by 20 and the energy cost of your Hemorrhage by 5, and increases all damage done by 5%."
+    "description": "Reduces the energy cost of your Backstab and Ambush abilities by 16 and the energy cost of your Hemorrhage by 4, and increases all damage done by 4%."
   },
   "51712": {
     "name_enus": "Slaughter from the Shadows",
     "icon": "ability_rogue_slaughterfromtheshadows",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Reduces the energy cost of your Backstab and Ambush abilities by 20 and the energy cost of your Hemorrhage by 5, and increases all damage done by 5%."
   },
   "51713": {
     "name_enus": "Shadow Dance",
@@ -11621,37 +11603,37 @@ export const spells = {
     "name_enus": "Vicious Strikes",
     "icon": "spell_deathknight_plaguestrike",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance by 6% and critical strike damage bonus by 30% of your Plague Strike and Scourge Strike."
+    "description": "Increases the critical strike chance by 3% and critical strike damage bonus by 15% of your Plague Strike and Scourge Strike."
   },
   "51746": {
     "name_enus": "Vicious Strikes",
     "icon": "spell_deathknight_plaguestrike",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike chance by 6% and critical strike damage bonus by 30% of your Plague Strike and Scourge Strike."
   },
   "51881": {
     "name_enus": "Improved Shields",
     "icon": "spell_nature_lightningshield",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Lightning Shield orbs by 15%, increases the amount of mana gained from your Water Shield orbs by 15% and increases the amount of healing done by your Earth Shield orbs by 15%."
   },
   "51883": {
     "name_enus": "Mental Dexterity",
     "icon": "spell_nature_bloodlust",
     "rank_enus": "Rank 1",
-    "description": "Increases your Attack Power by 66% of your Intellect."
+    "description": "Increases your Attack Power by 33% of your Intellect."
   },
   "51884": {
     "name_enus": "Mental Dexterity",
     "icon": "spell_nature_bloodlust",
     "rank_enus": "Rank 2",
-    "description": "Increases your Attack Power by 100% of your Intellect."
+    "description": "Increases your Attack Power by 66% of your Intellect."
   },
   "51885": {
     "name_enus": "Mental Dexterity",
     "icon": "spell_nature_bloodlust",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your Attack Power by 100% of your Intellect."
   },
   "51886": {
     "name_enus": "Cleanse Spirit",
@@ -11668,350 +11650,333 @@ export const spells = {
   "52234": {
     "name_enus": "Cornered",
     "icon": "ability_hunter_survivalinstincts",
-    "rank_enus": "Rank 1",
-    "description": "Reduces all damage taken by 4% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 4%."
+    "rank_enus": "Rank 1"
   },
   "52456": {
     "name_enus": "Enhancing Totems",
     "icon": "spell_nature_earthbindtotem",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the effect of your Strength of Earth and Flametongue Totems by 15%."
   },
   "52783": {
     "name_enus": "Improved Tracking",
     "icon": "ability_hunter_improvedtracking",
     "rank_enus": "Rank 1",
-    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by 2%."
+    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by 1%."
   },
   "52785": {
     "name_enus": "Improved Tracking",
     "icon": "ability_hunter_improvedtracking",
     "rank_enus": "Rank 2",
-    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by 3%."
+    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by 2%."
   },
   "52786": {
     "name_enus": "Improved Tracking",
     "icon": "ability_hunter_improvedtracking",
     "rank_enus": "Rank 3",
-    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by 4%."
+    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by 3%."
   },
   "52787": {
     "name_enus": "Improved Tracking",
     "icon": "ability_hunter_improvedtracking",
     "rank_enus": "Rank 4",
-    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by 5%."
+    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by 4%."
   },
   "52788": {
     "name_enus": "Improved Tracking",
     "icon": "ability_hunter_improvedtracking",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids and Undead, all damage done to those types by the Hunter is increased by 5%."
   },
   "52795": {
     "name_enus": "Borrowed Time",
     "icon": "spell_holy_borrowedtime",
     "rank_enus": "Rank 1",
-    "description": "Grants 10% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 16% of your spell power."
+    "description": "Grants 5% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 8% of your spell power."
   },
   "52797": {
     "name_enus": "Borrowed Time",
     "icon": "spell_holy_borrowedtime",
     "rank_enus": "Rank 2",
-    "description": "Grants 15% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 24% of your spell power."
+    "description": "Grants 10% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 16% of your spell power."
   },
   "52798": {
     "name_enus": "Borrowed Time",
     "icon": "spell_holy_borrowedtime",
     "rank_enus": "Rank 3",
-    "description": "Grants 20% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 32% of your spell power."
+    "description": "Grants 15% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 24% of your spell power."
   },
   "52799": {
     "name_enus": "Borrowed Time",
     "icon": "spell_holy_borrowedtime",
     "rank_enus": "Rank 4",
-    "description": "Grants 25% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 40% of your spell power."
+    "description": "Grants 20% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 32% of your spell power."
   },
   "52800": {
     "name_enus": "Borrowed Time",
     "icon": "spell_holy_borrowedtime",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Grants 25% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 40% of your spell power."
   },
   "52802": {
     "name_enus": "Twin Disciplines",
     "icon": "spell_holy_sealofvengeance",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage and healing done by your instant spells by 5%."
+    "description": "Increases the damage and healing done by your instant spells by 4%."
   },
   "52803": {
     "name_enus": "Twin Disciplines",
     "icon": "spell_holy_sealofvengeance",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage and healing done by your instant spells by 5%."
   },
   "52825": {
     "name_enus": "Swoop",
     "icon": "ability_hunter_pet_dragonhawk",
-    "rank_enus": "",
-    "description": ""
+    "rank_enus": ""
   },
   "52858": {
     "name_enus": "Culling the Herd",
     "icon": "inv_misc_monsterhorn_06",
-    "rank_enus": "Rank 3",
-    "description": ""
+    "rank_enus": "Rank 3"
   },
   "53137": {
     "name_enus": "Abomination's Might",
     "icon": "ability_warrior_intensifyrage",
     "rank_enus": "Rank 1",
-    "description": "Increases the attack power by 10% of party and raid members within 100 yards.  Also increases your total Strength by 2%."
+    "description": "Increases the attack power by 5% of party and raid members within 100 yards.  Also increases your total Strength by 1%."
   },
   "53138": {
     "name_enus": "Abomination's Might",
     "icon": "ability_warrior_intensifyrage",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the attack power by 10% of party and raid members within 100 yards.  Also increases your total Strength by 2%."
   },
   "53175": {
     "name_enus": "Pet Barding",
     "icon": "inv_helmet_94",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53176": {
     "name_enus": "Pet Barding",
     "icon": "inv_helmet_94",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53178": {
     "name_enus": "Guard Dog",
     "icon": "ability_physical_taunt",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53179": {
     "name_enus": "Guard Dog",
     "icon": "ability_physical_taunt",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53180": {
     "name_enus": "Improved Cower",
     "icon": "ability_druid_cower",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53181": {
     "name_enus": "Improved Cower",
     "icon": "ability_druid_cower",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53182": {
     "name_enus": "Spiked Collar",
     "icon": "inv_jewelry_necklace_22",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53183": {
     "name_enus": "Spiked Collar",
     "icon": "inv_jewelry_necklace_22",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53184": {
     "name_enus": "Spiked Collar",
     "icon": "inv_jewelry_necklace_22",
-    "rank_enus": "Rank 3",
-    "description": ""
+    "rank_enus": "Rank 3"
   },
   "53186": {
     "name_enus": "Bloodthirsty",
     "icon": "ability_druid_primaltenacity",
-    "rank_enus": "Rank 1",
-    "description": "Reduces the duration of fear effects by 20%, reduces all damage taken while stunned by 20% while in Cat Form."
+    "rank_enus": "Rank 1"
   },
   "53187": {
     "name_enus": "Bloodthirsty",
     "icon": "ability_druid_primaltenacity",
-    "rank_enus": "Rank 2",
-    "description": "Reduces the duration of fear effects by 30%, reduces all damage taken while stunned by 30% while in Cat Form."
+    "rank_enus": "Rank 2"
   },
   "53203": {
     "name_enus": "Spider's Bite",
     "icon": "ability_hunter_pet_spider",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53204": {
     "name_enus": "Spider's Bite",
     "icon": "ability_hunter_pet_spider",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53205": {
     "name_enus": "Spider's Bite",
     "icon": "ability_hunter_pet_spider",
-    "rank_enus": "Rank 3",
-    "description": ""
+    "rank_enus": "Rank 3"
   },
   "53209": {
     "name_enus": "Chimera Shot",
     "icon": "ability_hunter_chimerashot2",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "You deal 125% weapon damage, refreshing the current Sting on your target and triggering an effect:<br /><br />Serpent Sting - Instantly deals 40% of the damage done by your Serpent Sting.<br /><br />Viper Sting - Instantly restores mana to you equal to 60% of the total amount drained by your Viper Sting.<br /><br />Scorpid Sting - Attempts to Disarm the target for 10 sec. This effect cannot occur more than once per 1 minute."
   },
   "53215": {
     "name_enus": "Wild Quiver",
     "icon": "ability_hunter_wildquiver",
     "rank_enus": "Rank 1",
-    "description": "You have a 8% chance to shoot an additional shot when doing damage with your auto shot, dealing 80% weapon nature damage. Wild Quiver consumes no ammo."
+    "description": "You have a 4% chance to shoot an additional shot when doing damage with your auto shot, dealing 80% weapon nature damage. Wild Quiver consumes no ammo."
   },
   "53216": {
     "name_enus": "Wild Quiver",
     "icon": "ability_hunter_wildquiver",
     "rank_enus": "Rank 2",
-    "description": "You have a 12% chance to shoot an additional shot when doing damage with your auto shot, dealing 80% weapon nature damage. Wild Quiver consumes no ammo."
+    "description": "You have a 8% chance to shoot an additional shot when doing damage with your auto shot, dealing 80% weapon nature damage. Wild Quiver consumes no ammo."
   },
   "53217": {
     "name_enus": "Wild Quiver",
     "icon": "ability_hunter_wildquiver",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You have a 12% chance to shoot an additional shot when doing damage with your auto shot, dealing 80% weapon nature damage. Wild Quiver consumes no ammo."
   },
   "53221": {
     "name_enus": "Improved Steady Shot",
     "icon": "ability_hunter_improvedsteadyshot",
     "rank_enus": "Rank 1",
-    "description": "Your Steady Shot hits have a 10% chance to increase the damage done by your next Aimed Shot, Arcane Shot or Chimera Shot by 15%, and reduce the mana cost of your next Aimed Shot, Arcane Shot or Chimera Shot by 20%."
+    "description": "Your Steady Shot hits have a 5% chance to increase the damage done by your next Aimed Shot, Arcane Shot or Chimera Shot by 15%, and reduce the mana cost of your next Aimed Shot, Arcane Shot or Chimera Shot by 20%."
   },
   "53222": {
     "name_enus": "Improved Steady Shot",
     "icon": "ability_hunter_improvedsteadyshot",
     "rank_enus": "Rank 2",
-    "description": "Your Steady Shot hits have a 15% chance to increase the damage done by your next Aimed Shot, Arcane Shot or Chimera Shot by 15%, and reduce the mana cost of your next Aimed Shot, Arcane Shot or Chimera Shot by 20%."
+    "description": "Your Steady Shot hits have a 10% chance to increase the damage done by your next Aimed Shot, Arcane Shot or Chimera Shot by 15%, and reduce the mana cost of your next Aimed Shot, Arcane Shot or Chimera Shot by 20%."
   },
   "53224": {
     "name_enus": "Improved Steady Shot",
     "icon": "ability_hunter_improvedsteadyshot",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Steady Shot hits have a 15% chance to increase the damage done by your next Aimed Shot, Arcane Shot or Chimera Shot by 15%, and reduce the mana cost of your next Aimed Shot, Arcane Shot or Chimera Shot by 20%."
   },
   "53228": {
     "name_enus": "Rapid Recuperation",
     "icon": "ability_hunter_rapidregeneration",
     "rank_enus": "Rank 1",
-    "description": "You gain 4% of your mana every 3 sec while under the effect of Rapid Fire, and you gain 2% of your mana every 2 sec for 6 sec when you gain Rapid Killing."
+    "description": "You gain 2% of your mana every 3 sec while under the effect of Rapid Fire, and you gain 1% of your mana every 2 sec for 6 sec when you gain Rapid Killing."
   },
   "53232": {
     "name_enus": "Rapid Recuperation",
     "icon": "ability_hunter_rapidregeneration",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "You gain 4% of your mana every 3 sec while under the effect of Rapid Fire, and you gain 2% of your mana every 2 sec for 6 sec when you gain Rapid Killing."
   },
   "53234": {
     "name_enus": "Piercing Shots",
     "icon": "ability_hunter_piercingshots",
     "rank_enus": "Rank 1",
-    "description": "Your critical Aimed, Steady and Chimera Shots cause the target to bleed for 20% of the damage dealt over 8 sec."
+    "description": "Your critical Aimed, Steady and Chimera Shots cause the target to bleed for 10% of the damage dealt over 8 sec."
   },
   "53237": {
     "name_enus": "Piercing Shots",
     "icon": "ability_hunter_piercingshots",
     "rank_enus": "Rank 2",
-    "description": "Your critical Aimed, Steady and Chimera Shots cause the target to bleed for 30% of the damage dealt over 8 sec."
+    "description": "Your critical Aimed, Steady and Chimera Shots cause the target to bleed for 20% of the damage dealt over 8 sec."
   },
   "53238": {
     "name_enus": "Piercing Shots",
     "icon": "ability_hunter_piercingshots",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your critical Aimed, Steady and Chimera Shots cause the target to bleed for 30% of the damage dealt over 8 sec."
   },
   "53241": {
     "name_enus": "Marked for Death",
     "icon": "ability_hunter_assassinate",
     "rank_enus": "Rank 1",
-    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by 2% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by 4%."
+    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by 1% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by 2%."
   },
   "53243": {
     "name_enus": "Marked for Death",
     "icon": "ability_hunter_assassinate",
     "rank_enus": "Rank 2",
-    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by 3% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by 6%."
+    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by 2% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by 4%."
   },
   "53244": {
     "name_enus": "Marked for Death",
     "icon": "ability_hunter_assassinate",
     "rank_enus": "Rank 3",
-    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by 4% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by 8%."
+    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by 3% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by 6%."
   },
   "53245": {
     "name_enus": "Marked for Death",
     "icon": "ability_hunter_assassinate",
     "rank_enus": "Rank 4",
-    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by 5% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by 10%."
+    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by 4% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by 8%."
   },
   "53246": {
     "name_enus": "Marked for Death",
     "icon": "ability_hunter_assassinate",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your damage done by your shots and the damage done by your pet's special abilities by 5% on marked targets, and increases the critical strike damage bonus of your Aimed Shot, Arcane Shot, Steady Shot, Kill Shot and Chimera Shot by 10%."
   },
   "53252": {
     "name_enus": "Invigoration",
     "icon": "ability_hunter_invigeration",
     "rank_enus": "Rank 1",
-    "description": "When your pet scores a critical hit with a special ability, you have a 100% chance to instantly regenerate 1% mana."
+    "description": "When your pet scores a critical hit with a special ability, you have a 50% chance to instantly regenerate 1% mana."
   },
   "53253": {
     "name_enus": "Invigoration",
     "icon": "ability_hunter_invigeration",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "When your pet scores a critical hit with a special ability, you have a 100% chance to instantly regenerate 1% mana."
   },
   "53256": {
     "name_enus": "Cobra Strikes",
     "icon": "ability_hunter_cobrastrikes",
     "rank_enus": "Rank 1",
-    "description": "You have a 40% chance when you critically hit with Arcane Shot, Steady Shot or Kill Shot to cause your pet's next 2 special attacks to critically hit."
+    "description": "You have a 20% chance when you critically hit with Arcane Shot, Steady Shot or Kill Shot to cause your pet's next 2 special attacks to critically hit."
   },
   "53259": {
     "name_enus": "Cobra Strikes",
     "icon": "ability_hunter_cobrastrikes",
     "rank_enus": "Rank 2",
-    "description": "You have a 60% chance when you critically hit with Arcane Shot, Steady Shot or Kill Shot to cause your pet's next 2 special attacks to critically hit."
+    "description": "You have a 40% chance when you critically hit with Arcane Shot, Steady Shot or Kill Shot to cause your pet's next 2 special attacks to critically hit."
   },
   "53260": {
     "name_enus": "Cobra Strikes",
     "icon": "ability_hunter_cobrastrikes",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You have a 60% chance when you critically hit with Arcane Shot, Steady Shot or Kill Shot to cause your pet's next 2 special attacks to critically hit."
   },
   "53262": {
     "name_enus": "Longevity",
     "icon": "ability_hunter_longevity",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Bestial Wrath, Intimidation and Pet Special Abilities by 20%."
+    "description": "Reduces the cooldown of your Bestial Wrath, Intimidation and Pet Special Abilities by 10%."
   },
   "53263": {
     "name_enus": "Longevity",
     "icon": "ability_hunter_longevity",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cooldown of your Bestial Wrath, Intimidation and Pet Special Abilities by 30%."
+    "description": "Reduces the cooldown of your Bestial Wrath, Intimidation and Pet Special Abilities by 20%."
   },
   "53264": {
     "name_enus": "Longevity",
     "icon": "ability_hunter_longevity",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cooldown of your Bestial Wrath, Intimidation and Pet Special Abilities by 30%."
   },
   "53265": {
     "name_enus": "Aspect Mastery",
     "icon": "ability_hunter_aspectmastery",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Aspect of the Viper - Reduces the damage penalty by 10%.<br /><br />Aspect of the Monkey - Reduces the damage done to you while active by 5%.<br /><br />Aspect of the Hawk - Increases the attack power bonus by 30%.<br /><br />Aspect of the Dragonhawk - Combines the bonuses from Aspect of the Monkey and Hawk."
   },
   "53270": {
     "name_enus": "Beast Mastery",
@@ -12023,109 +11988,109 @@ export const spells = {
     "name_enus": "Hunting Party",
     "icon": "ability_hunter_huntingparty",
     "rank_enus": "Rank 1",
-    "description": "Increases your total Agility by an additional 2%, and your Arcane Shot, Explosive Shot and Steady Shot critical strikes have a 66% chance to grant up to 10 party or raid members mana regeneration equal to 1% of the maximum mana per 5 sec. Lasts for 15 sec."
+    "description": "Increases your total Agility by an additional 1%, and your Arcane Shot, Explosive Shot and Steady Shot critical strikes have a 33% chance to grant up to 10 party or raid members mana regeneration equal to 1% of the maximum mana per 5 sec. Lasts for 15 sec."
   },
   "53291": {
     "name_enus": "Hunting Party",
     "icon": "ability_hunter_huntingparty",
     "rank_enus": "Rank 2",
-    "description": "Increases your total Agility by an additional 3%, and your Arcane Shot, Explosive Shot and Steady Shot critical strikes have a 100% chance to grant up to 10 party or raid members mana regeneration equal to 1% of the maximum mana per 5 sec. Lasts for 15 sec."
+    "description": "Increases your total Agility by an additional 2%, and your Arcane Shot, Explosive Shot and Steady Shot critical strikes have a 66% chance to grant up to 10 party or raid members mana regeneration equal to 1% of the maximum mana per 5 sec. Lasts for 15 sec."
   },
   "53292": {
     "name_enus": "Hunting Party",
     "icon": "ability_hunter_huntingparty",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your total Agility by an additional 3%, and your Arcane Shot, Explosive Shot and Steady Shot critical strikes have a 100% chance to grant up to 10 party or raid members mana regeneration equal to 1% of the maximum mana per 5 sec. Lasts for 15 sec."
   },
   "53295": {
     "name_enus": "Noxious Stings",
     "icon": "ability_hunter_potentvenom",
     "rank_enus": "Rank 1",
-    "description": "If Wyvern Sting is dispelled, the dispeller is also afflicted by Wyvern Sting lasting 25% of the duration remaining, and increases all damage done by you on targets afflicted by your Serpent Sting by 2%."
+    "description": "If Wyvern Sting is dispelled, the dispeller is also afflicted by Wyvern Sting lasting 16% of the duration remaining, and increases all damage done by you on targets afflicted by your Serpent Sting by 1%."
   },
   "53296": {
     "name_enus": "Noxious Stings",
     "icon": "ability_hunter_potentvenom",
     "rank_enus": "Rank 2",
-    "description": "If Wyvern Sting is dispelled, the dispeller is also afflicted by Wyvern Sting lasting 50% of the duration remaining, and increases all damage done by you on targets afflicted by your Serpent Sting by 3%."
+    "description": "If Wyvern Sting is dispelled, the dispeller is also afflicted by Wyvern Sting lasting 25% of the duration remaining, and increases all damage done by you on targets afflicted by your Serpent Sting by 2%."
   },
   "53297": {
     "name_enus": "Noxious Stings",
     "icon": "ability_hunter_potentvenom",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "If Wyvern Sting is dispelled, the dispeller is also afflicted by Wyvern Sting lasting 50% of the duration remaining, and increases all damage done by you on targets afflicted by your Serpent Sting by 3%."
   },
   "53298": {
     "name_enus": "Point of No Escape",
     "icon": "ability_hunter_pointofnoescape",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of all of your attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 6%."
+    "description": "Increases the critical strike chance of all of your attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 3%."
   },
   "53299": {
     "name_enus": "Point of No Escape",
     "icon": "ability_hunter_pointofnoescape",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike chance of all of your attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 6%."
   },
   "53301": {
     "name_enus": "Explosive Shot",
     "icon": "ability_hunter_explosiveshot",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "You fire an explosive charge into the enemy target, dealing RAP*0.14+144-RAP*0.14+172 Fire damage. The charge will blast the target every second for an additional 2 sec."
   },
   "53302": {
     "name_enus": "Sniper Training",
     "icon": "ability_hunter_longshots",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of your Kill Shot ability by 10%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 4% for 15 sec."
+    "description": "Increases the critical strike chance of your Kill Shot ability by 5%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 2% for 15 sec."
   },
   "53303": {
     "name_enus": "Sniper Training",
     "icon": "ability_hunter_longshots",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of your Kill Shot ability by 15%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 6% for 15 sec."
+    "description": "Increases the critical strike chance of your Kill Shot ability by 10%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 4% for 15 sec."
   },
   "53304": {
     "name_enus": "Sniper Training",
     "icon": "ability_hunter_longshots",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your Kill Shot ability by 15%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 6% for 15 sec."
   },
   "53375": {
     "name_enus": "Sanctified Wrath",
     "icon": "ability_paladin_sanctifiedwrath",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical strike chance of Hammer of Wrath by 50%, reduces the cooldown of Avenging Wrath by 60 secs and while affected by Avenging Wrath 50% of all damage caused bypasses damage reduction effects."
+    "description": "Increases the critical strike chance of Hammer of Wrath by 25%, reduces the cooldown of Avenging Wrath by 30 secs and while affected by Avenging Wrath 25% of all damage caused bypasses damage reduction effects."
   },
   "53376": {
     "name_enus": "Sanctified Wrath",
     "icon": "ability_paladin_sanctifiedwrath",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike chance of Hammer of Wrath by 50%, reduces the cooldown of Avenging Wrath by 60 secs and while affected by Avenging Wrath 50% of all damage caused bypasses damage reduction effects."
   },
   "53379": {
     "name_enus": "Swift Retribution",
     "icon": "ability_paladin_swiftretribution",
     "rank_enus": "Rank 1",
-    "description": "Your auras also increase casting, ranged and melee attack speeds by 2%."
+    "description": "Your auras also increase casting, ranged and melee attack speeds by 1%."
   },
   "53380": {
     "name_enus": "Righteous Vengeance",
     "icon": "ability_paladin_righteousvengeance",
     "rank_enus": "Rank 1",
-    "description": "When your Judgement, Crusader Strike and Divine Storm spells deal a critical strike, your target will take 20% additional damage over 8 sec."
+    "description": "When your Judgement, Crusader Strike and Divine Storm spells deal a critical strike, your target will take 10% additional damage over 8 sec."
   },
   "53381": {
     "name_enus": "Righteous Vengeance",
     "icon": "ability_paladin_righteousvengeance",
     "rank_enus": "Rank 2",
-    "description": "When your Judgement, Crusader Strike and Divine Storm spells deal a critical strike, your target will take 30% additional damage over 8 sec."
+    "description": "When your Judgement, Crusader Strike and Divine Storm spells deal a critical strike, your target will take 20% additional damage over 8 sec."
   },
   "53382": {
     "name_enus": "Righteous Vengeance",
     "icon": "ability_paladin_righteousvengeance",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When your Judgement, Crusader Strike and Divine Storm spells deal a critical strike, your target will take 30% additional damage over 8 sec."
   },
   "53385": {
     "name_enus": "Divine Storm",
@@ -12136,254 +12101,227 @@ export const spells = {
   "53401": {
     "name_enus": "Rabid",
     "icon": "ability_druid_berserk",
-    "rank_enus": "",
-    "description": "When activated, this ability causes your Mangle (Bear) ability to hit up to 3 targets and have no cooldown, and reduces the energy cost of all your Cat Form abilities by 50%.  Lasts 15 sec.  You cannot use Tiger's Fury while Berserk is active. <br /><br />Clears the effect of Fear and makes you immune to Fear for the duration."
+    "rank_enus": ""
   },
   "53409": {
     "name_enus": "Lionhearted",
     "icon": "inv_bannerpvp_02",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53411": {
     "name_enus": "Lionhearted",
     "icon": "inv_bannerpvp_02",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53426": {
     "name_enus": "Lick Your Wounds",
     "icon": "ability_hunter_mendpet",
-    "rank_enus": "",
-    "description": "Reduces the mana cost of your Mend Pet spell by 10% and gives the Mend Pet spell a 25% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick."
+    "rank_enus": ""
   },
   "53427": {
     "name_enus": "Great Resistance",
     "icon": "spell_nature_resistnature",
-    "rank_enus": "Rank 1",
-    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 10%."
+    "rank_enus": "Rank 1"
   },
   "53429": {
     "name_enus": "Great Resistance",
     "icon": "spell_nature_resistnature",
-    "rank_enus": "Rank 2",
-    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 15%."
+    "rank_enus": "Rank 2"
   },
   "53430": {
     "name_enus": "Great Resistance",
     "icon": "spell_nature_resistnature",
-    "rank_enus": "Rank 3",
-    "description": "Increases the critical effect chance of your Regrowth and Nourish spells by 20%."
+    "rank_enus": "Rank 3"
   },
   "53434": {
     "name_enus": "Call of the Wild",
     "icon": "ability_druid_kingofthejungle",
-    "rank_enus": "",
-    "description": "While using your Enrage ability in Bear Form or Dire Bear Form, your damage is increased by 5%, and your Tiger's Fury ability also instantly restores 20 energy.  In addition, the mana cost of Bear Form, Cat Form, and Dire Bear Form is reduced by 20%."
+    "rank_enus": ""
   },
   "53450": {
     "name_enus": "Grace of the Mantis",
     "icon": "inv_misc_ahnqirajtrinket_02",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53451": {
     "name_enus": "Grace of the Mantis",
     "icon": "inv_misc_ahnqirajtrinket_02",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53476": {
     "name_enus": "Intervene",
     "icon": "ability_hunter_pet_turtle",
-    "rank_enus": "",
-    "description": ""
+    "rank_enus": ""
   },
   "53477": {
     "name_enus": "Taunt",
     "icon": "spell_nature_reincarnation",
-    "rank_enus": "",
-    "description": "When you are above 75% health, you deal 2% more damage.  In addition, your attacks ignore up to 2% of your opponent's armor at all times."
+    "rank_enus": ""
   },
   "53478": {
     "name_enus": "Last Stand",
     "icon": "spell_nature_shamanrage",
     "rank_enus": "",
-    "description": "Reduces all damage taken by 30% and gives your successful melee attacks a chance to regenerate mana equal to 15% of your attack power. This spell is usable while stunned. Lasts 15 sec."
+    "description": "When activated, this ability temporarily grants you 30% of your maximum health for 20 sec.  After the effect expires, the health is lost."
   },
   "53480": {
     "name_enus": "Roar of Sacrifice",
     "icon": "classic_ability_druid_demoralizingroar",
-    "rank_enus": "",
-    "description": ""
+    "rank_enus": ""
   },
   "53481": {
     "name_enus": "Blood of the Rhino",
     "icon": "spell_shadow_lifedrain",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53482": {
     "name_enus": "Blood of the Rhino",
     "icon": "spell_shadow_lifedrain",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53483": {
     "name_enus": "Mobility",
     "icon": "ability_hunter_animalhandler",
-    "rank_enus": "Rank 1",
-    "description": "Increases your pet's attack power by 10%, and increases the duration of your Master's Call effect by 6 sec."
+    "rank_enus": "Rank 1"
   },
   "53484": {
     "name_enus": "Swift Retribution",
     "icon": "ability_paladin_swiftretribution",
     "rank_enus": "Rank 2",
-    "description": "Your auras also increase casting, ranged and melee attack speeds by 3%."
+    "description": "Your auras also increase casting, ranged and melee attack speeds by 2%."
   },
   "53485": {
     "name_enus": "Mobility",
     "icon": "ability_hunter_animalhandler",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53486": {
     "name_enus": "The Art of War",
     "icon": "ability_paladin_artofwar",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage of your Judgement, Crusader Strike and Divine Storm abilities by 10% and when your melee attacks critically hit your next Flash of Light  or Exorcism spell becomes instant cast."
+    "description": "Increases the damage of your Judgement, Crusader Strike and Divine Storm abilities by 5% and when your melee attacks critically hit the cast time of your next Flash of Light or Exorcism is reduced by 0.75 sec."
   },
   "53488": {
     "name_enus": "The Art of War",
     "icon": "ability_paladin_artofwar",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage of your Judgement, Crusader Strike and Divine Storm abilities by 10% and when your melee attacks critically hit your next Flash of Light  or Exorcism spell becomes instant cast."
   },
   "53490": {
     "name_enus": "Bullheaded",
     "icon": "ability_warrior_bullrush",
-    "rank_enus": "",
-    "description": "Your Charge ability is now usable while in combat, but the cooldown on Charge is increased by 5 sec. Following a Charge, your next Slam or Mortal Strike has an additional 25% chance to critically hit if used within 10 sec."
+    "rank_enus": ""
   },
   "53497": {
     "name_enus": "Cornered",
     "icon": "ability_hunter_survivalinstincts",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53501": {
     "name_enus": "Sheath of Light",
     "icon": "ability_paladin_sheathoflight",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell power by an amount equal to 20% of your attack power and your critical healing spells heal the target for 40% of the healed amount over 12 seconds."
+    "description": "Increases your spell power by an amount equal to 10% of your attack power and your critical healing spells heal the target for 20% of the healed amount over 12 seconds."
   },
   "53502": {
     "name_enus": "Sheath of Light",
     "icon": "ability_paladin_sheathoflight",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell power by an amount equal to 30% of your attack power and your critical healing spells heal the target for 60% of the healed amount over 12 seconds."
+    "description": "Increases your spell power by an amount equal to 20% of your attack power and your critical healing spells heal the target for 40% of the healed amount over 12 seconds."
   },
   "53503": {
     "name_enus": "Sheath of Light",
     "icon": "ability_paladin_sheathoflight",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your spell power by an amount equal to 30% of your attack power and your critical healing spells heal the target for 60% of the healed amount over 12 seconds."
   },
   "53508": {
     "name_enus": "Wolverine Bite",
     "icon": "ability_druid_lacerate",
-    "rank_enus": "",
-    "description": ""
+    "rank_enus": ""
   },
   "53511": {
     "name_enus": "Feeding Frenzy",
     "icon": "inv_misc_fish_48",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53512": {
     "name_enus": "Feeding Frenzy",
     "icon": "inv_misc_fish_48",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53514": {
     "name_enus": "Owl's Focus",
     "icon": "ability_hunter_pet_owl",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "53516": {
     "name_enus": "Owl's Focus",
     "icon": "ability_hunter_pet_owl",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53517": {
     "name_enus": "Roar of Recovery",
     "icon": "ability_druid_mastershapeshifter",
-    "rank_enus": "",
-    "description": "Grants an effect which lasts while the Druid is within the respective shapeshift form.<br /><br />Bear Form - Increases physical damage by 2%.<br /><br />Cat Form - Increases critical strike chance by 2%.<br /><br />Moonkin Form - Increases spell damage by 2%.<br /><br />Tree of Life Form - Increases healing by 2%."
+    "rank_enus": ""
   },
   "53519": {
     "name_enus": "Stoicism",
     "icon": "spell_holy_stoicism",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the duration of all Stun effects by an additional 30% and reduces the chance your helpful spells and damage over time effects will be dispelled by an additional 30%."
   },
   "53527": {
     "name_enus": "Divine Guardian",
     "icon": "spell_holy_powerwordbarrier",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "When Divine Sacrifice is activated, your party and raid members within 30 yards take 10% reduced damage for 6 sec.  In addition, increases the duration of your Sacred Shield by 50% and the amount absorbed by 10%."
   },
   "53530": {
     "name_enus": "Divine Guardian",
     "icon": "spell_holy_powerwordbarrier",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "When Divine Sacrifice is activated, your party and raid members within 30 yards take 20% reduced damage for 6 sec.  In addition, increases the duration of your Sacred Shield by 100% and the amount absorbed by 20%."
   },
   "53551": {
     "name_enus": "Sacred Cleansing",
     "icon": "ability_paladin_sacredcleansing",
     "rank_enus": "Rank 1",
-    "description": "Your Cleanse spell has a 20% chance to increase the target's resistance to Disease, Magic and Poison by 30% for 10 sec."
+    "description": "Your Cleanse spell has a 10% chance to increase the target's resistance to Disease, Magic and Poison by 30% for 10 sec."
   },
   "53552": {
     "name_enus": "Sacred Cleansing",
     "icon": "ability_paladin_sacredcleansing",
     "rank_enus": "Rank 2",
-    "description": "Your Cleanse spell has a 30% chance to increase the target's resistance to Disease, Magic and Poison by 30% for 10 sec."
+    "description": "Your Cleanse spell has a 20% chance to increase the target's resistance to Disease, Magic and Poison by 30% for 10 sec."
   },
   "53553": {
     "name_enus": "Sacred Cleansing",
     "icon": "ability_paladin_sacredcleansing",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Cleanse spell has a 30% chance to increase the target's resistance to Disease, Magic and Poison by 30% for 10 sec."
   },
   "53554": {
     "name_enus": "Mobility",
     "icon": "ability_hunter_animalhandler",
-    "rank_enus": "Rank 1",
-    "description": "Increases your pet's attack power by 10%, and increases the duration of your Master's Call effect by 6 sec."
+    "rank_enus": "Rank 1"
   },
   "53555": {
     "name_enus": "Mobility",
     "icon": "ability_hunter_animalhandler",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "53556": {
     "name_enus": "Enlightened Judgements",
     "icon": "ability_paladin_enlightenedjudgements",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your Judgement of Light and Judgement of Wisdom spells by 30 yards and increases your chance to hit by 4%."
+    "description": "Increases the range of your Judgement of Light and Judgement of Wisdom spells by 15 yards and increases your chance to hit by 2%."
   },
   "53557": {
     "name_enus": "Enlightened Judgements",
     "icon": "ability_paladin_enlightenedjudgements",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of your Judgement of Light and Judgement of Wisdom spells by 30 yards and increases your chance to hit by 4%."
   },
   "53563": {
     "name_enus": "Beacon of Light",
@@ -12395,43 +12333,43 @@ export const spells = {
     "name_enus": "Infusion of Light",
     "icon": "ability_paladin_infusionoflight",
     "rank_enus": "Rank 1",
-    "description": "Your Holy Shock critical hits reduce the cast time of your next Flash of Light by 1.5 sec or increase the critical chance of your next Holy Light by 20%.  In addition, causes your Flash of Light to heal targets with Sacred Shield for an additional 100% over 12 sec."
+    "description": "Your Holy Shock critical hits reduce the cast time of your next Flash of Light by 0.75 sec or increase the critical chance of your next Holy Light by 10%.  In addition, causes your Flash of Light to heal targets with Sacred Shield for an additional 50% over 12 sec."
   },
   "53576": {
     "name_enus": "Infusion of Light",
     "icon": "ability_paladin_infusionoflight",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Holy Shock critical hits reduce the cast time of your next Flash of Light by 1.5 sec or increase the critical chance of your next Holy Light by 20%.  In addition, causes your Flash of Light to heal targets with Sacred Shield for an additional 100% over 12 sec."
   },
   "53583": {
     "name_enus": "Guarded by the Light",
     "icon": "ability_paladin_gaurdedbythelight",
     "rank_enus": "Rank 1",
-    "description": "Reduces spell damage taken by 6% and gives a 100% chance to refresh the duration of your Divine Plea when you hit an enemy.  In addition, your Divine Plea spell is 100% less likely to be dispelled."
+    "description": "Reduces spell damage taken by 3% and gives a 50% chance to refresh the duration of your Divine Plea when you hit an enemy.  In addition, your Divine Plea spell is 50% less likely to be dispelled."
   },
   "53585": {
     "name_enus": "Guarded by the Light",
     "icon": "ability_paladin_gaurdedbythelight",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces spell damage taken by 6% and gives a 100% chance to refresh the duration of your Divine Plea when you hit an enemy.  In addition, your Divine Plea spell is 100% less likely to be dispelled."
   },
   "53590": {
     "name_enus": "Touched by the Light",
     "icon": "ability_paladin_touchedbylight",
     "rank_enus": "Rank 1",
-    "description": "Increases your spell power by an amount equal to 40% of your Strength and increases the amount healed by your critical heals by 20%."
+    "description": "Increases your spell power by an amount equal to 20% of your Strength and increases the amount healed by your critical heals by 10%."
   },
   "53591": {
     "name_enus": "Touched by the Light",
     "icon": "ability_paladin_touchedbylight",
     "rank_enus": "Rank 2",
-    "description": "Increases your spell power by an amount equal to 60% of your Strength and increases the amount healed by your critical heals by 30%."
+    "description": "Increases your spell power by an amount equal to 40% of your Strength and increases the amount healed by your critical heals by 20%."
   },
   "53592": {
     "name_enus": "Touched by the Light",
     "icon": "ability_paladin_touchedbylight",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your spell power by an amount equal to 60% of your Strength and increases the amount healed by your critical heals by 30%."
   },
   "53595": {
     "name_enus": "Hammer of the Righteous",
@@ -12443,205 +12381,204 @@ export const spells = {
     "name_enus": "Focused Aim",
     "icon": "ability_hunter_focusedaim",
     "rank_enus": "Rank 1",
-    "description": "Reduces the pushback suffered from damaging attacks while casting Steady Shot by 46%, and increases your chance to hit by 2%."
+    "description": "Reduces the pushback suffered from damaging attacks while casting Steady Shot by 23%, and increases your chance to hit by 1%."
   },
   "53621": {
     "name_enus": "Focused Aim",
     "icon": "ability_hunter_focusedaim",
     "rank_enus": "Rank 2",
-    "description": "Reduces the pushback suffered from damaging attacks while casting Steady Shot by 70%, and increases your chance to hit by 3%."
+    "description": "Reduces the pushback suffered from damaging attacks while casting Steady Shot by 46%, and increases your chance to hit by 2%."
   },
   "53622": {
     "name_enus": "Focused Aim",
     "icon": "ability_hunter_focusedaim",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the pushback suffered from damaging attacks while casting Steady Shot by 70%, and increases your chance to hit by 3%."
   },
   "53648": {
     "name_enus": "Swift Retribution",
     "icon": "ability_paladin_swiftretribution",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your auras also increase casting, ranged and melee attack speeds by 3%."
   },
   "53660": {
     "name_enus": "Blessed Hands",
     "icon": "ability_paladin_blessedhands",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of Hand of Freedom, Hand of Sacrifice and Hand of Salvation by 30%, increases the effectiveness of Hand of Salvation by 100% and the effectiveness of Hand of Sacrifice by an additional 10%."
+    "description": "Reduces the mana cost of Hand of Freedom, Hand of Sacrifice and Hand of Salvation by 15%, increases the effectiveness of Hand of Salvation by 50% and the effectiveness of Hand of Sacrifice by an additional 5%."
   },
   "53661": {
     "name_enus": "Blessed Hands",
     "icon": "ability_paladin_blessedhands",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the mana cost of Hand of Freedom, Hand of Sacrifice and Hand of Salvation by 30%, increases the effectiveness of Hand of Salvation by 100% and the effectiveness of Hand of Sacrifice by an additional 10%."
   },
   "53671": {
     "name_enus": "Judgements of the Pure",
     "icon": "ability_paladin_judgementofthepure",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Seal and Judgement spells by 10%, and your Judgement spells increase your casting and melee haste by 6% for 1 min."
+    "description": "Increases the damage done by your Seal and Judgement spells by 5%, and your Judgement spells increase your casting and melee haste by 3% for 1 min."
   },
   "53673": {
     "name_enus": "Judgements of the Pure",
     "icon": "ability_paladin_judgementofthepure",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Seal and Judgement spells by 15%, and your Judgement spells increase your casting and melee haste by 9% for 1 min."
+    "description": "Increases the damage done by your Seal and Judgement spells by 10%, and your Judgement spells increase your casting and melee haste by 6% for 1 min."
   },
   "53695": {
     "name_enus": "Judgements of the Just",
     "icon": "ability_paladin_judgementsofthejust",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Hammer of Justice by 10 sec, increases the duration of your Seal of Justice effect by 1 sec and your Judgement spells also reduce the melee attack speed of the target by 20%."
+    "description": "Reduces the cooldown of your Hammer of Justice by 5 sec, increases the duration of your Seal of Justice effect by 0.5 sec and your Judgement spells also reduce the melee attack speed of the target by 10%."
   },
   "53696": {
     "name_enus": "Judgements of the Just",
     "icon": "ability_paladin_judgementsofthejust",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Hammer of Justice by 10 sec, increases the duration of your Seal of Justice effect by 1 sec and your Judgement spells also reduce the melee attack speed of the target by 20%."
   },
   "53709": {
     "name_enus": "Shield of the Templar",
     "icon": "ability_paladin_shieldofthetemplar",
     "rank_enus": "Rank 1",
-    "description": "Reduces all damage taken by 2% and grants your Avenger's Shield a 66% chance to silence your targets for 3 sec."
+    "description": "Reduces all damage taken by 1% and grants your Avenger's Shield a 33% chance to silence your targets for 3 sec."
   },
   "53710": {
     "name_enus": "Shield of the Templar",
     "icon": "ability_paladin_shieldofthetemplar",
     "rank_enus": "Rank 2",
-    "description": "Reduces all damage taken by 3% and grants your Avenger's Shield a 100% chance to silence your targets for 3 sec."
+    "description": "Reduces all damage taken by 2% and grants your Avenger's Shield a 66% chance to silence your targets for 3 sec."
   },
   "53711": {
     "name_enus": "Shield of the Templar",
     "icon": "ability_paladin_shieldofthetemplar",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces all damage taken by 3% and grants your Avenger's Shield a 100% chance to silence your targets for 3 sec."
   },
   "53754": {
     "name_enus": "Improved Fear",
     "icon": "spell_shadow_possession",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Causes your Fear spell to inflict a Nightmare on the target when the fear effect ends. The Nightmare effect reduces the target's movement speed by 15% for 5 sec."
   },
   "53759": {
     "name_enus": "Improved Fear",
     "icon": "spell_shadow_possession",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Causes your Fear spell to inflict a Nightmare on the target when the fear effect ends. The Nightmare effect reduces the target's movement speed by 30% for 5 sec."
   },
   "54037": {
     "name_enus": "Improved Felhunter",
     "icon": "spell_shadow_summonfelhunter",
     "rank_enus": "Rank 1",
-    "description": "Your Felhunter regains 8% of its maximum mana each time it hits with its Shadow Bite ability and the cooldown on that ability is reduced by 4 sec.  In addition, increases the effect of your Felhunter's Fel Intelligence by 10%."
+    "description": "Your Felhunter regains 4% of its maximum mana each time it hits with its Shadow Bite ability and the cooldown on that ability is reduced by 2 sec.  In addition, increases the effect of your Felhunter's Fel Intelligence by 5%."
   },
   "54038": {
     "name_enus": "Improved Felhunter",
     "icon": "spell_shadow_summonfelhunter",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Felhunter regains 8% of its maximum mana each time it hits with its Shadow Bite ability and the cooldown on that ability is reduced by 4 sec.  In addition, increases the effect of your Felhunter's Fel Intelligence by 10%."
   },
   "54044": {
     "name_enus": "Carrion Feeder",
     "icon": "ability_racial_cannibalize",
-    "rank_enus": "",
-    "description": "Gives you a 50% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points  have a 50% chance to add an additional combo point."
+    "rank_enus": ""
   },
   "54117": {
     "name_enus": "Improved Soul Leech",
     "icon": "ability_warlock_improvedsoulleech",
     "rank_enus": "Rank 1",
-    "description": "Your Soul Leech effect also restores mana to you and your summoned demon equal to 2% of maximum mana, and has a 100% chance to grant up to 10 party or raid members mana regeneration equal to 1% of maximum mana per 5 sec. Lasts for 15 sec."
+    "description": "Your Soul Leech effect also restores mana to you and your summoned demon equal to 1% of maximum mana, and has a 50% chance to grant up to 10 party or raid members mana regeneration equal to 1% of maximum mana per 5 sec. Lasts for 15 sec."
   },
   "54118": {
     "name_enus": "Improved Soul Leech",
     "icon": "ability_warlock_improvedsoulleech",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Soul Leech effect also restores mana to you and your summoned demon equal to 2% of maximum mana, and has a 100% chance to grant up to 10 party or raid members mana regeneration equal to 1% of maximum mana per 5 sec. Lasts for 15 sec."
   },
   "54151": {
     "name_enus": "Judgements of the Pure",
     "icon": "ability_paladin_judgementofthepure",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage done by your Seal and Judgement spells by 20%, and your Judgement spells increase your casting and melee haste by 12% for 1 min."
+    "description": "Increases the damage done by your Seal and Judgement spells by 15%, and your Judgement spells increase your casting and melee haste by 9% for 1 min."
   },
   "54154": {
     "name_enus": "Judgements of the Pure",
     "icon": "ability_paladin_judgementofthepure",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage done by your Seal and Judgement spells by 25%, and your Judgement spells increase your casting and melee haste by 15% for 1 min."
+    "description": "Increases the damage done by your Seal and Judgement spells by 20%, and your Judgement spells increase your casting and melee haste by 12% for 1 min."
   },
   "54155": {
     "name_enus": "Judgements of the Pure",
     "icon": "ability_paladin_judgementofthepure",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Seal and Judgement spells by 25%, and your Judgement spells increase your casting and melee haste by 15% for 1 min."
   },
   "54347": {
     "name_enus": "Improved Demonic Tactics",
     "icon": "ability_warlock_improveddemonictactics",
     "rank_enus": "Rank 1",
-    "description": "Increases your summoned demon's critical strike chance equal to 20% of your critical strike chance."
+    "description": "Increases your summoned demon's critical strike chance equal to 10% of your critical strike chance."
   },
   "54348": {
     "name_enus": "Improved Demonic Tactics",
     "icon": "ability_warlock_improveddemonictactics",
     "rank_enus": "Rank 2",
-    "description": "Increases your summoned demon's critical strike chance equal to 30% of your critical strike chance."
+    "description": "Increases your summoned demon's critical strike chance equal to 20% of your critical strike chance."
   },
   "54349": {
     "name_enus": "Improved Demonic Tactics",
     "icon": "ability_warlock_improveddemonictactics",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your summoned demon's critical strike chance equal to 30% of your critical strike chance."
   },
   "54354": {
     "name_enus": "Prismatic Cloak",
     "icon": "spell_arcane_prismaticcloak",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces all damage taken by 6% and reduces the fade time of your Invisibility spell by 3 sec."
   },
   "54486": {
     "name_enus": "Missile Barrage",
     "icon": "ability_mage_missilebarrage",
     "rank_enus": "Rank 2",
-    "description": "Gives your Arcane Blast a 24% chance, and your Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a 12% chance to reduce the channeled duration of the next Arcane Missiles spell by 2.5 secs, reduce the mana cost by 100%, and missiles will fire every .5 secs."
+    "description": "Gives your Arcane Blast a 16% chance, and your Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a 8% chance to reduce the channeled duration of the next Arcane Missiles spell by 2.5 secs, reduce the mana cost by 100%, and missiles will fire every .5 secs."
   },
   "54488": {
     "name_enus": "Missile Barrage",
     "icon": "ability_mage_missilebarrage",
     "rank_enus": "Rank 3",
-    "description": "Gives your Arcane Blast a 32% chance, and your Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a 16% chance to reduce the channeled duration of the next Arcane Missiles spell by 2.5 secs, reduce the mana cost by 100%, and missiles will fire every .5 secs."
+    "description": "Gives your Arcane Blast a 24% chance, and your Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a 12% chance to reduce the channeled duration of the next Arcane Missiles spell by 2.5 secs, reduce the mana cost by 100%, and missiles will fire every .5 secs."
   },
   "54489": {
     "name_enus": "Missile Barrage",
     "icon": "ability_mage_missilebarrage",
     "rank_enus": "Rank 4",
-    "description": "Gives your Arcane Blast a 40% chance, and your Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a 20% chance to reduce the channeled duration of the next Arcane Missiles spell by 2.5 secs, reduce the mana cost by 100%, and missiles will fire every .5 secs."
+    "description": "Gives your Arcane Blast a 32% chance, and your Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a 16% chance to reduce the channeled duration of the next Arcane Missiles spell by 2.5 secs, reduce the mana cost by 100%, and missiles will fire every .5 secs."
   },
   "54490": {
     "name_enus": "Missile Barrage",
     "icon": "ability_mage_missilebarrage",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Gives your Arcane Blast a 40% chance, and your Arcane Barrage, Fireball, Frostbolt and Frostfire Bolt spells a 20% chance to reduce the channeled duration of the next Arcane Missiles spell by 2.5 secs, reduce the mana cost by 100%, and missiles will fire every .5 secs."
   },
   "54637": {
     "name_enus": "Blood of the North",
     "icon": "inv_weapon_shortblade_79",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases Blood Strike and Frost Strike damage by 10%.  In addition, whenever you hit with Blood Strike or Pestilence there is a 100% chance that the Blood Rune will become a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
   },
   "54638": {
     "name_enus": "Blood of the North",
     "icon": "inv_weapon_shortblade_79",
     "rank_enus": "Rank 2",
-    "description": "Increases Blood Strike and Frost Strike damage by 10%.  In addition, whenever you hit with Blood Strike or Pestilence there is a 100% chance that the Blood Rune will become a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
+    "description": "Increases Blood Strike and Frost Strike damage by 6%.  In addition, whenever you hit with Blood Strike or Pestilence there is a 60% chance that the Blood Rune will become a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
   },
   "54639": {
     "name_enus": "Blood of the North",
     "icon": "inv_weapon_shortblade_79",
     "rank_enus": "Rank 1",
-    "description": "Increases Blood Strike and Frost Strike damage by 6%.  In addition, whenever you hit with Blood Strike or Pestilence there is a 60% chance that the Blood Rune will become a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
+    "description": "Increases Blood Strike and Frost Strike damage by 3%.  In addition, whenever you hit with Blood Strike or Pestilence there is a 30% chance that the Blood Rune will become a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
   },
   "54646": {
     "name_enus": "Focus Magic",
@@ -12653,145 +12590,145 @@ export const spells = {
     "name_enus": "Arcane Fortitude",
     "icon": "spell_arcane_arcaneresilience",
     "rank_enus": "Rank 2",
-    "description": "Increases your armor by an amount equal to 150% of your Intellect."
+    "description": "Increases your armor by an amount equal to 100% of your Intellect."
   },
   "54659": {
     "name_enus": "Arcane Fortitude",
     "icon": "spell_arcane_arcaneresilience",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your armor by an amount equal to 150% of your Intellect."
   },
   "54734": {
     "name_enus": "Incineration",
     "icon": "spell_fire_flameshock",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your Fire Blast, Scorch, Arcane Blast and Cone of Cold spells by 6%."
   },
   "54747": {
     "name_enus": "Burning Determination",
     "icon": "spell_fire_totemofwrath",
     "rank_enus": "Rank 1",
-    "description": "When Interrupted or Silenced you have a 100% chance to become immune to the next Interrupt or Silence mechanic.  Lasts 20 sec."
+    "description": "When Interrupted or Silenced you have a 50% chance to become immune to the next Interrupt or Silence mechanic.  Lasts 20 sec."
   },
   "54749": {
     "name_enus": "Burning Determination",
     "icon": "spell_fire_totemofwrath",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "When Interrupted or Silenced you have a 100% chance to become immune to the next Interrupt or Silence mechanic.  Lasts 20 sec."
   },
   "54787": {
     "name_enus": "Shattered Barrier",
     "icon": "ability_mage_shattershield",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Gives your Ice Barrier spell a 100% chance to freeze all enemies within 10 yds for 8 sec when it is destroyed."
   },
   "55050": {
     "name_enus": "Heart Strike",
     "icon": "inv_weapon_shortblade_40",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Instantly strike the target and his nearest ally, causing 50% weapon damage plus 125 on the primary target, and 25% weapon damage plus 63 on the secondary target.  Each target takes 10% additional damage for each of your diseases active on that target<!--sp58616:0-->.<!--sp58616-->"
   },
   "55061": {
     "name_enus": "Icy Reach",
     "icon": "spell_frost_manarecharge",
     "rank_enus": "Rank 1",
-    "description": "Increases the range of your Icy Touch, Chains of Ice and Howling Blast by 10 yards."
+    "description": "Increases the range of your Icy Touch,  Chains of Ice and Howling Blast by 5 yards."
   },
   "55062": {
     "name_enus": "Icy Reach",
     "icon": "spell_frost_manarecharge",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the range of your Icy Touch, Chains of Ice and Howling Blast by 10 yards."
   },
   "55090": {
     "name_enus": "Scourge Strike",
     "icon": "spell_deathknight_scourgestrike",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "An unholy strike that deals 70% of weapon damage as Physical damage plus 238.  In addition, for each of your diseases on your target, you deal an additional 12% of the Physical damage done as Shadow damage."
   },
   "55091": {
     "name_enus": "Cold as Ice",
     "icon": "ability_mage_coldasice",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Cold Snap, Ice Barrier and Summon Water Elemental spells by 20%."
+    "description": "Reduces the cooldown of your Cold Snap, Ice Barrier and Summon Water Elemental spells by 10%."
   },
   "55092": {
     "name_enus": "Cold as Ice",
     "icon": "ability_mage_coldasice",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Cold Snap, Ice Barrier and Summon Water Elemental spells by 20%."
   },
   "55094": {
     "name_enus": "Ice Floes",
     "icon": "spell_frost_icefloes",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cooldown of your Frost Nova, Cone of Cold, Ice Block and Icy Veins spells by 20%."
   },
   "55107": {
     "name_enus": "Two-Handed Weapon Specialization",
     "icon": "inv_sword_68",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage you deal with two-handed melee weapons by 4%."
+    "description": "Increases the damage you deal with two-handed melee weapons by 2%."
   },
   "55108": {
     "name_enus": "Two-Handed Weapon Specialization",
     "icon": "inv_sword_68",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage you deal with two-handed melee weapons by 4%."
   },
   "55129": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 1",
-    "description": "Increases your Dodge chance by 2%."
+    "description": "Increases your Dodge chance by 1%."
   },
   "55130": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 2",
-    "description": "Increases your Dodge chance by 3%."
+    "description": "Increases your Dodge chance by 2%."
   },
   "55131": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 3",
-    "description": "Increases your Dodge chance by 4%."
+    "description": "Increases your Dodge chance by 3%."
   },
   "55132": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 4",
-    "description": "Increases your Dodge chance by 5%."
+    "description": "Increases your Dodge chance by 4%."
   },
   "55133": {
     "name_enus": "Anticipation",
     "icon": "spell_nature_mirrorimage",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your Dodge chance by 5%."
   },
   "55136": {
     "name_enus": "Vendetta",
     "icon": "spell_deathknight_vendetta",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Heals you for up to 6% of your maximum health whenever you kill a target that yields experience or honor."
   },
   "55198": {
     "name_enus": "Tidal Force",
     "icon": "spell_frost_frostbolt",
     "rank_enus": "",
-    "description": "Increases the damage done by your Frost spells by 2%."
+    "description": "Increases the critical effect chance of your Healing Wave, Lesser Healing Wave and Chain Heal by 60%. Each critical heal reduces the chance by 20%. Lasts 20 sec."
   },
   "55225": {
     "name_enus": "Blade Barrier",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 4",
-    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 5% for the next 10 sec."
+    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 4% for the next 10 sec."
   },
   "55226": {
     "name_enus": "Blade Barrier",
     "icon": "ability_upgrademoonglaive",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Whenever your Blood Runes are on cooldown, you gain the Blade Barrier effect, which decreases damage taken by 5% for the next 10 sec."
   },
   "55233": {
     "name_enus": "Vampiric Blood",
@@ -12803,439 +12740,438 @@ export const spells = {
     "name_enus": "Outbreak",
     "icon": "spell_shadow_plaguecloud",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage of Plague Strike by 30% and Scourge Strike by 20%."
+    "description": "Increases the damage of Plague Strike by 20% and Scourge Strike by 13%."
   },
   "55237": {
     "name_enus": "Outbreak",
     "icon": "spell_shadow_plaguecloud",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage of Plague Strike by 30% and Scourge Strike by 20%."
   },
   "55339": {
     "name_enus": "Torment the Weak",
     "icon": "ability_mage_tormentoftheweak",
     "rank_enus": "Rank 2",
-    "description": "Your Frostbolt, Fireball, Frostfire Bolt, Pyroblast, Arcane Missiles, Arcane Blast, and Arcane Barrage abilities deal 12% more damage to snared or slowed targets."
+    "description": "Your Frostbolt, Fireball, Frostfire Bolt, Pyroblast, Arcane Missiles, Arcane Blast, and Arcane Barrage abilities deal 8% more damage to snared or slowed targets."
   },
   "55340": {
     "name_enus": "Torment the Weak",
     "icon": "ability_mage_tormentoftheweak",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Frostbolt, Fireball, Frostfire Bolt, Pyroblast, Arcane Missiles, Arcane Blast, and Arcane Barrage abilities deal 12% more damage to snared or slowed targets."
   },
   "55610": {
     "name_enus": "Improved Icy Talons",
     "icon": "spell_deathknight_icytalons",
     "rank_enus": "",
-    "description": "You leech heat from victims of your Frost Fever, so that when their melee attack speed is reduced, yours increases by 4% for the next 20 sec."
+    "description": "Increases the melee haste of all party and raid members within 100 yds by 20% and your haste by an additional 5%."
   },
   "55620": {
     "name_enus": "Night of the Dead",
     "icon": "spell_deathknight_armyofthedead",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown on Raise Dead by 90 sec and the cooldown on Army of the Dead by 4 min.  Also reduces the damage your pet takes from creature area of effect attacks by 90%."
+    "description": "Reduces the cooldown on Raise Dead by 45 sec and the cooldown on Army of the Dead by 2 min.  Also reduces the damage your pet takes from creature area of effect attacks by 45%."
   },
   "55623": {
     "name_enus": "Night of the Dead",
     "icon": "spell_deathknight_armyofthedead",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown on Raise Dead by 90 sec and the cooldown on Army of the Dead by 4 min.  Also reduces the damage your pet takes from creature area of effect attacks by 90%."
   },
   "55666": {
     "name_enus": "Desecration",
     "icon": "spell_shadow_shadowfiend",
     "rank_enus": "Rank 1",
-    "description": "Your Plague Strikes and Scourge Strikes cause the Desecrated Ground effect.  Targets in the area are slowed by 50% by the grasping arms of the dead while standing on the unholy ground.  Lasts 20 sec."
+    "description": "Your Plague Strikes and Scourge Strikes cause the Desecrated Ground effect.  Targets in the area are slowed by 25% by the grasping arms of the dead while standing on the unholy ground.  Lasts 20 sec."
   },
   "55667": {
     "name_enus": "Desecration",
     "icon": "spell_shadow_shadowfiend",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Plague Strikes and Scourge Strikes cause the Desecrated Ground effect.  Targets in the area are slowed by 50% by the grasping arms of the dead while standing on the unholy ground.  Lasts 20 sec."
   },
   "55709": {
     "name_enus": "Heart of the Phoenix",
     "icon": "inv_misc_pheonixpet_01",
-    "rank_enus": "",
-    "description": ""
+    "rank_enus": ""
   },
   "56314": {
     "name_enus": "Kindred Spirits",
     "icon": "ability_hunter_separationanxiety",
     "rank_enus": "Rank 1",
-    "description": "Increases your pet's damage by 8% and you and your pet's movement speed by 4% while your pet is active. This does not stack with other movement speed increasing effects."
+    "description": "Increases your pet's damage by 4% and you and your pet's movement speed by 2% while your pet is active. This does not stack with other movement speed increasing effects."
   },
   "56315": {
     "name_enus": "Kindred Spirits",
     "icon": "ability_hunter_separationanxiety",
     "rank_enus": "Rank 2",
-    "description": "Increases your pet's damage by 12% and you and your pet's movement speed by 6% while your pet is active. This does not stack with other movement speed increasing effects."
+    "description": "Increases your pet's damage by 8% and you and your pet's movement speed by 4% while your pet is active. This does not stack with other movement speed increasing effects."
   },
   "56316": {
     "name_enus": "Kindred Spirits",
     "icon": "ability_hunter_separationanxiety",
     "rank_enus": "Rank 3",
-    "description": "Increases your pet's damage by 16% and you and your pet's movement speed by 8% while your pet is active. This does not stack with other movement speed increasing effects."
+    "description": "Increases your pet's damage by 12% and you and your pet's movement speed by 6% while your pet is active. This does not stack with other movement speed increasing effects."
   },
   "56317": {
     "name_enus": "Kindred Spirits",
     "icon": "ability_hunter_separationanxiety",
     "rank_enus": "Rank 4",
-    "description": "Increases your pet's damage by 20% and you and your pet's movement speed by 10% while your pet is active. This does not stack with other movement speed increasing effects."
+    "description": "Increases your pet's damage by 16% and you and your pet's movement speed by 8% while your pet is active. This does not stack with other movement speed increasing effects."
   },
   "56318": {
     "name_enus": "Kindred Spirits",
     "icon": "ability_hunter_separationanxiety",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases your pet's damage by 20% and you and your pet's movement speed by 10% while your pet is active. This does not stack with other movement speed increasing effects."
   },
   "56333": {
     "name_enus": "T.N.T.",
     "icon": "inv_misc_bomb_05",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Explosive Shot,  Explosive Trap, Black Arrow and Immolation Trap by 4%."
+    "description": "Increases the damage done by your Explosive Shot,  Explosive Trap, Black Arrow and Immolation Trap by 2%."
   },
   "56336": {
     "name_enus": "T.N.T.",
     "icon": "inv_misc_bomb_05",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage done by your Explosive Shot,  Explosive Trap, Black Arrow and Immolation Trap by 6%."
+    "description": "Increases the damage done by your Explosive Shot,  Explosive Trap, Black Arrow and Immolation Trap by 4%."
   },
   "56337": {
     "name_enus": "T.N.T.",
     "icon": "inv_misc_bomb_05",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Explosive Shot,  Explosive Trap, Black Arrow and Immolation Trap by 6%."
   },
   "56339": {
     "name_enus": "Hunter vs. Wild",
     "icon": "ability_hunter_huntervswild",
     "rank_enus": "Rank 1",
-    "description": "Increases you and your pet's attack power and ranged attack power equal to 20% of your total Stamina."
+    "description": "Increases you and your pet's attack power and ranged attack power equal to 10% of your total Stamina."
   },
   "56340": {
     "name_enus": "Hunter vs. Wild",
     "icon": "ability_hunter_huntervswild",
     "rank_enus": "Rank 2",
-    "description": "Increases you and your pet's attack power and ranged attack power equal to 30% of your total Stamina."
+    "description": "Increases you and your pet's attack power and ranged attack power equal to 20% of your total Stamina."
   },
   "56341": {
     "name_enus": "Hunter vs. Wild",
     "icon": "ability_hunter_huntervswild",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases you and your pet's attack power and ranged attack power equal to 30% of your total Stamina."
   },
   "56342": {
     "name_enus": "Lock and Load",
     "icon": "ability_hunter_lockandload",
     "rank_enus": "Rank 1",
-    "description": "You have a 66% chance when you trap a target with Freezing Trap, Freezing Arrow or Frost Trap and a 4% chance when you deal periodic damage with your Immolation Trap, Explosive Trap or Black Arrow to cause your next 2 Arcane Shot or Explosive Shot spells to trigger no cooldown, cost no mana and consume no ammo. This effect has a 22 sec cooldown."
+    "description": "You have a 33% chance when you trap a target with Freezing Trap, Freezing Arrow or Frost Trap and a 2% chance when you deal periodic damage with your Immolation Trap, Explosive Trap or Black Arrow to cause your next 2 Arcane Shot or Explosive Shot spells to trigger no cooldown, cost no mana and consume no ammo. This effect has a 22 sec cooldown."
   },
   "56343": {
     "name_enus": "Lock and Load",
     "icon": "ability_hunter_lockandload",
     "rank_enus": "Rank 2",
-    "description": "You have a 100% chance when you trap a target with Freezing Trap, Freezing Arrow or Frost Trap and a 6% chance when you deal periodic damage with your Immolation Trap, Explosive Trap or Black Arrow to cause your next 2 Arcane Shot or Explosive Shot spells to trigger no cooldown, cost no mana and consume no ammo. This effect has a 22 sec cooldown."
+    "description": "You have a 66% chance when you trap a target with Freezing Trap, Freezing Arrow or Frost Trap and a 4% chance when you deal periodic damage with your Immolation Trap, Explosive Trap or Black Arrow to cause your next 2 Arcane Shot or Explosive Shot spells to trigger no cooldown, cost no mana and consume no ammo. This effect has a 22 sec cooldown."
   },
   "56344": {
     "name_enus": "Lock and Load",
     "icon": "ability_hunter_lockandload",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "You have a 100% chance when you trap a target with Freezing Trap, Freezing Arrow or Frost Trap and a 6% chance when you deal periodic damage with your Immolation Trap, Explosive Trap or Black Arrow to cause your next 2 Arcane Shot or Explosive Shot spells to trigger no cooldown, cost no mana and consume no ammo. This effect has a 22 sec cooldown."
   },
   "56611": {
     "name_enus": "Wrecking Crew",
     "icon": "ability_warrior_trauma",
     "rank_enus": "Rank 2",
-    "description": "Your melee critical hits Enrage you, increasing all damage caused by 6% for 12 sec.  This effect does not stack with Enrage."
+    "description": "Your melee critical hits Enrage you, increasing all damage caused by 4% for 12 sec.  This effect does not stack with Enrage."
   },
   "56612": {
     "name_enus": "Wrecking Crew",
     "icon": "ability_warrior_trauma",
     "rank_enus": "Rank 3",
-    "description": "Your melee critical hits Enrage you, increasing all damage caused by 8% for 12 sec.  This effect does not stack with Enrage."
+    "description": "Your melee critical hits Enrage you, increasing all damage caused by 6% for 12 sec.  This effect does not stack with Enrage."
   },
   "56613": {
     "name_enus": "Wrecking Crew",
     "icon": "ability_warrior_trauma",
     "rank_enus": "Rank 4",
-    "description": "Your melee critical hits Enrage you, increasing all damage caused by 10% for 12 sec.  This effect does not stack with Enrage."
+    "description": "Your melee critical hits Enrage you, increasing all damage caused by 8% for 12 sec.  This effect does not stack with Enrage."
   },
   "56614": {
     "name_enus": "Wrecking Crew",
     "icon": "ability_warrior_trauma",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your melee critical hits Enrage you, increasing all damage caused by 10% for 12 sec.  This effect does not stack with Enrage."
   },
   "56636": {
     "name_enus": "Taste for Blood",
     "icon": "ability_rogue_hungerforblood",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Whenever your Rend ability causes damage, you have a 33% chance of allowing the use of your Overpower ability for 9 sec.  1 charge.  This effect will not occur more than once every 6 sec."
   },
   "56637": {
     "name_enus": "Taste for Blood",
     "icon": "ability_rogue_hungerforblood",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Whenever your Rend ability causes damage, you have a 66% chance of allowing the use of your Overpower ability for 9 sec.  1 charge.  This effect will not occur more than once every 6 sec."
   },
   "56638": {
     "name_enus": "Taste for Blood",
     "icon": "ability_rogue_hungerforblood",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Whenever your Rend ability causes damage, you have a 100% chance of allowing the use of your Overpower ability for 9 sec.  1 charge.  This effect will not occur more than once every 6 sec."
   },
   "56822": {
     "name_enus": "Rime",
     "icon": "spell_frost_freezingbreath",
     "rank_enus": "Rank 2",
-    "description": "Increases the critical strike chance of your Icy Touch and Obliterate by 15% and casting Obliterate has a 15% chance to reset the cooldown on Howling Blast and cause your next Howling Blast to consume no runes."
+    "description": "Increases the critical strike chance of your Icy Touch and Obliterate by 10% and casting Obliterate has a 10% chance to reset the cooldown on Howling Blast and cause your next Howling Blast to consume no runes."
   },
   "56834": {
     "name_enus": "Reaping",
     "icon": "spell_shadow_shadetruesight",
     "rank_enus": "Rank 2",
-    "description": "Whenever you hit with Blood Strike or Pestilence there is a 100% chance that the Blood Rune becomes a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
+    "description": "Whenever you hit with Blood Strike or Pestilence there is a 66% chance that the Blood Rune becomes a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
   },
   "56835": {
     "name_enus": "Reaping",
     "icon": "spell_shadow_shadetruesight",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Whenever you hit with Blood Strike or Pestilence there is a 100% chance that the Blood Rune becomes a Death Rune when it activates.  Death Runes count as a Blood, Frost or Unholy Rune."
   },
   "56924": {
     "name_enus": "Intensify Rage",
     "icon": "ability_warrior_endlessrage",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cooldown of your Bloodrage, Berserker Rage, Recklessness and Death Wish abilities by 33%."
   },
   "56927": {
     "name_enus": "Unending Fury",
     "icon": "ability_warrior_intensifyrage",
     "rank_enus": "Rank 1",
-    "description": "Increases the attack power by 10% of party and raid members within 100 yards.  Also increases your total Strength by 2%."
+    "description": "Increases the damage done by your Slam, Whirlwind and Bloodthirst abilities by 2%."
   },
   "56929": {
     "name_enus": "Unending Fury",
     "icon": "ability_warrior_intensifyrage",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage done by your Slam, Whirlwind and Bloodthirst abilities by 4%."
   },
   "56930": {
     "name_enus": "Unending Fury",
     "icon": "ability_warrior_intensifyrage",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the damage done by your Slam, Whirlwind and Bloodthirst abilities by 6%."
   },
   "56931": {
     "name_enus": "Unending Fury",
     "icon": "ability_warrior_intensifyrage",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the damage done by your Slam, Whirlwind and Bloodthirst abilities by 8%."
   },
   "56932": {
     "name_enus": "Unending Fury",
     "icon": "ability_warrior_intensifyrage",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage done by your Slam, Whirlwind and Bloodthirst abilities by 10%."
   },
   "57470": {
     "name_enus": "Renewed Hope",
     "icon": "spell_holy_holyprotection",
     "rank_enus": "Rank 1",
-    "description": "Increases the critical effect chance of your Flash Heal, Greater Heal and Penance (Heal) spells by 4% on targets afflicted by the Weakened Soul effect, and you have a 100% chance to reduce all damage taken by 3% for 1 min to all friendly party and raid targets when you cast Power Word: Shield. This effect has a 15 sec cooldown."
+    "description": "Increases the critical effect chance of your Flash Heal, Greater Heal and Penance (Heal) spells by 2% on targets afflicted by the Weakened Soul effect, and you have a 50% chance to reduce all damage taken by 3% for 1 min to all friendly party and raid targets when you cast Power Word: Shield. This effect has a 15 sec cooldown."
   },
   "57472": {
     "name_enus": "Renewed Hope",
     "icon": "spell_holy_holyprotection",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical effect chance of your Flash Heal, Greater Heal and Penance (Heal) spells by 4% on targets afflicted by the Weakened Soul effect, and you have a 100% chance to reduce all damage taken by 3% for 1 min to all friendly party and raid targets when you cast Power Word: Shield. This effect has a 15 sec cooldown."
   },
   "57499": {
     "name_enus": "Warbringer",
     "icon": "ability_warrior_warbringer",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Your Charge, Intercept and Intervene abilities are now usable while in combat and in any stance.  In addition, your Intervene ability will remove all movement impairing effects."
   },
   "57810": {
     "name_enus": "Genesis",
     "icon": "spell_arcane_arcane03",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage and healing done by your periodic spell damage and healing effects by 2%."
+    "description": "Increases the damage and healing done by your periodic spell damage and healing effects by 1%."
   },
   "57811": {
     "name_enus": "Genesis",
     "icon": "spell_arcane_arcane03",
     "rank_enus": "Rank 2",
-    "description": "Increases the damage and healing done by your periodic spell damage and healing effects by 3%."
+    "description": "Increases the damage and healing done by your periodic spell damage and healing effects by 2%."
   },
   "57812": {
     "name_enus": "Genesis",
     "icon": "spell_arcane_arcane03",
     "rank_enus": "Rank 3",
-    "description": "Increases the damage and healing done by your periodic spell damage and healing effects by 4%."
+    "description": "Increases the damage and healing done by your periodic spell damage and healing effects by 3%."
   },
   "57813": {
     "name_enus": "Genesis",
     "icon": "spell_arcane_arcane03",
     "rank_enus": "Rank 4",
-    "description": "Increases the damage and healing done by your periodic spell damage and healing effects by 5%."
+    "description": "Increases the damage and healing done by your periodic spell damage and healing effects by 4%."
   },
   "57814": {
     "name_enus": "Genesis",
     "icon": "spell_arcane_arcane03",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage and healing done by your periodic spell damage and healing effects by 5%."
   },
   "57849": {
     "name_enus": "Improved Insect Swarm",
     "icon": "spell_nature_insectswarm",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases your damage done by your Wrath spell to targets afflicted by your Insect Swarm by 1%, and increases the critical strike chance of your Starfire spell by 1% on targets afflicted by your Moonfire spell."
   },
   "57850": {
     "name_enus": "Improved Insect Swarm",
     "icon": "spell_nature_insectswarm",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your damage done by your Wrath spell to targets afflicted by your Insect Swarm by 2%, and increases the critical strike chance of your Starfire spell by 2% on targets afflicted by your Moonfire spell."
   },
   "57851": {
     "name_enus": "Improved Insect Swarm",
     "icon": "spell_nature_insectswarm",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your damage done by your Wrath spell to targets afflicted by your Insect Swarm by 3%, and increases the critical strike chance of your Starfire spell by 3% on targets afflicted by your Moonfire spell."
   },
   "57865": {
     "name_enus": "Nature's Splendor",
     "icon": "spell_nature_natureguardian",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the duration of your Moonfire and Rejuvenation spells by 3 sec, your Regrowth spell by 6 sec, and your Insect Swarm and Lifebloom spells by 2 sec."
   },
   "57873": {
     "name_enus": "Protector of the Pack",
     "icon": "ability_druid_challangingroar",
     "rank_enus": "Rank 1",
-    "description": "Increases your attack power by 4% and reduces the damage you take by 8%, while in Bear or Dire Bear Form."
+    "description": "Increases your attack power by 2% and reduces the damage you take by 4%, while in Bear or Dire Bear Form."
   },
   "57876": {
     "name_enus": "Protector of the Pack",
     "icon": "ability_druid_challangingroar",
     "rank_enus": "Rank 2",
-    "description": "Increases your attack power by 6% and reduces the damage you take by 12%, while in Bear or Dire Bear Form."
+    "description": "Increases your attack power by 4% and reduces the damage you take by 8%, while in Bear or Dire Bear Form."
   },
   "57877": {
     "name_enus": "Protector of the Pack",
     "icon": "ability_druid_challangingroar",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your attack power by 6% and reduces the damage you take by 12%, while in Bear or Dire Bear Form."
   },
   "57878": {
     "name_enus": "Natural Reaction",
     "icon": "ability_bullrush",
     "rank_enus": "Rank 1",
-    "description": "Increases your dodge while in Bear Form or Dire Bear Form by 4%, and you regenerate 2 rage every time you dodge while in Bear Form or Dire Bear Form."
+    "description": "Increases your dodge while in Bear Form or Dire Bear Form by 2%, and you regenerate 1 rage every time you dodge while in Bear Form or Dire Bear Form."
   },
   "57880": {
     "name_enus": "Natural Reaction",
     "icon": "ability_bullrush",
     "rank_enus": "Rank 2",
-    "description": "Increases your dodge while in Bear Form or Dire Bear Form by 6%, and you regenerate 3 rage every time you dodge while in Bear Form or Dire Bear Form."
+    "description": "Increases your dodge while in Bear Form or Dire Bear Form by 4%, and you regenerate 2 rage every time you dodge while in Bear Form or Dire Bear Form."
   },
   "57881": {
     "name_enus": "Natural Reaction",
     "icon": "ability_bullrush",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your dodge while in Bear Form or Dire Bear Form by 6%, and you regenerate 3 rage every time you dodge while in Bear Form or Dire Bear Form."
   },
   "58410": {
     "name_enus": "Master Poisoner",
     "icon": "ability_creature_poison_06",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical hit chance of all attacks made against any target you have poisoned by 3%, reduces the duration of all Poison effects applied to you by 50%, and gives Envenom a 100% chance not to consume Deadly Poison."
   },
   "58413": {
     "name_enus": "Savage Combat",
     "icon": "ability_creature_disease_03",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases your total attack power by 4% and all physical damage caused to enemies you have poisoned is increased by 4%."
   },
   "58414": {
     "name_enus": "Filthy Tricks",
     "icon": "ability_rogue_wrongfullyaccused",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown by 10 sec and energy cost by 10 of your Tricks of the Trade, Distract and Shadowstep abilities and reduces the cooldown of Preparation by 3 min."
+    "description": "Reduces the cooldown by 5 sec and energy cost by 5 of your Tricks of the Trade, Distract and Shadowstep abilities and reduces the cooldown of Preparation by 1.5 min."
   },
   "58415": {
     "name_enus": "Filthy Tricks",
     "icon": "ability_rogue_wrongfullyaccused",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown by 10 sec and energy cost by 10 of your Tricks of the Trade, Distract and Shadowstep abilities and reduces the cooldown of Preparation by 3 min."
   },
   "58422": {
     "name_enus": "Relentless Strikes",
     "icon": "ability_warrior_decisivestrike",
     "rank_enus": "Rank 2",
-    "description": "Your finishing moves have a 12% chance per combo point to restore 25 energy."
+    "description": "Your finishing moves have a 8% chance per combo point to restore 25 energy."
   },
   "58423": {
     "name_enus": "Relentless Strikes",
     "icon": "ability_warrior_decisivestrike",
     "rank_enus": "Rank 3",
-    "description": "Your finishing moves have a 16% chance per combo point to restore 25 energy."
+    "description": "Your finishing moves have a 12% chance per combo point to restore 25 energy."
   },
   "58424": {
     "name_enus": "Relentless Strikes",
     "icon": "ability_warrior_decisivestrike",
     "rank_enus": "Rank 4",
-    "description": "Your finishing moves have a 20% chance per combo point to restore 25 energy."
+    "description": "Your finishing moves have a 16% chance per combo point to restore 25 energy."
   },
   "58425": {
     "name_enus": "Relentless Strikes",
     "icon": "ability_warrior_decisivestrike",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your finishing moves have a 20% chance per combo point to restore 25 energy."
   },
   "58426": {
     "name_enus": "Overkill",
     "icon": "ability_hunter_rapidkilling",
     "rank_enus": "",
-    "description": "Place a Mark of Blood on an enemy.  Whenever the marked enemy deals damage to a target, that target is healed for 4% of its maximum health.  Lasts for 20 sec or up to 20 hits."
+    "description": "While stealthed, and for 20 seconds after breaking stealth, you regenerate 30% additional energy."
   },
   "58435": {
     "name_enus": "Pandemic",
     "icon": "spell_shadow_unstableaffliction_2",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Grants the periodic damage from your Corruption and Unstable Affliction spells the ability to critically hit for 100% increased damage, and increases the critical strike damage bonus of your Haunt spell by 100%."
   },
   "58872": {
     "name_enus": "Damage Shield",
     "icon": "inv_shield_31",
     "rank_enus": "Rank 1",
-    "description": "Whenever you take damage from or block a melee attack you cause damage equal to 20% of your block value."
+    "description": "Whenever you take damage from or block a melee attack you cause damage equal to 10% of your block value."
   },
   "58874": {
     "name_enus": "Damage Shield",
     "icon": "inv_shield_31",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Whenever you take damage from or block a melee attack you cause damage equal to 20% of your block value."
   },
   "59057": {
     "name_enus": "Rime",
     "icon": "spell_frost_freezingbreath",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike chance of your Icy Touch and Obliterate by 15% and casting Obliterate has a 15% chance to reset the cooldown on Howling Blast and cause your next Howling Blast to consume no runes."
   },
   "59088": {
     "name_enus": "Improved Spell Reflection",
     "icon": "ability_warrior_shieldreflection",
     "rank_enus": "Rank 1",
-    "description": "Reduces the chance you'll be hit by spells by 4% and when the ability is used it will reflect the first spell cast against the 4 closest party members within 20 yards."
+    "description": "Reduces the chance you'll be hit by spells by 2% and when the ability is used it will reflect the first spell cast against the 2 closest party members within 20 yards."
   },
   "59089": {
     "name_enus": "Improved Spell Reflection",
     "icon": "ability_warrior_shieldreflection",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the chance you'll be hit by spells by 4% and when the ability is used it will reflect the first spell cast against the 4 closest party members within 20 yards."
   },
   "59672": {
     "name_enus": "Metamorphosis",
@@ -13247,31 +13183,31 @@ export const spells = {
     "name_enus": "Ruin",
     "icon": "spell_shadow_shadowwordpain",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Destruction spells and your Imp's Firebolt spell by 40%."
   },
   "59739": {
     "name_enus": "Ruin",
     "icon": "spell_shadow_shadowwordpain",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Destruction spells and your Imp's Firebolt spell by 60%."
   },
   "59740": {
     "name_enus": "Ruin",
     "icon": "spell_shadow_shadowwordpain",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Destruction spells and your Imp's Firebolt spell by 80%."
   },
   "59741": {
     "name_enus": "Ruin",
     "icon": "spell_shadow_shadowwordpain",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the critical strike damage bonus of your Destruction spells and your Imp's Firebolt spell by 100%."
   },
   "60103": {
     "name_enus": "Lava Lash",
     "icon": "ability_shaman_lavalash",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "You charge your off-hand weapon with lava, instantly dealing 100% off-hand Weapon damage. Damage is increased by 25% if your off-hand weapon is enchanted with Flametongue."
   },
   "60184": {
     "name_enus": "Elemental Fury",
@@ -13307,73 +13243,73 @@ export const spells = {
     "name_enus": "Blood Gorged",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 1",
-    "description": "When you are above 75% health, you deal 4% more damage.  In addition, your attacks ignore up to 4% of your opponent's armor at all times."
+    "description": "When you are above 75% health, you deal 2% more damage.  In addition, your attacks ignore up to 2% of your opponent's armor at all times."
   },
   "61155": {
     "name_enus": "Blood Gorged",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 2",
-    "description": "When you are above 75% health, you deal 6% more damage.  In addition, your attacks ignore up to 6% of your opponent's armor at all times."
+    "description": "When you are above 75% health, you deal 4% more damage.  In addition, your attacks ignore up to 4% of your opponent's armor at all times."
   },
   "61156": {
     "name_enus": "Blood Gorged",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 3",
-    "description": "When you are above 75% health, you deal 8% more damage.  In addition, your attacks ignore up to 8% of your opponent's armor at all times."
+    "description": "When you are above 75% health, you deal 6% more damage.  In addition, your attacks ignore up to 6% of your opponent's armor at all times."
   },
   "61157": {
     "name_enus": "Blood Gorged",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 4",
-    "description": "When you are above 75% health, you deal 10% more damage.  In addition, your attacks ignore up to 10% of your opponent's armor at all times."
+    "description": "When you are above 75% health, you deal 8% more damage.  In addition, your attacks ignore up to 8% of your opponent's armor at all times."
   },
   "61158": {
     "name_enus": "Blood Gorged",
     "icon": "spell_nature_reincarnation",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "When you are above 75% health, you deal 10% more damage.  In addition, your attacks ignore up to 10% of your opponent's armor at all times."
   },
   "61216": {
     "name_enus": "Armored to the Teeth",
     "icon": "inv_shoulder_22",
     "rank_enus": "Rank 1",
-    "description": "Increases your attack power by 2 for every 108 armor value you have."
+    "description": "Increases your attack power by 1 for every 108 armor value you have."
   },
   "61221": {
     "name_enus": "Armored to the Teeth",
     "icon": "inv_shoulder_22",
     "rank_enus": "Rank 2",
-    "description": "Increases your attack power by 3 for every 108 armor value you have."
+    "description": "Increases your attack power by 2 for every 108 armor value you have."
   },
   "61222": {
     "name_enus": "Armored to the Teeth",
     "icon": "inv_shoulder_22",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your attack power by 3 for every 108 armor value you have."
   },
   "61295": {
     "name_enus": "Riptide",
     "icon": "spell_nature_riptide",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Heals a friendly target for 639 to 691 and another 665 over 15 sec.  Your next Chain Heal cast on that primary target within 15 sec will consume the healing over time effect and increase the amount of the Chain Heal by 25%."
   },
   "61329": {
     "name_enus": "Vitality",
     "icon": "ability_warrior_revenge",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases your Energy regeneration rate by 25%."
   },
   "61330": {
     "name_enus": "Aggression",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 4",
-    "description": ""
+    "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 12%."
   },
   "61331": {
     "name_enus": "Aggression",
     "icon": "ability_racial_avatar",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 15%."
   },
   "61336": {
     "name_enus": "Survival Instincts",
@@ -13396,296 +13332,279 @@ export const spells = {
   "61680": {
     "name_enus": "Culling the Herd",
     "icon": "inv_misc_monsterhorn_06",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "61681": {
     "name_enus": "Culling the Herd",
     "icon": "inv_misc_monsterhorn_06",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "61682": {
     "name_enus": "Cobra Reflexes",
     "icon": "spell_nature_guardianward",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "61683": {
     "name_enus": "Cobra Reflexes",
     "icon": "spell_nature_guardianward",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "61684": {
     "name_enus": "Dash",
     "icon": "ability_druid_dash",
-    "rank_enus": "",
-    "description": ""
+    "rank_enus": ""
   },
   "61685": {
     "name_enus": "Charge",
     "icon": "ability_hunter_pet_bear",
-    "rank_enus": "",
-    "description": "Teaches Feral Charge (Bear) and Feral Charge (Cat).<br /><br />Feral Charge (Bear) - Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec. This ability can be used in Bear Form and Dire Bear Form. 15 second cooldown.<br /><br />Feral Charge (Cat) - Causes you to leap behind an enemy, dazing them for 3 sec. 30 second cooldown."
+    "rank_enus": ""
   },
   "61686": {
     "name_enus": "Great Stamina",
     "icon": "spell_nature_unyeildingstamina",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "61687": {
     "name_enus": "Great Stamina",
     "icon": "spell_nature_unyeildingstamina",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "61688": {
     "name_enus": "Great Stamina",
     "icon": "spell_nature_unyeildingstamina",
-    "rank_enus": "Rank 3",
-    "description": ""
+    "rank_enus": "Rank 3"
   },
   "61689": {
     "name_enus": "Natural Armor",
     "icon": "spell_nature_spiritarmor",
-    "rank_enus": "Rank 1",
-    "description": "Reduces all damage taken by 4%."
+    "rank_enus": "Rank 1"
   },
   "61690": {
     "name_enus": "Natural Armor",
     "icon": "spell_nature_spiritarmor",
-    "rank_enus": "Rank 2",
-    "description": "Reduces all damage taken by 6%."
+    "rank_enus": "Rank 2"
   },
   "62097": {
     "name_enus": "Shamanism",
     "icon": "spell_unused2",
     "rank_enus": "Rank 1",
-    "description": "Your Lightning Bolt and Chain Lightning spells gain an additional 8% and your Lava Burst gains an additional 10% of your bonus damage effects."
+    "description": "Your Lightning Bolt and Chain Lightning spells gain an additional 4% and your Lava Burst gains an additional 5% of your bonus damage effects."
   },
   "62098": {
     "name_enus": "Shamanism",
     "icon": "spell_unused2",
     "rank_enus": "Rank 2",
-    "description": "Your Lightning Bolt and Chain Lightning spells gain an additional 12% and your Lava Burst gains an additional 15% of your bonus damage effects."
+    "description": "Your Lightning Bolt and Chain Lightning spells gain an additional 8% and your Lava Burst gains an additional 10% of your bonus damage effects."
   },
   "62099": {
     "name_enus": "Shamanism",
     "icon": "spell_unused2",
     "rank_enus": "Rank 3",
-    "description": "Your Lightning Bolt and Chain Lightning spells gain an additional 16% and your Lava Burst gains an additional 20% of your bonus damage effects."
+    "description": "Your Lightning Bolt and Chain Lightning spells gain an additional 12% and your Lava Burst gains an additional 15% of your bonus damage effects."
   },
   "62100": {
     "name_enus": "Shamanism",
     "icon": "spell_unused2",
     "rank_enus": "Rank 4",
-    "description": "Your Lightning Bolt and Chain Lightning spells gain an additional 20% and your Lava Burst gains an additional 25% of your bonus damage effects."
+    "description": "Your Lightning Bolt and Chain Lightning spells gain an additional 16% and your Lava Burst gains an additional 20% of your bonus damage effects."
   },
   "62101": {
     "name_enus": "Shamanism",
     "icon": "spell_unused2",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Your Lightning Bolt and Chain Lightning spells gain an additional 20% and your Lava Burst gains an additional 25% of your bonus damage effects."
   },
   "62758": {
     "name_enus": "Wild Hunt",
     "icon": "inv_misc_horn_04",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "62759": {
     "name_enus": "Shark Attack",
     "icon": "inv_misc_fish_35",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "62760": {
     "name_enus": "Shark Attack",
     "icon": "inv_misc_fish_35",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "62762": {
     "name_enus": "Wild Hunt",
     "icon": "inv_misc_horn_04",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "62764": {
     "name_enus": "Silverback",
     "icon": "ability_hunter_pet_gorilla",
-    "rank_enus": "Rank 1",
-    "description": ""
+    "rank_enus": "Rank 1"
   },
   "62765": {
     "name_enus": "Silverback",
     "icon": "ability_hunter_pet_gorilla",
-    "rank_enus": "Rank 2",
-    "description": ""
+    "rank_enus": "Rank 2"
   },
   "62905": {
     "name_enus": "Improved Death Strike",
     "icon": "spell_deathknight_butcher2",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage of your Death Strike by 30%, increases its critical strike chance by 6%, and increases the healing granted by 50%."
+    "description": "Increases the damage of your Death Strike by 15%, increases its critical strike chance by 3%, and increases the healing granted by 25%."
   },
   "62908": {
     "name_enus": "Improved Death Strike",
     "icon": "spell_deathknight_butcher2",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage of your Death Strike by 30%, increases its critical strike chance by 6%, and increases the healing granted by 50%."
+    "description": "Increases the damage of your Death Strike by 15%, increases its critical strike chance by 3%, and increases the healing granted by 25%."
   },
   "63108": {
     "name_enus": "Siphon Life",
     "icon": "spell_shadow_requiem",
     "rank_enus": "",
-    "description": "Gives you a 33% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor.  For the duration, your mana will regenerate at a 83% rate while casting.  Lasts 15 sec."
+    "description": "When you deal damage with your Corruption spell, you are instantly healed for <!--sp56216:0-->40<!--sp56216-->% of the damage done. In addition, the damage done by your Corruption, Seed of Corruption and Unstable Affliction damage over time effects is increased by 5%."
   },
   "63117": {
     "name_enus": "Nemesis",
     "icon": "spell_shadow_demonicempathy",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Demonic Empowerment, Metamorphosis, and Fel Domination spells by 20%."
+    "description": "Reduces the cooldown of your Demonic Empowerment, Metamorphosis, and Fel Domination spells by 10%."
   },
   "63121": {
     "name_enus": "Nemesis",
     "icon": "spell_shadow_demonicempathy",
     "rank_enus": "Rank 2",
-    "description": "Reduces the cooldown of your Demonic Empowerment, Metamorphosis, and Fel Domination spells by 30%."
+    "description": "Reduces the cooldown of your Demonic Empowerment, Metamorphosis, and Fel Domination spells by 20%."
   },
   "63123": {
     "name_enus": "Nemesis",
     "icon": "spell_shadow_demonicempathy",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces the cooldown of your Demonic Empowerment, Metamorphosis, and Fel Domination spells by 30%."
   },
   "63156": {
     "name_enus": "Decimation",
     "icon": "spell_fire_fireball02",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "When you Shadowbolt, Incinerate or Soul Fire a target that is at or below 35% health, the cast time of Soul Fire spell is reduced by 20% for 10 sec. Soul Fires cast under the effect of Decimation cost no shard."
   },
   "63158": {
     "name_enus": "Decimation",
     "icon": "spell_fire_fireball02",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "When you Shadowbolt, Incinerate or Soul Fire a target that is at or below 35% health, the cast time of your Soul Fire spell is reduced by 40% for 10 sec. Soul Fires cast under the effect of Decimation cost no shard."
   },
   "63245": {
     "name_enus": "Pyroclasm",
     "icon": "spell_fire_volcano",
     "rank_enus": "Rank 3",
-    "description": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 80%."
+    "description": "When you critically strike with Searing Pain or Conflagrate, your Fire and Shadow spell damage is increased by 6% for 10 sec."
   },
   "63349": {
     "name_enus": "Molten Skin",
     "icon": "ability_mage_moltenarmor",
     "rank_enus": "Rank 1",
-    "description": "Reduces all damage taken by 4%."
+    "description": "Reduces all damage taken by 2%."
   },
   "63350": {
     "name_enus": "Molten Skin",
     "icon": "ability_mage_moltenarmor",
     "rank_enus": "Rank 1",
-    "description": "Reduces all damage taken by 4%."
+    "description": "Reduces all damage taken by 2%."
   },
   "63351": {
     "name_enus": "Molten Skin",
     "icon": "ability_mage_moltenarmor",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Reduces all damage taken by 6%."
   },
   "63370": {
     "name_enus": "Booming Echoes",
     "icon": "spell_fire_blueflamering",
     "rank_enus": "Rank 1",
-    "description": "Reduces the cooldown of your Flame Shock and Frost Shock spells by an additional 2 sec., and increases the direct damage done by your Flame Shock and Frost Shock spells by an additional 20%."
+    "description": "Reduces the cooldown of your Flame Shock and Frost Shock spells by an additional 1 sec., and increases the direct damage done by your Flame Shock and Frost Shock spells by an additional 10%."
   },
   "63372": {
     "name_enus": "Booming Echoes",
     "icon": "spell_fire_blueflamering",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Reduces the cooldown of your Flame Shock and Frost Shock spells by an additional 2 sec., and increases the direct damage done by your Flame Shock and Frost Shock spells by an additional 20%."
   },
   "63373": {
     "name_enus": "Frozen Power",
     "icon": "spell_fire_bluecano",
     "rank_enus": "Rank 1",
-    "description": "Increases the damage done by your Lightning Bolt, Chain Lightning, Lava Lash and Shock spells by 10% on targets afflicted by your Frostbrand Attack effect, and your Frost Shock has a 100% chance to root the target in ice for 5 sec. when used on targets at or further than 15 yards from you."
+    "description": "Increases the damage done by your Lightning Bolt, Chain Lightning, Lava Lash and Shock spells by 5% on targets afflicted by your Frostbrand Attack effect, and your Frost Shock has a 50% chance to root the target in ice for 5 sec. when used on targets at or further than 15 yards from you."
   },
   "63374": {
     "name_enus": "Frozen Power",
     "icon": "spell_fire_bluecano",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the damage done by your Lightning Bolt, Chain Lightning, Lava Lash and Shock spells by 10% on targets afflicted by your Frostbrand Attack effect, and your Frost Shock has a 100% chance to root the target in ice for 5 sec. when used on targets at or further than 15 yards from you."
   },
   "63410": {
     "name_enus": "Improved Barkskin",
     "icon": "spell_nature_stoneclawtotem",
     "rank_enus": "Rank 1",
-    "description": "Grants 160% additional armor contribution from cloth and leather items while in Travel Form or while not shapeshifted, increases the damage reduction granted by your Barkskin spell by 10% and reduces the chance your Barkskin is dispelled by 70%."
+    "description": "Grants 80% additional armor contribution from cloth and leather items while in Travel Form or while not shapeshifted, increases the damage reduction granted by your Barkskin spell by 5% and reduces the chance your Barkskin is dispelled by 35%."
   },
   "63411": {
     "name_enus": "Improved Barkskin",
     "icon": "spell_nature_stoneclawtotem",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Grants 160% additional armor contribution from cloth and leather items while in Travel Form or while not shapeshifted, increases the damage reduction granted by your Barkskin spell by 10% and reduces the chance your Barkskin is dispelled by 70%."
   },
   "63457": {
     "name_enus": "Trap Mastery",
     "icon": "ability_ensnare",
     "rank_enus": "Rank 2",
-    "description": "Frost Trap and Freezing Trap - Increases the duration by 30%.<br /><br />Immolation Trap, Explosive Trap and Black Arrow - Increases the periodic damage done by 30%.<br /><br />Snake Trap - Increases the number of snakes summoned by 6."
+    "description": "Frost Trap and Freezing Trap - Increases the duration by 20%.<br /><br />Immolation Trap, Explosive Trap and Black Arrow - Increases the periodic damage done by 20%.<br /><br />Snake Trap - Increases the number of snakes summoned by 4."
   },
   "63458": {
     "name_enus": "Trap Mastery",
     "icon": "ability_ensnare",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Frost Trap and Freezing Trap - Increases the duration by 30%.<br /><br />Immolation Trap, Explosive Trap and Black Arrow - Increases the periodic damage done by 30%.<br /><br />Snake Trap - Increases the number of snakes summoned by 6."
   },
   "63503": {
     "name_enus": "Primal Gore",
     "icon": "ability_druid_rake",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Grants the periodic damage from your Lacerate and Rip abilities the ability to critically hit."
   },
   "63504": {
     "name_enus": "Improved Flash Heal",
     "icon": "spell_holy_chastise",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Flash Heal by 10%, and increases the critical effect chance of your Flash Heal by 7% on friendly targets at or below 50% health."
+    "description": "Reduces the mana cost of your Flash Heal by 5%, and increases the critical effect chance of your Flash Heal by 4% on friendly targets at or below 50% health."
   },
   "63505": {
     "name_enus": "Improved Flash Heal",
     "icon": "spell_holy_chastise",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Flash Heal by 10%, and increases the critical effect chance of your Flash Heal by 7% on friendly targets at or below 50% health."
+    "description": "Reduces the mana cost of your Flash Heal by 5%, and increases the critical effect chance of your Flash Heal by 4% on friendly targets at or below 50% health."
   },
   "63506": {
     "name_enus": "Improved Flash Heal",
     "icon": "spell_holy_chastise",
     "rank_enus": "Rank 1",
-    "description": "Reduces the mana cost of your Flash Heal by 10%, and increases the critical effect chance of your Flash Heal by 7% on friendly targets at or below 50% health."
+    "description": "Reduces the mana cost of your Flash Heal by 5%, and increases the critical effect chance of your Flash Heal by 4% on friendly targets at or below 50% health."
   },
   "63534": {
     "name_enus": "Empowered Renew",
     "icon": "ability_paladin_infusionoflight",
     "rank_enus": "Rank 1",
-    "description": "Your Holy Shock critical hits reduce the cast time of your next Flash of Light by 1.5 sec or increase the critical chance of your next Holy Light by 20%.  In addition, causes your Flash of Light to heal targets with Sacred Shield for an additional 100% over 12 sec."
+    "description": "Your Renew spell gains an additional 5% of your bonus healing effects, and your Renew will instantly heal the target for 5% of the total periodic effect."
   },
   "63542": {
     "name_enus": "Empowered Renew",
     "icon": "ability_paladin_infusionoflight",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Your Renew spell gains an additional 10% of your bonus healing effects, and your Renew will instantly heal the target for 10% of the total periodic effect."
   },
   "63543": {
     "name_enus": "Empowered Renew",
     "icon": "ability_paladin_infusionoflight",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Your Renew spell gains an additional 15% of your bonus healing effects, and your Renew will instantly heal the target for 15% of the total periodic effect."
   },
   "63560": {
     "name_enus": "Ghoul Frenzy",
@@ -13697,79 +13616,78 @@ export const spells = {
     "name_enus": "Soul Warding",
     "icon": "spell_holy_pureofheart",
     "rank_enus": "Rank 1",
-    "description": "Reduces the duration of Curse, Disease and Poison effects by 30%."
+    "description": "Reduces the cooldown of your Power Word: Shield ability by 4 sec, and reduces the mana cost of your Power Word: Shield by 15%."
   },
   "63625": {
     "name_enus": "Improved Devouring Plague",
     "icon": "spell_shadow_devouringplague",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Increases the periodic damage done by your Devouring Plague by 5%, and when you cast Devouring Plague you instantly deal damage equal to 10% of its total periodic effect."
   },
   "63626": {
     "name_enus": "Improved Devouring Plague",
     "icon": "spell_shadow_devouringplague",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "Increases the periodic damage done by your Devouring Plague by 10%, and when you cast Devouring Plague you instantly deal damage equal to 20% of its total periodic effect."
   },
   "63627": {
     "name_enus": "Improved Devouring Plague",
     "icon": "spell_shadow_devouringplague",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "Increases the periodic damage done by your Devouring Plague by 15%, and when you cast Devouring Plague you instantly deal damage equal to 30% of its total periodic effect."
   },
   "63646": {
     "name_enus": "Divinity",
     "icon": "spell_holy_blindingheal",
     "rank_enus": "Rank 1",
-    "description": "Increases all healing done by you and all healing effects on you by 2%."
+    "description": "Increases all healing done by you and all healing effects on you by 1%."
   },
   "63647": {
     "name_enus": "Divinity",
     "icon": "spell_holy_blindingheal",
     "rank_enus": "Rank 2",
-    "description": "Increases all healing done by you and all healing effects on you by 3%."
+    "description": "Increases all healing done by you and all healing effects on you by 2%."
   },
   "63648": {
     "name_enus": "Divinity",
     "icon": "spell_holy_blindingheal",
     "rank_enus": "Rank 3",
-    "description": "Increases all healing done by you and all healing effects on you by 4%."
+    "description": "Increases all healing done by you and all healing effects on you by 3%."
   },
   "63649": {
     "name_enus": "Divinity",
     "icon": "spell_holy_blindingheal",
     "rank_enus": "Rank 4",
-    "description": "Increases all healing done by you and all healing effects on you by 5%."
+    "description": "Increases all healing done by you and all healing effects on you by 4%."
   },
   "63650": {
     "name_enus": "Divinity",
     "icon": "spell_holy_blindingheal",
     "rank_enus": "Rank 5",
-    "description": ""
+    "description": "Increases all healing done by you and all healing effects on you by 5%."
   },
   "63730": {
     "name_enus": "Serendipity",
     "icon": "spell_holy_serendipity",
     "rank_enus": "Rank 1",
-    "description": "When you heal with Binding Heal or Flash Heal, the cast time of your next Greater Heal or Prayer of Healing spell is reduced by 8%. Stacks up to 3 times. Lasts 20 sec."
+    "description": "When you heal with Binding Heal or Flash Heal, the cast time of your next Greater Heal or Prayer of Healing spell is reduced by 4%. Stacks up to 3 times. Lasts 20 sec."
   },
   "63733": {
     "name_enus": "Serendipity",
     "icon": "spell_holy_serendipity",
     "rank_enus": "Rank 2",
-    "description": "When you heal with Binding Heal or Flash Heal, the cast time of your next Greater Heal or Prayer of Healing spell is reduced by 12%. Stacks up to 3 times. Lasts 20 sec."
+    "description": "When you heal with Binding Heal or Flash Heal, the cast time of your next Greater Heal or Prayer of Healing spell is reduced by 8%. Stacks up to 3 times. Lasts 20 sec."
   },
   "63737": {
     "name_enus": "Serendipity",
     "icon": "spell_holy_serendipity",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When you heal with Binding Heal or Flash Heal, the cast time of your next Greater Heal or Prayer of Healing spell is reduced by 12%. Stacks up to 3 times. Lasts 20 sec."
   },
   "63900": {
     "name_enus": "Thunderstomp",
     "icon": "ability_golemthunderclap",
-    "rank_enus": "",
-    "description": "Increases your total Strength by 3%."
+    "rank_enus": ""
   },
   "64044": {
     "name_enus": "Psychic Horror",
@@ -13781,13 +13699,13 @@ export const spells = {
     "name_enus": "Body and Soul",
     "icon": "spell_holy_symbolofhope",
     "rank_enus": "Rank 1",
-    "description": "When you cast Power Word: Shield, you increase the target's movement speed by 60% for 4 sec, and you have a 100% chance when you cast Abolish Disease on yourself to also cleanse 1 poison effect in addition to diseases."
+    "description": "When you cast Power Word: Shield, you increase the target's movement speed by 30% for 4 sec, and you have a 50% chance when you cast Abolish Disease on yourself to also cleanse 1 poison effect in addition to diseases."
   },
   "64129": {
     "name_enus": "Body and Soul",
     "icon": "spell_holy_symbolofhope",
     "rank_enus": "Rank 2",
-    "description": ""
+    "description": "When you cast Power Word: Shield, you increase the target's movement speed by 60% for 4 sec, and you have a 100% chance when you cast Abolish Disease on yourself to also cleanse 1 poison effect in addition to diseases."
   },
   "64205": {
     "name_enus": "Divine Sacrifice",
@@ -13799,72 +13717,72 @@ export const spells = {
     "name_enus": "Fiery Payback",
     "icon": "ability_mage_fierypayback",
     "rank_enus": "Rank 1",
-    "description": "When below 35% health all damage taken is reduced by 20% and your Pyroblast spell's cast time is reduced by 3.5 secs while the cooldown is increased by 5 secs.  In addition, melee and ranged attacks made against you have a 10% chance to disarm your attacker's main hand and ranged weapons."
+    "description": "When below 35% health all damage taken is reduced by 10% and your Pyroblast spell's cast time is reduced by 1.75 secs while the cooldown is increased by 2.5 secs.  In addition, melee and ranged attacks made against you have a 5% chance to disarm your attacker's main hand and ranged weapons."
   },
   "64357": {
     "name_enus": "Fiery Payback",
     "icon": "ability_mage_fierypayback",
     "rank_enus": "Rank 1",
-    "description": "When below 35% health all damage taken is reduced by 20% and your Pyroblast spell's cast time is reduced by 3.5 secs while the cooldown is increased by 5 secs.  In addition, melee and ranged attacks made against you have a 10% chance to disarm your attacker's main hand and ranged weapons."
+    "description": "When below 35% health all damage taken is reduced by 10% and your Pyroblast spell's cast time is reduced by 1.75 secs while the cooldown is increased by 2.5 secs.  In addition, melee and ranged attacks made against you have a 5% chance to disarm your attacker's main hand and ranged weapons."
   },
   "64976": {
     "name_enus": "Juggernaut",
     "icon": "ability_warrior_bullrush",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Your Charge ability is now usable while in combat, but the cooldown on Charge is increased by 5 sec. Following a Charge, your next Slam or Mortal Strike has an additional 25% chance to critically hit if used within 10 sec."
   },
   "65139": {
     "name_enus": "Tree of Life",
     "icon": "ability_druid_treeoflife",
     "rank_enus": "Rank 1",
-    "description": ""
+    "description": "Reduces the mana cost of your healing over time spells by 20% and grants the ability to shapeshift into the Tree of Life. While in this form you increase healing received by 6% for all party and raid members within 100 yards, and you can only cast Restoration spells in addition to Innervate, Barkskin, Nature's Grasp and Thorns spells.<br /><br />The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
   },
   "65661": {
     "name_enus": "Threat of Thassarian",
     "icon": "ability_dualwieldspecialization",
     "rank_enus": "Rank 1",
-    "description": "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 60% chance to also deal damage with your offhand weapon."
+    "description": "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 30% chance to also deal damage with your offhand weapon."
   },
   "66191": {
     "name_enus": "Threat of Thassarian",
     "icon": "ability_dualwieldspecialization",
     "rank_enus": "Rank 2",
-    "description": "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 100% chance to also deal damage with your offhand weapon."
+    "description": "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 60% chance to also deal damage with your offhand weapon."
   },
   "66192": {
     "name_enus": "Threat of Thassarian",
     "icon": "ability_dualwieldspecialization",
     "rank_enus": "Rank 3",
-    "description": ""
+    "description": "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 100% chance to also deal damage with your offhand weapon."
   },
   "66799": {
     "name_enus": "Desolation",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 1",
-    "description": "Your Blood Strikes cause you to deal 2% additional damage with all attacks for the next 20 sec."
+    "description": "Your Blood Strikes cause you to deal 1% additional damage with all attacks for the next 20 sec."
   },
   "66814": {
     "name_enus": "Desolation",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 1",
-    "description": "Your Blood Strikes cause you to deal 2% additional damage with all attacks for the next 20 sec."
+    "description": "Your Blood Strikes cause you to deal 1% additional damage with all attacks for the next 20 sec."
   },
   "66815": {
     "name_enus": "Desolation",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 1",
-    "description": "Your Blood Strikes cause you to deal 2% additional damage with all attacks for the next 20 sec."
+    "description": "Your Blood Strikes cause you to deal 1% additional damage with all attacks for the next 20 sec."
   },
   "66816": {
     "name_enus": "Desolation",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 1",
-    "description": "Your Blood Strikes cause you to deal 2% additional damage with all attacks for the next 20 sec."
+    "description": "Your Blood Strikes cause you to deal 1% additional damage with all attacks for the next 20 sec."
   },
   "66817": {
     "name_enus": "Desolation",
     "icon": "spell_shadow_unholyfrenzy",
     "rank_enus": "Rank 1",
-    "description": "Your Blood Strikes cause you to deal 2% additional damage with all attacks for the next 20 sec."
+    "description": "Your Blood Strikes cause you to deal 1% additional damage with all attacks for the next 20 sec."
   }
-}
+};
