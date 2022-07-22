@@ -1,4 +1,5 @@
 import { actions } from "./actions";
+import { talentsBySpecs } from "./data/talents";
 
 export function reducer(state, action) {
   if (process.env.NODE_ENV === 'development') {
@@ -11,8 +12,7 @@ export function reducer(state, action) {
     case actions.REMOVE_POINT:
       return removePoint(state, action.payload);
     case actions.RESET_SPEC:
-      // @TODO pass spec id
-      return resetSpec(state);
+      return resetSpec(state, action.payload);
     case actions.SELECT_HERO:
       return selectHero(state, state.payload);
     default:
@@ -25,13 +25,30 @@ export function addPoint(state, payload) {
 }
 
 export function removePoint(state, payload) {
-  return { ...state, points: { ...state.points, [payload.id]: Math.max(0, (state.points[payload.id] ?? 0) - 1) } };
+  return {
+    ...state,
+    points: {
+      ...state.points,
+      [payload.id]: Math.max(0, (state.points[payload.id] ?? 0) - 1),
+    },
+  };
 }
 
-export function resetSpec(state) {
-  return { ...state, points: {} };
+export function resetSpec(state, payload) {
+  debugger
+  const specTalentIds = Object.keys(talentsBySpecs[payload]);
+
+  return {
+    ...state,
+    points: Object
+      .keys(state.points)
+      .reduce(
+        (acc, id) => !specTalentIds.includes(id) ? { ...acc, [id]: state.points[id] } : acc,
+        {}
+      ),
+  };
 }
 
 export function selectHero(state, payload) {
-  return { ...resetSpec(state), selectedHero: payload };
+  return { ...state, points: {}, selectedHero: payload };
 }

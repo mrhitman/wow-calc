@@ -26,7 +26,10 @@ function Spec({specId}) {
           <div className="spec-points">
             {getSpecPoints(context.state, specId)}
           </div>
-          <div className="spec-reset" onClick={onSpecResetClick(context)}></div>
+          <div
+            className="spec-reset"
+            onClick={onSpecResetClick(context, specId)}
+          ></div>
           <img src="" alt="" />
         </div>
       </div>
@@ -42,9 +45,9 @@ function Spec({specId}) {
   );
 }
 
-function onSpecResetClick(context) {
+function onSpecResetClick(context, specId) {
   return () => {
-    context.dispatch({type: actions.RESET_SPEC});
+    context.dispatch({type: actions.RESET_SPEC, payload: specId});
   };
 }
 
