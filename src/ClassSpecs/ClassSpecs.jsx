@@ -1,6 +1,8 @@
 import React, {useContext, useEffect} from "react";
 import {findClassByName, getAvailablePoints} from "../store/tools";
 
+import ClassBanner from "../ClassBanner/ClassBanner";
+import ClassPicker from "../ClassPicker/ClassPicker";
 import Spec from "../Spec/Spec";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
@@ -18,14 +20,18 @@ function ClassSpecs() {
   }, [name, dispatch, state.selectedHero]);
 
   return (
-    <div>
-      <div>{getAvailablePoints(state)}</div>
-      <div className="tree">
-        {classInfo.specs.map((specId) => (
-          <Spec key={specId} specId={specId} />
-        ))}
+    <>
+      <ClassBanner />
+      <ClassPicker />
+      <div>
+        <div>{getAvailablePoints(state)}</div>
+        <div className="tree">
+          {classInfo.specs.map((specId) => (
+            <Spec key={specId} specId={specId} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
