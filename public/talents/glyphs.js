@@ -1,0 +1,3522 @@
+export const glyphs = [
+  {
+    "classId": 8,
+    "spellId": 52648,
+    "glyphType": 2,
+    "itemId": 43361,
+    "requiredLevel": 15,
+    "name": "Glyph of the Penguin",
+    "description": "Your Polymorph: Sheep spell polymorphs the target into a penguin instead.",
+    "icon": "inv_misc_penguinpet"
+  },
+  {
+    "classId": 11,
+    "spellId": 54292,
+    "glyphType": 2,
+    "itemId": 40484,
+    "requiredLevel": 50,
+    "name": "Glyph of the White Bear",
+    "description": "Your bear and dire bear forms take on the appearance of a polar bear.",
+    "icon": "inv_misc_questionmark"
+  },
+  {
+    "classId": 11,
+    "spellId": 54733,
+    "glyphType": 1,
+    "itemId": 40909,
+    "requiredLevel": 20,
+    "name": "Glyph of Rebirth",
+    "description": "Players resurrected by Rebirth are returned to life with 100% health.",
+    "icon": "spell_nature_reincarnation"
+  },
+  {
+    "classId": 11,
+    "spellId": 54743,
+    "glyphType": 1,
+    "itemId": 40912,
+    "requiredLevel": 15,
+    "name": "Glyph of Regrowth",
+    "description": "Increases the healing of your Regrowth spell by 20% if your Regrowth effect is still active on the target.",
+    "icon": "spell_nature_resistnature"
+  },
+  {
+    "classId": 11,
+    "spellId": 54754,
+    "glyphType": 1,
+    "itemId": 40913,
+    "requiredLevel": 15,
+    "name": "Glyph of Rejuvenation",
+    "description": "While your Rejuvenation targets are below 50% health, you will heal them for an additional 50% health.",
+    "icon": "spell_nature_rejuvenation"
+  },
+  {
+    "classId": 11,
+    "spellId": 54756,
+    "glyphType": 1,
+    "itemId": 40922,
+    "requiredLevel": 15,
+    "name": "Glyph of Wrath",
+    "description": "Reduces the pushback suffered from damaging attacks while casting your Wrath spell by 50%.",
+    "icon": "spell_nature_abolishmagic"
+  },
+  {
+    "classId": 11,
+    "spellId": 54760,
+    "glyphType": 1,
+    "itemId": 40924,
+    "requiredLevel": 15,
+    "name": "Glyph of Entangling Roots",
+    "description": "Increases the damage your Entangling Roots victims can take before the Entangling Roots automatically breaks by 20%.",
+    "icon": "spell_nature_stranglevines"
+  },
+  {
+    "classId": 11,
+    "spellId": 54810,
+    "glyphType": 1,
+    "itemId": 40896,
+    "requiredLevel": 36,
+    "name": "Glyph of Frenzied Regeneration",
+    "description": "While Frenzied Regeneration is active, healing effects on you are 20% more powerful.",
+    "icon": "ability_bullrush"
+  },
+  {
+    "classId": 11,
+    "spellId": 54811,
+    "glyphType": 1,
+    "itemId": 40897,
+    "requiredLevel": 15,
+    "name": "Glyph of Maul",
+    "description": "Your Maul ability now hits 1 additional target.",
+    "icon": "ability_druid_maul"
+  },
+  {
+    "classId": 11,
+    "spellId": 54812,
+    "glyphType": 1,
+    "itemId": 40899,
+    "requiredLevel": 15,
+    "name": "Glyph of Growling",
+    "description": "Increases the chance for your Growl ability to work successfully by 8%.",
+    "icon": "ability_physical_taunt"
+  },
+  {
+    "classId": 11,
+    "spellId": 54813,
+    "glyphType": 1,
+    "itemId": 40900,
+    "requiredLevel": 50,
+    "name": "Glyph of Mangle",
+    "description": "Increases the damage done by Mangle by 10%.",
+    "icon": "ability_druid_mangle2"
+  },
+  {
+    "classId": 11,
+    "spellId": 54815,
+    "glyphType": 1,
+    "itemId": 40901,
+    "requiredLevel": 22,
+    "name": "Glyph of Shred",
+    "description": "Each time you Shred, the duration of your Rip on the target is extended 2 sec, up to a maximum of 6 sec.",
+    "icon": "spell_shadow_vampiricaura"
+  },
+  {
+    "classId": 11,
+    "spellId": 54818,
+    "glyphType": 1,
+    "itemId": 40902,
+    "requiredLevel": 20,
+    "name": "Glyph of Rip",
+    "description": "Increases the duration of your Rip ability by 4 sec.",
+    "icon": "ability_ghoulfrenzy"
+  },
+  {
+    "classId": 11,
+    "spellId": 54821,
+    "glyphType": 1,
+    "itemId": 40903,
+    "requiredLevel": 24,
+    "name": "Glyph of Rake",
+    "description": "Your Rake ability prevents targets from fleeing.",
+    "icon": "ability_druid_disembowel"
+  },
+  {
+    "classId": 11,
+    "spellId": 54824,
+    "glyphType": 1,
+    "itemId": 40906,
+    "requiredLevel": 40,
+    "name": "Glyph of Swiftmend",
+    "description": "Your Swiftmend ability no longer consumes a Rejuvenation or Regrowth effect from the target.",
+    "icon": "inv_relics_idolofrejuvenation"
+  },
+  {
+    "classId": 11,
+    "spellId": 54825,
+    "glyphType": 1,
+    "itemId": 40914,
+    "requiredLevel": 15,
+    "name": "Glyph of Healing Touch",
+    "description": "Decreases the cast time of Healing Touch by 1.5 sec, the mana cost by 25%, and the amount healed by 50%.",
+    "icon": "spell_nature_healingtouch"
+  },
+  {
+    "classId": 11,
+    "spellId": 54826,
+    "glyphType": 1,
+    "itemId": 40915,
+    "requiredLevel": 64,
+    "name": "Glyph of Lifebloom",
+    "description": "Increases the duration of Lifebloom by 1 sec.",
+    "icon": "inv_misc_herb_felblossom"
+  },
+  {
+    "classId": 11,
+    "spellId": 54828,
+    "glyphType": 1,
+    "itemId": 40921,
+    "requiredLevel": 60,
+    "name": "Glyph of Starfall",
+    "description": "Reduces the cooldown of Starfall by 30 sec.",
+    "icon": "ability_druid_starfall"
+  },
+  {
+    "classId": 11,
+    "spellId": 54829,
+    "glyphType": 1,
+    "itemId": 40923,
+    "requiredLevel": 15,
+    "name": "Glyph of Moonfire",
+    "description": "Increases the periodic damage of your Moonfire ability by 75%, but initial damage is decreased by 90%.",
+    "icon": "spell_nature_starfall"
+  },
+  {
+    "classId": 11,
+    "spellId": 54830,
+    "glyphType": 1,
+    "itemId": 40919,
+    "requiredLevel": 20,
+    "name": "Glyph of Insect Swarm",
+    "description": "Increases the damage of your Insect Swarm ability by 30%, but it no longer affects your victim's chance to hit.",
+    "icon": "spell_nature_insectswarm"
+  },
+  {
+    "classId": 11,
+    "spellId": 54831,
+    "glyphType": 1,
+    "itemId": 40920,
+    "requiredLevel": 40,
+    "name": "Glyph of Hurricane",
+    "description": "Your Hurricane ability now also slows the movement speed of its victims by 20%.",
+    "icon": "spell_nature_cyclone"
+  },
+  {
+    "classId": 11,
+    "spellId": 54832,
+    "glyphType": 1,
+    "itemId": 40908,
+    "requiredLevel": 40,
+    "name": "Glyph of Innervate",
+    "description": "Innervate now grants the caster 45% of <dfn title=\"her\">his</dfn> base mana pool over 10 sec in addition to the normal effects of Innervate.",
+    "icon": "spell_nature_lightning"
+  },
+  {
+    "classId": 11,
+    "spellId": 54845,
+    "glyphType": 1,
+    "itemId": 40916,
+    "requiredLevel": 20,
+    "name": "Glyph of Starfire",
+    "description": "Your Starfire ability increases the duration of your Moonfire effect on the target by 3 sec, up to a maximum of 9 additional seconds.",
+    "icon": "spell_arcane_starfire"
+  },
+  {
+    "classId": 11,
+    "spellId": 54912,
+    "glyphType": 2,
+    "itemId": 40948,
+    "requiredLevel": 50,
+    "name": "Glyph of the Red Lynx",
+    "description": "You appear as a red lynx while in Cat Form.",
+    "icon": "inv_misc_questionmark"
+  },
+  {
+    "classId": 2,
+    "spellId": 54922,
+    "glyphType": 1,
+    "itemId": 41092,
+    "requiredLevel": 15,
+    "name": "Glyph of Judgement",
+    "description": "Your Judgements deal 10% more damage.",
+    "icon": "ability_paladin_judgementred"
+  },
+  {
+    "classId": 2,
+    "spellId": 54923,
+    "glyphType": 1,
+    "itemId": 41095,
+    "requiredLevel": 15,
+    "name": "Glyph of Hammer of Justice",
+    "description": "Increases your Hammer of Justice range by 5 yards.",
+    "icon": "spell_holy_sealofmight"
+  },
+  {
+    "classId": 2,
+    "spellId": 54924,
+    "glyphType": 1,
+    "itemId": 41096,
+    "requiredLevel": 18,
+    "name": "Glyph of Spiritual Attunement",
+    "description": "Increases the amount of mana gained from your Spiritual Attunement spell by an additional 2%.",
+    "icon": "spell_holy_revivechampion"
+  },
+  {
+    "classId": 2,
+    "spellId": 54925,
+    "glyphType": 1,
+    "itemId": 41094,
+    "requiredLevel": 20,
+    "name": "Glyph of Seal of Command",
+    "description": "You gain 8% of your base mana each time you use a Judgement with Seal of Command active.",
+    "icon": "ability_warrior_innerrage"
+  },
+  {
+    "classId": 2,
+    "spellId": 54926,
+    "glyphType": 1,
+    "itemId": 41097,
+    "requiredLevel": 44,
+    "name": "Glyph of Hammer of Wrath",
+    "description": "Reduces the mana cost of Hammer of Wrath by 100%.",
+    "icon": "ability_thunderclap"
+  },
+  {
+    "classId": 2,
+    "spellId": 54927,
+    "glyphType": 1,
+    "itemId": 41098,
+    "requiredLevel": 20,
+    "name": "Glyph of Crusader Strike",
+    "description": "Reduces the mana cost of your Crusader Strike ability by 20%.",
+    "icon": "spell_holy_crusaderstrike"
+  },
+  {
+    "classId": 2,
+    "spellId": 54928,
+    "glyphType": 1,
+    "itemId": 41099,
+    "requiredLevel": 20,
+    "name": "Glyph of Consecration",
+    "description": "Increases the duration and cooldown of Consecration by 2 sec.",
+    "icon": "spell_holy_innerfire"
+  },
+  {
+    "classId": 2,
+    "spellId": 54929,
+    "glyphType": 1,
+    "itemId": 41100,
+    "requiredLevel": 15,
+    "name": "Glyph of Righteous Defense",
+    "description": "Increases the chance for your Righteous Defense and Hand of Reckoning abilities to work successfully by 8% on each target.",
+    "icon": "inv_shoulder_37"
+  },
+  {
+    "classId": 2,
+    "spellId": 54930,
+    "glyphType": 1,
+    "itemId": 41101,
+    "requiredLevel": 50,
+    "name": "Glyph of Avenger's Shield",
+    "description": "Your Avenger's Shield hits 2 fewer targets, but for 100% more damage.",
+    "icon": "spell_holy_avengersshield"
+  },
+  {
+    "classId": 2,
+    "spellId": 54931,
+    "glyphType": 1,
+    "itemId": 41102,
+    "requiredLevel": 24,
+    "name": "Glyph of Turn Evil",
+    "description": "Reduces the casting time of your Turn Evil spell by 100%, but increases the cooldown by 8 sec.",
+    "icon": "spell_holy_turnundead"
+  },
+  {
+    "classId": 2,
+    "spellId": 54934,
+    "glyphType": 1,
+    "itemId": 41103,
+    "requiredLevel": 20,
+    "name": "Glyph of Exorcism",
+    "description": "Increases damage done by Exorcism by 20%.",
+    "icon": "spell_holy_excorcism_02"
+  },
+  {
+    "classId": 2,
+    "spellId": 54935,
+    "glyphType": 1,
+    "itemId": 41104,
+    "requiredLevel": 35,
+    "name": "Glyph of Cleansing",
+    "description": "Reduces the mana cost of your Cleanse and Purify spells by 20%.",
+    "icon": "spell_holy_purify"
+  },
+  {
+    "classId": 2,
+    "spellId": 54936,
+    "glyphType": 1,
+    "itemId": 41105,
+    "requiredLevel": 20,
+    "name": "Glyph of Flash of Light",
+    "description": "Your Flash of Light has an additional 5% critical strike chance.",
+    "icon": "spell_holy_flashheal"
+  },
+  {
+    "classId": 2,
+    "spellId": 54937,
+    "glyphType": 1,
+    "itemId": 41106,
+    "requiredLevel": 15,
+    "name": "Glyph of Holy Light",
+    "description": "Your Holy Light grants 10% of its heal amount to up to 5 friendly targets within 8 yards of the initial target.",
+    "icon": "spell_holy_holybolt"
+  },
+  {
+    "classId": 2,
+    "spellId": 54938,
+    "glyphType": 1,
+    "itemId": 41107,
+    "requiredLevel": 70,
+    "name": "Glyph of Avenging Wrath",
+    "description": "Reduces the cooldown of your Hammer of Wrath spell by 50% while Avenging Wrath is active.",
+    "icon": "spell_holy_avenginewrath"
+  },
+  {
+    "classId": 2,
+    "spellId": 54939,
+    "glyphType": 1,
+    "itemId": 41108,
+    "requiredLevel": 15,
+    "name": "Glyph of Divinity",
+    "description": "Your Lay on Hands grants twice as much mana as normal and also grants you as much mana as it grants your target.",
+    "icon": "spell_holy_layonhands"
+  },
+  {
+    "classId": 2,
+    "spellId": 54940,
+    "glyphType": 1,
+    "itemId": 41109,
+    "requiredLevel": 38,
+    "name": "Glyph of Seal of Wisdom",
+    "description": "While Seal of Wisdom is active, the cost of your healing spells is reduced by 5%.",
+    "icon": "spell_holy_righteousnessaura"
+  },
+  {
+    "classId": 2,
+    "spellId": 54943,
+    "glyphType": 1,
+    "itemId": 41110,
+    "requiredLevel": 30,
+    "name": "Glyph of Seal of Light",
+    "description": "While Seal of Light is active, the effect of your healing spells is increased by 5%.",
+    "icon": "spell_holy_healingaura"
+  },
+  {
+    "classId": 7,
+    "spellId": 55436,
+    "glyphType": 1,
+    "itemId": 41541,
+    "requiredLevel": 20,
+    "name": "Glyph of Water Mastery",
+    "description": "Increases the passive mana regeneration of your Water Shield spell by 30%.",
+    "icon": "ability_shaman_watershield"
+  },
+  {
+    "classId": 7,
+    "spellId": 55437,
+    "glyphType": 1,
+    "itemId": 41517,
+    "requiredLevel": 40,
+    "name": "Glyph of Chain Heal",
+    "description": "Your Chain Heal heals 1 additional target.",
+    "icon": "spell_nature_healingwavegreater"
+  },
+  {
+    "classId": 7,
+    "spellId": 55438,
+    "glyphType": 1,
+    "itemId": 41535,
+    "requiredLevel": 20,
+    "name": "Glyph of Lesser Healing Wave",
+    "description": "Your Lesser Healing Wave heals for 20% more if the target is also affected by Earth Shield.",
+    "icon": "spell_nature_healingwavelesser"
+  },
+  {
+    "classId": 7,
+    "spellId": 55439,
+    "glyphType": 1,
+    "itemId": 41527,
+    "requiredLevel": 30,
+    "name": "Glyph of Earthliving Weapon",
+    "description": "Increases the chance for your Earthliving weapon to trigger by 5%.",
+    "icon": "spell_shaman_earthlivingweapon"
+  },
+  {
+    "classId": 7,
+    "spellId": 55440,
+    "glyphType": 1,
+    "itemId": 41534,
+    "requiredLevel": 15,
+    "name": "Glyph of Healing Wave",
+    "description": "Your Healing Wave also heals you for 20% of the healing effect when you heal someone else.",
+    "icon": "spell_nature_magicimmunity"
+  },
+  {
+    "classId": 7,
+    "spellId": 55441,
+    "glyphType": 1,
+    "itemId": 41538,
+    "requiredLevel": 40,
+    "name": "Glyph of Mana Tide",
+    "description": "Your Mana Tide Totem grants an additional 1% of each target's maximum mana each time it pulses.",
+    "icon": "spell_frost_summonwaterelemental"
+  },
+  {
+    "classId": 7,
+    "spellId": 55442,
+    "glyphType": 1,
+    "itemId": 41526,
+    "requiredLevel": 15,
+    "name": "Glyph of Shocking",
+    "description": "Reduces your global cooldown when casting your shock spells by 0.5 sec.",
+    "icon": "spell_nature_cyclone"
+  },
+  {
+    "classId": 7,
+    "spellId": 55443,
+    "glyphType": 1,
+    "itemId": 41547,
+    "requiredLevel": 20,
+    "name": "Glyph of Frost Shock",
+    "description": "Increases the duration of your Frost Shock by 2 sec.",
+    "icon": "spell_frost_frostshock"
+  },
+  {
+    "classId": 7,
+    "spellId": 55444,
+    "glyphType": 1,
+    "itemId": 41540,
+    "requiredLevel": 15,
+    "name": "Glyph of Lava Lash",
+    "description": "Damage on your Lava Lash is increased by an additional 10% if your weapon is enchanted with Flametongue.",
+    "icon": "ability_shaman_lavalash"
+  },
+  {
+    "classId": 7,
+    "spellId": 55445,
+    "glyphType": 1,
+    "itemId": 41542,
+    "requiredLevel": 30,
+    "name": "Glyph of Windfury Weapon",
+    "description": "Increases the chance per swing for Windfury Weapon to trigger by 2%.",
+    "icon": "spell_nature_cyclone"
+  },
+  {
+    "classId": 7,
+    "spellId": 55446,
+    "glyphType": 1,
+    "itemId": 41539,
+    "requiredLevel": 40,
+    "name": "Glyph of Stormstrike",
+    "description": "Increases the Nature damage bonus from your Stormstrike ability by an additional 8%.",
+    "icon": "ability_shaman_stormstrike"
+  },
+  {
+    "classId": 7,
+    "spellId": 55447,
+    "glyphType": 1,
+    "itemId": 41531,
+    "requiredLevel": 15,
+    "name": "Glyph of Flame Shock",
+    "description": "Increases the critical strike damage bonus of your Flame Shock damage by 60%.",
+    "icon": "spell_fire_flameshock"
+  },
+  {
+    "classId": 7,
+    "spellId": 55448,
+    "glyphType": 1,
+    "itemId": 41537,
+    "requiredLevel": 15,
+    "name": "Glyph of Lightning Shield",
+    "description": "Increases the damage from Lightning Shield by 20%.",
+    "icon": "spell_nature_lightning"
+  },
+  {
+    "classId": 7,
+    "spellId": 55449,
+    "glyphType": 1,
+    "itemId": 41518,
+    "requiredLevel": 32,
+    "name": "Glyph of Chain Lightning",
+    "description": "Your Chain Lightning strikes 1 additional target.",
+    "icon": "spell_nature_chainlightning"
+  },
+  {
+    "classId": 7,
+    "spellId": 55450,
+    "glyphType": 1,
+    "itemId": 41530,
+    "requiredLevel": 15,
+    "name": "Glyph of Fire Nova",
+    "description": "Reduces the cooldown of your Fire Nova spell by 3 seconds.",
+    "icon": "spell_fire_sealoffire"
+  },
+  {
+    "classId": 7,
+    "spellId": 55451,
+    "glyphType": 1,
+    "itemId": 41532,
+    "requiredLevel": 15,
+    "name": "Glyph of Flametongue Weapon",
+    "description": "Increases your spell critical strike chance by 2% on each of your weapons with Flametongue Weapon active.",
+    "icon": "spell_fire_flametounge"
+  },
+  {
+    "classId": 7,
+    "spellId": 55452,
+    "glyphType": 1,
+    "itemId": 41552,
+    "requiredLevel": 50,
+    "name": "Glyph of Elemental Mastery",
+    "description": "Reduces the cooldown of your Elemental Mastery ability by 30 sec.",
+    "icon": "spell_nature_wispheal"
+  },
+  {
+    "classId": 7,
+    "spellId": 55453,
+    "glyphType": 1,
+    "itemId": 41536,
+    "requiredLevel": 15,
+    "name": "Glyph of Lightning Bolt",
+    "description": "Increases the damage dealt by Lightning Bolt by 4%.",
+    "icon": "spell_nature_lightning"
+  },
+  {
+    "classId": 7,
+    "spellId": 55454,
+    "glyphType": 1,
+    "itemId": 41524,
+    "requiredLevel": 66,
+    "name": "Glyph of Lava",
+    "description": "Your Lava Burst spell gains an additional 10% of your spellpower.",
+    "icon": "spell_shaman_lavaburst"
+  },
+  {
+    "classId": 7,
+    "spellId": 55455,
+    "glyphType": 1,
+    "itemId": 41529,
+    "requiredLevel": 68,
+    "name": "Glyph of Fire Elemental Totem",
+    "description": "Reduces the cooldown of your Fire Elemental Totem by 5 min.",
+    "icon": "spell_fire_elemental_totem"
+  },
+  {
+    "classId": 7,
+    "spellId": 55456,
+    "glyphType": 1,
+    "itemId": 41533,
+    "requiredLevel": 20,
+    "name": "Glyph of Healing Stream Totem",
+    "description": "Your Healing Stream Totem heals for an additional 20%.",
+    "icon": "inv_spear_04"
+  },
+  {
+    "classId": 5,
+    "spellId": 55672,
+    "glyphType": 1,
+    "itemId": 42408,
+    "requiredLevel": 15,
+    "name": "Glyph of Power Word: Shield",
+    "description": "Your Power Word: Shield also heals the target for 20% of the absorption amount.",
+    "icon": "spell_holy_powerwordshield"
+  },
+  {
+    "classId": 5,
+    "spellId": 55673,
+    "glyphType": 1,
+    "itemId": 42403,
+    "requiredLevel": 40,
+    "name": "Glyph of Lightwell",
+    "description": "Increases the amount healed by your Lightwell by 20%",
+    "icon": "spell_holy_summonlightwell"
+  },
+  {
+    "classId": 5,
+    "spellId": 55674,
+    "glyphType": 1,
+    "itemId": 42411,
+    "requiredLevel": 15,
+    "name": "Glyph of Renew",
+    "description": "Reduces the duration of your Renew by 3 sec. but increases the amount healed each tick by 25%.",
+    "icon": "spell_holy_renew"
+  },
+  {
+    "classId": 5,
+    "spellId": 55675,
+    "glyphType": 1,
+    "itemId": 42396,
+    "requiredLevel": 50,
+    "name": "Glyph of Circle of Healing",
+    "description": "Your Circle of Healing spell heals 1 additional target.",
+    "icon": "spell_holy_circleofrenewal"
+  },
+  {
+    "classId": 5,
+    "spellId": 55676,
+    "glyphType": 1,
+    "itemId": 42410,
+    "requiredLevel": 15,
+    "name": "Glyph of Psychic Scream",
+    "description": "Increases the duration of your Psychic Scream by 2 sec. and increases its cooldown by 8 sec.",
+    "icon": "spell_shadow_psychicscream"
+  },
+  {
+    "classId": 5,
+    "spellId": 55677,
+    "glyphType": 1,
+    "itemId": 42397,
+    "requiredLevel": 18,
+    "name": "Glyph of Dispel Magic",
+    "description": "Your Dispel Magic spell also heals your target for 3% of maximum health.",
+    "icon": "spell_holy_dispelmagic"
+  },
+  {
+    "classId": 5,
+    "spellId": 55678,
+    "glyphType": 1,
+    "itemId": 42399,
+    "requiredLevel": 20,
+    "name": "Glyph of Fear Ward",
+    "description": "Reduces cooldown and duration of Fear Ward by 60 sec.",
+    "icon": "spell_holy_excorcism"
+  },
+  {
+    "classId": 5,
+    "spellId": 55679,
+    "glyphType": 1,
+    "itemId": 42400,
+    "requiredLevel": 20,
+    "name": "Glyph of Flash Heal",
+    "description": "Reduces the mana cost of your Flash Heal by 10%.",
+    "icon": "spell_holy_flashheal"
+  },
+  {
+    "classId": 5,
+    "spellId": 55680,
+    "glyphType": 1,
+    "itemId": 42409,
+    "requiredLevel": 30,
+    "name": "Glyph of Prayer of Healing",
+    "description": "Your Prayer of Healing spell also heals an additional 20% of its initial heal over 6 sec.",
+    "icon": "spell_holy_prayerofhealing02"
+  },
+  {
+    "classId": 5,
+    "spellId": 55681,
+    "glyphType": 1,
+    "itemId": 42406,
+    "requiredLevel": 15,
+    "name": "Glyph of Shadow Word: Pain",
+    "description": "The periodic damage ticks of your Shadow Word: Pain spell restore 1% of your base mana.",
+    "icon": "spell_shadow_shadowwordpain"
+  },
+  {
+    "classId": 5,
+    "spellId": 55682,
+    "glyphType": 1,
+    "itemId": 42414,
+    "requiredLevel": 62,
+    "name": "Glyph of Shadow Word: Death",
+    "description": "Targets below 35% health take an additional 10% damage from your Shadow Word: Death spell.",
+    "icon": "spell_shadow_demonicfortitude"
+  },
+  {
+    "classId": 5,
+    "spellId": 55683,
+    "glyphType": 1,
+    "itemId": 42401,
+    "requiredLevel": 20,
+    "name": "Glyph of Holy Nova",
+    "description": "Increases the damage and healing of your Holy Nova spell by an additional 20%.",
+    "icon": "spell_holy_holynova"
+  },
+  {
+    "classId": 5,
+    "spellId": 55684,
+    "glyphType": 1,
+    "itemId": 42398,
+    "requiredLevel": 15,
+    "name": "Glyph of Fade",
+    "description": "Reduces the cooldown of your Fade spell by 9 sec.",
+    "icon": "spell_magic_lesserinvisibilty"
+  },
+  {
+    "classId": 5,
+    "spellId": 55685,
+    "glyphType": 1,
+    "itemId": 42417,
+    "requiredLevel": 30,
+    "name": "Glyph of Spirit of Redemption",
+    "description": "Increases the duration of Spirit of Redemption by 6 sec.",
+    "icon": "inv_enchant_essenceeternallarge"
+  },
+  {
+    "classId": 5,
+    "spellId": 55686,
+    "glyphType": 1,
+    "itemId": 42402,
+    "requiredLevel": 15,
+    "name": "Glyph of Inner Fire",
+    "description": "Increases the armor from your Inner Fire spell by 50%.",
+    "icon": "spell_holy_innerfire"
+  },
+  {
+    "classId": 5,
+    "spellId": 55687,
+    "glyphType": 1,
+    "itemId": 42415,
+    "requiredLevel": 20,
+    "name": "Glyph of Mind Flay",
+    "description": "Increases the damage done by your Mind Flay spell by 10% when your target is afflicted with Shadow Word: Pain.",
+    "icon": "spell_shadow_siphonmana"
+  },
+  {
+    "classId": 5,
+    "spellId": 55688,
+    "glyphType": 1,
+    "itemId": 42405,
+    "requiredLevel": 30,
+    "name": "Glyph of Mind Control",
+    "description": "Reduces the chance targets will resist or break your Mind Control spell by an additional 17%.",
+    "icon": "spell_shadow_shadowworddominate"
+  },
+  {
+    "classId": 5,
+    "spellId": 55689,
+    "glyphType": 1,
+    "itemId": 42407,
+    "requiredLevel": 20,
+    "name": "Glyph of Shadow",
+    "description": "While in Shadowform, your non-periodic spell critical strikes increase your spell power by 30% of your Spirit for 10 sec.",
+    "icon": "spell_holy_mindsooth"
+  },
+  {
+    "classId": 5,
+    "spellId": 55690,
+    "glyphType": 1,
+    "itemId": 42412,
+    "requiredLevel": 20,
+    "name": "Glyph of Scourge Imprisonment",
+    "description": "Reduces the cast time of your Shackle Undead by 1.0 sec.",
+    "icon": "spell_nature_slow"
+  },
+  {
+    "classId": 5,
+    "spellId": 55691,
+    "glyphType": 1,
+    "itemId": 42404,
+    "requiredLevel": 70,
+    "name": "Glyph of Mass Dispel",
+    "description": "Reduces the mana cost of Mass Dispel by 35%.",
+    "icon": "spell_arcane_massdispel"
+  },
+  {
+    "classId": 5,
+    "spellId": 55692,
+    "glyphType": 1,
+    "itemId": 42416,
+    "requiredLevel": 15,
+    "name": "Glyph of Smite",
+    "description": "Your Smite spell inflicts an additional 20% damage against targets afflicted by Holy Fire.",
+    "icon": "spell_holy_holysmite"
+  },
+  {
+    "classId": 9,
+    "spellId": 56216,
+    "glyphType": 1,
+    "itemId": 42469,
+    "requiredLevel": 30,
+    "name": "Glyph of Siphon Life",
+    "description": "Increases the healing you receive from your Siphon Life talent by 25%.",
+    "icon": "spell_shadow_requiem"
+  },
+  {
+    "classId": 9,
+    "spellId": 56217,
+    "glyphType": 1,
+    "itemId": 42463,
+    "requiredLevel": 40,
+    "name": "Glyph of Howl of Terror",
+    "description": "Reduces the cooldown on your Howl of Terror spell by 8 sec.",
+    "icon": "spell_shadow_deathscream"
+  },
+  {
+    "classId": 9,
+    "spellId": 56218,
+    "glyphType": 1,
+    "itemId": 42455,
+    "requiredLevel": 15,
+    "name": "Glyph of Corruption",
+    "description": "Your Corruption spell has a 4% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%.",
+    "icon": "spell_shadow_abominationexplosion"
+  },
+  {
+    "classId": 9,
+    "spellId": 56224,
+    "glyphType": 1,
+    "itemId": 42462,
+    "requiredLevel": 15,
+    "name": "Glyph of Healthstone",
+    "description": "You receive 30% more healing from using a healthstone.",
+    "icon": "inv_stone_04"
+  },
+  {
+    "classId": 9,
+    "spellId": 56226,
+    "glyphType": 1,
+    "itemId": 42466,
+    "requiredLevel": 18,
+    "name": "Glyph of Searing Pain",
+    "description": "Increases the critical strike bonus of your Searing Pain by 20%.",
+    "icon": "spell_fire_soulburn"
+  },
+  {
+    "classId": 9,
+    "spellId": 56228,
+    "glyphType": 1,
+    "itemId": 42464,
+    "requiredLevel": 15,
+    "name": "Glyph of Immolate",
+    "description": "Increases the periodic damage of your Immolate by 10%.",
+    "icon": "spell_fire_immolation"
+  },
+  {
+    "classId": 9,
+    "spellId": 56229,
+    "glyphType": 1,
+    "itemId": 42468,
+    "requiredLevel": 20,
+    "name": "Glyph of Shadowburn",
+    "description": "Increases the critical strike chance of Shadowburn by 20% when the target is below 35% health.",
+    "icon": "spell_shadow_scourgebuild"
+  },
+  {
+    "classId": 9,
+    "spellId": 56231,
+    "glyphType": 1,
+    "itemId": 42470,
+    "requiredLevel": 18,
+    "name": "Glyph of Soulstone",
+    "description": "Increases the amount of health you gain from resurrecting via a Soulstone by 300%.",
+    "icon": "spell_shadow_soulgem"
+  },
+  {
+    "classId": 9,
+    "spellId": 56232,
+    "glyphType": 1,
+    "itemId": 42457,
+    "requiredLevel": 42,
+    "name": "Glyph of Death Coil",
+    "description": "Increases the duration of your Death Coil by 0.5 sec.",
+    "icon": "spell_shadow_deathcoil"
+  },
+  {
+    "classId": 9,
+    "spellId": 56233,
+    "glyphType": 1,
+    "itemId": 42472,
+    "requiredLevel": 50,
+    "name": "Glyph of Unstable Affliction",
+    "description": "Decreases the casting time of your Unstable Affliction by 0.2 sec.",
+    "icon": "spell_shadow_unstableaffliction_3"
+  },
+  {
+    "classId": 9,
+    "spellId": 56235,
+    "glyphType": 1,
+    "itemId": 42454,
+    "requiredLevel": 40,
+    "name": "Glyph of Conflagrate",
+    "description": "Your Conflagrate spell no longer consumes your Immolate or Shadowflame spell from the target.",
+    "icon": "spell_fire_fireball"
+  },
+  {
+    "classId": 9,
+    "spellId": 56238,
+    "glyphType": 1,
+    "itemId": 42461,
+    "requiredLevel": 15,
+    "name": "Glyph of Health Funnel",
+    "description": "Reduces the pushback suffered from damaging attacks while channeling your Health Funnel spell by 100%.",
+    "icon": "spell_shadow_lifedrain"
+  },
+  {
+    "classId": 9,
+    "spellId": 56240,
+    "glyphType": 1,
+    "itemId": 42467,
+    "requiredLevel": 15,
+    "name": "Glyph of Shadow Bolt",
+    "description": "Reduces the mana cost of your Shadow Bolt by 10%.",
+    "icon": "spell_shadow_shadowbolt"
+  },
+  {
+    "classId": 9,
+    "spellId": 56241,
+    "glyphType": 1,
+    "itemId": 42456,
+    "requiredLevel": 15,
+    "name": "Glyph of Curse of Agony",
+    "description": "Increases the duration of your Curse of Agony by 4 sec.",
+    "icon": "spell_shadow_curseofsargeras"
+  },
+  {
+    "classId": 9,
+    "spellId": 56242,
+    "glyphType": 1,
+    "itemId": 42453,
+    "requiredLevel": 28,
+    "name": "Glyph of Incinerate",
+    "description": "Increases the damage done by Incinerate by 5%.",
+    "icon": "spell_fire_burnout"
+  },
+  {
+    "classId": 9,
+    "spellId": 56244,
+    "glyphType": 1,
+    "itemId": 42458,
+    "requiredLevel": 15,
+    "name": "Glyph of Fear",
+    "description": "Increases the damage your Fear target can take before the Fear effect is removed by 20%.",
+    "icon": "spell_shadow_possession"
+  },
+  {
+    "classId": 9,
+    "spellId": 56246,
+    "glyphType": 1,
+    "itemId": 42459,
+    "requiredLevel": 50,
+    "name": "Glyph of Felguard",
+    "description": "Increases the Felguard's total attack power by 20%.",
+    "icon": "spell_shadow_summonfelguard"
+  },
+  {
+    "classId": 9,
+    "spellId": 56247,
+    "glyphType": 1,
+    "itemId": 42473,
+    "requiredLevel": 15,
+    "name": "Glyph of Voidwalker",
+    "description": "Increases your Voidwalker's total Stamina by 20%.",
+    "icon": "spell_shadow_summonvoidwalker"
+  },
+  {
+    "classId": 9,
+    "spellId": 56248,
+    "glyphType": 1,
+    "itemId": 42465,
+    "requiredLevel": 15,
+    "name": "Glyph of Imp",
+    "description": "Increases the damage done by your Imp's Firebolt spell by 20%.",
+    "icon": "spell_shadow_summonimp"
+  },
+  {
+    "classId": 9,
+    "spellId": 56249,
+    "glyphType": 1,
+    "itemId": 42460,
+    "requiredLevel": 30,
+    "name": "Glyph of Felhunter",
+    "description": "When your Felhunter uses Devour Magic, you will also be healed for that amount.",
+    "icon": "spell_shadow_summonfelhunter"
+  },
+  {
+    "classId": 9,
+    "spellId": 56250,
+    "glyphType": 1,
+    "itemId": 42471,
+    "requiredLevel": 26,
+    "name": "Glyph of Succubus",
+    "description": "Your Succubus's Seduction ability also removes all damage over time effects from the target.",
+    "icon": "spell_shadow_summonsuccubus"
+  },
+  {
+    "classId": 8,
+    "spellId": 56360,
+    "glyphType": 1,
+    "itemId": 42734,
+    "requiredLevel": 15,
+    "name": "Glyph of Arcane Explosion",
+    "description": "Reduces mana cost of Arcane Explosion by 10%.",
+    "icon": "spell_nature_wispsplode"
+  },
+  {
+    "classId": 8,
+    "spellId": 56363,
+    "glyphType": 1,
+    "itemId": 42735,
+    "requiredLevel": 15,
+    "name": "Glyph of Arcane Missiles",
+    "description": "Increases the critical strike damage bonus of Arcane Missiles by 25%.",
+    "icon": "spell_nature_starfall"
+  },
+  {
+    "classId": 8,
+    "spellId": 56364,
+    "glyphType": 1,
+    "itemId": 42753,
+    "requiredLevel": 18,
+    "name": "Glyph of Remove Curse",
+    "description": "Your Remove Curse spell also makes the target immune to all curses for 4 sec.",
+    "icon": "spell_nature_removecurse"
+  },
+  {
+    "classId": 8,
+    "spellId": 56365,
+    "glyphType": 1,
+    "itemId": 42737,
+    "requiredLevel": 20,
+    "name": "Glyph of Blink",
+    "description": "Increases the distance you travel with the Blink spell by 5 yards.",
+    "icon": "spell_arcane_blink"
+  },
+  {
+    "classId": 8,
+    "spellId": 56366,
+    "glyphType": 1,
+    "itemId": 42748,
+    "requiredLevel": 68,
+    "name": "Glyph of Invisibility",
+    "description": "Increases the duration of the Invisibility effect by 10 sec.",
+    "icon": "ability_mage_invisibility"
+  },
+  {
+    "classId": 8,
+    "spellId": 56367,
+    "glyphType": 1,
+    "itemId": 42750,
+    "requiredLevel": 30,
+    "name": "Glyph of Mana Gem",
+    "description": "Increases the mana received from using a mana gem by 40%.",
+    "icon": "inv_misc_gem_stone_01"
+  },
+  {
+    "classId": 8,
+    "spellId": 56368,
+    "glyphType": 1,
+    "itemId": 42739,
+    "requiredLevel": 15,
+    "name": "Glyph of Fireball",
+    "description": "Reduces the casting time of your Fireball spell by 0.15 sec, but removes the damage over time effect.",
+    "icon": "spell_fire_flamebolt"
+  },
+  {
+    "classId": 8,
+    "spellId": 56369,
+    "glyphType": 1,
+    "itemId": 42740,
+    "requiredLevel": 15,
+    "name": "Glyph of Fire Blast",
+    "description": "Increases the critical strike chance of Fire Blast by 50% when the target is stunned or incapacitated.",
+    "icon": "spell_fire_fireball"
+  },
+  {
+    "classId": 8,
+    "spellId": 56370,
+    "glyphType": 1,
+    "itemId": 42742,
+    "requiredLevel": 15,
+    "name": "Glyph of Frostbolt",
+    "description": "Increases the damage dealt by Frostbolt by 5%, but removes the slowing effect.",
+    "icon": "spell_frost_frostbolt02"
+  },
+  {
+    "classId": 8,
+    "spellId": 56371,
+    "glyphType": 1,
+    "itemId": 42747,
+    "requiredLevel": 20,
+    "name": "Glyph of Scorch",
+    "description": "Increases the damage of your Scorch spell by 20%.",
+    "icon": "spell_fire_soulburn"
+  },
+  {
+    "classId": 8,
+    "spellId": 56372,
+    "glyphType": 1,
+    "itemId": 42744,
+    "requiredLevel": 30,
+    "name": "Glyph of Ice Block",
+    "description": "Your Frost Nova cooldown is now reset every time you use Ice Block.",
+    "icon": "spell_frost_frost"
+  },
+  {
+    "classId": 8,
+    "spellId": 56373,
+    "glyphType": 1,
+    "itemId": 42754,
+    "requiredLevel": 50,
+    "name": "Glyph of Water Elemental",
+    "description": "Reduces the cooldown of your Summon Water Elemental spell by 30 sec.",
+    "icon": "spell_frost_summonwaterelemental_2"
+  },
+  {
+    "classId": 8,
+    "spellId": 56374,
+    "glyphType": 1,
+    "itemId": 42746,
+    "requiredLevel": 20,
+    "name": "Glyph of Icy Veins",
+    "description": "Your Icy Veins ability also removes all movement slowing and cast time slowing effects.",
+    "icon": "spell_frost_coldhearted"
+  },
+  {
+    "classId": 8,
+    "spellId": 56375,
+    "glyphType": 1,
+    "itemId": 42752,
+    "requiredLevel": 15,
+    "name": "Glyph of Polymorph",
+    "description": "Your Polymorph spell also removes all damage over time effects from the target.",
+    "icon": "spell_nature_polymorph"
+  },
+  {
+    "classId": 8,
+    "spellId": 56376,
+    "glyphType": 1,
+    "itemId": 42741,
+    "requiredLevel": 15,
+    "name": "Glyph of Frost Nova",
+    "description": "Your Frost Nova targets can take an additional 20% damage before the Frost Nova effect automatically breaks.",
+    "icon": "spell_frost_frostnova"
+  },
+  {
+    "classId": 8,
+    "spellId": 56377,
+    "glyphType": 1,
+    "itemId": 42745,
+    "requiredLevel": 66,
+    "name": "Glyph of Ice Lance",
+    "description": "Your Ice Lance now causes 4 times damage against frozen targets higher level than you instead of triple damage.",
+    "icon": "spell_frost_frostblast"
+  },
+  {
+    "classId": 8,
+    "spellId": 56380,
+    "glyphType": 1,
+    "itemId": 42738,
+    "requiredLevel": 20,
+    "name": "Glyph of Evocation",
+    "description": "Your Evocation ability also causes you to regain 60% of your health over its duration.",
+    "icon": "spell_nature_purge"
+  },
+  {
+    "classId": 8,
+    "spellId": 56381,
+    "glyphType": 1,
+    "itemId": 42736,
+    "requiredLevel": 40,
+    "name": "Glyph of Arcane Power",
+    "description": "Increases the duration of Arcane Power by 3 sec.",
+    "icon": "spell_nature_lightning"
+  },
+  {
+    "classId": 8,
+    "spellId": 56382,
+    "glyphType": 1,
+    "itemId": 42751,
+    "requiredLevel": 62,
+    "name": "Glyph of Molten Armor",
+    "description": "Your Molten Armor grants an additional 20% of your spirit as critical strike rating.",
+    "icon": "ability_mage_moltenarmor"
+  },
+  {
+    "classId": 8,
+    "spellId": 56383,
+    "glyphType": 1,
+    "itemId": 42749,
+    "requiredLevel": 34,
+    "name": "Glyph of Mage Armor",
+    "description": "Your Mage Armor spell grants an additional 20% mana regeneration while casting.",
+    "icon": "spell_magearmor"
+  },
+  {
+    "classId": 8,
+    "spellId": 56384,
+    "glyphType": 1,
+    "itemId": 42743,
+    "requiredLevel": 15,
+    "name": "Glyph of Ice Armor",
+    "description": "Your Ice Armor and Frost Armor spells grant an additional 50% armor and resistance.",
+    "icon": "spell_frost_frostarmor02"
+  },
+  {
+    "classId": 2,
+    "spellId": 56414,
+    "glyphType": 1,
+    "itemId": 43868,
+    "requiredLevel": 50,
+    "name": "Glyph of Seal of Righteousness",
+    "description": "Increases the damage done by Seal of Righteousness by 10%.",
+    "icon": "ability_thunderbolt"
+  },
+  {
+    "classId": 2,
+    "spellId": 56416,
+    "glyphType": 1,
+    "itemId": 43869,
+    "requiredLevel": 50,
+    "name": "Glyph of Seal of Vengeance",
+    "description": "Your Seal of Vengeance or Seal of Corruption also grants 10 expertise while active.",
+    "icon": "spell_holy_sealofvengeance"
+  },
+  {
+    "classId": 2,
+    "spellId": 56420,
+    "glyphType": 1,
+    "itemId": 43867,
+    "requiredLevel": 50,
+    "name": "Glyph of Holy Wrath",
+    "description": "Reduces the cooldown of your Holy Wrath spell by 15 sec.",
+    "icon": "spell_holy_excorcism"
+  },
+  {
+    "classId": 4,
+    "spellId": 56798,
+    "glyphType": 1,
+    "itemId": 42970,
+    "requiredLevel": 15,
+    "name": "Glyph of Sap",
+    "description": "Increases the duration of Sap by 20 sec.",
+    "icon": "ability_sap"
+  },
+  {
+    "classId": 4,
+    "spellId": 56799,
+    "glyphType": 1,
+    "itemId": 42960,
+    "requiredLevel": 15,
+    "name": "Glyph of Evasion",
+    "description": "Increases the duration of Evasion by 5 sec.",
+    "icon": "spell_shadow_shadowward"
+  },
+  {
+    "classId": 4,
+    "spellId": 56800,
+    "glyphType": 1,
+    "itemId": 42956,
+    "requiredLevel": 15,
+    "name": "Glyph of Backstab",
+    "description": "Your Backstab increases the duration of your Rupture effect on the target by 2 sec, up to a maximum of 6 additional sec.",
+    "icon": "ability_backstab"
+  },
+  {
+    "classId": 4,
+    "spellId": 56801,
+    "glyphType": 1,
+    "itemId": 42969,
+    "requiredLevel": 20,
+    "name": "Glyph of Rupture",
+    "description": "Increases the duration of Rupture by 4 sec.",
+    "icon": "ability_rogue_rupture"
+  },
+  {
+    "classId": 4,
+    "spellId": 56802,
+    "glyphType": 1,
+    "itemId": 42961,
+    "requiredLevel": 15,
+    "name": "Glyph of Eviscerate",
+    "description": "Increases the critical strike chance of Eviscerate by 10%.",
+    "icon": "ability_rogue_eviscerate"
+  },
+  {
+    "classId": 4,
+    "spellId": 56803,
+    "glyphType": 1,
+    "itemId": 42962,
+    "requiredLevel": 15,
+    "name": "Glyph of Expose Armor",
+    "description": "Increases the duration of Expose Armor by 12 sec.",
+    "icon": "ability_warrior_riposte"
+  },
+  {
+    "classId": 4,
+    "spellId": 56804,
+    "glyphType": 1,
+    "itemId": 42963,
+    "requiredLevel": 16,
+    "name": "Glyph of Feint",
+    "description": "Reduces the energy cost of Feint by 20.",
+    "icon": "ability_rogue_feint"
+  },
+  {
+    "classId": 4,
+    "spellId": 56805,
+    "glyphType": 1,
+    "itemId": 42971,
+    "requiredLevel": 70,
+    "name": "Glyph of Vigor",
+    "description": "Vigor grants an additional 10 maximum energy.",
+    "icon": "spell_nature_earthbindtotem"
+  },
+  {
+    "classId": 4,
+    "spellId": 56806,
+    "glyphType": 1,
+    "itemId": 42959,
+    "requiredLevel": 64,
+    "name": "Glyph of Deadly Throw",
+    "description": "Increases the slowing effect on Deadly Throw by 20%.",
+    "icon": "inv_throwingknife_06"
+  },
+  {
+    "classId": 4,
+    "spellId": 56807,
+    "glyphType": 1,
+    "itemId": 42967,
+    "requiredLevel": 30,
+    "name": "Glyph of Hemorrhage",
+    "description": "Increases the damage bonus against targets afflicted by Hemorrhage by 40%.",
+    "icon": "spell_shadow_lifedrain"
+  },
+  {
+    "classId": 4,
+    "spellId": 56808,
+    "glyphType": 1,
+    "itemId": 42954,
+    "requiredLevel": 40,
+    "name": "Glyph of Adrenaline Rush",
+    "description": "Increases the duration of Adrenaline Rush by 5 sec.",
+    "icon": "spell_shadow_shadowworddominate"
+  },
+  {
+    "classId": 4,
+    "spellId": 56809,
+    "glyphType": 1,
+    "itemId": 42966,
+    "requiredLevel": 15,
+    "name": "Glyph of Gouge",
+    "description": "Reduces the energy cost of Gouge by 15.",
+    "icon": "ability_gouge"
+  },
+  {
+    "classId": 4,
+    "spellId": 56810,
+    "glyphType": 1,
+    "itemId": 42973,
+    "requiredLevel": 15,
+    "name": "Glyph of Slice and Dice",
+    "description": "Increases the duration of Slice and Dice by 3 sec.",
+    "icon": "ability_rogue_slicedice"
+  },
+  {
+    "classId": 4,
+    "spellId": 56811,
+    "glyphType": 1,
+    "itemId": 42974,
+    "requiredLevel": 15,
+    "name": "Glyph of Sprint",
+    "description": "Increases the movement speed of your Sprint ability by an additional 30%.",
+    "icon": "ability_rogue_sprint"
+  },
+  {
+    "classId": 4,
+    "spellId": 56812,
+    "glyphType": 1,
+    "itemId": 42964,
+    "requiredLevel": 15,
+    "name": "Glyph of Garrote",
+    "description": "Reduces the duration of your Garrote ability by 3 sec and increases the total damage it deals by 20%.",
+    "icon": "ability_rogue_garrote"
+  },
+  {
+    "classId": 4,
+    "spellId": 56813,
+    "glyphType": 1,
+    "itemId": 42955,
+    "requiredLevel": 18,
+    "name": "Glyph of Ambush",
+    "description": "Increases the range on Ambush by 5 yards.",
+    "icon": "ability_rogue_ambush"
+  },
+  {
+    "classId": 4,
+    "spellId": 56814,
+    "glyphType": 1,
+    "itemId": 42965,
+    "requiredLevel": 20,
+    "name": "Glyph of Ghostly Strike",
+    "description": "Increases the damage dealt by Ghostly Strike by 40% and the duration of its effect by 4 sec, but increases its cooldown by 10 sec.",
+    "icon": "spell_shadow_curse"
+  },
+  {
+    "classId": 4,
+    "spellId": 56818,
+    "glyphType": 1,
+    "itemId": 42957,
+    "requiredLevel": 30,
+    "name": "Glyph of Blade Flurry",
+    "description": "Reduces the energy cost of Blade Flurry by 100%.",
+    "icon": "ability_warrior_punishingblow"
+  },
+  {
+    "classId": 4,
+    "spellId": 56819,
+    "glyphType": 1,
+    "itemId": 42968,
+    "requiredLevel": 30,
+    "name": "Glyph of Preparation",
+    "description": "Your Preparation ability also instantly resets the cooldown of Blade Flurry, Dismantle, and Kick.",
+    "icon": "spell_shadow_antishadow"
+  },
+  {
+    "classId": 4,
+    "spellId": 56820,
+    "glyphType": 1,
+    "itemId": 42958,
+    "requiredLevel": 20,
+    "name": "Glyph of Crippling Poison",
+    "description": "Increases the chance to inflict your target with Crippling Poison by an additional 20%.",
+    "icon": "ability_poisonsting"
+  },
+  {
+    "classId": 4,
+    "spellId": 56821,
+    "glyphType": 1,
+    "itemId": 42972,
+    "requiredLevel": 15,
+    "name": "Glyph of Sinister Strike",
+    "description": "Your Sinister Strike critical strikes have a 50% chance to add an additional combo point.",
+    "icon": "spell_shadow_ritualofsacrifice"
+  },
+  {
+    "classId": 3,
+    "spellId": 56824,
+    "glyphType": 1,
+    "itemId": 42897,
+    "requiredLevel": 20,
+    "name": "Glyph of Aimed Shot",
+    "description": "Reduces the cooldown of your Aimed Shot ability by 2 sec.",
+    "icon": "inv_spear_07"
+  },
+  {
+    "classId": 3,
+    "spellId": 56826,
+    "glyphType": 1,
+    "itemId": 42914,
+    "requiredLevel": 62,
+    "name": "Glyph of Steady Shot",
+    "description": "Increases the damage dealt by Steady Shot by 10% when your target is afflicted with Serpent Sting.",
+    "icon": "ability_hunter_steadyshot"
+  },
+  {
+    "classId": 3,
+    "spellId": 56828,
+    "glyphType": 1,
+    "itemId": 42911,
+    "requiredLevel": 26,
+    "name": "Glyph of Rapid Fire",
+    "description": "Increases the haste from Rapid Fire by an additional 8%.",
+    "icon": "ability_hunter_runningshot"
+  },
+  {
+    "classId": 3,
+    "spellId": 56829,
+    "glyphType": 1,
+    "itemId": 42907,
+    "requiredLevel": 15,
+    "name": "Glyph of Hunter's Mark",
+    "description": "Increases the attack power bonus of your Hunter's Mark by 20%.",
+    "icon": "ability_hunter_snipershot"
+  },
+  {
+    "classId": 3,
+    "spellId": 56830,
+    "glyphType": 1,
+    "itemId": 42902,
+    "requiredLevel": 40,
+    "name": "Glyph of Bestial Wrath",
+    "description": "Decreases the cooldown of Bestial Wrath by 20 sec.",
+    "icon": "ability_druid_ferociousbite"
+  },
+  {
+    "classId": 3,
+    "spellId": 56832,
+    "glyphType": 1,
+    "itemId": 42912,
+    "requiredLevel": 15,
+    "name": "Glyph of Serpent Sting",
+    "description": "Increases the duration of your Serpent Sting by 6 sec.",
+    "icon": "ability_hunter_quickshot"
+  },
+  {
+    "classId": 3,
+    "spellId": 56833,
+    "glyphType": 1,
+    "itemId": 42900,
+    "requiredLevel": 15,
+    "name": "Glyph of Mending",
+    "description": "Increases the healing done by your Mend Pet ability by 40%.",
+    "icon": "ability_hunter_mendpet"
+  },
+  {
+    "classId": 3,
+    "spellId": 56836,
+    "glyphType": 1,
+    "itemId": 42910,
+    "requiredLevel": 18,
+    "name": "Glyph of Multi-Shot",
+    "description": "Decreases the cooldown of Multi-Shot by 1 sec.",
+    "icon": "ability_upgrademoonglaive"
+  },
+  {
+    "classId": 3,
+    "spellId": 56838,
+    "glyphType": 1,
+    "itemId": 42916,
+    "requiredLevel": 40,
+    "name": "Glyph of Volley",
+    "description": "Decreases the mana cost of Volley by 20%.",
+    "icon": "ability_marksmanship"
+  },
+  {
+    "classId": 3,
+    "spellId": 56841,
+    "glyphType": 1,
+    "itemId": 42898,
+    "requiredLevel": 15,
+    "name": "Glyph of Arcane Shot",
+    "description": "Your Arcane Shot refunds 20% of its mana cost if the target has one of your Stings active on it.",
+    "icon": "ability_impalingbolt"
+  },
+  {
+    "classId": 3,
+    "spellId": 56842,
+    "glyphType": 1,
+    "itemId": 42915,
+    "requiredLevel": 40,
+    "name": "Glyph of Trueshot Aura",
+    "description": "While your Trueshot Aura is active, you have 10% increased critical strike chance on your Aimed Shot.",
+    "icon": "ability_trueshot"
+  },
+  {
+    "classId": 3,
+    "spellId": 56844,
+    "glyphType": 1,
+    "itemId": 42904,
+    "requiredLevel": 20,
+    "name": "Glyph of Disengage",
+    "description": "Decreases the cooldown of Disengage by 5 sec.",
+    "icon": "ability_rogue_feint"
+  },
+  {
+    "classId": 3,
+    "spellId": 56845,
+    "glyphType": 1,
+    "itemId": 42905,
+    "requiredLevel": 20,
+    "name": "Glyph of Freezing Trap",
+    "description": "When your Freezing Trap breaks, the victim's movement speed is reduced by 30% for 4 sec.",
+    "icon": "spell_frost_chainsofice"
+  },
+  {
+    "classId": 3,
+    "spellId": 56846,
+    "glyphType": 1,
+    "itemId": 42908,
+    "requiredLevel": 16,
+    "name": "Glyph of Immolation Trap",
+    "description": "Decreases the duration of the effect from your Immolation Trap by 6 sec., but damage while active is increased by 100%.",
+    "icon": "spell_fire_flameshock"
+  },
+  {
+    "classId": 3,
+    "spellId": 56847,
+    "glyphType": 1,
+    "itemId": 42906,
+    "requiredLevel": 28,
+    "name": "Glyph of Frost Trap",
+    "description": "Increases the radius of the effect from your Frost Trap by 2 yards.",
+    "icon": "spell_frost_freezingbreath"
+  },
+  {
+    "classId": 3,
+    "spellId": 56848,
+    "glyphType": 1,
+    "itemId": 42917,
+    "requiredLevel": 40,
+    "name": "Glyph of Wyvern Sting",
+    "description": "Decreases the cooldown of your Wyvern Sting by 6 sec.",
+    "icon": "inv_spear_02"
+  },
+  {
+    "classId": 3,
+    "spellId": 56849,
+    "glyphType": 1,
+    "itemId": 42913,
+    "requiredLevel": 68,
+    "name": "Glyph of Snake Trap",
+    "description": "Snakes from your Snake Trap take 90% reduced damage from area of effect spells.",
+    "icon": "ability_hunter_snaketrap"
+  },
+  {
+    "classId": 3,
+    "spellId": 56850,
+    "glyphType": 1,
+    "itemId": 42903,
+    "requiredLevel": 20,
+    "name": "Glyph of Deterrence",
+    "description": "Decreases the cooldown of Deterrence by 10 sec.",
+    "icon": "ability_whirlwind"
+  },
+  {
+    "classId": 3,
+    "spellId": 56851,
+    "glyphType": 1,
+    "itemId": 42901,
+    "requiredLevel": 20,
+    "name": "Glyph of Aspect of the Viper",
+    "description": "Increases the amount of mana gained from attacks while Aspect of the Viper is active by 10%.",
+    "icon": "ability_hunter_aspectoftheviper"
+  },
+  {
+    "classId": 3,
+    "spellId": 56856,
+    "glyphType": 1,
+    "itemId": 42909,
+    "requiredLevel": 15,
+    "name": "Glyph of the Hawk",
+    "description": "Increases the haste bonus of the Improved Aspect of the Hawk effect by an additional 6%.",
+    "icon": "spell_nature_ravenform"
+  },
+  {
+    "classId": 3,
+    "spellId": 56857,
+    "glyphType": 1,
+    "itemId": 42899,
+    "requiredLevel": 30,
+    "name": "Glyph of the Beast",
+    "description": "Increases the attack power bonus of Aspect of the Beast for you and your pet by an additional 2%.",
+    "icon": "ability_mount_pinktiger"
+  },
+  {
+    "classId": 11,
+    "spellId": 57855,
+    "glyphType": 2,
+    "itemId": 43335,
+    "requiredLevel": 15,
+    "name": "Glyph of the Wild",
+    "description": "Mana cost of your Mark of the Wild and Gift of the Wild spells reduced by 50%.",
+    "icon": "spell_nature_regeneration"
+  },
+  {
+    "classId": 11,
+    "spellId": 57856,
+    "glyphType": 2,
+    "itemId": 43316,
+    "requiredLevel": 16,
+    "name": "Glyph of Aquatic Form",
+    "description": "Increases your swim speed by 50% while in Aquatic Form.",
+    "icon": "ability_druid_aquaticform"
+  },
+  {
+    "classId": 11,
+    "spellId": 57857,
+    "glyphType": 2,
+    "itemId": 43331,
+    "requiredLevel": 20,
+    "name": "Glyph of Unburdened Rebirth",
+    "description": "Your Rebirth spell no longer requires a reagent.",
+    "icon": "spell_nature_reincarnation"
+  },
+  {
+    "classId": 11,
+    "spellId": 57858,
+    "glyphType": 2,
+    "itemId": 43334,
+    "requiredLevel": 28,
+    "name": "Glyph of Challenging Roar",
+    "description": "Reduces the cooldown of your Challenging Roar ability by 30 sec.",
+    "icon": "ability_druid_challangingroar"
+  },
+  {
+    "classId": 11,
+    "spellId": 57862,
+    "glyphType": 2,
+    "itemId": 43332,
+    "requiredLevel": 15,
+    "name": "Glyph of Thorns",
+    "description": "Increases the duration of your Thorns ability by 50 min when cast on yourself.",
+    "icon": "spell_nature_thorns"
+  },
+  {
+    "classId": 3,
+    "spellId": 57866,
+    "glyphType": 2,
+    "itemId": 43338,
+    "requiredLevel": 15,
+    "name": "Glyph of Revive Pet",
+    "description": "Reduces the pushback suffered from damaging attacks while casting Revive Pet by 100%.",
+    "icon": "ability_hunter_beastsoothe"
+  },
+  {
+    "classId": 3,
+    "spellId": 57870,
+    "glyphType": 2,
+    "itemId": 43350,
+    "requiredLevel": 15,
+    "name": "Glyph of Mend Pet",
+    "description": "Your Mend Pet spell increases your pet's happiness slightly.",
+    "icon": "ability_hunter_mendpet"
+  },
+  {
+    "classId": 3,
+    "spellId": 57900,
+    "glyphType": 2,
+    "itemId": 43354,
+    "requiredLevel": 15,
+    "name": "Glyph of Possessed Strength",
+    "description": "Increases the damage your pet inflicts while using Eyes of the Beast by 50%.",
+    "icon": "ability_eyeoftheowl"
+  },
+  {
+    "classId": 3,
+    "spellId": 57902,
+    "glyphType": 2,
+    "itemId": 43356,
+    "requiredLevel": 15,
+    "name": "Glyph of Scare Beast",
+    "description": "Reduces the pushback suffered from damaging attacks while casting Scare Beast by 75%.",
+    "icon": "ability_druid_cower"
+  },
+  {
+    "classId": 3,
+    "spellId": 57903,
+    "glyphType": 2,
+    "itemId": 43351,
+    "requiredLevel": 30,
+    "name": "Glyph of Feign Death",
+    "description": "Reduces the cooldown of your Feign Death spell by 5 sec.",
+    "icon": "ability_rogue_feigndeath"
+  },
+  {
+    "classId": 3,
+    "spellId": 57904,
+    "glyphType": 2,
+    "itemId": 43355,
+    "requiredLevel": 40,
+    "name": "Glyph of the Pack",
+    "description": "Increases the range of your Aspect of the Pack ability by 15 yards.",
+    "icon": "ability_mount_jungletiger"
+  },
+  {
+    "classId": 8,
+    "spellId": 57924,
+    "glyphType": 2,
+    "itemId": 43339,
+    "requiredLevel": 15,
+    "name": "Glyph of Arcane Intellect",
+    "description": "Reduces the mana cost of your Arcane Intellect and Arcane Brilliance spells by 50%.",
+    "icon": "spell_holy_magicalsentry"
+  },
+  {
+    "classId": 8,
+    "spellId": 57925,
+    "glyphType": 2,
+    "itemId": 43364,
+    "requiredLevel": 15,
+    "name": "Glyph of Slow Fall",
+    "description": "Your Slow Fall spell no longer requires a reagent.",
+    "icon": "spell_magic_featherfall"
+  },
+  {
+    "classId": 8,
+    "spellId": 57926,
+    "glyphType": 2,
+    "itemId": 43357,
+    "requiredLevel": 20,
+    "name": "Glyph of Fire Ward",
+    "description": "You have an additional 5% chance to reflect Fire spells while your Fire Ward is active.",
+    "icon": "spell_fire_firearmor"
+  },
+  {
+    "classId": 8,
+    "spellId": 57927,
+    "glyphType": 2,
+    "itemId": 43360,
+    "requiredLevel": 22,
+    "name": "Glyph of Frost Ward",
+    "description": "You have an additional 5% chance to reflect Frost spells while your Frost Ward is active.",
+    "icon": "spell_frost_frostward"
+  },
+  {
+    "classId": 8,
+    "spellId": 57928,
+    "glyphType": 2,
+    "itemId": 43359,
+    "requiredLevel": 15,
+    "name": "Glyph of Frost Armor",
+    "description": "Increases the duration of your Frost Armor and Ice Armor spells by 30 min.",
+    "icon": "spell_frost_frostarmor02"
+  },
+  {
+    "classId": 2,
+    "spellId": 57937,
+    "glyphType": 2,
+    "itemId": 43365,
+    "requiredLevel": 20,
+    "name": "Glyph of Blessing of Kings",
+    "description": "Reduces the mana cost of your Blessing of Kings and Greater Blessing of Kings spells by 50%.",
+    "icon": "spell_magic_magearmor"
+  },
+  {
+    "classId": 2,
+    "spellId": 57947,
+    "glyphType": 2,
+    "itemId": 43368,
+    "requiredLevel": 20,
+    "name": "Glyph of Sense Undead",
+    "description": "Damage against Undead increased by 1% while your Sense Undead ability is active.",
+    "icon": "spell_holy_senseundead"
+  },
+  {
+    "classId": 2,
+    "spellId": 57954,
+    "glyphType": 2,
+    "itemId": 43369,
+    "requiredLevel": 15,
+    "name": "Glyph of the Wise",
+    "description": "Reduces the mana cost of your Seal of Wisdom spell by 50%.",
+    "icon": "spell_holy_righteousnessaura"
+  },
+  {
+    "classId": 2,
+    "spellId": 57955,
+    "glyphType": 2,
+    "itemId": 43367,
+    "requiredLevel": 15,
+    "name": "Glyph of Lay on Hands",
+    "description": "Reduces the cooldown of your Lay on Hands spell by 5 min.",
+    "icon": "spell_holy_layonhands"
+  },
+  {
+    "classId": 2,
+    "spellId": 57958,
+    "glyphType": 2,
+    "itemId": 43340,
+    "requiredLevel": 15,
+    "name": "Glyph of Blessing of Might",
+    "description": "Increases the duration of your Blessing of Might spell by 20 min when cast on yourself.",
+    "icon": "spell_holy_fistofjustice"
+  },
+  {
+    "classId": 2,
+    "spellId": 57979,
+    "glyphType": 2,
+    "itemId": 43366,
+    "requiredLevel": 15,
+    "name": "Glyph of Blessing of Wisdom",
+    "description": "Increases the duration of your Blessing of Wisdom spell by 20 min when cast on yourself.",
+    "icon": "spell_holy_sealofwisdom"
+  },
+  {
+    "classId": 5,
+    "spellId": 57985,
+    "glyphType": 2,
+    "itemId": 43342,
+    "requiredLevel": 15,
+    "name": "Glyph of Fading",
+    "description": "Reduces the mana cost of your Fade spell by 30%.",
+    "icon": "spell_magic_lesserinvisibilty"
+  },
+  {
+    "classId": 5,
+    "spellId": 57986,
+    "glyphType": 2,
+    "itemId": 43373,
+    "requiredLevel": 20,
+    "name": "Glyph of Shackle Undead",
+    "description": "Increases the range of your Shackle Undead spell by 5 yards.",
+    "icon": "spell_nature_slow"
+  },
+  {
+    "classId": 5,
+    "spellId": 57987,
+    "glyphType": 2,
+    "itemId": 43370,
+    "requiredLevel": 34,
+    "name": "Glyph of Levitate",
+    "description": "Your Levitate spell no longer requires a reagent.",
+    "icon": "spell_holy_layonhands"
+  },
+  {
+    "classId": 5,
+    "spellId": 58009,
+    "glyphType": 2,
+    "itemId": 43371,
+    "requiredLevel": 15,
+    "name": "Glyph of Fortitude",
+    "description": "Reduces the mana cost of your Power Word: Fortitude and Prayer of Fortitude spells by 50%.",
+    "icon": "spell_holy_wordfortitude"
+  },
+  {
+    "classId": 5,
+    "spellId": 58015,
+    "glyphType": 2,
+    "itemId": 43372,
+    "requiredLevel": 30,
+    "name": "Glyph of Shadow Protection",
+    "description": "Increases the duration of your Shadow Protection and Prayer of Shadow Protection spells by 10 min.",
+    "icon": "spell_shadow_antishadow"
+  },
+  {
+    "classId": 4,
+    "spellId": 58017,
+    "glyphType": 2,
+    "itemId": 43343,
+    "requiredLevel": 15,
+    "name": "Glyph of Pick Pocket",
+    "description": "Increases the range of your Pick Pocket ability by 5 yards.",
+    "icon": "inv_misc_bag_11"
+  },
+  {
+    "classId": 4,
+    "spellId": 58027,
+    "glyphType": 2,
+    "itemId": 43377,
+    "requiredLevel": 16,
+    "name": "Glyph of Pick Lock",
+    "description": "Reduces the cast time of your Pick Lock ability by 100%.",
+    "icon": "spell_nature_moonkey"
+  },
+  {
+    "classId": 4,
+    "spellId": 58032,
+    "glyphType": 2,
+    "itemId": 43376,
+    "requiredLevel": 22,
+    "name": "Glyph of Distract",
+    "description": "Increases the range of your Distract ability by 5 yards.",
+    "icon": "ability_rogue_distract"
+  },
+  {
+    "classId": 4,
+    "spellId": 58033,
+    "glyphType": 2,
+    "itemId": 43378,
+    "requiredLevel": 40,
+    "name": "Glyph of Safe Fall",
+    "description": "Increases the distance your Safe Fall ability allows you to fall without taking damage.",
+    "icon": "inv_feather_01"
+  },
+  {
+    "classId": 4,
+    "spellId": 58038,
+    "glyphType": 2,
+    "itemId": 43380,
+    "requiredLevel": 22,
+    "name": "Glyph of Vanish",
+    "description": "Increases your movement speed by 30% while the Vanish effect is active.",
+    "icon": "ability_vanish"
+  },
+  {
+    "classId": 4,
+    "spellId": 58039,
+    "glyphType": 2,
+    "itemId": 43379,
+    "requiredLevel": 15,
+    "name": "Glyph of Blurred Speed",
+    "description": "Enables you to walk on water while your Sprint ability is active.",
+    "icon": "ability_rogue_sprint"
+  },
+  {
+    "classId": 7,
+    "spellId": 58055,
+    "glyphType": 2,
+    "itemId": 43344,
+    "requiredLevel": 22,
+    "name": "Glyph of Water Breathing",
+    "description": "Your Water Breathing spell no longer requires a reagent.",
+    "icon": "spell_shadow_demonbreath"
+  },
+  {
+    "classId": 7,
+    "spellId": 58057,
+    "glyphType": 2,
+    "itemId": 43388,
+    "requiredLevel": 28,
+    "name": "Glyph of Water Walking",
+    "description": "Your Water Walking spell no longer requires a reagent.",
+    "icon": "spell_frost_windwalkon"
+  },
+  {
+    "classId": 7,
+    "spellId": 58058,
+    "glyphType": 2,
+    "itemId": 43381,
+    "requiredLevel": 30,
+    "name": "Glyph of Astral Recall",
+    "description": "Cooldown of your Astral Recall spell reduced by 7.5 min.",
+    "icon": "spell_nature_astralrecal"
+  },
+  {
+    "classId": 7,
+    "spellId": 58059,
+    "glyphType": 2,
+    "itemId": 43385,
+    "requiredLevel": 30,
+    "name": "Glyph of Renewed Life",
+    "description": "Your Reincarnation spell no longer requires a reagent.",
+    "icon": "spell_nature_reincarnation"
+  },
+  {
+    "classId": 7,
+    "spellId": 58063,
+    "glyphType": 2,
+    "itemId": 43386,
+    "requiredLevel": 20,
+    "name": "Glyph of Water Shield",
+    "description": "Increases the number of charges on your Water Shield spell by 1.",
+    "icon": "ability_shaman_watershield"
+  },
+  {
+    "classId": 9,
+    "spellId": 58070,
+    "glyphType": 2,
+    "itemId": 43390,
+    "requiredLevel": 15,
+    "name": "Glyph of Drain Soul",
+    "description": "Your Drain Soul ability occasionally creates an additional soul shard.",
+    "icon": "spell_shadow_haunting"
+  },
+  {
+    "classId": 9,
+    "spellId": 58079,
+    "glyphType": 2,
+    "itemId": 43389,
+    "requiredLevel": 15,
+    "name": "Glyph of Unending Breath",
+    "description": "Increases the swim speed of targets affected by your Unending Breath spell by 20%.",
+    "icon": "spell_shadow_demonbreath"
+  },
+  {
+    "classId": 9,
+    "spellId": 58080,
+    "glyphType": 2,
+    "itemId": 43392,
+    "requiredLevel": 70,
+    "name": "Glyph of Curse of Exhausion",
+    "description": "Increases the range of your Curse of Exhaustion spell by 5 yards.",
+    "icon": "spell_shadow_grimward"
+  },
+  {
+    "classId": 9,
+    "spellId": 58081,
+    "glyphType": 2,
+    "itemId": 43391,
+    "requiredLevel": 22,
+    "name": "Glyph of Kilrogg",
+    "description": "Increases the movement speed of your Eye of Kilrogg by 50% and allows it to fly in areas where flying mounts are enabled.",
+    "icon": "spell_shadow_evileye"
+  },
+  {
+    "classId": 9,
+    "spellId": 58094,
+    "glyphType": 2,
+    "itemId": 43394,
+    "requiredLevel": 68,
+    "name": "Glyph of Souls",
+    "description": "Reduces the mana cost of your Ritual of Souls spell by 70%.",
+    "icon": "spell_shadow_shadesofdarkness"
+  },
+  {
+    "classId": 1,
+    "spellId": 58095,
+    "glyphType": 2,
+    "itemId": 43395,
+    "requiredLevel": 15,
+    "name": "Glyph of Battle",
+    "description": "Increases the duration of your Battle Shout ability by 2 min.",
+    "icon": "ability_warrior_battleshout"
+  },
+  {
+    "classId": 1,
+    "spellId": 58096,
+    "glyphType": 2,
+    "itemId": 43396,
+    "requiredLevel": 15,
+    "name": "Glyph of Bloodrage",
+    "description": "Reduces the health cost of your Bloodrage ability by 100%.",
+    "icon": "ability_racial_bloodrage"
+  },
+  {
+    "classId": 1,
+    "spellId": 58097,
+    "glyphType": 2,
+    "itemId": 43397,
+    "requiredLevel": 15,
+    "name": "Glyph of Charge",
+    "description": "Increases the range of your Charge ability by 5 yards.",
+    "icon": "ability_warrior_charge"
+  },
+  {
+    "classId": 1,
+    "spellId": 58098,
+    "glyphType": 2,
+    "itemId": 43399,
+    "requiredLevel": 15,
+    "name": "Glyph of Thunder Clap",
+    "description": "Increases the radius of your Thunder Clap ability by 2 yards.",
+    "icon": "spell_nature_thunderclap"
+  },
+  {
+    "classId": 1,
+    "spellId": 58099,
+    "glyphType": 2,
+    "itemId": 43398,
+    "requiredLevel": 16,
+    "name": "Glyph of Mocking Blow",
+    "description": "Increases the damage of your Mocking Blow ability by 25%.",
+    "icon": "ability_warrior_punishingblow"
+  },
+  {
+    "classId": 1,
+    "spellId": 58104,
+    "glyphType": 2,
+    "itemId": 43400,
+    "requiredLevel": 62,
+    "name": "Glyph of Enduring Victory",
+    "description": "Increases the window of opportunity in which you can use Victory Rush by 5 sec.",
+    "icon": "ability_warrior_devastate"
+  },
+  {
+    "classId": 9,
+    "spellId": 58107,
+    "glyphType": 2,
+    "itemId": 43393,
+    "requiredLevel": 30,
+    "name": "Glyph of Enslave Demon",
+    "description": "Reduces the cast time of your Enslave Demon spell by 50%.",
+    "icon": "spell_shadow_enslavedemon"
+  },
+  {
+    "classId": 11,
+    "spellId": 58132,
+    "glyphType": 2,
+    "itemId": 43336,
+    "requiredLevel": 50,
+    "name": "Glyph of the Black Bear",
+    "description": "Your bear and dire bear forms take on the appearance of a black bear.",
+    "icon": "inv_misc_questionmark"
+  },
+  {
+    "classId": 11,
+    "spellId": 58133,
+    "glyphType": 2,
+    "itemId": 43337,
+    "requiredLevel": 50,
+    "name": "Glyph of the Forest Lynx",
+    "description": "You appear as a forest lynx while in Cat Form.",
+    "icon": "inv_misc_questionmark"
+  },
+  {
+    "classId": 7,
+    "spellId": 58134,
+    "glyphType": 2,
+    "itemId": 43384,
+    "requiredLevel": 20,
+    "name": "Glyph of the Black Wolf",
+    "description": "You appears as a black wolf when using your Ghost Wolf spell.",
+    "icon": "inv_misc_questionmark"
+  },
+  {
+    "classId": 7,
+    "spellId": 58135,
+    "glyphType": 2,
+    "itemId": 43383,
+    "requiredLevel": 20,
+    "name": "Glyph of the Arctic Wolf",
+    "description": "You appears as an arctic wolf when using your Ghost Wolf spell.",
+    "icon": "inv_misc_questionmark"
+  },
+  {
+    "classId": 8,
+    "spellId": 58136,
+    "glyphType": 2,
+    "itemId": 43362,
+    "requiredLevel": 15,
+    "name": "Glyph of the Bear Cub",
+    "description": "Your Polymorph: Sheep spell polymorphs the target into a polar bear cub instead.",
+    "icon": "inv_misc_questionmark"
+  },
+  {
+    "classId": 5,
+    "spellId": 58228,
+    "glyphType": 2,
+    "itemId": 43374,
+    "requiredLevel": 66,
+    "name": "Glyph of Shadowfiend",
+    "description": "Receive 5% of your maximum mana if your Shadowfiend dies from damage.",
+    "icon": "spell_shadow_shadowfiend"
+  },
+  {
+    "classId": 1,
+    "spellId": 58353,
+    "glyphType": 1,
+    "itemId": 43429,
+    "requiredLevel": 15,
+    "name": "Glyph of Taunt",
+    "description": "Increases the chance for your Taunt ability to succeed by 8%.",
+    "icon": "spell_nature_reincarnation"
+  },
+  {
+    "classId": 1,
+    "spellId": 58355,
+    "glyphType": 1,
+    "itemId": 43413,
+    "requiredLevel": 15,
+    "name": "Glyph of Rapid Charge",
+    "description": "Reduces the cooldown of your Charge ability by 7%.",
+    "icon": "ability_warrior_charge"
+  },
+  {
+    "classId": 1,
+    "spellId": 58356,
+    "glyphType": 1,
+    "itemId": 43430,
+    "requiredLevel": 15,
+    "name": "Glyph of Resonating Power",
+    "description": "Reduces the rage cost of your Thunder Clap ability by 5.",
+    "icon": "spell_nature_thunderclap"
+  },
+  {
+    "classId": 1,
+    "spellId": 58357,
+    "glyphType": 1,
+    "itemId": 43418,
+    "requiredLevel": 15,
+    "name": "Glyph of Heroic Strike",
+    "description": "You gain 10 rage when you critically strike with your Heroic Strike ability.",
+    "icon": "ability_rogue_ambush"
+  },
+  {
+    "classId": 1,
+    "spellId": 58364,
+    "glyphType": 1,
+    "itemId": 43424,
+    "requiredLevel": 15,
+    "name": "Glyph of Revenge",
+    "description": "After using Revenge, your next Heroic Strike costs no rage.",
+    "icon": "ability_warrior_revenge"
+  },
+  {
+    "classId": 1,
+    "spellId": 58365,
+    "glyphType": 1,
+    "itemId": 43420,
+    "requiredLevel": 16,
+    "name": "Glyph of Barbaric Insults",
+    "description": "Your Mocking Blow ability generates 100% additional threat.",
+    "icon": "ability_warrior_punishingblow"
+  },
+  {
+    "classId": 1,
+    "spellId": 58366,
+    "glyphType": 1,
+    "itemId": 43414,
+    "requiredLevel": 20,
+    "name": "Glyph of Cleaving",
+    "description": "Increases the number of targets your Cleave hits by 1.",
+    "icon": "ability_warrior_cleave"
+  },
+  {
+    "classId": 1,
+    "spellId": 58367,
+    "glyphType": 1,
+    "itemId": 43416,
+    "requiredLevel": 24,
+    "name": "Glyph of Execution",
+    "description": "Your Execute ability deals damage as if you had 10 additional rage.",
+    "icon": "inv_sword_48"
+  },
+  {
+    "classId": 1,
+    "spellId": 58368,
+    "glyphType": 1,
+    "itemId": 43421,
+    "requiredLevel": 40,
+    "name": "Glyph of Mortal Strike",
+    "description": "Increases the damage of your Mortal Strike ability by 10%.",
+    "icon": "ability_warrior_savageblow"
+  },
+  {
+    "classId": 1,
+    "spellId": 58369,
+    "glyphType": 1,
+    "itemId": 43412,
+    "requiredLevel": 40,
+    "name": "Glyph of Bloodthirst",
+    "description": "Increases the healing you receive from your Bloodthirst ability by 100%.",
+    "icon": "spell_nature_bloodlust"
+  },
+  {
+    "classId": 1,
+    "spellId": 58370,
+    "glyphType": 1,
+    "itemId": 43432,
+    "requiredLevel": 36,
+    "name": "Glyph of Whirlwind",
+    "description": "Reduces the cooldown of your Whirlwind by 2 sec.",
+    "icon": "ability_whirlwind"
+  },
+  {
+    "classId": 1,
+    "spellId": 58372,
+    "glyphType": 1,
+    "itemId": 43417,
+    "requiredLevel": 15,
+    "name": "Glyph of Hamstring",
+    "description": "Gives your Hamstring ability a 10% chance to immobilize the target for 5 sec.",
+    "icon": "ability_shockwave"
+  },
+  {
+    "classId": 1,
+    "spellId": 58375,
+    "glyphType": 1,
+    "itemId": 43425,
+    "requiredLevel": 40,
+    "name": "Glyph of Blocking",
+    "description": "Increases your block value by 10% for 10 sec after using your Shield Slam ability.",
+    "icon": "inv_shield_05"
+  },
+  {
+    "classId": 1,
+    "spellId": 58376,
+    "glyphType": 1,
+    "itemId": 43426,
+    "requiredLevel": 20,
+    "name": "Glyph of Last Stand",
+    "description": "Reduces the cooldown of your Last Stand ability by 1 min.",
+    "icon": "spell_holy_ashestoashes"
+  },
+  {
+    "classId": 1,
+    "spellId": 58377,
+    "glyphType": 1,
+    "itemId": 43419,
+    "requiredLevel": 70,
+    "name": "Glyph of Intervene",
+    "description": "Increases the number attacks you intercept for your Intervene target by 1.",
+    "icon": "ability_warrior_victoryrush"
+  },
+  {
+    "classId": 1,
+    "spellId": 58382,
+    "glyphType": 1,
+    "itemId": 43431,
+    "requiredLevel": 15,
+    "name": "Glyph of Victory Rush",
+    "description": "Your Victory Rush ability has a 30% increased critical strike chance.",
+    "icon": "ability_warrior_devastate"
+  },
+  {
+    "classId": 1,
+    "spellId": 58384,
+    "glyphType": 1,
+    "itemId": 43428,
+    "requiredLevel": 30,
+    "name": "Glyph of Sweeping Strikes",
+    "description": "Reduces the rage cost of your Sweeping Strikes ability by 100%.",
+    "icon": "ability_rogue_slicedice"
+  },
+  {
+    "classId": 1,
+    "spellId": 58385,
+    "glyphType": 1,
+    "itemId": 43423,
+    "requiredLevel": 15,
+    "name": "Glyph of Rending",
+    "description": "Increases the duration of your Rend ability by 6 sec.",
+    "icon": "ability_gouge"
+  },
+  {
+    "classId": 1,
+    "spellId": 58386,
+    "glyphType": 1,
+    "itemId": 43422,
+    "requiredLevel": 15,
+    "name": "Glyph of Overpower",
+    "description": "Adds a 100% chance to enable your Overpower when your attacks are parried.",
+    "icon": "ability_meleedamage"
+  },
+  {
+    "classId": 1,
+    "spellId": 58387,
+    "glyphType": 1,
+    "itemId": 43427,
+    "requiredLevel": 15,
+    "name": "Glyph of Sunder Armor",
+    "description": "Your Sunder Armor ability affects a second nearby target.",
+    "icon": "ability_warrior_sunder"
+  },
+  {
+    "classId": 1,
+    "spellId": 58388,
+    "glyphType": 1,
+    "itemId": 43415,
+    "requiredLevel": 50,
+    "name": "Glyph of Devastate",
+    "description": "Your Devastate ability now applies two stacks of Sunder Armor.",
+    "icon": "inv_sword_11"
+  },
+  {
+    "classId": 6,
+    "spellId": 58613,
+    "glyphType": 1,
+    "itemId": 43538,
+    "requiredLevel": 55,
+    "name": "Glyph of Dark Command",
+    "description": "Increases the chance for your Dark Command ability to work successfully by 8%.",
+    "icon": "spell_nature_shamanrage"
+  },
+  {
+    "classId": 6,
+    "spellId": 58616,
+    "glyphType": 1,
+    "itemId": 43534,
+    "requiredLevel": 55,
+    "name": "Glyph of Heart Strike",
+    "description": "Your Heart Strike also reduces the movement speed of your target by 50% for 10 sec.",
+    "icon": "inv_weapon_shortblade_40"
+  },
+  {
+    "classId": 6,
+    "spellId": 58618,
+    "glyphType": 1,
+    "itemId": 43552,
+    "requiredLevel": 55,
+    "name": "Glyph of Strangulate",
+    "description": "Reduces the cooldown of your Strangulate by 20 sec.",
+    "icon": "spell_shadow_soulleech_3"
+  },
+  {
+    "classId": 6,
+    "spellId": 58620,
+    "glyphType": 1,
+    "itemId": 43537,
+    "requiredLevel": 55,
+    "name": "Glyph of Chains of Ice",
+    "description": "Your Chains of Ice also causes 144 to 156 Frost damage, increased by your attack power.",
+    "icon": "spell_frost_chainsofice"
+  },
+  {
+    "classId": 6,
+    "spellId": 58623,
+    "glyphType": 1,
+    "itemId": 43533,
+    "requiredLevel": 55,
+    "name": "Glyph of Anti-Magic Shell",
+    "description": "Increases the duration of your Anti-Magic Shell by 2 sec.",
+    "icon": "spell_shadow_antimagicshell"
+  },
+  {
+    "classId": 6,
+    "spellId": 58625,
+    "glyphType": 1,
+    "itemId": 43545,
+    "requiredLevel": 55,
+    "name": "Glyph of Icebound Fortitude",
+    "description": "Your Icebound Fortitude now always grants at least 40% damage reduction, regardless of your defense skill.",
+    "icon": "spell_deathknight_iceboundfortitude"
+  },
+  {
+    "classId": 6,
+    "spellId": 58629,
+    "glyphType": 1,
+    "itemId": 43542,
+    "requiredLevel": 55,
+    "name": "Glyph of Death and Decay",
+    "description": "Damage of your Death and Decay spell increased by 20%.",
+    "icon": "spell_shadow_deathanddecay"
+  },
+  {
+    "classId": 6,
+    "spellId": 58631,
+    "glyphType": 1,
+    "itemId": 43546,
+    "requiredLevel": 55,
+    "name": "Glyph of Icy Touch",
+    "description": "Your Frost Fever disease deals 20% additional damage.",
+    "icon": "spell_deathknight_icetouch"
+  },
+  {
+    "classId": 6,
+    "spellId": 58635,
+    "glyphType": 1,
+    "itemId": 43553,
+    "requiredLevel": 55,
+    "name": "Glyph of Unbreakable Armor",
+    "description": "Increases the total armor granted by Unbreakable Armor to 30%.",
+    "icon": "inv_armor_helm_plate_naxxramas_raidwarrior_c_01"
+  },
+  {
+    "classId": 6,
+    "spellId": 58640,
+    "glyphType": 2,
+    "itemId": 43535,
+    "requiredLevel": 55,
+    "name": "Glyph of Blood Tap",
+    "description": "Your Blood Tap no longer causes damage to you.",
+    "icon": "spell_deathknight_bloodtap"
+  },
+  {
+    "classId": 6,
+    "spellId": 58642,
+    "glyphType": 1,
+    "itemId": 43551,
+    "requiredLevel": 55,
+    "name": "Glyph of Scourge Strike",
+    "description": "Your Scourge Strike increases the duration of your diseases on the target by 3 sec, up to a maximum of 9 additional seconds.",
+    "icon": "spell_deathknight_scourgestrike"
+  },
+  {
+    "classId": 6,
+    "spellId": 58647,
+    "glyphType": 1,
+    "itemId": 43543,
+    "requiredLevel": 55,
+    "name": "Glyph of Frost Strike",
+    "description": "Reduces the cost of your Frost Strike by 8 Runic Power.",
+    "icon": "spell_deathknight_empowerruneblade2"
+  },
+  {
+    "classId": 6,
+    "spellId": 58657,
+    "glyphType": 1,
+    "itemId": 43548,
+    "requiredLevel": 55,
+    "name": "Glyph of Plague Strike",
+    "description": "Your Plague Strike does 20% additional damage.",
+    "icon": "spell_deathknight_empowerruneblade"
+  },
+  {
+    "classId": 6,
+    "spellId": 58669,
+    "glyphType": 1,
+    "itemId": 43550,
+    "requiredLevel": 55,
+    "name": "Glyph of Rune Strike",
+    "description": "Increases the critical strike chance of your Rune Strike by 10%.",
+    "icon": "spell_deathknight_darkconviction"
+  },
+  {
+    "classId": 6,
+    "spellId": 58671,
+    "glyphType": 1,
+    "itemId": 43547,
+    "requiredLevel": 55,
+    "name": "Glyph of Obliterate",
+    "description": "Increases the damage of your Obliterate ability by 25%.",
+    "icon": "spell_deathknight_classicon"
+  },
+  {
+    "classId": 6,
+    "spellId": 58673,
+    "glyphType": 1,
+    "itemId": 43536,
+    "requiredLevel": 55,
+    "name": "Glyph of Bone Shield",
+    "description": "Adds 1 additional charge to your Bone Shield.",
+    "icon": "inv_chest_leather_13"
+  },
+  {
+    "classId": 6,
+    "spellId": 58676,
+    "glyphType": 1,
+    "itemId": 43554,
+    "requiredLevel": 55,
+    "name": "Glyph of Vampiric Blood",
+    "description": "Increases  the duration of your Vampiric Blood by 5 sec.",
+    "icon": "spell_shadow_lifedrain"
+  },
+  {
+    "classId": 6,
+    "spellId": 58677,
+    "glyphType": 2,
+    "itemId": 43539,
+    "requiredLevel": 55,
+    "name": "Glyph of Death's Embrace",
+    "description": "Your Death Coil refunds 20 runic power when used to heal.",
+    "icon": "spell_shadow_deathcoil"
+  },
+  {
+    "classId": 6,
+    "spellId": 58680,
+    "glyphType": 2,
+    "itemId": 43544,
+    "requiredLevel": 55,
+    "name": "Glyph of Horn of Winter",
+    "description": "Increases the duration of your Horn of Winter ability by 1 min.",
+    "icon": "inv_misc_horn_02"
+  },
+  {
+    "classId": 6,
+    "spellId": 58686,
+    "glyphType": 1,
+    "itemId": 43549,
+    "requiredLevel": 55,
+    "name": "Glyph of the Ghoul",
+    "description": "Your Ghoul receives an additional 40% of your Strength and 40% of your Stamina.",
+    "icon": "spell_shadow_animatedead"
+  },
+  {
+    "classId": 11,
+    "spellId": 59219,
+    "glyphType": 2,
+    "itemId": 43674,
+    "requiredLevel": 16,
+    "name": "Glyph of Dash",
+    "description": "Reduces the cooldown of your Dash ability by 20%.",
+    "icon": "ability_druid_dash"
+  },
+  {
+    "classId": 7,
+    "spellId": 59289,
+    "glyphType": 2,
+    "itemId": 43725,
+    "requiredLevel": 16,
+    "name": "Glyph of Ghost Wolf",
+    "description": "Your Ghost Wolf form regenerates an additional 1% of your maximum health every 5 sec.",
+    "icon": "spell_nature_spiritwolf"
+  },
+  {
+    "classId": 6,
+    "spellId": 59307,
+    "glyphType": 2,
+    "itemId": 43671,
+    "requiredLevel": 55,
+    "name": "Glyph of Corpse Explosion",
+    "description": "Increases the radius of effect on Corpse Explosion by 5 yards.",
+    "icon": "ability_creature_disease_02"
+  },
+  {
+    "classId": 6,
+    "spellId": 59309,
+    "glyphType": 2,
+    "itemId": 43672,
+    "requiredLevel": 55,
+    "name": "Glyph of Pestilence",
+    "description": "Increases the radius of your Pestilence effect by 5 yards.",
+    "icon": "spell_shadow_plaguecloud"
+  },
+  {
+    "classId": 6,
+    "spellId": 59327,
+    "glyphType": 1,
+    "itemId": 43825,
+    "requiredLevel": 55,
+    "name": "Glyph of Rune Tap",
+    "description": "Your Rune Tap now heals you for an additional 1% of your maximum health, and also heals your party for 10% of their maximum health.",
+    "icon": "spell_deathknight_runetap"
+  },
+  {
+    "classId": 6,
+    "spellId": 59332,
+    "glyphType": 1,
+    "itemId": 43826,
+    "requiredLevel": 55,
+    "name": "Glyph of Blood Strike",
+    "description": "Your Blood Strike causes an additional 20% damage to snared targets.",
+    "icon": "spell_deathknight_deathstrike"
+  },
+  {
+    "classId": 6,
+    "spellId": 59336,
+    "glyphType": 1,
+    "itemId": 43827,
+    "requiredLevel": 55,
+    "name": "Glyph of Death Strike",
+    "description": "Increases your Death Strike's damage by 1% for every 1 runic power you currently have (up to a maximum of 25%).  The runic power is not consumed by this effect.",
+    "icon": "spell_deathknight_butcher2"
+  },
+  {
+    "classId": 6,
+    "spellId": 60200,
+    "glyphType": 2,
+    "itemId": 43673,
+    "requiredLevel": 55,
+    "name": "Glyph of Raise Dead",
+    "description": "Your Raise Dead spell no longer requires a reagent.",
+    "icon": "spell_shadow_animatedead"
+  },
+  {
+    "classId": 8,
+    "spellId": 61205,
+    "glyphType": 1,
+    "itemId": 44684,
+    "requiredLevel": 75,
+    "name": "Glyph of Frostfire",
+    "description": "Increases the initial damage dealt by Frostfire Bolt by 2% and its critical strike chance by 2%.",
+    "icon": "ability_mage_frostfirebolt"
+  },
+  {
+    "classId": 11,
+    "spellId": 62080,
+    "glyphType": 1,
+    "itemId": 44928,
+    "requiredLevel": 70,
+    "name": "Glyph of Focus",
+    "description": "Increases the damage done by Starfall by 10%, but decreases its radius by 50%.",
+    "icon": "ability_druid_starfall"
+  },
+  {
+    "classId": 8,
+    "spellId": 62126,
+    "glyphType": 2,
+    "itemId": 44920,
+    "requiredLevel": 70,
+    "name": "Glyph of Blast Wave",
+    "description": "The mana cost of your Blast Wave spell is reduced by 15%, but it no longer knocks enemies back.",
+    "icon": "spell_holy_excorcism_02"
+  },
+  {
+    "classId": 7,
+    "spellId": 62132,
+    "glyphType": 2,
+    "itemId": 44923,
+    "requiredLevel": 70,
+    "name": "Glyph of Thunderstorm",
+    "description": "Increases the mana you receive from your Thunderstorm spell by 2%, but it no longer knocks enemies back.",
+    "icon": "spell_shaman_thunderstorm"
+  },
+  {
+    "classId": 11,
+    "spellId": 62135,
+    "glyphType": 2,
+    "itemId": 44922,
+    "requiredLevel": 70,
+    "name": "Glyph of Typhoon",
+    "description": "Reduces the cost of your Typhoon spell by 8% and increases its radius by 10 yards, but it no longer knocks enemies back.",
+    "icon": "ability_druid_typhoon"
+  },
+  {
+    "classId": 8,
+    "spellId": 62210,
+    "glyphType": 1,
+    "itemId": 44955,
+    "requiredLevel": 64,
+    "name": "Glyph of Arcane Blast",
+    "description": "Increases the damage from your Arcane Blast buff by 3%.",
+    "icon": "spell_arcane_blast"
+  },
+  {
+    "classId": 6,
+    "spellId": 62259,
+    "glyphType": 1,
+    "itemId": 43541,
+    "requiredLevel": 55,
+    "name": "Glyph of Death Grip",
+    "description": "When you deal a killing blow that grants honor or experience, the cooldown of your Death Grip is refreshed.",
+    "icon": "spell_deathknight_strangulate"
+  },
+  {
+    "classId": 11,
+    "spellId": 62969,
+    "glyphType": 1,
+    "itemId": 45601,
+    "requiredLevel": 60,
+    "name": "Glyph of Berserk",
+    "description": "Increases the duration of Berserk by 5 sec.",
+    "icon": "ability_druid_berserk"
+  },
+  {
+    "classId": 11,
+    "spellId": 62970,
+    "glyphType": 1,
+    "itemId": 45602,
+    "requiredLevel": 60,
+    "name": "Glyph of Wild Growth",
+    "description": "Wild Growth can affect 1 additional target.",
+    "icon": "ability_druid_flourish"
+  },
+  {
+    "classId": 11,
+    "spellId": 62971,
+    "glyphType": 1,
+    "itemId": 45603,
+    "requiredLevel": 80,
+    "name": "Glyph of Nourish",
+    "description": "Your Nourish heals an additional 6% for each of your heal over time effects present on the target.",
+    "icon": "ability_druid_nourish"
+  },
+  {
+    "classId": 11,
+    "spellId": 63055,
+    "glyphType": 1,
+    "itemId": 45604,
+    "requiredLevel": 75,
+    "name": "Glyph of Savage Roar",
+    "description": "Your Savage Roar ability grants an additional 3% bonus damage done.",
+    "icon": "ability_druid_skinteeth"
+  },
+  {
+    "classId": 11,
+    "spellId": 63056,
+    "glyphType": 1,
+    "itemId": 45622,
+    "requiredLevel": 50,
+    "name": "Glyph of Monsoon",
+    "description": "Reduces the cooldown of your Typhoon spell by 3 sec.",
+    "icon": "ability_druid_typhoon"
+  },
+  {
+    "classId": 11,
+    "spellId": 63057,
+    "glyphType": 1,
+    "itemId": 45623,
+    "requiredLevel": 44,
+    "name": "Glyph of Barkskin",
+    "description": "Reduces the chance you'll be critically hit by 25% while Barkskin is active.",
+    "icon": "spell_nature_stoneclawtotem"
+  },
+  {
+    "classId": 3,
+    "spellId": 63065,
+    "glyphType": 1,
+    "itemId": 45625,
+    "requiredLevel": 60,
+    "name": "Glyph of Chimera Shot",
+    "description": "Reduces the cooldown of Chimera Shot by 1 sec.",
+    "icon": "ability_hunter_chimerashot2"
+  },
+  {
+    "classId": 3,
+    "spellId": 63066,
+    "glyphType": 1,
+    "itemId": 45731,
+    "requiredLevel": 60,
+    "name": "Glyph of Explosive Shot",
+    "description": "Increases the critical strike chance of Explosive Shot by 4%.",
+    "icon": "ability_hunter_explosiveshot"
+  },
+  {
+    "classId": 3,
+    "spellId": 63067,
+    "glyphType": 1,
+    "itemId": 45732,
+    "requiredLevel": 71,
+    "name": "Glyph of Kill Shot",
+    "description": "Reduces the cooldown of Kill Shot by 6 sec.",
+    "icon": "ability_hunter_assassinate2"
+  },
+  {
+    "classId": 3,
+    "spellId": 63068,
+    "glyphType": 1,
+    "itemId": 45733,
+    "requiredLevel": 34,
+    "name": "Glyph of Explosive Trap",
+    "description": "The periodic damage from your Explosive Trap can now be critical strikes.",
+    "icon": "spell_fire_selfdestruct"
+  },
+  {
+    "classId": 3,
+    "spellId": 63069,
+    "glyphType": 1,
+    "itemId": 45734,
+    "requiredLevel": 20,
+    "name": "Glyph of Scatter Shot",
+    "description": "Increases the range of Scatter Shot by 3 yards.",
+    "icon": "ability_golemstormbolt"
+  },
+  {
+    "classId": 3,
+    "spellId": 63086,
+    "glyphType": 1,
+    "itemId": 45735,
+    "requiredLevel": 15,
+    "name": "Glyph of Raptor Strike",
+    "description": "Reduces damage taken by 20% for 3 sec after using Raptor Strike.",
+    "icon": "ability_meleedamage"
+  },
+  {
+    "classId": 8,
+    "spellId": 63090,
+    "glyphType": 1,
+    "itemId": 45736,
+    "requiredLevel": 60,
+    "name": "Glyph of Deep Freeze",
+    "description": "Increases the range of Deep Freeze by 10 yards.",
+    "icon": "ability_mage_deepfreeze"
+  },
+  {
+    "classId": 8,
+    "spellId": 63091,
+    "glyphType": 1,
+    "itemId": 45737,
+    "requiredLevel": 60,
+    "name": "Glyph of Living Bomb",
+    "description": "The periodic damage from your Living Bomb can now be critical strikes.",
+    "icon": "ability_mage_livingbomb"
+  },
+  {
+    "classId": 8,
+    "spellId": 63092,
+    "glyphType": 1,
+    "itemId": 45738,
+    "requiredLevel": 60,
+    "name": "Glyph of Arcane Barrage",
+    "description": "Reduces the mana cost of Arcane Barrage by 20%.",
+    "icon": "ability_mage_arcanebarrage"
+  },
+  {
+    "classId": 8,
+    "spellId": 63093,
+    "glyphType": 1,
+    "itemId": 45739,
+    "requiredLevel": 80,
+    "name": "Glyph of Mirror Image",
+    "description": "Your Mirror Image spell now creates a 4th copy.",
+    "icon": "spell_magic_lesserinvisibilty"
+  },
+  {
+    "classId": 8,
+    "spellId": 63095,
+    "glyphType": 1,
+    "itemId": 45740,
+    "requiredLevel": 46,
+    "name": "Glyph of Ice Barrier",
+    "description": "Increases the amount of damage absorbed by your Ice Barrier by 30%.",
+    "icon": "spell_ice_lament"
+  },
+  {
+    "classId": 2,
+    "spellId": 63218,
+    "glyphType": 1,
+    "itemId": 45741,
+    "requiredLevel": 60,
+    "name": "Glyph of Beacon of Light",
+    "description": "Increases the duration of Beacon of Light by 30 sec.",
+    "icon": "ability_paladin_beaconoflight"
+  },
+  {
+    "classId": 2,
+    "spellId": 63219,
+    "glyphType": 1,
+    "itemId": 45742,
+    "requiredLevel": 60,
+    "name": "Glyph of Hammer of the Righteous",
+    "description": "Your Hammer of the Righteous hits 1 additional target.",
+    "icon": "ability_paladin_hammeroftherighteous"
+  },
+  {
+    "classId": 2,
+    "spellId": 63220,
+    "glyphType": 1,
+    "itemId": 45743,
+    "requiredLevel": 60,
+    "name": "Glyph of Divine Storm",
+    "description": "Your Divine Storm now heals for an additional 15% of the damage it causes.",
+    "icon": "ability_paladin_divinestorm"
+  },
+  {
+    "classId": 2,
+    "spellId": 63222,
+    "glyphType": 1,
+    "itemId": 45744,
+    "requiredLevel": 75,
+    "name": "Glyph of Shield of Righteousness",
+    "description": "Reduces the mana cost of Shield of Righteousness by 80%.",
+    "icon": "ability_paladin_shieldofvengeance"
+  },
+  {
+    "classId": 2,
+    "spellId": 63223,
+    "glyphType": 1,
+    "itemId": 45745,
+    "requiredLevel": 71,
+    "name": "Glyph of Divine Plea",
+    "description": "While Divine Plea is active, you take 3% reduced damage from all sources.",
+    "icon": "spell_holy_aspiration"
+  },
+  {
+    "classId": 2,
+    "spellId": 63224,
+    "glyphType": 1,
+    "itemId": 45746,
+    "requiredLevel": 40,
+    "name": "Glyph of Holy Shock",
+    "description": "Reduces the cooldown of Holy Shock by 1 sec.",
+    "icon": "spell_holy_searinglight"
+  },
+  {
+    "classId": 2,
+    "spellId": 63225,
+    "glyphType": 1,
+    "itemId": 45747,
+    "requiredLevel": 26,
+    "name": "Glyph of Salvation",
+    "description": "When you cast Hand of Salvation on yourself, it also reduces damage taken by 20%.",
+    "icon": "spell_holy_sealofsalvation"
+  },
+  {
+    "classId": 5,
+    "spellId": 63229,
+    "glyphType": 1,
+    "itemId": 45753,
+    "requiredLevel": 60,
+    "name": "Glyph of Dispersion",
+    "description": "Reduces the cooldown on Dispersion by 45 sec.",
+    "icon": "spell_shadow_dispersion"
+  },
+  {
+    "classId": 5,
+    "spellId": 63231,
+    "glyphType": 1,
+    "itemId": 45755,
+    "requiredLevel": 60,
+    "name": "Glyph of Guardian Spirit",
+    "description": "If your Guardian Spirit lasts its entire duration without being triggered, the cooldown is reset to 1 min.",
+    "icon": "spell_holy_guardianspirit"
+  },
+  {
+    "classId": 5,
+    "spellId": 63235,
+    "glyphType": 1,
+    "itemId": 45756,
+    "requiredLevel": 60,
+    "name": "Glyph of Penance",
+    "description": "Reduces the cooldown of Penance by 2 sec.",
+    "icon": "spell_holy_penance"
+  },
+  {
+    "classId": 5,
+    "spellId": 63237,
+    "glyphType": 1,
+    "itemId": 45757,
+    "requiredLevel": 75,
+    "name": "Glyph of Mind Sear",
+    "description": "Increases the radius of effect on Mind Sear by 5 yards.",
+    "icon": "spell_shadow_mindshear"
+  },
+  {
+    "classId": 5,
+    "spellId": 63246,
+    "glyphType": 1,
+    "itemId": 45758,
+    "requiredLevel": 60,
+    "name": "Glyph of Hymn of Hope",
+    "description": "Your Hymn of Hope lasts an additional 2 sec.",
+    "icon": "spell_holy_symbolofhope"
+  },
+  {
+    "classId": 5,
+    "spellId": 63248,
+    "glyphType": 1,
+    "itemId": 45760,
+    "requiredLevel": 50,
+    "name": "Glyph of Pain Suppression",
+    "description": "Allows Pain Suppression to be cast while stunned.",
+    "icon": "spell_holy_painsupression"
+  },
+  {
+    "classId": 4,
+    "spellId": 63249,
+    "glyphType": 1,
+    "itemId": 45761,
+    "requiredLevel": 60,
+    "name": "Glyph of Hunger For Blood",
+    "description": "Increases the bonus damage from Hunger For Blood by 3%.",
+    "icon": "ability_rogue_hungerforblood"
+  },
+  {
+    "classId": 4,
+    "spellId": 63252,
+    "glyphType": 1,
+    "itemId": 45762,
+    "requiredLevel": 60,
+    "name": "Glyph of Killing Spree",
+    "description": "Reduces the cooldown on Killing Spree by 45 sec.",
+    "icon": "ability_rogue_murderspree"
+  },
+  {
+    "classId": 4,
+    "spellId": 63253,
+    "glyphType": 1,
+    "itemId": 45764,
+    "requiredLevel": 60,
+    "name": "Glyph of Shadow Dance",
+    "description": "Increases the duration of Shadow Dance by 2 sec.",
+    "icon": "ability_rogue_shadowdance"
+  },
+  {
+    "classId": 4,
+    "spellId": 63254,
+    "glyphType": 1,
+    "itemId": 45766,
+    "requiredLevel": 80,
+    "name": "Glyph of Fan of Knives",
+    "description": "Increases the damage done by Fan of Knives by 20%.",
+    "icon": "ability_rogue_fanofknives"
+  },
+  {
+    "classId": 4,
+    "spellId": 63256,
+    "glyphType": 1,
+    "itemId": 45767,
+    "requiredLevel": 75,
+    "name": "Glyph of Tricks of the Trade",
+    "description": "The bonus damage and threat redirection granted by your Tricks of the Trade ability lasts an additional 4 sec.",
+    "icon": "ability_rogue_tricksofthetrade"
+  },
+  {
+    "classId": 4,
+    "spellId": 63268,
+    "glyphType": 1,
+    "itemId": 45768,
+    "requiredLevel": 50,
+    "name": "Glyph of Mutilate",
+    "description": "Reduces the cost of Mutilate by 5 energy.",
+    "icon": "ability_rogue_shadowstrikes"
+  },
+  {
+    "classId": 4,
+    "spellId": 63269,
+    "glyphType": 1,
+    "itemId": 45769,
+    "requiredLevel": 66,
+    "name": "Glyph of Cloak of Shadows",
+    "description": "While Cloak of Shadows is active, you take 40% less physical damage.",
+    "icon": "spell_shadow_nethercloak"
+  },
+  {
+    "classId": 7,
+    "spellId": 63270,
+    "glyphType": 1,
+    "itemId": 45770,
+    "requiredLevel": 60,
+    "name": "Glyph of Thunder",
+    "description": "Reduces the cooldown on Thunderstorm by 10 sec.",
+    "icon": "spell_shaman_thunderstorm"
+  },
+  {
+    "classId": 7,
+    "spellId": 63271,
+    "glyphType": 1,
+    "itemId": 45771,
+    "requiredLevel": 60,
+    "name": "Glyph of Feral Spirit",
+    "description": "Your spirit wolves gain an additional 30% of your attack power.",
+    "icon": "spell_shaman_feralspirit"
+  },
+  {
+    "classId": 7,
+    "spellId": 63273,
+    "glyphType": 1,
+    "itemId": 45772,
+    "requiredLevel": 60,
+    "name": "Glyph of Riptide",
+    "description": "Increases the duration of Riptide by 6 sec.",
+    "icon": "spell_nature_riptide"
+  },
+  {
+    "classId": 7,
+    "spellId": 63279,
+    "glyphType": 1,
+    "itemId": 45775,
+    "requiredLevel": 50,
+    "name": "Glyph of Earth Shield",
+    "description": "Increases the amount healed by your Earth Shield by 20%.",
+    "icon": "spell_nature_skinofearth"
+  },
+  {
+    "classId": 7,
+    "spellId": 63280,
+    "glyphType": 1,
+    "itemId": 45776,
+    "requiredLevel": 50,
+    "name": "Glyph of Totem of Wrath",
+    "description": "When you cast Totem of Wrath, you gain 30% of the totem's bonus spell power for 5 min.",
+    "icon": "spell_fire_totemofwrath"
+  },
+  {
+    "classId": 7,
+    "spellId": 63291,
+    "glyphType": 1,
+    "itemId": 45777,
+    "requiredLevel": 80,
+    "name": "Glyph of Hex",
+    "description": "Increases the damage your Hex target can take before the Hex effect is removed by 20%.",
+    "icon": "spell_shaman_hex"
+  },
+  {
+    "classId": 7,
+    "spellId": 63298,
+    "glyphType": 1,
+    "itemId": 45778,
+    "requiredLevel": 15,
+    "name": "Glyph of Stoneclaw Totem",
+    "description": "Your Stoneclaw Totem also places a damage absorb shield on you, equal to 4 times the strength of the shield it places on your totems.",
+    "icon": "spell_nature_stoneclawtotem"
+  },
+  {
+    "classId": 9,
+    "spellId": 63302,
+    "glyphType": 1,
+    "itemId": 45779,
+    "requiredLevel": 60,
+    "name": "Glyph of Haunt",
+    "description": "The bonus damage granted by your Haunt spell is increased by an additional 3%.",
+    "icon": "ability_warlock_haunt"
+  },
+  {
+    "classId": 9,
+    "spellId": 63303,
+    "glyphType": 1,
+    "itemId": 45780,
+    "requiredLevel": 60,
+    "name": "Glyph of Metamorphosis",
+    "description": "Increases the duration of your Metamorphosis by 6 sec.",
+    "icon": "spell_shadow_demonform"
+  },
+  {
+    "classId": 9,
+    "spellId": 63304,
+    "glyphType": 1,
+    "itemId": 45781,
+    "requiredLevel": 60,
+    "name": "Glyph of Chaos Bolt",
+    "description": "Reduces the cooldown on Chaos Bolt by 2 sec.",
+    "icon": "ability_warlock_chaosbolt"
+  },
+  {
+    "classId": 9,
+    "spellId": 63309,
+    "glyphType": 1,
+    "itemId": 45782,
+    "requiredLevel": 80,
+    "name": "Glyph of Demonic Circle",
+    "description": "Reduces the cooldown on Demonic Circle by 4 sec.",
+    "icon": "spell_shadow_demoniccirclesummon"
+  },
+  {
+    "classId": 9,
+    "spellId": 63310,
+    "glyphType": 1,
+    "itemId": 45783,
+    "requiredLevel": 75,
+    "name": "Glyph of Shadowflame",
+    "description": "Your Shadowflame also applies a 70% movement speed slow on its victims.",
+    "icon": "ability_warlock_shadowflame"
+  },
+  {
+    "classId": 9,
+    "spellId": 63312,
+    "glyphType": 1,
+    "itemId": 45789,
+    "requiredLevel": 20,
+    "name": "Glyph of Soul Link",
+    "description": "Increases the percentage of damage shared via your Soul Link by an additional 5%.",
+    "icon": "spell_shadow_gathershadows"
+  },
+  {
+    "classId": 9,
+    "spellId": 63320,
+    "glyphType": 1,
+    "itemId": 45785,
+    "requiredLevel": 15,
+    "name": "Glyph of Life Tap",
+    "description": "When you use Life Tap or Dark Pact, you gain 20% of your Spirit as spell power for 40 sec.",
+    "icon": "spell_shadow_burningspirit"
+  },
+  {
+    "classId": 1,
+    "spellId": 63324,
+    "glyphType": 1,
+    "itemId": 45790,
+    "requiredLevel": 60,
+    "name": "Glyph of Bladestorm",
+    "description": "Reduces the cooldown on Bladestorm by 15 sec.",
+    "icon": "ability_warrior_bladestorm"
+  },
+  {
+    "classId": 1,
+    "spellId": 63325,
+    "glyphType": 1,
+    "itemId": 45792,
+    "requiredLevel": 60,
+    "name": "Glyph of Shockwave",
+    "description": "Reduces the cooldown on Shockwave by 3 sec.",
+    "icon": "ability_warrior_shockwave"
+  },
+  {
+    "classId": 1,
+    "spellId": 63326,
+    "glyphType": 1,
+    "itemId": 45793,
+    "requiredLevel": 40,
+    "name": "Glyph of Vigilance",
+    "description": "Your Vigilance ability transfers an additional 5% of your target's threat to you.",
+    "icon": "ability_warrior_vigilance"
+  },
+  {
+    "classId": 1,
+    "spellId": 63327,
+    "glyphType": 1,
+    "itemId": 45794,
+    "requiredLevel": 75,
+    "name": "Glyph of Enraged Regeneration",
+    "description": "Your Enraged Regeneration ability heals for an additional 10% of your health over its duration.",
+    "icon": "ability_warrior_focusedrage"
+  },
+  {
+    "classId": 1,
+    "spellId": 63328,
+    "glyphType": 1,
+    "itemId": 45795,
+    "requiredLevel": 64,
+    "name": "Glyph of Spell Reflection",
+    "description": "Reduces the cooldown on Spell Reflection by 1 sec.",
+    "icon": "ability_warrior_shieldreflection"
+  },
+  {
+    "classId": 1,
+    "spellId": 63329,
+    "glyphType": 1,
+    "itemId": 45797,
+    "requiredLevel": 28,
+    "name": "Glyph of Shield Wall",
+    "description": "Reduces the cooldown on Shield Wall by 2 min, but Shield Wall now only reduces damage taken by 40%.",
+    "icon": "ability_warrior_shieldwall"
+  },
+  {
+    "classId": 6,
+    "spellId": 63330,
+    "glyphType": 1,
+    "itemId": 45799,
+    "requiredLevel": 60,
+    "name": "Glyph of Dancing Rune Weapon",
+    "description": "Increases the duration of Dancing Rune Weapon by 5 sec.",
+    "icon": "inv_sword_07"
+  },
+  {
+    "classId": 6,
+    "spellId": 63331,
+    "glyphType": 1,
+    "itemId": 45800,
+    "requiredLevel": 60,
+    "name": "Glyph of Hungering Cold",
+    "description": "Reduces the cost of Hungering Cold by 40 runic power.",
+    "icon": "inv_staff_15"
+  },
+  {
+    "classId": 6,
+    "spellId": 63332,
+    "glyphType": 1,
+    "itemId": 45803,
+    "requiredLevel": 60,
+    "name": "Glyph of Unholy Blight",
+    "description": "Increases the damage done by Unholy Blight by 40%.",
+    "icon": "spell_shadow_contagion"
+  },
+  {
+    "classId": 6,
+    "spellId": 63333,
+    "glyphType": 1,
+    "itemId": 45804,
+    "requiredLevel": 55,
+    "name": "Glyph of Dark Death",
+    "description": "Increases the damage or healing done by Death Coil by 15%.",
+    "icon": "spell_shadow_deathcoil"
+  },
+  {
+    "classId": 6,
+    "spellId": 63334,
+    "glyphType": 1,
+    "itemId": 45805,
+    "requiredLevel": 55,
+    "name": "Glyph of Disease",
+    "description": "Your Pestilence ability now refreshes disease durations and secondary effects of diseases on your primary target back to their maximum duration.",
+    "icon": "spell_shadow_plaguecloud"
+  },
+  {
+    "classId": 6,
+    "spellId": 63335,
+    "glyphType": 1,
+    "itemId": 45806,
+    "requiredLevel": 60,
+    "name": "Glyph of Howling Blast",
+    "description": "Your Howling Blast ability now infects your targets with Frost Fever.",
+    "icon": "spell_frost_arcticwinds"
+  },
+  {
+    "classId": 11,
+    "spellId": 65243,
+    "glyphType": 1,
+    "itemId": 46372,
+    "requiredLevel": 20,
+    "name": "Glyph of Survival Instincts",
+    "description": "Your Survival Instincts ability grants an additional 15% of your maximum health.",
+    "icon": "ability_druid_tigersroar"
+  },
+  {
+    "classId": 11,
+    "spellId": 67598,
+    "glyphType": 1,
+    "itemId": 48720,
+    "requiredLevel": 20,
+    "name": "Glyph of Claw",
+    "description": "Reduces the energy cost of your Claw ability by 5.",
+    "icon": "ability_druid_rake"
+  },
+  {
+    "classId": 1,
+    "spellId": 68164,
+    "glyphType": 2,
+    "itemId": 49084,
+    "requiredLevel": 68,
+    "name": "Glyph of Command",
+    "description": "Increases the duration of your Commanding Shout ability by 2 min.",
+    "icon": "ability_warrior_rallyingcry"
+  },
+  {
+    "classId": 8,
+    "spellId": 70937,
+    "glyphType": 1,
+    "itemId": 50045,
+    "requiredLevel": 50,
+    "name": "Glyph of Eternal Water",
+    "description": "Your Summon Water Elemental now lasts indefinitely, but your Water Elemental can no longer cast Freeze.",
+    "icon": "spell_frost_summonwaterelemental_2"
+  },
+  {
+    "classId": 9,
+    "spellId": 70947,
+    "glyphType": 1,
+    "itemId": 50077,
+    "requiredLevel": 15,
+    "name": "Glyph of Quick Decay",
+    "description": "Your haste now reduces the time between periodic damage ticks of your Corruption spell.",
+    "icon": "spell_shadow_abominationexplosion"
+  },
+  {
+    "classId": 11,
+    "spellId": 71013,
+    "glyphType": 1,
+    "itemId": 50125,
+    "requiredLevel": 15,
+    "name": "Glyph of Rapid Rejuvenation",
+    "description": "Your haste now reduces the time between the periodic healing ticks of your Rejuvenation spell.",
+    "icon": "spell_nature_rejuvenation"
+  }
+]

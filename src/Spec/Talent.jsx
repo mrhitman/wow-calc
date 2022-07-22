@@ -52,10 +52,7 @@ export default function Talent({skill}) {
         onMouseEnter={showTooltip}
         onMouseLeave={hideTooltip}
       >
-        <img
-          src={`https://wow.zamimg.com/images/wow/icons/medium/${skill.icon}.jpg`}
-          alt={skill.icon}
-        />
+        <img src={`talents/${skill.icon}.jpg`} alt={skill.icon} />
         <div className="badge">
           {points}/{skill.ranks.length}
         </div>
