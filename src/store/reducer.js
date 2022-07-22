@@ -2,9 +2,9 @@ import { actions } from "./actions";
 import { talentsBySpecs } from "./data/talents";
 
 export function reducer(state, action) {
-  if (process.env.NODE_ENV === 'development') {
-    global.console.log({ action, state });
-  }
+  // if (process.env.NODE_ENV === 'development') {
+  //   global.console.log({ action, state });
+  // }
 
   switch (action.type) {
     case actions.ADD_POINT:
@@ -35,7 +35,6 @@ export function removePoint(state, payload) {
 }
 
 export function resetSpec(state, payload) {
-  debugger
   const specTalentIds = Object.keys(talentsBySpecs[payload]);
 
   return {
