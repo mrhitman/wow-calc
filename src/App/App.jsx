@@ -3,8 +3,8 @@ import "./App.scss";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import {WowCalculatorContext, useState} from "../store";
 
-import ClassPicker from "../ClassPicker/ClassPicker";
 import ClassSpecs from "../ClassSpecs/ClassSpecs";
+import MainClassPicker from "../ClassPicker/MainClassPicker";
 import React from "react";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <WowCalculatorContext.Provider value={{state, dispatch}}>
         <Router>
           <Routes>
-            <Route path="/" element={<ClassPicker />} />
+            <Route path="/" element={<MainClassPicker />} />
             <Route path=":className" element={<ClassSpecs />} />
           </Routes>
         </Router>

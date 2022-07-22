@@ -4,12 +4,12 @@ import {NavLink} from "react-router-dom";
 import React from "react";
 import {classes} from "../store/data/classes";
 
-function ClassPicker() {
+function MainClassPicker() {
   return (
-    <div className="heroes">
+    <div className="heroes-main">
       {classes.map((classInfo) => (
         <NavLink key={classInfo.id} to={`/${classInfo.name.toLowerCase()}`}>
-          <div className="hero-wrapper">
+          <div className="hero-wrapper-main">
             <img
               src={`./classes/${classInfo.icon.slice(6)}.jpeg`}
               alt={classInfo.name}
@@ -21,4 +21,4 @@ function ClassPicker() {
   );
 }
 
-export default ClassPicker;
+export default MainClassPicker;
