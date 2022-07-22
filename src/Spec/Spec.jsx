@@ -24,7 +24,7 @@ function Spec({specId}) {
         </div>
         <div className="flex items-center">
           <div className="spec-points">
-            {getSpecPoints(context.state, spec)}
+            {getSpecPoints(context.state, specId)}
           </div>
           <div className="spec-reset" onClick={onSpecResetClick(context)}></div>
           <img src="" alt="" />

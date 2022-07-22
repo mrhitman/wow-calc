@@ -1,13 +1,13 @@
-import React, {useContext, useState, useCallback} from "react";
+import React, {useCallback, useContext, useState} from "react";
+import {canAddPoint, getSpecPoints} from "../store/tools";
 
 import {Popover} from "react-tiny-popover";
 import TalentPopover from "./TalentPopover";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
-import {canAddPoint, getSpecPoints} from "../store/tools";
 import {spells} from "../store/data/spells";
 
-export default function Talent({skill, spec}) {
+export default function Talent({skill}) {
   const context = useContext(WowCalculatorContext);
 
   const points = context.state.points[skill.id] ?? 0;
@@ -24,7 +24,7 @@ export default function Talent({skill, spec}) {
   }
 
   const getTalentStatus = useCallback(() => {
-    const pointsInSpec = getSpecPoints(context.state, spec);
+    const pointsInSpec = getSpecPoints(context.state, skill.specId);
     if (pointsInSpec >= skill.row * 5) {
       return "active";
     }
@@ -34,7 +34,7 @@ export default function Talent({skill, spec}) {
     }
 
     return "inactive";
-  }, [nextSpell, skill.row, spec, context.state]);
+  }, [nextSpell, skill.row, skill.specId, context.state]);
 
   const state = getTalentStatus();
 

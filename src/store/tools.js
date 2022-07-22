@@ -1,14 +1,17 @@
 import { classes } from "./data/classes";
+import { talentsBySpecs } from "./data/talents";
 
-export function getSpecPoints(state, spec) {
-  const talentIds = spec.map(s => s.id);
-
+export function getSpecPoints(state, specId) {
   return Object
     .keys(state.points)
     .reduce((acc, talentId) =>
-      talentIds.includes(+talentId)
+      !!getTalent(specId, talentId)
         ? acc + state.points[talentId]
         : acc, 0);
+}
+
+export function getTalent(specId, talentId) {
+  return talentsBySpecs[specId][talentId];
 }
 
 export function getAvailablePoints(state, maxPoints = 80) {
