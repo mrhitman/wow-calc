@@ -1,5 +1,6 @@
 import React, {useContext, useEffect} from "react";
 import {findClassByName, getAvailablePoints} from "../store/tools";
+import {useParams, useSearchParams} from "react-router-dom";
 
 import ClassBanner from "../ClassBanner/ClassBanner";
 import ClassPicker from "../ClassPicker/ClassPicker";
@@ -7,11 +8,13 @@ import GlyphsModal from "../Glyphs/GlyphsModal";
 import Spec from "../Spec/Spec";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
-import {useParams} from "react-router-dom";
 
 function ClassSpecs() {
   const {state, dispatch} = useContext(WowCalculatorContext);
   const {className: name} = useParams();
+  const [params] = useSearchParams();
+  const talentsString = params.get("t");
+  console.log(talentsString);
   const classInfo = findClassByName(name);
 
   useEffect(() => {

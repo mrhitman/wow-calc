@@ -6,9 +6,11 @@ import TalentPopover from "./TalentPopover";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
 import {spells} from "../store/data/spells";
+import {useNavigate} from "react-router-dom";
 
 export default function Talent({skill}) {
   const context = useContext(WowCalculatorContext);
+  const navigate = useNavigate();
 
   const points = context.state.points[skill.id] ?? 0;
   const [isTooltipOpen, setTooltipOpen] = useState(false);
@@ -47,7 +49,7 @@ export default function Talent({skill}) {
     >
       <div
         className={`skill ${state}`}
-        onClick={onTalentLeftClick(context, skill, state)}
+        onClick={onTalentLeftClick(context, skill, state, navigate)}
         onContextMenu={onTalentRightClick(context, skill)}
         onMouseEnter={showTooltip}
         onMouseLeave={hideTooltip}
@@ -61,7 +63,7 @@ export default function Talent({skill}) {
   );
 }
 
-function onTalentLeftClick(context, skill, state) {
+function onTalentLeftClick(context, skill, state, navigate) {
   return () => {
     if (!canAddPoint(context.state, skill) || state !== "active") {
       return;
@@ -71,6 +73,9 @@ function onTalentLeftClick(context, skill, state) {
       type: actions.ADD_POINT,
       payload: skill,
     });
+
+    // @TODO encode talents to str
+    navigate(`?t=${skill.id}`, {replace: true});
   };
 }
 
