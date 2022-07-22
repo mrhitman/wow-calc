@@ -14,7 +14,7 @@ export function reducer(state, action) {
     case actions.RESET_SPEC:
       return resetSpec(state, action.payload);
     case actions.SELECT_HERO:
-      return selectHero(state, state.payload);
+      return selectHero(state, action.payload);
     default:
       return state;
   }
