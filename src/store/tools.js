@@ -20,7 +20,10 @@ export function getAvailablePoints(state, maxPoints = 80) {
 
 export function canAddPoint(state, skill, maxPoints = 80) {
   const points = state.points[skill.id] ?? 0;
-  return getAvailablePoints(state, maxPoints) > 0 && points < skill.ranks.length;
+
+  return getAvailablePoints(state, maxPoints) > 0
+    && points < skill.ranks.length
+    && skill.requires.every(r => state.points[r.id] >= r.qty);
 }
 
 export function findClassByName(name) {
