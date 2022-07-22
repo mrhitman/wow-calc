@@ -26,6 +26,63 @@ export function canAddPoint(state, skill, maxPoints = 80) {
     && skill.requires.every(r => state.points[r.id] >= r.qty);
 }
 
+export function hydrateTalentString(context, skill) {
+  const { specs } = findClassById(context.state.classId);
+
+  return specs
+    .map((specId) => hydrateTalentStringForSpec(context, skill, specId))
+    .join("-");
+}
+
+export function hydrateTalentStringForSpec(context, skill, specId) {
+  const specTalendIds = Object.keys(talentsBySpecs[specId])
+    .map(Number)
+    .sort((a, b) => a - b);
+
+  return specTalendIds
+    .map((id) => {
+      let points = context.state.points[id];
+
+      if (id === skill.id) {
+        return points ? points + 1 : 1;
+      }
+
+      return points ?? 0;
+    })
+    .join("");
+}
+
+export function dehydrateTalentString(str, classId) {
+  const points = {};
+
+  if (!str) {
+    return points;
+  }
+
+  const talentStringForSpecs = str.split('-');
+  const classInfo = findClassById(classId);
+
+  for (let i = 0; i < talentStringForSpecs.length; i++) {
+    const talentStringForSpec = talentStringForSpecs[i];
+    const specId = classInfo.specs[i];
+    const specTalendIds = Object.keys(talentsBySpecs[specId])
+      .map(Number)
+      .sort((a, b) => a - b);
+
+    for (let j = 0; j < specTalendIds.length; j++) {
+      if (talentStringForSpec[j] !== '0') {
+        points[specTalendIds[j]] = +talentStringForSpec[j];
+      }
+    }
+  }
+
+  return points;
+};
+
 export function findClassByName(name) {
   return classes.find(classInfo => classInfo.name.toLowerCase() === name.toLowerCase())
+}
+
+export function findClassById(id) {
+  return classes.find(classInfo => classInfo.id === +id);
 }

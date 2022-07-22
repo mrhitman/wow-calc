@@ -1,11 +1,8 @@
 import { actions } from "./actions";
+import { dehydrateTalentString } from "./tools";
 import { talentsBySpecs } from "./data/talents";
 
 export function reducer(state, action) {
-  // if (process.env.NODE_ENV === 'development') {
-  //   global.console.log({ action, state });
-  // }
-
   switch (action.type) {
     case actions.ADD_POINT:
       return addPoint(state, action.payload);
@@ -20,22 +17,28 @@ export function reducer(state, action) {
   }
 }
 
-export function addPoint(state, payload) {
-  return { ...state, points: { ...state.points, [payload.id]: (state.points[payload.id] ?? 0) + 1 } };
-}
-
-export function removePoint(state, payload) {
+export function addPoint(state, talent) {
   return {
     ...state,
     points: {
       ...state.points,
-      [payload.id]: Math.max(0, (state.points[payload.id] ?? 0) - 1),
+      [talent.id]: (state.points[talent.id] ?? 0) + 1
     },
   };
 }
 
-export function resetSpec(state, payload) {
-  const specTalentIds = Object.keys(talentsBySpecs[payload]);
+export function removePoint(state, talent) {
+  return {
+    ...state,
+    points: {
+      ...state.points,
+      [talent.id]: Math.max(0, (state.points[talent.id] ?? 0) - 1),
+    },
+  };
+}
+
+export function resetSpec(state, specId) {
+  const specTalentIds = Object.keys(talentsBySpecs[specId]);
 
   return {
     ...state,
@@ -48,6 +51,10 @@ export function resetSpec(state, payload) {
   };
 }
 
-export function selectHero(state, payload) {
-  return { ...state, points: {}, selectedHero: payload };
+export function selectHero(state, { id, talentsString }) {
+  return {
+    ...state,
+    points: dehydrateTalentString(talentsString, id),
+    classId: id,
+  };
 }

@@ -1,5 +1,11 @@
 import React, {useCallback, useContext, useState} from "react";
-import {canAddPoint, findClassByName, getSpecPoints} from "../store/tools";
+import {
+  canAddPoint,
+  findClassById,
+  findClassByName,
+  getSpecPoints,
+  hydrateTalentString,
+} from "../store/tools";
 
 import {Popover} from "react-tiny-popover";
 import TalentPopover from "./TalentPopover";
@@ -75,33 +81,10 @@ function onTalentLeftClick(context, skill, state, navigate) {
       payload: skill,
     });
 
-    navigate(`?t=${makeTalentsString(context, skill)}`, {replace: true});
+    navigate(`.?t=${hydrateTalentString(context, skill)}`, {
+      replace: true,
+    });
   };
-}
-
-function makeTalentsString(context, skill) {
-  const specs = findClassByName(context.state.selectedHero).specs;
-
-  return specs
-    .map((specId) => makeTalentsStringForSpec(context, skill, specId))
-    .join("-");
-}
-
-function makeTalentsStringForSpec(context, skill, specId) {
-  const specTalendIds = Object.keys(talentsBySpecs[specId])
-    .map(Number)
-    .sort((a, b) => a - b);
-  return specTalendIds
-    .map((id) => {
-      let points = context.state.points[id];
-
-      if (id === skill.id) {
-        return points ? points + 1 : 1;
-      }
-
-      return points ?? 0;
-    })
-    .join("");
 }
 
 function onTalentRightClick(context, skill) {

@@ -13,9 +13,7 @@ function GlyphsModal({small}) {
     return;
   }
 
-  const classInfo = classes.find(
-    (c) => c.name.toLowerCase() === context.state.selectedHero
-  );
+  const classInfo = classes.find((c) => c.id === context.state.classId);
 
   return (
     <>

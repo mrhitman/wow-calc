@@ -1,5 +1,9 @@
 import React, {useContext, useEffect} from "react";
-import {findClassByName, getAvailablePoints} from "../store/tools";
+import {
+  dehydrateTalentString,
+  findClassByName,
+  getAvailablePoints,
+} from "../store/tools";
 import {useParams, useSearchParams} from "react-router-dom";
 
 import ClassBanner from "../ClassBanner/ClassBanner";
@@ -14,14 +18,16 @@ function ClassSpecs() {
   const {className: name} = useParams();
   const [params] = useSearchParams();
   const talentsString = params.get("t");
-  console.log(talentsString);
   const classInfo = findClassByName(name);
 
   useEffect(() => {
-    if (state.selectedHero !== name) {
-      dispatch({type: actions.SELECT_HERO, payload: name});
+    if (state.classId !== classInfo.id) {
+      dispatch({
+        type: actions.SELECT_HERO,
+        payload: {id: classInfo.id, talentsString},
+      });
     }
-  }, [name, dispatch, state.selectedHero]);
+  }, [dispatch, state.classId, classInfo.id, talentsString]);
 
   return (
     <>
