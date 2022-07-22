@@ -1,0 +1,61 @@
+
+.banner {
+    position: relative;
+    padding: 40px 50px;
+    border: 1px solid #C4C4C4;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+
+.holder {
+    position: absolute;
+    background: #007AD0;
+    mix-blend-mode: hard-light;
+    mix-blend-mode: color-dodge;
+    opacity: 0.6;
+    filter: blur(140px);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.title-banner {
+    font-family: 'Cera Pro';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 54px;
+    // text-align: center;
+    color: #F6F6F6;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: 'Cera Pro';
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F6F6F6;
+    padding: 17px 35px;
+
+    background: #007BD0;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.44);
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.image-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 415px;
+    height: 159px;
+    img {
+        width: 415px;
+        height: 159px;
+    }
+}

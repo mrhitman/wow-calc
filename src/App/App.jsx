@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import {WowCalculatorContext, useState} from "../store";
 
+import ClassBanner from "../ClassBanner/ClassBanner";
 import ClassPicker from "../ClassPicker/ClassPicker";
 import ClassSpecs from "../ClassSpecs/ClassSpecs";
 import React from "react";
@@ -20,6 +21,7 @@ function App() {
     <div className="container">
       <WowCalculatorContext.Provider value={{state, dispatch}}>
         <Router>
+          <ClassBanner />
           <ClassPicker />
           <Routes>
             <Route path=":className" element={<ClassSpecs />} />
