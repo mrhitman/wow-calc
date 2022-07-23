@@ -17,8 +17,7 @@ function GlyphsModal({small}) {
 
   return (
     <>
-      <div>
-        onClick={() => setShowModal(true)}
+      <div onClick={() => setShowModal(true)}>
         <div
           style={{
             width: 80,
