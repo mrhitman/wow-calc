@@ -1,19 +1,20 @@
 import "./Spec.scss";
 
 import React, {useContext} from "react";
-import {WowCalculatorContext, useDehydrateTalentString} from "../store";
 import {specNames, talentsBySpecs} from "../store/data/talents";
 
 import SpecRow from "./SpecRow";
+import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
 import {getSpecPoints} from "../store/tools";
 import groupBy from "lodash/groupBy";
+import {useDehydrateTalentString} from "../store/hooks";
 
 function Spec({specId}) {
+  useDehydrateTalentString();
+
   const context = useContext(WowCalculatorContext);
   const spec = Object.values(talentsBySpecs[specId]);
-
-  useDehydrateTalentString();
 
   return (
     <div className="spec-wrapper">

@@ -2,5 +2,6 @@ export const actions = Object.freeze({
   ADD_POINT: 'ADD_POINT',
   REMOVE_POINT: 'REMOVE_POINT',
   RESET_SPEC: 'RESET_SPEC',
+  RESET_ALL: 'RESET_ALL',
   SELECT_HERO: 'SELECT_HERO',
 });

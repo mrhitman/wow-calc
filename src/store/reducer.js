@@ -10,6 +10,8 @@ export function reducer(state, action) {
       return removePoint(state, action.payload);
     case actions.RESET_SPEC:
       return resetSpec(state, action.payload);
+    case actions.RESET_ALL:
+      return resetAll(state);
     case actions.SELECT_HERO:
       return selectHero(state, action.payload);
     default:
@@ -49,6 +51,13 @@ export function resetSpec(state, specId) {
         {}
       ),
   };
+}
+
+export function resetAll(state) {
+  return {
+    ...state,
+    points: {},
+  }
 }
 
 export function selectHero(state, { id, talentsString }) {
