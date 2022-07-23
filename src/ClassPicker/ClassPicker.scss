@@ -26,90 +26,88 @@
 }
 
 .heroes-main {
+  position: relative;
+  z-index: 1;
   a {
     display: inline-block;
     background: #27272F;
-    border: 2px solid #4E4E4E;
+    border: 1px solid #4E4E4E;
     box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.63);
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 30px;
     max-width: 214px;
     width: 100%;
-    // transition: all 3s ease-out;
     position: relative;
-
+    text-decoration: none;
+    height: 104px;
     &:hover {
-      border: 2px solid rgba(163, 222, 255, 1);
-      background-clip: padding-box;
-      border-radius: 12px;
-      background: linear-gradient(180deg, rgba(0, 148, 255, 0.46) 0%, rgba(38, 116, 172, 0) 39.9%, rgba(0, 148, 255, 0.46) 100%);
-      
+      border: 0;
+      box-shadow: 0px 4px 37px rgba(0, 140, 241, 0.63);
+      padding: 21px;
+      $border: 2px;
       &::before {
-        content: "";
+        content: '';
         position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-image: url("../images/pngwing.png");
-        background-repeat: no-repeat;
+        top: 0; right: 0; bottom: 0; left: 0;
+        z-index: -1;
         opacity: .7;
-        width: 100%;
-        height: 100%;
-        mix-blend-mode: soft-light;
-        // mix-blend-mode: color-dodge;
+        margin: -$border; /* !importanté */
+        border-radius: inherit; /* !importanté */
+        background: rgb(0,132,206);
+        background: linear-gradient(90deg, rgba(0,132,206,1) 2%, rgba(9,9,121,1) 35%, rgba(119,206,255,1) 100%);
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        background-image: url("../images/pngwing.png");
+        background: linear-gradient(180deg, rgba(0, 148, 255, 0.46) 0%, rgba(38, 116, 172, 0) 39.9%, rgba(0, 148, 255, 0.46) 100%);
+        border-radius: 12px;
+        opacity: .7;
+        background-repeat: no-repeat;
+      }
+      .hero-wrapper-main {
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0; right: 0; bottom: 0; left: 0;
+          background: linear-gradient(90deg, rgba(0,132,206,1) 2%, rgba(9,9,121,1) 35%, rgba(119,206,255,1) 100%);
+          border: 3px solid transparent;
+          opacity: .7;
+          border-radius: 8px;
+        }
+        img {
+          z-index: 0;
+          border: 2px solid transparent;
+        }
       }
     }
   }
 }
 
 .hero-wrapper-main {
-  color: #F6F6F6;
+  position: relative;
   font-family: 'Cera Pro';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
-
   img {
     border: 2px solid #4E4E4E;
     border-radius: 8px;
+    z-index: 1;
   }
+}
 
-  span {
-    padding-left: 12px;
-  }
+.paragraph {
+  color: #F6F6F6;
+  padding-left: 12px;
 }
 
 .heroes {
   display: flex;
   justify-content: space-between;
-}
-
-.active {
-  .hero-wrapper {
-    // TODO(Artem) will change hover border
-    border: 3px solid rgba(163, 222, 255, 1);
-    background-clip: padding-box;
-
-    &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: 1;
-      margin: -3px;
-      border-radius: inherit;
-      background: linear-gradient(180deg, rgba(0, 148, 255, 0.46) 0%, rgba(38, 116, 172, 0) 39.9%, rgba(0, 148, 255, 0.46) 100%);
-    }
-
-    &::after {
-      opacity: 0;
-    }
-  }
 }
 
 .hero-wrapper {
@@ -119,7 +117,11 @@
   height: 64px;
   border: 2px solid #4E4E4E;
   border-radius: 8px;
-
+  &:hover {
+    &::after {
+      opacity: 0;
+    }
+  }
   &::after {
     content: "";
     position: absolute;
@@ -131,18 +133,42 @@
     opacity: 0.5;
     z-index: 2;
   }
-
   img {
     width: 100%;
     height: auto;
-    border-radius: 6px;
+    border-radius: 8px;
     position: absolute;
     z-index: 2;
   }
+}
 
-  &:hover {
+a.active {
+  position: relative;
+  z-index: 1;
+  .hero-wrapper {
+    border: 0;
+    &::before,
     &::after {
-      opacity: 0;
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+    }
+    &::before {
+      background: linear-gradient(90deg, rgba(0,132,206,1) 2%, rgba(9,9,121,1) 35%, rgba(119,206,255,1) 100%);
+      border: 3px solid transparent;
+      border-radius: 8px;
+      opacity: .7;
+    }
+    &::after {
+      background-image: url("../images/pngwing.png");
+      background-repeat: no-repeat;
+      background: linear-gradient(180deg, rgba(0, 148, 255, 0.46) 0%, rgba(38, 116, 172, 0) 39.9%, rgba(0, 148, 255, 0.46) 100%);
+      border-radius: 12px;
+      opacity: .7;
+    }
+    img {
+      z-index: 0;
+      border: 3px solid transparent;
     }
   }
 }

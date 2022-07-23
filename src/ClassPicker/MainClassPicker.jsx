@@ -19,12 +19,14 @@ function MainClassPicker() {
       <div className="heroes-main flex justify-between flex-wrap">
         {classes.map((classInfo) => (
           <NavLink key={classInfo.id} to={`/${classInfo.name.toLowerCase()}`}>
-            <div className="hero-wrapper-main flex items-center">
-              <img
-                src={`./classes/${classInfo.icon.slice(6)}.jpeg`}
-                alt={classInfo.name}
-              />
-              <span>Paladin</span>
+            <div className="flex items-center">
+              <div className="hero-wrapper-main flex items-center">
+                <img
+                  src={`./classes/${classInfo.icon.slice(6)}.jpeg`}
+                  alt={classInfo.name}
+                />
+              </div>
+              <span className="paragraph">Paladin</span>
             </div>
           </NavLink>
         ))}
