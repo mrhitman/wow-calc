@@ -1,6 +1,6 @@
 import "./App.scss";
 
-import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import {Route, HashRouter as Router, Routes} from "react-router-dom";
 
 import ClassSpecs from "../ClassSpecs/ClassSpecs";
 import MainClassPicker from "../ClassPicker/MainClassPicker";
