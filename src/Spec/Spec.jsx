@@ -1,17 +1,19 @@
 import "./Spec.scss";
 
 import React, {useContext} from "react";
+import {getSpecPoints, hydrateTalentString} from "../store/tools";
 import {specNames, talentsBySpecs} from "../store/data/talents";
 
 import SpecRow from "./SpecRow";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
-import {getSpecPoints} from "../store/tools";
 import groupBy from "lodash/groupBy";
+import {useNavigate} from "react-router-dom";
 
 function Spec({specId}) {
   const context = useContext(WowCalculatorContext);
   const spec = Object.values(talentsBySpecs[specId]);
+  const navigate = useNavigate();
 
   return (
     <div className="spec-wrapper">
@@ -28,7 +30,7 @@ function Spec({specId}) {
           </div>
           <div
             className="spec-reset"
-            onClick={onSpecResetClick(context, specId)}
+            onClick={onSpecResetClick(context, specId, navigate)}
           ></div>
           <img src="" alt="" />
         </div>
@@ -45,9 +47,14 @@ function Spec({specId}) {
   );
 }
 
-function onSpecResetClick(context, specId) {
+function onSpecResetClick(context, specId, navigate) {
   return () => {
     context.dispatch({type: actions.RESET_SPEC, payload: specId});
+
+    // @TODO check hydration
+    navigate(`.?t=${hydrateTalentString(context)}`, {
+      replace: true,
+    });
   };
 }
 

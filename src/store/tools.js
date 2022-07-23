@@ -30,11 +30,11 @@ export function hydrateTalentString(context, skill) {
   const { specs } = findClassById(context.state.classId);
 
   return specs
-    .map((specId) => hydrateTalentStringForSpec(context, skill, specId))
+    .map((specId) => hydrateTalentStringForSpec(context, specId, skill))
     .join("-");
 }
 
-export function hydrateTalentStringForSpec(context, skill, specId) {
+export function hydrateTalentStringForSpec(context, specId, skill) {
   const specTalendIds = Object.keys(talentsBySpecs[specId])
     .map(Number)
     .sort((a, b) => a - b);
@@ -43,7 +43,7 @@ export function hydrateTalentStringForSpec(context, skill, specId) {
     .map((id) => {
       let points = context.state.points[id];
 
-      if (id === skill.id) {
+      if (skill && id === skill.id) {
         return points ? points + 1 : 1;
       }
 

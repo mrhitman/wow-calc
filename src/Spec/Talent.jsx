@@ -1,18 +1,11 @@
 import React, {useCallback, useContext, useState} from "react";
-import {
-  canAddPoint,
-  findClassById,
-  findClassByName,
-  getSpecPoints,
-  hydrateTalentString,
-} from "../store/tools";
+import {canAddPoint, getSpecPoints, hydrateTalentString} from "../store/tools";
 
 import {Popover} from "react-tiny-popover";
 import TalentPopover from "./TalentPopover";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
 import {spells} from "../store/data/spells";
-import {talentsBySpecs} from "../store/data/talents";
 import {useNavigate} from "react-router-dom";
 
 export default function Talent({skill}) {

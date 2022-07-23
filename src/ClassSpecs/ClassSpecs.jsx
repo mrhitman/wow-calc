@@ -1,9 +1,5 @@
 import React, {useContext, useEffect} from "react";
-import {
-  dehydrateTalentString,
-  findClassByName,
-  getAvailablePoints,
-} from "../store/tools";
+import {findClassByName, getAvailablePoints} from "../store/tools";
 import {useParams, useSearchParams} from "react-router-dom";
 
 import ClassBanner from "../ClassBanner/ClassBanner";
