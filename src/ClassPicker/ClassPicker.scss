@@ -1,3 +1,87 @@
+
+.block-title {
+  color: #F6F6F6;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.main-title {
+  font-family: 'Cera Pro';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  max-width: 678px;
+  margin: 0 auto 16px;
+}
+
+.text {
+  font-family: 'Cera Pro';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.heroes-main {
+  a {
+    display: inline-block;
+    background: #27272F;
+    border: 2px solid #4E4E4E;
+    box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.63);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    max-width: 214px;
+    width: 100%;
+    // transition: all 3s ease-out;
+    position: relative;
+
+    &:hover {
+      border: 2px solid rgba(163, 222, 255, 1);
+      background-clip: padding-box;
+      border-radius: 12px;
+      background: linear-gradient(180deg, rgba(0, 148, 255, 0.46) 0%, rgba(38, 116, 172, 0) 39.9%, rgba(0, 148, 255, 0.46) 100%);
+      
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: url("../images/pngwing.png");
+        background-repeat: no-repeat;
+        opacity: .7;
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: soft-light;
+        // mix-blend-mode: color-dodge;
+      }
+    }
+  }
+}
+
+.hero-wrapper-main {
+  color: #F6F6F6;
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+
+  img {
+    border: 2px solid #4E4E4E;
+    border-radius: 8px;
+  }
+
+  span {
+    padding-left: 12px;
+  }
+}
+
 .heroes {
   display: flex;
   justify-content: space-between;

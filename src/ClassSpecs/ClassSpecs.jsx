@@ -2,7 +2,6 @@ import React, {useContext, useEffect} from "react";
 import {findClassByName, getAvailablePoints} from "../store/tools";
 import {useParams, useSearchParams} from "react-router-dom";
 
-import ClassBanner from "../ClassBanner/ClassBanner";
 import ClassPicker from "../ClassPicker/ClassPicker";
 import GlyphsModal from "../Glyphs/GlyphsModal";
 import Spec from "../Spec/Spec";
@@ -27,7 +26,6 @@ function ClassSpecs() {
 
   return (
     <>
-      <ClassBanner />
       <ClassPicker />
       <div>
         <div>{getAvailablePoints(state)}</div>
