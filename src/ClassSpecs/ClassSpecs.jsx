@@ -26,14 +26,14 @@ function ClassSpecs() {
           style={{border: "1px solid white", display: "flex"}}
         >
           <div className="glyphs-big">
-            <GlyphsModal />
-            <GlyphsModal />
-            <GlyphsModal />
+            <GlyphsModal index={0} />
+            <GlyphsModal index={1} />
+            <GlyphsModal index={2} />
           </div>
           <div className="glyphs-small">
-            <GlyphsModal small />
-            <GlyphsModal small />
-            <GlyphsModal small />
+            <GlyphsModal index={3} small />
+            <GlyphsModal index={4} small />
+            <GlyphsModal index={5} small />
           </div>
         </div>
         <div onClick={() => context.dispatch({type: actions.RESET_ALL})}>
