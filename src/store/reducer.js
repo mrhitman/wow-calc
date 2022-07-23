@@ -1,5 +1,5 @@
 import { actions } from "./actions";
-import { dehydrateTalentString } from "./tools";
+import { hydrateTalentString } from "./tools";
 import { talentsBySpecs } from "./data/talents";
 
 export function reducer(state, action) {
@@ -54,7 +54,7 @@ export function resetSpec(state, specId) {
 export function selectHero(state, { id, talentsString }) {
   return {
     ...state,
-    points: dehydrateTalentString(talentsString, id),
+    points: hydrateTalentString(talentsString, id),
     classId: id,
   };
 }
