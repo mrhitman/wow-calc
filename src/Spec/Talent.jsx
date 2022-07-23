@@ -1,5 +1,5 @@
 import React, {useCallback, useContext, useState} from "react";
-import {canAddPoint, getSpecPoints, hydrateTalentString} from "../store/tools";
+import {canAddPoint, getSpecPoints} from "../store/tools";
 
 import {Popover} from "react-tiny-popover";
 import TalentPopover from "./TalentPopover";
@@ -72,10 +72,6 @@ function onTalentLeftClick(context, skill, state, navigate) {
     context.dispatch({
       type: actions.ADD_POINT,
       payload: skill,
-    });
-
-    navigate(`.?t=${hydrateTalentString(context, skill)}`, {
-      replace: true,
     });
   };
 }

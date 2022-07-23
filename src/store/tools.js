@@ -26,33 +26,25 @@ export function canAddPoint(state, skill, maxPoints = 80) {
     && skill.requires.every(r => state.points[r.id] >= r.qty);
 }
 
-export function hydrateTalentString(context, skill) {
-  const { specs } = findClassById(context.state.classId);
+export function dehydrateTalentString(state) {
+  const { specs } = findClassById(state.classId);
 
   return specs
-    .map((specId) => hydrateTalentStringForSpec(context, specId, skill))
+    .map((specId) => dehydrateTalentStringForSpec(state, specId))
     .join("-");
 }
 
-export function hydrateTalentStringForSpec(context, specId, skill) {
+export function dehydrateTalentStringForSpec(state, specId) {
   const specTalendIds = Object.keys(talentsBySpecs[specId])
     .map(Number)
     .sort((a, b) => a - b);
 
   return specTalendIds
-    .map((id) => {
-      let points = context.state.points[id];
-
-      if (skill && id === skill.id) {
-        return points ? points + 1 : 1;
-      }
-
-      return points ?? 0;
-    })
+    .map((id) => state.points[id] ?? 0)
     .join("");
 }
 
-export function dehydrateTalentString(str, classId) {
+export function hydrateTalentString(str, classId) {
   const points = {};
 
   if (!str) {
