@@ -9,7 +9,7 @@ function GlyphsModal({small}) {
   const [showModal, setShowModal] = useState(false);
   const context = useContext(WowCalculatorContext);
 
-  if (!context.state.selectedHero) {
+  if (!context.state.classId) {
     return;
   }
 
@@ -17,7 +17,8 @@ function GlyphsModal({small}) {
 
   return (
     <>
-      <div onClick={() => setShowModal(true)}>
+      <div>
+        onClick={() => setShowModal(true)}
         <div
           style={{
             width: 80,

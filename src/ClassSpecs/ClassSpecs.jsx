@@ -21,7 +21,10 @@ function ClassSpecs() {
             <Spec key={specId} specId={specId} />
           ))}
         </div>
-        <div className="glyphs">
+        <div
+          className="glyphs"
+          style={{border: "1px solid white", display: "flex"}}
+        >
           <div className="glyphs-big">
             <GlyphsModal />
             <GlyphsModal />
