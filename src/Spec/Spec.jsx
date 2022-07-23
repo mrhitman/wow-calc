@@ -1,28 +1,19 @@
 import "./Spec.scss";
 
-import React, {useContext, useEffect} from "react";
-import {dehydrateTalentString, getSpecPoints} from "../store/tools";
+import React, {useContext} from "react";
+import {WowCalculatorContext, useDehydrateTalentString} from "../store";
 import {specNames, talentsBySpecs} from "../store/data/talents";
 
 import SpecRow from "./SpecRow";
-import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
+import {getSpecPoints} from "../store/tools";
 import groupBy from "lodash/groupBy";
-import {useNavigate} from "react-router-dom";
 
 function Spec({specId}) {
   const context = useContext(WowCalculatorContext);
   const spec = Object.values(talentsBySpecs[specId]);
-  const navigate = useNavigate();
 
-  useEffect(() => {
-    if (context.state.classId) {
-      navigate(`.?t=${dehydrateTalentString(context.state)}`, {
-        replace: true,
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [context.state]);
+  useDehydrateTalentString();
 
   return (
     <div className="spec-wrapper">
