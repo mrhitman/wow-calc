@@ -1,11 +1,13 @@
 import React, {useCallback, useContext, useState} from "react";
 import {canAddPoint, getSpecPoints} from "../store/tools";
 
+import Arrow from "../Spec/Arrow";
 import {Popover} from "react-tiny-popover";
 import TalentPopover from "./TalentPopover";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
 import {spells} from "../store/data/spells";
+import {talentsBySpecs} from "../store/data/talents";
 import {useNavigate} from "react-router-dom";
 
 export default function Talent({skill}) {
@@ -58,6 +60,13 @@ export default function Talent({skill}) {
         <div className="badge">
           {points}/{skill.ranks.length}
         </div>
+        {skill.requires.map(({id}, i) => (
+          <Arrow
+            key={`arrow_${id}_i`}
+            to={skill}
+            from={talentsBySpecs[skill.specId][id]}
+          />
+        ))}
       </div>
     </Popover>
   );

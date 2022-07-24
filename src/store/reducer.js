@@ -58,7 +58,10 @@ export function resetSpec(state, specId) {
 export function setGlyph(state, { glyph, index }) {
   return {
     ...state,
-    glyphs: { ...state.glyphs, [index]: glyph },
+    glyphs: {
+      ...state.glyphs,
+      [index]: glyph,
+    },
   }
 }
 
