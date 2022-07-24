@@ -1,3 +1,5 @@
+import "./GlyphsModal.scss";
+
 import React, {useContext, useState} from "react";
 
 import {Modal} from "react-tiny-modal";
@@ -38,30 +40,26 @@ function GlyphsModal({small, index}) {
           )}
         </div>
       </div>
-      <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
-        <div
-          style={{
-            display: "block",
-            width: 900,
-            height: 500,
-            backgroundColor: "grey",
-          }}
-        >
-          {glyphs
+      <Modal className="modal-wrap" isOpen={showModal} onClose={() => setShowModal(false)}>
+        <div className="glyph-modal-content">
+          <button className="spec-reset" onClick={() => setShowModal(false)}></button>
+          <div className="content">
+            {glyphs
             .filter(
               (g) =>
                 g.classId === classInfo.id && g.glyphType === (small ? 2 : 1)
             )
             .map((g, i) => (
-              <div key={`${g.id}_${i}`} onClick={() => onSelectGlyph(g)}>
+              <div className="list-item flex items-center" key={`${g.id}_${i}`} onClick={() => onSelectGlyph(g)}>
                 <img
+                className="modal-img"
                   src={`https://wotlk.evowow.com/static/images/wow/icons/small/${g.icon}.jpg`}
                   alt=""
                 />
                 {g.name}
               </div>
             ))}
-          <button onClick={() => setShowModal(false)}>CLOSE</button>
+          </div>
         </div>
       </Modal>
     </>

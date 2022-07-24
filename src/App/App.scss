@@ -1,9 +1,13 @@
 
+* {
+  font-family: "Cera Pro";
+}
+
 .spec {
   height: 812px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 35px 15px;
   background-repeat: no-repeat;
   background-size: cover;
