@@ -25,22 +25,16 @@ function GlyphsModal({small, index}) {
   return (
     <>
       <div onClick={() => setShowModal(true)}>
-        <div
-          style={{
-            width: 80,
-            height: 80,
-            display: "block",
-            border: "1px solid white",
-            color: "white",
-          }}
-        >
+        <div className="glyph-section flex items-center">
           {glyph ? (
-            <img
-              src={`https://wotlk.evowow.com/static/images/wow/icons/medium/${glyph.icon}.jpg`}
-              alt=""
-            />
+            <div className="img-wrap">
+              <img
+                src={`https://wotlk.evowow.com/static/images/wow/icons/medium/${glyph.icon}.jpg`}
+                alt=""
+              />
+            </div>
           ) : (
-            `Glyph ${small ? "small" : "big"}`
+            'Empty'
           )}
         </div>
       </div>

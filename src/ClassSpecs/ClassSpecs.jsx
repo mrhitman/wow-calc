@@ -27,11 +27,13 @@ function ClassSpecs() {
                 <div className="content-glyphs">
                   <SpecHeader title="Glyphs" onClick={() => context.dispatch({ type: actions.RESET_GLYPHS })} />
                   <div className="glyphs">
+                    <span className="type-g">Major</span>
                     <div className="glyphs-big">
                       <GlyphsModal index={0} />
                       <GlyphsModal index={1} />
                       <GlyphsModal index={2} />
                     </div>
+                    <span className="type-g">Minor</span>
                     <div className="glyphs-small">
                       <GlyphsModal index={3} small />
                       <GlyphsModal index={4} small />
