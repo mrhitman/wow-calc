@@ -4,20 +4,16 @@ body {
 }
 
 .wrapper {
-  // position: relative;
-  // margin: 0;
   background-color: grey;
   background-image: url('../src/images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  // height: 100vh;
-  height: 100%;
-  // z-index: -1;
-  // margin-top: -3px
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .container {
-  max-width: 1214px;
+  max-width: 1316px;
   margin: 0 auto;
   padding: 80px 50px;
 }

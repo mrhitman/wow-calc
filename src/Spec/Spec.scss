@@ -1,15 +1,18 @@
+.tree {
+  width: 100%;
+}
+
 .spec-wrapper {
-  margin: 0 15px;
-  background: #27272F;
   border: 1px solid #4E4E4E;
   border-radius: 12px;
+  margin-bottom: 20px;
+  width: 282px;
 }
 
 .spec-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 12px;
+  background: #27272F;
+  height: 68px;
 }
 
 .spec-icon {
@@ -31,11 +34,12 @@
   background-image: url("../images/close.svg");
   background-repeat: no-repeat;
   background-position: 50%;
+  margin-left: 8px;
 }
 
+.wrap-point,
 .spec-points {
   color: rgba(82, 209, 72, 1);
-  margin-right: 8px;
 }
 
 .badge {
@@ -45,17 +49,11 @@
   border-radius: 2px;
   right: -8px;
   bottom: -7px;
-
   font-family: "Cera Pro";
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
   line-height: 13px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   color: #f6f6f6;
   background: #16161c;
 
@@ -63,4 +61,55 @@
     border: none;
     background: #16161c;
   }
+}
+
+
+// Glyphs
+.glyphs-wrap {
+  width: 282px;
+  height: 882px;
+}
+
+.content-glyphs {
+  background: #1B1B22;
+  border: 1px solid #4E4E4E;
+  border-radius: 12px;
+}
+
+.glyphs {
+  padding: 35px 15px;
+}
+
+.btn-group {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-clear,
+.btn-copy {
+  color: #F6F6F6;
+  font-family: 'Cera Pro';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  border-radius: 8px;
+  padding: 22px;
+  width: 100%;
+  max-width: 250px;
+  text-transform: uppercase;
+  height: 60px;
+  cursor: pointer;
+}
+
+.btn-clear {
+  border: 2px solid #007AD0;
+  filter: drop-shadow(0px 4px 26px rgba(0, 0, 0, 0.44));
+  background: transparent;
+  margin-bottom: 16px;
+}
+
+.btn-copy {
+  border: 0;
+  background: #007BD0;
+  box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.44);
 }

@@ -57,7 +57,7 @@ export default function Talent({skill}) {
         onMouseLeave={hideTooltip}
       >
         <img src={`talents/${skill.icon}.jpg`} alt={skill.icon} />
-        <div className="badge">
+        <div className="badge flex justify-between items-center">
           {points}/{skill.ranks.length}
         </div>
         {skill.requires.map(({id}, i) => (

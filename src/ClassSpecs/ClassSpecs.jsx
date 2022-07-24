@@ -19,36 +19,41 @@ function ClassSpecs() {
       <div>
         <div>{availablePointCount}</div>
         <div className="flex justify-between">
-          <div className="tree">
+          <div className="tree flex justify-between flex-wrap">
             {classInfo.specs.map((specId) => (
               <Spec key={specId} specId={specId} />
             ))}
-          </div>
-          <div className="flex justify-between direction-column">
-            <SpecHeader title="Glyphs" onClick={() => context.dispatch({ type: actions.RESET_GLYPHS })} />
-            <div
-              className="glyphs"            >
-              <div className="glyphs-big">
-                <GlyphsModal index={0} />
-                <GlyphsModal index={1} />
-                <GlyphsModal index={2} />
-              </div>
-              <div className="glyphs-small">
-                <GlyphsModal index={3} small />
-                <GlyphsModal index={4} small />
-                <GlyphsModal index={5} small />
-              </div>
-            </div>
-            <div>
-              <div onClick={() => context.dispatch({type: actions.RESET_ALL})}>
-                reset all
-              </div>
-              <div
-                onClick={() => {
-                  navigator.clipboard.writeText(window.location.href);
-                }}
-              >
-                copy link
+            <div className="glyphs-wrap flex justify-between direction-column">
+                <div className="content-glyphs">
+                  <SpecHeader title="Glyphs" onClick={() => context.dispatch({ type: actions.RESET_GLYPHS })} />
+                  <div className="glyphs">
+                    <div className="glyphs-big">
+                      <GlyphsModal index={0} />
+                      <GlyphsModal index={1} />
+                      <GlyphsModal index={2} />
+                    </div>
+                    <div className="glyphs-small">
+                      <GlyphsModal index={3} small />
+                      <GlyphsModal index={4} small />
+                      <GlyphsModal index={5} small />
+                    </div>
+                  </div>
+                </div>
+              <div className="btn-group">
+                <button className="btn-clear" onClick={() => context.dispatch({type: actions.RESET_ALL})}>
+                  <img
+                    src=""
+                    alt=""
+                  />
+                  reset all
+                </button>
+                <button className="btn-copy" onClick={() => { navigator.clipboard.writeText(window.location.href);}}>
+                  <img
+                    src=""
+                    alt=""
+                  />
+                  copy link
+                </button>
               </div>
             </div>
           </div>
