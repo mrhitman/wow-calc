@@ -1,6 +1,6 @@
 import React from "react";
 
-function TalentPopover({current, next}) {
+function TalentPopover({current, next, talent}) {
   return (
     <div
       style={{
@@ -13,6 +13,7 @@ function TalentPopover({current, next}) {
     >
       <pre>
         {JSON.stringify(current === next ? {next} : {current, next}, null, 2)}
+        {JSON.stringify(talent, null, 2)}
       </pre>
     </div>
   );

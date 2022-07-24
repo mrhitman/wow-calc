@@ -47,7 +47,9 @@ export default function Talent({skill}) {
       isOpen={isTooltipOpen}
       positions={["top", "right", "left", "bottom"]}
       align="start"
-      content={<TalentPopover current={currentSpell} next={nextSpell} />}
+      content={
+        <TalentPopover current={currentSpell} next={nextSpell} talent={skill} />
+      }
     >
       <div
         className={`skill ${state}`}
@@ -62,7 +64,7 @@ export default function Talent({skill}) {
         </div>
         {skill.requires.map(({id}, i) => (
           <Arrow
-            key={`arrow_${id}_i`}
+            key={`arrow_${id}_${i}`}
             to={skill}
             from={talentsBySpecs[skill.specId][id]}
           />

@@ -12,7 +12,7 @@ function Arrow({from, to, isActive}) {
     "data-row": from.row,
   };
 
-  const height = 24 - (to.row - from.row);
+  const height = 40 * (to.row - from.row);
   const width = Math.abs(to.col - from.col) * 40 + 40;
   const direction = getArrowDirection(from, to);
   // if (direction === "right-down" || direction === "left-down") {
@@ -30,6 +30,7 @@ function Arrow({from, to, isActive}) {
         backgroundImage: "url(./arrows/down.png)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        marginTop: -height - 50,
         height,
         width,
       }}
