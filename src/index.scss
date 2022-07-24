@@ -10,12 +10,28 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   overflow-y: auto;
+  // margin-top: 77px;
 }
 
 .container {
   max-width: 1316px;
   margin: 0 auto;
-  padding: 80px 50px;
+  padding: 40px 50px;
+}
+
+.head-line {
+  background: #111416;
+  padding: 40px;
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  width: 100%;
+}
+
+.footer {
+  background: #111416;
+  padding: 52px;
 }
 
 * {

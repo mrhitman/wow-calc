@@ -1,9 +1,5 @@
-// .tree {
-//   display: flex;
-// }
 
 .spec {
-  // width: 282px;
   height: 812px;
   display: flex;
   flex-wrap: wrap;
@@ -80,9 +76,11 @@
 .justify-end {
   justify-content: flex-end;
 }
+
 .flex-wrap {
   flex-wrap: wrap;
 }
+
 .direction-column {
   flex-direction: column;
 }

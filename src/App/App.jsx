@@ -8,27 +8,27 @@ import React from "react";
 import ClassBanner from "../ClassBanner/ClassBanner";
 import {WowCalculatorContext} from "../store";
 import {useState} from "../store/hooks";
+import TopBlock from "../HeaderBlock";
+import Footer from "../ClassFooter/ClassFooter";
 
 function App() {
   const [state, dispatch] = useState();
 
   return (
     <div className="wrapper">
-    {/* //   <div className="head-block"></div>
-    //   <div className="main"> */}
-        <div className="container">
-          <ClassBanner />
-          <WowCalculatorContext.Provider value={{state, dispatch}}>
-            <Router>
-              <Routes>
-                <Route path="/" element={<MainClassPicker />} />
-                <Route path=":className" element={<ClassSpecs />} />
-              </Routes>
-            </Router>
-          </WowCalculatorContext.Provider>
-        </div>
-    {/* //   </div> */}
-    {/* //   <footer></footer> */}
+      <TopBlock />
+      <div className="container">
+        <ClassBanner />
+        <WowCalculatorContext.Provider value={{state, dispatch}}>
+          <Router>
+            <Routes>
+              <Route path="/" element={<MainClassPicker />} />
+              <Route path=":className" element={<ClassSpecs />} />
+            </Routes>
+          </Router>
+        </WowCalculatorContext.Provider>
+      </div>
+      <Footer />
     </div>
   );
 }
