@@ -2,14 +2,14 @@ import "./App.scss";
 
 import {Route, HashRouter as Router, Routes} from "react-router-dom";
 
+import ClassBanner from "../ClassBanner/ClassBanner";
 import ClassSpecs from "../ClassSpecs/ClassSpecs";
+import Footer from "../ClassFooter/ClassFooter";
 import MainClassPicker from "../ClassPicker/MainClassPicker";
 import React from "react";
-import ClassBanner from "../ClassBanner/ClassBanner";
+import TopBlock from "../HeaderBlock";
 import {WowCalculatorContext} from "../store";
 import {useState} from "../store/hooks";
-import TopBlock from "../HeaderBlock";
-import Footer from "../ClassFooter/ClassFooter";
 
 function App() {
   const [state, dispatch] = useState();
