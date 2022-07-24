@@ -4,5 +4,6 @@ export const actions = Object.freeze({
   RESET_SPEC: 'RESET_SPEC',
   RESET_ALL: 'RESET_ALL',
   SET_GLYPH: 'SET_GLYPH',
+  RESET_GLYPHS: 'RESET_GLYPHS',
   SELECT_HERO: 'SELECT_HERO',
 });

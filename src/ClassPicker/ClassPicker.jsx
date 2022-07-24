@@ -7,7 +7,6 @@ import {classes} from "../store/data/classes";
 function ClassPicker() {
   return (
     <div className="heroes">
-      {/* <h3 className="sub-title">Priest WotLK Classic Talent Calculator</h3> */}
       {classes.map((classInfo) => (
         <NavLink key={classInfo.id} to={`/${classInfo.name.toLowerCase()}`}>
           <div className="hero-wrapper">

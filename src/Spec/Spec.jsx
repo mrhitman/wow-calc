@@ -3,6 +3,7 @@ import "./Spec.scss";
 import React, {useContext} from "react";
 import {specNames, talentsBySpecs} from "../store/data/talents";
 
+import SpecHeader from "./SpecHeader";
 import SpecRow from "./SpecRow";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
@@ -18,24 +19,12 @@ function Spec({specId}) {
 
   return (
     <div className="spec-wrapper">
-      <div className="spec-header">
-        <div className="flex items-center">
-          <div className="spec-icon">
-            <img src="" alt="" />
-          </div>
-          <div className="spec-name">{specNames[specId]}</div>
-        </div>
-        <div className="flex items-center">
-          <div className="spec-points">
-            {getSpecPoints(context.state, specId)}
-          </div>
-          <div
-            className="spec-reset"
-            onClick={onSpecResetClick(context, specId)}
-          ></div>
-          <img src="" alt="" />
-        </div>
-      </div>
+      <SpecHeader
+        leading={<img src="./talents/ability_ambush.jpg" alt="" /> }
+        title={specNames[specId]}
+        trailing={getSpecPoints(context.state, specId)}
+        onClick={onSpecResetClick(context, specId)}
+      />
       <div
         className="spec"
         style={{backgroundImage: `url(specs/${specId}.jpg)`}}

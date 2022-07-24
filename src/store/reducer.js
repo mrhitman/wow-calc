@@ -14,6 +14,8 @@ export function reducer(state, action) {
       return resetAll(state);
     case actions.SET_GLYPH:
       return setGlyph(state, action.payload);
+    case actions.RESET_GLYPHS:
+      return resetGlyphs(state);
     case actions.SELECT_HERO:
       return selectHero(state, action.payload);
     default:
@@ -63,6 +65,10 @@ export function setGlyph(state, { glyph, index }) {
       [index]: glyph,
     },
   }
+}
+
+export function resetGlyphs(state) {
+  return { ...state, glyphs: {} };
 }
 
 export function resetAll(state) {
