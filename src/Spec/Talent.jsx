@@ -70,7 +70,7 @@ function onTalentLeftClick(context, skill, state, navigate) {
     }
 
     context.dispatch({
-      type: actions.ADD_POINT,
+      type: actions.SET_POINT,
       payload: skill,
     });
   };
@@ -81,7 +81,7 @@ function onTalentRightClick(context, skill) {
     e.preventDefault();
 
     context.dispatch({
-      type: actions.REMOVE_POINT,
+      type: actions.UNSET_POINT,
       payload: skill,
     });
   };

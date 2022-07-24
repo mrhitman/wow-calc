@@ -21,7 +21,6 @@ function GlyphsModal({small, index}) {
     setShowModal(false);
   }
   const glyph = context.state.glyphs[index];
-  console.log(context.state);
 
   return (
     <>
@@ -59,8 +58,8 @@ function GlyphsModal({small, index}) {
               (g) =>
                 g.classId === classInfo.id && g.glyphType === (small ? 2 : 1)
             )
-            .map((g) => (
-              <div key={g.id} onClick={() => onSelectGlyph(g)}>
+            .map((g, i) => (
+              <div key={`${g.id}_${i}`} onClick={() => onSelectGlyph(g)}>
                 <img
                   src={`https://wotlk.evowow.com/static/images/wow/icons/small/${g.icon}.jpg`}
                   alt=""

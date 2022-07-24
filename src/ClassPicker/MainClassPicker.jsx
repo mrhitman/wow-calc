@@ -26,7 +26,7 @@ function MainClassPicker() {
                   alt={classInfo.name}
                 />
               </div>
-              <span className="paragraph">Paladin</span>
+              <span className="paragraph">{classInfo.name}</span>
             </div>
           </NavLink>
         ))}
