@@ -28,7 +28,8 @@ export default function Talent({skill}) {
   }
 
   const getTalentStatus = useCallback(() => {
-    const pointsInSpec = getSpecPoints(context.state, skill.specId);
+    const pointsInSpec = getSpecPoints(context.state, skill.specId) ?? 0;
+
     if (pointsInSpec >= skill.row * 5) {
       return "active";
     }

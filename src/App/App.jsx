@@ -1,19 +1,34 @@
 import "./App.scss";
 
 import {Route, HashRouter as Router, Routes} from "react-router-dom";
+import {useImagePreloader, useState} from "../store/hooks";
 
 import ClassBanner from "../ClassBanner/ClassBanner";
 import ClassSpecs from "../ClassSpecs/ClassSpecs";
 import Footer from "../ClassFooter/ClassFooter";
 import MainClassPicker from "../ClassPicker/MainClassPicker";
 import React from "react";
-import Test from "../Test";
 import TopBlock from "../HeaderBlock";
 import {WowCalculatorContext} from "../store";
-import {useState} from "../store/hooks";
+import {talentsBySpecs} from "../store/data/talents";
 
 function App() {
   const [state, dispatch] = useState();
+
+  useImagePreloader([
+    ...Object.values(talentsBySpecs).reduce(
+      (acc, spec) => [
+        ...acc,
+        ...Object.values(spec).map((t) => `./talents/${t.icon}.jpg`),
+      ],
+      []
+    ),
+    "./arrows/left-active.png",
+    "./arrows/right.png",
+    "./arrows/right-active.png",
+    "./arrows/down.png",
+    "./arrows/down-active.png",
+  ]);
 
   return (
     <div className="wrapper">
@@ -25,7 +40,6 @@ function App() {
             <Routes>
               <Route path="/" element={<MainClassPicker />} />
               <Route path=":className" element={<ClassSpecs />} />
-              <Route path="test" element={<Test />} />
             </Routes>
           </Router>
         </WowCalculatorContext.Provider>
