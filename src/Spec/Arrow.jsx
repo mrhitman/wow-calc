@@ -2,40 +2,80 @@ import "./Arrow.scss";
 
 import React from "react";
 
+const talentBoxSize = 42;
+const talentBoxOffset = 24;
+
 function Arrow({from, to, isActive}) {
   if (!from || !to) {
     return null;
   }
 
-  const props = {
-    "data-col": from.col,
-    "data-row": from.row,
-  };
-
-  const height = 40 * (to.row - from.row);
-  const width = Math.abs(to.col - from.col) * 40 + 40;
+  const vDistance = to.row - from.row;
+  const hDistance = ~~(to.col - from.col);
+  const height =
+    talentBoxSize * Math.max(vDistance - 1, 0) + vDistance * talentBoxOffset;
+  const width = hDistance * 40 + 40;
   const direction = getArrowDirection(from, to);
-  // if (direction === "right-down" || direction === "left-down") {
-  //   props["data-height"] = height;
-  //   props["data-width"] = width;
-  // } else {
-  //   props["data-length"] = to.row === from.row ? width : height;
-  // }
 
-  return (
-    <div
-      className={`arrow`}
-      style={{
-        display: "block",
-        backgroundImage: "url(./arrows/down.png)",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        marginTop: -height - 50,
-        height,
-        width,
-      }}
-    />
-  );
+  switch (direction) {
+    case "down":
+      return (
+        <div
+          className={`arrow`}
+          style={{
+            display: "block",
+            backgroundImage: `url(./arrows/${direction}${
+              isActive ? "-active" : ""
+            }.png)`,
+            backgroundRepeat: "no-repeat",
+            backgroundPositionX: "center",
+            backgroundPositionY: "bottom",
+            marginTop: -height - talentBoxSize,
+            height,
+            width,
+          }}
+        />
+      );
+    case "left":
+      return (
+        <div
+          className={`arrow`}
+          style={{
+            display: "block",
+            float: "right",
+            width: 23,
+            height: 41,
+            marginRight: -25,
+            backgroundPositionY: "center",
+            backgroundPositionX: "left",
+            backgroundRepeat: "no-repeat",
+            backgroundImage: `url(./arrows/${direction}${
+              isActive ? "-active" : ""
+            }.png)`,
+          }}
+        />
+      );
+    case "right":
+      return (
+        <div
+          style={{
+            display: "block",
+            width: 24,
+            height: 42,
+            float: "left",
+            marginLeft: -24,
+            backgroundPositionY: "center",
+            backgroundPositionX: "right",
+            backgroundRepeat: "no-repeat",
+            backgroundImage: `url(./arrows/${direction}${
+              isActive ? "-active" : ""
+            }.png)`,
+          }}
+        />
+      );
+    default:
+      return null;
+  }
 }
 
 function getArrowDirection(from, to) {

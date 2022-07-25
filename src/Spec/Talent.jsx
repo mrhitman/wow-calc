@@ -67,11 +67,16 @@ export default function Talent({skill}) {
             key={`arrow_${id}_${i}`}
             to={skill}
             from={talentsBySpecs[skill.specId][id]}
+            isActive={isActive(talentsBySpecs[skill.specId][id], context.state)}
           />
         ))}
       </div>
     </Popover>
   );
+}
+
+function isActive(from, state) {
+  return state.points[from.id] === from.ranks.length;
 }
 
 function onTalentLeftClick(context, skill, state, navigate) {

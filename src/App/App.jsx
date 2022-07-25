@@ -7,6 +7,7 @@ import ClassSpecs from "../ClassSpecs/ClassSpecs";
 import Footer from "../ClassFooter/ClassFooter";
 import MainClassPicker from "../ClassPicker/MainClassPicker";
 import React from "react";
+import Test from "../Test";
 import TopBlock from "../HeaderBlock";
 import {WowCalculatorContext} from "../store";
 import {useState} from "../store/hooks";
@@ -24,6 +25,7 @@ function App() {
             <Routes>
               <Route path="/" element={<MainClassPicker />} />
               <Route path=":className" element={<ClassSpecs />} />
+              <Route path="test" element={<Test />} />
             </Routes>
           </Router>
         </WowCalculatorContext.Provider>
