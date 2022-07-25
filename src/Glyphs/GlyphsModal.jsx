@@ -29,12 +29,17 @@ function GlyphsModal({small, index}) {
       <div onClick={() => setShowModal(true)}>
         <div className="glyph-section flex items-center">
           {glyph ? (
+            <>
             <div className="img-wrap">
               <img
                 src={`https://wotlk.evowow.com/static/images/wow/icons/medium/${glyph.icon}.jpg`}
                 alt=""
               />
             </div>
+            <div>
+              {glyph.name}
+            </div>
+            </>
           ) : (
             "Empty"
           )}
