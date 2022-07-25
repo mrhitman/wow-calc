@@ -41,7 +41,13 @@ function GlyphsModal({small, index}) {
             </div>
             </>
           ) : (
-            "Empty"
+            <div>
+              <img
+                src={``}
+                alt=""
+              />
+              Empty
+            </div>
           )}
         </div>
       </div>
