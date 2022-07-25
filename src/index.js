@@ -1,4 +1,6 @@
 import './index.scss';
+import './fonts/CeraPro-Bold.ttf';
+import './fonts/CeraPro-Regular.ttf';
 
 import App from './App/App';
 import React from 'react';

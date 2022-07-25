@@ -3,7 +3,7 @@
 }
 
 .spec-wrapper {
-  border: 1px solid #4E4E4E;
+  border: 1px solid #4e4e4e;
   border-radius: 12px;
   margin-bottom: 20px;
   width: 282px;
@@ -11,23 +11,23 @@
 
 .spec-header {
   padding: 12px;
-  background: #27272F;
+  background: #27272f;
   height: 68px;
 }
 
 .spec-icon {
-  border: 2px solid #4E4E4E;
+  border: 2px solid #4e4e4e;
   border-radius: 8px;
   margin-right: 8px;
 }
 
 .spec-name {
-  color: #F6F6F6;
+  color: #f6f6f6;
 }
 
 .spec-reset {
   display: block;
-  background: #B2B2C0;
+  background: #b2b2c0;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -49,7 +49,7 @@
   border-radius: 2px;
   right: -8px;
   bottom: -7px;
-  font-family: "Cera Pro";
+  font-family: "CeraPro";
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -63,7 +63,6 @@
   }
 }
 
-
 // Glyphs
 .glyphs-wrap {
   width: 282px;
@@ -71,8 +70,8 @@
 }
 
 .content-glyphs {
-  background: #1B1B22;
-  border: 1px solid #4E4E4E;
+  background: #1b1b22;
+  border: 1px solid #4e4e4e;
   border-radius: 12px;
 }
 
@@ -88,8 +87,8 @@
 
 .btn-clear,
 .btn-copy {
-  color: #F6F6F6;
-  font-family: 'Cera Pro';
+  color: #f6f6f6;
+  font-family: "CeraPro";
   font-weight: 700;
   font-size: 16px;
   line-height: 17px;
@@ -103,7 +102,7 @@
 }
 
 .btn-clear {
-  border: 2px solid #007AD0;
+  border: 2px solid #007ad0;
   filter: drop-shadow(0px 4px 26px rgba(0, 0, 0, 0.44));
   background: transparent;
   margin-bottom: 16px;
@@ -111,26 +110,26 @@
 
 .btn-copy {
   border: 0;
-  background: #007BD0;
+  background: #007bd0;
   box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.44);
 }
 
 .glyph-section {
   background: #141418;
-  border-radius: 8px; 
+  border-radius: 8px;
   padding: 10px;
   margin-bottom: 8px;
   height: 62px;
-  font-family: 'Cera Pro';
+  font-family: "CeraPro";
   font-weight: 500;
   font-size: 14px;
   line-height: 15px;
-  color: #5C5C68;
+  color: #5c5c68;
   cursor: pointer;
   .img-wrap {
     width: 42px;
     height: 42px;
-    border: 2px solid #4E4E4E;
+    border: 2px solid #4e4e4e;
     border-radius: 8px;
   }
 }
@@ -141,10 +140,10 @@
 
 .type-g {
   display: inline-block;
-  font-family: 'Cera Pro';
+  font-family: "CeraPro";
   font-weight: 400;
   font-size: 16px;
   line-height: 17px;
-  color: #F7F7F7;
+  color: #f7f7f7;
   margin-bottom: 16px;
 }

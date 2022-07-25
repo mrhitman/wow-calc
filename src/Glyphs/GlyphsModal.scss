@@ -1,45 +1,44 @@
-
 .modal-wrap {
-    z-index: 5;
+  z-index: 5;
 }
 
 .glyph-modal-content {
-    background: #1B1B22;
-    border: 1px solid #4E4E4E;
-    border-radius: 12px;
-    padding: 24px;
+  background: #1b1b22;
+  border: 1px solid #4e4e4e;
+  border-radius: 12px;
+  padding: 24px;
 
-    width: 900px;
-    .spec-reset {
-        margin: 0 0 15px auto;
-        cursor: pointer;
-    }
-    .content {
-        height: 54vh;
-        width: 100%;
-        overflow-y: scroll;
-        margin-bottom: 24px;
-    }
+  width: 900px;
+  .spec-reset {
+    margin: 0 0 15px auto;
+    cursor: pointer;
+  }
+  .content {
+    height: 54vh;
+    width: 100%;
+    overflow-y: scroll;
+    margin-bottom: 24px;
+  }
 }
 
 .list-item {
-    background: #141418;
-    border-radius: 8px;
-    padding: 10px;
-    margin-bottom: 8px;
-    height: 62px;
-    font-family: "Cera Pro";
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 15px;
-    color: #5C5C68;
-    cursor: pointer;
+  background: #141418;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+  height: 62px;
+  font-family: "CeraPro";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #5c5c68;
+  cursor: pointer;
 }
 
 .modal-img {
-    width: 42px;
-    height: 42px;
-    border: 2px solid #4E4E4E;
-    border-radius: 8px;
-    margin-right: 8px;
+  width: 42px;
+  height: 42px;
+  border: 2px solid #4e4e4e;
+  border-radius: 8px;
+  margin-right: 8px;
 }

@@ -1,12 +1,11 @@
-
 .block-title {
-  color: #F6F6F6;
+  color: #f6f6f6;
   margin-bottom: 48px;
   text-align: center;
 }
 
 .main-title {
-  font-family: 'Cera Pro';
+  font-family: "CeraPro";
   font-weight: 700;
   font-size: 48px;
   line-height: 52px;
@@ -17,7 +16,7 @@
 }
 
 .text {
-  font-family: 'Cera Pro';
+  font-family: "CeraPro";
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
@@ -30,8 +29,8 @@
   z-index: 1;
   a {
     display: inline-block;
-    background: #27272F;
-    border: 1px solid #4E4E4E;
+    background: #27272f;
+    border: 1px solid #4e4e4e;
     box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.63);
     border-radius: 12px;
     padding: 20px;
@@ -47,34 +46,58 @@
       padding: 21px;
       $border: 2px;
       &::before {
-        content: '';
+        content: "";
         position: absolute;
-        top: 0; right: 0; bottom: 0; left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         z-index: -1;
-        opacity: .7;
+        opacity: 0.7;
         margin: -$border; /* !importanté */
         border-radius: inherit; /* !importanté */
-        background: rgb(0,132,206);
-        background: linear-gradient(90deg, rgba(0,132,206,1) 2%, rgba(9,9,121,1) 35%, rgba(119,206,255,1) 100%);
+        background: rgb(0, 132, 206);
+        background: linear-gradient(
+          90deg,
+          rgba(0, 132, 206, 1) 2%,
+          rgba(9, 9, 121, 1) 35%,
+          rgba(119, 206, 255, 1) 100%
+        );
       }
       &::after {
-        content: '';
+        content: "";
         position: absolute;
-        top: 0; right: 0; bottom: 0; left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         background-image: url("../images/pngwing.png");
-        background: linear-gradient(180deg, rgba(0, 148, 255, 0.46) 0%, rgba(38, 116, 172, 0) 39.9%, rgba(0, 148, 255, 0.46) 100%);
+        background: linear-gradient(
+          180deg,
+          rgba(0, 148, 255, 0.46) 0%,
+          rgba(38, 116, 172, 0) 39.9%,
+          rgba(0, 148, 255, 0.46) 100%
+        );
         border-radius: 12px;
-        opacity: .7;
+        opacity: 0.7;
         background-repeat: no-repeat;
       }
       .hero-wrapper-main {
         &::before {
-          content: '';
+          content: "";
           position: absolute;
-          top: 0; right: 0; bottom: 0; left: 0;
-          background: linear-gradient(90deg, rgba(0,132,206,1) 2%, rgba(9,9,121,1) 35%, rgba(119,206,255,1) 100%);
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: linear-gradient(
+            90deg,
+            rgba(0, 132, 206, 1) 2%,
+            rgba(9, 9, 121, 1) 35%,
+            rgba(119, 206, 255, 1) 100%
+          );
           border: 3px solid transparent;
-          opacity: .7;
+          opacity: 0.7;
           border-radius: 8px;
         }
         img {
@@ -88,20 +111,20 @@
 
 .hero-wrapper-main {
   position: relative;
-  font-family: 'Cera Pro';
+  font-family: "CeraPro";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
   img {
-    border: 2px solid #4E4E4E;
+    border: 2px solid #4e4e4e;
     border-radius: 8px;
     z-index: 1;
   }
 }
 
 .paragraph {
-  color: #F6F6F6;
+  color: #f6f6f6;
   padding-left: 12px;
 }
 
@@ -115,7 +138,7 @@
   margin: 10px;
   width: 64px;
   height: 64px;
-  border: 2px solid #4E4E4E;
+  border: 2px solid #4e4e4e;
   border-radius: 8px;
   &:hover {
     &::after {
@@ -129,7 +152,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: #27272F;
+    background: #27272f;
     opacity: 0.5;
     z-index: 2;
   }
@@ -149,23 +172,36 @@ a.active {
     border: 0;
     &::before,
     &::after {
-      content: '';
+      content: "";
       position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
     &::before {
-      background: linear-gradient(90deg, rgba(0,132,206,1) 2%, rgba(9,9,121,1) 35%, rgba(119,206,255,1) 100%);
+      background: linear-gradient(
+        90deg,
+        rgba(0, 132, 206, 1) 2%,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(119, 206, 255, 1) 100%
+      );
       border: 3px solid transparent;
       border-radius: 8px;
-      opacity: .7;
+      opacity: 0.7;
       box-shadow: 0px 4px 37px rgba(0, 140, 241, 0.63);
     }
     &::after {
       background-image: url("../images/pngwing.png");
       background-repeat: no-repeat;
-      background: linear-gradient(180deg, rgba(0, 148, 255, 0.46) 0%, rgba(38, 116, 172, 0) 39.9%, rgba(0, 148, 255, 0.46) 100%);
+      background: linear-gradient(
+        180deg,
+        rgba(0, 148, 255, 0.46) 0%,
+        rgba(38, 116, 172, 0) 39.9%,
+        rgba(0, 148, 255, 0.46) 100%
+      );
       border-radius: 12px;
-      opacity: .7;
+      opacity: 0.7;
     }
     img {
       z-index: 0;
@@ -175,12 +211,12 @@ a.active {
 }
 
 .sub-title {
-  font-family: 'Cera Pro';
+  font-family: "CeraPro";
   font-weight: 700;
   font-size: 48px;
   line-height: 52px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #F6F6F6;
+  color: #f6f6f6;
 }

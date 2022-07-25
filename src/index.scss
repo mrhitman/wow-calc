@@ -5,7 +5,7 @@ body {
 
 .wrapper {
   background-color: grey;
-  background-image: url('../src/images/background.jpg');
+  background-image: url("../src/images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -36,5 +36,16 @@ body {
 
 * {
   box-sizing: border-box;
-  // font-family: "Cera Pro";
+  font-family: "CeraPro";
+}
+
+@font-face {
+  font-family: "CeraPro";
+  src: local("CeraPro"), url("./fonts/CeraPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CeraPro";
+  src: local("CeraPro"), url("./fonts/CeraPro-Regular.ttf") format("truetype");
 }
