@@ -78,3 +78,25 @@ export function findClassByName(name) {
 export function findClassById(id) {
   return classes.find(classInfo => classInfo.id === +id);
 }
+
+export function getArrowDirection(from, to) {
+  if (to.row > from.row && to.col === from.col) {
+    return "down";
+  }
+
+  if (to.row === from.row && to.col > from.col) {
+    return "right";
+  }
+
+  if (to.row === from.row && to.col < from.col) {
+    return "left";
+  }
+
+  if (to.row > from.row && to.col === from.col + 1) {
+    return "right-down";
+  }
+
+  if (to.row > from.row && to.col === from.col - 1) {
+    return "left-down";
+  }
+}

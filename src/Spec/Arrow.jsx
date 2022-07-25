@@ -1,6 +1,7 @@
 import "./Arrow.scss";
 
 import React from "react";
+import {getArrowDirection} from "../store/tools";
 
 const talentBoxSize = 42;
 const talentBoxOffset = 24;
@@ -43,8 +44,8 @@ function Arrow({from, to, isActive}) {
           style={{
             display: "block",
             float: "right",
-            width: 23,
-            height: 41,
+            width: 24,
+            height: 42,
             marginRight: -25,
             backgroundPositionY: "center",
             backgroundPositionX: "left",
@@ -75,28 +76,6 @@ function Arrow({from, to, isActive}) {
       );
     default:
       return null;
-  }
-}
-
-function getArrowDirection(from, to) {
-  if (to.row > from.row && to.col === from.col) {
-    return "down";
-  }
-
-  if (to.row === from.row && to.col > from.col) {
-    return "right";
-  }
-
-  if (to.row === from.row && to.col < from.col) {
-    return "left";
-  }
-
-  if (to.row > from.row && to.col === from.col + 1) {
-    return "right-down";
-  }
-
-  if (to.row > from.row && to.col === from.col - 1) {
-    return "left-down";
   }
 }
 
