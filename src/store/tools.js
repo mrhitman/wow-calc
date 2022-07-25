@@ -63,7 +63,7 @@ export function hydrateTalentString(str, classId) {
 
     for (let j = 0; j < specTalendIds.length; j++) {
       if (talentStringForSpec[j] !== '0') {
-        points[specTalendIds[j]] = +talentStringForSpec[j];
+        points[specTalendIds[j]] = +(talentStringForSpec[j] ?? 0);
       }
     }
   }
