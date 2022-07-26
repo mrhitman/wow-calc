@@ -15,19 +15,6 @@ export function getTalent(specId, talentId) {
   return talentsBySpecs[specId][talentId];
 }
 
-export function getAvailablePoints(state, maxPoints = 80) {
-  return maxPoints - Object.values(state.points).reduce((acc, v) => acc + v, 0);
-}
-
-export function canAddPoint(state, skill, maxPoints = 80) {
-  return true;
-  // const points = state.points[skill.id] ?? 0;
-
-  // return getAvailablePoints(state, maxPoints) > 0
-  //   && points < skill.ranks.length
-  //   && skill.requires.every(r => state.points[r.id] >= r.qty);
-}
-
 export function dehydrateTalentString(state) {
   const { specs } = getClassById(state.classId);
 
