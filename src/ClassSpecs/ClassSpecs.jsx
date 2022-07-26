@@ -51,7 +51,7 @@ function ClassSpecs() {
                 </div>
               </div>
               <div className="btn-group">
-                <button className="btn-clear" onClick={context.resetAll}>
+                <button className="btn-clear" onClick={() => context.resetAll()}>
                   <img src="../images/icon-svg/delete.svg" alt="" />
                   reset all
                 </button>

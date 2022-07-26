@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, {useCallback, useContext, useState} from "react";
 import {observer} from "mobx-react-lite";
 
 import Arrow from "../Spec/Arrow";
@@ -7,16 +7,16 @@ import TalentPopover from "./TalentPopover";
 import {WowCalculatorContext} from "../store";
 import {spells} from "../store/data/spells";
 import {talentsBySpecs} from "../store/data/talents";
-import {useNavigate} from "react-router-dom";
+// import {useNavigate} from "react-router-dom";
 
 function Talent({skill}) {
   const context = useContext(WowCalculatorContext);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const points = context.getTalentPoints(skill) ?? 0;
   const [isTooltipOpen, setTooltipOpen] = useState(false);
-  const currentSpell = spells[724];
-  const nextSpell = spells[724];
+  const currentSpell = spells[skill.ranks[Math.max(0, points - 1)]];
+  const nextSpell = spells[skill.ranks[points]];
 
   function showTooltip() {
     setTooltipOpen(true);
@@ -26,7 +26,20 @@ function Talent({skill}) {
     setTooltipOpen(false);
   }
 
-  const state = "active";
+  const getTalentStatus = () => {
+    const pointsInSpec = context.getSpecPoints(skill.specId) ?? 0;
+
+    if (!nextSpell) {
+      return "done";
+    }
+
+    if (pointsInSpec >= skill.row * 5) {
+      return "active";
+    }
+
+    return "inactive";
+  }
+  const state = getTalentStatus();
 
   return (
     <Popover
@@ -39,7 +52,7 @@ function Talent({skill}) {
     >
       <div
         className={`skill ${state}`}
-        onClick={onTalentLeftClick(context, skill, state, navigate)}
+        onClick={onTalentLeftClick(context, skill, state)}
         onContextMenu={onTalentRightClick(context, skill)}
         onMouseEnter={showTooltip}
         onMouseLeave={hideTooltip}
@@ -67,11 +80,11 @@ function isActive(from, state) {
   return true;
 }
 
-function onTalentLeftClick(context, skill, state, navigate) {
+function onTalentLeftClick(context, skill, state) {
   return () => {
-    // if (!canAddPoint(context.state, skill) || state !== "active") {
-    //   return;
-    // }
+    if (!context.canLearnTalent(skill) || state !== "active") {
+      return;
+    }
 
     context.setPoint(skill);
   };

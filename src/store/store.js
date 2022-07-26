@@ -1,4 +1,5 @@
 import { makeAutoObservable, toJS } from "mobx"
+import { talentsBySpecs } from "./data/talents";
 import { getClassById, getClassByName } from "./tools";
 
 class Store {
@@ -19,7 +20,7 @@ class Store {
 
   setActiveClass(classId) {
     this.classId = classId;
-    this.clearAll();
+    this.resetAll();
   }
 
   setActiveClassByName(name) {
@@ -62,7 +63,7 @@ class Store {
     };
   }
 
-  clearAll() {
+  resetAll() {
     this.specIds = this.classInfo.specs;
     this.talentsBySpecs = [
       {},
@@ -89,12 +90,19 @@ class Store {
 
   getTalentPoints(talent) {
     const specIndex = this.specIds.indexOf(talent.specId);
-    return this.talentsBySpecs[specIndex][talent.id];
+    return this.talentsBySpecs[specIndex][talent.id] ?? 0;
   }
 
   getSpecPoints(specId) {
     const specIndex = this.specIds.indexOf(specId);
     return Object.values(toJS(this.talentsBySpecs[specIndex])).reduce((acc, c) => acc + c, 0);
+  }
+
+  canLearnTalent(talent) {
+    
+    return this.availablePointCount > 0
+      && talent.ranks.length > this.getTalentPoints(talent)
+      && talent.requires.every(r => this.getTalentPoints(talentsBySpecs[talent.specId][r.id]) >= r.qty);
   }
 }
 
