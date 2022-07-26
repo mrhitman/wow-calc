@@ -157,6 +157,7 @@
 // Popover
 .popover {
   background: #1B1B22;
+  // background: #fff;
   border: 1px solid #4E4E4E;
   border-radius: 12px;
   padding: 20px;
@@ -185,4 +186,12 @@
   background: transparent;
   border: none;
   color: #53D148;
+}
+
+.rank {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  opacity: 0.6;
 }

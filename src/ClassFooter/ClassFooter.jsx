@@ -17,7 +17,7 @@ function Footer() {
                 <ul className='social flex items-center flex-wrap'>
                     <li>
                         <a href="/">
-                            <img className="footer-logo" src={require("../images/icon-svg/Traced1.svg")} alt="" />
+                            <img className="footer-logo" src="../images/icon-svg/Traced1.svg" alt="" />
                         </a>
                     </li>
                     <li>
