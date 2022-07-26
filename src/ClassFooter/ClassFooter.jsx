@@ -1,7 +1,7 @@
 import "./ClassFooter.scss";
 
 import React from 'react';
-// import {Link} from "react-router-dom";
+import traced1 from "../images/icon-svg/Traced1.svg";
 
 function Footer() {
   return (
@@ -17,7 +17,7 @@ function Footer() {
                 <ul className='social flex items-center flex-wrap'>
                     <li>
                         <a href="/">
-                            <img className="footer-logo" src="../images/icon-svg/Traced1.svg" alt="" />
+                            <img className="footer-logo" src={traced1} alt="" />
                         </a>
                     </li>
                     <li>
