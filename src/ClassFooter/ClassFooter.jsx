@@ -12,13 +12,13 @@ function Footer() {
     <footer className='footer'>
         <div className="container">
             <div className='footer-group flex justify-between items-center'>
-                <a href="/">
+                <a href="/" className="logo">
                     <img className="footer-logo" src={require("../images/playcarry-logo.png")} alt="" />
                 </a>
                 <span className="footer-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris<br /> dapibus porttitor mauris id eleifend.
                 </span>
-                <ul className='social flex items-center flex-wrap'>
+                <ul className='social flex items-center'>
                     <li>
                         <a href="/">
                             <img className="social-icon" src={traced2} alt="Discord" />

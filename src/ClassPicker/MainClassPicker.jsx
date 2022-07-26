@@ -16,10 +16,10 @@ function MainClassPicker() {
         </h2>
         <p className="text">Choose your class</p>
       </div>
-      <div className="heroes-main flex justify-between flex-wrap">
+      <div className="heroes-main flex flex-wrap">
         {classes.map((classInfo) => (
           <NavLink key={classInfo.id} to={`/${classInfo.name.toLowerCase()}`}>
-            <div className="flex items-center">
+            <div className="cat-block flex items-center">
               <div className="hero-wrapper-main flex items-center">
                 <img
                   src={`./classes/${classInfo.icon.slice(6)}.jpeg`}
