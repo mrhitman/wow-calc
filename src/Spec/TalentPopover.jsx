@@ -1,6 +1,6 @@
 import React from "react";
 
-function TalentPopover({current, next, talent}) {
+function TalentPopover({current, next}) {
   return (
     <div className="popover">
       <h3 className="popover-title">{next?.name_enus ?? current?.name_enus}</h3>

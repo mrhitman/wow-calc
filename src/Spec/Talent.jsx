@@ -13,7 +13,7 @@ function Talent({skill}) {
 
   const points = context.getTalentPoints(skill) ?? 0;
   const [isTooltipOpen, setTooltipOpen] = useState(false);
-  const currentSpell = spells[skill.ranks[Math.max(0, points - 1)]];
+  const currentSpell = spells[skill.ranks[points - 1]];
   const nextSpell = spells[skill.ranks[points]];
 
   function showTooltip() {
@@ -64,16 +64,16 @@ function Talent({skill}) {
           <div className="badge flex justify-between items-center">
             {points}/{skill.ranks.length}
           </div>
+          {skill.requires.map(({id}, i) => (
+            <Arrow
+              key={`arrow_${id}_${i}`}
+              to={skill}
+              from={talentsBySpecs[skill.specId][id]}
+              isActive={isActive(talentsBySpecs[skill.specId][id], context)}
+            />
+          ))}
         </div>
       </Popover>
-      {skill.requires.map(({id}, i) => (
-        <Arrow
-          key={`arrow_${id}_${i}`}
-          to={skill}
-          from={talentsBySpecs[skill.specId][id]}
-          isActive={isActive(talentsBySpecs[skill.specId][id], context.state)}
-        />
-      ))}
     </>
   );
 }
@@ -81,7 +81,9 @@ function Talent({skill}) {
 export default observer(Talent);
 
 function isActive(from, state) {
-  return true;
+  const specIndex = state.specIds.indexOf(from.specId);
+  return state.talentsBySpecs[specIndex][from.id] === from.ranks.length
+      && state.getSpecPoints(from.specId) >= from.row * 5;
 }
 
 function onTalentLeftClick(context, skill, state) {

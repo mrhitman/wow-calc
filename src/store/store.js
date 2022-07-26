@@ -95,7 +95,7 @@ class Store {
   unsetPoint(talent) {
     const specIndex = this.specIds.indexOf(talent.specId);
     const talents = this.talentsBySpecs[specIndex];
-    talents[talent.id] = (talents[talent.id] ?? 1) - 1;
+    talents[talent.id] = Math.max((talents[talent.id] ?? 0) - 1, 0);
   }
 
   resetSpec(specId) {
