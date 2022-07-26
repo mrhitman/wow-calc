@@ -13,29 +13,35 @@ function Arrow({from, to, isActive}) {
 
   const direction = getArrowDirection(from, to);
   switch (direction) {
-    case "down":
-      return <ArrowDown isActive={isActive} from={from} to={to} />;
-    case "left":
-      return <ArrowLeft isActive={isActive} from={from} to={to} />;
-    case "right":
-      return <ArrowRight isActive={isActive} from={from} to={to} />;
+    // case "down":
+    //   return <ArrowDown isActive={isActive} from={from} to={to} />;
+    // case "left":
+    //   return <ArrowLeft isActive={isActive} from={from} to={to} />;
+    // case "right":
+      // return <ArrowRight isActive={isActive} from={from} to={to} />;
     case "left-down":
       return (
         <>
           <div
             className="arrow"
             style={{
-              backgroundImage: `url(./arrows/leftdown.png)`,
+              // backgroundImage: `url(./arrows/leftdown.png)`,
+              backgroundImage: `url(./arrows/new_arrows/left-down.svg)`,
               backgroundRepeat: "no-repeat",
               backgroundPositionY: "center",
               backgroundPositionX: "left",
-              height: 42,
-              marginTop: -110,
-              marginLeft: 24 / 2,
-              width: 42 + 24 / 2,
+              // height: 42,
+              // marginTop: -110,
+              // marginLeft: 24 / 2,
+              // width: 42 + 24 / 2,
+              height: 49,
+              width: 53,
+              position: "absolute",
+              bottom: 234,
+              left: 30,
             }}
           />
-          <div
+          {/* <div
             className="arrow arrow-down"
             style={{
               backgroundImage: `url(./arrows/down.png)`,
@@ -43,13 +49,13 @@ function Arrow({from, to, isActive}) {
               height: 24 * 2,
               marginTop: -42 + 24,
             }}
-          />
+          /> */}
         </>
       );
     case "right-down":
       return (
         <>
-          <div
+          {/* <div
             className="arrow"
             style={{
               backgroundImage: `url(./arrows/rightdown.png)`,
@@ -61,8 +67,8 @@ function Arrow({from, to, isActive}) {
               marginLeft: -24,
               width: 42 + 24 / 2,
             }}
-          />
-          <div
+          /> */}
+          {/* <div
             className="arrow arrow-down"
             style={{
               backgroundImage: `url(./arrows/down.png)`,
@@ -70,7 +76,7 @@ function Arrow({from, to, isActive}) {
               height: 24 * 2,
               marginTop: -42 + 24,
             }}
-          />
+          /> */}
         </>
       );
     default:

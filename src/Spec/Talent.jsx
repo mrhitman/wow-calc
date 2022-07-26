@@ -1,12 +1,12 @@
 import React, {useContext, useState} from "react";
 import {observer} from "mobx-react-lite";
 
-import Arrow from "../Spec/Arrow";
+// import Arrow from "../Spec/Arrow";
 import {Popover} from "react-tiny-popover";
 import TalentPopover from "./TalentPopover";
 import {WowCalculatorContext} from "../store";
 import {spells} from "../store/data/spells";
-import {talentsBySpecs} from "../store/data/talents";
+// import {talentsBySpecs} from "../store/data/talents";
 
 function Talent({skill}) {
   const context = useContext(WowCalculatorContext);
@@ -64,14 +64,14 @@ function Talent({skill}) {
           <div className="badge flex justify-between items-center">
             {points}/{skill.ranks.length}
           </div>
-          {skill.requires.map(({id}, i) => (
+          {/* {skill.requires.map(({id}, i) => (
             <Arrow
               key={`arrow_${id}_${i}`}
               to={skill}
               from={talentsBySpecs[skill.specId][id]}
               isActive={isActive(talentsBySpecs[skill.specId][id], context)}
             />
-          ))}
+          ))} */}
         </div>
       </Popover>
     </>
