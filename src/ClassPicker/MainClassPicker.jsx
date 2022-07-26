@@ -9,7 +9,7 @@ function MainClassPicker() {
     <>
       <div className="block-title flex direction-column items-center">
         <div className="main-logo">
-          <img className="footer-logo" src={require("../images/playcarry-logo.png")} alt="PlayCarry" />
+          <img src={require("../images/playcarry-logo.png")} alt="PlayCarry" />
         </div>
         <h2 className="main-title">
           Wrath of the Lich King Talent Calculator
