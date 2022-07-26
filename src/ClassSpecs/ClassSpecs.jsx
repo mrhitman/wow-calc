@@ -6,11 +6,11 @@ import Spec from "../Spec/Spec";
 import SpecHeader from "../Spec/SpecHeader";
 import {WowCalculatorContext} from "../store";
 import {actions} from "../store/actions";
-import {useHydrateTalentString} from "../store/hooks";
+import {useHydrateString} from "../store/hooks";
 
 function ClassSpecs() {
   const context = useContext(WowCalculatorContext);
-  const [classInfo, availablePointCount] = useHydrateTalentString();
+  const [classInfo, availablePointCount] = useHydrateString();
 
   return (
     <>

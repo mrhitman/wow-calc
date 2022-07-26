@@ -1,5 +1,5 @@
 import { WowCalculatorContext, getInitialState } from "./index";
-import { dehydrateTalentString, findClassByName, getAvailablePoints } from "./tools";
+import { dehydrateGlyphString, dehydrateTalentString, getAvailablePoints, getClassByName } from "./tools";
 import { useContext, useEffect, useReducer } from "react";
 
 import { actions } from "./actions";
@@ -18,7 +18,7 @@ export function useDehydrateTalentString() {
 
   useEffect(() => {
     if (state.classId) {
-      navigate(`.?t=${dehydrateTalentString(state)}`, {
+      navigate(`.?t=${dehydrateTalentString(state)}&g=${dehydrateGlyphString(state)}`, {
         replace: true,
       });
     }
@@ -26,12 +26,14 @@ export function useDehydrateTalentString() {
   }, [state]);
 }
 
-export function useHydrateTalentString() {
+export function useHydrateString() {
   const { state, dispatch } = useContext(WowCalculatorContext);
   const { className: name } = useParams();
   const [params] = useSearchParams();
   const talentsString = params.get("t");
-  const classInfo = findClassByName(name);
+  const glyphsString = params.get("g");
+  const classInfo = getClassByName(name);
+  console.log(glyphsString);
 
   useEffect(() => {
     if (state.classId !== classInfo.id) {

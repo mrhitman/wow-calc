@@ -1,5 +1,6 @@
 import { classes } from "./data/classes";
 import { talentsBySpecs } from "./data/talents";
+import times from "lodash/times";
 
 export function getSpecPoints(state, specId) {
   return Object
@@ -32,6 +33,10 @@ export function dehydrateTalentString(state) {
   return specs
     .map((specId) => dehydrateTalentStringForSpec(state, specId))
     .join("-");
+}
+
+export function dehydrateGlyphString(state) {
+  return times(6, n => state.glyphs[n]?.spellId ?? '_').join(',');
 }
 
 export function dehydrateTalentStringForSpec(state, specId) {
@@ -71,7 +76,7 @@ export function hydrateTalentString(str, classId) {
   return points;
 };
 
-export function findClassByName(name) {
+export function getClassByName(name) {
   return classes.find(classInfo => classInfo.name.toLowerCase() === name.toLowerCase())
 }
 
