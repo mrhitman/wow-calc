@@ -22,6 +22,7 @@ function ClassSpecs() {
     const glyphString = params.get("g");
     context.hydrate(talentString, glyphString);
     navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
