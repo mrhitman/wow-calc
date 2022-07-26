@@ -32,7 +32,10 @@ body {
 
 .footer {
   background: #111416;
-  padding: 52px;
+  padding: 0;
+  @media screen and (min-width: 768px) {
+    padding: 52px 0;
+  }
 }
 
 * {

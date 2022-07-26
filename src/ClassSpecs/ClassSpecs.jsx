@@ -2,6 +2,9 @@ import React, {useContext, useEffect} from "react";
 import {useParams} from "react-router-dom";
 import {observer} from "mobx-react-lite";
 
+import delete1 from "../images/icon-svg/delete.svg";
+import link1 from "../images/icon-svg/link.svg";
+
 import ClassPicker from "../ClassPicker/ClassPicker";
 import GlyphsModal from "../Glyphs/GlyphsModal";
 import Spec from "../Spec/Spec";
@@ -43,7 +46,7 @@ function ClassSpecs() {
       <div>
         <div>{context.availablePointCount}</div>
         <div className="flex justify-between">
-          <div className="tree flex justify-between flex-wrap">
+          <div className="tree flex flex-wrap">
             {context.classInfo.specs.map((specId) => (
               <Spec key={specId} specId={specId} />
             ))}
@@ -70,7 +73,7 @@ function ClassSpecs() {
                   className="btn-clear"
                   onClick={() => context.resetAll()}
                 >
-                  <img src="../images/icon-svg/delete.svg" alt="" />
+                  <img className="icon" src={delete1} alt="delete" />
                   reset all
                 </button>
                 <button
@@ -79,7 +82,7 @@ function ClassSpecs() {
                     navigator.clipboard.writeText(window.location.href);
                   }}
                 >
-                  <img src="/icon-svg/link.svg" alt="" />
+                  <img className="icon" src={link1} alt="link" />
                   copy link
                 </button>
               </div>

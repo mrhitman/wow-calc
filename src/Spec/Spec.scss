@@ -1,5 +1,9 @@
 .tree {
   width: 100%;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    justify-content: space-between;
+  }
 }
 
 .spec-wrapper {
@@ -8,7 +12,13 @@
   margin-bottom: 20px;
   width: 282px;
   overflow: hidden;
+  @media screen and (min-width: 425px) {
+    margin-right: 15px;
+  }
   @media screen and (min-width: 768px) {
+    margin-right: 0;
+  }
+  @media screen and (min-width: 1024px) {
     margin-right: 25px
   }
 }
@@ -101,10 +111,25 @@
   border-radius: 8px;
   padding: 22px;
   width: 100%;
-  max-width: 250px;
+  max-width: 100%;
   text-transform: uppercase;
   height: 60px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  @media screen and (min-width: 768px) {
+    max-width: 250px;
+  }
+  .icon {
+    width: 26px;
+    height: 23px;
+    margin-right: 8px;
+  }
+  &:hover {
+    box-shadow: 0px 4px 37px rgb(0 140 241 / 63%);
+  }
 }
 
 .btn-clear {
@@ -157,7 +182,6 @@
 // Popover
 .popover {
   background: #1B1B22;
-  // background: #fff;
   border: 1px solid #4E4E4E;
   border-radius: 12px;
   padding: 20px;

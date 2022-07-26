@@ -36,6 +36,7 @@
   font-weight: 700;
   line-height: 54px;
   color: #f6f6f6;
+  z-index: 1;
 }
 
 .btn {
@@ -54,6 +55,9 @@
   z-index: 2;
   @media screen and (min-width: 768px) {
     margin-left: 40px;
+  }
+  &:hover {
+    box-shadow: 0px 4px 37px rgb(0 140 241 / 63%);
   }
 }
 
