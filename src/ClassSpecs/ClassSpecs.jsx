@@ -25,7 +25,7 @@ function ClassSpecs() {
       <div>
         <div>{availablePointCount}</div>
         <div className="flex justify-between">
-          <div className="tree flex justify-between flex-wrap">
+          <div className="tree flex flex-wrap">
             {classInfo.specs.map((specId) => (
               <Spec key={specId} specId={specId} />
             ))}
