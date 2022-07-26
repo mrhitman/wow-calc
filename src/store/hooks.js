@@ -1,100 +1,78 @@
-import { WowCalculatorContext, getInitialState } from "./index";
-import { dehydrateGlyphString, dehydrateTalentString, getAvailablePoints, getClassByName } from "./tools";
-import { useContext, useEffect, useReducer } from "react";
 
-import { actions } from "./actions";
-import { reducer } from './reducer';
-import { useNavigate } from "react-router-dom";
-import { useParams } from "react-router-dom";
-import { useSearchParams } from "react-router-dom";
+// export function useDehydrateTalentString() {
+//   const navigate = useNavigate();
+//   const { state } = useContext(WowCalculatorContextX);
 
-export function useState() {
-  return useReducer(reducer, getInitialState());
-}
+//   useEffect(() => {
+//     if (state.classId) {
+//       navigate(`.?t=${dehydrateTalentString(state)}&g=${dehydrateGlyphString(state)}`, {
+//         replace: true,
+//       });
+//     }
+//     // eslint-disable-next-line react-hooks/exhaustive-deps
+//   }, [state]);
+// }
 
-export function useDehydrateTalentString() {
-  const navigate = useNavigate();
-  const { state } = useContext(WowCalculatorContext);
+// export function useHydrateString() {
+//   const context = useContext(WowCalculatorContextX);
+//   // const { className: name } = useParams();
+//   // const [params] = useSearchParams();
+//   // const talentsString = params.get("t");
+//   // const glyphsString = params.get("g");
+//   // const classInfo = getClassByName(name);
+//   // console.log(glyphsString);
 
-  useEffect(() => {
-    if (state.classId) {
-      navigate(`.?t=${dehydrateTalentString(state)}&g=${dehydrateGlyphString(state)}`, {
-        replace: true,
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [state]);
-}
 
-export function useHydrateString() {
-  const { state, dispatch } = useContext(WowCalculatorContext);
-  const { className: name } = useParams();
-  const [params] = useSearchParams();
-  const talentsString = params.get("t");
-  const glyphsString = params.get("g");
-  const classInfo = getClassByName(name);
-  console.log(glyphsString);
+//   const availablePointCount = 30;
+//   return [classInfo, availablePointCount];
+// }
 
-  useEffect(() => {
-    if (state.classId !== classInfo.id) {
-      dispatch({
-        type: actions.SELECT_HERO,
-        payload: { id: classInfo.id, talentsString },
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [state.classId, talentsString]);
+// export function useImagePreloader(imageList) {
+//   const [imagesPreloaded, setImagesPreloaded] = useState(false);
 
-  const availablePointCount = getAvailablePoints(state);
-  return [classInfo, availablePointCount];
-}
+//   useEffect(() => {
+//     let isCancelled = false;
 
-export function useImagePreloader(imageList) {
-  const [imagesPreloaded, setImagesPreloaded] = useState(false);
+//     async function effect() {
+//       console.log("PRELOAD");
 
-  useEffect(() => {
-    let isCancelled = false;
+//       if (isCancelled) {
+//         return;
+//       }
 
-    async function effect() {
-      console.log("PRELOAD");
+//       const imagesPromiseList = [];
+//       for (const i of imageList) {
+//         imagesPromiseList.push(preloadImage(i));
+//       }
 
-      if (isCancelled) {
-        return;
-      }
+//       await Promise.all(imagesPromiseList);
 
-      const imagesPromiseList = [];
-      for (const i of imageList) {
-        imagesPromiseList.push(preloadImage(i));
-      }
+//       if (isCancelled) {
+//         return;
+//       }
 
-      await Promise.all(imagesPromiseList);
+//       setImagesPreloaded(true);
+//     }
 
-      if (isCancelled) {
-        return;
-      }
+//     effect();
 
-      setImagesPreloaded(true);
-    }
+//     return () => {
+//       isCancelled = true;
+//     };
+//   }, [imageList]);
 
-    effect();
+//   return { imagesPreloaded };
+// }
 
-    return () => {
-      isCancelled = true;
-    };
-  }, [imageList]);
-
-  return { imagesPreloaded };
-}
-
-function preloadImage(src) {
-  return new Promise((resolve, reject) => {
-    const img = new Image();
-    img.onload = function () {
-      resolve(img);
-    };
-    img.onerror = img.onabort = function () {
-      reject(src);
-    };
-    img.src = src;
-  });
-}
+// function preloadImage(src) {
+//   return new Promise((resolve, reject) => {
+//     const img = new Image();
+//     img.onload = function () {
+//       resolve(img);
+//     };
+//     img.onerror = img.onabort = function () {
+//       reject(src);
+//     };
+//     img.src = src;
+//   });
+// }

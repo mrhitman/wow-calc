@@ -1,7 +1,7 @@
 import "./ClassPicker.scss";
 
 import {NavLink} from "react-router-dom";
-import React from "react";
+import React, {memo} from "react";
 import {classes} from "../store/data/classes";
 
 function MainClassPicker() {
@@ -35,4 +35,4 @@ function MainClassPicker() {
   );
 }
 
-export default MainClassPicker;
+export default memo(MainClassPicker);

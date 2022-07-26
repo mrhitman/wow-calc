@@ -1,16 +1,22 @@
 import React, {useContext} from "react";
+import {useParams} from "react-router-dom";
+import {observer} from "mobx-react-lite";
 
 import ClassPicker from "../ClassPicker/ClassPicker";
 import GlyphsModal from "../Glyphs/GlyphsModal";
 import Spec from "../Spec/Spec";
 import SpecHeader from "../Spec/SpecHeader";
 import {WowCalculatorContext} from "../store";
-import {actions} from "../store/actions";
-import {useHydrateString} from "../store/hooks";
+// import {useHydrateString} from "../store/hooks";
 
 function ClassSpecs() {
   const context = useContext(WowCalculatorContext);
-  const [classInfo, availablePointCount] = useHydrateString();
+  const {className} = useParams();
+  context.setActiveClassByName(className);
+
+  if (!context.isActive) {
+    return null;
+  }
 
   return (
     <>
@@ -20,18 +26,15 @@ function ClassSpecs() {
         <br /> Talent Calculator
       </h3>
       <div>
-        <div>{availablePointCount}</div>
+        <div>{context.availablePointCount}</div>
         <div className="flex justify-between">
           <div className="tree flex justify-between flex-wrap">
-            {classInfo.specs.map((specId) => (
+            {context.classInfo.specs.map((specId) => (
               <Spec key={specId} specId={specId} />
             ))}
             <div className="glyphs-wrap flex justify-between direction-column">
               <div className="content-glyphs">
-                <SpecHeader
-                  title="Glyphs"
-                  onClick={() => context.dispatch({type: actions.RESET_GLYPHS})}
-                />
+                <SpecHeader title="Glyphs" onClick={context.resetGlyphs} />
                 <div className="glyphs">
                   <span className="type-g">Major</span>
                   <div className="glyphs-big">
@@ -48,15 +51,8 @@ function ClassSpecs() {
                 </div>
               </div>
               <div className="btn-group">
-                <button
-                  className="btn-clear"
-                  onClick={() => context.dispatch({type: actions.RESET_ALL})}
-                >
-                  <img
-                    // src="/src/images/icon-svg/delete.svg"
-                    src="../images/icon-svg/delete.svg"
-                    alt=""
-                  />
+                <button className="btn-clear" onClick={context.resetAll}>
+                  <img src="../images/icon-svg/delete.svg" alt="" />
                   reset all
                 </button>
                 <button
@@ -65,11 +61,7 @@ function ClassSpecs() {
                     navigator.clipboard.writeText(window.location.href);
                   }}
                 >
-                  <img
-                    src="/icon-svg/link.svg"
-                    alt=""
-
-                  />
+                  <img src="/icon-svg/link.svg" alt="" />
                   copy link
                 </button>
               </div>
@@ -81,4 +73,4 @@ function ClassSpecs() {
   );
 }
 
-export default ClassSpecs;
+export default observer(ClassSpecs);

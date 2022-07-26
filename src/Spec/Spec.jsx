@@ -1,25 +1,25 @@
 import "./Spec.scss";
 
+import {observer} from "mobx-react-lite";
 import React, {useContext} from "react";
-import {findClassById, getSpecPoints} from "../store/tools";
 import {specNames, talentsBySpecs} from "../store/data/talents";
 
 import SpecHeader from "./SpecHeader";
 import SpecRow from "./SpecRow";
 import {WowCalculatorContext} from "../store";
-import {actions} from "../store/actions";
 import groupBy from "lodash/groupBy";
-import {useDehydrateTalentString} from "../store/hooks";
+// import {useDehydrateTalentString} from "../store/hooks";
 
 function Spec({specId}) {
-  useDehydrateTalentString();
+  // useDehydrateTalentString();
 
   const context = useContext(WowCalculatorContext);
-  if (!context.state.classId) {
+
+  if (!context.isActive) {
     return null;
   }
 
-  const classInfo = findClassById(context.state.classId);
+  const classInfo = context.classInfo;
   const spec = Object.values(talentsBySpecs[specId]);
 
   return (
@@ -34,7 +34,7 @@ function Spec({specId}) {
           />
         }
         title={specNames[specId]}
-        trailing={getSpecPoints(context.state, specId)}
+        trailing={context.getSpecPoints(specId)}
         onClick={onSpecResetClick(context, specId)}
       />
       <div
@@ -50,7 +50,7 @@ function Spec({specId}) {
 }
 
 function onSpecResetClick(context, specId) {
-  return () => context.dispatch({type: actions.RESET_SPEC, payload: specId});
+  return () => context.resetSpec(specId);
 }
 
-export default Spec;
+export default observer(Spec);

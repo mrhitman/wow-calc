@@ -5,6 +5,8 @@ specifiers:
   '@testing-library/react': ^13.3.0
   '@testing-library/user-event': ^13.5.0
   lodash: ^4.17.21
+  mobx: ^6.6.1
+  mobx-react-lite: ^3.4.0
   react: ^18.2.0
   react-dom: ^18.2.0
   react-router-dom: ^6.3.0
@@ -19,6 +21,8 @@ dependencies:
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 13.5.0
   lodash: 4.17.21
+  mobx: 6.6.1
+  mobx-react-lite: 3.4.0_m26jawr67gnusmh4egzqtnhxru
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
@@ -6675,6 +6679,28 @@ packages:
     hasBin: true
     dependencies:
       minimist: 1.2.6
+    dev: false
+
+  /mobx-react-lite/3.4.0_m26jawr67gnusmh4egzqtnhxru:
+    resolution: {integrity: sha512-bRuZp3C0itgLKHu/VNxi66DN/XVkQG7xtoBVWxpvC5FhAqbOCP21+nPhULjnzEqd7xBMybp6KwytdUpZKEgpIQ==}
+    peerDependencies:
+      mobx: ^6.1.0
+      react: ^16.8.0 || ^17 || ^18
+      react-dom: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      mobx: 6.6.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /mobx/6.6.1:
+    resolution: {integrity: sha512-7su3UZv5JF+ohLr2opabjbUAERfXstMY+wiBtey8yNAPoB8H187RaQXuhFjNkH8aE4iHbDWnhDFZw0+5ic4nGQ==}
     dev: false
 
   /ms/2.0.0:

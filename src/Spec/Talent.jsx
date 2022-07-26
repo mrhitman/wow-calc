@@ -1,23 +1,22 @@
-import React, {useCallback, useContext, useState} from "react";
-import {canAddPoint, getSpecPoints} from "../store/tools";
+import React, {useContext, useState} from "react";
+import {observer} from "mobx-react-lite";
 
 import Arrow from "../Spec/Arrow";
 import {Popover} from "react-tiny-popover";
 import TalentPopover from "./TalentPopover";
 import {WowCalculatorContext} from "../store";
-import {actions} from "../store/actions";
 import {spells} from "../store/data/spells";
 import {talentsBySpecs} from "../store/data/talents";
 import {useNavigate} from "react-router-dom";
 
-export default function Talent({skill}) {
+function Talent({skill}) {
   const context = useContext(WowCalculatorContext);
   const navigate = useNavigate();
 
-  const points = context.state.points[skill.id] ?? 0;
+  const points = context.getTalentPoints(skill) ?? 0;
   const [isTooltipOpen, setTooltipOpen] = useState(false);
-  const currentSpell = spells[skill.ranks[Math.max(0, points - 1)]];
-  const nextSpell = spells[skill.ranks[points]];
+  const currentSpell = spells[724];
+  const nextSpell = spells[724];
 
   function showTooltip() {
     setTooltipOpen(true);
@@ -27,21 +26,7 @@ export default function Talent({skill}) {
     setTooltipOpen(false);
   }
 
-  const getTalentStatus = useCallback(() => {
-    const pointsInSpec = getSpecPoints(context.state, skill.specId) ?? 0;
-
-    if (pointsInSpec >= skill.row * 5) {
-      return "active";
-    }
-
-    if (!nextSpell) {
-      return "done";
-    }
-
-    return "inactive";
-  }, [nextSpell, skill.row, skill.specId, context.state]);
-
-  const state = getTalentStatus();
+  const state = "active";
 
   return (
     <Popover
@@ -76,20 +61,19 @@ export default function Talent({skill}) {
   );
 }
 
+export default observer(Talent);
+
 function isActive(from, state) {
-  return state.points[from.id] === from.ranks.length;
+  return true;
 }
 
 function onTalentLeftClick(context, skill, state, navigate) {
   return () => {
-    if (!canAddPoint(context.state, skill) || state !== "active") {
-      return;
-    }
+    // if (!canAddPoint(context.state, skill) || state !== "active") {
+    //   return;
+    // }
 
-    context.dispatch({
-      type: actions.SET_POINT,
-      payload: skill,
-    });
+    context.setPoint(skill);
   };
 }
 
@@ -97,9 +81,6 @@ function onTalentRightClick(context, skill) {
   return (e) => {
     e.preventDefault();
 
-    context.dispatch({
-      type: actions.UNSET_POINT,
-      payload: skill,
-    });
+    context.unsetPoint(skill);
   };
 }

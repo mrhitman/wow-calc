@@ -1,9 +1,0 @@
-export const actions = Object.freeze({
-  SET_POINT: 'SET_POINT',
-  UNSET_POINT: 'UNSET_POINT',
-  RESET_SPEC: 'RESET_SPEC',
-  RESET_ALL: 'RESET_ALL',
-  SET_GLYPH: 'SET_GLYPH',
-  RESET_GLYPHS: 'RESET_GLYPHS',
-  SELECT_HERO: 'SELECT_HERO',
-});

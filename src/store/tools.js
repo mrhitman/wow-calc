@@ -20,15 +20,16 @@ export function getAvailablePoints(state, maxPoints = 80) {
 }
 
 export function canAddPoint(state, skill, maxPoints = 80) {
-  const points = state.points[skill.id] ?? 0;
+  return true;
+  // const points = state.points[skill.id] ?? 0;
 
-  return getAvailablePoints(state, maxPoints) > 0
-    && points < skill.ranks.length
-    && skill.requires.every(r => state.points[r.id] >= r.qty);
+  // return getAvailablePoints(state, maxPoints) > 0
+  //   && points < skill.ranks.length
+  //   && skill.requires.every(r => state.points[r.id] >= r.qty);
 }
 
 export function dehydrateTalentString(state) {
-  const { specs } = findClassById(state.classId);
+  const { specs } = getClassById(state.classId);
 
   return specs
     .map((specId) => dehydrateTalentStringForSpec(state, specId))
@@ -57,7 +58,7 @@ export function hydrateTalentString(str, classId) {
   }
 
   const talentStringForSpecs = str.split('-');
-  const classInfo = findClassById(classId);
+  const classInfo = getClassById(classId);
 
   for (let i = 0; i < talentStringForSpecs.length; i++) {
     const talentStringForSpec = talentStringForSpecs[i];
@@ -80,7 +81,7 @@ export function getClassByName(name) {
   return classes.find(classInfo => classInfo.name.toLowerCase() === name.toLowerCase())
 }
 
-export function findClassById(id) {
+export function getClassById(id) {
   return classes.find(classInfo => classInfo.id === +id);
 }
 
