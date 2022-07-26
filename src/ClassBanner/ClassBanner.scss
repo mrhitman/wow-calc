@@ -1,10 +1,13 @@
 .banner {
   position: relative;
-  padding: 40px 50px;
+  padding: 20px;
   border: 1px solid #c4c4c4;
   overflow: hidden;
   border-radius: 12px;
   margin-bottom: 35px;
+  @media screen and (min-width: 1024px) {
+    padding: 40px 50px;
+  }
 }
 
 .holder {
@@ -19,6 +22,13 @@
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.banner-group {
+  flex-direction: column;
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+  }
 }
 
 .title-banner {
@@ -37,12 +47,14 @@
   text-transform: uppercase;
   color: #f6f6f6;
   padding: 17px 35px;
-  margin-left: 40px;
   background: #007bd0;
   box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.44);
   border-radius: 8px;
   border: 0;
   z-index: 2;
+  @media screen and (min-width: 768px) {
+    margin-left: 40px;
+  }
 }
 
 .image-wrapper {

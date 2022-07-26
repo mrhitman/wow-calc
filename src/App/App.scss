@@ -102,8 +102,10 @@ img {
 }
 
 .seo-content {
-  max-width: 678px;
   margin: 0 auto 16px;
   text-align: center;
   color: #f6f6f6;
+  @media screen and (min-width: 768px) {
+    max-width: 678px;
+  }
 }

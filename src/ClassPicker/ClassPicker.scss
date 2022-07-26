@@ -12,12 +12,16 @@
 
 .main-title {
   font-weight: 700;
-  font-size: 48px;
-  line-height: 52px;
+  font-size: 30px;
+  line-height: 34px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   max-width: 678px;
   margin: 0 auto 16px;
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 52px;
+  }
 }
 
 .text {
@@ -133,7 +137,11 @@
 
 .heroes {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    justify-content: space-between;
+  }
 }
 
 .hero-wrapper {
@@ -215,10 +223,14 @@ a.active {
 
 .sub-title {
   font-weight: 700;
-  font-size: 48px;
-  line-height: 52px;
+  font-size: 30px;
+  line-height: 34px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #f6f6f6;
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 52px;
+  }
 }
