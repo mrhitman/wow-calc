@@ -2,6 +2,7 @@ import "./GlyphsModal.scss";
 
 import React, {useContext, useState} from "react";
 
+import {observer} from "mobx-react-lite";
 import {Modal} from "react-tiny-modal";
 import {WowCalculatorContext} from "../store";
 import {glyphs} from "../store/data/glyphs";
@@ -12,8 +13,8 @@ function GlyphsModal({index}) {
   const classInfo = context.classInfo;
 
   function onSelectGlyph(glyph) {
-    setShowModal(false);
     context.setGlyph(glyph, index);
+    setShowModal(false);
   }
 
   const glyph = context.glyphs[index];
@@ -24,23 +25,18 @@ function GlyphsModal({index}) {
         <div className="glyph-section flex items-center">
           {glyph ? (
             <>
-            <div className="img-wrap">
-              <img
-                src={`https://wotlk.evowow.com/static/images/wow/icons/medium/${glyph.icon}.jpg`}
-                alt=""
-              />
-            </div>
-            <div className="name">
-              {glyph.name}
-            </div>
+              <div className="img-wrap">
+                <img
+                  src={`https://wotlk.evowow.com/static/images/wow/icons/medium/${glyph.icon}.jpg`}
+                  alt=""
+                />
+              </div>
+              <div className="name">{glyph.name}</div>
             </>
           ) : (
             <div className="flex items-center">
               <div className="wrapper-Img">
-                <img
-                  src={require("../images/image_glypht.png")}
-                  alt=""
-                />
+                <img src={require("../images/image_glypht.png")} alt="" />
               </div>
               Empty
             </div>
@@ -59,7 +55,9 @@ function GlyphsModal({index}) {
           ></button>
           <div className="content">
             {glyphs
-              .filter((g) => g.classId === classInfo.id && !context.isGlyphPicked(g))
+              .filter(
+                (g) => g.classId === classInfo.id && !context.isGlyphPicked(g)
+              )
               .map((g, i) => (
                 <div
                   className="list-item flex items-center"
@@ -81,4 +79,4 @@ function GlyphsModal({index}) {
   );
 }
 
-export default GlyphsModal;
+export default observer(GlyphsModal);
