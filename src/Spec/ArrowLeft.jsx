@@ -4,7 +4,6 @@ const talentBoxSize = 42;
 const talentBoxOffset = 26;
 
 function ArrowLeft({isActive}) {
-  console.log("ArrowLeft");
   return (
     <div
       className="arrow arrow-left"

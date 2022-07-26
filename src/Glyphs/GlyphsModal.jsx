@@ -6,19 +6,14 @@ import {Modal} from "react-tiny-modal";
 import {WowCalculatorContext} from "../store";
 import {glyphs} from "../store/data/glyphs";
 
-function GlyphsModal({small, index}) {
+function GlyphsModal({index}) {
   const [showModal, setShowModal] = useState(false);
   const context = useContext(WowCalculatorContext);
-
-  if (!context.isActive) {
-    return;
-  }
-
   const classInfo = context.classInfo;
 
   function onSelectGlyph(glyph) {
-    context.setGlyph(glyph, index);
     setShowModal(false);
+    context.setGlyph(glyph, index);
   }
 
   const glyph = context.glyphs[index];
@@ -64,6 +59,7 @@ function GlyphsModal({small, index}) {
           ></button>
           <div className="content">
             {glyphs
+              .filter((g) => g.classId === classInfo.id && !context.isGlyphPicked(g))
               .map((g, i) => (
                 <div
                   className="list-item flex items-center"

@@ -11,7 +11,6 @@ import TopBlock from "../HeaderBlock";
 import {getInitialState, WowCalculatorContext} from "../store";
 
 function App() {
-
   return (
     <div className="wrapper flex direction-column justify-between">
       <TopBlock />

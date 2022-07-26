@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useContext, useEffect} from "react";
 import {useParams} from "react-router-dom";
 import {observer} from "mobx-react-lite";
 
@@ -7,14 +7,28 @@ import GlyphsModal from "../Glyphs/GlyphsModal";
 import Spec from "../Spec/Spec";
 import SpecHeader from "../Spec/SpecHeader";
 import {WowCalculatorContext} from "../store";
-// import {useHydrateString} from "../store/hooks";
+import {useSearchParams} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 function ClassSpecs() {
   const context = useContext(WowCalculatorContext);
   const {className} = useParams();
-  context.setActiveClassByName(className);
+  const [params] = useSearchParams();
+  const navigate = useNavigate();
 
-  if (!context.isActive) {
+  context.setActiveClassByName(className);
+  useEffect(() => {
+    const talentString = params.get("t");
+    const glyphString = params.get("g");
+    context.hydrate(talentString, glyphString);
+    navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
+  }, []);
+
+  useEffect(() => {
+    navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
+  }, [context.talentString, context.glyphsString, navigate]);
+
+  if (!context?.isActive) {
     return null;
   }
 
@@ -51,7 +65,10 @@ function ClassSpecs() {
                 </div>
               </div>
               <div className="btn-group">
-                <button className="btn-clear" onClick={() => context.resetAll()}>
+                <button
+                  className="btn-clear"
+                  onClick={() => context.resetAll()}
+                >
                   <img src="../images/icon-svg/delete.svg" alt="" />
                   reset all
                 </button>

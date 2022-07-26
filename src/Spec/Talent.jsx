@@ -1,4 +1,4 @@
-import React, {useCallback, useContext, useState} from "react";
+import React, {useContext, useState} from "react";
 import {observer} from "mobx-react-lite";
 
 import Arrow from "../Spec/Arrow";
@@ -7,11 +7,9 @@ import TalentPopover from "./TalentPopover";
 import {WowCalculatorContext} from "../store";
 import {spells} from "../store/data/spells";
 import {talentsBySpecs} from "../store/data/talents";
-// import {useNavigate} from "react-router-dom";
 
 function Talent({skill}) {
   const context = useContext(WowCalculatorContext);
-  // const navigate = useNavigate();
 
   const points = context.getTalentPoints(skill) ?? 0;
   const [isTooltipOpen, setTooltipOpen] = useState(false);

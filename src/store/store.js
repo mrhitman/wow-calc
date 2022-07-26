@@ -1,4 +1,5 @@
-import { makeAutoObservable, toJS } from "mobx"
+import { makeAutoObservable, toJS } from "mobx";
+import { glyphs } from "./data/glyphs";
 import { talentsBySpecs } from "./data/talents";
 import { getClassById, getClassByName } from "./tools";
 
@@ -7,15 +8,69 @@ class Store {
   specIds = [];
   talentsBySpecs = [];
   glyphs = {};
+  talentString = '';
+  glyphsString = '';
 
   constructor() {
     makeAutoObservable(this);
   }
 
-  hydrate() {
+  hydrate(talentString, glyphString) {
+    if (!this.isActive) {
+      return;
+    }
+
+    if (talentString) {
+      this.talentString = talentString;
+      const specTalentStrings = talentString.split(',');
+      for (let i = 0; i < 3; i++) {
+        const specId = this.specIds[i];
+        const allTalents = Object.values(talentsBySpecs[specId]);
+
+        for (let j = 0; j < allTalents.length; j++) {
+          if (specTalentStrings[i][j] !== '0') {
+            this.talentsBySpecs[i][allTalents[j].id] = +specTalentStrings[i][j];
+          }
+        }
+      }
+    }
+
+    if (glyphString) {
+      this.glyphsString = glyphString;
+      const learnedGlyph = glyphString.split(',');
+      for (let i = 0; i < 6; i++) {
+        if (learnedGlyph[i]) {
+          const glyph = glyphs.find(g => g.itemId === +learnedGlyph[i]);
+          this.glyphs[i] = glyph;
+        }
+      }
+    }
   }
 
   dehydrate() {
+    if (!this.isActive) {
+      return;
+    }
+
+    let talentStringParts = [];
+    for (let i = 0; i < 3; i++) {
+      if (i > 0) {
+        talentStringParts.push(',')
+      }
+
+      const specId = this.specIds[i];
+      for (const id of Object.keys(talentsBySpecs[specId])) {
+        talentStringParts.push(this.talentsBySpecs[i][id]?.toString() ?? '0');
+      }
+    }
+
+    this.talentString = talentStringParts.join('');
+    let glyphStringParts = [];
+    for (let i = 0; i < 6; i++) {
+      glyphStringParts.push(this.glyphs[i]?.itemId ?? '')
+    }
+
+    this.glyphsString = glyphStringParts.join(',');
   }
 
   setActiveClass(classId) {
@@ -48,8 +103,13 @@ class Store {
     this.talentsBySpecs[specIndex] = {};
   }
 
-  setGlyph(glyphs, index) {
-    this.glyphs[index] = glyphs;
+  setGlyph(glyph, index) {
+    this.glyphs[index] = glyph;
+  }
+
+  isGlyphPicked(glyph) {
+    const learnedGlyphs = Object.values(toJS(this.glyphs))
+    return !!learnedGlyphs.some(g => g?.spellId === glyph.spellId);
   }
 
   clearGlyphs() {
@@ -99,7 +159,6 @@ class Store {
   }
 
   canLearnTalent(talent) {
-    
     return this.availablePointCount > 0
       && talent.ranks.length > this.getTalentPoints(talent)
       && talent.requires.every(r => this.getTalentPoints(talentsBySpecs[talent.specId][r.id]) >= r.qty);
