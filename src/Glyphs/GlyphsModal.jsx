@@ -36,16 +36,18 @@ function GlyphsModal({small, index}) {
                 alt=""
               />
             </div>
-            <div>
+            <div className="name">
               {glyph.name}
             </div>
             </>
           ) : (
-            <div>
-              <img
-                src={``}
-                alt=""
-              />
+            <div className="flex items-center">
+              <div className="wrapper-Img">
+                <img
+                  src={require("../images/image_glypht.png")}
+                  alt=""
+                />
+              </div>
               Empty
             </div>
           )}

@@ -52,7 +52,11 @@ function ClassSpecs() {
                   className="btn-clear"
                   onClick={() => context.dispatch({type: actions.RESET_ALL})}
                 >
-                  <img src="" alt="" />
+                  <img
+                    // src="/src/images/icon-svg/delete.svg"
+                    src="../images/icon-svg/delete.svg"
+                    alt=""
+                  />
                   reset all
                 </button>
                 <button
@@ -61,7 +65,11 @@ function ClassSpecs() {
                     navigator.clipboard.writeText(window.location.href);
                   }}
                 >
-                  <img src="" alt="" />
+                  <img
+                    src="/icon-svg/link.svg"
+                    alt=""
+
+                  />
                   copy link
                 </button>
               </div>
