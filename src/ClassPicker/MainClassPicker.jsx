@@ -19,6 +19,7 @@ function MainClassPicker() {
       <div className="heroes-main flex flex-wrap">
         {classes.map((classInfo) => (
           <NavLink key={classInfo.id} to={`/${classInfo.name.toLowerCase()}`}>
+            <div className="bg-image"></div>
             <div className="cat-block flex items-center">
               <div className="hero-wrapper-main flex items-center">
                 <img
