@@ -1,6 +1,7 @@
 import "./ClassFooter.scss";
 
 import React from 'react';
+// import {Link} from "react-router-dom";
 
 function Footer() {
   return (
@@ -13,8 +14,32 @@ function Footer() {
                 <span className="footer-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris<br /> dapibus porttitor mauris id eleifend.
                 </span>
-                <ul className='social'>
-                    <li></li>
+                <ul className='social flex items-center'>
+                    <li>
+                        <a href="/">
+                            <img className="footer-logo" src={require("../images/icon-svg/Traced1.svg")} alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <img className="footer-logo" src={require("../images/icon-svg/Traced1.svg")} alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <img className="footer-logo" src={require("../images/icon-svg/Traced1.svg")} alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <img className="footer-logo" src={require("../images/icon-svg/Traced1.svg")} alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <img className="footer-logo" src={require("../images/icon-svg/Traced1.svg")} alt="" />
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

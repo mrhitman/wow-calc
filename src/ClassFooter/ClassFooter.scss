@@ -10,3 +10,19 @@
   color: #f6f6f6;
   opacity: 0.6;
 }
+
+.social {
+  li {
+    a {
+      display: block;
+      width: 42px;
+      height: 42px;
+      background: #F6F6F6;
+      opacity: 0.1;
+      box-shadow: 0px 4px 35px #141226;
+      border-radius: 3000px;
+      transform: rotate(-180deg);
+      margin-right: 15px;
+    }
+  }
+}

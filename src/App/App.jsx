@@ -31,7 +31,7 @@ function App() {
   ]);
 
   return (
-    <div className="wrapper">
+    <div className="wrapper flex direction-column justify-between">
       <TopBlock />
       <div className="container">
         <ClassBanner />
@@ -43,6 +43,9 @@ function App() {
             </Routes>
           </Router>
         </WowCalculatorContext.Provider>
+      </div>
+      <div className="seo-content">
+      Someone once said that you can’t go home again. But they lacked vision. And a temporal discombobulator! Here you can find Guides, News, Tools, Forums, and more for WoW Classic, TBC Classic, WotLK, and Shadowlands
       </div>
       <Footer />
     </div>
