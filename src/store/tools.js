@@ -65,7 +65,7 @@ export function hydrateTalentString(str, classId) {
 };
 
 export function getClassByName(name) {
-  return classes.find(classInfo => classInfo.name.toLowerCase() === name.toLowerCase())
+  return classes.find(classInfo => classInfo.name.split(' ').join('').toLowerCase() === name.split(' ').join('').toLowerCase())
 }
 
 export function getClassById(id) {

@@ -54,7 +54,7 @@ export const classes = [
     specs: [283, 281, 282]
   },
   {
-    id: 12,
+    id: 6,
     name: 'Death Knight',
     icon: 'class_deathknight',
     specs: [398, 399, 400]

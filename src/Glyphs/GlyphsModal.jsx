@@ -7,7 +7,7 @@ import {WowCalculatorContext} from "../store";
 import {glyphs} from "../store/data/glyphs";
 import {observer} from "mobx-react-lite";
 
-function GlyphsModal({index}) {
+function GlyphsModal({index, small}) {
   const [showModal, setShowModal] = useState(false);
   const context = useContext(WowCalculatorContext);
   const classInfo = context.classInfo;
@@ -72,7 +72,10 @@ function GlyphsModal({index}) {
           <div className="content">
             {glyphs
               .filter(
-                (g) => g.classId === classInfo.id && !context.isGlyphPicked(g)
+                (g) =>
+                  g.classId === classInfo.id &&
+                  !context.isGlyphPicked(g) &&
+                  g.glyphType === (small ? 2 : 1)
               )
               .map((g, i) => (
                 <div
@@ -82,7 +85,7 @@ function GlyphsModal({index}) {
                 >
                   <img
                     className="modal-img"
-                    src={`https://wotlk.evowow.com/static/images/wow/icons/small/${g.icon}.jpg`}
+                    src={`https://wotlk.evowow.com/static/images/wow/icons/medium/${g.icon}.jpg`}
                     alt=""
                   />
                   {g.name}
