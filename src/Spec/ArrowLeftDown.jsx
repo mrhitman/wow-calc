@@ -1,0 +1,59 @@
+import React from "react";
+
+const talentBoxSize = 42;
+const talentBoxOffset = 24;
+function ArrowLeftDown({from, to, isActive}) {
+  const vDistance = to.row - from.row;
+
+  return (
+    <>
+      <div
+        className="arrow"
+        style={{
+          backgroundImage: `url(./arrows/arrow.svg)`,
+          backgroundRepeat: "no-repeat",
+          backgroundPositionY: "center",
+          backgroundPositionX: "left",
+          position: "absolute",
+          height: talentBoxSize,
+          bottom: talentBoxSize * vDistance + talentBoxOffset * vDistance,
+          left: 16,
+          width: talentBoxOffset + talentBoxSize / 2,
+        }}
+      />
+      <div
+        className="arrow arrow-down"
+        style={{
+          backgroundImage: `url(./arrows/down${isActive ? "-active" : ""}.svg)`,
+          backgroundRepeat: "no-repeat",
+          bottom: talentBoxSize,
+          width: talentBoxSize,
+          height:
+            talentBoxSize * (vDistance - 1) +
+            talentBoxOffset * vDistance +
+            talentBoxSize / 2,
+        }}
+      />
+      <div
+        className="arrow"
+        style={{
+          position: "absolute",
+          backgroundImage: `url(./arrows/circle${
+            isActive ? "-active" : ""
+          }.svg)`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          bottom:
+            talentBoxSize * vDistance +
+            talentBoxOffset * vDistance -
+            talentBoxOffset / 2,
+          left: -12,
+          width: talentBoxSize + talentBoxOffset,
+          height: talentBoxSize + talentBoxOffset,
+        }}
+      />
+    </>
+  );
+}
+
+export default ArrowLeftDown;
