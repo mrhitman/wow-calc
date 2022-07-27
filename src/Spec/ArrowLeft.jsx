@@ -1,6 +1,6 @@
 import React from "react";
 
-const talentBoxSize = 38;
+const talentBoxSize = 40;
 const talentBoxOffset = 26;
 
 function ArrowLeft({isActive}) {
@@ -10,11 +10,8 @@ function ArrowLeft({isActive}) {
       style={{
         width: talentBoxOffset,
         height: talentBoxSize,
-        // marginRight: -talentBoxOffset,
+        left: talentBoxSize,
         backgroundImage: `url(./arrows/left${isActive ? "-active" : ""}.svg)`,
-        // backgroundImage: `url(./arrows/left.svg)`,
-        // bottom: 30,
-        // left: -22,
       }}
     />
   );

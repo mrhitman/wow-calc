@@ -6,22 +6,17 @@ const talentBoxOffset = 26;
 function ArrowDown({isActive, from, to}) {
   const vDistance = to.row - from.row;
   const height =
-    talentBoxSize * Math.max(vDistance - 1, 0) + vDistance * talentBoxOffset;
+    talentBoxSize * Math.max(vDistance - 1, 0) +
+    vDistance * (talentBoxOffset + 3);
 
   return (
     <div
       className="arrow arrow-down"
       style={{
         backgroundImage: `url(./arrows/down${isActive ? "-active" : ""}.svg)`,
-        // backgroundImage: `url(./arrows/new_arrows/big-down.svg)`,
-        marginTop: -height - talentBoxSize - 8,
+        bottom: talentBoxSize,
         width: talentBoxSize,
         height,
-
-        // width: talentBoxSize,
-        // height: talentBoxOffset,
-        // bottom: 135,
-        // left: 12,
       }}
     />
   );

@@ -1,25 +1,27 @@
 .arrow {
   display: block;
-  // border: 1px solid white;
   position: relative;
   background-position: center right;
   background-repeat: no-repeat;
 }
 
 .arrow-down {
+  position: absolute;
   background-position-x: center;
   background-position-y: bottom;
 }
 
 .arrow-left {
-  float: right;
+  bottom: 0;
+  position: absolute;
   background-position-y: center;
   background-position-x: left;
   background-repeat: no-repeat;
 }
 
 .arrow-right {
-  float: left;
+  bottom: 0;
+  position: absolute;
   background-position-y: center;
   background-position-x: right;
   background-repeat: no-repeat;
