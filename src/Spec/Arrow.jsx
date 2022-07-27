@@ -1,8 +1,8 @@
 import "./Arrow.scss";
 
 import ArrowDown from "./ArrowDown";
-// import ArrowLeft from "./ArrowLeft";
-// import ArrowRight from "./ArrowRight";
+import ArrowLeft from "./ArrowLeft";
+import ArrowRight from "./ArrowRight";
 import React from "react";
 import {getArrowDirection} from "../store/tools";
 
@@ -15,41 +15,55 @@ function Arrow({from, to, isActive}) {
   switch (direction) {
     case "down":
       return <ArrowDown isActive={isActive} from={from} to={to} />;
-    // case "left":
-    //   return <ArrowLeft isActive={isActive} from={from} to={to} />;
-    // case "right":
-      // return <ArrowRight isActive={isActive} from={from} to={to} />;
+    case "left":
+      return <ArrowLeft isActive={isActive} from={from} to={to} />;
+    case "right":
+      return <ArrowRight isActive={isActive} from={from} to={to} />;
     case "left-down":
       return (
         <>
           <div
             className="arrow"
             style={{
-              // backgroundImage: `url(./arrows/leftdown.png)`,
-              backgroundImage: `url(./arrows/new_arrows/left-down.svg)`,
+              backgroundImage: `url(./arrows/arrow.svg)`,
               backgroundRepeat: "no-repeat",
               backgroundPositionY: "center",
               backgroundPositionX: "left",
-              height: 49,
-              width: 53,
-              position: "absolute",
-              bottom: 44,
-              left: 5,
+              // position: "absolute",
+              // height: 14,
+              // width: 40,
+              // bottom: 80,
+              // left: 18,
+              height: 38,
+              marginTop: -110,
+              marginLeft: 24 / 2,
+              width: 42 + 24 / 2,
             }}
           />
-          {/* <div
+          <div
             className="arrow arrow-down"
             style={{
-              // backgroundImage: `url(./arrows/down.png)`,
-              backgroundImage: `url(./arrows/new_arrows/big-down.svg)`,
+              backgroundImage: `url(./arrows/down.svg)`,
               backgroundRepeat: "no-repeat",
-              height: 93,
-              width: 14,
-              position: "absolute",
-              left: 102,
-              bottom: 222,
+              // position: "absolute",
+              // height: 47,
+              // width: 14,
+              // left: 12,
+              // bottom: 42,
             }}
-          /> */}
+          />
+          <div
+            className="arrow circle"
+            style={{
+              backgroundImage: `url(./arrows/circle.svg)`,
+              backgroundRepeat: "no-repeat",
+              position: "absolute",
+              height: 8,
+              width: 8,
+              left: 15,
+              bottom: 83,
+            }}
+          />
           {/* <div
             className="arrow small-down"
             style={{
@@ -83,19 +97,20 @@ function Arrow({from, to, isActive}) {
             className="arrow"
             style={{
               // backgroundImage: `url(./arrows/rightdown.png)`,
-              backgroundImage: `url(./arrows/new_arrows/right-down.svg)`,
+              // backgroundImage: `url(./arrows/new_arrows/right-down.svg)`,
+              backgroundImage: `url(./arrows/arrow.svg)`,
               backgroundRepeat: "no-repeat",
               backgroundPositionY: "center",
               backgroundPositionX: "right",
-              // height: 42,
-              // marginTop: -110,
-              // marginLeft: -24,
-              height: 49,
-              width: 53,
               position: "absolute",
-              top: 125,
-              right: 28,
-              // width: 42 + 24 / 2,
+              height: 42,
+              marginTop: -110,
+              marginLeft: -24,
+              // height: 49,
+              // width: 53,
+              // top: 125,
+              // right: 28,
+              width: 42 + 24 / 2,
             }}
           />
           {/* <div
