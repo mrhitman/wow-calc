@@ -8,13 +8,9 @@ function ArrowRightDown({from, to, isActive}) {
   return (
     <>
       <div
-        className="arrow"
+        className="arrow arrow-right"
         style={{
           backgroundImage: `url(./arrows/arrow.svg)`,
-          backgroundRepeat: "no-repeat",
-          backgroundPositionY: "center",
-          backgroundPositionX: "right",
-          position: "absolute",
           height: talentBoxSize,
           bottom: talentBoxSize * vDistance + talentBoxOffset * vDistance,
           right: 18,
@@ -25,7 +21,6 @@ function ArrowRightDown({from, to, isActive}) {
         className="arrow arrow-down"
         style={{
           backgroundImage: `url(./arrows/down${isActive ? "-active" : ""}.svg)`,
-          backgroundRepeat: "no-repeat",
           bottom: talentBoxSize,
           width: talentBoxSize,
           height:
