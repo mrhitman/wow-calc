@@ -1,7 +1,8 @@
+import { getClassById, getClassByName } from "./tools";
 import { makeAutoObservable, toJS } from "mobx";
+
 import { glyphs } from "./data/glyphs";
 import { talentsBySpecs } from "./data/talents";
-import { getClassById, getClassByName } from "./tools";
 
 class Store {
   classId = null;
@@ -112,7 +113,7 @@ class Store {
     return !!learnedGlyphs.some(g => g?.spellId === glyph.spellId);
   }
 
-  clearGlyphs() {
+  resetGlyphs() {
     this.glyphs = {
       0: null,
       1: null,
@@ -130,7 +131,7 @@ class Store {
       {},
       {},
     ];
-    this.clearGlyphs();
+    this.resetGlyphs();
   }
 
   get isActive() {

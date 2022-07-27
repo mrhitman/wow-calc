@@ -2,10 +2,10 @@ import "./GlyphsModal.scss";
 
 import React, {useContext, useState} from "react";
 
-import {observer} from "mobx-react-lite";
 import {Modal} from "react-tiny-modal";
 import {WowCalculatorContext} from "../store";
 import {glyphs} from "../store/data/glyphs";
+import {observer} from "mobx-react-lite";
 
 function GlyphsModal({index}) {
   const [showModal, setShowModal] = useState(false);
@@ -43,11 +43,7 @@ function GlyphsModal({index}) {
           )}
         </div>
       </div>
-      <Modal
-        className="modal-wrap"
-        isOpen={showModal}
-        onClose={() => setShowModal(false)}
-      >
+      <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
         <div className="glyph-modal-content">
           <button
             className="spec-reset"
