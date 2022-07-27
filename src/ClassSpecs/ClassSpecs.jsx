@@ -1,17 +1,16 @@
 import React, {useContext, useEffect} from "react";
-import {useParams} from "react-router-dom";
-import {observer} from "mobx-react-lite";
-
-import delete1 from "../images/icon-svg/delete.svg";
-import link1 from "../images/icon-svg/link.svg";
 
 import ClassPicker from "../ClassPicker/ClassPicker";
 import GlyphsModal from "../Glyphs/GlyphsModal";
 import Spec from "../Spec/Spec";
 import SpecHeader from "../Spec/SpecHeader";
 import {WowCalculatorContext} from "../store";
-import {useSearchParams} from "react-router-dom";
+import delete1 from "../images/icon-svg/delete.svg";
+import link1 from "../images/icon-svg/link.svg";
+import {observer} from "mobx-react-lite";
 import {useNavigate} from "react-router-dom";
+import {useParams} from "react-router-dom";
+import {useSearchParams} from "react-router-dom";
 
 function ClassSpecs() {
   const context = useContext(WowCalculatorContext);
@@ -25,7 +24,7 @@ function ClassSpecs() {
     const glyphString = params.get("g");
     context.hydrate(talentString, glyphString);
     navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -52,7 +51,10 @@ function ClassSpecs() {
             ))}
             <div className="glyphs-wrap flex justify-between direction-column">
               <div className="content-glyphs">
-                <SpecHeader title="Glyphs" onClick={context.resetGlyphs} />
+                <SpecHeader
+                  title="Glyphs"
+                  onClick={() => context.resetGlyphs()}
+                />
                 <div className="glyphs">
                   <span className="type-g">Major</span>
                   <div className="glyphs-big">

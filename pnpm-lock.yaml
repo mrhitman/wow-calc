@@ -12,7 +12,6 @@ specifiers:
   react-modal: ^3.15.1
   react-router-dom: ^6.3.0
   react-scripts: 5.0.1
-  react-tiny-modal: ^1.0.0
   react-tiny-popover: ^7.1.0
   sass: ^1.53.0
   web-vitals: ^2.1.4
@@ -29,7 +28,6 @@ dependencies:
   react-modal: 3.15.1_biqbaboplfbrettd7655fr4n2y
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
   react-scripts: 5.0.1_react@18.2.0+sass@1.53.0
-  react-tiny-modal: 1.0.0_react@18.2.0
   react-tiny-popover: 7.1.0_biqbaboplfbrettd7655fr4n2y
   sass: 1.53.0
   web-vitals: 2.1.4
@@ -8237,15 +8235,6 @@ packages:
       - webpack-cli
       - webpack-hot-middleware
       - webpack-plugin-serve
-    dev: false
-
-  /react-tiny-modal/1.0.0_react@18.2.0:
-    resolution: {integrity: sha512-oTkJBD5KTwVbyymkv9CbFviMhkk+5PbPDpHXIFM/TOTQRRbaDEwurXYoRn3OdEfBKWbLMTkXVkKNKYepesqZRQ==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      react: '>=16.8'
-    dependencies:
-      react: 18.2.0
     dev: false
 
   /react-tiny-popover/7.1.0_biqbaboplfbrettd7655fr4n2y:

@@ -46,6 +46,9 @@ function GlyphsModal({index}) {
       <Modal
         isOpen={showModal}
         style={{
+          overlay: {
+            background: "rgba(0, 0, 0, 0)",
+          },
           content: {
             top: "50%",
             left: "50%",
@@ -53,6 +56,9 @@ function GlyphsModal({index}) {
             bottom: "auto",
             marginRight: "-50%",
             transform: "translate(-50%, -50%)",
+            background: "rgba(0, 0, 0, 0)",
+            border: "none",
+            zIndex: 50,
           },
         }}
         ariaHideApp={false}
