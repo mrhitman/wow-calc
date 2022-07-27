@@ -12,7 +12,7 @@ function ArrowDown({isActive, from, to}) {
     <div
       className="arrow arrow-down"
       style={{
-        backgroundImage: `url(./arrows/down${isActive ? "-active" : ""}.png)`,
+        backgroundImage: `url(./arrows/new_arrows/big-down.svg)`,
         marginTop: -height - talentBoxSize,
         width: talentBoxSize,
         height,

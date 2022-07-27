@@ -4,10 +4,10 @@
 
 .spec {
   height: 812px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 35px 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 5px;
+  padding: 38px 15px;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 12px;
@@ -17,7 +17,7 @@
 
 .skill {
   display: block;
-  margin: 6px;
+  margin: 10px;
   width: 42px;
   height: 42px;
   border-radius: 8px;
@@ -110,14 +110,4 @@ img {
 }
 .direction-row {
   flex-direction: row;
-}
-
-.seo-content {
-  padding: 30px;
-  margin: 0 auto 16px;
-  text-align: center;
-  color: #f6f6f6;
-  @media screen and (min-width: 768px) {
-    max-width: 678px;
-  }
 }

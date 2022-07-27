@@ -38,18 +38,28 @@ function ClassSpecs() {
   return (
     <>
       <ClassPicker />
-      <h3 className="sub-title">
-        Priest WotLK Classic
-        <br /> Talent Calculator
-      </h3>
+      <div className="title-wrap">
+        <h3 className="sub-title">
+          WotLK Priest Talent Calculator
+        </h3>
+        <button
+          className="btn-copy"
+          onClick={() => {
+            navigator.clipboard.writeText(window.location.href);
+          }}
+        >
+          <img className="icon" src={link1} alt="link" />
+          copy link
+        </button>
+      </div>
       <div>
-        <div>{context.availablePointCount}</div>
+        {/* <div>{context.availablePointCount}</div> */}
         <div className="flex justify-between">
           <div className="tree flex flex-wrap">
             {context.classInfo.specs.map((specId) => (
               <Spec key={specId} specId={specId} />
             ))}
-            <div className="glyphs-wrap flex justify-between direction-column">
+            <div className="glyphs-wrap flex direction-column">
               <div className="content-glyphs">
                 <SpecHeader
                   title="Glyphs"
@@ -78,7 +88,7 @@ function ClassSpecs() {
                   <img className="icon" src={delete1} alt="delete" />
                   reset all
                 </button>
-                <button
+                {/* <button
                   className="btn-copy"
                   onClick={() => {
                     navigator.clipboard.writeText(window.location.href);
@@ -86,7 +96,7 @@ function ClassSpecs() {
                 >
                   <img className="icon" src={link1} alt="link" />
                   copy link
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
