@@ -2,7 +2,7 @@ import "./GlyphsModal.scss";
 
 import React, {useContext, useState} from "react";
 
-import {Modal} from "react-tiny-modal";
+import Modal from "react-modal";
 import {WowCalculatorContext} from "../store";
 import {glyphs} from "../store/data/glyphs";
 import {observer} from "mobx-react-lite";
@@ -43,7 +43,21 @@ function GlyphsModal({index}) {
           )}
         </div>
       </div>
-      <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
+      <Modal
+        isOpen={showModal}
+        style={{
+          content: {
+            top: "50%",
+            left: "50%",
+            right: "auto",
+            bottom: "auto",
+            marginRight: "-50%",
+            transform: "translate(-50%, -50%)",
+          },
+        }}
+        ariaHideApp={false}
+        onClose={() => setShowModal(false)}
+      >
         <div className="glyph-modal-content">
           <button
             className="spec-reset"
