@@ -1,10 +1,10 @@
 import React, {useContext, useState} from "react";
-import {observer} from "mobx-react-lite";
 
 import Arrow from "../Spec/Arrow";
 import {Popover} from "react-tiny-popover";
 import TalentPopover from "./TalentPopover";
 import {WowCalculatorContext} from "../store";
+import {observer} from "mobx-react-lite";
 import {spells} from "../store/data/spells";
 import {talentsBySpecs} from "../store/data/talents";
 
@@ -66,24 +66,26 @@ function Talent({skill}) {
           </div>
         </div>
       </Popover>
-          {skill.requires.map(({id}, i) => (
-            <Arrow
-              key={`arrow_${id}_${i}`}
-              to={skill}
-              from={talentsBySpecs[skill.specId][id]}
-              isActive={isActive(talentsBySpecs[skill.specId][id], context)}
-            />
-          ))}
+      {skill.requires.map(({id}, i) => (
+        <Arrow
+          key={`arrow_${id}_${i}`}
+          to={skill}
+          from={talentsBySpecs[skill.specId][id]}
+          isActive={isActive(talentsBySpecs[skill.specId][id], skill, context)}
+        />
+      ))}
     </div>
   );
 }
 
 export default observer(Talent);
 
-function isActive(from, state) {
+function isActive(from, to, state) {
   const specIndex = state.specIds.indexOf(from.specId);
-  return state.talentsBySpecs[specIndex][from.id] === from.ranks.length
-      && state.getSpecPoints(from.specId) >= from.row * 5;
+  return (
+    state.talentsBySpecs[specIndex][from.id] === from.ranks.length &&
+    state.getSpecPoints(from.specId) >= to.row * 5
+  );
 }
 
 function onTalentLeftClick(context, skill, state) {
