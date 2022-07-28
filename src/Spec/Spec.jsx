@@ -21,14 +21,14 @@ function Spec({specId}) {
   return (
     <div className="spec-wrapper">
       <SpecHeader
-        leading={<img src={`specs/${specId}_icon.jpg`} alt="" />}
+        leading={<img src={`images/specs/${specId}_icon.jpg`} alt="" />}
         title={specNames[specId]}
         trailing={context.getSpecPoints(specId)}
         onClick={onSpecResetClick(context, specId)}
       />
       <div
         className="spec"
-        style={{backgroundImage: `url(specs/${specId}.jpg)`}}
+        style={{backgroundImage: `url(images/specs/${specId}.jpg)`}}
       >
         {Object.values(groupBy(spec, "row")).map((row, key) => (
           <SpecRow key={key} row={row} spec={spec} />

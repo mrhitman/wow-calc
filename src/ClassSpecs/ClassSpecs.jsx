@@ -5,8 +5,6 @@ import GlyphsModal from "../Glyphs/GlyphsModal";
 import Spec from "../Spec/Spec";
 import SpecHeader from "../Spec/SpecHeader";
 import {WowCalculatorContext} from "../store";
-import delete1 from "../images/icon-svg/delete.svg";
-import link1 from "../images/icon-svg/link.svg";
 import {observer} from "mobx-react-lite";
 import {useNavigate} from "react-router-dom";
 import {useParams} from "react-router-dom";
@@ -39,16 +37,14 @@ function ClassSpecs() {
     <>
       <ClassPicker />
       <div className="title-wrap">
-        <h3 className="sub-title">
-          WotLK Priest Talent Calculator
-        </h3>
+        <h3 className="sub-title">WotLK Priest Talent Calculator</h3>
         <button
           className="btn-copy"
           onClick={() => {
             navigator.clipboard.writeText(window.location.href);
           }}
         >
-          <img className="icon" src={link1} alt="link" />
+          <img className="icon" src="images/icon-svg/link.svg" alt="link" />
           copy link
         </button>
       </div>
@@ -85,18 +81,13 @@ function ClassSpecs() {
                   className="btn-clear"
                   onClick={() => context.resetAll()}
                 >
-                  <img className="icon" src={delete1} alt="delete" />
+                  <img
+                    className="icon"
+                    src="images/icon-svg/delete.svg"
+                    alt="delete"
+                  />
                   reset all
                 </button>
-                {/* <button
-                  className="btn-copy"
-                  onClick={() => {
-                    navigator.clipboard.writeText(window.location.href);
-                  }}
-                >
-                  <img className="icon" src={link1} alt="link" />
-                  copy link
-                </button> */}
               </div>
             </div>
           </div>

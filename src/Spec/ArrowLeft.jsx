@@ -11,7 +11,9 @@ function ArrowLeft({isActive}) {
         width: talentBoxOffset,
         height: talentBoxSize,
         left: talentBoxSize,
-        backgroundImage: `url(./arrows/left${isActive ? "-active" : ""}.svg)`,
+        backgroundImage: `url(./images/arrows/left${
+          isActive ? "-active" : ""
+        }.svg)`,
       }}
     />
   );
