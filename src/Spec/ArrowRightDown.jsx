@@ -10,7 +10,7 @@ function ArrowRightDown({from, to, isActive}) {
       <div
         className="arrow arrow-right"
         style={{
-          backgroundImage: `url(./arrows/arrow.svg)`,
+          backgroundImage: `url(./arrows/arrow${isActive ? "-active" : ""}.svg)`,
           height: talentBoxSize,
           bottom: talentBoxSize * vDistance + talentBoxOffset * vDistance,
           right: 18,
