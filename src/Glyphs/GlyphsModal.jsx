@@ -26,10 +26,7 @@ function GlyphsModal({index, small}) {
           {glyph ? (
             <>
               <div className="img-wrap">
-                <img
-                  src={`https://wotlk.evowow.com/static/images/wow/icons/medium/${glyph.icon}.jpg`}
-                  alt=""
-                />
+                <img src={`images/glyphs/${glyph.icon}.jpg`} alt="" />
               </div>
               <div className="name">{glyph.name}</div>
             </>
@@ -85,7 +82,7 @@ function GlyphsModal({index, small}) {
                 >
                   <img
                     className="modal-img"
-                    src={`https://wotlk.evowow.com/static/images/wow/icons/medium/${g.icon}.jpg`}
+                    src={`images/glyphs/${g.icon}.jpg`}
                     alt=""
                   />
                   {g.name}
