@@ -8,7 +8,10 @@ function ClassPicker() {
   return (
     <div className="heroes">
       {classes.map((classInfo) => (
-        <NavLink key={classInfo.id} to={`/${classInfo.name.toLowerCase()}`}>
+        <NavLink
+          key={classInfo.id}
+          to={`/${classInfo.name.split(" ").join("").toLowerCase()}`}
+        >
           <div className="hero-wrapper">
             <img
               src={`./classes/${classInfo.icon.slice(6)}.jpeg`}

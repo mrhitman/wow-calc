@@ -1,7 +1,8 @@
 import "./ClassPicker.scss";
 
-import {NavLink} from "react-router-dom";
 import React, {memo} from "react";
+
+import {NavLink} from "react-router-dom";
 import {classes} from "../store/data/classes";
 
 function MainClassPicker() {
@@ -11,14 +12,15 @@ function MainClassPicker() {
         <div className="main-logo">
           <img src={require("../images/playcarry-logo.png")} alt="PlayCarry" />
         </div>
-        <h2 className="main-title">
-          Wrath of the Lich King Talent Calculator
-        </h2>
+        <h2 className="main-title">Wrath of the Lich King Talent Calculator</h2>
         <p className="text">Choose your class</p>
       </div>
       <div className="heroes-main flex flex-wrap">
         {classes.map((classInfo) => (
-          <NavLink key={classInfo.id} to={`/${classInfo.name.toLowerCase()}`}>
+          <NavLink
+            key={classInfo.id}
+            to={`/${classInfo.name.split(" ").join("").toLowerCase()}`}
+          >
             <div className="bg-image"></div>
             <div className="cat-block flex items-center">
               <div className="hero-wrapper-main flex items-center">
