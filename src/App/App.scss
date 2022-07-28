@@ -48,16 +48,21 @@
       color: #D8B40C;
     }
   }
+
+  &.inactive {
+    border: 2px solid #4e4e4e;
+    .wrap-img {
+      filter: grayscale(100%);
+      position: absolute;
+      width: 42px;
+      height: 42px;
+    }
+  }
 }
 
 img {
   width: 100%;
   height: auto;
-}
-
-.inactive {
-  border: 2px solid #4e4e4e;
-  filter: grayscale(100%);
 }
 
 .empty {

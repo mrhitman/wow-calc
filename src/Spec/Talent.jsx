@@ -54,6 +54,7 @@ function Talent({skill}) {
         }
       >
         <div
+          className="wrap-img"
           onClick={onTalentLeftClick(context, skill, state)}
           onContextMenu={onTalentRightClick(context, skill)}
           onMouseEnter={showTooltip}
