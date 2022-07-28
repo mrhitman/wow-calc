@@ -14,7 +14,7 @@ function ClassPicker() {
         >
           <div className="hero-wrapper">
             <img
-              src={`./images/classes/${classInfo.icon.slice(6)}.jpeg`}
+              src={`images/classes/${classInfo.icon.slice(6)}.jpeg`}
               alt={classInfo.name}
             />
           </div>

@@ -7,13 +7,15 @@ function ArrowDown({isActive, from, to}) {
   const vDistance = to.row - from.row;
   const height =
     talentBoxSize * Math.max(vDistance - 1, 0) +
-    vDistance * (talentBoxOffset + 3);
+    vDistance * (talentBoxOffset + 2);
 
   return (
     <div
       className="arrow arrow-down"
       style={{
-        backgroundImage: `url(./arrows/down${isActive ? "-active" : ""}.svg)`,
+        backgroundImage: `url(./images/arrows/down${
+          isActive ? "-active" : ""
+        }.svg)`,
         bottom: talentBoxSize,
         width: talentBoxSize,
         height,

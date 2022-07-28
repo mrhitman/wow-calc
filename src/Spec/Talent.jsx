@@ -60,7 +60,7 @@ function Talent({skill}) {
           onMouseEnter={showTooltip}
           onMouseLeave={hideTooltip}
         >
-          <img src={`talents/${skill.icon}.jpg`} alt={skill.icon} />
+          <img src={`images/talents/${skill.icon}.jpg`} alt={skill.icon} />
           <div className="badge flex justify-between items-center">
             {points}/{skill.ranks.length}
           </div>

@@ -37,7 +37,7 @@ function ArrowLeftDown({from, to, isActive}) {
         className="arrow"
         style={{
           position: "absolute",
-          backgroundImage: `url(./arrows/circle${
+          backgroundImage: `url(./images/arrows/circle${
             isActive ? "-active" : ""
           }.svg)`,
           backgroundPosition: "center",
