@@ -32,7 +32,7 @@ function Footer() {
               <a href="/">
                 <img
                   className="social-icon"
-                  src="images/icon-svg/Vector1.svg"
+                  src="images/icon-svg/Traced1.svg"
                   alt="YouTube"
                 />
               </a>
