@@ -1,15 +1,15 @@
 import "./App.scss";
 
-import {Route, HashRouter as Router, Routes} from "react-router-dom";
+import React, {memo} from "react";
+import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import {WowCalculatorContext, getInitialState} from "../store";
 
 import ClassBanner from "../ClassBanner/ClassBanner";
-import SeoContent from "../SeoContent/SeoContent";
 import ClassSpecs from "../ClassSpecs/ClassSpecs";
 import Footer from "../ClassFooter/ClassFooter";
 import MainClassPicker from "../ClassPicker/MainClassPicker";
-import React, {memo} from "react";
+import SeoContent from "../SeoContent/SeoContent";
 import TopBlock from "../HeaderBlock";
-import {getInitialState, WowCalculatorContext} from "../store";
 
 function App() {
   return (
