@@ -38,13 +38,13 @@ function ClassSpecs() {
     <>
       <MetaTags>
         <title>
-          {context.classInfo.name} talents
+          {context.classInfo.metaTitle}
         </title>
-        <meta name="description" content={`${context.classInfo.name} talents calculator`} />
+        <meta name="description" content={context.classInfo.metaDescription} />
       </MetaTags>
       <ClassPicker />
       <div className="title-wrap">
-        <h3 className="sub-title">WotLK Priest Talent Calculator</h3>
+        <h1 className="sub-title">WotLK {context.classInfo.name} Talent Calculator</h1>
         <button
           className="btn-copy"
           onClick={() => {
