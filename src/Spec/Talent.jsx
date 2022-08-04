@@ -114,6 +114,14 @@ function onTalentLeftClick(context, skill, state) {
 function onTalentRightClick(context, skill) {
   return (e) => {
     e.preventDefault();
+    const relatedTalent = Object.values(talentsBySpecs[skill.specId]).find(
+      (t) => t.requires.some((r) => r.id === skill.id)
+    );
+
+    if (relatedTalent) {
+      console.log(relatedTalent);
+      return;
+    }
 
     context.unsetPoint(skill);
   };
