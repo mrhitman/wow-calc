@@ -11,6 +11,7 @@ import {observer} from "mobx-react-lite";
 import {useNavigate} from "react-router-dom";
 import {useParams} from "react-router-dom";
 import {useSearchParams} from "react-router-dom";
+import { MetaTags } from "react-meta-tags";
 
 function ClassSpecs() {
   const context = useContext(WowCalculatorContext);
@@ -37,6 +38,12 @@ function ClassSpecs() {
 
   return (
     <>
+      <MetaTags>
+        <title>
+          {context.classInfo.name} talents
+        </title>
+        <meta name="description" content={`${context.classInfo.name} talents calculator`} />
+      </MetaTags>
       <ClassPicker />
       <div className="title-wrap">
         <h3 className="sub-title">
@@ -88,15 +95,6 @@ function ClassSpecs() {
                   <img className="icon" src={delete1} alt="delete" />
                   reset all
                 </button>
-                {/* <button
-                  className="btn-copy"
-                  onClick={() => {
-                    navigator.clipboard.writeText(window.location.href);
-                  }}
-                >
-                  <img className="icon" src={link1} alt="link" />
-                  copy link
-                </button> */}
               </div>
             </div>
           </div>
