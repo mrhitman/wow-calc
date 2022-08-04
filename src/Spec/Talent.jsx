@@ -26,6 +26,11 @@ function Talent({skill}) {
 
   const getTalentStatus = () => {
     const pointsInSpec = context.getSpecPoints(skill.specId) ?? 0;
+    const talentPoints = context.getTalentPoints(skill);
+
+    if (talentPoints === 0 && context.availablePointCount === 0) {
+      return "inactive";
+    }
 
     if (!nextSpell) {
       return "done";
@@ -82,6 +87,7 @@ export default observer(Talent);
 
 function isActive(from, to, state) {
   const specIndex = state.specIds.indexOf(from.specId);
+
   return (
     state.talentsBySpecs[specIndex][from.id] === from.ranks.length &&
     state.getSpecPoints(from.specId) >= to.row * 5
