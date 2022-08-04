@@ -164,6 +164,24 @@ class Store {
       && talent.ranks.length > this.getTalentPoints(talent)
       && talent.requires.every(r => this.getTalentPoints(talentsBySpecs[talent.specId][r.id]) >= r.qty);
   }
+
+  canUnlearnTalent(talent) {
+    const talents = Object.values(talentsBySpecs[talent.specId]);
+    const specPoints = this.getSpecPoints(talent.specId);
+
+    for (const talent of talents) {
+      const talentPoints = this.getTalentPoints(talent);
+      if (talent.requires.some((r) => r.id === talent.id) && talentPoints > 0) {
+        return false;
+      }
+
+      if (talent.row * 5 === specPoints - 1) {
+        return false;
+      }
+    }
+
+    return true;
+  }
 }
 
 export default Store;

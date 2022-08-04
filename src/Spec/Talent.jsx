@@ -114,11 +114,8 @@ function onTalentLeftClick(context, skill, state) {
 function onTalentRightClick(context, skill) {
   return (e) => {
     e.preventDefault();
-    const relatedTalent = Object.values(talentsBySpecs[skill.specId]).find(
-      (t) => t.requires.some((r) => r.id === skill.id)
-    );
 
-    if (relatedTalent && context.getTalentPoints(relatedTalent) > 0) {
+    if (!context.canUnlearnTalent(skill)) {
       return;
     }
 
