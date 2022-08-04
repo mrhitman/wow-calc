@@ -118,8 +118,7 @@ function onTalentRightClick(context, skill) {
       (t) => t.requires.some((r) => r.id === skill.id)
     );
 
-    if (relatedTalent) {
-      console.log(relatedTalent);
+    if (relatedTalent && context.getTalentPoints(relatedTalent) > 0) {
       return;
     }
 
