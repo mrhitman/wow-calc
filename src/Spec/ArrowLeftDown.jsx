@@ -10,7 +10,9 @@ function ArrowLeftDown({from, to, isActive}) {
       <div
         className="arrow arrow-left"
         style={{
-          backgroundImage: `url(./arrows/arrow${isActive ? "-active" : ""}.svg)`,
+          backgroundImage: `url(./images/arrows/arrow${
+            isActive ? "-active" : ""
+          }.svg)`,
           height: talentBoxSize,
           bottom: talentBoxSize * vDistance + talentBoxOffset * vDistance,
           left: 18,
@@ -20,7 +22,9 @@ function ArrowLeftDown({from, to, isActive}) {
       <div
         className="arrow arrow-down"
         style={{
-          backgroundImage: `url(./arrows/down${isActive ? "-active" : ""}.svg)`,
+          backgroundImage: `url(./images/arrows/down${
+            isActive ? "-active" : ""
+          }.svg)`,
           bottom: talentBoxSize,
           width: talentBoxSize,
           height:
@@ -33,7 +37,7 @@ function ArrowLeftDown({from, to, isActive}) {
         className="arrow"
         style={{
           position: "absolute",
-          backgroundImage: `url(./arrows/circle${
+          backgroundImage: `url(./images/arrows/circle${
             isActive ? "-active" : ""
           }.svg)`,
           backgroundPosition: "center",

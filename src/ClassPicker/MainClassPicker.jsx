@@ -10,7 +10,7 @@ function MainClassPicker() {
     <>
       <div className="block-title flex direction-column items-center">
         <div className="main-logo">
-          <img src={require("../images/playcarry-logo.png")} alt="PlayCarry" />
+          <img src="images/playcarry-logo.png" alt="PlayCarry" />
         </div>
         <h2 className="main-title">Wrath of the Lich King Talent Calculator</h2>
         <p className="text">Choose your class</p>
@@ -25,7 +25,7 @@ function MainClassPicker() {
             <div className="cat-block flex items-center">
               <div className="hero-wrapper-main flex items-center">
                 <img
-                  src={`./classes/${classInfo.icon.slice(6)}.jpeg`}
+                  src={`images/classes/${classInfo.icon.slice(6)}.jpeg`}
                   alt={classInfo.name}
                 />
               </div>

@@ -10,7 +10,9 @@ function ArrowRight({isActive}) {
       style={{
         width: talentBoxOffset,
         height: talentBoxSize,
-        backgroundImage: `url(./arrows/right${isActive ? "-active" : ""}.svg)`,
+        backgroundImage: `url(./images/arrows/right${
+          isActive ? "-active" : ""
+        }.svg)`,
         right: talentBoxSize,
       }}
     />
