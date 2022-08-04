@@ -146,7 +146,7 @@ class Store {
     return this.talentsBySpecs
       .reduce(
         (acc, talents) => acc - Object.values(toJS(talents)).reduce((acc1, points) => acc1 + points, 0)
-        , 80);
+        , 71);
   }
 
   getTalentPoints(talent) {
