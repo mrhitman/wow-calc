@@ -32,6 +32,13 @@ function Talent({skill}) {
       return "inactive";
     }
 
+    for (const requires of skill.requires) {
+      const from = talentsBySpecs[skill.specId][requires.id];
+      if (context.getTalentPoints(from) !== requires.qty) {
+        return "inactive";
+      }
+    }
+
     if (!nextSpell) {
       return "done";
     }
