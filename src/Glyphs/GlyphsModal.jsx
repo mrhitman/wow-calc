@@ -85,7 +85,10 @@ function GlyphsModal({index, small}) {
                     src={`images/glyphs/${g.icon}.jpg`}
                     alt=""
                   />
-                  {g.name}
+                  <div className="g-name">
+                    {g.name}
+                  </div>
+                  {g.description}
                 </div>
               ))}
           </div>

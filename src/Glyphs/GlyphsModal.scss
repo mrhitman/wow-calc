@@ -4,8 +4,10 @@
   border-radius: 12px;
   padding: 24px;
   z-index: 9999;
-
-  width: 900px;
+  width: auto;
+  @media screen and (min-width: 1024px) {
+    width: 900px;
+  }
   .spec-reset {
     margin: 0 0 15px auto;
     cursor: pointer;
@@ -24,12 +26,30 @@
   border-radius: 8px;
   padding: 10px;
   margin-bottom: 8px;
-  height: 62px;
+  height: auto;
   font-weight: 500;
   font-size: 14px;
   line-height: 15px;
   color: #5c5c68;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  @media screen and (min-width: 768px) {
+    height: 62px;
+    flex-direction: row;
+  }
+
+  .g-name {
+    color: #fff;
+    width: 100%;
+    max-width: 210px;
+    padding-right: 15px;
+    margin-bottom: 8px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .modal-img {
@@ -37,7 +57,11 @@
   height: 42px;
   border: 2px solid #4e4e4e;
   border-radius: 8px;
-  margin-right: 8px;
+  margin-bottom: 8px;
+  @media screen and (min-width: 768px) {
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
 }
 
 .name {
