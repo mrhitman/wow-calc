@@ -6,6 +6,7 @@ import { talentsBySpecs } from "./data/talents";
 
 class Store {
   classId = null;
+  isNew = true;
   specIds = [];
   talentsBySpecs = [];
   glyphs = {};
@@ -17,8 +18,10 @@ class Store {
   }
 
   hydrate(talentString, glyphString) {
+    let found = false;
+
     if (!this.isActive) {
-      return;
+      return found;
     }
 
     if (talentString) {
@@ -31,6 +34,7 @@ class Store {
         for (let j = 0; j < allTalents.length; j++) {
           if (specTalentStrings[i][j] !== '0') {
             this.talentsBySpecs[i][allTalents[j].id] = +specTalentStrings[i][j];
+            found = true;
           }
         }
       }
@@ -43,9 +47,12 @@ class Store {
         if (learnedGlyph[i]) {
           const glyph = glyphs.find(g => g.itemId === +learnedGlyph[i]);
           this.glyphs[i] = glyph;
+          found = true;
         }
       }
     }
+
+    return found;
   }
 
   dehydrate() {
@@ -91,6 +98,7 @@ class Store {
     const specIndex = this.specIds.indexOf(talent.specId);
     const talents = this.talentsBySpecs[specIndex];
     talents[talent.id] = talents[talent.id] ? talents[talent.id] + 1 : 1;
+    this.isNew = false;
   }
 
   unsetPoint(talent) {
@@ -106,6 +114,7 @@ class Store {
 
   setGlyph(glyph, index) {
     this.glyphs[index] = glyph;
+    this.isNew = true;
   }
 
   isGlyphPicked(glyph) {
@@ -132,6 +141,7 @@ class Store {
       {},
     ];
     this.resetGlyphs();
+    this.isNew = true;
   }
 
   get isActive() {

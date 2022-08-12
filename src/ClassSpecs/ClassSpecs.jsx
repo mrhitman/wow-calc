@@ -2,6 +2,7 @@ import React, {useContext, useEffect} from "react";
 
 import ClassPicker from "../ClassPicker/ClassPicker";
 import GlyphsModal from "../Glyphs/GlyphsModal";
+import { MetaTags } from "react-meta-tags";
 import Spec from "../Spec/Spec";
 import SpecHeader from "../Spec/SpecHeader";
 import {WowCalculatorContext} from "../store";
@@ -9,7 +10,6 @@ import {observer} from "mobx-react-lite";
 import {useNavigate} from "react-router-dom";
 import {useParams} from "react-router-dom";
 import {useSearchParams} from "react-router-dom";
-import { MetaTags } from "react-meta-tags";
 
 function ClassSpecs() {
   const context = useContext(WowCalculatorContext);
@@ -21,14 +21,19 @@ function ClassSpecs() {
   useEffect(() => {
     const talentString = params.get("t");
     const glyphString = params.get("g");
-    context.hydrate(talentString, glyphString);
-    navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
+
+    if (context.hydrate(talentString, glyphString)) {
+      navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
-    navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
-  }, [context.talentString, context.glyphsString, navigate]);
+    if (!context.isNew) {
+      debugger
+      navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
+    }
+  }, [context.glyphsString, context.isNew, context.talentString, navigate]);
 
   if (!context?.isActive) {
     return null;
