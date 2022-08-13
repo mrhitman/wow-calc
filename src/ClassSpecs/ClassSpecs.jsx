@@ -30,7 +30,6 @@ function ClassSpecs() {
 
   useEffect(() => {
     if (!context.isNew) {
-      debugger
       navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
     }
   }, [context.glyphsString, context.isNew, context.talentString, navigate]);

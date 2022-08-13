@@ -177,19 +177,21 @@ class Store {
 
   canUnlearnTalent(targetTalent) {
     const talents = talentsBySpecs[targetTalent.specId];
-    const specPoints = this.getSpecPoints(targetTalent.specId);
+    const pointsByRows = {};
 
     for (const talent of Object.values(talents)) {
       const talentPoints = this.getTalentPoints(talent);
+      pointsByRows[talent.row] = (pointsByRows[talent.row] ?? 0) + talentPoints;
 
+      // can't unlearn if have related talent (arrow)
       if (talent.requires.some((r) => r.id === targetTalent.id) && talentPoints > 0) {
         return false
       }
-
-      if (talent.row * 5 === specPoints - 1) {
-        return false;
-      }
     }
+  
+    const lastFiledRow = Object.values(pointsByRows).indexOf(0);
+    if (lastFiledRow !== -1 && targetTalent.row === lastFiledRow - 1) return true;
+    if (pointsByRows[targetTalent.row] === 5) return false;
 
     return true;
   }
