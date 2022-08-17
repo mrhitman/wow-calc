@@ -188,10 +188,21 @@ class Store {
         return false
       }
     }
-  
-    const lastFiledRow = Object.values(pointsByRows).indexOf(0);
-    if (lastFiledRow !== -1 && targetTalent.row === lastFiledRow - 1) return true;
-    if (pointsByRows[targetTalent.row] === 5) return false;
+
+    let acc = 0;
+    for (let row = 0; row < Object.values(pointsByRows).length; row++) {
+      const points = pointsByRows[row];
+
+      if (points && (row * 5) > acc) {
+        return false;
+      }
+
+      acc += points;
+
+      if (targetTalent.row === row) {
+        acc--;
+      }
+    }
 
     return true;
   }
