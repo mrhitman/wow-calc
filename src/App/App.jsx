@@ -8,7 +8,6 @@ import ClassBanner from "../ClassBanner/ClassBanner";
 import ClassSpecs from "../ClassSpecs/ClassSpecs";
 import Footer from "../ClassFooter/ClassFooter";
 import MainClassPicker from "../ClassPicker/MainClassPicker";
-import SeoContent from "../SeoContent/SeoContent";
 import TopBlock from "../HeaderBlock";
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
             </Routes>
           </Router>
         </WowCalculatorContext.Provider>
-        <SeoContent />
         <ClassBanner />
       </div>
       <Footer />

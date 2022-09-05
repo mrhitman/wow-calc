@@ -1,19 +1,20 @@
-import React, {useContext, useEffect} from "react";
+import React, { useContext, useEffect } from "react";
 
 import ClassPicker from "../ClassPicker/ClassPicker";
 import GlyphsModal from "../Glyphs/GlyphsModal";
 import { MetaTags } from "react-meta-tags";
 import Spec from "../Spec/Spec";
 import SpecHeader from "../Spec/SpecHeader";
-import {WowCalculatorContext} from "../store";
-import {observer} from "mobx-react-lite";
-import {useNavigate} from "react-router-dom";
-import {useParams} from "react-router-dom";
-import {useSearchParams} from "react-router-dom";
+import { WowCalculatorContext } from "../store";
+import { observer } from "mobx-react-lite";
+import { useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
+import { SeoPosts } from "../SeoContent/SeoPosts";
 
 function ClassSpecs() {
   const context = useContext(WowCalculatorContext);
-  const {className} = useParams();
+  const { className } = useParams();
   const [params] = useSearchParams();
   const navigate = useNavigate();
 
@@ -38,17 +39,21 @@ function ClassSpecs() {
     return null;
   }
 
+  /////////
+  const page = SeoPosts[context.classInfo.id];
+  /////////
+
   return (
     <>
       <MetaTags>
-        <title>
-          {context.classInfo.metaTitle}
-        </title>
+        <title>{context.classInfo.metaTitle}</title>
         <meta name="description" content={context.classInfo.metaDescription} />
       </MetaTags>
       <ClassPicker />
       <div className="title-wrap">
-        <h1 className="sub-title">WotLK {context.classInfo.name} Talent Calculator</h1>
+        <h1 className="sub-title">
+          WotLK {context.classInfo.name} Talent Calculator
+        </h1>
         <button
           className="btn-copy"
           onClick={() => {
@@ -60,7 +65,6 @@ function ClassSpecs() {
         </button>
       </div>
       <div>
-        {/* <div>{context.availablePointCount}</div> */}
         <div className="flex justify-between">
           <div className="tree flex flex-wrap">
             {context.classInfo.specs.map((specId) => (
@@ -102,6 +106,35 @@ function ClassSpecs() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="seo-content">
+          {/* { SeoPosts[context.classInfo.id].description } */}
+          {/* { SeoPosts[context.classInfo.id].description.map( (item) => (<p>{item}</p>)) } */}
+
+          <>
+            {page.map((post) => {
+              const { titleType: TitleType } = post;
+              return (
+                <>
+                  {post.titleContent && (
+                    <TitleType>{post.titleContent}</TitleType>
+                  )}
+                  {post.content &&
+                    post.content.map((cont) =>
+                      typeof cont === "string" ? (
+                        <p>{cont}</p>
+                      ) : (
+                        <ul>
+                          {cont.map((el) => (
+                            <li>{el}</li>
+                          ))}
+                        </ul>
+                      )
+                    )}
+                </>
+              );
+            })}
+          </>
         </div>
       </div>
     </>

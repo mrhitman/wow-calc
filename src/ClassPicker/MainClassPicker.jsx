@@ -4,15 +4,16 @@ import React, {memo} from "react";
 
 import {NavLink} from "react-router-dom";
 import {classes} from "../store/data/classes";
+import SeoContent from "../SeoContent/SeoContent";
 
 function MainClassPicker() {
   return (
     <>
       <div className="block-title flex direction-column items-center">
         <div className="main-logo">
-          <img src="images/playcarry-logo.png" alt="PlayCarry" />
+          <img src="images/wowtalentcalculator-logo.png" alt="PlayCarry" />
         </div>
-        <h2 className="main-title">Wrath of the Lich King Talent Calculator</h2>
+        <h1 className="main-title">Wrath of the Lich King Talent Calculator</h1>
         <p className="text">Choose your class</p>
       </div>
       <div className="heroes-main flex flex-wrap">
@@ -34,6 +35,7 @@ function MainClassPicker() {
           </NavLink>
         ))}
       </div>
+      <SeoContent />
     </>
   );
 }

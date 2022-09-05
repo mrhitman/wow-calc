@@ -5,141 +5,130 @@ import React from "react";
 function SeoContent() {
   return (
     <div className="seo-content">
-      <h3 className="seo-title">Lorem ipsum</h3>
+      <h1 className="seo-title">
+        WOW Wrath of the Lich King Talent Calculator
+      </h1>
       <div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada
-          ligula at fermentum ultricies. Nunc non nisl justo. Suspendisse arcu
-          neque, euismod at lectus sit amet, hendrerit hendrerit neque.
-          Suspendisse molestie pharetra fermentum. In nisl elit, sagittis a
-          turpis in, dignissim finibus augue. Vestibulum semper pharetra tempus.
-          Nulla facilisis urna ut est interdum, et maximus tortor lobortis.
-          Maecenas venenatis eu dolor nec lacinia. Quisque in nisi faucibus,
-          fermentum augue sit amet, viverra eros. Mauris molestie mi quam, nec
-          posuere nisi condimentum at. Sed ac viverra dolor.
+          First, a few introductory words. The class mechanics in WotLK are
+          something that Blizzard developers rework in every add-on and balance
+          in every content patch. Therefore, what was relevant a year ago is
+          little to no longer so at this point. Because of this, this guide will
+          not be detailed descriptions of talents and specs, but a general
+          characteristic of classes in terms of their roles and main features.
+          So first - about roles.
         </p>
-        <div className="wrap-content">
-          <div className="wrapp-img">
-            <img src="images/Img_contet.png" alt="battle" />
-          </div>
-          <div>
-            <p>
-              Nunc purus eros, blandit eget semper eget, condimentum vel lorem.
-              Donec vulputate metus sem, quis semper mauris consequat in. Nam
-              diam arcu, congue semper risus sit amet, hendrerit sollicitudin
-              nulla. Praesent gravida efficitur cursus. Duis nec nisi odio.
-              Aenean gravida quam ligula, sed ornare magna suscipit vitae. Fusce
-              tempor fermentum velit. Donec vel sem dignissim, rhoncus neque a,
-              consequat diam. Nullam ut nunc aliquam, rhoncus sapien sed,
-              imperdiet sem. Nulla quis tristique felis, at posuere libero.
-              Vestibulum in neque nisi. Donec ultrices rutrum nisi. Pellentesque
-              ut facilisis metus. Aliquam erat volutpat.
-            </p>
-            <p>
-              Vestibulum accumsan sollicitudin orci eu mollis. Aenean tincidunt
-              eros eros, eu consectetur tellus aliquam quis. Aliquam imperdiet
-              urna vitae semper blandit. Nulla hendrerit ligula nec diam
-              pulvinar, et consectetur tortor blandit. Mauris vulputate, nibh id
-              cursus interdum, magna felis tincidunt risus, a imperdiet ligula
-              nulla ac leo. Curabitur convallis viverra sapien, ac facilisis
-              ipsum posuere in. Nullam tincidunt id est a lobortis. Nunc sit
-              amet malesuada ante, eu dictum sapien.{" "}
-            </p>
-          </div>
-        </div>
+        <p>There are three main roles that classes play in WOW classic:</p>
+        <ul>
+          <li>
+            Tanking: the main function of a tank is to distract mobs from other
+            players;
+          </li>
+          <li>
+            Healing: it is obvious that healers must heal other players if they
+            take damage;
+          </li>
+          <li>
+            Damage dealing: even more obvious, but keep in mind that some
+            classes hit from a distance (RDD) and some in close combat (MDD);
+          </li>
+        </ul>
         <p>
-          Ut fermentum lorem at ex consectetur, vitae vulputate purus ultricies.
-          Maecenas laoreet sit amet lectus quis pellentesque. Maecenas eget
-          tellus vestibulum, tincidunt justo ut, facilisis quam. Sed quis libero
-          congue, pellentesque ante sit amet, venenatis augue. Curabitur
-          tincidunt interdum laoreet. Proin quam nisi, ultrices vel libero id,
-          malesuada viverra quam. Vivamus vel nunc lacinia, mollis mauris vitae,
-          ultrices lectus. Vivamus et est interdum, aliquam nibh porta, vehicula
-          lorem. Nulla vel sapien dapibus, tincidunt turpis nec, euismod nunc.
-          Donec magna odio, pulvinar ac tristique vitae, tristique vel leo.
-          Donec suscipit leo sit amet nulla viverra, quis mollis orci aliquam.
-          Vestibulum sed convallis augue. Nullam viverra tellus quis diam
-          hendrerit tincidunt. Curabitur ipsum enim, rutrum vitae semper a,
-          eleifend vitae quam.
+          Only through the properly pumped build and Talent trees do many
+          players have the opportunity to break into the top ranks not only for
+          PvE damage but also for PvP. Section WoW builds for 3.3.5 - will
+          briefly describe only the best builds by talents. Why is the build a
+          lot of attention in WoW? Yes, because the power of the character and
+          his performance will depend on the right talent placement. Although it
+          will be influenced by many other factors.
+        </p>
+        <h2>How do talent points work in WOTLK WoW?</h2>
+        <p>
+          Each character in WoW has different talents and the combination of
+          these will directly affect how powerful your Persian will be in PvP or
+          PvP. Build in WoW will also depend on your specialization - another
+          name for your Speck. Each player has three specializations - three
+          specs, and each of them he can go.
         </p>
         <p>
-          Ut dignissim diam turpis, quis placerat nibh porttitor pulvinar. Nunc
-          luctus ex sit amet consequat placerat. Morbi suscipit bibendum arcu,
-          at luctus purus pretium sodales. Vivamus sed malesuada libero. Nulla
-          vehicula consectetur lorem, at dapibus metus viverra in. Maecenas
-          luctus dictum quam, a viverra purus. Nunc nec euismod sapien, vitae
-          gravida risus. Quisque sit amet nunc eros. Etiam lobortis lectus in
-          leo suscipit condimentum. Mauris consequat finibus vestibulum.
+          You can play and heal all, can be the coolest warrior, can lead the
+          entire raid, and play as a tank. Each branch of talent in Lich King is
+          responsible for its own direction, but often uses mixed builds, which
+          also contributes to one or another characteristic. See what you can do
+          with the Skills calculator.
+        </p>
+        <h2>What are honor talents?</h2>
+        <p>
+          In the class guides, you can find detailed information about each of
+          the specializations of this or that class: the choice of PVP and PVE
+          talents, rotation, tips on how to apply charms to equipment, a
+          detailed explanation of the mechanics of abilities, a selection of
+          addons, necessary macros, equipment sets for each phase of the game.
+        </p>
+        <h2>WOTLK Talents tree in WOW</h2>
+        <p>
+          These guides discussed all the nuances and options pumping your
+          character so that the newcomers were not only interesting and exciting
+          to play almost from the first steps, but everyone felt a kind of
+          support from the site.
         </p>
         <p>
-          Sed commodo enim a diam commodo interdum. Integer ultricies
-          scelerisque elit, id bibendum quam ullamcorper posuere. Vivamus
-          euismod sed neque efficitur varius. Mauris consectetur, sem vitae
-          iaculis dapibus, felis eros suscipit augue, vitae vestibulum est
-          lectus vitae sapien. Fusce sed est ultricies ex congue imperdiet. In
-          hac habitasse platea dictumst. Sed ornare urna et neque malesuada, in
-          bibendum justo sagittis. Proin urna orci, vulputate nec metus nec,
-          accumsan tincidunt enim. Ut maximus vulputate diam, quis porttitor
-          erat vehicula sit amet. Aliquam posuere vehicula arcu nec pretium. Nam
-          lorem enim, cursus ut tellus vitae, scelerisque imperdiet enim. Sed
-          finibus dui ut est consectetur consectetur in quis mi. Nulla fermentum
-          sollicitudin justo, vitae vulputate arcu dictum non. Aenean dui urna,
-          tempor quis vulputate aliquet, blandit sit amet justo. Pellentesque
-          eros enim, auctor sed ornare vel, placerat eget ante. Aliquam molestie
-          turpis quis orci mattis, eu elementum sem fermentum.
+          You can and agree with the fact that not only does build-in WoW play
+          an important role, its own role in the characteristics of the hero, in
+          his clothes, in his skills game. If you want to master your character
+          on a more professional level by participating in campaigns - you need
+          to read PvE guides on your Persian. If you think that you were created
+          more for ranked duels in the arena, and this is a completely different
+          species of the game, you should read PvP-Guides. They not only help to
+          reveal your character from a different side, but also give a lot of
+          advice on how to improve your character.
         </p>
         <p>
-          Aenean vitae egestas dolor. Vestibulum ante ipsum primis in faucibus
-          orci luctus et ultrices posuere cubilia curae; Aliquam in lorem ut
-          ante consequat mollis. Morbi lobortis tellus ante, sed mattis felis
-          vehicula consectetur. Class aptent taciti sociosqu ad litora torquent
-          per conubia nostra, per inceptos himenaeos. In sem odio, volutpat sit
-          amet mauris eget, molestie congue metus. Cras gravida fringilla
-          efficitur.
+          Death Knight - "heroic" class, which can be played from the 55th
+          damage. Has a separate chain of starting quests, on completion of
+          which is selected from the starting location already with level 58.
+          Appeared in the Wrath of the Lich King expansion. Equally good at
+          using swords and spell casts. Wields swords, axes, and mace, can not
+          use shields. The self-release is popular as a class for solo passing
+          the old raids.
         </p>
         <p>
-          Duis feugiat fermentum ipsum non tempus. Nulla sed lobortis nunc, ut
-          rhoncus mi. Donec non sapien id nisl luctus pulvinar eget at neque.
-          Phasellus at rhoncus nibh. Fusce fermentum velit nec nunc malesuada
-          pharetra. Aenean vestibulum, nibh sollicitudin luctus viverra, magna
-          nulla suscipit massa, sit amet consequat quam eros tempus nibh.
-          Pellentesque luctus accumsan erat ut laoreet. Suspendisse et posuere
-          tortor, porta porttitor ligula. Aenean vitae tristique nunc, eget
-          hendrerit felis. Fusce sed sodales nulla. Vivamus sed mollis libero,
-          quis laoreet nisl. Sed eget orci dui. Ut suscipit, leo non blandit
-          placerat, mauris orci porta mi, non congue magna ex non ligula. Nunc
-          facilisis diam magna. Quisque interdum ultrices semper.
+          If we highlight the best talents for PVP and PVE, it is worth saying
+          that the best and most interesting talents went to the new, the first
+          legendary class - Death Knight. That's why the talents mentioned below
+          belong to him. The developers made a new class too strong for every
+          player to like. Read more about the talents of this class on our
+          Talent calculator.
+        </p>
+        <h3>PVP talents</h3>
+        <p>
+          In the class PVP guides, you will find detailed information on how to
+          best prepare your character for battles against other players in the
+          open world, battlefields, or arenas.
         </p>
         <p>
-          Quisque sit amet metus neque. Ut condimentum justo eu volutpat
-          maximus. Donec eros dui, convallis eu tortor vitae, pellentesque
-          egestas sem. Integer dolor mi, ornare non condimentum ac, mattis id
-          nulla. Nunc placerat euismod malesuada. Nunc iaculis enim odio, non
-          viverra metus ultricies sed. Donec dictum tincidunt nibh id convallis.
+          Killing Machine (Death Knight Talent) - this is the thing that makes
+          the killing machine not so good for us. When attacking in close combat
+          you have a chance to get the "Killing Machine" buff, which increases
+          the chance to get a critical hit with an ice strike or howling wind up
+          to 100%. It has a PPM (proc per minute) system, which means that there
+          can be no more than a certain amount of procs per minute. This number
+          of procs is determined by the level of the talent. Talent gives
+          2/4/4/6/6/8/10 proc per minute, depending on how much the talent is
+          pumped.
         </p>
+        <h3>Best PVE talents</h3>
         <p>
-          Nulla facilisi. Vivamus mollis augue neque, sed ornare urna auctor
-          eget. Nam rutrum gravida sapien non mattis. Integer ligula quam,
-          blandit et tellus vel, sagittis finibus purus. Morbi iaculis
-          pellentesque ligula sit amet aliquam. Duis convallis dolor sem, et
-          fermentum magna mattis vel. Fusce non orci molestie nulla bibendum
-          lobortis. Curabitur molestie congue lacus, eget condimentum lectus
-          accumsan ac. Quisque finibus, purus ut consequat fringilla, augue elit
-          tempus dui, et blandit ipsum turpis rhoncus erat. Duis consequat felis
-          ut tincidunt porttitor. Sed feugiat tortor urna, ut commodo velit
-          convallis et. Cras facilisis est nec dolor pellentesque, ac fermentum
-          dolor malesuada. Quisque vitae dapibus nisi. Nullam vitae sem quis
-          metus sagittis faucibus. Donec vestibulum luctus orci, eu consectetur
-          magna pharetra sagittis. Cras venenatis auctor consequat.
-        </p>
-        <p>
-          Curabitur lorem orci, lobortis eget sem vestibulum, condimentum
-          accumsan purus. Pellentesque nunc leo, ullamcorper nec aliquet ac,
-          bibendum et leo. Vivamus id urna nec erat interdum hendrerit. Donec
-          vitae facilisis ligula. Class aptent taciti sociosqu ad litora
-          torquent per conubia nostra, per inceptos himenaeos. Proin sit amet
-          venenatis augue. Praesent ullamcorper convallis sapien, non efficitur
-          eros aliquam nec. Interdum et malesuada fames ac ante ipsum.
+          Rime (Death Knight Talent) is the best for PVE - when you use the
+          destruction, you have a 15% chance of getting the Howling Blast buff,
+          which instantly ends Howling Blast's recovery time and allows you to
+          use the ability for 15 seconds without using runes. The trick is that
+          if you have Killing Machine and Rime procs hanging over you at the
+          same time, Howling Blast with Rime will also be critical. I must say
+          that if you really want to give good DPS. Frost Strike is much more
+          damage on solo targets than Howling Blast, so on solo targets first
+          Frost Strike, then Howling Blast. On mobs’ packs you can unload
+          Howling Blast as well, the numbers will be big.
         </p>
       </div>
     </div>

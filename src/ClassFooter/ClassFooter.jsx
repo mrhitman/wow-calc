@@ -10,14 +10,18 @@ function Footer() {
           <a href="/" className="logo">
             <img
               className="footer-logo"
-              src="images/playcarry-logo.png"
+              src="images/wowtalentcalculator-logo.png"
               alt=""
             />
           </a>
-          <span className="footer-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            <br /> dapibus porttitor mauris id eleifend.
-          </span>
+          <div className="footer-text">
+            Copyright © 2022,
+            <a href="/" className="footer-link">
+              {" "}
+              Wotlktalentcalculator.com
+            </a>
+            {/* <br /> */}
+          </div>
           <ul className="social flex items-center">
             <li>
               <a href="/">
