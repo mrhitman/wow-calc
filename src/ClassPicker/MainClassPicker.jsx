@@ -1,9 +1,9 @@
 import "./ClassPicker.scss";
 
-import React, {memo} from "react";
+import React, { memo } from "react";
 
-import {NavLink} from "react-router-dom";
-import {classes} from "../store/data/classes";
+import { NavLink } from "react-router-dom";
+import { classes } from "../store/data/classes";
 import SeoContent from "../SeoContent/SeoContent";
 
 function MainClassPicker() {
@@ -20,7 +20,7 @@ function MainClassPicker() {
         {classes.map((classInfo) => (
           <NavLink
             key={classInfo.id}
-            to={`/${classInfo.name.split(" ").join("").toLowerCase()}`}
+            to={`/${classInfo.name.split(" ").join(" ").toLowerCase(" ")}`}
           >
             <div className="bg-image"></div>
             <div className="cat-block flex items-center">
