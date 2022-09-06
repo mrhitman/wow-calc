@@ -24,16 +24,16 @@ function ClassSpecs() {
     const glyphString = params.get("g");
 
     if (context.hydrate(talentString, glyphString)) {
-      navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
+      navigate(`?t=${context.talentString}&g=${context.glyphString}`);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
     if (!context.isNew) {
-      navigate(`?t=${context.talentString}&g=${context.glyphsString}`);
+      navigate(`?t=${context.talentString}&g=${context.glyphString}`);
     }
-  }, [context.glyphsString, context.isNew, context.talentString, navigate]);
+  }, [context.glyphString, context.isNew, context.talentString, navigate]);
 
   if (!context?.isActive) {
     return null;

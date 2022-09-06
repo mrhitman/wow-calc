@@ -10,8 +10,8 @@ class Store {
   specIds = [];
   talentsBySpecs = [];
   glyphs = {};
-  talentString = '';
-  glyphsString = '';
+  talentString = "";
+  glyphString = "";
 
   constructor() {
     makeAutoObservable(this);
@@ -26,13 +26,13 @@ class Store {
 
     if (talentString) {
       this.talentString = talentString;
-      const specTalentStrings = talentString.split(',');
+      const specTalentStrings = talentString.split(",");
       for (let i = 0; i < 3; i++) {
         const specId = this.specIds[i];
         const allTalents = Object.values(talentsBySpecs[specId]);
 
         for (let j = 0; j < allTalents.length; j++) {
-          if (specTalentStrings[i][j] !== '0') {
+          if (specTalentStrings[i][j] !== "0") {
             this.talentsBySpecs[i][allTalents[j].id] = +specTalentStrings[i][j];
             found = true;
           }
@@ -41,11 +41,11 @@ class Store {
     }
 
     if (glyphString) {
-      this.glyphsString = glyphString;
-      const learnedGlyph = glyphString.split(',');
+      this.glyphString = glyphString;
+      const learnedGlyph = glyphString.split(",");
       for (let i = 0; i < 6; i++) {
         if (learnedGlyph[i]) {
-          const glyph = glyphs.find(g => g.itemId === +learnedGlyph[i]);
+          const glyph = glyphs.find((g) => g.itemId === +learnedGlyph[i]);
           this.glyphs[i] = glyph;
           found = true;
         }
@@ -63,22 +63,22 @@ class Store {
     let talentStringParts = [];
     for (let i = 0; i < 3; i++) {
       if (i > 0) {
-        talentStringParts.push(',')
+        talentStringParts.push(",");
       }
 
       const specId = this.specIds[i];
       for (const id of Object.keys(talentsBySpecs[specId])) {
-        talentStringParts.push(this.talentsBySpecs[i][id]?.toString() ?? '0');
+        talentStringParts.push(this.talentsBySpecs[i][id]?.toString() ?? "0");
       }
     }
 
-    this.talentString = talentStringParts.join('');
+    this.talentString = talentStringParts.join("");
     let glyphStringParts = [];
     for (let i = 0; i < 6; i++) {
-      glyphStringParts.push(this.glyphs[i]?.itemId ?? '')
+      glyphStringParts.push(this.glyphs[i]?.itemId ?? "");
     }
 
-    this.glyphsString = glyphStringParts.join(',');
+    this.glyphString = glyphStringParts.join(",");
   }
 
   setActiveClass(classId) {
@@ -118,8 +118,8 @@ class Store {
   }
 
   isGlyphPicked(glyph) {
-    const learnedGlyphs = Object.values(toJS(this.glyphs))
-    return !!learnedGlyphs.some(g => g?.spellId === glyph.spellId);
+    const learnedGlyphs = Object.values(toJS(this.glyphs));
+    return !!learnedGlyphs.some((g) => g?.spellId === glyph.spellId);
   }
 
   resetGlyphs() {
@@ -135,11 +135,7 @@ class Store {
 
   resetAll() {
     this.specIds = this.classInfo.specs;
-    this.talentsBySpecs = [
-      {},
-      {},
-      {},
-    ];
+    this.talentsBySpecs = [{}, {}, {}];
     this.resetGlyphs();
     this.isNew = true;
   }
@@ -153,10 +149,12 @@ class Store {
   }
 
   get availablePointCount() {
-    return this.talentsBySpecs
-      .reduce(
-        (acc, talents) => acc - Object.values(toJS(talents)).reduce((acc1, points) => acc1 + points, 0)
-        , 71);
+    return this.talentsBySpecs.reduce(
+      (acc, talents) =>
+        acc -
+        Object.values(toJS(talents)).reduce((acc1, points) => acc1 + points, 0),
+      71
+    );
   }
 
   getTalentPoints(talent) {
@@ -166,13 +164,21 @@ class Store {
 
   getSpecPoints(specId) {
     const specIndex = this.specIds.indexOf(specId);
-    return Object.values(toJS(this.talentsBySpecs[specIndex])).reduce((acc, c) => acc + c, 0);
+    return Object.values(toJS(this.talentsBySpecs[specIndex])).reduce(
+      (acc, c) => acc + c,
+      0
+    );
   }
 
   canLearnTalent(talent) {
-    return this.availablePointCount > 0
-      && talent.ranks.length > this.getTalentPoints(talent)
-      && talent.requires.every(r => this.getTalentPoints(talentsBySpecs[talent.specId][r.id]) >= r.qty);
+    return (
+      this.availablePointCount > 0 &&
+      talent.ranks.length > this.getTalentPoints(talent) &&
+      talent.requires.every(
+        (r) =>
+          this.getTalentPoints(talentsBySpecs[talent.specId][r.id]) >= r.qty
+      )
+    );
   }
 
   canUnlearnTalent(targetTalent) {
@@ -184,8 +190,11 @@ class Store {
       pointsByRows[talent.row] = (pointsByRows[talent.row] ?? 0) + talentPoints;
 
       // can't unlearn if have related talent (arrow)
-      if (talent.requires.some((r) => r.id === targetTalent.id) && talentPoints > 0) {
-        return false
+      if (
+        talent.requires.some((r) => r.id === targetTalent.id) &&
+        talentPoints > 0
+      ) {
+        return false;
       }
     }
 
@@ -193,7 +202,7 @@ class Store {
     for (let row = 0; row < Object.values(pointsByRows).length; row++) {
       const points = pointsByRows[row];
 
-      if (points && (row * 5) > acc) {
+      if (points && row * 5 > acc) {
         return false;
       }
 
