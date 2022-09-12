@@ -114,7 +114,7 @@ class Store {
 
   setGlyph(glyph, index) {
     this.glyphs[index] = glyph;
-    this.isNew = true;
+    this.isNew = false;
   }
 
   isGlyphPicked(glyph) {
